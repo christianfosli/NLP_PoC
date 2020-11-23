@@ -1,6 +1,6 @@
 oil,NN
 material,NN
-Section,NN
+section,NN
 machinery,NN
 power,NN
 stove,NN
@@ -30,7 +30,7 @@ air,NN
 regulation,NN
 valve,NN
 installation,NN
-Insulation,NN
+insulation,NN
 release,NN
 type,NN
 source,NN
@@ -51,11 +51,11 @@ thickness,NN
 uptake,NN
 bulkhead,NN
 insulation,NN
-Machinery,NN
+machinery,NN
 medium,NN
 space/locker,NN
 heat,NN
-Fire,NN
+fire,NN
 accommodation,NN
 lighting,NN
 protection,NN
@@ -74,7 +74,7 @@ saucer,NN
 rockwool,NN
 twine,NN
 ignition,NN
-Oil,NN
+oil,NN
 sheet,NN
 aluminium,NN
 planking,NN
@@ -85,7 +85,7 @@ place,NN
 basis,NN
 bilge,NN
 pursuant,NN
-Scope,NN
+scope,NN
 application,NN
 propane,NN
 hydrocarbon,NN
@@ -99,7 +99,7 @@ volume,NN
 resetting,NN
 function,NN
 manufacturer,NN
-Installation,NN
+installation,NN
 line,NN
 separator,NN
 plug,NN
@@ -110,7 +110,7 @@ copper,NN
 formation,NN
 drain,NN
 float,NN
-Drainage,NN
+drainage,NN
 water/mud,NN
 cleaning,NN
 operating,NN
@@ -148,11 +148,11 @@ charge,NN
 number,NN
 cent,NN
 date,NN
-Ventilation,NN
-Storage,NN
+ventilation,NN
+storage,NN
 closing,NN
 cock,NN
-Test,NN
+test,NN
 gauge,NN
 glass,NN
 drip,NN
@@ -161,8 +161,8 @@ ship,NN
 seawater,NN
 short,NN
 waterline,NN
-C6,NN
-C9,NN
+c6,NN
+c9,NN
 rudder,NN
 propeller,NN
 satisfy,NN
