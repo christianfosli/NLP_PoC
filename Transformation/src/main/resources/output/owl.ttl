@@ -1,0 +1,360 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdir: <https://www.sdir.no/SDIR_Simulator#> .
+
+sdir:Oil a owl:Class;
+  rdfs:label "Oil"@en .
+
+sdir:Material a owl:Class;
+  rdfs:label "Material"@en .
+
+sdir:Section a owl:Class;
+  rdfs:label "Section"@en .
+
+sdir:Machinery a owl:Class;
+  rdfs:label "Machinery"@en .
+
+sdir:Power a owl:Class;
+  rdfs:label "Power"@en .
+
+sdir:Stove a owl:Class;
+  rdfs:label "Stove"@en .
+
+sdir:Tank a owl:Class;
+  rdfs:label "Tank"@en .
+
+sdir:System a owl:Class;
+  rdfs:label "System"@en .
+
+sdir:Accordance a owl:Class;
+  rdfs:label "Accordance"@en .
+
+sdir:Vessel a owl:Class;
+  rdfs:label "Vessel"@en .
+
+sdir:Space a owl:Class;
+  rdfs:label "Space"@en .
+
+sdir:Deck a owl:Class;
+  rdfs:label "Deck"@en .
+
+sdir:Fire a owl:Class;
+  rdfs:label "Fire"@en .
+
+sdir:Supply a owl:Class;
+  rdfs:label "Supply"@en .
+
+sdir:Emergency a owl:Class;
+  rdfs:label "Emergency"@en .
+
+sdir:Smoke a owl:Class;
+  rdfs:label "Smoke"@en .
+
+sdir:Pipe a owl:Class;
+  rdfs:label "Pipe"@en .
+
+sdir:Construction a owl:Class;
+  rdfs:label "Construction"@en .
+
+sdir:Fuel a owl:Class;
+  rdfs:label "Fuel"@en .
+
+sdir:Floor a owl:Class;
+  rdfs:label "Floor"@en .
+
+sdir:Steel a owl:Class;
+  rdfs:label "Steel"@en .
+
+sdir:Extinguisher a owl:Class;
+  rdfs:label "Extinguisher"@en .
+
+sdir:Board a owl:Class;
+  rdfs:label "Board"@en .
+
+sdir:Air a owl:Class;
+  rdfs:label "Air"@en .
+
+sdir:Regulation a owl:Class;
+  rdfs:label "Regulation"@en .
+
+sdir:Valve a owl:Class;
+  rdfs:label "Valve"@en .
+
+sdir:Installation a owl:Class;
+  rdfs:label "Installation"@en .
+
+sdir:Insulation a owl:Class;
+  rdfs:label "Insulation"@en .
+
+sdir:Source a owl:Class;
+  rdfs:label "Source"@en .
+
+sdir:Force a owl:Class;
+  rdfs:label "Force"@en .
+
+sdir:Safety a owl:Class;
+  rdfs:label "Safety"@en .
+
+sdir:Gas a owl:Class;
+  rdfs:label "Gas"@en .
+
+sdir:Flame a owl:Class;
+  rdfs:label "Flame"@en .
+
+sdir:Water a owl:Class;
+  rdfs:label "Water"@en .
+
+sdir:Engine a owl:Class;
+  rdfs:label "Engine"@en .
+
+sdir:Alarm a owl:Class;
+  rdfs:label "Alarm"@en .
+
+sdir:Detector a owl:Class;
+  rdfs:label "Detector"@en .
+
+sdir:Outlet a owl:Class;
+  rdfs:label "Outlet"@en .
+
+sdir:Bench a owl:Class;
+  rdfs:label "Bench"@en .
+
+sdir:Collection a owl:Class;
+  rdfs:label "Collection"@en .
+
+sdir:Uptake a owl:Class;
+  rdfs:label "Uptake"@en .
+
+sdir:Bulkhead a owl:Class;
+  rdfs:label "Bulkhead"@en .
+
+sdir:Medium a owl:Class;
+  rdfs:label "Medium"@en .
+
+sdir:Locker a owl:Class;
+  rdfs:label "Locker"@en .
+
+sdir:Heat a owl:Class;
+  rdfs:label "Heat"@en .
+
+sdir:Accommodation a owl:Class;
+  rdfs:label "Accommodation"@en .
+
+sdir:Lighting a owl:Class;
+  rdfs:label "Lighting"@en .
+
+sdir:Pressure a owl:Class;
+  rdfs:label "Pressure"@en .
+
+sdir:Event a owl:Class;
+  rdfs:label "Event"@en .
+
+sdir:Filter a owl:Class;
+  rdfs:label "Filter"@en .
+
+sdir:Inspection a owl:Class;
+  rdfs:label "Inspection"@en .
+
+sdir:Door a owl:Class;
+  rdfs:label "Door"@en .
+
+sdir:Cover a owl:Class;
+  rdfs:label "Cover"@en .
+
+sdir:Order a owl:Class;
+  rdfs:label "Order"@en .
+
+sdir:Saucer a owl:Class;
+  rdfs:label "Saucer"@en .
+
+sdir:Rockwool a owl:Class;
+  rdfs:label "Rockwool"@en .
+
+sdir:Twine a owl:Class;
+  rdfs:label "Twine"@en .
+
+sdir:Ignition a owl:Class;
+  rdfs:label "Ignition"@en .
+
+sdir:Sheet a owl:Class;
+  rdfs:label "Sheet"@en .
+
+sdir:Aluminium a owl:Class;
+  rdfs:label "Aluminium"@en .
+
+sdir:Detection a owl:Class;
+  rdfs:label "Detection"@en .
+
+sdir:Wheelhouse a owl:Class;
+  rdfs:label "Wheelhouse"@en .
+
+sdir:Place a owl:Class;
+  rdfs:label "Place"@en .
+
+sdir:Bilge a owl:Class;
+  rdfs:label "Bilge"@en .
+
+sdir:Scope a owl:Class;
+  rdfs:label "Scope"@en .
+
+sdir:Application a owl:Class;
+  rdfs:label "Application"@en .
+
+sdir:Propane a owl:Class;
+  rdfs:label "Propane"@en .
+
+sdir:Hydrocarbon a owl:Class;
+  rdfs:label "Hydrocarbon"@en .
+
+sdir:Observation a owl:Class;
+  rdfs:label "Observation"@en .
+
+sdir:Consumption a owl:Class;
+  rdfs:label "Consumption"@en .
+
+sdir:Function a owl:Class;
+  rdfs:label "Function"@en .
+
+sdir:Manufacturer a owl:Class;
+  rdfs:label "Manufacturer"@en .
+
+sdir:Separator a owl:Class;
+  rdfs:label "Separator"@en .
+
+sdir:Plug a owl:Class;
+  rdfs:label "Plug"@en .
+
+sdir:Regulator a owl:Class;
+  rdfs:label "Regulator"@en .
+
+sdir:Separation a owl:Class;
+  rdfs:label "Separation"@en .
+
+sdir:Mud a owl:Class;
+  rdfs:label "Mud"@en .
+
+sdir:Copper a owl:Class;
+  rdfs:label "Copper"@en .
+
+sdir:Formation a owl:Class;
+  rdfs:label "Formation"@en .
+
+sdir:Drain a owl:Class;
+  rdfs:label "Drain"@en .
+
+sdir:Drainage a owl:Class;
+  rdfs:label "Drainage"@en .
+
+sdir:Operating a owl:Class;
+  rdfs:label "Operating"@en .
+
+sdir:Company a owl:Class;
+  rdfs:label "Company"@en .
+
+sdir:Fireplace a owl:Class;
+  rdfs:label "Fireplace"@en .
+
+sdir:Metal a owl:Class;
+  rdfs:label "Metal"@en .
+
+sdir:Outer a owl:Class;
+  rdfs:label "Outer"@en .
+
+sdir:Manifold a owl:Class;
+  rdfs:label "Manifold"@en .
+
+sdir:Exhaust a owl:Class;
+  rdfs:label "Exhaust"@en .
+
+sdir:Fire-extinguishing a owl:Class;
+  rdfs:label "Fire-extinguishing"@en .
+
+sdir:Compartment a owl:Class;
+  rdfs:label "Compartment"@en .
+
+sdir:Position a owl:Class;
+  rdfs:label "Position"@en .
+
+sdir:Equipment a owl:Class;
+  rdfs:label "Equipment"@en .
+
+sdir:Device a owl:Class;
+  rdfs:label "Device"@en .
+
+sdir:Entrance a owl:Class;
+  rdfs:label "Entrance"@en .
+
+sdir:Signal a owl:Class;
+  rdfs:label "Signal"@en .
+
+sdir:Ventilation a owl:Class;
+  rdfs:label "Ventilation"@en .
+
+sdir:Storage a owl:Class;
+  rdfs:label "Storage"@en .
+
+sdir:Closing a owl:Class;
+  rdfs:label "Closing"@en .
+
+sdir:Cock a owl:Class;
+  rdfs:label "Cock"@en .
+
+sdir:Gauge a owl:Class;
+  rdfs:label "Gauge"@en .
+
+sdir:Glass a owl:Class;
+  rdfs:label "Glass"@en .
+
+sdir:Drip a owl:Class;
+  rdfs:label "Drip"@en .
+
+sdir:Room a owl:Class;
+  rdfs:label "Room"@en .
+
+sdir:Ship a owl:Class;
+  rdfs:label "Ship"@en .
+
+sdir:Seawater a owl:Class;
+  rdfs:label "Seawater"@en .
+
+sdir:Waterline a owl:Class;
+  rdfs:label "Waterline"@en .
+
+sdir:Rudder a owl:Class;
+  rdfs:label "Rudder"@en .
+
+sdir:Propeller a owl:Class;
+  rdfs:label "Propeller"@en .
+
+sdir:Satisfy a owl:Class;
+  rdfs:label "Satisfy"@en .
+
+sdir:Compliance a owl:Class;
+  rdfs:label "Compliance"@en .
+
+sdir:Sea a owl:Class;
+  rdfs:label "Sea"@en .
+
+sdir:Navigation a owl:Class;
+  rdfs:label "Navigation"@en .
+
+sdir:Accumulator a owl:Class;
+  rdfs:label "Accumulator"@en .
+
+sdir:Battery a owl:Class;
+  rdfs:label "Battery"@en .
+
+sdir:Paragraph a owl:Class;
+  rdfs:label "Paragraph"@en .
+
+sdir:Switchboard a owl:Class;
+  rdfs:label "Switchboard"@en .
+
+sdir:Generator a owl:Class;
+  rdfs:label "Generator"@en .
+
+sdir:Flashpoint a owl:Class;
+  rdfs:label "Flashpoint"@en .
+
+sdir:Trim a owl:Class;
+  rdfs:label "Trim"@en .
