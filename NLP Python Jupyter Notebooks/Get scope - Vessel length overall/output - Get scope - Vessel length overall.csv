@@ -1,10 +1,10 @@
-"['Section 15', 'less than', '10.67', 'meters']"
-"['Section 16', 'less than', '10.67', 'meters']"
-"['Section 10', 'to', '8', '15', 'meters']"
-"['Section 15', 'to', '10.67', '15', 'meters']"
-"['Section 16', 'to', '10.67', '15', 'meters']"
-"['Section 23', 'to', '6', '15', 'meters']"
-"['Section 23', 'to', '6', '15', 'meters']"
-"['Section 23', 'to', '6', '15', 'meters']"
-"['Section 23', 'to', '6', '15', 'meters']"
-"['Section 24', 'to', '10.67', '15', 'meters']"
+Section 15,less than,10.67,meters
+Section 16,less than,10.67,meters
+Section 10,to,8,15,meters
+Section 15,to,10.67,15,meters
+Section 16,to,10.67,15,meters
+Section 23,to,6,15,meters
+Section 23,to,6,15,meters
+Section 23,to,6,15,meters
+Section 23,to,6,15,meters
+Section 24,to,10.67,15,meters
