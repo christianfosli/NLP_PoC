@@ -7,7 +7,7 @@
 
 sdir:FOR1404P23 a sdir:Requirement, sh:NodeShape;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23"^^xsd:anyURI;
-  sh:property sdir:PS_MP_min50, sdir:PS_MP_max50 .
+  sh:property sdir:PS_MP_min50, sdir:PS_MP_max50, sdir:PS_BuiltDate_b19920101 .
 
 sdir:PS_MP_min50 a sh:NodeShape, sdir:Scope;
   sh:description "Scope of machine power more than 50V."@en, "Virkeområde maskinkraft mer enn 50V."@no;
@@ -22,3 +22,36 @@ sdir:PS_MP_max50 a sh:NodeShape, sdir:Scope;
   sh:datatype unit:V;
   sh:minCount "1"^^xsd:int;
   sh:maxCount "1"^^xsd:int .
+
+sdir:FOR1404P7 a sdir:Requirement, sh:NodeShape;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§7"^^xsd:anyURI;
+  sh:property sdir:PS_BuiltDate_b19880102 .
+
+sdir:PS_BuiltDate_b19880102 a sh:NodeShape, sdir:Scope;
+  sh:description "Scope of built date before 1988-01-02."@en, "Virkeområde byggeår før 1988-01-02."@no;
+  sh:maxExclusive "1988-01-02";
+  sh:datatype xsd:date;
+  sh:minCount "1"^^xsd:int;
+  sh:maxCount "1"^^xsd:int .
+
+sdir:FOR1404P8 a sdir:Requirement, sh:NodeShape;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§8"^^xsd:anyURI;
+  sh:property sdir:PS_BuiltDate_b19920101 .
+
+sdir:PS_BuiltDate_b19920101 a sh:NodeShape, sdir:Scope;
+  sh:description "Scope of built date before 1992-01-01."@en, "Virkeområde byggeår før 1992-01-01."@no;
+  sh:maxExclusive "1992-01-01";
+  sh:datatype xsd:date;
+  sh:minCount "1"^^xsd:int;
+  sh:maxCount "1"^^xsd:int .
+
+sdir:FOR1404P22 a sdir:Requirement, sh:NodeShape;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§22"^^xsd:anyURI;
+  sh:property sdir:PS_BuiltDate_b19920101 .
+
+sdir:FOR1404P24 a sdir:Requirement, sh:NodeShape;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§24"^^xsd:anyURI;
+  sh:property sdir:PS_BuiltDate_b19920101 .
+
+sdir:FOR1404P15 a sdir:Requirement, sh:NodeShape;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§15"^^xsd:anyURI .

@@ -6,7 +6,9 @@ public class Main {
     public static void main(String[] args) {
         try {
             //Preprocessing.buildGraph();
-            Scope.machinePower();
+            //Scope.machinePower();
+            //Scope.builtDate();
+            Scope.writeAllToFile();
         } catch (Exception e) {
             e.printStackTrace();
         }
