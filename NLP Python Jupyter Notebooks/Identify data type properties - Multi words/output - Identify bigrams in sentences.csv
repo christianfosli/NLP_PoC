@@ -158,7 +158,7 @@
 46,exhaust pipe,JJ,NNS
 46,pipe shall,NNS,MD
 46,shall consist,MD,VB
-46,mm thick,JJ,NN
+46,millimetre thick,JJ,NN
 46,thick steel,NN,NN
 46,steel plate,NN,NNS
 46,securely fix,RB,VBN
@@ -167,7 +167,7 @@
 48,saucer form,NNP,VBD
 48,form rockwool,VBD,JJ
 48,rockwool sheet,JJ,NNS
-48,cm thickness,NN,NN
+48,centimetre thickness,NN,NN
 48,thickness shall,NN,MD
 48,smoke uptake,JJ,NN
 48,combustible material,JJ,NN
@@ -176,7 +176,7 @@
 49,metal cover,NN,NN
 49,cover plate,NN,NNS
 49,combustible material,JJ,NN
-50,cm large,NN,JJR
+50,centimetre large,NNS,JJR
 50,smoke uptake,NN,VBP
 50,uptake pipe,VBP,NN
 50,fit outside,VBN,IN
@@ -187,7 +187,7 @@
 51,form rockwool,VBN,NN
 51,mineral wool,JJ,JJ
 51,wool twine,JJ,NN
-51,cm thickness,NN,NN
+51,centimetre thickness,NN,NN
 51,thickness shall,NN,MD
 51,outer pipe,NN,NN
 51,combustible material,JJ,NN
@@ -206,7 +206,7 @@
 55,form rockwool,VBN,NN
 55,mineral wool,JJ,JJ
 55,wool twine,JJ,NN
-55,cm thickness,NN,NN
+55,centimetre thickness,JJ,NN
 55,insulate bulkhead,VBN,NN
 56,exhaust manifold,VBP,NN
 56,exhaust pipe,NN,NNS
@@ -460,7 +460,7 @@
 122,overall length,JJ,NN
 122,length construct,NN,VBD
 122,electrical installation,JJ,NNS
-122,v shall,NNP,MD
+122,voltage shall,NN,MD
 122,shall satisfy,MD,VB
 122,nordic boat,NNP,NNP
 122,boat standard,NNP,NNP
@@ -468,11 +468,11 @@
 123,overall length,JJ,NN
 123,length construct,NN,VBD
 123,electrical installation,JJ,NNS
-123,v shall,NNP,MD
+123,voltage shall,NN,MD
 124,overall length,JJ,NN
 124,length construct,NN,VBD
 124,electrical installation,JJ,NNS
-124,v shall,NNP,MD
+124,voltage shall,NN,MD
 124,shall satisfy,MD,VB
 124,requirement lay,NNS,VBD
 124,repealed regulation,JJ,NNS
@@ -481,7 +481,7 @@
 126,overall length,JJ,NN
 126,length construct,NN,VBD
 126,electrical installation,JJ,NNS
-126,v shall,NNP,MD
+126,voltage shall,NN,MD
 126,shall satisfy,MD,VB
 126,requirement lay,NNS,VBD
 127,concern maritime,VBG,JJ
