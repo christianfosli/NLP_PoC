@@ -8,6 +8,7 @@ public class Main {
             //Preprocessing.buildGraph();
             //Scope.machinePower();
             //Scope.builtDate();
+            //Scope.vesselLength();
             Scope.writeAllToFile();
         } catch (Exception e) {
             e.printStackTrace();

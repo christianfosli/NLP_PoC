@@ -15,7 +15,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
@@ -39,6 +38,7 @@ public class Scope {
     public static void writeAllToFile() throws IOException, ParseException {
         Model graph = machinePower();
         graph.addAll(builtDate());
+        graph.addAll(vesselLength());
 
         writeModelToFile(graph);
     }
@@ -195,8 +195,117 @@ public class Scope {
         return model;
     }
 
+    public static Model vesselLength() throws IOException {
+        String text = Utils.readFromFile("src/main/resources/vessellength.txt");
+
+        Model model = initModel();
+
+        String[] tmp = text.split("\n");
+
+        List<String> tmpList = new ArrayList<>(Arrays.asList(tmp));
+
+        for (String s : tmpList) {
+            String[] info = s.split(",");
+            IRI paragraph = valueFactory.createIRI(NS + "unknown");
+
+            for (String str : info) {
+                if (str.contains("Section")) {
+
+                    String[] tmpSec = str.split(" ");
+                    String parNum = tmpSec[1].replace("'", "");
+                    paragraph = valueFactory.createIRI(NS + "FOR1404P" + parNum);
+                    model.add(paragraph, RDF.TYPE, valueFactory.createIRI(NS + "Requirement"));
+                    model.add(paragraph, RDF.TYPE, valueFactory.createIRI(SHACL.NS + "NodeShape"));
+                    model.add(paragraph, valueFactory.createIRI(NS + "regulationReference"), valueFactory.createLiteral("https://lovdata.no/forskrift/2013-11-22-1404/§" + parNum, XSD.ANYURI));
+                }
+                if (str.contains("less than")) {
+                    String[] lengthTmp = s.split(",");
+                    String lengthValue = lengthTmp[2];
+                    String datatype = lengthTmp[3];
+
+                    String value;
+                    if (lengthValue.contains(".")) {
+                        String[] tmpValue = lengthValue.split("\\.");
+                        value = tmpValue[0];
+                    } else {
+                        value = lengthValue;
+                    }
+
+                    model.addAll(createDatatypeResources(
+                            model, paragraph, NS+"PS_maxLOA_"+value,
+                            "Scope of maximum length "+value+" meter.",
+                            "Virkeområde største lengde "+value+" meter.",
+                            value, datatype, "maxExclusive"
+                    ));
+
+                }
+                if (str.contains("to")) {
+                    String[] lengthTmp = s.split(",");
+
+                    String firstValue = lengthTmp[2];
+                    String secondValue = lengthTmp[3];
+                    String datatype = lengthTmp[4];
+
+                    String firstValueWithoutDecimal;
+                    if (firstValue.contains(".")) {
+                        String[] tmpValue = firstValue.split("\\.");
+                        firstValueWithoutDecimal = tmpValue[0];
+                    } else {
+                        firstValueWithoutDecimal = firstValue;
+                    }
+
+                    String secondValueWithoutDecimal;
+                    if (secondValue.contains(".")) {
+                        String[] tmpValue = secondValue.split("\\.");
+                        secondValueWithoutDecimal = tmpValue[0];
+                    } else {
+                        secondValueWithoutDecimal = secondValue;
+                    }
+
+                    model.addAll(createDatatypeResources(
+                            model, paragraph, NS+"PS_maxLOA_"+secondValueWithoutDecimal,
+                            "Scope of maximum length "+secondValue+" meter.",
+                            "Virkeområde største lengde "+secondValue+" meter.",
+                            secondValue, datatype, "maxExclusive"
+                    ));
+
+                    model.addAll(createDatatypeResources(
+                            model, paragraph, NS+"PS_minLOA_"+firstValueWithoutDecimal,
+                            "Scope of minimum length "+firstValue+" meter.",
+                            "Virkeområde minste lengde "+firstValue+" meter.",
+                            firstValue, datatype, "minInclusive"
+                    ));
+                }
+            }
+        }
+        return model;
+    }
+
     public static void writeModelToFile(Model model) throws FileNotFoundException {
         FileOutputStream out = new FileOutputStream("src/main/resources/output/scope.ttl");
         Rio.write(model, out, RDFFormat.TURTLE);
+    }
+
+    public static Model createDatatypeResources(Model model, IRI paragraph, String shapeURI, String enDes,
+                                        String noDes, String literalValue, String datatype, String constraint) {
+        IRI subject = valueFactory.createIRI(shapeURI);
+        model.add(paragraph, valueFactory.createIRI(SHACL.NS + "property"), subject);
+        model.add(subject, RDF.TYPE, valueFactory.createIRI(SHACL.NS + "NodeShape"));
+        model.add(subject, RDF.TYPE, valueFactory.createIRI(NS + "Scope"));
+        model.add(subject, valueFactory.createIRI(SHACL.NS + "description"), valueFactory.createLiteral(
+                enDes, "en"));
+        model.add(subject, valueFactory.createIRI(SHACL.NS + "description"), valueFactory.createLiteral(
+                noDes, "no"));
+        model.add(subject, valueFactory.createIRI(SHACL.NS + constraint), valueFactory.createLiteral(literalValue));
+        if (datatype.equals("meters")) {
+            model.add(subject, valueFactory.createIRI(SHACL.NS + "datatype"),
+                    valueFactory.createIRI("http://qudt.org/vocab/unit/M"));
+        } else {
+            model.add(subject, valueFactory.createIRI(SHACL.NS + "datatype"), XSD.STRING);
+        }
+        model.add(subject, valueFactory.createIRI(SHACL.NS + "minCount"), valueFactory.createLiteral(1));
+        model.add(subject, valueFactory.createIRI(SHACL.NS + "maxCount"), valueFactory.createLiteral(1));
+
+        return model;
     }
 }

@@ -8,7 +8,7 @@
 sdir:FOR1404P23 a sdir:Requirement, sh:NodeShape;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23"^^xsd:anyURI;
   sh:property sdir:PS_MP_min50, sdir:PS_MP_max50, sdir:PS_BuiltDate_b19920101, sdir:PS_BuiltDate_a19920101,
-    sdir:PS_BuiltDate_a20020101 .
+    sdir:PS_BuiltDate_a20020101, sdir:PS_maxLOA_15, sdir:PS_minLOA_6 .
 
 sdir:PS_MP_min50 a sh:NodeShape, sdir:Scope;
   sh:description "Scope of machine power more than 50V."@en, "Virkeområde maskinkraft mer enn 50V."@no;
@@ -52,7 +52,8 @@ sdir:FOR1404P22 a sdir:Requirement, sh:NodeShape;
 
 sdir:FOR1404P24 a sdir:Requirement, sh:NodeShape;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§24"^^xsd:anyURI;
-  sh:property sdir:PS_BuiltDate_b19920101, sdir:PS_BuiltDate_a19920101 .
+  sh:property sdir:PS_BuiltDate_b19920101, sdir:PS_BuiltDate_a19920101, sdir:PS_maxLOA_15,
+    sdir:PS_minLOA_10 .
 
 sdir:PS_BuiltDate_a19880102 a sh:NodeShape, sdir:Scope;
   sh:description "Scope of built date after 1988-01-02."@en, "Virkeområde byggeår etter 1988-01-02."@no;
@@ -70,11 +71,54 @@ sdir:PS_BuiltDate_a19920101 a sh:NodeShape, sdir:Scope;
 
 sdir:FOR1404P15 a sdir:Requirement, sh:NodeShape;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§15"^^xsd:anyURI;
-  sh:property sdir:PS_BuiltDate_a19920101 .
+  sh:property sdir:PS_BuiltDate_a19920101, sdir:PS_maxLOA_10, sdir:PS_maxLOA_15, sdir:PS_minLOA_10 .
 
 sdir:PS_BuiltDate_a20020101 a sh:NodeShape, sdir:Scope;
   sh:description "Scope of built date after 2002-01-01."@en, "Virkeområde byggeår etter 2002-01-01."@no;
   sh:minInclusive "2002-01-01";
   sh:datatype xsd:date;
+  sh:minCount "1"^^xsd:int;
+  sh:maxCount "1"^^xsd:int .
+
+sdir:PS_maxLOA_10 a sh:NodeShape, sdir:Scope;
+  sh:description "Scope of maximum length 10 meter."@en, "Virkeområde største lengde 10 meter."@no;
+  sh:maxExclusive "10";
+  sh:datatype unit:M;
+  sh:minCount "1"^^xsd:int;
+  sh:maxCount "1"^^xsd:int .
+
+sdir:FOR1404P16 a sdir:Requirement, sh:NodeShape;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§16"^^xsd:anyURI;
+  sh:property sdir:PS_maxLOA_10, sdir:PS_maxLOA_15, sdir:PS_minLOA_10 .
+
+sdir:FOR1404P10 a sdir:Requirement, sh:NodeShape;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§10"^^xsd:anyURI;
+  sh:property sdir:PS_maxLOA_15, sdir:PS_minLOA_8 .
+
+sdir:PS_maxLOA_15 a sh:NodeShape, sdir:Scope;
+  sh:description "Scope of maximum length 15 meter."@en, "Virkeområde største lengde 15 meter."@no;
+  sh:maxExclusive "15";
+  sh:datatype unit:M;
+  sh:minCount "1"^^xsd:int;
+  sh:maxCount "1"^^xsd:int .
+
+sdir:PS_minLOA_8 a sh:NodeShape, sdir:Scope;
+  sh:description "Scope of minimum length 8 meter."@en, "Virkeområde minste lengde 8 meter."@no;
+  sh:minInclusive "8";
+  sh:datatype unit:M;
+  sh:minCount "1"^^xsd:int;
+  sh:maxCount "1"^^xsd:int .
+
+sdir:PS_minLOA_10 a sh:NodeShape, sdir:Scope;
+  sh:description "Scope of minimum length 10.67 meter."@en, "Virkeområde minste lengde 10.67 meter."@no;
+  sh:minInclusive "10.67";
+  sh:datatype unit:M;
+  sh:minCount "1"^^xsd:int;
+  sh:maxCount "1"^^xsd:int .
+
+sdir:PS_minLOA_6 a sh:NodeShape, sdir:Scope;
+  sh:description "Scope of minimum length 6 meter."@en, "Virkeområde minste lengde 6 meter."@no;
+  sh:minInclusive "6";
+  sh:datatype unit:M;
   sh:minCount "1"^^xsd:int;
   sh:maxCount "1"^^xsd:int .
