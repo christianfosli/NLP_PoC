@@ -1,6 +1,14 @@
-vessel,length,metre
-vessel,overall length,metre
-pipe,least,metre
-vessel,length,voltage
-vessel,overall length,voltage
-vessel,least,metre
+Section 10,vessel,length,metre
+Section 10,vessel,overall length,metre
+Section 12,pipe,least,metre
+Section 15,vessel,length,metre
+Section 15,vessel,overall length,metre
+Section 16,vessel,length,metre
+Section 16,vessel,overall length,metre
+Section 23,vessel,length,metre
+Section 23,vessel,length,voltage
+Section 23,vessel,overall length,metre
+Section 23,vessel,overall length,voltage
+Section 24,vessel,length,metre
+Section 24,vessel,least,metre
+Section 24,vessel,overall length,metre
