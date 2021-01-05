@@ -1,0 +1,46 @@
+#
+# Make selected words more explicit.
+# Normalize for the machine.
+#
+
+from nltk.tokenize import word_tokenize
+
+word_tokens = word_tokenize(forward_one_text, language="english")
+
+forward_word_tokens = []
+
+for word_tokens_index_number,tokenized_word in enumerate(word_tokens):
+    
+    if tokenized_word.lower() == 'v':
+        tokenized_word = word_tokenize('voltage', language="english")[0]
+        
+    elif tokenized_word.lower() == 'm':
+        tokenized_word = word_tokenize('metre', language="english")[0]
+        
+    elif tokenized_word.lower() == 'cm':
+        tokenized_word = word_tokenize('centimetre', language="english")[0]
+        
+    elif tokenized_word.lower() == 'mm':
+        tokenized_word = word_tokenize('millimetre', language="english")[0]
+        
+    elif tokenized_word.lower() == 'kg':
+        tokenized_word = word_tokenize('kilogram', language="english")[0]
+        
+    elif tokenized_word == 'Section' and word_tokens_index_number > 0:
+        
+        previous_word = forward_word_tokens[-1]
+        
+        next_word_index_number = word_tokens_index_number + 1
+        next_word = word_tokens[next_word_index_number]
+        
+        next_next_word_index_number = word_tokens_index_number + 2
+        next_next_word = word_tokens[next_next_word_index_number]
+        
+        if previous_word != '.' and hasNumbers(next_word) and next_next_word == '.':
+            # insert . (dot) before the word
+            dot = word_tokenize('.', language="english")[0]
+            forward_word_tokens.append(dot)
+    
+    forward_word_tokens.append(tokenized_word)
+
+forward_word_tokens
