@@ -1,0 +1,206 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix o-sh: <http://tpl.ottr.xyz/shacl/0.1/> .
+@prefix o-rdf:      <http://tpl.ottr.xyz/rdf/0.1/>.
+@prefix o-rdfs:     <http://tpl.ottr.xyz/rdfs/0.2/>.
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix o-sdir: <https://www.sdir.no/SDIR_Simulator/ottr#> .
+@prefix sdir: <https://www.sdir.no/SDIR_Simulator#> .
+@prefix scope: <https://www.sdir.no/SDIR_Simulator/shapes/scope#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+
+
+# https://www.w3.org/TR/shacl/#node-shapes
+o-sh:NodeShape[! sh:Shape ?shape] :: {
+    ottr:Triple(?shape, rdf:type, sh:NodeShape)
+} .
+
+# https://www.w3.org/TR/shacl/#property-shapes
+o-sh:PropertyShape[! sh:Shape ?shape, ! ?path] :: {
+    ottr:Triple(?shape, rdf:type, sh:PropertyShape),
+    ottr:Triple(?shape, sh:path, ?path)
+} .
+
+### Value Type Constraint Components
+
+# https://www.w3.org/TR/shacl/#ClassConstraintComponent
+o-sh:Class[! sh:PropertyShape ?shape, ! ?path, ?class] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:class, ?class)
+} .
+
+# https://www.w3.org/TR/shacl/#DatatypeConstraintComponent
+o-sh:Datatype[! sh:PropertyShape ?shape, ! ?datatype] :: {
+    ottr:Triple(?shape, sh:datatype, ?datatype)
+} .
+
+# https://www.w3.org/TR/shacl/#NodeKindConstraintComponent
+o-sh:NodeKind[! sh:PropertyShape ?shape, ! ?path, ?nodeKind] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:nodeKind, ?nodeKind)
+} .
+
+### Cardinality Constraint Components
+
+# https://www.w3.org/TR/shacl/#MinCountConstraintComponent
+o-sh:MaxCount[! sh:PropertyShape ?shape, ! xsd:anySimpleType ?value] :: {
+    ottr:Triple(?shape, sh:maxCount, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#MaxCountConstraintComponent
+o-sh:MinCount[! sh:PropertyShape ?shape, ! xsd:anySimpleType ?value] :: {
+    ottr:Triple(?shape, sh:minCount, ?value)
+} .
+
+### Value Range Constraint Components
+
+# https://www.w3.org/TR/shacl/#Mino-shclusiveConstraintComponent
+o-sh:MinExclusive[! sh:PropertyShape ?shape, ! xsd:anySimpleType ?value] :: {
+    ottr:Triple(?shape, sh:minExclusive, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#MinInclusiveConstraintComponent
+o-sh:MinInclusive[! sh:PropertyShape ?shape, ! ?path, ! xsd:anySimpleType ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:minInclusive, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#Maxo-shclusiveConstraintComponent
+o-sh:MaxExclusive[! sh:PropertyShape ?shape, ! xsd:anySimpleType ?value] :: {
+    ottr:Triple(?shape, sh:maxExclusive, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#MaxInclusiveConstraintComponent
+o-sh:MaxInclusive[! sh:PropertyShape ?shape, ! ?path, ! xsd:anySimpleType ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:maxInclusive, ?value)
+} .
+
+### String-based Constraint Components
+
+# https://www.w3.org/TR/shacl/#MinLengthConstraintComponent
+o-sh:MinLength[! sh:PropertyShape ?shape, ! ?path, ! xsd:integer ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:minLength, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#MaxLengthConstraintComponent
+o-sh:MaxLength[! sh:PropertyShape ?shape, ! ?path, ! xsd:integer ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:maxLength, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#PatternConstraintComponent
+
+o-sh:Pattern[! sh:PropertyShape ?shape, ! ?path, ! xsd:string ?pattern, ? xsd:string ?flags] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:pattern, ?pattern),
+    ottr:Triple(?shape, sh:flags, ?flags)
+} .
+
+# https://www.w3.org/TR/shacl/#LanguageInConstraintComponent
+o-sh:LanguageIn[! sh:PropertyShape ?shape, ! ?path, NEList<xsd:string> ?languages] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:languageIn, ?languages)
+} .
+
+# https://www.w3.org/TR/shacl/#UniqueLangConstraintComponent
+o-sh:UniqueLang[! sh:PropertyShape ?shape, ! ?path, ! xsd:boolean ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:uniqueLang, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#EqualsConstraintComponent
+o-sh:Equals[! sh:PropertyShape ?shape, ! ?path, ! ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:equals, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#DisjointConstraintComponent
+o-sh:Disjoint[! sh:PropertyShape ?shape, ! ?path, ! ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:disjoint, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#LessThanConstraintComponent
+o-sh:LessThan[! sh:PropertyShape ?shape, ! ?path, ! ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:lessThan, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#LessThanOrEqualsConstraintComponent
+o-sh:LessThanOrEquals[! sh:PropertyShape ?shape, ! ?path, ! ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:lessThanOrEquals, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#NotConstraintComponent
+o-sh:Not[! sh:PropertyShape ?shape, ! ?path, ! sh:Shape ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:not, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#AndConstraintComponent
+o-sh:And[! sh:PropertyShape ?shape, ! ?path, ! NEList<sh:Shape> ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:and, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#OrConstraintComponent
+o-sh:Or[! sh:PropertyShape ?shape, ! ?path, ! NEList<sh:Shape> ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:or, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#XoneConstraintComponent
+o-sh:Xone[! sh:PropertyShape ?shape, ! ?path, ! NEList<sh:Shape> ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:xone, ?value)
+} .
+
+### Shape-based Constraint Components
+
+# https://www.w3.org/TR/shacl/#NodeConstraintComponent
+o-sh:Node[! sh:PropertyShape ?shape, ! ?path, ! sh:Shape ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:node, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#PropertyConstraintComponent
+o-sh:Property[! sh:Shape ?shape, sh:PropertyShape ?propertyShape] :: {
+    ottr:Triple(?shape, rdf:property, ?propertyShape)
+} .
+
+### Other Constraint Components
+
+# https://www.w3.org/TR/shacl/#ClosedConstraintComponent
+o-sh:Closed[! sh:PropertyShape ?shape, ! ?path, ! xsd:boolean ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:closed, ?value)
+} .
+
+o-sh:IgnoredProperties[! sh:PropertyShape ?shape, ! ?path, ! NEList<rdf:Property> ?value] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, sh:ignoredProperties, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#HasValueConstraintComponent
+o-sh:HasValue[! sh:PropertyShape ?shape, ! ?value] :: {
+    ottr:Triple(?shape, sh:hasValue, ?value)
+} .
+
+# https://www.w3.org/TR/shacl/#InConstraintComponent
+# TODO: How to match any list of the same kind of resources?
+
+o-sh:Description[! sh:PropertyShape ?shape, ! NEList<rdf:langString> ?values] :: {
+    cross | ottr:Triple(?shape, sh:description, ++?values)
+} .
+
+o-sh:UniqueAndMandatory[! sh:PropertyShape ?shape] :: {
+    o-sh:MinCount(?shape, 1),
+    o-sh:MaxCount(?shape, 1)
+} .
