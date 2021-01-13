@@ -6,3 +6,4 @@ NLP Python Jupyter Notebooks/.jupyter/
 NLP Python Jupyter Notebooks/nltk_data/
 **/.vscode
 **/.ipynb_checkpoints
+**/__pycache__
