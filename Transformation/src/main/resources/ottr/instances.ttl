@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix o-sh: <http://tpl.ottr.xyz/shacl/0.1/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ottr: <http://ns.ottr.xyz/0.4/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ex: <http://example.org/> .
+
+@prefix o-sdir: <https://www.sdir.no/SDIR_Simulator/ottr#> .
+@prefix sdir: <https://www.sdir.no/SDIR_Simulator#> .
+@prefix scope: <https://www.sdir.no/SDIR_Simulator/shapes/scope#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+
+o-sdir:Scope(scope:PS_FishingVessel, sdir:vesselType) .
+o-sh:Description(scope:PS_FishingVessel, ("Virkeområde fiskefartøy."@no, "Scope of fishing vessels."@en)) .
+o-sh:HasValue(scope:PS_FishingVessel, scope:FishingVessel) .
+
+
+o-sdir:Requirement(
+    sdir:FOR1404P19,
+    (scope:PS_FishingVessel, scope:PS_maxLOA_15, scope:PS_BuiltDate_a19880102),
+    ("Materialer m.m."@no, "Materials, etc."@en),
+    "http://lovdata.no/forskrift/2013-11-22-1404/§19",
+    "/regulations/2013/11/22/1404/chapters/3/sections/19",
+    ("Fire, machinery and electric installations"@en, "Brann, maskineri og elektro"@no)
+) .
