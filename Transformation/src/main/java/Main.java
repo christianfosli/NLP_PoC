@@ -5,10 +5,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        Utils.createOTTRLibrary();
+
+        /*
         String err = runLutra();
         if (err != null) {
             System.err.println(err);
-        }
+        }*/
     }
 
     /** runLutra

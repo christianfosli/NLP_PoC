@@ -1,0 +1,20 @@
+o-sdir:Scope[! sh:PropertyShape ?shape, ! ?path] :: {
+    o-sh:PropertyShape(?shape, ?path),
+    ottr:Triple(?shape, rdf:type, sdir:Scope)
+} .
+
+o-sdir:Requirement[
+        ! sh:NodeShape ?shape,
+        NEList<sh:PropertyShape> ?properties,
+        NEList<rdf:langString> ?label,
+        ?regulationReference, ?eliReference,
+        NEList<rdf:langString> ?theme] ::
+{
+    o-sh:NodeShape(?shape),
+    ottr:Triple(?shape, rdf:type, sdir:Requirement),
+    cross | o-sh:Property(?shape, ++?properties),
+    cross | ottr:Triple(?shape, rdfs:label, ++?label),
+    ottr:Triple(?shape, sdir:regulationReference, ?regulationReference),
+    ottr:Triple(?shape, sdir:eliRef, ?eliReference),
+    cross | ottr:Triple(?shape, sdir:theme, ++?theme)
+} .
