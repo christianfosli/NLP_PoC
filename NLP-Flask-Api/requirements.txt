@@ -1,0 +1,4 @@
+flask
+
+# Our libraries
+spacy>=2.3.5,<3.0.0
