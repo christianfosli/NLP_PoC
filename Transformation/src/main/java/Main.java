@@ -7,6 +7,13 @@ public class Main {
 
         Utils.createOTTRLibrary();
 
+        Utils.csvToXlxs("src/main/resources/input.csv", "../OTTR/test.xlsx");
+
+        Scope.builtDateScope("../NLP Python Jupyter Notebooks/Get scope - Built date/V2 - output - Get scope - Built date.csv");
+        Scope.vesselLengthScope("../NLP Python Jupyter Notebooks/Get scope - Vessel length overall/V2 - output - Get scope - Vessel length overall.csv");
+
+        Scope.writeScopeModelToFile();
+
         /*
         String err = runLutra();
         if (err != null) {
@@ -26,8 +33,8 @@ public class Main {
         Main.class.getResource("lutra.jar");
 
         String command = "java -jar src/main/resources/lutra.jar" +
-                " --mode expand --library src/main/resources/ottr/shaclcore.ttl --libraryFormat stottr --fetchMissing " +
-                "--inputFormat stottr src/main/resources/ottr/instances.ttl " +
+                " --mode expand --library ../OTTR/o-tpl-lib.ttl --libraryFormat stottr --fetchMissing " +
+                "--inputFormat tabottr src/main/resources/ottr/tabexample.xlsx " +
                 "-o src/main/resources/output/sdir";
 
         Process exec = Runtime.getRuntime().exec(command);
