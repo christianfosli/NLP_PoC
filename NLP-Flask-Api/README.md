@@ -1,5 +1,7 @@
 # NLP Flask API
 
+This API is documented at the Confluence page: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1130856458/NLP+REST+API
+
 ## Prerequisites
 
 Docker and docker-compose (included in Docker Desktop).
