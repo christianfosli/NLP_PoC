@@ -1,23 +1,23 @@
-Section 10,10,none,vessel,length,metre
-Section 10,10,none,vessel,overall length,metre
-Section 12,1,none,pipe,least,mm
-Section 12,2,none,pipe,least,cm
-Section 12,3,none,pipe,least,cm
-Section 15,1,none,vessel,length,metre
-Section 15,1,none,vessel,overall length,metre
-Section 15,4,none,vessel,length,metre
-Section 15,4,none,vessel,overall length,metre
-Section 16,1,none,vessel,length,metre
-Section 16,1,none,vessel,overall length,metre
-Section 18,none,none,vessel,least,cm
-Section 23,1,none,vessel,length,metre
-Section 23,1,none,vessel,overall length,metre
-Section 23,2,none,vessel,length,metre
-Section 23,2,none,vessel,overall length,metre
-Section 23,3,none,vessel,length,metre
-Section 23,3,none,vessel,overall length,metre
-Section 23,4,none,vessel,length,metre
-Section 23,4,none,vessel,overall length,metre
-Section 24,1,none,vessel,length,metre
-Section 24,1,none,vessel,least,metre
-Section 24,1,none,vessel,overall length,metre
+10,10,none,vessel,length,metre
+10,10,none,vessel,overall length,metre
+12,1,none,pipe,least,mm
+12,2,none,pipe,least,cm
+12,3,none,pipe,least,cm
+15,1,none,vessel,length,metre
+15,1,none,vessel,overall length,metre
+15,4,none,vessel,length,metre
+15,4,none,vessel,overall length,metre
+16,1,none,vessel,length,metre
+16,1,none,vessel,overall length,metre
+18,none,none,vessel,least,cm
+23,1,none,vessel,length,metre
+23,1,none,vessel,overall length,metre
+23,2,none,vessel,length,metre
+23,2,none,vessel,overall length,metre
+23,3,none,vessel,length,metre
+23,3,none,vessel,overall length,metre
+23,4,none,vessel,length,metre
+23,4,none,vessel,overall length,metre
+24,1,none,vessel,length,metre
+24,1,none,vessel,least,metre
+24,1,none,vessel,overall length,metre
