@@ -4,7 +4,6 @@ from identify_date import identify_date_in_spacy_lines
 
 app = Flask(__name__)
 
-#TODO: Remove later
 @app.route('/healthz')
 def health():
     return "ok"
