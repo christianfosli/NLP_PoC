@@ -1,10 +1,10 @@
-Section 15,4,none,less than,10.67,meters
-Section 16,2,none,less than,10.67,meters
-Section 10,10,none,to,8,15,meters
-Section 15,1,none,to,10.67,15,meters
-Section 16,1,none,to,10.67,15,meters
-Section 23,1,none,to,6,15,meters
-Section 23,2,none,to,6,15,meters
-Section 23,3,none,to,6,15,meters
-Section 23,4,none,to,6,15,meters
-Section 24,1,none,to,10.67,15,meters
+15,4,none,less than,10.67,meters
+16,2,none,less than,10.67,meters
+10,10,none,to,8,15,meters
+15,1,none,to,10.67,15,meters
+16,1,none,to,10.67,15,meters
+23,1,none,to,6,15,meters
+23,2,none,to,6,15,meters
+23,3,none,to,6,15,meters
+23,4,none,to,6,15,meters
+24,1,none,to,10.67,15,meters
