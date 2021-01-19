@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 #from identify_date import identify_date_in_text
 from identify_date import identify_date_in_spacy_lines
+from identify_section_span import list_section_span_from_file_lines
 
 app = Flask(__name__)
 
@@ -26,6 +27,20 @@ def post_identify_date_in_spacy_lines():
     input_spacy_lines = input_spacy_lines_as_json['spacy-lines-as-json']
     result_in_a_list = identify_date_in_spacy_lines(input_spacy_lines)
     return jsonify({"spacy-lines-as-json": result_in_a_list})
+
+@app.route("/identify-section-span-in-chapter-text", methods=["POST"])
+def post_identify_section_span_in_chapter_text():
+    input_chapter_text_as_json = request.json
+    input_chapter_text_in_a_list = input_chapter_text_as_json['chapter_text_in_a_list']
+    response_in_a_list = list_section_span_from_file_lines(input_chapter_text_in_a_list)
+    response_converted_to_json = []
+    for item in response_in_a_list:
+        data = {}
+        data['section_number'] = int(item[0])
+        data['section_start_at_sentence'] = item[1]
+        data['section_end_at_sentence'] = item[2]
+        response_converted_to_json.append(data)
+    return jsonify({"identified_section_span": response_converted_to_json})
 
 if __name__ == '__main__':
     #app.run()
