@@ -46,7 +46,7 @@ def post_identify_section_span_in_chapter_text():
         response_converted_to_json.append(data)
     return jsonify({"identified_section_span": response_converted_to_json})
 
-# Documentation: 
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1145995269/identify-sentence-type-in-chapter-text
 @app.route("/identify-sentence-type-in-chapter-text", methods=["POST"])
 def post_identify_sentence_type_in_chapter_text():
     input_chapter_text_as_json = request.json
@@ -55,7 +55,7 @@ def post_identify_sentence_type_in_chapter_text():
     response_converted_to_json = []
     for item in response_in_a_list:
         data = {}
-        data['section_number'] = int(item[0])
+        data['text_line_index_number'] = int(item[0])
         data['sentence_type'] = item[1]
         data['sentence_type_value'] = item[2]
         response_converted_to_json.append(data)
