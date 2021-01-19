@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1130954877/healthz
 @app.route('/healthz')
 def health():
-    return "ok"
+    return "OK"
 
 #
 # Deactivating this because it does the same as /identify-date-in-spacy-lines
