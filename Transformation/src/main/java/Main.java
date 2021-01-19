@@ -11,6 +11,7 @@ public class Main {
 
         Scope.builtDateScope(Utils.SCOPE_FILE_BUILT_DATE);
         Scope.vesselLengthScope(Utils.SCOPE_FILE_VESSEL_LENGTH_OVERALL);
+        Scope.machinePowerScope(Utils.SCOPE_FILE_MACHINE_POWER);
 
         Scope.writeScopeModelToFile();
         Scope.writeRequirementModelToFile();

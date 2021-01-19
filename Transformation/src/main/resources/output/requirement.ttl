@@ -6,45 +6,92 @@
 @prefix sdir: <https://www.sdir.no/SDIR_Simulator#> .
 @prefix scope: <https://www.sdir.no/SDIR_Simulator/shapes/scope#> .
 
-sdir:REG1404S7P a sh:NodeShape, sdir:Requirement;
+sdir:REG1404S7P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§7";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
 
-sdir:REG1404S8P a sh:NodeShape, sdir:Requirement;
+sdir:REG1404S8P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§8";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
 
-sdir:REG1404S22P a sh:NodeShape, sdir:Requirement;
+sdir:REG1404S22P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§22";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
 
-sdir:REG1404S23P a sh:NodeShape, sdir:Requirement;
+sdir:REG1404S23P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
-    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15 .
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50 .
 
-sdir:REG1404S24P a sh:NodeShape, sdir:Requirement;
+sdir:REG1404S24P5 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§24";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
-    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
-    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15 .
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
 
-sdir:REG1404S15P a sh:NodeShape, sdir:Requirement;
+sdir:REG1404S7P1 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§7";
+  sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+
+sdir:REG1404S8P1 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§8";
+  sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+
+sdir:REG1404S15P4 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§15";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
     scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15 .
 
-sdir:REG1404S16P a sh:NodeShape, sdir:Requirement;
+sdir:REG1404S22P1 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§22";
+  sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+
+sdir:REG1404S23P1 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23";
+  sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50 .
+
+sdir:REG1404S23P4 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23";
+  sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50 .
+
+sdir:REG1404S24P1 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§24";
+  sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15 .
+
+sdir:REG1404S16P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§16";
   sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
     scope:PS_minLOA_6_maxLOA_15 .
 
-sdir:REG1404S10P a sh:NodeShape, sdir:Requirement;
+sdir:REG1404S10P10 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§10";
   sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
     scope:PS_minLOA_6_maxLOA_15 .
+
+sdir:REG1404S15P1 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§15";
+  sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
+    scope:PS_minLOA_6_maxLOA_15 .
+
+sdir:REG1404S16P1 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§16";
+  sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
+    scope:PS_minLOA_6_maxLOA_15 .
+
+sdir:REG1404S23P3 a sh:NodeShape, sdir:Requirement;
+  sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23";
+  sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
+    scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50 .

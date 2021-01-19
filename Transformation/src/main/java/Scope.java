@@ -84,6 +84,38 @@ public class Scope {
         scopeModel.addAll(model);
     }
 
+    public static void machinePowerScope(String filename) throws IOException {
+        String[] content = fileContentSplitByComma(filename);
+
+        Model model = new LinkedHashModel();
+
+        for (int i = 0; i < content.length; i++) {
+            if (content[i].equals("more than")) {
+                String value = content[i+1];
+                IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + "PS_MP_min_" + value);
+                createValueScope(model, value, subject,
+                        SHACL.MIN_INCLUSIVE,
+                        "Virkeområde maskinkraft mer enn " + value + " V.",
+                        "Scope of machine power more than " + value + " V.",
+                        Vocabulary.vf.createIRI(Utils.NS_UNIT + "V"));
+
+                addRequirement(fileContentSplitByLine(filename), subject);
+            }
+            if (content[i].equals("up to")) {
+                String value = content[i+1];
+                IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + "PS_MP_max_" + value);
+                createValueScope(model, value, subject,
+                        SHACL.MAX_EXCLUSIVE,
+                        "Virkeområde maskinkraft opp til " + value + " V.",
+                        "Scope of machine power up to " + value + " V.",
+                        Vocabulary.vf.createIRI(Utils.NS_UNIT + "V"));
+
+                addRequirement(fileContentSplitByLine(filename), subject);
+            }
+        }
+        scopeModel.addAll(model);
+    }
+
     private static LocalDate getLocalDate(String dateStr) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d MMMM yyyy", Locale.ENGLISH);
         return LocalDate.parse(dateStr, formatter);
@@ -126,11 +158,11 @@ public class Scope {
             String[] tmp = s.split(",");
             sectionNumber = tmp[0];
 
-            if (!data[1].contains("none")) {
-                partNumber = data[1];
+            if (!tmp[1].contains("none")) {
+                partNumber = tmp[1];
             }
-            if (!data[2].contains("none")) {
-                subPartNumber = data[2];
+            if (!tmp[2].contains("none")) {
+                subPartNumber = tmp[2];
             }
 
             // TODO: Update regulation no. in a more generic way.
@@ -143,7 +175,6 @@ public class Scope {
             else {
                 subject = Vocabulary.vf.createIRI(Vocabulary.NS + "REG1404" + "S" + sectionNumber + "P" + partNumber);
             }
-
 
             model.add(subject, RDF.TYPE, SHACL.NODE_SHAPE);
             model.add(subject, RDF.TYPE, Vocabulary.Requirement);

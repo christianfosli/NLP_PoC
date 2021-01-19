@@ -62,3 +62,15 @@ scope:PS_minLOA_6_maxLOA_15 a sh:PropertyShape, scope:Scope;
   sh:minInclusive "6";
   sh:maxExclusive "15";
   sh:datatype unit:M .
+
+scope:PS_MP_min_50 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde maskinkraft mer enn 50 V."@no, "Scope of machine power more than 50 V."@en;
+  sh:path sdir:builtDate;
+  sh:minInclusive "50";
+  sh:datatype unit:V .
+
+scope:PS_MP_max_50 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde maskinkraft opp til 50 V."@no, "Scope of machine power up to 50 V."@en;
+  sh:path sdir:builtDate;
+  sh:maxExclusive "50";
+  sh:datatype unit:V .
