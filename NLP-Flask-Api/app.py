@@ -5,6 +5,7 @@ from identify_section_span import list_section_span_from_file_lines
 
 app = Flask(__name__)
 
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1130954877/healthz
 @app.route('/healthz')
 def health():
     return "ok"
@@ -21,6 +22,7 @@ def health():
 #    result_in_a_list = identify_date_in_text(escaped_input_text)
 #    return { "spacy-ner-tags-as-json": result_in_a_list}
 
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1127743570/identify-date-in-spacy-lines
 @app.route("/identify-date-in-spacy-lines", methods=["POST"])
 def post_identify_date_in_spacy_lines():
     input_spacy_lines_as_json = request.json
@@ -28,6 +30,7 @@ def post_identify_date_in_spacy_lines():
     result_in_a_list = identify_date_in_spacy_lines(input_spacy_lines)
     return jsonify({"spacy-lines-as-json": result_in_a_list})
 
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1144291329/identify-section-span-in-chapter-text
 @app.route("/identify-section-span-in-chapter-text", methods=["POST"])
 def post_identify_section_span_in_chapter_text():
     input_chapter_text_as_json = request.json
