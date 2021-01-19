@@ -9,10 +9,11 @@ public class Main {
 
         Utils.csvToXlxs("src/main/resources/input.csv", "../OTTR/test.xlsx");
 
-        Scope.builtDateScope("../NLP Python Jupyter Notebooks/Get scope - Built date/V2 - output - Get scope - Built date.csv");
-        Scope.vesselLengthScope("../NLP Python Jupyter Notebooks/Get scope - Vessel length overall/V2 - output - Get scope - Vessel length overall.csv");
+        Scope.builtDateScope(Utils.SCOPE_FILE_BUILT_DATE);
+        Scope.vesselLengthScope(Utils.SCOPE_FILE_VESSEL_LENGTH_OVERALL);
 
         Scope.writeScopeModelToFile();
+        Scope.writeRequirementModelToFile();
 
         /*
         String err = runLutra();

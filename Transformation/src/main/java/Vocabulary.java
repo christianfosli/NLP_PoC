@@ -9,5 +9,8 @@ public class Vocabulary {
     public static final String NS_SCOPE = "https://www.sdir.no/SDIR_Simulator/shapes/scope#";
 
     public static final IRI Scope = vf.createIRI(NS_SCOPE + "Scope");
+    public static final IRI Requirement = vf.createIRI(NS + "Requirement");
     public static final IRI builtDate = vf.createIRI(NS + "builtDate");
+    public static final IRI regulationReference = vf.createIRI(NS + "regulationReference");
+    public static final IRI eliReference = vf.createIRI(NS + "eliReference");
 }

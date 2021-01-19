@@ -39,26 +39,26 @@ scope:PS_BuiltDate_a20020101 a sh:PropertyShape, scope:Scope;
 scope:PS_maxLOA_10 a sh:PropertyShape, scope:Scope;
   sh:description "Virkeområde største lengde 10.67"@no, "Scope of length overall 10.67"@en;
   sh:path sdir:builtDate;
-  sh:maxExclusive 1.067E1;
+  sh:maxExclusive "10.67";
   sh:datatype unit:M .
 
 scope:PS_minLOA_8_maxLOA_15 a sh:PropertyShape, scope:Scope;
   sh:description "Virkeområde største lengde mellom 8 og 15."@no, "Scope of length overall between 8 and 15."@en;
   sh:path sdir:builtDate;
-  sh:minInclusive 8.0E0;
-  sh:maxExclusive 1.5E1;
+  sh:minInclusive "8";
+  sh:maxExclusive "15";
   sh:datatype unit:M .
 
 scope:PS_minLOA_10_maxLOA_15 a sh:PropertyShape, scope:Scope;
   sh:description "Virkeområde største lengde mellom 10.67 og 15."@no, "Scope of length overall between 10.67 and 15."@en;
   sh:path sdir:builtDate;
-  sh:minInclusive 1.067E1;
-  sh:maxExclusive 1.5E1;
+  sh:minInclusive "10.67";
+  sh:maxExclusive "15";
   sh:datatype unit:M .
 
 scope:PS_minLOA_6_maxLOA_15 a sh:PropertyShape, scope:Scope;
   sh:description "Virkeområde største lengde mellom 6 og 15."@no, "Scope of length overall between 6 and 15."@en;
   sh:path sdir:builtDate;
-  sh:minInclusive 6.0E0;
-  sh:maxExclusive 1.5E1;
+  sh:minInclusive "6";
+  sh:maxExclusive "15";
   sh:datatype unit:M .
