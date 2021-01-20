@@ -1,9 +1,5 @@
 from nltk.tokenize import word_tokenize
 
-def text_file_to_list_of_lines(file_path):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        return f.readlines()
-
 def does_the_string_contain_any_numbers(inputString):
     return any(char.isdigit() for char in inputString)
 
