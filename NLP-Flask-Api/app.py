@@ -62,7 +62,7 @@ def post_identify_sentence_type_in_chapter_text():
         response_converted_to_json.append(data)
     return jsonify({"identified_sentence_type": response_converted_to_json})
 
-# Documentation: 
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1145896992/identify-chapter-and-section-in-chapter-text
 @app.route("/identify-chapter-and-section-in-chapter-text", methods=["POST"])
 def post_identify_chapter_and_section_in_chapter_text():
     input_chapter_text_as_json = request.json
