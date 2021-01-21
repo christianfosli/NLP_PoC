@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify
-#from identify_date import identify_date_in_text
 from identify_date import identify_date_in_spacy_lines
 from identify_section_span import list_section_span_from_file_lines
 from identify_sentence_type import list_sentence_type_from_file_lines
 from identify_chapter_and_section import list_chapter_and_section_from_text_lines
+from identify_build_date import find_word
 
 app = Flask(__name__)
 
@@ -77,6 +77,42 @@ def post_identify_chapter_and_section_in_chapter_text():
         data['sentence_type_text'] = item[3]
         response_converted_to_json.append(data)
     return jsonify({"identified_sentence_type": response_converted_to_json})
+
+# Documentation: 
+@app.route("/identify-build-date-in-chapter-text", methods=["POST"])
+def post_identify_build_date_in_chapter_text():
+    input_chapter_text_as_json = request.json
+    input_chapter_text_in_a_list = input_chapter_text_as_json['chapter_text_in_a_list']
+
+    # help from other components
+    forward_identify_section_span = list_section_span_from_file_lines(input_chapter_text_in_a_list)
+    forward_sentence_type_in_a_list = list_sentence_type_from_file_lines(input_chapter_text_in_a_list)
+
+    # component identify_build_date
+    find_before = find_word(input_chapter_text_in_a_list,forward_sentence_type_in_a_list,forward_identify_section_span,"before")
+    find_after = find_word(input_chapter_text_in_a_list,forward_sentence_type_in_a_list,forward_identify_section_span,"after")
+
+    response_converted_to_json = []
+
+    for result_item in find_before:
+        data = {}
+        data['section_number'] = result_item[0]
+        data['part_value'] = result_item[1]
+        data['sub_part_value'] = result_item[2]
+        data['relation_term'] = result_item[3]
+        data['date'] = result_item[4]
+        response_converted_to_json.append(data)
+
+    for result_item in find_after:
+        data = {}
+        data['section_number'] = result_item[0]
+        data['part_value'] = result_item[1]
+        data['sub_part_value'] = result_item[2]
+        data['relation_term'] = result_item[3]
+        data['date'] = result_item[4]
+        response_converted_to_json.append(data)
+
+    return jsonify({"identified_build_date": response_converted_to_json})
 
 if __name__ == '__main__':
     #app.run()
