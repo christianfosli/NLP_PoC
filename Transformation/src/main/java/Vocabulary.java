@@ -13,4 +13,5 @@ public class Vocabulary {
     public static final IRI builtDate = vf.createIRI(NS + "builtDate");
     public static final IRI regulationReference = vf.createIRI(NS + "regulationReference");
     public static final IRI eliReference = vf.createIRI(NS + "eliReference");
+    public static final IRI theme = vf.createIRI(NS + "theme");
 }

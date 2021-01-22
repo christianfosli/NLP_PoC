@@ -12,7 +12,7 @@ sdir:FOR1404P19  a                sh:NodeShape , sdir:Requirement ;
         sdir:theme                "Fire, machinery and electric installations"@en , "Brann, maskineri og elektro"@no .
 
 scope:PS_FishingVessel
-        a               sdir:Scope , sh:PropertyShape ;
-        sh:description  "Virkeområde fiskefartøy."@no , "Scope of fishing vessels."@en ;
+        a               sdir:GraphGenerator , sh:PropertyShape ;
+        sh:description  "Virkeområde fiskefartøy."@no , "GraphGenerator of fishing vessels."@en ;
         sh:hasValue     scope:FishingVessel ;
         sh:path         sdir:vesselType .

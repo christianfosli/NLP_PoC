@@ -9,12 +9,12 @@ public class Main {
 
         Utils.csvToXlxs("src/main/resources/input.csv", "../OTTR/test.xlsx");
 
-        Scope.builtDateScope(Utils.SCOPE_FILE_BUILT_DATE);
-        Scope.vesselLengthScope(Utils.SCOPE_FILE_VESSEL_LENGTH_OVERALL);
-        Scope.machinePowerScope(Utils.SCOPE_FILE_MACHINE_POWER);
+        GraphGenerator.builtDateScope(Utils.SCOPE_FILE_BUILT_DATE);
+        GraphGenerator.vesselLengthScope(Utils.SCOPE_FILE_VESSEL_LENGTH_OVERALL);
+        GraphGenerator.machinePowerScope(Utils.SCOPE_FILE_MACHINE_POWER);
 
-        Scope.writeScopeModelToFile();
-        Scope.writeRequirementModelToFile();
+        GraphGenerator.writeScopeModelToFile();
+        GraphGenerator.writeRequirementModelToFile();
 
         /*
         String err = runLutra();

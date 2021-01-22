@@ -27,6 +27,7 @@ public class Utils {
     public static final String SCOPE_FILE_BUILT_DATE = ROOT_DIR + "Get scope - Built date/V2 - output - Get scope - Built date.csv";
     public static final String SCOPE_FILE_MACHINE_POWER = ROOT_DIR + "Get scope - Machine power/V2 - output - Get scope - Machine power.csv";
     public static final String SCOPE_FILE_VESSEL_LENGTH_OVERALL = ROOT_DIR +"Get scope - Vessel length overall/V2 - output - Get scope - Vessel length overall.csv";
+    public static final String FILE_SECTION_HEADER = ROOT_DIR + "Get chapter and section name from chapter text/output - Get chapter and section name from chapter text.csv";
 
     public static final String NS_UNIT = "http://qudt.org/vocab/unit/";
 
@@ -34,6 +35,27 @@ public class Utils {
         StringBuilder sb = new StringBuilder();
         Files.lines(Paths.get(filename)).forEach(s -> sb.append(s).append("\n"));
         return sb.toString();
+    }
+
+    public static String[] fileContentSplitByComma(String filename) throws IOException {
+        String content = readFromFile(filename);
+        String[] splitLine = content.split("\n");
+
+        StringBuilder tmp = new StringBuilder();
+
+        for (int i = 0; i < splitLine.length; i++) {
+            if (i == splitLine.length-1) {
+                tmp.append(splitLine[i]);
+            } else {
+                tmp.append(splitLine[i]).append(",");
+            }
+        }
+        return tmp.toString().split(",");
+    }
+
+    public static String[] fileContentSplitByLine(String filename) throws IOException {
+        String content = readFromFile(filename);
+        return content.split("\n");
     }
 
     public static Model initModel() {

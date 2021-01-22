@@ -1,6 +1,6 @@
-o-sdir:Scope[! sh:PropertyShape ?shape, ! ?path] :: {
+o-sdir:GraphGenerator[! sh:PropertyShape ?shape, ! ?path] :: {
     o-sh:PropertyShape(?shape, ?path),
-    ottr:Triple(?shape, rdf:type, sdir:Scope)
+    ottr:Triple(?shape, rdf:type, sdir:GraphGenerator)
 } .
 
 o-sdir:Requirement[

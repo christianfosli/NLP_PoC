@@ -9,89 +9,123 @@
 sdir:REG1404S7P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§7";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
-    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101;
+  rdfs:label "Scope of application of this chapter"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S8P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§8";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
-    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101;
+  rdfs:label "Fire safety"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S22P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§22";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
-    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101;
+  rdfs:label "Machinery and piping systems"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S23P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
-    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50 .
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50;
+  rdfs:label "Electrical installations"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S24P5 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§24";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
-    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101;
+  rdfs:label "Emergency source of power and emergency lighting , etc ."@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S7P1 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§7";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
-    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101;
+  rdfs:label "Scope of application of this chapter"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S8P1 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§8";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
-    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101;
+  rdfs:label "Fire safety"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S15P4 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§15";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
-    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15 .
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15;
+  rdfs:label "Fire-extinguishing systems in machinery spaces"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S22P1 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§22";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
-    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101 .
+    scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101;
+  rdfs:label "Machinery and piping systems"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S23P1 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
-    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50 .
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50;
+  rdfs:label "Electrical installations"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S23P4 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
-    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50 .
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50;
+  rdfs:label "Electrical installations"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S24P1 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§24";
   sh:property scope:PS_BuiltDate_b19880102, scope:PS_BuiltDate_b19920101, scope:PS_BuiltDate_a19880102,
     scope:PS_BuiltDate_a19920101, scope:PS_BuiltDate_a20020101, scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15,
-    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15 .
+    scope:PS_minLOA_10_maxLOA_15, scope:PS_minLOA_6_maxLOA_15;
+  rdfs:label "Emergency source of power and emergency lighting , etc ."@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S16P2 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§16";
   sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
-    scope:PS_minLOA_6_maxLOA_15 .
+    scope:PS_minLOA_6_maxLOA_15;
+  rdfs:label "Fire detection and alarm system"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S10P10 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§10";
   sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
-    scope:PS_minLOA_6_maxLOA_15 .
+    scope:PS_minLOA_6_maxLOA_15;
+  rdfs:label "Installation , etc . of oilfired stove"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S15P1 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§15";
   sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
-    scope:PS_minLOA_6_maxLOA_15 .
+    scope:PS_minLOA_6_maxLOA_15;
+  rdfs:label "Fire-extinguishing systems in machinery spaces"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S16P1 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§16";
   sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
-    scope:PS_minLOA_6_maxLOA_15 .
+    scope:PS_minLOA_6_maxLOA_15;
+  rdfs:label "Fire detection and alarm system"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .
 
 sdir:REG1404S23P3 a sh:NodeShape, sdir:Requirement;
   sdir:regulationReference "https://lovdata.no/forskrift/2013-11-22-1404/§23";
   sh:property scope:PS_maxLOA_10, scope:PS_minLOA_8_maxLOA_15, scope:PS_minLOA_10_maxLOA_15,
-    scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50 .
+    scope:PS_minLOA_6_maxLOA_15, scope:PS_MP_min_50, scope:PS_MP_max_50;
+  rdfs:label "Electrical installations"@en;
+  sdir:theme "Fire , machinery and electric installations"@en .

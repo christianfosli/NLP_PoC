@@ -10,8 +10,8 @@
 @prefix scope: <https://www.sdir.no/SDIR_Simulator/shapes/scope#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
-o-sdir:Scope(scope:PS_FishingVessel, sdir:vesselType) .
-o-sh:Description(scope:PS_FishingVessel, ("Virkeområde fiskefartøy."@no, "Scope of fishing vessels."@en)) .
+o-sdir:GraphGenerator(scope:PS_FishingVessel, sdir:vesselType) .
+o-sh:Description(scope:PS_FishingVessel, ("Virkeområde fiskefartøy."@no, "GraphGenerator of fishing vessels."@en)) .
 o-sh:HasValue(scope:PS_FishingVessel, scope:FishingVessel) .
 
 
