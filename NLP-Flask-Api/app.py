@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-from identify_date import identify_date_in_spacy_lines
 from identify_section_span import list_section_span_from_file_lines
 from identify_sentence_type import list_sentence_type_from_file_lines
 from identify_chapter_and_section import list_chapter_and_section_from_text_lines
@@ -24,13 +23,15 @@ def health():
 #    result_in_a_list = identify_date_in_text(escaped_input_text)
 #    return { "spacy-ner-tags-as-json": result_in_a_list}
 
-# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1127743570/identify-date-in-spacy-lines
-@app.route("/identify-date-in-spacy-lines", methods=["POST"])
-def post_identify_date_in_spacy_lines():
-    input_spacy_lines_as_json = request.json
-    input_spacy_lines = input_spacy_lines_as_json['spacy-lines-as-json']
-    result_in_a_list = identify_date_in_spacy_lines(input_spacy_lines)
-    return jsonify({"spacy-lines-as-json": result_in_a_list})
+# TODO: Remove later
+# Removing this because spacy lines will only be used internally in the API
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1127743570/identify-date-in-spacy-lines <-- Have removed this.
+#@app.route("/identify-date-in-spacy-lines", methods=["POST"])
+#def post_identify_date_in_spacy_lines():
+#    input_spacy_lines_as_json = request.json
+#    input_spacy_lines = input_spacy_lines_as_json['spacy-lines-as-json']
+#    result_in_a_list = identify_date_in_spacy_lines(input_spacy_lines)
+#    return jsonify({"spacy-lines-as-json": result_in_a_list})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1144291329/identify-section-span-in-chapter-text
 @app.route("/identify-section-span-in-chapter-text", methods=["POST"])
