@@ -1,3 +1,14 @@
+def transform_chapter_from_text_service_to_spacy_format(chapter_from_text_service):
+    text_in_spacy_format = []
+    for section_item in chapter_from_text_service['sections']:    
+        for subsection_item in section_item['subsections']:
+            for sentence_item in subsection_item['sentences']:
+                text_in_spacy_format.append({
+                    'text': sentence_item['content'],
+                    'ents': [],
+                    'title': sentence_item['url']})
+    return text_in_spacy_format
+
 def get_data_from_text_service_item_url(url):
     
     url_split_in_list = url.split('/')
