@@ -24,6 +24,15 @@ def identify_length_overall_in_text(text):
 
     matcher.add("LENGTH", None, length_pattern)
 
+    length_prefix_pattern_1 = [
+        {"LOWER": {"IN": ["mindre"]}},
+        {"LOWER": {"IN": ["enn"]}}]
+
+    length_prefix_pattern_2 = [
+        {"LOWER": {"IN": ["under"]}}]
+
+    matcher.add("LENGTH_PREFIX", None, length_prefix_pattern_1, length_prefix_pattern_2)
+
     result = []
 
     for match_id, token_start, token_end in matcher(doc):
@@ -55,7 +64,10 @@ def identify_length_overall_in_text(text):
         identified_entity = {'start': span_char_start, 'end': span_char_end, 'label': match_id_as_string}
         result.append(identified_entity)
 
-    return result
+    if any("LENGTH" == x['label'] for x in result):
+        return result
+    else:
+        return []
 
 def merge_spacy_entity_results_to_spacy_ner_format(spacy_ner_formated_text_line,spacy_ner_entities_to_be_merged_in_as_a_list):
 
