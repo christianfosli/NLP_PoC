@@ -2,6 +2,15 @@ import spacy
 from spacy.lang.nb import Norwegian
 from spacy.matcher import Matcher
 
+def is_float(n):
+    try:
+        support_float_with_norwegian_format = n.replace(',','.')
+        float_n = float(support_float_with_norwegian_format)
+    except ValueError:
+        return False
+    else:
+        return True
+
 def identify_length_overall_in_text(text):
     nlp = Norwegian()
 
@@ -9,29 +18,41 @@ def identify_length_overall_in_text(text):
 
     matcher = Matcher(nlp.vocab)
 
-    matcher = Matcher(nlp.vocab)
-
-    length_overall_pattern = [{"TEXT": {"REGEX": "[0-9]+[,]+[0-9]|[0-9]"}},
-    {"LOWER": {"IN": ["og","til"]}},
+    length_pattern = [
     {"TEXT": {"REGEX": "[0-9]+[,]+[0-9]|[0-9]"}},
     {"LOWER": {"IN": ["meter"]}}]
 
-    matcher.add("LENGTH_OVERALL", None, length_overall_pattern)
+    matcher.add("LENGTH", None, length_pattern)
 
     result = []
 
     for match_id, token_start, token_end in matcher(doc):
 
+        match_id_as_string = nlp.vocab.strings[match_id]
+
+        final_token_start = token_start
+        final_token_end = token_end
+
+        #
+        # Expand result if extra length detected in the words before in the line
+        #
+        if match_id_as_string == "LENGTH" and token_start > 0:
+            prev_token_1 = doc[token_start-1].text
+            if prev_token_1 in ("og", "til"):
+                prev_token_2 = doc[token_start-2].text
+                if is_float(prev_token_2):
+                    final_token_start = token_start-2
+
+        #
         # convert token_span to char_span.
-        # char_span is needed to display correctly with displacy.render().
-        span = doc[token_start:token_end]
+        # char_span is needed to display correctly withdisplacy.render().
+        #
+        span = doc[final_token_start:final_token_end]
         span_char_start = span[0].idx
         span_char_end = span[-1].idx + len(span[-1].text)
 
-        match_id_as_string = nlp.vocab.strings[match_id]
-
+        # return result
         identified_entity = {'start': span_char_start, 'end': span_char_end, 'label': match_id_as_string}
-
         result.append(identified_entity)
 
     return result
