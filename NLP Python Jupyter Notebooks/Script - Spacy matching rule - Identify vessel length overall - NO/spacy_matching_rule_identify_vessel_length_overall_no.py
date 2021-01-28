@@ -18,11 +18,19 @@ def identify_length_overall_in_text(text):
 
     matcher = Matcher(nlp.vocab)
 
+    #
+    # START - spaCy patterns
+    #
+
+    # LENGTH
+
     length_pattern = [
-    {"TEXT": {"REGEX": "[0-9]+[,]+[0-9]|[0-9]"}},
-    {"LOWER": {"IN": ["meter"]}}]
+        {"TEXT": {"REGEX": "[0-9]+[,]+[0-9]|[0-9]"}},
+        {"LOWER": {"IN": ["meter"]}}]
 
     matcher.add("LENGTH", None, length_pattern)
+
+    # LENGTH_PREFIX
 
     length_prefix_pattern_1 = [
         {"LOWER": {"IN": ["mindre"]}},
@@ -32,6 +40,17 @@ def identify_length_overall_in_text(text):
         {"LOWER": {"IN": ["under"]}}]
 
     matcher.add("LENGTH_PREFIX", None, length_prefix_pattern_1, length_prefix_pattern_2)
+
+    # WATER_VESSEL
+
+    water_vessel_pattern = [
+        {"LOWER": {"IN": ["fartøy"]}}]
+
+    matcher.add("WATER_VESSEL", None, water_vessel_pattern)
+
+    #
+    # END - spaCy patterns
+    #
 
     result = []
 
@@ -64,10 +83,7 @@ def identify_length_overall_in_text(text):
         identified_entity = {'start': span_char_start, 'end': span_char_end, 'label': match_id_as_string}
         result.append(identified_entity)
 
-    if any("LENGTH" == x['label'] for x in result):
-        return result
-    else:
-        return []
+    return result
 
 def merge_spacy_entity_results_to_spacy_ner_format(spacy_ner_formated_text_line,spacy_ner_entities_to_be_merged_in_as_a_list):
 
