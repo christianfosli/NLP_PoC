@@ -1,58 +1,45 @@
 def transform_chapter_from_text_service_to_spacy_format(chapter_from_text_service):
     text_in_spacy_format = []
     for section_item in chapter_from_text_service['sections']:    
-        for subsection_item in section_item['subsections']:
-            for sentence_item in subsection_item['sentences']:
+        for part_item in section_item['parts']: # before: subsections
+            text_in_spacy_format.append({
+                'text': part_item['content'],
+                'ents': [],
+                'title': part_item['url']})
+            for subpart_item in part_item['subparts']: # before: sentences
                 text_in_spacy_format.append({
-                    'text': sentence_item['content'],
+                    'text': subpart_item['content'],
                     'ents': [],
-                    'title': sentence_item['url']})
+                    'title': subpart_item['url']})
     return text_in_spacy_format
 
+# this url reader will support both absolute and relative url's.
+# Example 1: http://sdir-d-aks-core.norwayeast.cloudapp.azure.com/regulation/2013/11/22/1404/chapter/3/section/24/part/2/subpart/1
+# Example 2: /regulation/2013/11/22/1404/chapter/3/section/24/part/2/subpart/1
 def get_data_from_text_service_item_url(url):
     
-    url_split_in_list = url.split('/')
-    url_split_length = len(url_split_in_list) - 1
-
     data = {}
 
-    if url_split_length < 3:
-        return data
+    url_split_in_list = url.split('/')
 
-    data['api_domain'] = url_split_in_list[2] # sdir-d-aks-core.norwayeast.cloudapp.azure.com
-    data['api_version'] = url_split_in_list[3] # v1
-
-    if url_split_length < 8:
-        return data
-
-    data['regularion_variable_name'] = url_split_in_list[4] # regulations
-    data['regularion_year'] = url_split_in_list[5] # 2013
-    data['regularion_month'] = url_split_in_list[6] # 11
-    data['regularion_day'] = url_split_in_list[7] # 22
-    data['regularion_id'] = url_split_in_list[8] # 1404
-
-    if url_split_length < 10:
-        return data
-
-    data['chapter_variable_name'] = url_split_in_list[9] # chapters
-    data['chapter_number'] = url_split_in_list[10] # 3
-
-    if url_split_length < 12:
-        return data
-
-    data['section_variable_name'] = url_split_in_list[11] # sections
-    data['section_number'] = url_split_in_list[12] # 15
-
-    if url_split_length < 14:
-        return data
-
-    data['part_variable_name'] = url_split_in_list[13] # subsections
-    data['part_number'] = url_split_in_list[14] # 1
-
-    if url_split_length < 16:
-        return data
-
-    data['sub_part_variable_name'] = url_split_in_list[15] # sentences
-    data['sub_part_number'] = url_split_in_list[16] # 2
+    for split_index_number, split in enumerate(url_split_in_list):
+        if not "regularion_year" in data:
+            if split == "regulation": # before: regulations
+                data['regularion_year'] = url_split_in_list[split_index_number+1] # 2013
+                data['regularion_month'] = url_split_in_list[split_index_number+2] # 11
+                data['regularion_day'] = url_split_in_list[split_index_number+3] # 22
+                data['regularion_id'] = url_split_in_list[split_index_number+4] # 1404
+        elif not "chapter_number" in data:
+            if split == "chapter": # before: chapters
+                data['chapter_number'] = url_split_in_list[split_index_number+1] # 3
+        elif not "section_number" in data:
+            if split == "section": # before: sections
+                data['section_number'] = url_split_in_list[split_index_number+1] # 15
+        elif not "part_number" in data:
+            if split == "part": # before: subsections
+                data['part_number'] = url_split_in_list[split_index_number+1] # 1
+        elif not "sub_part_number" in data:
+            if split == "subpart": # before: sentences
+                data['sub_part_number'] = url_split_in_list[split_index_number+1] # 1
 
     return data
