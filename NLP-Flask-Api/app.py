@@ -3,6 +3,9 @@ from identify_section_span import list_section_span_from_file_lines
 from identify_sentence_type import list_sentence_type_from_file_lines
 from identify_chapter_and_section import list_chapter_and_section_from_text_lines
 from identify_build_date import find_word
+from transform_text_service_input_to_spacy_format import transform_chapter_from_text_service_to_spacy_format
+from spacy_matching_rule_identify_vessel_length_overall_no import identify_length_overall_in_spacy_lines
+from api_controller_identify_vessel_length_overall import create_api_response_for_post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input
 
 app = Flask(__name__)
 
@@ -114,6 +117,16 @@ def post_identify_build_date_in_chapter_text():
         response_converted_to_json.append(data)
 
     return jsonify({"identified_build_date": response_converted_to_json})
+
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1172897823/identify-vessel-length-overall-in-text-service-norwegian-chapter-input
+@app.route("/identify-vessel-length-overall-in-text-service-norwegian-chapter-input", methods=["POST"])
+def post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input():
+    input_chapter_text_as_json_in_text_service_format = request.json
+    forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
+    forward_result_with_length_overall = identify_length_overall_in_spacy_lines(forward_text_transformed_to_spacy_format)
+    forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_length_overall if any("LENGTH" == x['label'] for x in spacy_line['ents']) and any("WATER_VESSEL" == x['label'] for x in spacy_line['ents'])]
+    forward_api_response = create_api_response_for_post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input(forward_filtered_result_with_only_the_things_we_are_looking_for)
+    return jsonify({"identified_vessel_length_overall": forward_api_response})
 
 if __name__ == '__main__':
     #app.run()
