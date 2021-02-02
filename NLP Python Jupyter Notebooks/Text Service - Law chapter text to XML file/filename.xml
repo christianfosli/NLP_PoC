@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<root>
-	<doc>
-		<DocChild_1>DocChild_1 content</DocChild_1>
-	</doc>
-</root>
+<dokument>
+	<tekst>
+		<tittel>Regulation_Title</tittel>
+	</tekst>
+</dokument>
