@@ -2,5 +2,65 @@
 <dokument>
 	<tekst>
 		<tittel>Regulation_Title</tittel>
+		<kapittel type="kapittel" id="/kapittel/3">
+			<ktittel>3. Fire, machinery and electric installations</ktittel>
+			<paragraf>
+				<ptittel>Section 7. Scope of application of this chapter</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 8. Fire safety</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 9. Oil-fired stoves</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 10. Installation, etc. of oilfired stove</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 11. Insulation of fireplaces, etc.</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 12. Smoke uptake and exhaust pipes</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 13. Insulation with non-combustible material</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 14. Insulation of machinery spaces in wooden vessels</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 15. Fire-extinguishing systems in machinery spaces</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 16. Fire detection and alarm system</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 17. Fire extinguishers</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 18. Ventilation systems</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 19. Materials, etc.</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 20. Storage of oil fuel and other flammable liquids</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 21. Materials in pipelines, etc.</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 22.  Machinery and piping systems</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 23. Electrical installations</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 24. Emergency source of power and emergency lighting, etc.</ptittel>
+			</paragraf>
+			<paragraf>
+				<ptittel>Section 25. Equivalents</ptittel>
+			</paragraf>
+		</kapittel>
 	</tekst>
 </dokument>
