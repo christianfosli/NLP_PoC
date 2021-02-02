@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--dokument is the root node-->
+<!--xmlns is only useful if you're using it-->
+<dokument
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="https://lovdata.no/regelverk"
+  id="for-2013-11-22-1404"
+  type="for"
+  url="https://lovdata.no/forskrift/2013-11-22-1404">
+  <!--Not processing any metadata at the moment-->
+  <metadata>
+  </metadata>
+  <!--tekst node is optional-->
+  <tekst>
+    <tittel>Regulation_Title</tittel>
+
+    <!--id & url are imported as referenceid & referenceurl without any change-->
+    <kapittel type="kapittel" id="/kapittel/1" url="https://lovdata.no/forskrift/2013-11-22-1404/k1">
+      <ktittel>Chapter_Title</ktittel>
+
+      <!--Section-->
+      <paragraf id="/kapittel/1/paragraf/1" url="https://lovdata.no/forskrift/2013-11-22-1404/k1/p1">
+        <ptittel>Section_Title</ptittel>
+
+        <!--Part-->
+        <ledd id="/kapittel/1/paragraf/1/ledd/1">
+          Part Content
+          <!--Part can content other text nodes, data will be combined as text-->
+
+          <!--Subpart-->
+          <liste id="/kapittel/1/paragraf/1/ledd/1/liste/a">
+            <lverdi>a)</lverdi>
+            <avsnitt id="/kapittel/1/paragraf/1/ledd/1/liste/a/avsnitt/1">
+              Subpart Content
+            </avsnitt>
+          </liste>
+          <liste id="/kapittel/1/paragraf/1/ledd/1/liste/b">
+            <lverdi>b)</lverdi>
+            <avsnitt id="/kapittel/1/paragraf/1/ledd/1/liste/b/avsnitt/1">
+              Subpart Content
+            </avsnitt>
+          </liste>
+        </ledd>
+
+        <!--Table is imported as Html, hence all Html tags, attributes are imported without any convertion-->
+        <!--Following table structure used in Lovdata, is also accepted-->
+        <table>
+          <thgroup>
+            <tbody>
+              <row>
+                <entry>Column_Header</entry>
+                <entry>Column_Header</entry>
+              </row>
+            </tbody>
+          </thgroup>
+          <tgroup>
+            <tbody>
+              <row>
+                <entry>Cell_Value</entry>
+                <entry>Cell_Value</entry>
+                <entry>Cell_Value</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <!--Following is an example of Html table-->
+        <table>
+          <tr>
+            <th>Header1</th>
+            <th colspan="2">Header2</th>
+          </tr>
+          <tr>
+            <td>Content</td>
+            <td>Content</td>
+            <td>Content</td>
+          </tr>
+        </table>
+      </paragraf>
+    </kapittel>
+
+    <!--Attachment is also chapter but the type should be vedlegg-->
+    <kapittel type="vedlegg" id="/vedlegg/1" url="https://lovdata.no/forskrift/2013-11-22-1404/v1">
+      <kverdi>Vedlegg 1</kverdi>
+      <ktittel>Vedlegg_Title</ktittel>
+
+      <!--Attachment can content part & subpart-->
+      <!--Attachment content is converted to html, so any html tag is supported-->
+      <ledd id="/vedlegg/1/ledd/1">
+
+        <liste id="/vedlegg/1/ledd/1/liste/1">
+          <lverdi>1.</lverdi>
+          <avsnitt id="/vedlegg/1/ledd/1/liste/1/avsnitt/1">
+            Text
+          </avsnitt>
+
+          <!--Subpart can contain reference of image or other files-->
+          <avsnitt id="/vedlegg/1/ledd/1/liste/1/avsnitt/2">
+            <img src="sf-20131122-1404-v9-01-01.png" alt="ikon"/>
+            <ref id="sf-20131122-1404-v7-02-01.pdf">
+              <img src="pdf.gif" alt="ikon"/>
+            </ref>
+          </avsnitt>
+
+          <!--Part can have nested part-->
+          <liste id="/vedlegg/1/ledd/1/liste/1.b">
+            <lverdi>a.</lverdi>
+            <avsnitt id="/vedlegg/1/ledd/1/liste/1.b/avsnitt/1">
+              Content
+            </avsnitt>
+          </liste>
+        </liste>
+      </ledd>
+
+      <!--Attachment can also content table-->
+      <table>
+        <thgroup>
+          <tbody>
+            <row>
+              <entry>Column_Header</entry>
+              <entry>Column_Header</entry>
+            </row>
+          </tbody>
+        </thgroup>
+        <tgroup>
+          <tbody>
+            <row>
+              <entry>Cell_Value</entry>
+              <entry>Cell_Value</entry>
+              <entry>Cell_Value</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </kapittel>
+  </tekst>
+</dokument>
