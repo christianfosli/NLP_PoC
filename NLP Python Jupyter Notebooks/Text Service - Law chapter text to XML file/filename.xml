@@ -9,6 +9,7 @@
 				<ledd id="/kapittel/3/paragraf/7/ledd/1">(1) This chapter applies to vessels constructed after 2 January 1988.</ledd>
 				<ledd id="/kapittel/3/paragraf/7/ledd/2">(2) Vessels constructed before 2 January 1988 shall be constructed and equipped in accordance with the rules applicable at the time of construction of the vessel, unless otherwise provided by the individual provisions of this chapter.</ledd>
 				<ledd id="/kapittel/3/paragraf/7/ledd/3">(3) When a vessel is substantially altered or modified, the vessel shall comply with the requirements for a new vessel.</ledd>
+				<footnote>0	Amended by Regulation of 4 May 2015 No.. 445 (in force on 6 May 2015).</footnote>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/8">
 				<ptittel>Section 8. Fire safety</ptittel>
@@ -78,6 +79,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/13">
 				<ptittel>Section 13. Insulation with non-combustible material</ptittel>
+				<ledd>Non-combustible material means a material which, when tested and evaluated in accordance with MSC.61(67) (the FTP Code), satisfies the requirements for qualifying materials as non-combustible. The insulation shall, if necessary in order to preserve the fire-insulating effect, be mounted with a sheet of galvanized steel or aluminium.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/14">
 				<ptittel>Section 14. Insulation of machinery spaces in wooden vessels</ptittel>
@@ -105,12 +107,15 @@
 				<ledd id="/kapittel/3/paragraf/17/ledd/1">(1) Fire extinguishers with pressurised extinguishing medium shall not be placed in accommodation spaces. Fire extinguishers which may be exposed to frost shall be of a frost-proof type.</ledd>
 				<ledd id="/kapittel/3/paragraf/17/ledd/3">(3) At least one spare charge shall be provided for each extinguisher. If the extinguisher is of a type that cannot be charged on board, the number of extinguishers shall be increased by 50 per cent.</ledd>
 				<ledd id="/kapittel/3/paragraf/17/ledd/4">(4) Fire extinguishers shall be inspected annually in accordance with NS3910. The date of the inspection shall be marked on the extinguisher.</ledd>
+				<footnote>0	Amended by Regulation of 4 May 2015 No.. 445 (in force on 6 May 2015).</footnote>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/18">
 				<ptittel>Section 18. Ventilation systems</ptittel>
+				<ledd>The vessel's machinery space shall have at least two ventilators capable of being closed from deck. Cabins shall have at least two ventilators with a diameter of at least 8 cm.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/19">
 				<ptittel>Section 19. Materials, etc.</ptittel>
+				<ledd>Materials, varnishes, paints, etc. produced on a nitrocellulose basis or any other basis which will readily ignite are not permitted to be used anywhere on board.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/20">
 				<ptittel>Section 20. Storage of oil fuel and other flammable liquids</ptittel>
@@ -201,6 +206,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/25">
 				<ptittel>Section 25. Equivalents</ptittel>
+				<ledd>Vessels constructed pursuant to Nordic Boat Standard (1990) are considered to satisfy the requirements of sections 18, 19 and 20.</ledd>
 			</paragraf>
 		</kapittel>
 	</tekst>
