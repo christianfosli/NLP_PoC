@@ -960,26 +960,168 @@
 				<ledd id="/kapittel/7/paragraf/68/ledd/1">(1) Vessels shall be capable of transmitting a distress signal using at least two separate and independent radio systems (primary and secondary alarm relaying source). Duplicated radio equipment, manual satellite EPIRB and float-free satellite EPIRB may be used as a secondary alarm relaying source. Free-float satellite EPIRB and manual satellite EPIRB shall be fitted with an integrated position indicator.</ledd>
 				<ledd id="/kapittel/7/paragraf/68/ledd/2">(2) The requirement for a secondary alarm relaying source does not apply to vessels with vessel instructions for trade area Fjord fishing.</ledd>
 				<ledd id="/kapittel/7/paragraf/68/ledd/3">(3) Vessels shall be fitted with radio installations as referred to in the table below.</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Sea areas →	A1	A2	Notes</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Trade areas →  </ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">  Radio equipment and radio life-saving appliances  </ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">  ↓	</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">  Fjord fishing	</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">  In-shore fishing	Greater than In-shore fishing		</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">VHF radio installation at least capable of transmitting and receiving DSC on channel 70 and radiotelephony on channels 6, 13 and 16. The watch receiver may be a separate unit.	X	X	X	X	1</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Radar transponder (radar SART), or AIS transponder (AIS SART)	-	X	X	X	6</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">NAVTEX receiver 518/490 kHz	X	X	X	X	4</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Float-free satellite EPIRB (satellite emergency position-indicating radio beacon) which shall be so placed that it with the utmost likelihood will float up to the surface and transmit a distress signal if the vessel should sink.	-	X	X	X	2, 5</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">MF-DSC at least capable of transmitting and receiving DSC on the frequency 2187.5 kHz and telephony on the frequency 2182 kHz. The watch receiver may be a separate unit.	-	-	-	X	1</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Two-way VHF radiotelephone apparatuses (hand-held VHF)	-	X	X	X	3</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Notes:</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Note 1	All equipment shall be turned on when the vessel is underway, and vessels shall maintain a listening watch on VHF channel 16.</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Note 2	Float-free satellite EPIRBs shall be maintained by an approved shore-based company at least every five years.</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Note 3	On vessels in trade areas Bank fishing I and Bank fishing II with more than one (1) survival craft, the number of hand-held VHFs shall be at least 2.</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Note 4	A NAVTEX receiver is not required in sea area A1, provided that it is possible to receive weather forecasts and safety messages in another way, e.g. via public broadcasting.</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Note 5	A float-free satellite EPIRB may be replaced by a manual satellite EPIRB on vessels with a buoyancy causing it to not sink deep enough for a float-free EPIRB to be released, or on vessels having a type of superstructure which makes it dangerous for a person to retrieve the float-free EPIRB in order to activate it manually and bring it along to a survival craft. A manual satellite EPIRB shall be placed readily available, so that it can readily be activated and brought into a survival craft.</ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">Note 6	1. Vessels operating in or having vessel instructions for trade area In-shore fishing or Bank fishing I, shall be fitted with one transponder.  </ledd>
-				<ledd id="/kapittel/7/paragraf/68/ledd">  2. Vessels operating in or having vessel instructions for trade area Bank fishing II, shall be fitted with two transponders.</ledd>
+				<table>
+					<thgroup>
+						<tbody>
+							<row>
+								<entry>Sea areas →</entry>
+								<entry>A1</entry>
+								<entry></entry>
+								<entry></entry>
+								<entry>A2</entry>
+								<entry>Notes</entry>
+							</row>
+						</tbody>
+					</thgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>
+									Trade areas →
+									Radio equipment and radio life-saving appliances ↓
+								</entry>
+								<entry>Fjord fishing</entry>
+								<entry>In-shore fishing</entry>
+								<entry>Greater than In-shore fishing</entry>
+								<entry></entry>
+								<entry></entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>VHF radio installation at least capable of transmitting and receiving DSC on channel 70 and radiotelephony on channels 6, 13 and 16. The watch receiver may be a separate unit.</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>1</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Radar transponder (radar SART), or AIS transponder (AIS SART)</entry>
+								<entry>-</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>6</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>NAVTEX receiver 518/490 kHz</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>4</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Float-free satellite EPIRB (satellite emergency position-indicating radio beacon) which shall be so placed that it with the utmost likelihood will float up to the surface and transmit a distress signal if the vessel should sink.</entry>
+								<entry>-</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>2,5</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>MF-DSC at least capable of transmitting and receiving DSC on the frequency 2187.5 kHz and telephony on the frequency 2182 kHz. The watch receiver may be a separate unit.</entry>
+								<entry>-</entry>
+								<entry>-</entry>
+								<entry>-</entry>
+								<entry>X</entry>
+								<entry>1</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Two-way VHF radiotelephone apparatuses (hand-held VHF)</entry>
+								<entry>-</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+								<entry>3</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<thgroup>
+						<tbody>
+							<row>
+								<entry>Notes:</entry>
+								<entry></entry>
+							</row>
+						</tbody>
+					</thgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Note 1</entry>
+								<entry>All equipment shall be turned on when the vessel is underway, and vessels shall maintain a listening watch on VHF channel 16.</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Note 2</entry>
+								<entry>Float-free satellite EPIRBs shall be maintained by an approved shore-based company at least every five years.</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Note 3</entry>
+								<entry>On vessels in trade areas Bank fishing I and Bank fishing II with more than one (1) survival craft, the number of hand-held VHFs shall be at least 2.</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Note 4</entry>
+								<entry>A NAVTEX receiver is not required in sea area A1, provided that it is possible to receive weather forecasts and safety messages in another way, e.g. via public broadcasting.</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Note 5</entry>
+								<entry>A float-free satellite EPIRB may be replaced by a manual satellite EPIRB on vessels with a buoyancy causing it to not sink deep enough for a float-free EPIRB to be released, or on vessels having a type of superstructure which makes it dangerous for a person to retrieve the float-free EPIRB in order to activate it manually and bring it along to a survival craft. A manual satellite EPIRB shall be placed readily available, so that it can readily be activated and brought into a survival craft.</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Note 6</entry>
+								<entry>
+									1. Vessels operating in or having vessel instructions for trade area In-shore fishing or Bank fishing I, shall be fitted with one transponder.
+									2. Vessels operating in or having vessel instructions for trade area Bank fishing II, shall be fitted with two transponders.
+								</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
 				<fotnote>0	Amended by Regulation of 4 May 2015 No. 445 (in force on 6 May 2015).</fotnote>
 			</paragraf>
 			<paragraf id="/kapittel/7/paragraf/69" url="https://lovdata.no/forskrift/2013-11-22-1404/k7/p69">
