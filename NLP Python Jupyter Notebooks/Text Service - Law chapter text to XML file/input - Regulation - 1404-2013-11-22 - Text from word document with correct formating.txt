@@ -1,0 +1,953 @@
+1. General provisions
+
+Section 1. Scope of application
+These Regulations apply to Norwegian fishing vessels of up to 15 metres in overall length.
+
+Section 2. Definitions
+For the purpose of these Regulations, the following definitions shall apply:
+a)	"accepted electrical enterprise": an electrical enterprise accepted by the Norwegian Directorate for Civil Protection to carry out inspections of electrical installations on board fishing vessels;
+
+b)	"existing vessel": a vessel which is not a new vessel;
+
+c)	"fishing vessel": a vessel equipped and used commercially for catching fish and marine mammals, as well as to harvest seaweed and sea tangle or other living resources of the sea;
+
+d)	"angle of flooding θf": the angle of heel at which openings in the hull, superstructure or deckhouse that cannot rapidly be closed weathertight begin to submerge. Small openings, for instance for passing wires, chains, etc. need not be considered open if immersion takes place at an angle of heel of 30 degrees or more;
+
+e)	"approved company": a company approved by the Norwegian Maritime Authority to carry out inspections in accordance with these Regulations;
+
+f)	"new vessel": a vessel for which the building contract or a contract regarding major conversion is placed or the actual execution thereof has commenced, in the form of keel laying or equivalent, after 1 July 2014;
+
+g)	"Nordic Boat Standard (1990)": Nordic Boat Standard for Commercial Boats less than 15 metres, 1990;
+
+h)	"type-approved": equipment which is type-approved by a Notified Body and marked in accordance with Regulations of 29 December 1998 No. 1455 on marine equipment or approved, type-approved by the Norwegian Maritime Authority, with the exception of radio installations which shall be approved in line with the provisions of section 67.
+
+
+2. Construction
+
+Section 3. Scope of application of this chapter
+(1) This chapter applies to vessels of 6 to 15 meters in overall length, constructed after 1 January 1992.
+(2) Vessels constructed before 1 January 1992 shall comply with the vessel requirements applicable at the time of construction of the vessel. Such provisions need nevertheless not be enforced more rigorously than laid down in these Regulations, provided that due consideration is given to maintaining safety standards.
+(3) When a vessel is substantially altered or modified, the vessel shall comply with the requirements for a new vessel.
+
+0	Amended by Regulation of 4 May 2015 No. 445 (in force on 6 May 2015).
+
+
+
+Section 4. Construction requirements
+(1) Vessels shall be constructed, dimensioned and equipped in accordance with Nordic Boat Standard (1990) unless otherwise provided by the individual provisions. As an alternative, the complete set of rules of a recognised classification society may be used, when the safety standard is equivalent to Nordic Boat Standard (1990).
+(2) The combination of different types of construction material is not permitted in the exterior hull below the loaded waterline.
+(3) Vessels constructed before 1 March 2007 that appear structurally intact, shall be considered to satisfy the requirement of the first paragraph if the watertight subdivision, bilge system, means of closure, freeing port area, bow height and freeboard satisfy the requirements of Nordic Boat Standard (1990).
+(4) The hull of vessels intended for trade in ice shall be strengthened in accordance with the anticipated conditions of navigation, cf. Nordic Boat Standard (1990) C33. 
+(5) Lifting equipment shall comply with the requirements of Regulations of 17 January 1978 No. 4 on cargo-handling appliances in ships or Nordic Boat Standard (1990) C15.
+
+Section 5. Requirements for cargo spaces for carriage of fish in water and in bulk
+(1) Cargo spaces in existing vessels constructed after 1 January 1992 shall be dimensioned in accordance with the provisions applicable at the time of construction.
+(2) Cargo spaces in new vessels, which shall be used for the carriage of fish in bulk (fish without ice or water mixed in), shall be arranged and dimensioned in accordance with rules from a recognised classification society.
+(3) Cargo spaces in new vessels, which shall be used for the carriage of fish in water/ice, shall be dimensioned as a tank. Loose bulkheads are not permitted when carrying fish in water/ice, where the ratio of water/ice is larger than 30 per cent.
+
+Section 6. Bulwarks, rails and guards
+Vessels of 6 to 15 meters in overall length constructed after 1 July 2014 shall have bulwarks or guard rails with a height of minimum one metre on all exposed parts of the working decks and on superstructures functioning as a work station. The height may be reduced to minimum 600 millimetres if it hinders the execution of the fishing and it is considered absolutely necessary.
+
+3. Fire, machinery and electric installations
+
+Section 7. Scope of application of this chapter
+(1) This chapter applies to vessels constructed after 2 January 1988.
+(2) Vessels constructed before 2 January 1988 shall be constructed and equipped in accordance with the rules applicable at the time of construction of the vessel, unless otherwise provided by the individual provisions of this chapter.
+(3) When a vessel is substantially altered or modified, the vessel shall comply with the requirements for a new vessel.
+
+0	Amended by Regulation of 4 May 2015 No.. 445 (in force on 6 May 2015).
+
+
+
+Section 8. Fire safety
+(1) Vessels constructed after 1 January 1992 shall have structural fire protection in accordance with chapter C14 of Nordic Boat Standard (1990), unless otherwise provided by the individual provisions of this chapter.
+(2) Vessels constructed before 1 January 1992 shall have structural fire protection in accordance with the rules applicable at the time of construction of the vessel.
+(3) Irrespective of the year of construction of the vessel, gasfired installations shall satisfy the requirements of Regulations of 20 October 1983 No. 1580 on safety precautions for gasfired installations, etc. operating on propane or other liquefied hydrocarbon gases used on board vessels.
+
+Section 9. Oil-fired stoves
+(1) Stoves with electric power supply shall have an oil supply which shuts off automatically if:
+a)	the stove is over-heated (maximum 400°C in smoke gas);
+
+b)	the flame goes out;
+
+c)	a failure occurs in the supply of air or power.
+
+(2) Stoves without electric power supply shall have an oil supply which shuts off automatically if
+a)	the stove is over-heated (maximum 400°C in smoke gas);
+
+b)	the flame goes out.
+
+(3) Drip regulation stoves (regulation valve with observation hole) need not have automatic shutoff of the oil supply if the flame will go out due to the oil consumption being limited by an oil regulation valve. The installation instructions shall indicate the maximum permitted difference in height between the oil tank and the regulation valve. An oil pressure reduction valve shall be fitted if satisfactory regulation of the oil supply cannot be achieved through pressure variations. The overflow system shall be capable of receiving the full volume of the tank.
+(4) The resetting of the safety function shall be manual.
+(5) The installation instructions shall be kept on board. The instructions for use shall be posted near the stove.
+(6) Stoves with accessories shall be installed in accordance with the installation instructions from the manufacturer.
+(7) Stoves shall have smoke outlet to uptake.
+
+Section 10. Installation, etc. of oilfired stove
+(1) Stoves shall be securely fixed to the floor or to a fixed bench, if possible near the centre line of the vessel.
+(2) Stoves without automatic shutoff of oil supply in the event of the flame going out, shall be provided with a separate oil tank of maximum 40 litres. The oil tank shall not be filled automatically, and shall be placed on the height indicated in the installation instructions.
+(3) The oil tank shall have a water separator and a plug for draining off possible collection of water and shall be placed outside the space where the stove is installed.
+(4) The oil pipe to the regulator shall have a filter for the separation of mud and water. The filter shall not be fitted above the stove.
+(5) Pipes made of copper or equivalent material shall be used between the tank and the stove. The pipes shall be fixed and placed so as to prevent the formation of air pockets.
+(6) Stoves shall have overflow openings with drain pipes and collection tank. Both the stove and the float valve, if used, shall be connected to the collection tank.
+(7) Smoke uptake pipes shall have a diameter which is not less than the smoke outlet of the stove, and the piping shall be made as straight as possible.
+(8) Drainage of condensed water/mud, cleaning of filters, inspection of burners and other components shall be carried out in the time intervals stipulated in the operating instructions.
+(9) Spaces with a stove shall be well ventilated.
+(10) On vessels of 8 to 15 metres in overall length the stove shall be inspected by an approved company within six months of being installed.
+
+Section 11. Insulation of fireplaces, etc.
+(1) Bulkheads shall be insulated with non-combustible material in accordance with Appendix 4.
+(2) Below stoves, wooden floor or combustible floor covering shall be protected by steel or aluminium sheets covering the whole floor area under the fireplace and in front of the stove at least 15 cm from the fire door. Where the stove is placed on a bench or similar, the bench shall be protected by non-combustible material.
+
+Section 12. Smoke uptake and exhaust pipes
+(1) Smoke uptakes and exhaust pipes shall consist of at least 3 mm thick steel plates and shall be securely fixed. Smoke uptakes shall be carried at least 1.3 m above deck.
+(2) Saucer formed rockwool sheets of at least 6 cm thickness shall be provided between smoke uptake and combustible material. Insulation in the form of non-combustible material shall be provided between metal cover plates and combustible material. Alternatively, a pipe with a diameter at least 6 cm larger than the smoke uptake pipe may be fitted outside this pipe, in order to provide vertical air circulation between the pipes. Insulation by saucer formed rockwool or mineral wool twine of at least 3 cm thickness shall be provided between the outer pipe and combustible material. The pipe shall be carried to at least 1 m above the deck, and the outlet shall be protected with a collar.
+(3) When smoke uptake is carried along a bulkhead, the bulkhead shall be insulated with non-combustible material. Smoke uptakes shall not be placed closer than 10 cm to insulated bulkheads. Where the smoke uptake (pipe) is insulated with saucer formed rockwool or mineral wool twine of at least 2 cm thickness, the distance to the insulated bulkhead may be reduced to 5 cm.
+(4) Any exhaust manifold which is not watercooled, and parts of exhaust pipes which may cause ignition, shall be insulated so that oil cannot penetrate. Where gases are watercooled, other arrangements may be accepted. Exhaust pipes shall not be closer than 2 cm to combustible material.
+(5) Oil pipes shall be placed as far as possible away from exhaust pipes and hot engine parts.
+
+Section 13. Insulation with non-combustible material
+Non-combustible material means a material which, when tested and evaluated in accordance with MSC.61(67) (the FTP Code), satisfies the requirements for qualifying materials as non-combustible. The insulation shall, if necessary in order to preserve the fire-insulating effect, be mounted with a sheet of galvanized steel or aluminium.
+
+Section 14. Insulation of machinery spaces in wooden vessels
+(1) Machinery spaces in wooden vessels shall have floors of steel or aluminium plates. Machinery spaces shall be insulated with non-combustible material or have an approved fire-extinguishing system.
+(2) In machinery spaces without inside planking, wooden casings, beams and surfaces under deck as well as bulkheads forwards and aft in the machinery space shall be insulated with non-combustible material.
+(3) In machinery spaces with inside planking, all woodwork shall be insulated with non-combustible material down to the lower edge of the floor. No insulation is required behind fuel oil tanks if the other insulation is fitted tightly around the tank.
+(4) In vessels where the engine is not placed in a separate compartment, all combustible material which is exposed to heat from exhaust manifolds, exhaust pipes, etc. shall be insulated with non-combustible material. When an engine cover is used, this shall be insulated on the inside and be mounted with a galvanized steel or aluminium sheet.
+
+Section 15. Fire-extinguishing systems in machinery spaces
+(1) Vessels of 10.67 to 15 metres in overall length shall have a fire-extinguishing system. When there are persons on board, the fire-extinguishing system shall only be capable of manual release.
+(2) Extinguishing medium shall be of an approved type. The amount of extinguishing medium is determined in each individual case depending on the size of the machinery space.
+(3) The fire-extinguishing system shall only be capable of being released from a position outside the machinery space. The release equipment shall be clearly marked, provided with instructions for use and protected against unintentional release.
+(4) Vessels of less than 10.67 metres in overall length constructed after 1 January 1992 may as an alternative be equipped with a fire-extinguishing system in accordance with guidelines laid down in chapter C14 of Nordic Boat Standard (1990).
+(5) CO2 containers and other containers for extinguishing gas which could may be hazardous in the event of a leak, with appurtenant release device, shall be placed in a separate space/locker outside the machinery space. Gastight bulkheads shall be provided to adjacent spaces and entrance from open deck. An alarm signal shall be activated automatically when the CO2 space/locker is opened. It should be ensured that no persons are present in the machinery space before the CO2 gas is released. The space/locker for release of CO2 shall have ventilation to the open air.
+
+Section 16. Fire detection and alarm system
+(1) Vessels of 10.67 to 15 metres in overall length, irrespective of year of construction, shall have fire detection system and fire alarm system for machinery spaces and smoke alarm system for the cabins in accordance with Appendix 5.
+(2) Vessels of less than 10.67 meters in overall length shall be fitted with at least one smoke detector and one heat detector in machinery spaces, at least one smoke detector in recreational spaces, and at least one smoke detector in the wheelhouse.
+
+Section 17. Fire extinguishers
+(1) All vessels, irrespective of year of construction, shall have at least two approved fire extinguishers of at least 6 kg. At least one approved fire extinguisher shall be placed at a suitable place outside the machinery space and at least one approved fire extinguisher shall be placed in the accommodation spaces. For vessels without wheelhouse or accommodation spaces one fire extinguisher is sufficient.
+(1) Fire extinguishers with pressurised extinguishing medium shall not be placed in accommodation spaces. Fire extinguishers which may be exposed to frost shall be of a frost-proof type.
+(3) At least one spare charge shall be provided for each extinguisher. If the extinguisher is of a type that cannot be charged on board, the number of extinguishers shall be increased by 50 per cent.
+(4) Fire extinguishers shall be inspected annually in accordance with NS3910. The date of the inspection shall be marked on the extinguisher.
+
+0	Amended by Regulation of 4 May 2015 No.. 445 (in force on 6 May 2015).
+
+
+
+Section 18. Ventilation systems
+The vessel's machinery space shall have at least two ventilators capable of being closed from deck. Cabins shall have at least two ventilators with a diameter of at least 8 cm.
+
+Section 19. Materials, etc.
+Materials, varnishes, paints, etc. produced on a nitrocellulose basis or any other basis which will readily ignite are not permitted to be used anywhere on board.
+
+Section 20. Storage of oil fuel and other flammable liquids
+(1) Oil fuel shall be stored in tanks of steel or equivalent material.
+(2) Outlets from oil fuel tanks shall be fitted with a closing valve or cock on the tank itself, which is capable of being closed from the deck. Test cocks and cocks for oil gauge glass shall be of a self-closing type. The tank shall be fitted with drip trays. In decked vessels with machinery space, filling pipes and airing pipes shall be carried through the deck and into open air.
+(3) If extra fuel or other flammable liquids cannot be placed on open deck, they shall be stored in suitable containers in a well-ventilated room/locker with a door communicating only with open deck and without electrical or other sources of ignition.
+
+Section 21. Materials in pipelines, etc.
+(1) Seawater pipes, bilge pipes, pipes conveying oil and other pipelines required for the safety of the ship shall be made of non-combustible material. Short, flexible pipe connections made of a material which is not easily rendered ineffective by heat, may be accepted on:
+a)	seawater pipes;
+
+b)	short, flexible pipe connections on pipes conveying oil, when necessitated by vibrations.
+
+(2) Where failure of the material due to fire may lead to flooding, scuppers, sanitary discharges or other outlets which are close to the waterline shall be made of oil-resistant and reinforced materials which are not easily damaged by heat.
+
+Section 22.  Machinery and piping systems
+(1) Vessels constructed after 1 January 1992 shall satisfy the requirements of Nordic Boat Standard (1990)
+a)	C6 on bilge systems;
+
+b)	C9 on oil fuel systems;
+
+c)	C8 on engine installations; and
+
+d)	C7 and C10 on rudder and propeller arrangements.
+
+(2) Vessels constructed before 1 January 1992 shall as far as possible satisfy the requirements of Nordic Boat Standard (1990 chapter C6 on bilge systems.
+
+Section 23. Electrical installations
+(1) Vessels of 6 to 15 metres in overall length constructed after 1 January 1992 with electrical installations with voltages of up to 50 V shall satisfy the requirements of Nordic Boat Standard (1990) C11 on electrical installations.
+(2) Vessels of 6 to 15 metres in overall length constructed before 1 January 1992 with electrical installations with voltages of up to 50 V shall be in compliance with the rules in force at the time of construction.
+(3) Vessels of 6 to 15 metres in overall length constructed between 1 January 1992 and 2002 with electrical installations with voltages of more than 50 V shall satisfy the requirements laid down in the now repealed Regulations of 1 March 1990 No. 125 for electrical installations - Maritime installations.
+(4) Vessels of 6 to 15 metres in overall length constructed after 1 January 2002 with electrical installations with voltages of more than 50 V shall satisfy the requirements laid down in Regulations of 4 December 2001 No. 1450 concerning maritime electrical installations, laid down by the Norwegian Directorate for Civil Protection.
+
+Section 24. Emergency source of power and emergency lighting, etc.
+(1) Vessels of 10.67 to 15 metres in overall length constructed after 1 January 1992 shall have an emergency source of power providing satisfactory lighting for at least 2 hours to:
+a)	lighting in areas with life-saving appliances and launching arrangements;
+
+b)	lighting in alleyways, stairways and exits to the life-saving appliances and of the sea where the life-saving appliances are launched;
+
+c)	necessary navigation lights; and
+
+d)	required alarm system.
+
+(2) The emergency power shall be provided by one of the following two sources:
+a)	an accumulator battery capable of carrying the load pursuant to the first paragraph without recharging or suffering an excessive voltage drop, and which is automatically connected to the emergency switchboard when the main power fails; or
+
+b)	a generator driven by a suitable type of power machinery with an independent supply of fuel, appropriate starting arrangements and driven by fuel having a flashpoint of not less than 43°C (110°F).
+
+(3) The entire installation shall be capable of operating even when the vessel is listed to 22.5 degrees or when the trim of the vessel is 10 degrees.
+(4) Switchboards for main power and emergency power shall be clearly marked and be placed, as far as practicable, so that they cannot be exposed to water or fire. The emergency source of power shall if possible be placed above deck. If the emergency source of power is placed in the machinery space, it shall be placed above the floor and in a well-ventilated place.
+(5) The emergency source of power and the emergency lighting on vessels constructed before 1 January 1992 shall be in accordance with the rules in force at the time of construction.
+
+Section 25. Equivalents
+Vessels constructed pursuant to Nordic Boat Standard (1990) are considered to satisfy the requirements of sections 18, 19 and 20.
+
+4. Stability and freeboard
+
+Section 26. Stability calculations
+(1) For new vessels of 6 to 15 metres in overall length the stability calculations shall be prepared in accordance with these Regulations. The provisions may also be used for existing vessels.
+(2) For vessels of 6 to 10.67 metres in overall length constructed between 1 January 1992 and 1 January 2015 the stability calculations shall be prepared in accordance with:
+a)	Nordic Boat Standard (1990); or
+
+b)	Regulations of 13 June 2000 No. 660 on the construction, operation, equipment and surveys of fishing vessels of 15 m in overall length (LOA) and over; or
+
+c)	Regulations of 15 October 1991 No. 712 on the constructions of vessels of 15 metres in overall length (LOA) and over;
+
+d)	Regulations mentioned in the first paragraph.
+
+(3) For vessels of 8 to 10.67 metres in overall length constructed between 1 March 1983 and 1 January 1992 the stability calculations shall be prepared in accordance with:
+a)	Nordic Boat Standard (1990);
+
+b)	Regulations of 7 January 1983 No. 12 on the construction of fishing vessels; or
+
+
+c)	Regulations mentioned in the first and second paragraphs.
+
+(4) For vessels of 8 to 10.67 metres in overall length constructed before 1 March 1983 the stability calculations shall be prepared in accordance with:
+a)	Nordic Boat Standard (1990);
+
+b)	Regulations of 2 October 1968 No. 8943 on the construction of fishing vessels; or
+
+c)	Regulations mentioned in the first to third paragraphs.
+
+(5) Existing vessels of 10.67 to 15 metres in overall length shall have stability calculations in accordance with the regulations in force at the time of:
+a)	construction;
+
+b)	a later major conversion; or
+
+c)	newer Regulations.
+
+(6) Existing vessels of 6 to 15 metres in overall length, which undergo modifications that affect buoyancy volumes or cause the draught to increase, shall satisfy the stability requirements for new vessels.
+
+Section 27. Stability documentation and inclining test
+(1) Hull geometry, hydrostatics, cross curves and supporting documentation shall be prepared by means of software listed on the Norwegian Maritime Authority's list of approved stability calculation programmes. Loading conditions, hydrostatics and cross curves shall be calculated under free trim.
+(2) When construction and equipping is completed, the vessel shall be subjected to an inclining test pursuant to the procedure in Appendices 6 and 7. The actual displacement and position of the centre of gravity shall be determined for the lightship condition.
+(3) If alterations are made to a vessel affecting its stability, revised stability calculations, if applicable based on lightship data from a new inclining test, shall be prepared and submitted to an approved company for inspection.
+(4) Stability and lightship data shall be inspected by an approved company and found to satisfy the requirements of this chapter.
+
+Section 28. Stability for closed vessels
+(1) Vessels shall be so designed and constructed that the requirements of this chapter will be satisfied in the operating conditions referred to in the second to sixth paragraphs.
+(2) For closed vessels, cf. Nordic Boat Standard (1990) C2, GZ curves (curves showing righting levers) shall be corrected for trim and for the free surface effects of fuel oil tanks, fresh water tanks and any other tanks with loading conditions corresponding to:
+a)	departure for the fishing ground with 100 per cent fuel, fresh water, provisions, fishing gear and otherwise fully equipped;
+
+b)	arrival at port without catch with 10 per cent fuel, fresh water and provisions, and fully equipped; and
+
+c)	maximum permissible draught, showing departure from the fishing ground with full holds, minimum 50 per cent fuel, fresh water and provisions, and fully equipped. The specific gravity used for the cargo shall not be higher than for seawater. Catch on deck, if appropriate to the mode of operation, shall be included. Water ballast tanks, if any, shall be empty;
+
+d)	arrival at port with full holds and maximum 10 per cent fuel, fresh water and provisions, and fully equipped, and with the same amount of cargo as in subparagraph c). Catch on deck, if appropriate to the mode of operation, shall be included. Water ballast tanks, if any, shall be empty;
+
+e)	loading conditions representing the least favourable stability steps during filling/draining of the cargo holds and water ballast tanks, if any.
+
+(3) If appropriate to the mode of operation, loading conditions on the fishing ground with maximum catch on deck, an empty hold and 10-50 per cent fuel, fresh water and provisions, and fully equipped, shall be prepared. The condition shall be shown with the smallest applicable amount of fuel, fresh water and provisions.
+(4) If the vessel is operating in loading conditions which are less favourable than conditions as referred to in the second and third paragraphs, calculations shall also be prepared for such loading conditions.
+(5) For conditions as referred to in the first to third paragraphs, the calculations shall also take into account the following:
+a)	the weight of seawater in fishing gear on deck;
+
+b)	the weight of ice accretion;
+
+c)	in the fully loaded conditions, the cargo shall be homogeneously distributed among all holds, hatch coamings and trunks, if any. Homogeneously distributed cargo means that a volumetric centre of gravity and invariable density shall be used for all spaces available for the carriage of cargo;
+
+d)	fully loaded conditions with specific gravity for the cargo as for seawater shall be shown with free surface effects if the specific gravity of the cargo in the homogeneous conditions (for vessels carrying liquid cargo, i.e. fish in bulk or fish in ice/water) is less than for seawater;
+
+e)	allowance for the free surface effects of liquids in tanks and, if applicable, cargoes where a free surface effect may occur;
+
+f)	ballast shall be located and secured so that it cannot shift. Permanent ballast shall not be removed or moved from the vessel. Liquid ballast may be accepted as permanent ballast, provided that it is stored in completely full tanks and that these tanks are not connected to the vessel's pumping systems. When liquid ballast is used as permanent ballast, detailed information thereof shall be included in the vessel instructions and the stability documentation;
+
+g)	water ballast tanks shall in principle be kept completely full or completely empty. Water ballast (seawater) may be included in ballast conditions, if it is used either in tanks especially intended for this purpose or in other tanks which are also designed to carry water ballast, and which are connected to the vessel's pumping system. If the amount of water ballast is different in the departure condition and the arrival condition, intermediate conditions shall be calculated indicating when water ballast must be replenished or drained. The calculations shall in that case indicate the stability situation immediately prior to replenishing or after drainage of water ballast;
+
+h)	ice, packaging, salt, etc. shall only be included if it has an adverse effect on the stability.
+
+
+Section 29. Stability criteria
+(1) The following minimum stability criteria shall be met in all loading conditions:
+a)	The area under the righting lever curve (GZ curve) shall not be less than 0.055 m-rad from 0 to 30 degrees angle of heel and not less than 0.090 m-rad from 0 to 40 degrees or the angle of flooding θf if this angle is less than 40 degrees. Additionally, the area under the curve between the angles of heel of 30 degrees and 40 degrees or between 30 degrees and θf if this angle is less than 40 degrees, shall not be less than 0.030 m-rad. The GZ curve shall be calculated without initial trim. In connection with the stability criteria above and section 32 third paragraph, hatches which periodically need to be kept open during fishing shall in addition be considered openings of flooding despite their being arranged so as to be capable of being rapidly closed weathertight.
+
+b)	The righting lever shall be at least 200 millimetres at an angle of heel equal to or greater than 30 degrees.
+
+c)	The maximum righting lever GZmax shall occur at an angle of heel preferably exceeding 30 degrees but not less than 25 degrees.
+
+d)	The initial metacentric height (GM) shall not be less than 350 millimetres.
+
+e)	The righting lever (GZ) for angles of heel between 40 and 65 degrees shall nowhere be less than 100 millimetres, and positive up to 80 degrees, not taking into account flooding through hatches, doors, bilge valves, etc. which must remain open during operation but which can rapidly be closed weathertight.
+
+(2) As an alternative to the stability criteria of the first paragraph, the provisions of Nordic Boat Standard (1990) chapters C3 and C30 may be applied.
+(3) The vessel’s metacentric height (GM) in the lightship condition shall be positive irrespective of choice of stability criteria.
+
+Section 30. Bow height
+Vessels constructed after 1 January 1992 shall have a bow height of at least 43 x LOA + 310 [millimetres] measured vertically at the stem from the loaded waterline to the exposed deck. Bow height requirements laid down in the Nordic Boat Standard (1990) may as an alternative be applied. Where the bow height is obtained by a superstructure arrangement, such superstructure shall be closed and extend from the stem to a point at least 0.10 · LOA abaft the forwardmost part of the hull. The requirement for bow height shall be satisfied for 0 trim and for loading conditions with forward trim.
+
+Section 31. Stability and freeboard for open vessels
+Open vessels shall satisfy the requirements of Nordic Boat Standard (1990) C3.
+
+Section 32. Water on decks and in open spaces
+(1) Vessels of 6 to 15 metres in overall length constructed after 1 January 1992 and vessels of 6 to 15 metres in overall length which have undergone a major conversion after this date shall satisfy the requirements of the second to fifth paragraphs.
+(2) If water can accumulate on weather-exposed decks, the stability calculations shall take into account the effects of such water accumulation. This applies e.g. to arrangements with open foredeck, open deckhouses with side walls against the ship's side, separate side walls in the ship's side or similar erections on deck.
+(3) If hatches and similar openings periodically have to remain open during operation, calculations shall be made of the vessel’s stability after the flooding of the spaces that may be flooded, if the angle of flooding θf for the opening concerned is less than 30 degrees.
+(4) Calculations with water on deck shall be carried out in accordance with Appendix 9.
+(5) If openings are arranged in bulwarks above ordinary rail height, and they constitute at least 60 per cent of the overall area above one metre rail height, the requirement for calculation of water on deck does not apply. Such openings must not be covered in a way that prevents effective drainage in the event of flooding.
+
+Section 33. Icing allowance
+(1) For vessels of 6 to 15 metres in overall length which are constructed or have undergone a major conversion after 1 January 1992 and which are operating in greater trade area than In-shore fishing in the period from 1 October to 14 May, the following icing allowance shall be made in the stability calculations:
+a)	30 kilogrammes per square metre on exposed weather decks and gangways and on forward bulkheads of superstructures and deckhouses;
+
+b)	7.5 kilogrammes per square metre for projected lateral area of each side of the vessel above the water plane;
+
+c)	the projected lateral area of discontinuous surfaces of rail, spars (except masts) and rigging of vessels having no sails and the projected lateral area of other small objects shall be computed by increasing the total projected area of continuous surfaces by 5 per cent and the static moments of this area by 10 per cent.
+
+(2) For vessels without icing allowance calculations, the trade area is limited to In-shore fishing in the period from 1 October to 14 May.
+(3) Vessels intended for operation in areas where ice accretion is known to occur shall be equipped with appropriate means for removing ice.
+
+Section 34. Stability information
+(1) The stability information shall be certified by an approved company.
+(2) All stability information shall be available to the master to enable him or her to assess the stability of the vessel under all operating conditions.
+(3) A stability poster shall be posted in the wheelhouse. The poster shall at least include the following information:
+a)	type of cargo and maximum amount of cargo in cargo holds and on decks pursuant to section 27 second paragraph subparagraphs b), d) and e);
+
+b)	weight and placement of fishing gear; and
+
+c)	minimum angle of heel for the first peak of the GZ curve, and other limitations, if any, resulting from water ballast or anti-rolling tank.
+
+
+Section 35. Freeboard
+(1) Freeboard on closed vessels shall be in accordance with Nordic Boat Standard (1990) C3.
+(2) Draught marks shall be indicated on both sides of the vessel in accordance with Nordic Boat Standard (1990) C2.
+(3) For vessels with superstructure covering the entire breadth of the vessel, the minimum freeboard in accordance with Nordic Boat Standard (1990) C3 may be measured from the lowest part of the exposed deck outside of the closed superstructure. Freeboard to the upper edge of the draught mark amidships, cf. Nordic Boat Standard (1990) C2, may be corrected in accordance with this, even if the deck, if any, inside such closed superstructure is closer than 200 millimetres to the loaded waterline. Measurements of freeboard to the loaded waterline shall take into account the estimated trim in accordance with Nordic Boat Standard (1990).
+
+5. Life-saving appliances and arrangements
+
+Section 36. Lifejackets
+(1) Vessels shall have a type-approved lifejacket for every person on board.
+(2) Lifejackets shall be kept readily available in the vicinity of the life-saving appliances in a clearly marked place. Information about the location, treatment and use of the lifejackets shall be posted on board.
+
+Section 37. Immersion suits
+(1) Decked vessels and open vessels with wheelhouse shall have a type-approved immersion suit with thermal properties for every person on board. Immersion suits procured after 1 July 2014 shall also satisfy the requirements for buoyancy and stability for lifejackets in the International Life-Saving Appliance Code (LSA Code).
+(2) Immersion suits shall be fitted with:
+a)	a loop/strap or similar device with an appropriate hooking and holding arrangement for use with hoisting tackle.
+
+The suit and loop/strap shall, when a person is wearing the suit, not be damaged when exposed to a load of at least 300 kg;
+b)	a signal whistle which is secured to the suit by a lanyard; and
+
+c)	a light satisfying the requirements of the LSA Code for lifejacket lights.
+
+(3) Loop/strap, grabline, whistle, lights, etc. shall be so secured as not to impair the properties of the suit or interfere with the use of the suit.
+(4) Lifejackets and immersion suits shall be marked in such a way that they can be traced back to the vessel where the equipment is used.
+(5) Immersion suits which are 8 years old or more, shall be pressure-tested/tested for tightness at an approved servicing station. The suit shall thereafter be pressure-tested/tested for tightness at intervals not exceeding 36 months, but not more often than recommended by the manufacturer.
+(6) Persons not able to use a standard immersion suit shall have an immersion suit of adapted size on board, and the immersion suit shall be clearly marked.
+(7) The immersion suits shall be kept in a suitable and clearly marked place in or in the vicinity of the wheelhouse. For vessels with more than one immersion suit per person, the additional immersion suits shall be available in an easily accessible place. Posters or placards with information about the placement, treatment and use of immersion suits shall be posted on board.
+
+Section 38. Liferaft
+(1) Decked vessels of more than 6 metres in overall length shall have a type-approved liferaft with capacity for the total number of persons on board.
+(2) Vessels with a maximum of three persons on board may as an alternative to a type-approved liferaft use a liferaft intended for at least four persons and manufactured in accordance with ISO 9650-1 (Group A), provided that the raft is placed maximum three metres above the waterline in the least favourable loading condition. The buoyancy of the raft shall be in accordance with the requirements of the LSA Code for buoyancy of float-free lifeboats.
+(3) Vessels with a liferaft for recreational craft for four people shall replace these with rafts pursuant to the first or second paragraph by:
+a)	1 July 2015 for vessels operating in trade area In-shore fishing;
+
+b)	1 July 2016 for vessels operating in trade area Fjord fishing.
+
+(4) Inflatable liferafts shall be inspected by an approved service station for inflatable liferafts at least every 24 months, in line with the manufacturer's recommendations and approval criteria.
+(5) Liferafts shall be ready for use and so placed as to permit them to float free from their stowage, inflate and break free from the vessel in the event of its sinking. Lashings, if used, shall have a hydrostatic release system.
+(6) Posters or placards with information about the location, treatment and use of the rafts shall be posted on board.
+(7) Auxiliary vessels need not have a liferaft if the crew is only on board during fishing activities and are otherwise on board the main vessel.
+
+Section 39. Placement of life-saving appliances
+(1) The life-saving appliances shall as far as possible be equally distributed on each side of the vessel, and be placed so that there is sufficient space for preparation, operation and embarkation.
+(2) The life-saving appliances shall be placed so that they do not protrude from the vessel's sides, at a safe distance from the waterline and propellers, and so that they as far as practicable can be launched with vertical shipside.
+(3) It shall be possible for one person to launch the life-saving appliances by himself.
+
+Section 40. Alarm equipment
+Vessels shall have suitable means for alerting everyone on board about meeting at the life-saving appliances and about when the vessel should be abandoned.
+
+Section 41. Boarding of life-saving appliances
+Vessels on which the height from the water plane to where the life-saving appliances are to be boarded is more than two metres in the smallest draught in ballast, shall have a ladder or other approved equipment providing access to the life-saving appliances when they are in the water.
+
+Section 42. Precautions for keeping life-saving appliances and other rescue equipment ready for use
+All life-saving appliances and other rescue equipment shall be in good condition and ready for immediate use, also in unfavourable conditions of list or trim.
+
+Section 43. Lifebuoys
+(1) There shall at least be one lifebuoy for every three persons on board.
+(2) At least half of the lifebuoys shall have approved buoy lights and all the lifebuoys shall:
+a)	be marked with the vessel’s name and port of registry; and
+
+b)	be placed conspicuously and readily available, so that they can be released quickly and easily.
+
+(3) Vessels of 10.67 to 15 metres in overall length shall have at least one lifebuoy on each side fitted with a buoyant lifeline of at least 30 metres. On vessels of less than 10.67 metres in overall length, one such buoy is sufficient.
+(4) On vessels required to have two or more lifebuoys, at least one buoy shall be placed at the stern and one near the place where work with fishing gear occurs.
+
+Section 44. Distress signal equipment and pyrotechnical equipment
+(1) Vessels shall be equipped with means for making effective distress signals by day and by night. Vessels shall have at least two smoke signals. In addition, vessels shall have the following equipment:
+a)	three rocket parachute flares and three red hand flares in trade area Fjord fishing;
+
+b)	three rocket parachute flares and three red hand flares in trade area In-shore fishing;
+
+c)	six rocket parachute flares and four red hand flares in trade area Bank fishing I;
+
+d)	six rocket parachute flares and four red hand flares in trade area Bank fishing II.
+
+(2) Distress signal equipment shall be type-approved, clearly marked and kept in a suitable casing in an easily accessible place. Distress signal equipment shall be replaced at the latest within the indicated use-by date or three years from date of manufacture if use-by date is not indicated.
+
+Section 45. Alarm system, muster list and drills
+(1) New vessels which are decked or open with wheelhouse, with a crew of two or more, shall have an alarm system to alert the persons on board in the event of danger. The alarm system may be connected to the fire alarm system required pursuant to section 16. The alarm shall in addition be capable of being triggered manually. The alarm shall continue to sound until it is manually turned off.
+(2) On board existing vessels alerting may be done with signals from the vessel's whistle or siren.
+(3) Vessels with a crew of two or more shall be equipped with clear instructions (muster list) for each member of the crew.
+(4) The muster list shall be posted and made known to the persons on board, and shall include:
+a)	a detailed description of the alarm system, along with the measures to be taken by the crew when the alarm is sounded and the order in which the crew shall leave the vessel;
+
+b)	information about the location of life-saving equipment, life-saving appliances, fire-fighting equipment, pyrotechnical equipment, closing of doors, valves, hatches, etc., the meaning of the alarm signals, and the precautionary measures to be taken;
+
+c)	which persons are assigned to ensure that the life-saving and fire appliances are maintained, in good condition and are ready for immediate use; and
+
+d)	specification of substitutes for key personnel who may have become unfit for service, taking into account that the different emergencies may call for different actions.
+
+(5) The master shall change the muster list or create a new muster list if there are changes in the crew making it necessary to change the muster list.
+(6) Abandon ship drills and fire drills shall take place at least once every three months and when more than 1/3 of the crew has been replaced. Drills shall comply with the muster list, and the entire crew shall participate in the drills.
+
+Section 46. Life-saving appliances not complying with the requirements of these Regulations are not permitted on board.
+
+6. Safety measures
+
+Section 47. Trade area restrictions
+(1) Vessels of less than 6 metres in overall length or open vessels irrespective of size (as defined in Nordic Boat Standard (1990)) may not be used in trade areas greater than Fjord fishing.
+(2) Decked vessels of 6 to 8 metres in overall length may not be used in trade areas greater than Bank fishing I.
+(3) Decked vessels of 8 to 10.67 metres in overall length may not be used in trade areas greater than Bank fishing I. In the period from 15 May to 30 September, the trade area may be extended to Bank Fishing II, limited to 100 nautical miles from the base line.
+(4) Decked vessels of 10.67 to 15 metres in overall length may not be used in trade areas greater than Bank fishing II.
+
+Section 48. Fixed and portable means of access on board
+(1) Fixed and portable means of access shall be properly maintained.
+(2) Where there is a risk of someone falling over board and down into spaces, tanks and similar, lifelines, handrails or barriers shall be provided.
+(3) Corridors, means of escape, deckhouse, all alleyways, workspaces and accommodation shall have handrails,/grab rails, guard rails or similar equipment ensuring safe passage and stay on board.
+
+Section 49. Means of access for safe embarkation and disembarkation
+Vessels shall have means of access on board, so that embarkation and disembarkation may be effected in a safe and proper manner.
+
+Section 50. Means of closure - hatches and doors
+(1) All external openings shall be capable of being closed weathertight so as to prevent water from entering the vessel. Hatches and doors shall have gaskets and toggles.
+(2) Hatches and watertight, weathertight and spraytight doors shall be in working order and be capable of closing without delay in a simple manner. The doors shall be clearly marked by notices indicating that the doors shall be kept closed while the vessel is at sea.
+(3) Hatches/doors on exposed decks to cargo holds and other spaces/tanks below deck shall be closed and battened down when the vessel is at sea. When cargo hold hatches and doors, if applicable, have to be kept open in connection with the operation of the vessel, including taking on board catch, these shall be capable of being closed immediately .
+(4) Hatch covers shall be secured when in open position.
+(5) Hatches in decks, manholes and similar, which are in open position, shall be adequately lighted and effectively fenced off.
+
+Section 51. Hatches to covered working and production decks
+(1) Hatches to covered working deck or production deck, which are in open position, shall be capable of being closed without delay if there is a danger of flooding of the working deck. Side hatches shall be capable of being closed in 15 seconds.
+(2) Hatches shall be clearly marked by notices indicating that the hatches shall be kept closed when not in use during fishing.
+(3) The construction and arrangement of hatches to covered working and production decks, monitoring as well as audible and visual alarms etc., in connection with the use of hatch and manoeuvring and closing arrangements shall be in accordance with Regulations of 13 June No. 660 on the construction, operation, equipment and surveys of fishing vessels of 15 m in overall length (LOA) and over, section 2-16 second and third paragraphs.
+
+Section 52. Drainage of covered working decks
+Bilge flaps for drainage of covered working decks shall during normal operation be kept closed when the vessel is at sea.
+
+Section 53. Carriage of deck cargo
+Deck cargo shall be secured against shifting, and shall be capable of being released easily if necessary.
+
+Section 54. Loading, drainage of open deck
+(1) Vessels shall be loaded so as to have adequate freeboard under all conditions, due consideration being given to the construction, stability, waters and season, so that the safety of vessel and crew is ensured. The permitted freeboard in accordance with the load lines on the vessel’s sides shall be complied with at all times. Under no circumstances shall the vessel be loaded so that trim, negative sheer, etc. causes submersion of any part of the exposed freeboard deck in water.
+(2) Unobstructed outlet shall be provided for water from open decks through freeing ports or through open railings.
+
+Section 55. Inspection to ascertain gas hazard etc.
+(1) No person may enter tanks, cargo holds, narrow enclosed spaces, tunnels or other spaces presenting a risk of gas or insufficient oxygen without wearing approved or accepted breathing protection, or before the necessary checks have been made to ascertain that the air in those spaces is safe. Measurements shall be taken at various heights and repeated measurements shall be taken if necessary.
+(2) Spaces as referred to in the first paragraph shall be thoroughly ventilated before work is started in them. Larger spaces shall be provided with continuous mechanical ventilation as long as work is in progress.
+(3) While inspection/work is in progress in tanks/spaces the oxygen content and any gas concentration shall be measured at short intervals. The work/inspection shall be supervised by two persons, one of whom shall have easy access to a self-contained breathing apparatus and be trained in its use.
+
+Section 56. Marking of tanks, spaces, etc. and warning signs
+(1) All doors, hatches, manhole covers, etc. providing access to gas-hazardous spaces or spaces presenting a risk of insufficient oxygen shall be clearly marked giving warning of the hazard of gas poisoning or lack of oxygen to which a person may be exposed. In places where the marking can easily be damaged or dirtied, the actual hatch, cover or similar shall also be painted in the same colour as the signs. The colour of the warning signs and adhesive notes shall be in accordance with Norwegian Standard NS 6033 or NS 4210, and have Norwegian text clearly expressing the following:
+
+FARE	DANGER
+OKSYGENMANGEL	LACK OF OXYGEN
+(Symbol)	
+FARE	DANGER
+GIFTIG GASS	POISON GAS
+(Symbol)	
+FARE	DANGER
+EKSPLOSIV ATMOSFÆRE	EXPLOSIVE ATMOSPHERE
+(Symbol)	
+
+
+(2) In vessels calling at ports outside Scandinavia, Iceland and Greenland, the warning signs as referred to in the first paragraph shall also be provided with English text.
+
+Section 57. Signs and notices
+(1) The text of signs and notices shall always be clearly legible, and shall if necessary be illuminated. The text shall be in Norwegian, if necessary also in other languages.
+(2) Warning signs shall have lettering at least 20 mm high and prohibition signs shall have lettering at least 30 mm high. Unless otherwise provided, the colours shall be in accordance with Norwegian Standard NS 6033 or NS 4210.
+
+Section 58. Storage of fuel
+If extra fuel cannot be placed on open deck it shall be stored in suitable containers in a separate, easily accessible and well ventilated room/locker with a door communicating only with open deck. Bulkheads and door to the room/locker shall have fire insulation equivalent to A-60.
+
+Section 59. Warning sign at radar scanners
+The radar apparatus shall be switched off during work in the radar mast, and a clearly visible sign shall be displayed at every radar apparatus with the following warning: "Work in progress in the radar mast".
+
+Section 60. Radar reflector
+Vessels with superstructures not capable of reflecting radar as well as steel shall be provided with a radar reflector.
+
+Section 61. Retro-reflective means
+(1) Vessels shall be fitted with permanent retro-reflective means clearly visible from both the sea and the air, with a width of at least 50 mm and a length of at least 300 mm.
+(2) There shall be at least four retro-reflective means on each side of the vessel. The means shall be placed as high as possible on the hull in a broken line with a distance of approx. 500 mm. In addition, six retro-reflective means which are clearly visible from the air shall be installed
+
+Section 62. Anti-skid surfaces on deck
+In work areas and normal alleyways on board, including stairways, the surfaces underfoot shall provide a good foothold, and shall if necessary be fitted with additional anti-skid devices.
+
+Section 63. Ladders
+(1) A fixed ladder with handrails shall be fitted on the aft part of the vessel. The bottom step of the ladder shall reach at least 300 mm below the waterline.
+(2) Up until 1 July 2016, loose ladders may be used on vessels constructed before 1 January 1992. On vessels with one person on board, such ladder shall be hung over the railing on each side of the vessel. Ladders capable of being released from the sea may be used. On vessels with two or more persons on board, there shall be at least one ladder on board which can be used for access from the sea.
+
+7. Radio
+
+Section 64. Scope of application
+This chapter applies to decked vessels and open boats with wheelhouse.
+
+Section 65. Documentation which shall be available on board
+The following documentation pertaining to radio equipment shall be available on board:
+
+	Fjord fishing and In-shore fishing	Bank fishing I and Bank fishing II
+IAMSAR volume III	X	X
+Instruction manuals for each piece of radio equipment	X	X
+Channel plan and frequency tables for the trade area in question	X	X
+Permission for use of frequencies (licence)	X	X
+Radio records. The deck log book may be used as radio records	X	X
+GMDSS map		X
+GMDSS Operating Guidance for Masters of Ships in Distress Situations		X
+ITU's Manual for use by the Maritime Mobile and Maritime Mobile-Satellite Services		X
+GMDSS emergency procedures (shall be posted at the radio station)	X	X
+Drawings showing the radio arrangement (antenna drawings, drawings of the location of the radio equipment in the wheelhouse and wiring diagram)	X	X
+
+
+Section 66. Safety radio certificate
+(1) Vessels shall have fishing vessel radiotelephony safety certificate.
+(2) Fishing vessel radiotelephony safety certificates are issued for a period of:
+a)	60 months for trade area Bank fishing I or lesser;
+
+b)	30 months for trade area Bank fishing II.
+
+(3) Fishing vessel radiotelephony safety certificates are issued by an approved radio inspection company, based on an inspection. Such inspection may be carried out within two months prior to the expiry of the period of validity of the existing safety certificate, without the date of the next inspection being changed.
+
+Section 67. Requirements for approval
+(1) Equipment required pursuant to this chapter shall be CE marked in accordance with Regulations of 20 June 2000 No. 628 related to radio equipment and telecommunications terminal equipment or shall satisfy the requirements of Regulations of 29 December 1998 No. 1455 on marine equipment (Marine Equipment Regulations).
+(2) Equipment installed before 1 January 2014 may be exempted from requirements for type-approval, provided that it is equivalent to equipment complying with the performance standards and that it satisfies the requirements for the equipment which were applicable at the time of instalment.
+(3) Radio equipment not required pursuant to these Regulations, but which is voluntarily installed on board, shall satisfy either the requirements of this section or the requirements of Directive 2004/71/EC.
+
+Section 68. Functional requirements and equipment requirements
+(1) Vessels shall be capable of transmitting a distress signal using at least two separate and independent radio systems (primary and secondary alarm relaying source). Duplicated radio equipment, manual satellite EPIRB and float-free satellite EPIRB may be used as a secondary alarm relaying source. Free-float satellite EPIRB and manual satellite EPIRB shall be fitted with an integrated position indicator.
+(2) The requirement for a secondary alarm relaying source does not apply to vessels with vessel instructions for trade area Fjord fishing.
+(3) Vessels shall be fitted with radio installations as referred to in the table below.
+Sea areas →	A1	A2	Notes
+Trade areas →  
+  Radio equipment and radio life-saving appliances  
+  ↓	
+  Fjord fishing	
+  In-shore fishing	Greater than In-shore fishing		
+VHF radio installation at least capable of transmitting and receiving DSC on channel 70 and radiotelephony on channels 6, 13 and 16. The watch receiver may be a separate unit.	X	X	X	X	1
+Radar transponder (radar SART), or AIS transponder (AIS SART)	-	X	X	X	6
+NAVTEX receiver 518/490 kHz	X	X	X	X	4
+Float-free satellite EPIRB (satellite emergency position-indicating radio beacon) which shall be so placed that it with the utmost likelihood will float up to the surface and transmit a distress signal if the vessel should sink.	-	X	X	X	2, 5
+MF-DSC at least capable of transmitting and receiving DSC on the frequency 2187.5 kHz and telephony on the frequency 2182 kHz. The watch receiver may be a separate unit.	-	-	-	X	1
+Two-way VHF radiotelephone apparatuses (hand-held VHF)	-	X	X	X	3
+
+Notes:
+
+Note 1	All equipment shall be turned on when the vessel is underway, and vessels shall maintain a listening watch on VHF channel 16.
+Note 2	Float-free satellite EPIRBs shall be maintained by an approved shore-based company at least every five years.
+Note 3	On vessels in trade areas Bank fishing I and Bank fishing II with more than one (1) survival craft, the number of hand-held VHFs shall be at least 2.
+Note 4	A NAVTEX receiver is not required in sea area A1, provided that it is possible to receive weather forecasts and safety messages in another way, e.g. via public broadcasting.
+Note 5	A float-free satellite EPIRB may be replaced by a manual satellite EPIRB on vessels with a buoyancy causing it to not sink deep enough for a float-free EPIRB to be released, or on vessels having a type of superstructure which makes it dangerous for a person to retrieve the float-free EPIRB in order to activate it manually and bring it along to a survival craft. A manual satellite EPIRB shall be placed readily available, so that it can readily be activated and brought into a survival craft.
+Note 6	1. Vessels operating in or having vessel instructions for trade area In-shore fishing or Bank fishing I, shall be fitted with one transponder.  
+  2. Vessels operating in or having vessel instructions for trade area Bank fishing II, shall be fitted with two transponders.
+
+
+0	Amended by Regulation of 4 May 2015 No. 445 (in force on 6 May 2015).
+
+
+
+Section 69. Installation and placement of equipment
+(1) Radio installations shall be installed so that they are readily accessible for inspection and maintenance purposes and so that they are not exposed to dangerous effects from humidity, extreme temperatures or other environmental conditions.
+(2) Radio installations shall be installed so that they are not affected by mechanical, electrical or electromagnetic interference and so that the actual installations cannot cause such interference themselves.
+(3) Radio installations shall be marked with call sign and other GMDSS identities and codes, such as MMSI, which are necessary in order to identify the installation.
+(4) Control of the VHF radiotelephone channels required for navigational safety, shall be immediately available in the wheelhouse convenient to the conning position. If the conning position periodically is not in the immediate vicinity of the wheelhouse, it shall be possible to conduct radio communication from such manoeuvring positions. Portable VHF equipment may be used to meet the latter provision.
+(5) The float-free satellite EPIRB shall be so installed that it with the utmost likelihood will float freely up to the surface without risk of being caught on obstacles such as railing, superstructure, etc., if the ship should sink.
+(6) The float-free and manual satellite EPIRB shall be so installed that it can be:
+a)	activated manually; and
+
+b)	carried by one person into a survival craft without endangering that person.
+
+(7) SART shall be installed in the wheelhouse. If the ship is required to carry two SARTs, they shall be placed on each side of the vessel, preferably by the exit doors of the wheelhouse, so that they may easily be brought along into a survival craft.
+(8) The antennas for the radio installation shall be so placed and installed that optimal efficiency is achieved, at the same time as negative electromagnetic influences (EMC) from radio equipment and other electronic equipment, especially navigation equipment, is avoided.
+(9) All exterior cables and couplings shall be kept clean from salt, soot and other pollutants, be regularly inspected and be replaced as needed.
+
+Section 70. Sources of electrical power
+(1) The radio installation shall be connected to the vessel's main source of power, as well as an reserve source of power.
+(2) The reserve source of power shall have sufficient capacity for operating the equipment listed in the fifth paragraph for at least six hours. If the vessel is equipped with an emergency generator with an operational capacity of 18 hours or more, the capacity of the reserve source of power shall be one hour.
+(3) It shall be possible to recharge the reserve source of power from the vessel's main source of power, as well as from the emergency generator, if applicable.
+(4) The reserve source of power shall be placed in protected surroundings above the uppermost continuous deck, preferable in a well-ventilated battery room or battery casing. The placement shall provide safe and simple access for maintenance and inspection purposes, be in accordance with the manufacturer's instructions, and otherwise be such that the source of power can function even in extraordinary conditions.
+(5) The reserve source of power shall provide power to the operation of the vessel's VHF radio installation as well as:
+a)	the MF radio installation in sea area A2;
+
+b)	navigation receiver (may be connected to the vessel's reserve source of power); and
+
+c)	lighting for the radio installation.
+
+(6) The reserve source of power must in addition be:
+a)	capable of automatically recharging to minimum capacity within 10 hours, if the reserve source of power is rechargeable batteries;
+
+b)	independent of the vessel's propulsion machinery;
+
+c)	inspected weekly by the vessel's radio operator and in connection with radio tests, cf. section 73 first paragraph subparagraph e; and
+
+d)	maintained in accordance with the manufacturer's instructions.
+
+(7) The batteries shall be replaced at the first sign of reduced capacity.
+
+Section 71. Radio watch
+(1) All vessels not safely moored in port shall maintain a continuous radio watch on the following radio channels, frequencies and systems, depending on radio equipment and sea area:
+a)	VHF channel 16 and CHF/DSC channel 70;
+
+b)	MF/DSC frequency 2187.5 kHz.
+
+(2) All vessels not safely moored in port shall maintain a radio watch for broadcasts of maritime safety information (MSI), using a NAVTEX receiver or other methods if this is available.
+
+Section 72. Maintenance
+(1) Radio equipment for the sea areas A1 and A2 shall be maintained in order to be kept at all times capable of transmitting distress signals and conducting follow-up emergency communication.
+(2) Float-free satellite EPIRB, as referred to in section 69 fifth and sixth paragraphs, shall at least every five years be inspected by a shore-based company.
+
+Section 73. Radio records
+Radio records shall be kept at the place where the listening watch is kept. They shall be available for inspection when authorised persons so require. The following shall be entered in the records:
+a)	summary of communication in connection with distress, urgency and safety messages; 
+
+b)	important incidents related to the service;
+
+c)	the position of the vessel when the incidents occurred;
+
+d)	overview of maintenance of radio equipment and sources of energy; and
+
+e)	daily/monthly functional test of the radio station, conducted by the radio operator in charge.
+
+
+Section 74. Position-updating
+Vessels operating in, or having vessel instructions for, a trade area greater than Fjord fishing shall have equipment automatically updating the position in all radio equipment capable of transmitting distress signals, either by means of an internal navigation receiver or by connecting the equipment to an external navigation receiver.
+
+8. Navigation equipment and wheelhouse arrangement
+
+Section 75. Compasses
+(1) All vessels shall have a magnetic compass so placed that it is possible to use the necessary means of correction. The means of correction / correction arrangement shall as far as possible be capable of bringing the deviation within the range of +5° to -5°. For vessels constructed after 1 July 1997 the compass shall be in accordance with ISO 613:1982 (ES) magnetic compass class B. A standard magnetic compass may be used as an alternative, provided that it is installed in the binnacle with full height placed as close as practicable to the ship's longitudinal centre line in the wheelhouse. The magnetic compass shall be fitted with a reading arrangement so that the compass heading is clearly readable from the main steering position.
+(2) The placing of the compass installation shall be given priority over the placing of other equipment in the wheelhouse. The placement must be such that the heading is clearly readable from the position of the helmsman and the navigator.
+(3) The magnetic compass shall be corrected in order to determine the deviation when conversions or alterations have been carried out which affect the magnetic conditions where the compass is installed. A deviation table shall be available at all times.
+(4) The compass shall have an illumination arrangement with built-in dimmer which can be adjusted from the main steering position.
+(5) If more than one compass are being used in the same compass installation, none of these shall differ in magnetic moment by more than 15% from that of the compass with the greatest moment.
+
+Section 76. Automatic pilot system and steering aids
+(1) For vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997, the automatic pilot system shall be in accordance with recognised standards.
+(2) Vessels having steering aids or an automatic pilot system shall have an indicator for the angle of the rudder, which is readable from the steering position(s).
+(3) If several course adjustment and steering devices are installed, it shall be possible to secure these against inadvertent use.
+(4) It shall be possible to activate and deactivate automatic pilot systems from the helmsman's position.
+
+Section 77. Bridge navigational watch alarm system
+(1) Vessels of 10.67 to 15 metres in overall length which are equipped with automatic pilot system / steering aids, shall be fitted with a bridge navigational watch alarm system (BNWAS) if they have vessel instructions for a trade area greater than Fjord fishing.
+(2) The BNWAS shall either be permanently activated, or be activated when the vessel's automatic pilot system is in use, or so configured that it will be activated at the latest when the vessel reaches service speed. The BNWAS shall trigger an audible signal with a time interval not exceeding five minutes if the person in charge of the navigational watch does not acknowledge his or her presence in the wheelhouse. It shall be possible to set the time interval shorter than 5 minutes.
+(3) The BNWAS shall satisfy the functional requirements specified in Appendix 8. A BNWAS satisfying the requirements of IMO Res. MSC.128(75) may as an alternative be used.
+
+Section 78. Speed and distance measuring device
+Vessels constructed after 1 July 1997 with vessel instructions for trade area Bank fishing II shall be fitted with means of determining the vessel’s speed and distance run.
+
+Section 79. Radar installation
+If vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997 are fitted with a radar installation, the radar installation shall:
+a)	be so placed that the operator has a good view of the radar display from the operating position;
+
+b)	have the radar antenna so placed that the quality of the radar image will not be impaired due to short distance to other equipment or to masts, posts, etc.;
+
+c)	have a notice at the radar display unit indicating direction and size of blind sectors, if any; and
+
+d)	have the radar antenna so placed that it does not impair the effect of the other radio equipment.
+
+
+Section 80. Electronic position-fixing equipment
+If vessels of 10.67 to 15 metres in overall length are fitted with electronic position-fixing equipment, the equipment shall satisfy the requirements of IMO Res. A.818(19), IMO Res. A.819(19), MSC.112(73) or newer standards prepared by the International Maritime Organization (IMO).
+
+Section 81. Depth-measuring equipment
+Vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997 shall have equipment for measuring depth below the vessel.
+
+Section 82. Steering gear, etc.
+(1) Vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997 which do not have a rudder, but are fitted with a rotating propulsion and steering propeller system, shall have steering gear which functions synchronously with the propulsion power.
+(2) The steering gear shall be so arranged that the vessel turns to the same side to which the wheel or bat handle or similar is moved.
+
+Section 83. Ship's clock
+The navigator shall have access to a clock at all times for the reading of the correct time.
+A clock from a fixed electronic instrument located in the wheelhouse, which is connected to an emergency source of power as described in section 24, may be used.
+
+Section 84. Binoculars and thermometer
+(1) Vessels shall be equipped with at least a pair of prismatic binoculars of type 7x50, or 8x35 if appropriate, or other binoculars with equivalent properties.
+(2) Vessels operating in waters where ice may occur shall be fitted with a dedicated thermometer for the measurement of seawater temperatures.
+
+Section 85. Charts and nautical publications
+Vessels shall be equipped with adequate and up-to-date charts, sailing directions, list of lights, notices to mariners, tide tables and all other nautical publications for the vessel's trade area. Vessels of less than 10.67 metres in overall length may as an alternative use "Norsk Fiskaralmanakk" and necessary charts for the vessel's trade area.
+
+Section 86. Lights
+(1) All vessels shall have at least one set of fixed electric lights satisfying the requirements of Regulations of 1 December 1975 No. 5 for preventing collisions at sea.
+(2) When all-round lights for practical reasons cannot be fixed in position, loose lights may be used if there are electric connection options and the lights can be safely placed.
+(3) Vessels constructed after 1 January 1992 shall have a control panel or control unit for the lights, which satisfies the requirements of Nordic Boat Standard (1990) C11.
+
+Section 87. Signalling equipment
+(1) Distress signal equipment and signal flags shall be readily available on board.
+(2) All vessels shall have one set of shapes as described in the Rules of the Road at Sea, which at least cover the statuses Anchored, Fishing and Not Under Command.
+(3) Vessels which are likely to use a pilot, or vessels calling at foreign ports, shall at least be equipped with the signal flags G and H, as well as the flags included in the vessel's call sign.
+(4) All vessels shall be provided with means for distress signalling in accordance with Regulations of 1 December 1975 No. 5 for preventing collisions at sea (Rules of the Road at Sea) Annex IV.
+(5) Vessels used outside of the Norwegian economic zone shall be provided with the Norwegian merchant flag.
+
+Section 88. Sound signal apparatuses
+(1) Vessels of 12 to 15 metres in overall length shall have a fixed klaxon/whistle satisfying the requirements of Regulations of 1 December 1975 No. 5 for preventing collisions at sea (Rules of the Road at Sea) Annex III.
+(2) The whistle shall be ready for use at all times and be capable of being operated from the navigator's and helmsman's, if appropriate, normal position(s).
+(3) The whistle shall be so placed that the intensity of sound at the helmsman's, lookout's and navigator's positions does not exceed 100 dB(A).
+(4) Vessels with required sound signalling apparatuses which are dependent on the vessel's main source of energy, must have an extra arrangement in order to be capable of giving the required sound signals.
+
+Section 89. Searchlight
+Vessels of 12 to 15 metres in overall length constructed after 1 July 1997 and operating in a trade area greater than Fjord fishing, shall have:
+a)	searchlight and signalling lamp;
+
+b)	rotatable searchlight which may also be used for signalling; or
+
+c)	transportable signalling lamp which may also be used as searchlight.
+
+
+Section 90. Instructions for use, spare parts, etc.
+(1) For equipment in the wheelhouse, instructions for use and maintenance shall be available, in addition to technical specifications in both Norwegian and any other working language.
+(2) The necessary tools and spare parts for inspections and repairs expected to be carried out by the crew, along with any equipment for required controls, etc., shall be kept readily available.
+
+Section 91. Wheelhouse arrangement, view from the wheelhouse, etc.
+(1) For vessels of 10.67 to 15 metres in overall length constructed between 1 July 1979 and 1 January 1992, the following requirements apply:
+a)	From the wheelhouse it shall be possible to move so that you have an overview and a view over an arc of the horizon of 360 degrees, regardless of trim and any cranes, tanks, funnels, etc.
+
+b)	In wheelhouses with only one door, it shall be possible to open at least one of the windows on each side of the wheelhouse. 
+
+c)	The wheelhouse shall be so arranged that there as far as possible is a view over an arc of the horizon of 360 degrees. Instruments and windows shall be so arranged that no interfering reflections occur.
+
+d)	Instruments and other equipment provided in the wheelhouse must be so placed that they do not obstruct the navigator's view of the weather deck in front of the wheelhouse.
+
+e)	Illumination of instruments in the wheelhouse and chartroom, if any, shall be arranged so that no dazzle effect occurs, and so that any reflections do not obstruct the view and hinder efficient lookout.
+
+f)	Tables or similar with adequate size shall be provided and appropriately placed with suitable lighting for navigation by charts.
+
+g)	The helmsman's position shall as far as possible be in the centre line of the vessel. The helmsman's positioning shall not complicate the use and operation of navigation equipment, equipment for remote control of propulsion machinery and equipment in the wheelhouse in connection with operation of periodically unmanned engine-room.
+
+(2) For vessels of 6 to 15 metres in overall length constructed between 1 January 1992 and 1 July 1997, the following requirements apply:
+a)	From the wheelhouse the view forward, to the sides and aft of the wheelhouse shall be good. The front windows shall be capable of being kept free from rain, spray and condensation.
+
+b)	Instruments, control handles, warning lights, etc. in the wheelhouse shall be appropriately placed.
+
+c)	Furnishing details on the control console and in the field of vision shall as far as practicable be executed in a non-reflecting material.
+
+d)	The headroom in wheelhouses shall normally be at least 1.98 metres.
+
+(3) For vessels constructed after 1 July 1997, the following requirements shall apply:
+a)	The view of the sea surface from the wheelhouse/bridge shall not be obscured by more than two vessel lengths forward of the bow to 10° on either side irrespective of the vessel's draught, trim and deck cargo.
+
+b)	No blind sector caused by fishing gear, cargo-handling equipment or other obstructions outside of the wheelhouse forward of the beam which obstructs the view of the sea surface as seen from the wheelhouse/conning position, shall exceed 10. No individual blind sectors shall exceed 5°. The total arc of blind sectors shall not exceed 20° of the horizon. The clear sector between two blind sectors shall be at least 5°.
+
+c)	The horizontal field of vision from the wheelhouse/conning position shall extend over an arc of not less than 225, that is from right ahead to not less than 22.5 abaft the beam on either side of the vessel.
+
+d)	From each bridge wing or side of the wheelhouse on vessels of 10.67 to 15 metres in overall length, the horizontal field of vision shall extend over an arc of at least 225, that is from at least 45 on the opposite bow through right ahead and then from right ahead to right astern over an arc of 180 on the same side of the vessel.
+
+e)	From the conning position the horizontal field of vision on vessels of 10.67 metres in overall length and upwards, shall extend over an arc from right ahead to at least 60 on each side of the vessel.
+
+(4) For windows in wheelhouses on vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997, the following requirements apply:
+a)	The height from the bridge deck to the lower edge of the front windows in the wheelhouse shall be as low as possible. In no case shall the lower edge of the windows obstruct the forward view.
+
+b)	The upper edge of the front windows in the wheelhouse shall allow a forward view of the horizon for a person with a height of eye of 180 cm above the deck in the wheelhouse at the conning position.
+
+c)	Framing between the windows in the wheelhouse shall be kept to a minimum. Framing shall not be installed immediately forward of the conning position.
+
+d)	Polarised and tinted windows shall not be used.
+
+e)	A clear vision screen shall be installed in one of the windows in the wheelhouse or a window heater with freshwater rinsing and window wiper. Depending on bridge construction, more such windows shall be installed if necessary, so that the view is clear at all times regardless of weather conditions.
+
+(5) For wheelhouse arrangements on vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997, the following requirements apply:
+a)	The wheelhouse shall be arranged as high as practicable, and so that compliance with the requirements for unobstructed view from the wheelhouse is ensured.
+
+b)	The size and layout of the wheelhouse shall be such that navigational aids and equipment may be located in an appropriate manner. The navigator(s) shall readily be able to move around, monitor instruments and carry out the required tasks during the navigational watch.
+
+c)	Where instruments are to be located beneath the wheelhouse ceiling, there shall be a headroom of not less than 190 cm so that there is unobstructed visibility and free passage underneath the instruments. The requirement does not apply to the reflector device of the magnetic compass.
+
+(6) For the fitting and maintenance of navigational aids, the following requirements shall apply:
+a)	The fitting of navigational aids shall be carried out or be accepted by a specialist representing the manufacturer.
+
+b)	Navigational aids shall be located in an appropriate manner, taking into account inspection and maintenance.
+
+c)	Newly installed navigational aids shall be subjected to a function test under observation by a representative for the manufacturer before the vessel is put into service.
+
+d)	Navigational aids shall be inspected, maintained and if necessary calibrated or corrected in accordance with the recommendations from the manufacturer.
+
+
+9. Inspections and documentation
+
+Section 92. Vessel instructions
+Vessels of 8 to 15 metres in overall length shall have valid vessel instructions indicating vessel data and statutory limitations on the use of the vessel, including information about the length, breadth and draught, maximum trade area and operational restrictions of the vessel.
+
+Section 93. Coordination of inspections
+Required inspection by an accepted electrical enterprise shall be carried out before or at the same time as inspection by an approved company, so that the inspections can be coordinated.
+
+Section 94. Inspection of vessels of less than 8 metres
+Vessels of less than 8 metres in overall length are not subject to inspections by an approved company, but may be inspected by way of unscheduled supervision, cf. Act of 16 February 2007 No. 9 relating to ship safety and security section 43.
+
+Section 95. Inspections of vessels of 8 to 9 metres in overall length
+(1) All vessels of 8 to 9 metres in overall length shall:
+a)	be subject to a complete inspection by an approved company;
+
+b)	be subject to a complete inspection by an accepted electrical enterprise. The requirement for a complete inspection by an accepted electrical enterprise does not apply to existing vessels with a valid installation attestation for the electrical installation at the time of the initial inspection by an approved company;
+
+c)	be subject to a control every 30 months by the company (company's control). The company's control may be carried out within six months prior to or after this date, without the date of the next company's control being changed. If the company's control has not been carried out within the mentioned deadlines, the vessel instructions become invalid;
+
+d)	have on board a copy of the form for completed company's control and complete inspection.
+
+
+Section 96. Inspections of vessels of 9 to 10.67 metres in overall length
+All vessels of 9 to 10.67 metres in overall length shall:
+a)	be subject to a complete inspection by an approved company if the vessel has not been subject to a complete or periodic simplified inspection by an approved company during the last five years;
+
+b)	within a period of five years be subject to a periodic simplified inspection by an approved company. The inspection may be carried out within six months prior to this date, without the date of the next inspection being changed;
+
+c)	have completed a preparatory company's control in connection with a complete or periodic simplified inspection before the vessel is subject to an inspection by an approved company;
+
+d)	within a period of 30 months after the last complete or periodic inspection by an approved company be subject to an intermediate periodic control by the company (company's control). The company's control can take place within six months prior to or after this date. If the company's control has not been carried out within the mentioned deadlines, the vessel instructions become invalid;
+
+e)	be subject to a complete inspection by an accepted electrical enterprise. The requirement for a complete inspection by an accepted electrical enterprise does not apply to existing vessels with a valid installation attestation for the electrical installation at the time of the initial inspection by an approved company;
+
+f)	be subject to an periodic simplified inspection by an accepted electrical enterprise within a period of five years of the date for the last complete inspection or of the date for the last periodic simplified inspection by an accepted electrical enterprise. The inspection may be carried out within six months prior to the expiry of the current period, without the date of the next inspection being changed;
+
+g)	keep valid vessel instructions and report form on board.
+
+
+0	Amended by Regulation of 4 May 2015 No. 445 (in force on 6 May 2015).
+
+
+
+Section 97. Inspections of vessels of 10.67 to 15 metres in overall length
+All vessels of 10.67 to 15 metres in overall length shall:
+a)	be subject to a complete inspection by an approved company if the vessel has not been subject to a complete or periodic simplified inspection during the last 30 months;
+
+b)	within a period of 30 months be subject to a periodic simplified inspection by an approved company. The inspection may be carried out within six months prior to this date, without the date of the next inspection being changed;
+
+c)	have completed a preparatory company's control in connection with a complete or periodic simplified inspection before the vessel is subject to an inspection by an approved company;
+
+d)	be subject to a complete inspection by an accepted electrical enterprise if the vessel has not been subject to a complete or periodic simplified inspection during the last five years;
+
+e)	be subject to a periodic simplified inspection by an accepted electrical enterprise within a period of five years of the date for the last complete inspection or of the date for the last periodic simplified inspection by an accepted electrical enterprise. The inspection may be carried out within six months prior to the expiry of the current period, without the date of the next inspection being changed;
+
+f)	keep valid vessel instructions and report form on board.
+
+
+Section 98. Reporting of inspections by approved company and company's control
+(1) A complete inspection by an approved company of vessels that are newbuildings, purchased from abroad or subject to conversion, shall be reported by the approved company in accordance with the form laid down by the Norwegian Maritime Authority. This form can be downloaded from www.yrkesfisker.no.
+(2) A complete and periodic simplified inspection by an approved company of sailing vessels and intermediate company's control shall be reported by the approved company in accordance with the form laid down by the Norwegian Maritime Authority. This form can be downloaded from www.yrkesfisker.no. Before a complete or periodic simplified inspection as referred to in section 95 first paragraph (a), section 96 first paragraph (a) and (b), or section 97 first paragraph (a) and (b), the company or master of the vessel shall have submitted a completed form for company's control for the complete or periodic simplified inspection to the approved company in accordance with the form laid down by the Norwegian Maritime Authority. This form can be downloaded from www.yrkesfisker.no.
+(3) Company's control of vessels of 8 to 9 metres in overall length shall be reported directly to the Norwegian Maritime Authority in accordance with the form laid down by the Norwegian Maritime Authority. This form can be downloaded from www.yrkesfisker.no.
+(4) Intermediate company's control of vessels of 9 to 10.67 metres in overall length shall be reported directly to the Norwegian Maritime Authority in accordance with the form laid down by the Norwegian Maritime Authority. This form can be downloaded from www.yrkesfisker.no.
+
+Section 99. Inspection of vessel in connection with damage, conversion, etc.
+All vessels of 8 to 15 metres in overall length which have been damaged or have undergone repairs, alterations, modifications or outfitting shall be subject to an inspection by an approved company. The inspection shall include the damaged and repaired parts, the components which have been altered or modified, as well as other parts of the vessel affected by the changes made, unless it is necessary to inspect other parts as well to ensure that the requirements for the vessel are satisfied.
+
+Section 100. Inspection of the electrical installation by an accepted electrical enterprise
+(1) All inspections by accepted electrical enterprises shall be carried out in accordance with the report form laid down by the Norwegian Directorate for Civil Protection. For classed vessels, the inspection of the electrical installation may be carried out by recognised classification societies.
+(2) The vessel is under an obligation to be subject to other inspection by an accepted electrical enterprise to ensure that the vessel's condition is still in compliance with the currently applicable regulations, when:
+a)	the electrical installation is altered or modified; and
+
+b)	the electrical installation has been damaged or undergone repairs.
+
+(3) Inspections as referred to in the second paragraph shall include the parts that have been damaged or undergone repairs, alterations or modifications. The inspection shall also include other parts if this is necessary in order to ensure that the condition of the vessel is still in compliance with the regulations in force at the time of inspection.
+
+Section 101. Documentation for newbuildings and conversions
+When constructing or converting a vessel, drawings and other documentation shall be inspected for an approved company.
+
+Section 102. Documentation on board the vessel
+(1) Documentation which pursuant to these Regulations is required to be kept on board, shall also be available for presentation at later inspections/supervision.
+(2) In addition to documentation referred in the individual provisions, the following shall be kept on board:
+a)	Vessels of 6 to 8 metres in overall length shall have an installation attestation for electrical installations.
+
+b)	Vessels of 8 to 15 metres in overall length shall have a report form for electrical installations issued by an accepted electrical enterprise. For existing vessels of 8 to 9 metres in overall length, a valid installation attestation is accepted as documentation for the electrical installation. If the Norwegian Directorate for Civil Protection so accepts, the report form and installation attestation may be replaced by a declaration of survey.
+
+c)	Vessels of 6 to 15 metres in overall length shall have on board a record book for cargo-handling appliances as referred to in Regulations of 17 January 1978 No. 4 on cargo-handling appliances in ships.
+
+d)	New and existing vessels constructed after 1 July 2007 of 6 to 8 metres in overall length shall have a confirmation of construction as referred to in Appendix 3.
+
+e)	Existing vessels of more than 8 metres constructed after 1 July 2007 shall keep on board a confirmation of construction as referred to in the third paragraph until a complete inspection pursuant to section 95 and section 96 has been carried out by an approved company.
+
+
+(3) The owner of the vessel is responsible for ensuring that the main manufacturer/yard, including the builder of semi-products/DIY builders, as well as the importer issue a confirmation of construction on the form prescribed by the Norwegian Maritime Authority, see Appendix 3.
+(4) A certificate of installation for gasfired installations shall be kept on board.
+(5) A description of the fire-extinguishing system with instructions for use and maintenance of the system in accordance with the manufacturer's instructions shall be kept on board.
+(6) Letter concerning inspection of stability calculations, stability poster and other stability documentation shall be kept on board the vessel.
+(7) A declaration of conformity from manufacturer of liferaft shall be kept on board.
+(8) Documentation of pressure-testing/tightness-testing of immersion suits shall be kept on board.
+
+0	Amended by Regulation of 4 May 2015 No. 445 (in force on 6 May 2015).
+
+
+
+10. Concluding provisions
+
+Section 103. Exemptions and equivalents
+(1) The Norwegian Maritime Authority may exempt a ship from one or more of the requirements of the Regulations when the company applies for an exemption in writing and one of the following conditions is met:
+a)	it is established that the requirement is not essential and that it is justifiable in terms of safety;
+
+b)	it is established that compensating measures will maintain the same level of safety as the requirement of these Regulations.
+
+(2) The Norwegian Maritime Authority may upon application accept other solutions as equivalent to the requirements of these Regulations, when documentation from tests establishing that the solutions are equivalent is submitted.
+
+Section 104. Entry into force
+These Regulations enter into force on 1 January 2014. As from the same date, the following regulations are repealed:
+a)	Regulations of 18 August 1978 No. 9154 on navigational aids, etc. on fishing vessels;
+
+b)	Regulations of 4 September 1987 No. 743 on fire safety measures in fishing vessels as regards vessels of less than 15 metres;
+
+c)	Regulations of 15 October 1991 No. 708 on the construction and equipment of fishing vessels of from 6 m and up to 15 m in overall length;
+
+d)	Regulations of 15 October 1991 No. 709 on life-saving appliances, etc. in fishing vessels as regards vessels of less than 15 metres;
+
+e)	Regulations of 15 October 1991 No. 710 on safety measures, etc. on fishing vessels;
+
+
+f)	Regulations of 22 December 1993 No. 1242 on radio installations and radio services on fishing vessels;
+
+g)	Regulations of 3 October 2000 No. 985 on the supervision of fishing vessels of from 10.67 to 15 m in overall length.
+
+
+Section 105. Transitional provisions
+(1) For vessels of 8 to 10.67 metres in overall length, except vessels as referred to in the third and fourth paragraphs, the requirements of chapter 9 on inspection by an approved company and the requirements for stability documentation will be applicable from:
+a)	1 July 2014 for new vessels;
+
+b)	1 January 2016 for existing vessels constructed on or after 1 January 1998;
+
+c)	1 January 2017 for vessels constructed in the period from 1 January 1992 to 31 December 1997;
+
+d)	1 January 2019 for vessels constructed in the period from 1 January 1983 to 31 December 1991;
+
+e)	1 January 2020 for vessels constructed in the period from 1 January 1970 to 31 December 1982;
+
+f)	1 January 2021 for vessels constructed before 1970.
+
+(2) For vessels of 9 to 10.67 metres in overall length, the first complete inspection by an approved company may be carried out within 18 months prior to the transitional dates of the first paragraph without the date of the next inspection being changed. For subsequent inspection, the provisions of section 96 apply.
+(3) Regardless of the provision of the first paragraph, the requirements of chapter 9 on inspection and documentation will be applicable to vessels of 8 to 10.67 metres in overall length constructed before 1 January 1992, from:
+a)	1 January 2016 for all vessels operating in trade area Bank fishing I;
+
+b)	1 January 2019 for all vessels operating in trade area In-shore fishing.
+
+(4) For vessels constructed before 1 January 1992 operating in trade area Fjord fishing, except vessels fishing with seines and taking their catch on board, the requirements of chapter 4 on stability calculations will be applicable from:
+a)	1 January 2022 for vessels of 8 to 9 metres in overall length;
+
+b)	1 January 2021 for vessels of 9 to 10.67 metres in overall length.
+
+(5) For vessels of 10.67 to 15 metres in overall length constructed before 1 January 1992 and operating in trade area Fjord fishing, except vessels fishing with seines and taking their catch on board, the requirements of chapter 4 on stability calculations will be applicable from 1 January 2020.
+(6) Existing vessels may have radio equipment in accordance with Regulations of 22 December 1992 No. 1242 on radio installations and radio services up until:
+a)	1 January 2032 for vessels of less than 8 metres in overall length;
+
+b)	10 years after the issue of vessel instructions for vessels of 8 to 10.67 metres in overall length;
+
+c)	1 January 2025 for vessels of 10.67 to 15 metres in overall length.
+
+(7) The requirement for EPIRB of section 68 nevertheless applies from 1 July 2014.
+An EPIRB without integrated position indicator, procured before 1 July 2014, may be used until 1 July 2018.
+(8) For vessels that have not previously been registered in the Register of Norwegian Fishing Vessels, the requirements of chapter 9 on inspection by an approved company and the requirements for stability documentation will be applicable from the time the vessel is put into service, regardless of the provisions of the first to fourth paragraphs.
+
+0	Amended by Regulation of 4 May 2015 No. 445 (in force on 6 May 2015).
