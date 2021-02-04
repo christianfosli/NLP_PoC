@@ -831,17 +831,107 @@
 			<paragraf id="/kapittel/7/paragraf/65" url="https://lovdata.no/forskrift/2013-11-22-1404/k7/p65">
 				<ptittel>Section 65. Documentation which shall be available on board</ptittel>
 				<ledd id="/kapittel/7/paragraf/65/ledd">The following documentation pertaining to radio equipment shall be available on board:</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">	Fjord fishing and In-shore fishing	Bank fishing I and Bank fishing II</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">IAMSAR volume III	X	X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">Instruction manuals for each piece of radio equipment	X	X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">Channel plan and frequency tables for the trade area in question	X	X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">Permission for use of frequencies (licence)	X	X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">Radio records. The deck log book may be used as radio records	X	X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">GMDSS map		X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">GMDSS Operating Guidance for Masters of Ships in Distress Situations		X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">ITU's Manual for use by the Maritime Mobile and Maritime Mobile-Satellite Services		X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">GMDSS emergency procedures (shall be posted at the radio station)	X	X</ledd>
-				<ledd id="/kapittel/7/paragraf/65/ledd">Drawings showing the radio arrangement (antenna drawings, drawings of the location of the radio equipment in the wheelhouse and wiring diagram)	X	X</ledd>
+				<table>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry></entry>
+								<entry>Fjord fishing and In-shore fishing</entry>
+								<entry>Bank fishing I and Bank fishing II</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>IAMSAR volume III</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Instruction manuals for each piece of radio equipment</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Channel plan and frequency tables for the trade area in question</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Permission for use of frequencies (licence)</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Radio records. The deck log book may be used as radio records</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>GMDSS map</entry>
+								<entry></entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>GMDSS Operating Guidance for Masters of Ships in Distress Situations</entry>
+								<entry></entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>ITU's Manual for use by the Maritime Mobile and Maritime Mobile-Satellite Services</entry>
+								<entry></entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>GMDSS emergency procedures (shall be posted at the radio station)</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+							<row>
+								<entry>Drawings showing the radio arrangement (antenna drawings, drawings of the location of the radio equipment in the wheelhouse and wiring diagram)</entry>
+								<entry>X</entry>
+								<entry>X</entry>
+							</row>
+						</tbody>
+					</tgroup>
+				</table>
 			</paragraf>
 			<paragraf id="/kapittel/7/paragraf/66" url="https://lovdata.no/forskrift/2013-11-22-1404/k7/p66">
 				<ptittel>Section 66. Safety radio certificate</ptittel>
