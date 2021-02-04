@@ -739,14 +739,14 @@
 						</row>
 						</tbody>
 					</tgroup>
-					<thgroup>
+					<tgroup>
 						<tbody>
 						<row>
 							<entry>FARE</entry>
 							<entry>DANGER</entry>
 						</row>
 						</tbody>
-					</thgroup>
+					</tgroup>
 					<tgroup>
 						<tbody>
 						<row>
@@ -763,14 +763,14 @@
 						</row>
 						</tbody>
 					</tgroup>
-					<thgroup>
+					<tgroup>
 						<tbody>
 						<row>
 							<entry>FARE</entry>
 							<entry>DANGER</entry>
 						</row>
 						</tbody>
-					</thgroup>
+					</tgroup>
 					<tgroup>
 						<tbody>
 						<row>
@@ -832,7 +832,7 @@
 				<ptittel>Section 65. Documentation which shall be available on board</ptittel>
 				<ledd id="/kapittel/7/paragraf/65/ledd">The following documentation pertaining to radio equipment shall be available on board:</ledd>
 				<table>
-					<tgroup>
+					<thgroup>
 						<tbody>
 							<row>
 								<entry></entry>
@@ -840,7 +840,7 @@
 								<entry>Bank fishing I and Bank fishing II</entry>
 							</row>
 						</tbody>
-					</tgroup>
+					</thgroup>
 					<tgroup>
 						<tbody>
 							<row>
