@@ -80,7 +80,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/13" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p13">
 				<ptittel>Section 13. Insulation with non-combustible material</ptittel>
-				<ledd>Non-combustible material means a material which, when tested and evaluated in accordance with MSC.61(67) (the FTP Code), satisfies the requirements for qualifying materials as non-combustible. The insulation shall, if necessary in order to preserve the fire-insulating effect, be mounted with a sheet of galvanized steel or aluminium.</ledd>
+				<ledd id="/kapittel/3/paragraf/13/ledd">Non-combustible material means a material which, when tested and evaluated in accordance with MSC.61(67) (the FTP Code), satisfies the requirements for qualifying materials as non-combustible. The insulation shall, if necessary in order to preserve the fire-insulating effect, be mounted with a sheet of galvanized steel or aluminium.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/14" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p14">
 				<ptittel>Section 14. Insulation of machinery spaces in wooden vessels</ptittel>
@@ -112,11 +112,11 @@
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/18" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p18">
 				<ptittel>Section 18. Ventilation systems</ptittel>
-				<ledd>The vessel's machinery space shall have at least two ventilators capable of being closed from deck. Cabins shall have at least two ventilators with a diameter of at least 8 cm.</ledd>
+				<ledd id="/kapittel/3/paragraf/18/ledd">The vessel's machinery space shall have at least two ventilators capable of being closed from deck. Cabins shall have at least two ventilators with a diameter of at least 8 cm.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/19" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p19">
 				<ptittel>Section 19. Materials, etc.</ptittel>
-				<ledd>Materials, varnishes, paints, etc. produced on a nitrocellulose basis or any other basis which will readily ignite are not permitted to be used anywhere on board.</ledd>
+				<ledd id="/kapittel/3/paragraf/19/ledd">Materials, varnishes, paints, etc. produced on a nitrocellulose basis or any other basis which will readily ignite are not permitted to be used anywhere on board.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/20" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p20">
 				<ptittel>Section 20. Storage of oil fuel and other flammable liquids</ptittel>
@@ -207,7 +207,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/25" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p25">
 				<ptittel>Section 25. Equivalents</ptittel>
-				<ledd>Vessels constructed pursuant to Nordic Boat Standard (1990) are considered to satisfy the requirements of sections 18, 19 and 20.</ledd>
+				<ledd id="/kapittel/3/paragraf/25/ledd">Vessels constructed pursuant to Nordic Boat Standard (1990) are considered to satisfy the requirements of sections 18, 19 and 20.</ledd>
 			</paragraf>
 		</kapittel>
 	</tekst>
