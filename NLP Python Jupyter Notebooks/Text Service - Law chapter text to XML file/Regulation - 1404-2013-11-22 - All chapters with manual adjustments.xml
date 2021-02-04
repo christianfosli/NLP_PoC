@@ -714,15 +714,80 @@
 			<paragraf id="/kapittel/6/paragraf/56" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p56">
 				<ptittel>Section 56. Marking of tanks, spaces, etc. and warning signs</ptittel>
 				<ledd id="/kapittel/6/paragraf/56/ledd/1">(1) All doors, hatches, manhole covers, etc. providing access to gas-hazardous spaces or spaces presenting a risk of insufficient oxygen shall be clearly marked giving warning of the hazard of gas poisoning or lack of oxygen to which a person may be exposed. In places where the marking can easily be damaged or dirtied, the actual hatch, cover or similar shall also be painted in the same colour as the signs. The colour of the warning signs and adhesive notes shall be in accordance with Norwegian Standard NS 6033 or NS 4210, and have Norwegian text clearly expressing the following:</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">FARE	DANGER</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">OKSYGENMANGEL	LACK OF OXYGEN</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">(Symbol)	</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">FARE	DANGER</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">GIFTIG GASS	POISON GAS</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">(Symbol)	</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">FARE	DANGER</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">EKSPLOSIV ATMOSFÆRE	EXPLOSIVE ATMOSPHERE</ledd>
-				<ledd id="/kapittel/6/paragraf/56/ledd">(Symbol)	</ledd>
+				<table>
+					<thgroup>
+						<tbody>
+						<row>
+							<entry>FARE</entry>
+							<entry>DANGER</entry>
+						</row>
+						</tbody>
+					</thgroup>
+					<tgroup>
+						<tbody>
+						<row>
+							<entry>OKSYGENMANGEL</entry>
+							<entry>LACK OF OXYGEN</entry>
+						</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+						<row>
+							<entry>(Symbol)</entry>
+							<entry></entry>
+						</row>
+						</tbody>
+					</tgroup>
+					<thgroup>
+						<tbody>
+						<row>
+							<entry>FARE</entry>
+							<entry>DANGER</entry>
+						</row>
+						</tbody>
+					</thgroup>
+					<tgroup>
+						<tbody>
+						<row>
+							<entry>GIFTIG GASS</entry>
+							<entry>POISON GAS</entry>
+						</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+						<row>
+							<entry>(Symbol)</entry>
+							<entry></entry>
+						</row>
+						</tbody>
+					</tgroup>
+					<thgroup>
+						<tbody>
+						<row>
+							<entry>FARE</entry>
+							<entry>DANGER</entry>
+						</row>
+						</tbody>
+					</thgroup>
+					<tgroup>
+						<tbody>
+						<row>
+							<entry>EKSPLOSIV ATMOSFÆRE</entry>
+							<entry>EXPLOSIVE ATMOSPHERE</entry>
+						</row>
+						</tbody>
+					</tgroup>
+					<tgroup>
+						<tbody>
+						<row>
+							<entry>(Symbol)</entry>
+							<entry></entry>
+						</row>
+						</tbody>
+					</tgroup>
+				</table>
 				<ledd id="/kapittel/6/paragraf/56/ledd/2">(2) In vessels calling at ports outside Scandinavia, Iceland and Greenland, the warning signs as referred to in the first paragraph shall also be provided with English text.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/57" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p57">
