@@ -24,26 +24,26 @@
 					(1) Stoves with electric power supply shall have an oil supply which shuts off automatically if:
 					<liste id="/kapittel/3/paragraf/9/ledd/1/liste/a">
 						<lverdi>a</lverdi>
-						<avsnitt>a)	the stove is over-heated (maximum 400°C in smoke gas);</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/9/ledd/1/liste/a/avsnitt/1">a)	the stove is over-heated (maximum 400°C in smoke gas);</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/9/ledd/1/liste/b">
 						<lverdi>b</lverdi>
-						<avsnitt>b)	the flame goes out;</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/9/ledd/1/liste/b/avsnitt/1">b)	the flame goes out;</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/9/ledd/1/liste/c">
 						<lverdi>c</lverdi>
-						<avsnitt>c)	a failure occurs in the supply of air or power.</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/9/ledd/1/liste/c/avsnitt/1">c)	a failure occurs in the supply of air or power.</avsnitt>
 					</liste>
 				</ledd>
 				<ledd id="/kapittel/3/paragraf/9/ledd/2">
 					(2) Stoves without electric power supply shall have an oil supply which shuts off automatically if
 					<liste id="/kapittel/3/paragraf/9/ledd/2/liste/a">
 						<lverdi>a</lverdi>
-						<avsnitt>a)	the stove is over-heated (maximum 400°C in smoke gas);</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/9/ledd/2/liste/a/avsnitt/1">a)	the stove is over-heated (maximum 400°C in smoke gas);</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/9/ledd/2/liste/b">
 						<lverdi>b</lverdi>
-						<avsnitt>b)	the flame goes out.</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/9/ledd/2/liste/b/avsnitt/1">b)	the flame goes out.</avsnitt>
 					</liste>
 				</ledd>
 				<ledd id="/kapittel/3/paragraf/9/ledd/3">(3) Drip regulation stoves (regulation valve with observation hole) need not have automatic shutoff of the oil supply if the flame will go out due to the oil consumption being limited by an oil regulation valve. The installation instructions shall indicate the maximum permitted difference in height between the oil tank and the regulation valve. An oil pressure reduction valve shall be fitted if satisfactory regulation of the oil supply cannot be achieved through pressure variations. The overflow system shall be capable of receiving the full volume of the tank.</ledd>
@@ -130,11 +130,11 @@
 					(1) Seawater pipes, bilge pipes, pipes conveying oil and other pipelines required for the safety of the ship shall be made of non-combustible material. Short, flexible pipe connections made of a material which is not easily rendered ineffective by heat, may be accepted on:
 					<liste id="/kapittel/3/paragraf/21/ledd/1/liste/a">
 						<lverdi>a</lverdi>
-						<avsnitt>a)	seawater pipes;</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/21/ledd/1/liste/a/avsnitt/1">a)	seawater pipes;</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/21/ledd/1/liste/b">
 						<lverdi>b</lverdi>
-						<avsnitt>b)	short, flexible pipe connections on pipes conveying oil, when necessitated by vibrations.</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/21/ledd/1/liste/b/avsnitt/1">b)	short, flexible pipe connections on pipes conveying oil, when necessitated by vibrations.</avsnitt>
 					</liste>
 				</ledd>
 				<ledd id="/kapittel/3/paragraf/21/ledd/2">(2) Where failure of the material due to fire may lead to flooding, scuppers, sanitary discharges or other outlets which are close to the waterline shall be made of oil-resistant and reinforced materials which are not easily damaged by heat.</ledd>
@@ -145,19 +145,19 @@
 					(1) Vessels constructed after 1 January 1992 shall satisfy the requirements of Nordic Boat Standard (1990)
 					<liste id="/kapittel/3/paragraf/22/ledd/1/liste/a">
 						<lverdi>a</lverdi>
-						<avsnitt>a)	C6 on bilge systems;</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/22/ledd/1/liste/a/avsnitt/1">a)	C6 on bilge systems;</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/22/ledd/1/liste/b">
 						<lverdi>b</lverdi>
-						<avsnitt>b)	C9 on oil fuel systems;</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/22/ledd/1/liste/b/avsnitt/1">b)	C9 on oil fuel systems;</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/22/ledd/1/liste/c">
 						<lverdi>c</lverdi>
-						<avsnitt>c)	C8 on engine installations; and</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/22/ledd/1/liste/c/avsnitt/1">c)	C8 on engine installations; and</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/22/ledd/1/liste/d">
 						<lverdi>d</lverdi>
-						<avsnitt>d)	C7 and C10 on rudder and propeller arrangements.</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/22/ledd/1/liste/d/avsnitt/1">d)	C7 and C10 on rudder and propeller arrangements.</avsnitt>
 					</liste>
 				</ledd>
 				<ledd id="/kapittel/3/paragraf/22/ledd/2">(2) Vessels constructed before 1 January 1992 shall as far as possible satisfy the requirements of Nordic Boat Standard (1990 chapter C6 on bilge systems.</ledd>
@@ -175,30 +175,30 @@
 					(1) Vessels of 10.67 to 15 metres in overall length constructed after 1 January 1992 shall have an emergency source of power providing satisfactory lighting for at least 2 hours to:
 					<liste id="/kapittel/3/paragraf/24/ledd/1/liste/a">
 						<lverdi>a</lverdi>
-						<avsnitt>a)	lighting in areas with life-saving appliances and launching arrangements;</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/24/ledd/1/liste/a/avsnitt/1">a)	lighting in areas with life-saving appliances and launching arrangements;</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/24/ledd/1/liste/b">
 						<lverdi>b</lverdi>
-						<avsnitt>b)	lighting in alleyways, stairways and exits to the life-saving appliances and of the sea where the life-saving appliances are launched;</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/24/ledd/1/liste/b/avsnitt/1">b)	lighting in alleyways, stairways and exits to the life-saving appliances and of the sea where the life-saving appliances are launched;</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/24/ledd/1/liste/c">
 						<lverdi>c</lverdi>
-						<avsnitt>c)	necessary navigation lights; and</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/24/ledd/1/liste/c/avsnitt/1">c)	necessary navigation lights; and</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/24/ledd/1/liste/d">
 						<lverdi>d</lverdi>
-						<avsnitt>d)	required alarm system.</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/24/ledd/1/liste/d/avsnitt/1">d)	required alarm system.</avsnitt>
 					</liste>
 				</ledd>
 				<ledd id="/kapittel/3/paragraf/24/ledd/2">
 					(2) The emergency power shall be provided by one of the following two sources:
 					<liste id="/kapittel/3/paragraf/24/ledd/2/liste/a">
 						<lverdi>a</lverdi>
-						<avsnitt>a)	an accumulator battery capable of carrying the load pursuant to the first paragraph without recharging or suffering an excessive voltage drop, and which is automatically connected to the emergency switchboard when the main power fails; or</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/24/ledd/2/liste/a/avsnitt/1">a)	an accumulator battery capable of carrying the load pursuant to the first paragraph without recharging or suffering an excessive voltage drop, and which is automatically connected to the emergency switchboard when the main power fails; or</avsnitt>
 					</liste>
 					<liste id="/kapittel/3/paragraf/24/ledd/2/liste/b">
 						<lverdi>b</lverdi>
-						<avsnitt>b)	a generator driven by a suitable type of power machinery with an independent supply of fuel, appropriate starting arrangements and driven by fuel having a flashpoint of not less than 43°C (110°F).</avsnitt>
+						<avsnitt id="/kapittel/3/paragraf/24/ledd/2/liste/b/avsnitt/1">b)	a generator driven by a suitable type of power machinery with an independent supply of fuel, appropriate starting arrangements and driven by fuel having a flashpoint of not less than 43°C (110°F).</avsnitt>
 					</liste>
 				</ledd>
 				<ledd id="/kapittel/3/paragraf/24/ledd/3">(3) The entire installation shall be capable of operating even when the vessel is listed to 22.5 degrees or when the trim of the vessel is 10 degrees.</ledd>
