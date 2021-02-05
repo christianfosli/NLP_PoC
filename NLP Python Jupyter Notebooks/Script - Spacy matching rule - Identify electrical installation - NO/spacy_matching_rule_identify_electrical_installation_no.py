@@ -11,7 +11,7 @@ def is_float(n):
     else:
         return True
 
-def identify_length_overall_in_text(text):
+def identify_electrical_installation_in_text(text):
     nlp = Norwegian()
 
     doc = nlp(text)
@@ -22,31 +22,25 @@ def identify_length_overall_in_text(text):
     # START - spaCy patterns
     #
 
-    # LENGTH
-
-    length_pattern = [
-        {"TEXT": {"REGEX": "[0-9]+[,]+[0-9]|[0-9]"}},
-        {"LOWER": {"IN": ["meter"]}}]
-
-    matcher.add("LENGTH", None, length_pattern)
-
-    # LENGTH_PREFIX
-
-    length_prefix_pattern_1 = [
-        {"LOWER": {"IN": ["mindre"]}},
-        {"LOWER": {"IN": ["enn"]}}]
-
-    length_prefix_pattern_2 = [
-        {"LOWER": {"IN": ["under"]}}]
-
-    matcher.add("LENGTH_PREFIX", None, length_prefix_pattern_1, length_prefix_pattern_2)
-
     # WATER_VESSEL
-
-    water_vessel_pattern = [
-        {"LOWER": {"IN": ["fartøy"]}}]
-
+    water_vessel_pattern = [{"LOWER": {"IN": ["fartøy"]}}]
     matcher.add("WATER_VESSEL", None, water_vessel_pattern)
+
+    # ELECTRICAL_INSTALLATION
+    electrical_installation_pattern_1 = [{"LOWER": {"IN": ["elektrisk"]}},{"LOWER": {"IN": ["anlegg"]}}]
+    electrical_installation_pattern_2 = [{"LOWER": {"IN": ["elektriske"]}},{"LOWER": {"IN": ["anlegg"]}}]
+    matcher.add("ELECTRICAL_INSTALLATION", None, electrical_installation_pattern_1, electrical_installation_pattern_2)
+
+    # VOLTAGE_PREFIX
+    voltage_prefix_pattern_1 = [{"LOWER": {"IN": ["mindre"]}},{"LOWER": {"IN": ["enn"]}}]
+    voltage_prefix_pattern_2 = [{"LOWER": {"IN": ["inntil"]}}]
+    matcher.add("VOLTAGE_PREFIX", None, voltage_prefix_pattern_1, voltage_prefix_pattern_2)
+
+    # VOLTAGE
+    voltage_pattern = [
+        {"TEXT": {"REGEX": "[0-9]+[,]+[0-9]|[0-9]"}},
+        {"LOWER": {"IN": ["v"]}}]
+    matcher.add("VOLTAGE", None, voltage_pattern)
 
     #
     # END - spaCy patterns
@@ -60,16 +54,6 @@ def identify_length_overall_in_text(text):
 
         final_token_start = token_start
         final_token_end = token_end
-
-        #
-        # Expand result if extra length detected in the words before in the line
-        #
-        if match_id_as_string == "LENGTH" and token_start > 0:
-            prev_token_1 = doc[token_start-1].text
-            if prev_token_1 in ("og", "til"):
-                prev_token_2 = doc[token_start-2].text
-                if is_float(prev_token_2):
-                    final_token_start = token_start-2
 
         #
         # convert token_span to char_span.
@@ -99,7 +83,7 @@ def merge_spacy_entity_results_to_spacy_ner_format(spacy_ner_formated_text_line,
 
     return {'text': text, 'ents': sorted(ents, key=lambda x: x['start']), 'title': title}
 
-def identify_length_overall_in_spacy_lines(spacy_lines):
+def identify_electrical_installation_in_spacy_lines(spacy_lines):
 
     result = []
 
@@ -107,7 +91,7 @@ def identify_length_overall_in_spacy_lines(spacy_lines):
 
         if spacy_line['text'] != "\n" and len(spacy_line['text']) > 0:
 
-            result_in_a_list = identify_length_overall_in_text(spacy_line['text'])
+            result_in_a_list = identify_electrical_installation_in_text(spacy_line['text'])
 
             # this result might be empty.
 
