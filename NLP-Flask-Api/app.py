@@ -83,6 +83,7 @@ def post_identify_build_date_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
     forward_result_with_date_in_norwegian = identify_date_in_norwegian_spacy_lines(forward_text_transformed_to_spacy_format)
+    forward_filtered_result_with_only_the_things_we_are_looking_for = 
 
 
 
