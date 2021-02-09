@@ -1,13 +1,14 @@
 from flask import Flask, request, jsonify
 from identify_section_span import list_section_span_from_file_lines
 from identify_sentence_type import list_sentence_type_from_file_lines
-from identify_chapter_and_section import list_chapter_and_section_from_text_lines
 from identify_build_date import find_word
 from transform_text_service_input_to_spacy_format import transform_chapter_from_text_service_to_spacy_format
 
+# spacy matching rule
 from spacy_matching_rule_identify_vessel_length_overall_no import identify_length_overall_in_spacy_lines
 from spacy_matching_rule_identify_electrical_installation_no import identify_electrical_installation_in_spacy_lines
 
+# api controller
 from api_controller_identify_vessel_length_overall import create_api_response_for_post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input
 from api_controller_identify_electrical_installation_in_text_service_norwegian_chapter_input import create_api_response_for_post_identify_electrical_installation_in_text_service_norwegian_chapter_input
 
@@ -18,74 +19,7 @@ app = Flask(__name__)
 def health():
     return "OK"
 
-#
-# Deactivating this because it does the same as /identify-date-in-spacy-lines
-# only it only takes one string input.
-# TODO: Remove later
-#
-#@app.route("/identify-date-in-text", methods=["POST"])
-#def post_identify_date_in_text():
-#    input_text = request.form["text"]
-#    escaped_input_text = bytes(input_text, "utf-8").decode("unicode_escape")
-#    result_in_a_list = identify_date_in_text(escaped_input_text)
-#    return { "spacy-ner-tags-as-json": result_in_a_list}
-
-# TODO: Remove later
-# Removing this because spacy lines will only be used internally in the API
-# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1127743570/identify-date-in-spacy-lines <-- Have removed this.
-#@app.route("/identify-date-in-spacy-lines", methods=["POST"])
-#def post_identify_date_in_spacy_lines():
-#    input_spacy_lines_as_json = request.json
-#    input_spacy_lines = input_spacy_lines_as_json['spacy-lines-as-json']
-#    result_in_a_list = identify_date_in_spacy_lines(input_spacy_lines)
-#    return jsonify({"spacy-lines-as-json": result_in_a_list})
-
-# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1144291329/identify-section-span-in-chapter-text
-@app.route("/identify-section-span-in-chapter-text", methods=["POST"])
-def post_identify_section_span_in_chapter_text():
-    input_chapter_text_as_json = request.json
-    input_chapter_text_in_a_list = input_chapter_text_as_json['chapter_text_in_a_list']
-    response_in_a_list = list_section_span_from_file_lines(input_chapter_text_in_a_list)
-    response_converted_to_json = []
-    for item in response_in_a_list:
-        data = {}
-        data['section_number'] = int(item[0])
-        data['section_start_at_sentence'] = item[1]
-        data['section_end_at_sentence'] = item[2]
-        response_converted_to_json.append(data)
-    return jsonify({"identified_section_span": response_converted_to_json})
-
-# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1145995269/identify-sentence-type-in-chapter-text
-@app.route("/identify-sentence-type-in-chapter-text", methods=["POST"])
-def post_identify_sentence_type_in_chapter_text():
-    input_chapter_text_as_json = request.json
-    input_chapter_text_in_a_list = input_chapter_text_as_json['chapter_text_in_a_list']
-    response_in_a_list = list_sentence_type_from_file_lines(input_chapter_text_in_a_list)
-    response_converted_to_json = []
-    for item in response_in_a_list:
-        data = {}
-        data['text_line_index_number'] = int(item[0])
-        data['sentence_type'] = item[1]
-        data['sentence_type_value'] = item[2]
-        response_converted_to_json.append(data)
-    return jsonify({"identified_sentence_type": response_converted_to_json})
-
-# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1145896992/identify-chapter-and-section-in-chapter-text
-@app.route("/identify-chapter-and-section-in-chapter-text", methods=["POST"])
-def post_identify_chapter_and_section_in_chapter_text():
-    input_chapter_text_as_json = request.json
-    input_chapter_text_in_a_list = input_chapter_text_as_json['chapter_text_in_a_list']
-    response_in_a_list = list_chapter_and_section_from_text_lines(input_chapter_text_in_a_list)
-    response_converted_to_json = []
-    for item in response_in_a_list:
-        data = {}
-        data['text_line_index_number'] = int(item[0])
-        data['sentence_type'] = item[1]
-        data['sentence_type_value'] = item[2]
-        data['sentence_type_text'] = item[3]
-        response_converted_to_json.append(data)
-    return jsonify({"identified_sentence_type": response_converted_to_json})
-
+#TODO refactor this to get input from text service api
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1151828046/identify-build-date-in-chapter-text
 @app.route("/identify-build-date-in-chapter-text", methods=["POST"])
 def post_identify_build_date_in_chapter_text():
