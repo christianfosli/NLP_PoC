@@ -7,7 +7,7 @@
 			<ktittel>General provisions</ktittel>
 			<paragraf id="/kapittel/1/paragraf/1" url="https://lovdata.no/forskrift/2013-11-22-1404/k1/p1">
 				<ptittel>Scope of application</ptittel>
-				<ledd id="/kapittel/1/paragraf/1/ledd">These Regulations apply to Norwegian fishing vessels of up to 15 metres in overall length.</ledd>
+				<ledd id="/kapittel/1/paragraf/1/ledd/1">These Regulations apply to Norwegian fishing vessels of up to 15 metres in overall length.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/1/paragraf/2" url="https://lovdata.no/forskrift/2013-11-22-1404/k1/p2">
 				<ptittel>Definitions</ptittel>
@@ -73,7 +73,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/2/paragraf/6" url="https://lovdata.no/forskrift/2013-11-22-1404/k2/p6">
 				<ptittel>Bulwarks, rails and guards</ptittel>
-				<ledd id="/kapittel/2/paragraf/6/ledd">Vessels of 6 to 15 meters in overall length constructed after 1 July 2014 shall have bulwarks or guard rails with a height of minimum one metre on all exposed parts of the working decks and on superstructures functioning as a work station. The height may be reduced to minimum 600 millimetres if it hinders the execution of the fishing and it is considered absolutely necessary.</ledd>
+				<ledd id="/kapittel/2/paragraf/6/ledd/1">Vessels of 6 to 15 meters in overall length constructed after 1 July 2014 shall have bulwarks or guard rails with a height of minimum one metre on all exposed parts of the working decks and on superstructures functioning as a work station. The height may be reduced to minimum 600 millimetres if it hinders the execution of the fishing and it is considered absolutely necessary.</ledd>
 			</paragraf>
 		</kapittel>
 		<kapittel type="kapittel" id="/kapittel/3" url="https://lovdata.no/forskrift/2013-11-22-1404/k3">
@@ -153,7 +153,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/13" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p13">
 				<ptittel>Insulation with non-combustible material</ptittel>
-				<ledd id="/kapittel/3/paragraf/13/ledd">Non-combustible material means a material which, when tested and evaluated in accordance with MSC.61(67) (the FTP Code), satisfies the requirements for qualifying materials as non-combustible. The insulation shall, if necessary in order to preserve the fire-insulating effect, be mounted with a sheet of galvanized steel or aluminium.</ledd>
+				<ledd id="/kapittel/3/paragraf/13/ledd/1">Non-combustible material means a material which, when tested and evaluated in accordance with MSC.61(67) (the FTP Code), satisfies the requirements for qualifying materials as non-combustible. The insulation shall, if necessary in order to preserve the fire-insulating effect, be mounted with a sheet of galvanized steel or aluminium.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/14" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p14">
 				<ptittel>Insulation of machinery spaces in wooden vessels</ptittel>
@@ -185,11 +185,11 @@
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/18" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p18">
 				<ptittel>Ventilation systems</ptittel>
-				<ledd id="/kapittel/3/paragraf/18/ledd">The vessel's machinery space shall have at least two ventilators capable of being closed from deck. Cabins shall have at least two ventilators with a diameter of at least 8 cm.</ledd>
+				<ledd id="/kapittel/3/paragraf/18/ledd/1">The vessel's machinery space shall have at least two ventilators capable of being closed from deck. Cabins shall have at least two ventilators with a diameter of at least 8 cm.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/19" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p19">
 				<ptittel>Materials, etc.</ptittel>
-				<ledd id="/kapittel/3/paragraf/19/ledd">Materials, varnishes, paints, etc. produced on a nitrocellulose basis or any other basis which will readily ignite are not permitted to be used anywhere on board.</ledd>
+				<ledd id="/kapittel/3/paragraf/19/ledd/1">Materials, varnishes, paints, etc. produced on a nitrocellulose basis or any other basis which will readily ignite are not permitted to be used anywhere on board.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/20" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p20">
 				<ptittel>Storage of oil fuel and other flammable liquids</ptittel>
@@ -280,7 +280,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/3/paragraf/25" url="https://lovdata.no/forskrift/2013-11-22-1404/k3/p25">
 				<ptittel>Equivalents</ptittel>
-				<ledd id="/kapittel/3/paragraf/25/ledd">Vessels constructed pursuant to Nordic Boat Standard (1990) are considered to satisfy the requirements of sections 18, 19 and 20.</ledd>
+				<ledd id="/kapittel/3/paragraf/25/ledd/1">Vessels constructed pursuant to Nordic Boat Standard (1990) are considered to satisfy the requirements of sections 18, 19 and 20.</ledd>
 			</paragraf>
 		</kapittel>
 		<kapittel type="kapittel" id="/kapittel/4" url="https://lovdata.no/forskrift/2013-11-22-1404/k4">
@@ -455,11 +455,11 @@
 			</paragraf>
 			<paragraf id="/kapittel/4/paragraf/30" url="https://lovdata.no/forskrift/2013-11-22-1404/k4/p30">
 				<ptittel>Bow height</ptittel>
-				<ledd id="/kapittel/4/paragraf/30/ledd">Vessels constructed after 1 January 1992 shall have a bow height of at least 43 x LOA + 310 [millimetres] measured vertically at the stem from the loaded waterline to the exposed deck. Bow height requirements laid down in the Nordic Boat Standard (1990) may as an alternative be applied. Where the bow height is obtained by a superstructure arrangement, such superstructure shall be closed and extend from the stem to a point at least 0.10 · LOA abaft the forwardmost part of the hull. The requirement for bow height shall be satisfied for 0 trim and for loading conditions with forward trim.</ledd>
+				<ledd id="/kapittel/4/paragraf/30/ledd/1">Vessels constructed after 1 January 1992 shall have a bow height of at least 43 x LOA + 310 [millimetres] measured vertically at the stem from the loaded waterline to the exposed deck. Bow height requirements laid down in the Nordic Boat Standard (1990) may as an alternative be applied. Where the bow height is obtained by a superstructure arrangement, such superstructure shall be closed and extend from the stem to a point at least 0.10 · LOA abaft the forwardmost part of the hull. The requirement for bow height shall be satisfied for 0 trim and for loading conditions with forward trim.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/4/paragraf/31" url="https://lovdata.no/forskrift/2013-11-22-1404/k4/p31">
 				<ptittel>Stability and freeboard for open vessels</ptittel>
-				<ledd id="/kapittel/4/paragraf/31/ledd">Open vessels shall satisfy the requirements of Nordic Boat Standard (1990) C3.</ledd>
+				<ledd id="/kapittel/4/paragraf/31/ledd/1">Open vessels shall satisfy the requirements of Nordic Boat Standard (1990) C3.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/4/paragraf/32" url="https://lovdata.no/forskrift/2013-11-22-1404/k4/p32">
 				<ptittel>Water on decks and in open spaces</ptittel>
@@ -533,7 +533,7 @@
 						<avsnitt id="/kapittel/5/paragraf/37/ledd/2/liste/a/avsnitt/1">a loop/strap or similar device with an appropriate hooking and holding arrangement for use with hoisting tackle.</avsnitt>
 					</liste>
 				</ledd>
-				<ledd id="/kapittel/5/paragraf/37/ledd">
+				<ledd id="/kapittel/5/paragraf/37/ledd/1">
 					The suit and loop/strap shall, when a person is wearing the suit, not be damaged when exposed to a load of at least 300 kg;
 					<liste id="/kapittel/5/paragraf/37/ledd/2/liste/b">
 						<lverdi>b)</lverdi>
@@ -578,15 +578,15 @@
 			</paragraf>
 			<paragraf id="/kapittel/5/paragraf/40" url="https://lovdata.no/forskrift/2013-11-22-1404/k5/p40">
 				<ptittel>Alarm equipment</ptittel>
-				<ledd id="/kapittel/5/paragraf/40/ledd">Vessels shall have suitable means for alerting everyone on board about meeting at the life-saving appliances and about when the vessel should be abandoned.</ledd>
+				<ledd id="/kapittel/5/paragraf/40/ledd/1">Vessels shall have suitable means for alerting everyone on board about meeting at the life-saving appliances and about when the vessel should be abandoned.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/5/paragraf/41" url="https://lovdata.no/forskrift/2013-11-22-1404/k5/p41">
 				<ptittel>Boarding of life-saving appliances</ptittel>
-				<ledd id="/kapittel/5/paragraf/41/ledd">Vessels on which the height from the water plane to where the life-saving appliances are to be boarded is more than two metres in the smallest draught in ballast, shall have a ladder or other approved equipment providing access to the life-saving appliances when they are in the water.</ledd>
+				<ledd id="/kapittel/5/paragraf/41/ledd/1">Vessels on which the height from the water plane to where the life-saving appliances are to be boarded is more than two metres in the smallest draught in ballast, shall have a ladder or other approved equipment providing access to the life-saving appliances when they are in the water.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/5/paragraf/42" url="https://lovdata.no/forskrift/2013-11-22-1404/k5/p42">
 				<ptittel>Precautions for keeping life-saving appliances and other rescue equipment ready for use</ptittel>
-				<ledd id="/kapittel/5/paragraf/42/ledd">All life-saving appliances and other rescue equipment shall be in good condition and ready for immediate use, also in unfavourable conditions of list or trim.</ledd>
+				<ledd id="/kapittel/5/paragraf/42/ledd/1">All life-saving appliances and other rescue equipment shall be in good condition and ready for immediate use, also in unfavourable conditions of list or trim.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/5/paragraf/43" url="https://lovdata.no/forskrift/2013-11-22-1404/k5/p43">
 				<ptittel>Lifebuoys</ptittel>
@@ -676,7 +676,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/49" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p49">
 				<ptittel>Means of access for safe embarkation and disembarkation</ptittel>
-				<ledd id="/kapittel/6/paragraf/49/ledd">Vessels shall have means of access on board, so that embarkation and disembarkation may be effected in a safe and proper manner.</ledd>
+				<ledd id="/kapittel/6/paragraf/49/ledd/1">Vessels shall have means of access on board, so that embarkation and disembarkation may be effected in a safe and proper manner.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/50" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p50">
 				<ptittel>Means of closure - hatches and doors</ptittel>
@@ -694,11 +694,11 @@
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/52" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p52">
 				<ptittel>Drainage of covered working decks</ptittel>
-				<ledd id="/kapittel/6/paragraf/52/ledd">Bilge flaps for drainage of covered working decks shall during normal operation be kept closed when the vessel is at sea.</ledd>
+				<ledd id="/kapittel/6/paragraf/52/ledd/1">Bilge flaps for drainage of covered working decks shall during normal operation be kept closed when the vessel is at sea.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/53" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p53">
 				<ptittel>Carriage of deck cargo</ptittel>
-				<ledd id="/kapittel/6/paragraf/53/ledd">Deck cargo shall be secured against shifting, and shall be capable of being released easily if necessary.</ledd>
+				<ledd id="/kapittel/6/paragraf/53/ledd/1">Deck cargo shall be secured against shifting, and shall be capable of being released easily if necessary.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/54" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p54">
 				<ptittel>Loading, drainage of open deck</ptittel>
@@ -797,15 +797,15 @@
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/58" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p58">
 				<ptittel>Storage of fuel</ptittel>
-				<ledd id="/kapittel/6/paragraf/58/ledd">If extra fuel cannot be placed on open deck it shall be stored in suitable containers in a separate, easily accessible and well ventilated room/locker with a door communicating only with open deck. Bulkheads and door to the room/locker shall have fire insulation equivalent to A-60.</ledd>
+				<ledd id="/kapittel/6/paragraf/58/ledd/1">If extra fuel cannot be placed on open deck it shall be stored in suitable containers in a separate, easily accessible and well ventilated room/locker with a door communicating only with open deck. Bulkheads and door to the room/locker shall have fire insulation equivalent to A-60.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/59" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p59">
 				<ptittel>Warning sign at radar scanners</ptittel>
-				<ledd id="/kapittel/6/paragraf/59/ledd">The radar apparatus shall be switched off during work in the radar mast, and a clearly visible sign shall be displayed at every radar apparatus with the following warning: "Work in progress in the radar mast".</ledd>
+				<ledd id="/kapittel/6/paragraf/59/ledd/1">The radar apparatus shall be switched off during work in the radar mast, and a clearly visible sign shall be displayed at every radar apparatus with the following warning: "Work in progress in the radar mast".</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/60" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p60">
 				<ptittel>Radar reflector</ptittel>
-				<ledd id="/kapittel/6/paragraf/60/ledd">Vessels with superstructures not capable of reflecting radar as well as steel shall be provided with a radar reflector.</ledd>
+				<ledd id="/kapittel/6/paragraf/60/ledd/1">Vessels with superstructures not capable of reflecting radar as well as steel shall be provided with a radar reflector.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/61" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p61">
 				<ptittel>Retro-reflective means</ptittel>
@@ -814,7 +814,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/62" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p62">
 				<ptittel>Anti-skid surfaces on deck</ptittel>
-				<ledd id="/kapittel/6/paragraf/62/ledd">In work areas and normal alleyways on board, including stairways, the surfaces underfoot shall provide a good foothold, and shall if necessary be fitted with additional anti-skid devices.</ledd>
+				<ledd id="/kapittel/6/paragraf/62/ledd/1">In work areas and normal alleyways on board, including stairways, the surfaces underfoot shall provide a good foothold, and shall if necessary be fitted with additional anti-skid devices.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/6/paragraf/63" url="https://lovdata.no/forskrift/2013-11-22-1404/k6/p63">
 				<ptittel>Ladders</ptittel>
@@ -826,11 +826,11 @@
 			<ktittel>Radio</ktittel>
 			<paragraf id="/kapittel/7/paragraf/64" url="https://lovdata.no/forskrift/2013-11-22-1404/k7/p64">
 				<ptittel>Scope of application</ptittel>
-				<ledd id="/kapittel/7/paragraf/64/ledd">This chapter applies to decked vessels and open boats with wheelhouse.</ledd>
+				<ledd id="/kapittel/7/paragraf/64/ledd/1">This chapter applies to decked vessels and open boats with wheelhouse.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/7/paragraf/65" url="https://lovdata.no/forskrift/2013-11-22-1404/k7/p65">
 				<ptittel>Documentation which shall be available on board</ptittel>
-				<ledd id="/kapittel/7/paragraf/65/ledd">The following documentation pertaining to radio equipment shall be available on board:</ledd>
+				<ledd id="/kapittel/7/paragraf/65/ledd/1">The following documentation pertaining to radio equipment shall be available on board:</ledd>
 				<table>
 					<thgroup>
 						<tbody>
@@ -1210,7 +1210,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/7/paragraf/73" url="https://lovdata.no/forskrift/2013-11-22-1404/k7/p73">
 				<ptittel>Radio records</ptittel>
-				<ledd id="/kapittel/7/paragraf/73/ledd">
+				<ledd id="/kapittel/7/paragraf/73/ledd/1">
 					Radio records shall be kept at the place where the listening watch is kept. They shall be available for inspection when authorised persons so require. The following shall be entered in the records:
 					<liste id="/kapittel/7/paragraf/73/ledd/2/liste/a">
 						<lverdi>a)</lverdi>
@@ -1236,7 +1236,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/7/paragraf/74" url="https://lovdata.no/forskrift/2013-11-22-1404/k7/p74">
 				<ptittel>Position-updating</ptittel>
-				<ledd id="/kapittel/7/paragraf/74/ledd">Vessels operating in, or having vessel instructions for, a trade area greater than Fjord fishing shall have equipment automatically updating the position in all radio equipment capable of transmitting distress signals, either by means of an internal navigation receiver or by connecting the equipment to an external navigation receiver.</ledd>
+				<ledd id="/kapittel/7/paragraf/74/ledd/1">Vessels operating in, or having vessel instructions for, a trade area greater than Fjord fishing shall have equipment automatically updating the position in all radio equipment capable of transmitting distress signals, either by means of an internal navigation receiver or by connecting the equipment to an external navigation receiver.</ledd>
 			</paragraf>
 		</kapittel>
 		<kapittel type="kapittel" id="/kapittel/8" url="https://lovdata.no/forskrift/2013-11-22-1404/k8">
@@ -1264,11 +1264,11 @@
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/78" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p78">
 				<ptittel>Speed and distance measuring device</ptittel>
-				<ledd id="/kapittel/8/paragraf/78/ledd">Vessels constructed after 1 July 1997 with vessel instructions for trade area Bank fishing II shall be fitted with means of determining the vessel’s speed and distance run.</ledd>
+				<ledd id="/kapittel/8/paragraf/78/ledd/1">Vessels constructed after 1 July 1997 with vessel instructions for trade area Bank fishing II shall be fitted with means of determining the vessel’s speed and distance run.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/79" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p79">
 				<ptittel>Radar installation</ptittel>
-				<ledd id="/kapittel/8/paragraf/79/ledd">
+				<ledd id="/kapittel/8/paragraf/79/ledd/1">
 					If vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997 are fitted with a radar installation, the radar installation shall:
 					<liste id="/kapittel/8/paragraf/79/ledd/3/liste/a">
 						<lverdi>a)</lverdi>
@@ -1290,11 +1290,11 @@
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/80" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p80">
 				<ptittel>Electronic position-fixing equipment</ptittel>
-				<ledd id="/kapittel/8/paragraf/80/ledd">If vessels of 10.67 to 15 metres in overall length are fitted with electronic position-fixing equipment, the equipment shall satisfy the requirements of IMO Res. A.818(19), IMO Res. A.819(19), MSC.112(73) or newer standards prepared by the International Maritime Organization (IMO).</ledd>
+				<ledd id="/kapittel/8/paragraf/80/ledd/1">If vessels of 10.67 to 15 metres in overall length are fitted with electronic position-fixing equipment, the equipment shall satisfy the requirements of IMO Res. A.818(19), IMO Res. A.819(19), MSC.112(73) or newer standards prepared by the International Maritime Organization (IMO).</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/81" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p81">
 				<ptittel>Depth-measuring equipment</ptittel>
-				<ledd id="/kapittel/8/paragraf/81/ledd">Vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997 shall have equipment for measuring depth below the vessel.</ledd>
+				<ledd id="/kapittel/8/paragraf/81/ledd/1">Vessels of 10.67 to 15 metres in overall length constructed after 1 July 1997 shall have equipment for measuring depth below the vessel.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/82" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p82">
 				<ptittel>Steering gear, etc.</ptittel>
@@ -1303,8 +1303,8 @@
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/83" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p83">
 				<ptittel>Ship's clock</ptittel>
-				<ledd id="/kapittel/8/paragraf/83/ledd">The navigator shall have access to a clock at all times for the reading of the correct time.</ledd>
-				<ledd id="/kapittel/8/paragraf/83/ledd">A clock from a fixed electronic instrument located in the wheelhouse, which is connected to an emergency source of power as described in section 24, may be used.</ledd>
+				<ledd id="/kapittel/8/paragraf/83/ledd/1">The navigator shall have access to a clock at all times for the reading of the correct time.</ledd>
+				<ledd id="/kapittel/8/paragraf/83/ledd/2">A clock from a fixed electronic instrument located in the wheelhouse, which is connected to an emergency source of power as described in section 24, may be used.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/84" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p84">
 				<ptittel>Binoculars and thermometer</ptittel>
@@ -1313,7 +1313,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/85" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p85">
 				<ptittel>Charts and nautical publications</ptittel>
-				<ledd id="/kapittel/8/paragraf/85/ledd">Vessels shall be equipped with adequate and up-to-date charts, sailing directions, list of lights, notices to mariners, tide tables and all other nautical publications for the vessel's trade area. Vessels of less than 10.67 metres in overall length may as an alternative use "Norsk Fiskaralmanakk" and necessary charts for the vessel's trade area.</ledd>
+				<ledd id="/kapittel/8/paragraf/85/ledd/1">Vessels shall be equipped with adequate and up-to-date charts, sailing directions, list of lights, notices to mariners, tide tables and all other nautical publications for the vessel's trade area. Vessels of less than 10.67 metres in overall length may as an alternative use "Norsk Fiskaralmanakk" and necessary charts for the vessel's trade area.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/86" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p86">
 				<ptittel>Lights</ptittel>
@@ -1338,7 +1338,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/8/paragraf/89" url="https://lovdata.no/forskrift/2013-11-22-1404/k8/p89">
 				<ptittel>Searchlight</ptittel>
-				<ledd id="/kapittel/8/paragraf/89/ledd">
+				<ledd id="/kapittel/8/paragraf/89/ledd/1">
 					Vessels of 12 to 15 metres in overall length constructed after 1 July 1997 and operating in a trade area greater than Fjord fishing, shall have:
 					<liste id="/kapittel/8/paragraf/89/ledd/4/liste/a">
 						<lverdi>a)</lverdi>
@@ -1497,15 +1497,15 @@
 			<ktittel>Inspections and documentation</ktittel>
 			<paragraf id="/kapittel/9/paragraf/92" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p92">
 				<ptittel>Vessel instructions</ptittel>
-				<ledd id="/kapittel/9/paragraf/92/ledd">Vessels of 8 to 15 metres in overall length shall have valid vessel instructions indicating vessel data and statutory limitations on the use of the vessel, including information about the length, breadth and draught, maximum trade area and operational restrictions of the vessel.</ledd>
+				<ledd id="/kapittel/9/paragraf/92/ledd/1">Vessels of 8 to 15 metres in overall length shall have valid vessel instructions indicating vessel data and statutory limitations on the use of the vessel, including information about the length, breadth and draught, maximum trade area and operational restrictions of the vessel.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/93" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p93">
 				<ptittel>Coordination of inspections</ptittel>
-				<ledd id="/kapittel/9/paragraf/93/ledd">Required inspection by an accepted electrical enterprise shall be carried out before or at the same time as inspection by an approved company, so that the inspections can be coordinated.</ledd>
+				<ledd id="/kapittel/9/paragraf/93/ledd/1">Required inspection by an accepted electrical enterprise shall be carried out before or at the same time as inspection by an approved company, so that the inspections can be coordinated.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/94" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p94">
 				<ptittel>Inspection of vessels of less than 8 metres</ptittel>
-				<ledd id="/kapittel/9/paragraf/94/ledd">Vessels of less than 8 metres in overall length are not subject to inspections by an approved company, but may be inspected by way of unscheduled supervision, cf. Act of 16 February 2007 No. 9 relating to ship safety and security section 43.</ledd>
+				<ledd id="/kapittel/9/paragraf/94/ledd/1">Vessels of less than 8 metres in overall length are not subject to inspections by an approved company, but may be inspected by way of unscheduled supervision, cf. Act of 16 February 2007 No. 9 relating to ship safety and security section 43.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/95" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p95">
 				<ptittel>Inspections of vessels of 8 to 9 metres in overall length</ptittel>
@@ -1531,7 +1531,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/96" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p96">
 				<ptittel>Inspections of vessels of 9 to 10.67 metres in overall length</ptittel>
-				<ledd id="/kapittel/9/paragraf/96/ledd">
+				<ledd id="/kapittel/9/paragraf/96/ledd/1">
 					All vessels of 9 to 10.67 metres in overall length shall:
 					<liste id="/kapittel/9/paragraf/96/ledd/1/liste/a">
 						<lverdi>a)</lverdi>
@@ -1566,7 +1566,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/97" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p97">
 				<ptittel>Inspections of vessels of 10.67 to 15 metres in overall length</ptittel>
-				<ledd id="/kapittel/9/paragraf/97/ledd">
+				<ledd id="/kapittel/9/paragraf/97/ledd/1">
 					All vessels of 10.67 to 15 metres in overall length shall:
 					<liste id="/kapittel/9/paragraf/97/ledd/1/liste/a">
 						<lverdi>a)</lverdi>
@@ -1603,7 +1603,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/99" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p99">
 				<ptittel>Inspection of vessel in connection with damage, conversion, etc.</ptittel>
-				<ledd id="/kapittel/9/paragraf/99/ledd">All vessels of 8 to 15 metres in overall length which have been damaged or have undergone repairs, alterations, modifications or outfitting shall be subject to an inspection by an approved company. The inspection shall include the damaged and repaired parts, the components which have been altered or modified, as well as other parts of the vessel affected by the changes made, unless it is necessary to inspect other parts as well to ensure that the requirements for the vessel are satisfied.</ledd>
+				<ledd id="/kapittel/9/paragraf/99/ledd/1">All vessels of 8 to 15 metres in overall length which have been damaged or have undergone repairs, alterations, modifications or outfitting shall be subject to an inspection by an approved company. The inspection shall include the damaged and repaired parts, the components which have been altered or modified, as well as other parts of the vessel affected by the changes made, unless it is necessary to inspect other parts as well to ensure that the requirements for the vessel are satisfied.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/100" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p100">
 				<ptittel>Inspection of the electrical installation by an accepted electrical enterprise</ptittel>
@@ -1623,7 +1623,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/101" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p101">
 				<ptittel>Documentation for newbuildings and conversions</ptittel>
-				<ledd id="/kapittel/9/paragraf/101/ledd">When constructing or converting a vessel, drawings and other documentation shall be inspected for an approved company.</ledd>
+				<ledd id="/kapittel/9/paragraf/101/ledd/1">When constructing or converting a vessel, drawings and other documentation shall be inspected for an approved company.</ledd>
 			</paragraf>
 			<paragraf id="/kapittel/9/paragraf/102" url="https://lovdata.no/forskrift/2013-11-22-1404/k9/p102">
 				<ptittel>Documentation on board the vessel</ptittel>
@@ -1679,7 +1679,7 @@
 			</paragraf>
 			<paragraf id="/kapittel/10/paragraf/104" url="https://lovdata.no/forskrift/2013-11-22-1404/k10/p104">
 				<ptittel>Entry into force</ptittel>
-				<ledd id="/kapittel/10/paragraf/104/ledd">
+				<ledd id="/kapittel/10/paragraf/104/ledd/1">
 					These Regulations enter into force on 1 January 2014. As from the same date, the following regulations are repealed:
 					<liste id="/kapittel/10/paragraf/104/ledd/2/liste/a">
 						<lverdi>a)</lverdi>
@@ -1779,8 +1779,7 @@
 						<avsnitt id="/kapittel/10/paragraf/105/ledd/6/liste/c/avsnitt/1">1 January 2025 for vessels of 10.67 to 15 metres in overall length.</avsnitt>
 					</liste>
 				</ledd>
-				<ledd id="/kapittel/10/paragraf/105/ledd/7">(7) The requirement for EPIRB of section 68 nevertheless applies from 1 July 2014.</ledd>
-				<ledd id="/kapittel/10/paragraf/105/ledd">An EPIRB without integrated position indicator, procured before 1 July 2014, may be used until 1 July 2018.</ledd>
+				<ledd id="/kapittel/10/paragraf/105/ledd/7">(7) The requirement for EPIRB of section 68 nevertheless applies from 1 July 2014. An EPIRB without integrated position indicator, procured before 1 July 2014, may be used until 1 July 2018.</ledd>
 				<ledd id="/kapittel/10/paragraf/105/ledd/8">(8) For vessels that have not previously been registered in the Register of Norwegian Fishing Vessels, the requirements of chapter 9 on inspection by an approved company and the requirements for stability documentation will be applicable from the time the vessel is put into service, regardless of the provisions of the first to fourth paragraphs.</ledd>
 				<fotnote>0	Amended by Regulation of 4 May 2015 No. 445 (in force on 6 May 2015).</fotnote>
 			</paragraf>
