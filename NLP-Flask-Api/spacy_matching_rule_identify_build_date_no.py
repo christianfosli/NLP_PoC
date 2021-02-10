@@ -1,5 +1,5 @@
 import spacy
-from spacy.lang.nb import Norwegian
+from spacy.lang.en import English
 from spacy.matcher import Matcher
 
 def is_float(n):
@@ -12,7 +12,7 @@ def is_float(n):
         return True
 
 def identify_build_date_in_text(text):
-    nlp = Norwegian()
+    nlp = English()
 
     doc = nlp(text)
 
@@ -28,6 +28,8 @@ def identify_build_date_in_text(text):
 
     # DATE
     date_pattern = [
+        {'IS_DIGIT': True},
+        {"LOWER": {"IN": ["."]}},
         {"LOWER": {"IN": ["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"]}},
         {'IS_DIGIT': True, 'LENGTH': 4}]
     matcher.add("DATE", None, date_pattern)
@@ -46,16 +48,6 @@ def identify_build_date_in_text(text):
         match_id_as_string = nlp.vocab.strings[match_id]
         final_token_start = token_start
         final_token_end = token_end
-
-        #
-        # Expand result if extra length detected in the words before in the line
-        #
-        if match_id_as_string == "DATE" and token_start > 0:
-            prev_token_1 = doc[token_start-1].text # Example: 1.
-            prev_token_1_without_dot = prev_token_1.replace(".","")
-
-            if is_float(prev_token_1_without_dot):
-                final_token_start = token_start-1
 
         #
         # convert token_span to char_span.
@@ -85,7 +77,7 @@ def merge_spacy_entity_results_to_spacy_ner_format(spacy_ner_formated_text_line,
 
     return {'text': text, 'ents': sorted(ents, key=lambda x: x['start']), 'title': title}
 
-def identify_date_in_norwegian_spacy_lines(spacy_lines):
+def identify_build_date_in_norwegian_spacy_lines(spacy_lines):
 
     result = []
 
