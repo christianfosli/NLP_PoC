@@ -1,7 +1,4 @@
 from flask import Flask, request, jsonify
-from identify_section_span import list_section_span_from_file_lines
-from identify_sentence_type import list_sentence_type_from_file_lines
-from identify_build_date import find_word
 from transform_text_service_input_to_spacy_format import transform_chapter_from_text_service_to_spacy_format
 
 # spacy matching rule
@@ -20,43 +17,6 @@ app = Flask(__name__)
 @app.route('/healthz')
 def health():
     return "OK"
-
-#TODO refactor this to get input from text service api
-# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1151828046/identify-build-date-in-chapter-text
-@app.route("/identify-build-date-in-chapter-text", methods=["POST"])
-def post_identify_build_date_in_chapter_text():
-    input_chapter_text_as_json = request.json
-    input_chapter_text_in_a_list = input_chapter_text_as_json['chapter_text_in_a_list']
-
-    # help from other components
-    forward_identify_section_span = list_section_span_from_file_lines(input_chapter_text_in_a_list)
-    forward_sentence_type_in_a_list = list_sentence_type_from_file_lines(input_chapter_text_in_a_list)
-
-    # component identify_build_date
-    find_before = find_word(input_chapter_text_in_a_list,forward_sentence_type_in_a_list,forward_identify_section_span,"before")
-    find_after = find_word(input_chapter_text_in_a_list,forward_sentence_type_in_a_list,forward_identify_section_span,"after")
-
-    response_converted_to_json = []
-
-    for result_item in find_before:
-        data = {}
-        data['section_number'] = result_item[0]
-        data['part_value'] = result_item[1]
-        data['sub_part_value'] = result_item[2]
-        data['relation_term'] = result_item[3]
-        data['date'] = result_item[4]
-        response_converted_to_json.append(data)
-
-    for result_item in find_after:
-        data = {}
-        data['section_number'] = result_item[0]
-        data['part_value'] = result_item[1]
-        data['sub_part_value'] = result_item[2]
-        data['relation_term'] = result_item[3]
-        data['date'] = result_item[4]
-        response_converted_to_json.append(data)
-
-    return jsonify({"identified_build_date": response_converted_to_json})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1172897823/identify-vessel-length-overall-in-text-service-norwegian-chapter-input
 @app.route("/identify-vessel-length-overall-in-text-service-norwegian-chapter-input", methods=["POST"])
