@@ -13,9 +13,7 @@ def is_float(n):
 
 def identify_build_date_in_text(text):
     nlp = English()
-
     doc = nlp(text)
-
     matcher = Matcher(nlp.vocab)
 
     #
@@ -64,7 +62,6 @@ def identify_build_date_in_text(text):
     return result
 
 def merge_spacy_entity_results_to_spacy_ner_format(spacy_ner_formated_text_line,spacy_ner_entities_to_be_merged_in_as_a_list):
-
     text = spacy_ner_formated_text_line['text']
     ents = spacy_ner_formated_text_line['ents']
     title = spacy_ner_formated_text_line['title']
