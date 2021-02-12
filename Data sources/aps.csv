@@ -31,228 +31,110 @@ valid From,Datatype Property
 valid To,Datatype Property
 vessel Length Overall,Datatype Property
 voltage,Datatype Property
-AB,Class
 AB,Competancy
-Able Seafarer Apprentice_deck,Class
 Able Seafarer Apprentice_deck,Deck Crew Position
-Able Seafarer Apprentice_engine,Class
 Able Seafarer Apprentice_engine,Engine Crew Position
-Able Seafarer_deck,Class
 Able Seafarer_deck,Deck Crew Position
-Able Seafarer_engine,Class
 Able Seafarer_engine,Engine Crew Position
-Advanced Safety Course,Class
 Advanced Safety Course,Safety Course
-Advanced Safety Course,BLANK NODE
-Annex,Class
 Annex,Legal Document
-Barge,Class
 Barge,Cargo Vessel
-Basic Safety Course,Class
 Basic Safety Course,Safety Course
-Bulk Carrier,Class
 Bulk Carrier,Cargo Vessel
-Cadet deck,Class
 Cadet deck,Deck Crew Position
-Cadet engine,Class
 Cadet engine,Engine Crew Position
-Cargo High Speed Craft,Class
 Cargo High Speed Craft,Cargo Vessel
-Cargo Vessel,Class
 Cargo Vessel,Ship
 Certificate,Class
-Chemical Tanker,Class
 Chemical Tanker,Tanker
-Chief Engineer,Class
 Chief Engineer,Engine Officer Position
-Chief Officer,Class
 Chief Officer,Deck Officer Position
 Competancy,Class
-Competence Certificate,Class
 Competence Certificate,Person Certificate
 Course,Class
-Crowd And Crisis,Class
 Crowd And Crisis,Course
-Deck Crew Position,Class
 Deck Crew Position,Position
-Deck Education,Class
 Deck Education,Education
-Deck Officer Certificate,Class
 Deck Officer Certificate,Competence Certificate
-Deck Officer Certificate Limited Trade Area,Class
 Deck Officer Certificate Limited Trade Area,Competence Certificate
-Deck Officer Position,Class
 Deck Officer Position,Position
-EXP,Class
 EXP,Competancy
-Education,Class
-Education,BLANK NODE
 Educational Establishment,Class
-Electrical Course,Class
 Electrical Course,Course
-Electrical Crew Position,Class
 Electrical Crew Position,Position
-Electrical Education,Class
 Electrical Education,Education
-Electrical Officer Certificate,Class
 Electrical Officer Certificate,Competence Certificate
-Electro Technical Officer,Class
 Electro Technical Officer,Position
-Electro Technical Rating,Class
 Electro Technical Rating,Electrical Crew Position
-Endorsement Certificate,Class
 Endorsement Certificate,Certificate
-Endorsement Certificate,BLANK NODE
-Engine Course,Class
 Engine Course,Course
-Engine Crew Position,Class
 Engine Crew Position,Position
-Engine Education,Class
 Engine Education,Education
-Engine Officer Certificate,Class
 Engine Officer Certificate,Competence Certificate
-Engine Officer Position,Class
 Engine Officer Position,Position
-Engineer,Class
 Engineer,Engine Officer Position
-Evidence Of Formal Qualifications,Class
 Evidence Of Formal Qualifications,Person Certificate
-FOR-2011-12-22-1523,Class
 FOR-2011-12-22-1523,Regulation
-FOR-2011-12-22-1523,BLANK NODE
-FOR-2011-12-22-1523,BLANK NODE
-FOR-2011-12-22-1523,BLANK NODE
-FOR-2011-12-22-1523-Annex,Class
 FOR-2011-12-22-1523-Annex,Annex
-Fast Rescue Boat Course,Class
 Fast Rescue Boat Course,Course
-Fast Rescue Boat Course,BLANK NODE
-Fisherman,Class
 Fisherman,Deck Crew Position
-Fishing Trade Area,Class
 Fishing Trade Area,Trade Area
-Fishing Vessel,Class
 Fishing Vessel,Ship
 Fuel,Class
-GMDSSRadioCertificate,Class
 GMDSSRadioCertificate,Radio Operator Certificate
-GMDSSSeaArea,Class
 GMDSSSeaArea,Trade Area
-Gas Tanker,Class
 Gas Tanker,Tanker
-General Trade Area,Class
 General Trade Area,Trade Area
-High Speed Passenger Craft,Class
 High Speed Passenger Craft,Passenger Ship
-High Speed Craft Course,Class
 High Speed Craft Course,Course
-IGFCourse,Class
 IGFCourse,Course
-Instructor Course,Class
 Instructor Course,Course
 Legal Document,Class
-Leisure Boat,Class
 Leisure Boat,Ship
-Leisure Skipper Course,Class
 Leisure Skipper Course,Course
-Limited Safety Course,Class
 Limited Safety Course,Course
-Master,Class
 Master,Deck Officer Position
-Mate,Class
 Mate,Deck Officer Position
-Medical Certificate,Class
 Medical Certificate,Person Certificate
-Medical Course,Class
 Medical Course,Course
-National Certificate,Class
 National Certificate,Certificate
-Navigator Course,Class
 Navigator Course,Course
 Norske Skip,Class
-Off Shore Unit,Class
 Off Shore Unit,Ship
-Oil Chemical Tanker,Class
 Oil Chemical Tanker,Tanker
-Oil Tanker,Class
 Oil Tanker,Tanker
-Oiler ship,Class
 Oiler ship,Engine Crew Position
-Onboard Training,Class
 Onboard Training,Competancy
-Ordinary Seafarer,Class
 Ordinary Seafarer,Deck Crew Position
-Other Cargo,Class
 Other Cargo,Cargo Vessel
-Other Passenger Ship,Class
 Other Passenger Ship,Passenger Ship
-PP,Class
 PP,Competancy
-Passenger Ship,Class
 Passenger Ship,Ship
-Person Certificate,Class
 Person Certificate,Certificate
-Pilot,Class
 Pilot,Deck Officer Position
-Pleasure Craft Certificate,Class
 Pleasure Craft Certificate,Person Certificate
-Polar Certificate,Class
 Polar Certificate,Vessel Certificate
-Polar Course,Class
 Polar Course,Course
 Position,Class
-Professional Competence Officer Course,Class
 Professional Competence Officer Course,Navigator Course
-Proficiency Certificate,Class
 Proficiency Certificate,Person Certificate
-Radio Operator Certificate,Class
 Radio Operator Certificate,Person Certificate
-Radiooperator ship,Class
 Radiooperator ship,Position
-Regulation,Class
 Regulation,Legal Document
 Requirement,Class
-Rescue Boat Course,Class
 Rescue Boat Course,Course
-Right,Class
-Right,BLANK NODE
-Roro Passenger Ferry,Class
 Roro Passenger Ferry,Passenger Ship
-Safety Course,Class
 Safety Course,Course
-Seagoing Service Requirement,Class
 Seagoing Service Requirement,Requirement
-Seagoing Service Requirement,BLANK NODE
-Seagoing Service Requirement,BLANK NODE
-Seagoing Service Requirement,BLANK NODE
-Second Engineer,Class
 Second Engineer,Engine Officer Position
-Ship,Class
-Ship,BLANK NODE
-Ship,BLANK NODE
-Ship,BLANK NODE
-Ship,BLANK NODE
-Ship Electrician Apprentice,Class
 Ship Electrician Apprentice,Electrical Crew Position
-Ship Security Course,Class
 Ship Security Course,Course
-Short Range Radio Certificate,Class
 Short Range Radio Certificate,Radio Operator Certificate
 Small Fishing Vessel,Class
-Tanker,Class
 Tanker,Cargo Vessel
-Tankerman Course,Class
 Tankerman Course,Course
 Trade Area,Class
-VSK,Class
-BLANK NODE,Class
 VSK,Advanced Safety Course
-VSKR,Class
-BLANK NODE,Class
 VSKR,Advanced Safety Course
-VSKR,BLANK NODE
-Vessel Certificate,Class
 Vessel Certificate,Certificate
-Vessel Requirement,Class
 Vessel Requirement,Requirement
-Vessel Requirement,BLANK NODE

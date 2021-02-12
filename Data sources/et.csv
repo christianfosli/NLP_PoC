@@ -62,604 +62,328 @@ trim,Datatype Property
 used By Date,Datatype Property
 voltage,Datatype Property
 any U R I,Class
-Accomodation Area,Class
 Accomodation Area,Placement
-Accumulator Battery,Class
 Accumulator Battery,Power Source
-Adhersive Note,Class
 Adhersive Note,Poster
-Adjustment And Steering Devices,Class
 Adjustment And Steering Devices,Steering
-Airing Pipe,Class
 Airing Pipe,External Openings
 Airing Pipe,Pipe
-Alleyway,Class
 Alleyway,Placement
-Aluminium,Class
 Aluminium,Non Combustible Material
-Antenna,Class
 Antenna,Equipment
-Anti Skid Surface,Class
 Anti Skid Surface,Safety Measures
-Approved Company,Class
 Approved Company,Company
-Audible And Visual Alarm,Class
 Audible And Visual Alarm,Distress Signal Equipment
-Automatic Pilot System,Class
 Automatic Pilot System,Steering
-Auxiliary Vessel,Class
 Auxiliary Vessel,Ship
-Bank Fishing,Class
 Bank Fishing,Trade Area
-Bank Fishing I,Class
 Bank Fishing I,Bank Fishing
-Bank Fishing II,Class
-Bank Fishing II,Bank Fishing
-Barriers,Class
+Bank Fishing I I,Bank Fishing
 Barriers,Safety Measures
-Battery Room,Class
 Battery Room,Placement
-Beam,Class
 Beam,Construction
-Bilge,Class
 Bilge,Construction
-Bilge Flap,Class
 Bilge Flap,Construction
-Bilge Pipe,Class
 Bilge Pipe,Pipe
-Binocular,Class
 Binocular,Navigation Equipment
-Bow,Class
 Bow,Construction
 Bow,Placement
-Breathing Protection,Class
 Breathing Protection,Equipment
-Bridge Navigational Watch Alarm System,Class
 Bridge Navigational Watch Alarm System,Equipment
-Bulkhead,Class
 Bulkhead,Construction
-Bulwark,Class
 Bulwark,Construction
-Caffine,Class
 Caffine,Fuel
-Call Sign,Class
 Call Sign,Identification
 Cargo,Class
-Cargo Handling Appliances,Class
 Cargo Handling Appliances,Equipment
-Cargo Spaces,Class
 Cargo Spaces,Placement
-Casing,Class
 Casing,Construction
-Centre Line,Class
 Centre Line,Placement
 Certificate,Class
-Certificate Of Installation For Gasfired Installations,Class
 Certificate Of Installation For Gasfired Installations,Information
-Chart,Class
 Chart,Information
-Chimney,Class
 Chimney,Construction
-Clock,Class
 Clock,Equipment
 Clock,Navigation Equipment
-Closing Valve,Class
 Closing Valve,Valve
-Collection Tank,Class
 Collection Tank,Tank
-Combustible Material,Class
 Combustible Material,Construction Material
 Company,Class
-Compass,Class
 Compass,Instrument
 Compass,Navigation Equipment
-Confirmation Of Construction,Class
 Confirmation Of Construction,Information
-Construction,Class
 Construction,Thing
-Construction Material,Class
 Construction Material,Material
-Copper,Class
 Copper,Non Combustible Material
-Corridor,Class
 Corridor,Placement
-Country,Class
 Country,Geographical Location
-Deck,Class
 Deck,Construction
 Deck,Placement
-Deckhouse,Class
 Deckhouse,Placement
-Declaration Of Conformity From Manufacturer Of Liferaft,Class
 Declaration Of Conformity From Manufacturer Of Liferaft,Information
-Declaration Of Surveys,Class
 Declaration Of Surveys,Information
-Denmark,Class
 Denmark,Country
-Denmark,BLANK NODE
-Depth Measuring Equipment,Class
 Depth Measuring Equipment,Equipment
-Description Of Fire Extinguishing System,Class
 Description Of Fire Extinguishing System,Information
-Distance Measuring Device,Class
 Distance Measuring Device,Equipment
-Distress Signal,Class
 Distress Signal,Distress Signal Equipment
-Distress Signal Equipment,Class
 Distress Signal Equipment,Signaling Equipment
-Documentation Of Pressure Testing Tightness Testing,Class
 Documentation Of Pressure Testing Tightness Testing,Information
-Door,Class
 Door,Means Of Closure
-Drain Pipe,Class
 Drain Pipe,Pipe
-Drain Spigot,Class
 Drain Spigot,Pipe
-Draught Marks,Class
 Draught Marks,Information
 Drill,Class
-Drip Regulation,Class
 Drip Regulation,Equipment
-Drip Tray,Class
 Drip Tray,Equipment
-Electric Power,Class
 Electric Power,Power Source
-Electrical Company,Class
 Electrical Company,Company
-Emergency Power,Class
 Emergency Power,Power Source
-Engine Room,Class
 Engine Room,Placement
 Equipment,Class
-Exhaust Manifold,Class
 Exhaust Manifold,Pipe
-Exhaust Pipe,Class
 Exhaust Pipe,Pipe
-External Openings,Class
 External Openings,Construction
-External Openings,BLANK NODE
-Extinguisher Spare Charge,Class
 Extinguisher Spare Charge,Equipment
 Extinguisher Spare Charge,Fireproofing
 Extinguisher Spare Charge,Spare Part
-Extinguishing Gas,Class
 Extinguishing Gas,Extinguishing Medium
-Extinguishing Medium,Class
 Extinguishing Medium,Fireproofing
 Extinguishing Medium,Substance
-Faucet,Class
 Faucet,Valve
-Filling Pipe,Class
 Filling Pipe,Pipe
-Fire Detection Alarm System,Class
 Fire Detection Alarm System,Equipment
 Fire Detection Alarm System,Fireproofing
-Fire Extinguisher,Class
 Fire Extinguisher,Equipment
 Fire Extinguisher,Fireproofing
-Fire Extinguishing System,Class
 Fire Extinguishing System,Equipment
 Fire Extinguishing System,Fireproofing
-Fire Insulation,Class
 Fire Insulation,Insulation
-Fireplace,Class
 Fireplace,Equipment
-Fireproofing,Class
 Fireproofing,Safety Equipment
-Fishing,Class
 Fishing,Scope
-Fishing Gear,Class
 Fishing Gear,Equipment
-Fishing Vessel,Class
 Fishing Vessel,Ship
-Fixed Bench,Class
 Fixed Bench,Placement
-Fixed Light,Class
 Fixed Light,Lights
-Fjord Fishing,Class
 Fjord Fishing,Trade Area
-Flexible Pipe Connection,Class
 Flexible Pipe Connection,Pipe
-Float Valve,Class
 Float Valve,Valve
-Floor,Class
 Floor,Deck
-Foreign Port,Class
 Foreign Port,Geographical Location
-Freeboard,Class
 Freeboard,Stability
-Freeing Port,Class
 Freeing Port,Construction
 Freeing Port,Freeing Port Area
-Freeing Port Area,Class
 Freeing Port Area,Freeing Port
 Freeing Port Area,Stability
-Fresh Water Tank,Class
 Fresh Water Tank,Tank
-Front Window,Class
 Front Window,Window
-Fuel,Class
 Fuel,Power Source
-Fuel Oil Tank,Class
 Fuel Oil Tank,Tank
-GMDSSIdentity,Class
 GMDSSIdentity,Identification
-Galvanized Steel,Class
 Galvanized Steel,Non Combustible Material
-Gangways,Class
 Gangways,Deck
 Gangways,Equipment
-Gas,Class
 Gas,Power Source
 Gas,Substance
-Gasfired Installation,Class
 Gasfired Installation,Equipment
-Gasket,Class
 Gasket,Spare Part
-Generator,Class
 Generator,Power Source
 Geographical Location,Class
-Greater Fjord Fishing,Class
 Greater Fjord Fishing,Trade Area
-Greater In Shore,Class
 Greater In Shore,Trade Area
-Greenland,Class
 Greenland,Country
-Hand Flare,Class
 Hand Flare,Distress Signal Equipment
-Hand Rail,Class
 Hand Rail,Railing
-Hatch,Class
 Hatch,Means Of Closure
-Heat Detector,Class
 Heat Detector,Equipment
 Heat Detector,Fireproofing
-Helsman,Class
 Helsman,Role
-Hull,Class
 Hull,Construction
 Hull,Placement
-Iceland,Class
 Iceland,Country
 Identification,Class
-Illumination Arrangement,Class
 Illumination Arrangement,Equipment
-Immersion Suits,Class
 Immersion Suits,Life Saving Appliances
-In Shore,Class
 In Shore,Trade Area
 Information,Class
-Installation Attestation For Electrical Installations,Class
 Installation Attestation For Electrical Installations,Information
-Installation Instruction,Class
 Installation Instruction,Information
-Instruction For Use And Maintenance,Class
 Instruction For Use And Maintenance,Information
-Instrument,Class
 Instrument,Equipment
 Insulation,Class
-Klaxon,Class
 Klaxon,Sound Signal Apparatuses
-Ladder,Class
 Ladder,Construction
 Ladder,Equipment
 Ladder,Safety Measures
-Letter Concerning Inspection Of Stability Calculations,Class
 Letter Concerning Inspection Of Stability Calculations,Stability Documentation
-Life Saving Appliances,Class
 Life Saving Appliances,Equipment
-Lifebuoys,Class
 Lifebuoys,Life Saving Appliances
-Lifejackets,Class
 Lifejackets,Life Saving Appliances
-Liferaft,Class
 Liferaft,Survival Craft
-Lifting Equipment,Class
 Lifting Equipment,Cargo Handling Appliances
-Lights,Class
 Lights,Equipment
-Liquified Hydrocarbon Gases,Class
 Liquified Hydrocarbon Gases,Fuel
-List Of Lights,Class
 List Of Lights,Information
-Loaded Waterline,Class
 Loaded Waterline,Placement
-Loose Bulkhead,Class
 Loose Bulkhead,Bulkhead
 Loose Bulkhead,Stability
-Loose Ladder,Class
 Loose Ladder,Ladder
-Loose Light,Class
 Loose Light,Lights
-MMSI,Class
 MMSI,Identification
 Machinery,Class
-Magnetic Compass,Class
 Magnetic Compass,Compass
-Manhole,Class
 Manhole,Construction
-Manhole Cover,Class
 Manhole Cover,Means Of Closure
-Manual,Class
 Manual,Information
-Master,Class
 Master,Role
 Material,Class
-Means For Removing Ice,Class
 Means For Removing Ice,Equipment
-Means Of Closure,Class
 Means Of Closure,External Openings
-Means Of Escape,Class
 Means Of Escape,Placement
-Monitor,Class
 Monitor,Equipment
-Muster List,Class
 Muster List,Information
-Nautrical Publication,Class
 Nautrical Publication,Information
-Navigation Equipment,Class
 Navigation Equipment,Equipment
-Navigator,Class
 Navigator,Role
-Nitrocellulose,Class
 Nitrocellulose,Material
-Non Combustible Material,Class
 Non Combustible Material,Construction Material
-Norway,Class
 Norway,Country
-Norway,BLANK NODE
-Norwegian Economic Zone,Class
 Norwegian Economic Zone,Geographical Location
-Norwegian Merchant Flag,Class
 Norwegian Merchant Flag,Signal Flag
-Notice,Class
 Notice,Information
-Notices To Mariners,Class
 Notices To Mariners,Information
-Oil,Class
 Oil,Power Source
-Oil Fuel,Class
 Oil Fuel,Fuel
-Oil Gauge Glass,Class
 Oil Gauge Glass,Instrument
-Oil Pipe,Class
 Oil Pipe,Pipe
-Oil Pressure Reduction Valve,Class
 Oil Pressure Reduction Valve,Valve
-Overflow System,Class
 Overflow System,Equipment
-Packaging,Class
 Packaging,Equipment
-Paint,Class
 Paint,Material
-Parachute Flare,Class
 Parachute Flare,Distress Signal Equipment
-Pipe,Class
 Pipe,Machinery
 Placement,Class
-Poster,Class
 Poster,Information
 Power Source,Class
-Prismatic Binocular,Class
 Prismatic Binocular,Binocular
-Production Deck,Class
 Production Deck,Deck
-Prohibition Sign,Class
 Prohibition Sign,Sign
-Propane,Class
 Propane,Fuel
-Pyrotechnical Equipment,Class
 Pyrotechnical Equipment,Equipment
-Radar,Class
 Radar,Equipment
-Radar Antenna,Class
 Radar Antenna,Radar
-Radar Apparatus,Class
 Radar Apparatus,Radar
-Radar Display,Class
 Radar Display,Radar
-Radar Display Unit Indicator,Class
 Radar Display Unit Indicator,Radar
-Radar Mast,Class
 Radar Mast,Equipment
-Radar Reflector,Class
 Radar Reflector,Radar
-Radar Transponder,Class
 Radar Transponder,Radar
-Radio,Class
 Radio,Equipment
-Radio Channel,Class
 Radio Channel,Radio
 Radio Coverage Area,Class
-Radio Equipment,Class
 Radio Equipment,Radio
-Radio Inspection Company,Class
 Radio Inspection Company,Company
-Radio Installation,Class
 Radio Installation,Radio
-Radio System,Class
 Radio System,Radio
-Radio Watch,Class
 Radio Watch,Role
-Radiotelephony,Class
 Radiotelephony,Radio Equipment
-Railing,Class
 Railing,Construction
 Railing,Safety Measures
-Reciever,Class
 Reciever,Radio Equipment
-Record,Class
 Record,Information
-Record Book For Cargo Handling Appliances,Class
 Record Book For Cargo Handling Appliances,Information
-Recreational Craft,Class
 Recreational Craft,Ship
-Regulation Valve,Class
 Regulation Valve,Valve
-Release Equipment,Class
 Release Equipment,Equipment
 Release Equipment,Fireproofing
-Report Form For Electrical Installations,Class
 Report Form For Electrical Installations,Information
 Requirement,Class
-Retro Reflex Means,Class
 Retro Reflex Means,Equipment
-Rockwool,Class
 Rockwool,Non Combustible Material
 Role,Class
-Rotating Propulsion And Steering Propeller System,Class
 Rotating Propulsion And Steering Propeller System,Steering
-Rudder,Class
 Rudder,Steering
-SART,Class
 SART,Equipment
 Safety Equipment,Class
 Safety Measures,Class
-Safety Messages,Class
 Safety Messages,Information
-Safety Precaution,Class
 Safety Precaution,Safety Measures
-Safety Radio Certificate,Class
 Safety Radio Certificate,Vessel Certificate
-Sailing Directions,Class
 Sailing Directions,Information
-Sanitary Discharge,Class
 Sanitary Discharge,Pipe
-Saucer,Class
 Saucer,Equipment
-Scandinavia,Class
 Scandinavia,Subregion
 Scope,Class
-Scupper,Class
 Scupper,Construction
-Sea Area,Class
 Sea Area,Geographical Location
-Searchlight,Class
 Searchlight,Lights
-Seawater Pipe,Class
 Seawater Pipe,Pipe
-Service Station,Class
 Service Station,Company
-Set Of Shapes,Class
 Set Of Shapes,Signaling Equipment
-Sheet,Class
 Sheet,Construction
 Ship,Class
-Side Hatch,Class
 Side Hatch,Hatch
-Sign,Class
 Sign,Information
-Signal Flag,Class
 Signal Flag,Signaling Equipment
-Signal Whistle,Class
 Signal Whistle,Life Saving Appliances
-Signaling Equipment,Class
 Signaling Equipment,Equipment
-Signalling Lamp,Class
 Signalling Lamp,Lights
 Signalling Lamp,Signaling Equipment
-Smoke Alarm,Class
 Smoke Alarm,Equipment
 Smoke Alarm,Fireproofing
-Smoke Detector,Class
 Smoke Detector,Equipment
 Smoke Detector,Fireproofing
 Smoke Gas,Class
-Smoke Signal,Class
 Smoke Signal,Distress Signal Equipment
-Sound Signal Apparatuses,Class
 Sound Signal Apparatuses,Signaling Equipment
-Spare Part,Class
 Spare Part,Equipment
-Speed Measuring Device,Class
 Speed Measuring Device,Equipment
 Stability,Class
-Stability Documentation,Class
 Stability Documentation,Information
-Stability Poster,Class
 Stability Poster,Poster
 Stability Poster,Stability Documentation
-Stairway,Class
 Stairway,Placement
-Steel,Class
 Steel,Non Combustible Material
 Steering,Class
-Steering Aid,Class
 Steering Aid,Steering
-Stern,Class
 Stern,Placement
-Storage,Class
 Storage,Equipment
-Stove,Class
 Stove,Equipment
-Subdivision,Class
 Subdivision,Construction
-Subregion,Class
 Subregion,Geographical Location
 Substance,Class
-Superstructure,Class
 Superstructure,Construction
-Surface,Class
 Surface,Placement
-Survival Craft,Class
 Survival Craft,Life Saving Appliances
-Sweden,Class
 Sweden,Country
-Sweden,BLANK NODE
-Switchboard,Class
 Switchboard,Equipment
-Tank,Class
 Tank,Placement
-Test Faucet,Class
 Test Faucet,Faucet
-Thermometer,Class
 Thermometer,Equipment
-Tide Tabel,Class
 Tide Tabel,Information
 Tool,Class
 Trade Area,Class
-Trade In Ice,Class
 Trade In Ice,Trade Area
-Transportable Signalling Lamp,Class
 Transportable Signalling Lamp,Signalling Lamp
-Trunk,Class
 Trunk,Storage
-Tunnel,Class
 Tunnel,Placement
-Uptake Pipe,Class
 Uptake Pipe,Pipe
-Valve,Class
 Valve,Machinery
-Varnish,Class
 Varnish,Material
 Ventilation,Class
-Ventilation Opening,Class
 Ventilation Opening,External Openings
-Ventilation System,Class
 Ventilation System,Ventilation
-Ventilator,Class
 Ventilator,Ventilation
-Vessel Certificate,Class
 Vessel Certificate,Certificate
-Warning Sign,Class
 Warning Sign,Sign
-Water Ballast Tank,Class
 Water Ballast Tank,Tank
-Water Separator,Class
 Water Separator,Machinery
-Waterline,Class
 Waterline,Placement
-Weather Deck,Class
 Weather Deck,Deck
-Weather Forcast,Class
 Weather Forcast,Information
-Wheelhouse,Class
 Wheelhouse,Placement
-Whistle,Class
 Whistle,Sound Signal Apparatuses
-Window,Class
 Window,External Openings
-Wood,Class
 Wood,Combustible Material
-Working Deck,Class
 Working Deck,Deck
