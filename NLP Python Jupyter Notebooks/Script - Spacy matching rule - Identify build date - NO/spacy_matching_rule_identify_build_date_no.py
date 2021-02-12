@@ -46,6 +46,28 @@ def identify_build_date_in_text(text):
         match_id_as_string = nlp.vocab.strings[match_id]
         final_token_start = token_start
         final_token_end = token_end
+        
+        #
+        # Detect DATE prefix
+        #
+        if match_id_as_string == "DATE" and token_start > 0:
+
+            prev_word_1_token_number = token_start - 1
+            prev_word_1_token = doc[prev_word_1_token_number]
+
+            if prev_word_1_token.text in ("og", "til"):
+                # DATE_SEPARATOR detected
+                prev_word_1_char_span_start_number = prev_word_1_token.idx
+                prev_word_1_char_span_end_number = prev_word_1_char_span_start_number + len(prev_word_1_token.text)
+                identified_entity = {'start': prev_word_1_char_span_start_number, 'end': prev_word_1_char_span_end_number, 'label': "DATE_SEPARATOR"}
+                result.append(identified_entity)
+
+            elif prev_word_1_token.text in ("før", "etter", "mellom"):
+                # DATE_PREFIX detected
+                prev_word_1_char_span_start_number = prev_word_1_token.idx
+                prev_word_1_char_span_end_number = prev_word_1_char_span_start_number + len(prev_word_1_token.text)
+                identified_entity = {'start': prev_word_1_char_span_start_number, 'end': prev_word_1_char_span_end_number, 'label': "DATE_PREFIX"}
+                result.append(identified_entity)
 
         #
         # convert token_span to char_span.
