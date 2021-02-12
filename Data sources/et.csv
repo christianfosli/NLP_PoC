@@ -1,665 +1,665 @@
-attach,type,ObjectProperty
-buildingMaterial,type,ObjectProperty
-chargeSource,type,ObjectProperty
-illuminationArrangement,type,ObjectProperty
-kept,type,ObjectProperty
-oilSupply,type,ObjectProperty
-placement,type,ObjectProperty
-powerSupply,type,ObjectProperty
-radioArea,type,ObjectProperty
-scope,type,ObjectProperty
-subRequirement,type,ObjectProperty
-subregion,type,ObjectProperty
-supplyOfFuel,type,ObjectProperty
-tradeArea,type,ObjectProperty
-vesselType,type,ObjectProperty
-alternativeReference,type,DatatypeProperty
-angleOfHeel,type,DatatypeProperty
-angleOfList,type,DatatypeProperty
-angleOfRudder,type,DatatypeProperty
-blindSector,type,DatatypeProperty
-bowHeight,type,DatatypeProperty
-builtDate,type,DatatypeProperty
-capacity,type,DatatypeProperty
-clearSector,type,DatatypeProperty
-closeable,type,DatatypeProperty
-closedVessel,type,DatatypeProperty
-closedWeathertight,type,DatatypeProperty
-controlInterval,type,DatatypeProperty
-dateOfManufacture,type,DatatypeProperty
-derivation,type,DatatypeProperty
-diameter,type,DatatypeProperty
-flashPoint,type,DatatypeProperty
-frostProof,type,DatatypeProperty
-gazHazardousSpace,type,DatatypeProperty
-headroom,type,DatatypeProperty
-height,type,DatatypeProperty
-inflateable,type,DatatypeProperty
-issued,type,DatatypeProperty
-language,type,DatatypeProperty
-letterHeight,type,DatatypeProperty
-litreVolume,type,DatatypeProperty
-load,type,DatatypeProperty
-magneticMoment,type,DatatypeProperty
-maxLength,type,DatatypeProperty
-maxTemperature,type,DatatypeProperty
-metacentricHeight,type,DatatypeProperty
-minLength,type,DatatypeProperty
-operationalCapacity,type,DatatypeProperty
-procured,type,DatatypeProperty
-propulsionPower,type,DatatypeProperty
-radioFrequency,type,DatatypeProperty
-regulationReference,type,DatatypeProperty
-rightningLever,type,DatatypeProperty
-seawaterTemperature,type,DatatypeProperty
-sector,type,DatatypeProperty
-selfClosing,type,DatatypeProperty
-serviceSpeed,type,DatatypeProperty
-spraytight,type,DatatypeProperty
-thickness,type,DatatypeProperty
-timeInterval,type,DatatypeProperty
-trim,type,DatatypeProperty
-usedByDate,type,DatatypeProperty
-voltage,type,DatatypeProperty
-anyURI,type,Class
-AccomodationArea,type,Class
-AccomodationArea,subClassOf,Placement
-AccumulatorBattery,type,Class
-AccumulatorBattery,subClassOf,PowerSource
-AdhersiveNote,type,Class
-AdhersiveNote,subClassOf,Poster
-AdjustmentAndSteeringDevices,type,Class
-AdjustmentAndSteeringDevices,subClassOf,Steering
-AiringPipe,type,Class
-AiringPipe,subClassOf,ExternalOpenings
-AiringPipe,subClassOf,Pipe
-Alleyway,type,Class
-Alleyway,subClassOf,Placement
-Aluminium,type,Class
-Aluminium,subClassOf,NonCombustibleMaterial
-Antenna,type,Class
-Antenna,subClassOf,Equipment
-AntiSkidSurface,type,Class
-AntiSkidSurface,subClassOf,SafetyMeasures
-ApprovedCompany,type,Class
-ApprovedCompany,subClassOf,Company
-AudibleAndVisualAlarm,type,Class
-AudibleAndVisualAlarm,subClassOf,DistressSignalEquipment
-AutomaticPilotSystem,type,Class
-AutomaticPilotSystem,subClassOf,Steering
-AuxiliaryVessel,type,Class
-AuxiliaryVessel,subClassOf,Ship
-BankFishing,type,Class
-BankFishing,subClassOf,TradeArea
-BankFishingI,type,Class
-BankFishingI,subClassOf,BankFishing
-BankFishingII,type,Class
-BankFishingII,subClassOf,BankFishing
-Barriers,type,Class
-Barriers,subClassOf,SafetyMeasures
-BatteryRoom,type,Class
-BatteryRoom,subClassOf,Placement
-Beam,type,Class
-Beam,subClassOf,Construction
-Bilge,type,Class
-Bilge,subClassOf,Construction
-BilgeFlap,type,Class
-BilgeFlap,subClassOf,Construction
-BilgePipe,type,Class
-BilgePipe,subClassOf,Pipe
-Binocular,type,Class
-Binocular,subClassOf,NavigationEquipment
-Bow,type,Class
-Bow,subClassOf,Construction
-Bow,subClassOf,Placement
-BreathingProtection,type,Class
-BreathingProtection,subClassOf,Equipment
-BridgeNavigationalWatchAlarmSystem,type,Class
-BridgeNavigationalWatchAlarmSystem,subClassOf,Equipment
-Bulkhead,type,Class
-Bulkhead,subClassOf,Construction
-Bulwark,type,Class
-Bulwark,subClassOf,Construction
-Caffine,type,Class
-Caffine,subClassOf,Fuel
-CallSign,type,Class
-CallSign,subClassOf,Identification
-Cargo,type,Class
-CargoHandlingAppliances,type,Class
-CargoHandlingAppliances,subClassOf,Equipment
-CargoSpaces,type,Class
-CargoSpaces,subClassOf,Placement
-Casing,type,Class
-Casing,subClassOf,Construction
-CentreLine,type,Class
-CentreLine,subClassOf,Placement
-Certificate,type,Class
-CertificateOfInstallationForGasfiredInstallations,type,Class
-CertificateOfInstallationForGasfiredInstallations,subClassOf,Information
-Chart,type,Class
-Chart,subClassOf,Information
-Chimney,type,Class
-Chimney,subClassOf,Construction
-Clock,type,Class
-Clock,subClassOf,Equipment
-Clock,subClassOf,NavigationEquipment
-ClosingValve,type,Class
-ClosingValve,subClassOf,Valve
-CollectionTank,type,Class
-CollectionTank,subClassOf,Tank
-CombustibleMaterial,type,Class
-CombustibleMaterial,subClassOf,ConstructionMaterial
-Company,type,Class
-Compass,type,Class
-Compass,subClassOf,Instrument
-Compass,subClassOf,NavigationEquipment
-ConfirmationOfConstruction,type,Class
-ConfirmationOfConstruction,subClassOf,Information
-Construction,type,Class
-Construction,subClassOf,Thing
-ConstructionMaterial,type,Class
-ConstructionMaterial,subClassOf,Material
-Copper,type,Class
-Copper,subClassOf,NonCombustibleMaterial
-Corridor,type,Class
-Corridor,subClassOf,Placement
-Country,type,Class
-Country,subClassOf,GeographicalLocation
-Deck,type,Class
-Deck,subClassOf,Construction
-Deck,subClassOf,Placement
-Deckhouse,type,Class
-Deckhouse,subClassOf,Placement
-DeclarationOfConformityFromManufacturerOfLiferaft,type,Class
-DeclarationOfConformityFromManufacturerOfLiferaft,subClassOf,Information
-DeclarationOfSurveys,type,Class
-DeclarationOfSurveys,subClassOf,Information
-Denmark,type,Class
-Denmark,subClassOf,Country
-Denmark,subClassOf,BLANK NODE
-DepthMeasuringEquipment,type,Class
-DepthMeasuringEquipment,subClassOf,Equipment
-DescriptionOfFireExtinguishingSystem,type,Class
-DescriptionOfFireExtinguishingSystem,subClassOf,Information
-DistanceMeasuringDevice,type,Class
-DistanceMeasuringDevice,subClassOf,Equipment
-DistressSignal,type,Class
-DistressSignal,subClassOf,DistressSignalEquipment
-DistressSignalEquipment,type,Class
-DistressSignalEquipment,subClassOf,SignalingEquipment
-DocumentationOfPressureTestingTightnessTesting,type,Class
-DocumentationOfPressureTestingTightnessTesting,subClassOf,Information
-Door,type,Class
-Door,subClassOf,MeansOfClosure
-DrainPipe,type,Class
-DrainPipe,subClassOf,Pipe
-DrainSpigot,type,Class
-DrainSpigot,subClassOf,Pipe
-DraughtMarks,type,Class
-DraughtMarks,subClassOf,Information
-Drill,type,Class
-DripRegulation,type,Class
-DripRegulation,subClassOf,Equipment
-DripTray,type,Class
-DripTray,subClassOf,Equipment
-ElectricPower,type,Class
-ElectricPower,subClassOf,PowerSource
-ElectricalCompany,type,Class
-ElectricalCompany,subClassOf,Company
-EmergencyPower,type,Class
-EmergencyPower,subClassOf,PowerSource
-EngineRoom,type,Class
-EngineRoom,subClassOf,Placement
-Equipment,type,Class
-ExhaustManifold,type,Class
-ExhaustManifold,subClassOf,Pipe
-ExhaustPipe,type,Class
-ExhaustPipe,subClassOf,Pipe
-ExternalOpenings,type,Class
-ExternalOpenings,subClassOf,Construction
-ExternalOpenings,subClassOf,BLANK NODE
-ExtinguisherSpareCharge,type,Class
-ExtinguisherSpareCharge,subClassOf,Equipment
-ExtinguisherSpareCharge,subClassOf,Fireproofing
-ExtinguisherSpareCharge,subClassOf,SparePart
-ExtinguishingGas,type,Class
-ExtinguishingGas,subClassOf,ExtinguishingMedium
-ExtinguishingMedium,type,Class
-ExtinguishingMedium,subClassOf,Fireproofing
-ExtinguishingMedium,subClassOf,Substance
-Faucet,type,Class
-Faucet,subClassOf,Valve
-FillingPipe,type,Class
-FillingPipe,subClassOf,Pipe
-FireDetectionAlarmSystem,type,Class
-FireDetectionAlarmSystem,subClassOf,Equipment
-FireDetectionAlarmSystem,subClassOf,Fireproofing
-FireExtinguisher,type,Class
-FireExtinguisher,subClassOf,Equipment
-FireExtinguisher,subClassOf,Fireproofing
-FireExtinguishingSystem,type,Class
-FireExtinguishingSystem,subClassOf,Equipment
-FireExtinguishingSystem,subClassOf,Fireproofing
-FireInsulation,type,Class
-FireInsulation,subClassOf,Insulation
-Fireplace,type,Class
-Fireplace,subClassOf,Equipment
-Fireproofing,type,Class
-Fireproofing,subClassOf,SafetyEquipment
-Fishing,type,Class
-Fishing,subClassOf,Scope
-FishingGear,type,Class
-FishingGear,subClassOf,Equipment
-FishingVessel,type,Class
-FishingVessel,subClassOf,Ship
-FixedBench,type,Class
-FixedBench,subClassOf,Placement
-FixedLight,type,Class
-FixedLight,subClassOf,Lights
-FjordFishing,type,Class
-FjordFishing,subClassOf,TradeArea
-FlexiblePipeConnection,type,Class
-FlexiblePipeConnection,subClassOf,Pipe
-FloatValve,type,Class
-FloatValve,subClassOf,Valve
-Floor,type,Class
-Floor,subClassOf,Deck
-ForeignPort,type,Class
-ForeignPort,subClassOf,GeographicalLocation
-Freeboard,type,Class
-Freeboard,subClassOf,Stability
-FreeingPort,type,Class
-FreeingPort,subClassOf,Construction
-FreeingPort,subClassOf,FreeingPortArea
-FreeingPortArea,type,Class
-FreeingPortArea,subClassOf,FreeingPort
-FreeingPortArea,subClassOf,Stability
-FreshWaterTank,type,Class
-FreshWaterTank,subClassOf,Tank
-FrontWindow,type,Class
-FrontWindow,subClassOf,Window
-Fuel,type,Class
-Fuel,subClassOf,PowerSource
-FuelOilTank,type,Class
-FuelOilTank,subClassOf,Tank
-GMDSSIdentity,type,Class
-GMDSSIdentity,subClassOf,Identification
-GalvanizedSteel,type,Class
-GalvanizedSteel,subClassOf,NonCombustibleMaterial
-Gangways,type,Class
-Gangways,subClassOf,Deck
-Gangways,subClassOf,Equipment
-Gas,type,Class
-Gas,subClassOf,PowerSource
-Gas,subClassOf,Substance
-GasfiredInstallation,type,Class
-GasfiredInstallation,subClassOf,Equipment
-Gasket,type,Class
-Gasket,subClassOf,SparePart
-Generator,type,Class
-Generator,subClassOf,PowerSource
-GeographicalLocation,type,Class
-GreaterFjordFishing,type,Class
-GreaterFjordFishing,subClassOf,TradeArea
-GreaterInShore,type,Class
-GreaterInShore,subClassOf,TradeArea
-Greenland,type,Class
-Greenland,subClassOf,Country
-HandFlare,type,Class
-HandFlare,subClassOf,DistressSignalEquipment
-HandRail,type,Class
-HandRail,subClassOf,Railing
-Hatch,type,Class
-Hatch,subClassOf,MeansOfClosure
-HeatDetector,type,Class
-HeatDetector,subClassOf,Equipment
-HeatDetector,subClassOf,Fireproofing
-Helsman,type,Class
-Helsman,subClassOf,Role
-Hull,type,Class
-Hull,subClassOf,Construction
-Hull,subClassOf,Placement
-Iceland,type,Class
-Iceland,subClassOf,Country
-Identification,type,Class
-IlluminationArrangement,type,Class
-IlluminationArrangement,subClassOf,Equipment
-ImmersionSuits,type,Class
-ImmersionSuits,subClassOf,LifeSavingAppliances
-InShore,type,Class
-InShore,subClassOf,TradeArea
-Information,type,Class
-InstallationAttestationForElectricalInstallations,type,Class
-InstallationAttestationForElectricalInstallations,subClassOf,Information
-InstallationInstruction,type,Class
-InstallationInstruction,subClassOf,Information
-InstructionForUseAndMaintenance,type,Class
-InstructionForUseAndMaintenance,subClassOf,Information
-Instrument,type,Class
-Instrument,subClassOf,Equipment
-Insulation,type,Class
-Klaxon,type,Class
-Klaxon,subClassOf,SoundSignalApparatuses
-Ladder,type,Class
-Ladder,subClassOf,Construction
-Ladder,subClassOf,Equipment
-Ladder,subClassOf,SafetyMeasures
-LetterConcerningInspectionOfStabilityCalculations,type,Class
-LetterConcerningInspectionOfStabilityCalculations,subClassOf,StabilityDocumentation
-LifeSavingAppliances,type,Class
-LifeSavingAppliances,subClassOf,Equipment
-Lifebuoys,type,Class
-Lifebuoys,subClassOf,LifeSavingAppliances
-Lifejackets,type,Class
-Lifejackets,subClassOf,LifeSavingAppliances
-Liferaft,type,Class
-Liferaft,subClassOf,SurvivalCraft
-LiftingEquipment,type,Class
-LiftingEquipment,subClassOf,CargoHandlingAppliances
-Lights,type,Class
-Lights,subClassOf,Equipment
-LiquifiedHydrocarbonGases,type,Class
-LiquifiedHydrocarbonGases,subClassOf,Fuel
-ListOfLights,type,Class
-ListOfLights,subClassOf,Information
-LoadedWaterline,type,Class
-LoadedWaterline,subClassOf,Placement
-LooseBulkhead,type,Class
-LooseBulkhead,subClassOf,Bulkhead
-LooseBulkhead,subClassOf,Stability
-LooseLadder,type,Class
-LooseLadder,subClassOf,Ladder
-LooseLight,type,Class
-LooseLight,subClassOf,Lights
-MMSI,type,Class
-MMSI,subClassOf,Identification
-Machinery,type,Class
-MagneticCompass,type,Class
-MagneticCompass,subClassOf,Compass
-Manhole,type,Class
-Manhole,subClassOf,Construction
-ManholeCover,type,Class
-ManholeCover,subClassOf,MeansOfClosure
-Manual,type,Class
-Manual,subClassOf,Information
-Master,type,Class
-Master,subClassOf,Role
-Material,type,Class
-MeansForRemovingIce,type,Class
-MeansForRemovingIce,subClassOf,Equipment
-MeansOfClosure,type,Class
-MeansOfClosure,subClassOf,ExternalOpenings
-MeansOfEscape,type,Class
-MeansOfEscape,subClassOf,Placement
-Monitor,type,Class
-Monitor,subClassOf,Equipment
-MusterList,type,Class
-MusterList,subClassOf,Information
-NautricalPublication,type,Class
-NautricalPublication,subClassOf,Information
-NavigationEquipment,type,Class
-NavigationEquipment,subClassOf,Equipment
-Navigator,type,Class
-Navigator,subClassOf,Role
-Nitrocellulose,type,Class
-Nitrocellulose,subClassOf,Material
-NonCombustibleMaterial,type,Class
-NonCombustibleMaterial,subClassOf,ConstructionMaterial
-Norway,type,Class
-Norway,subClassOf,Country
-Norway,subClassOf,BLANK NODE
-NorwegianEconomicZone,type,Class
-NorwegianEconomicZone,subClassOf,GeographicalLocation
-NorwegianMerchantFlag,type,Class
-NorwegianMerchantFlag,subClassOf,SignalFlag
-Notice,type,Class
-Notice,subClassOf,Information
-NoticesToMariners,type,Class
-NoticesToMariners,subClassOf,Information
-Oil,type,Class
-Oil,subClassOf,PowerSource
-OilFuel,type,Class
-OilFuel,subClassOf,Fuel
-OilGaugeGlass,type,Class
-OilGaugeGlass,subClassOf,Instrument
-OilPipe,type,Class
-OilPipe,subClassOf,Pipe
-OilPressureReductionValve,type,Class
-OilPressureReductionValve,subClassOf,Valve
-OverflowSystem,type,Class
-OverflowSystem,subClassOf,Equipment
-Packaging,type,Class
-Packaging,subClassOf,Equipment
-Paint,type,Class
-Paint,subClassOf,Material
-ParachuteFlare,type,Class
-ParachuteFlare,subClassOf,DistressSignalEquipment
-Pipe,type,Class
-Pipe,subClassOf,Machinery
-Placement,type,Class
-Poster,type,Class
-Poster,subClassOf,Information
-PowerSource,type,Class
-PrismaticBinocular,type,Class
-PrismaticBinocular,subClassOf,Binocular
-ProductionDeck,type,Class
-ProductionDeck,subClassOf,Deck
-ProhibitionSign,type,Class
-ProhibitionSign,subClassOf,Sign
-Propane,type,Class
-Propane,subClassOf,Fuel
-PyrotechnicalEquipment,type,Class
-PyrotechnicalEquipment,subClassOf,Equipment
-Radar,type,Class
-Radar,subClassOf,Equipment
-RadarAntenna,type,Class
-RadarAntenna,subClassOf,Radar
-RadarApparatus,type,Class
-RadarApparatus,subClassOf,Radar
-RadarDisplay,type,Class
-RadarDisplay,subClassOf,Radar
-RadarDisplayUnitIndicator,type,Class
-RadarDisplayUnitIndicator,subClassOf,Radar
-RadarMast,type,Class
-RadarMast,subClassOf,Equipment
-RadarReflector,type,Class
-RadarReflector,subClassOf,Radar
-RadarTransponder,type,Class
-RadarTransponder,subClassOf,Radar
-Radio,type,Class
-Radio,subClassOf,Equipment
-RadioChannel,type,Class
-RadioChannel,subClassOf,Radio
-RadioCoverageArea,type,Class
-RadioEquipment,type,Class
-RadioEquipment,subClassOf,Radio
-RadioInspectionCompany,type,Class
-RadioInspectionCompany,subClassOf,Company
-RadioInstallation,type,Class
-RadioInstallation,subClassOf,Radio
-RadioSystem,type,Class
-RadioSystem,subClassOf,Radio
-RadioWatch,type,Class
-RadioWatch,subClassOf,Role
-Radiotelephony,type,Class
-Radiotelephony,subClassOf,RadioEquipment
-Railing,type,Class
-Railing,subClassOf,Construction
-Railing,subClassOf,SafetyMeasures
-Reciever,type,Class
-Reciever,subClassOf,RadioEquipment
-Record,type,Class
-Record,subClassOf,Information
-RecordBookForCargoHandlingAppliances,type,Class
-RecordBookForCargoHandlingAppliances,subClassOf,Information
-RecreationalCraft,type,Class
-RecreationalCraft,subClassOf,Ship
-RegulationValve,type,Class
-RegulationValve,subClassOf,Valve
-ReleaseEquipment,type,Class
-ReleaseEquipment,subClassOf,Equipment
-ReleaseEquipment,subClassOf,Fireproofing
-ReportFormForElectricalInstallations,type,Class
-ReportFormForElectricalInstallations,subClassOf,Information
-Requirement,type,Class
-RetroReflexMeans,type,Class
-RetroReflexMeans,subClassOf,Equipment
-Rockwool,type,Class
-Rockwool,subClassOf,NonCombustibleMaterial
-Role,type,Class
-RotatingPropulsionAndSteeringPropellerSystem,type,Class
-RotatingPropulsionAndSteeringPropellerSystem,subClassOf,Steering
-Rudder,type,Class
-Rudder,subClassOf,Steering
-SART,type,Class
-SART,subClassOf,Equipment
-SafetyEquipment,type,Class
-SafetyMeasures,type,Class
-SafetyMessages,type,Class
-SafetyMessages,subClassOf,Information
-SafetyPrecaution,type,Class
-SafetyPrecaution,subClassOf,SafetyMeasures
-SafetyRadioCertificate,type,Class
-SafetyRadioCertificate,subClassOf,VesselCertificate
-SailingDirections,type,Class
-SailingDirections,subClassOf,Information
-SanitaryDischarge,type,Class
-SanitaryDischarge,subClassOf,Pipe
-Saucer,type,Class
-Saucer,subClassOf,Equipment
-Scandinavia,type,Class
-Scandinavia,subClassOf,Subregion
-Scope,type,Class
-Scupper,type,Class
-Scupper,subClassOf,Construction
-SeaArea,type,Class
-SeaArea,subClassOf,GeographicalLocation
-Searchlight,type,Class
-Searchlight,subClassOf,Lights
-SeawaterPipe,type,Class
-SeawaterPipe,subClassOf,Pipe
-ServiceStation,type,Class
-ServiceStation,subClassOf,Company
-SetOfShapes,type,Class
-SetOfShapes,subClassOf,SignalingEquipment
-Sheet,type,Class
-Sheet,subClassOf,Construction
-Ship,type,Class
-SideHatch,type,Class
-SideHatch,subClassOf,Hatch
-Sign,type,Class
-Sign,subClassOf,Information
-SignalFlag,type,Class
-SignalFlag,subClassOf,SignalingEquipment
-SignalWhistle,type,Class
-SignalWhistle,subClassOf,LifeSavingAppliances
-SignalingEquipment,type,Class
-SignalingEquipment,subClassOf,Equipment
-SignallingLamp,type,Class
-SignallingLamp,subClassOf,Lights
-SignallingLamp,subClassOf,SignalingEquipment
-SmokeAlarm,type,Class
-SmokeAlarm,subClassOf,Equipment
-SmokeAlarm,subClassOf,Fireproofing
-SmokeDetector,type,Class
-SmokeDetector,subClassOf,Equipment
-SmokeDetector,subClassOf,Fireproofing
-SmokeGas,type,Class
-SmokeSignal,type,Class
-SmokeSignal,subClassOf,DistressSignalEquipment
-SoundSignalApparatuses,type,Class
-SoundSignalApparatuses,subClassOf,SignalingEquipment
-SparePart,type,Class
-SparePart,subClassOf,Equipment
-SpeedMeasuringDevice,type,Class
-SpeedMeasuringDevice,subClassOf,Equipment
-Stability,type,Class
-StabilityDocumentation,type,Class
-StabilityDocumentation,subClassOf,Information
-StabilityPoster,type,Class
-StabilityPoster,subClassOf,Poster
-StabilityPoster,subClassOf,StabilityDocumentation
-Stairway,type,Class
-Stairway,subClassOf,Placement
-Steel,type,Class
-Steel,subClassOf,NonCombustibleMaterial
-Steering,type,Class
-SteeringAid,type,Class
-SteeringAid,subClassOf,Steering
-Stern,type,Class
-Stern,subClassOf,Placement
-Storage,type,Class
-Storage,subClassOf,Equipment
-Stove,type,Class
-Stove,subClassOf,Equipment
-Subdivision,type,Class
-Subdivision,subClassOf,Construction
-Subregion,type,Class
-Subregion,subClassOf,GeographicalLocation
-Substance,type,Class
-Superstructure,type,Class
-Superstructure,subClassOf,Construction
-Surface,type,Class
-Surface,subClassOf,Placement
-SurvivalCraft,type,Class
-SurvivalCraft,subClassOf,LifeSavingAppliances
-Sweden,type,Class
-Sweden,subClassOf,Country
-Sweden,subClassOf,BLANK NODE
-Switchboard,type,Class
-Switchboard,subClassOf,Equipment
-Tank,type,Class
-Tank,subClassOf,Placement
-TestFaucet,type,Class
-TestFaucet,subClassOf,Faucet
-Thermometer,type,Class
-Thermometer,subClassOf,Equipment
-TideTabel,type,Class
-TideTabel,subClassOf,Information
-Tool,type,Class
-TradeArea,type,Class
-TradeInIce,type,Class
-TradeInIce,subClassOf,TradeArea
-TransportableSignallingLamp,type,Class
-TransportableSignallingLamp,subClassOf,SignallingLamp
-Trunk,type,Class
-Trunk,subClassOf,Storage
-Tunnel,type,Class
-Tunnel,subClassOf,Placement
-UptakePipe,type,Class
-UptakePipe,subClassOf,Pipe
-Valve,type,Class
-Valve,subClassOf,Machinery
-Varnish,type,Class
-Varnish,subClassOf,Material
-Ventilation,type,Class
-VentilationOpening,type,Class
-VentilationOpening,subClassOf,ExternalOpenings
-VentilationSystem,type,Class
-VentilationSystem,subClassOf,Ventilation
-Ventilator,type,Class
-Ventilator,subClassOf,Ventilation
-VesselCertificate,type,Class
-VesselCertificate,subClassOf,Certificate
-WarningSign,type,Class
-WarningSign,subClassOf,Sign
-WaterBallastTank,type,Class
-WaterBallastTank,subClassOf,Tank
-WaterSeparator,type,Class
-WaterSeparator,subClassOf,Machinery
-Waterline,type,Class
-Waterline,subClassOf,Placement
-WeatherDeck,type,Class
-WeatherDeck,subClassOf,Deck
-WeatherForcast,type,Class
-WeatherForcast,subClassOf,Information
-Wheelhouse,type,Class
-Wheelhouse,subClassOf,Placement
-Whistle,type,Class
-Whistle,subClassOf,SoundSignalApparatuses
-Window,type,Class
-Window,subClassOf,ExternalOpenings
-Wood,type,Class
-Wood,subClassOf,CombustibleMaterial
-WorkingDeck,type,Class
-WorkingDeck,subClassOf,Deck
+attach,Object Property
+building Material,Object Property
+charge Source,Object Property
+illumination Arrangement,Object Property
+kept,Object Property
+oil Supply,Object Property
+placement,Object Property
+power Supply,Object Property
+radio Area,Object Property
+scope,Object Property
+sub Requirement,Object Property
+subregion,Object Property
+supply Of Fuel,Object Property
+trade Area,Object Property
+vessel Type,Object Property
+alternative Reference,Datatype Property
+angle Of Heel,Datatype Property
+angle Of List,Datatype Property
+angle Of Rudder,Datatype Property
+blind Sector,Datatype Property
+bow Height,Datatype Property
+built Date,Datatype Property
+capacity,Datatype Property
+clear Sector,Datatype Property
+closeable,Datatype Property
+closed Vessel,Datatype Property
+closed Weathertight,Datatype Property
+control Interval,Datatype Property
+date Of Manufacture,Datatype Property
+derivation,Datatype Property
+diameter,Datatype Property
+flash Point,Datatype Property
+frost Proof,Datatype Property
+gaz Hazardous Space,Datatype Property
+headroom,Datatype Property
+height,Datatype Property
+inflateable,Datatype Property
+issued,Datatype Property
+language,Datatype Property
+letter Height,Datatype Property
+litre Volume,Datatype Property
+load,Datatype Property
+magnetic Moment,Datatype Property
+max Length,Datatype Property
+max Temperature,Datatype Property
+metacentric Height,Datatype Property
+min Length,Datatype Property
+operational Capacity,Datatype Property
+procured,Datatype Property
+propulsion Power,Datatype Property
+radio Frequency,Datatype Property
+regulation Reference,Datatype Property
+rightning Lever,Datatype Property
+seawater Temperature,Datatype Property
+sector,Datatype Property
+self Closing,Datatype Property
+service Speed,Datatype Property
+spraytight,Datatype Property
+thickness,Datatype Property
+time Interval,Datatype Property
+trim,Datatype Property
+used By Date,Datatype Property
+voltage,Datatype Property
+any U R I,Class
+Accomodation Area,Class
+Accomodation Area,Placement
+Accumulator Battery,Class
+Accumulator Battery,Power Source
+Adhersive Note,Class
+Adhersive Note,Poster
+Adjustment And Steering Devices,Class
+Adjustment And Steering Devices,Steering
+Airing Pipe,Class
+Airing Pipe,External Openings
+Airing Pipe,Pipe
+Alleyway,Class
+Alleyway,Placement
+Aluminium,Class
+Aluminium,Non Combustible Material
+Antenna,Class
+Antenna,Equipment
+Anti Skid Surface,Class
+Anti Skid Surface,Safety Measures
+Approved Company,Class
+Approved Company,Company
+Audible And Visual Alarm,Class
+Audible And Visual Alarm,Distress Signal Equipment
+Automatic Pilot System,Class
+Automatic Pilot System,Steering
+Auxiliary Vessel,Class
+Auxiliary Vessel,Ship
+Bank Fishing,Class
+Bank Fishing,Trade Area
+Bank Fishing I,Class
+Bank Fishing I,Bank Fishing
+Bank Fishing II,Class
+Bank Fishing II,Bank Fishing
+Barriers,Class
+Barriers,Safety Measures
+Battery Room,Class
+Battery Room,Placement
+Beam,Class
+Beam,Construction
+Bilge,Class
+Bilge,Construction
+Bilge Flap,Class
+Bilge Flap,Construction
+Bilge Pipe,Class
+Bilge Pipe,Pipe
+Binocular,Class
+Binocular,Navigation Equipment
+Bow,Class
+Bow,Construction
+Bow,Placement
+Breathing Protection,Class
+Breathing Protection,Equipment
+Bridge Navigational Watch Alarm System,Class
+Bridge Navigational Watch Alarm System,Equipment
+Bulkhead,Class
+Bulkhead,Construction
+Bulwark,Class
+Bulwark,Construction
+Caffine,Class
+Caffine,Fuel
+Call Sign,Class
+Call Sign,Identification
+Cargo,Class
+Cargo Handling Appliances,Class
+Cargo Handling Appliances,Equipment
+Cargo Spaces,Class
+Cargo Spaces,Placement
+Casing,Class
+Casing,Construction
+Centre Line,Class
+Centre Line,Placement
+Certificate,Class
+Certificate Of Installation For Gasfired Installations,Class
+Certificate Of Installation For Gasfired Installations,Information
+Chart,Class
+Chart,Information
+Chimney,Class
+Chimney,Construction
+Clock,Class
+Clock,Equipment
+Clock,Navigation Equipment
+Closing Valve,Class
+Closing Valve,Valve
+Collection Tank,Class
+Collection Tank,Tank
+Combustible Material,Class
+Combustible Material,Construction Material
+Company,Class
+Compass,Class
+Compass,Instrument
+Compass,Navigation Equipment
+Confirmation Of Construction,Class
+Confirmation Of Construction,Information
+Construction,Class
+Construction,Thing
+Construction Material,Class
+Construction Material,Material
+Copper,Class
+Copper,Non Combustible Material
+Corridor,Class
+Corridor,Placement
+Country,Class
+Country,Geographical Location
+Deck,Class
+Deck,Construction
+Deck,Placement
+Deckhouse,Class
+Deckhouse,Placement
+Declaration Of Conformity From Manufacturer Of Liferaft,Class
+Declaration Of Conformity From Manufacturer Of Liferaft,Information
+Declaration Of Surveys,Class
+Declaration Of Surveys,Information
+Denmark,Class
+Denmark,Country
+Denmark,BLANK NODE
+Depth Measuring Equipment,Class
+Depth Measuring Equipment,Equipment
+Description Of Fire Extinguishing System,Class
+Description Of Fire Extinguishing System,Information
+Distance Measuring Device,Class
+Distance Measuring Device,Equipment
+Distress Signal,Class
+Distress Signal,Distress Signal Equipment
+Distress Signal Equipment,Class
+Distress Signal Equipment,Signaling Equipment
+Documentation Of Pressure Testing Tightness Testing,Class
+Documentation Of Pressure Testing Tightness Testing,Information
+Door,Class
+Door,Means Of Closure
+Drain Pipe,Class
+Drain Pipe,Pipe
+Drain Spigot,Class
+Drain Spigot,Pipe
+Draught Marks,Class
+Draught Marks,Information
+Drill,Class
+Drip Regulation,Class
+Drip Regulation,Equipment
+Drip Tray,Class
+Drip Tray,Equipment
+Electric Power,Class
+Electric Power,Power Source
+Electrical Company,Class
+Electrical Company,Company
+Emergency Power,Class
+Emergency Power,Power Source
+Engine Room,Class
+Engine Room,Placement
+Equipment,Class
+Exhaust Manifold,Class
+Exhaust Manifold,Pipe
+Exhaust Pipe,Class
+Exhaust Pipe,Pipe
+External Openings,Class
+External Openings,Construction
+External Openings,BLANK NODE
+Extinguisher Spare Charge,Class
+Extinguisher Spare Charge,Equipment
+Extinguisher Spare Charge,Fireproofing
+Extinguisher Spare Charge,Spare Part
+Extinguishing Gas,Class
+Extinguishing Gas,Extinguishing Medium
+Extinguishing Medium,Class
+Extinguishing Medium,Fireproofing
+Extinguishing Medium,Substance
+Faucet,Class
+Faucet,Valve
+Filling Pipe,Class
+Filling Pipe,Pipe
+Fire Detection Alarm System,Class
+Fire Detection Alarm System,Equipment
+Fire Detection Alarm System,Fireproofing
+Fire Extinguisher,Class
+Fire Extinguisher,Equipment
+Fire Extinguisher,Fireproofing
+Fire Extinguishing System,Class
+Fire Extinguishing System,Equipment
+Fire Extinguishing System,Fireproofing
+Fire Insulation,Class
+Fire Insulation,Insulation
+Fireplace,Class
+Fireplace,Equipment
+Fireproofing,Class
+Fireproofing,Safety Equipment
+Fishing,Class
+Fishing,Scope
+Fishing Gear,Class
+Fishing Gear,Equipment
+Fishing Vessel,Class
+Fishing Vessel,Ship
+Fixed Bench,Class
+Fixed Bench,Placement
+Fixed Light,Class
+Fixed Light,Lights
+Fjord Fishing,Class
+Fjord Fishing,Trade Area
+Flexible Pipe Connection,Class
+Flexible Pipe Connection,Pipe
+Float Valve,Class
+Float Valve,Valve
+Floor,Class
+Floor,Deck
+Foreign Port,Class
+Foreign Port,Geographical Location
+Freeboard,Class
+Freeboard,Stability
+Freeing Port,Class
+Freeing Port,Construction
+Freeing Port,Freeing Port Area
+Freeing Port Area,Class
+Freeing Port Area,Freeing Port
+Freeing Port Area,Stability
+Fresh Water Tank,Class
+Fresh Water Tank,Tank
+Front Window,Class
+Front Window,Window
+Fuel,Class
+Fuel,Power Source
+Fuel Oil Tank,Class
+Fuel Oil Tank,Tank
+GMDSSIdentity,Class
+GMDSSIdentity,Identification
+Galvanized Steel,Class
+Galvanized Steel,Non Combustible Material
+Gangways,Class
+Gangways,Deck
+Gangways,Equipment
+Gas,Class
+Gas,Power Source
+Gas,Substance
+Gasfired Installation,Class
+Gasfired Installation,Equipment
+Gasket,Class
+Gasket,Spare Part
+Generator,Class
+Generator,Power Source
+Geographical Location,Class
+Greater Fjord Fishing,Class
+Greater Fjord Fishing,Trade Area
+Greater In Shore,Class
+Greater In Shore,Trade Area
+Greenland,Class
+Greenland,Country
+Hand Flare,Class
+Hand Flare,Distress Signal Equipment
+Hand Rail,Class
+Hand Rail,Railing
+Hatch,Class
+Hatch,Means Of Closure
+Heat Detector,Class
+Heat Detector,Equipment
+Heat Detector,Fireproofing
+Helsman,Class
+Helsman,Role
+Hull,Class
+Hull,Construction
+Hull,Placement
+Iceland,Class
+Iceland,Country
+Identification,Class
+Illumination Arrangement,Class
+Illumination Arrangement,Equipment
+Immersion Suits,Class
+Immersion Suits,Life Saving Appliances
+In Shore,Class
+In Shore,Trade Area
+Information,Class
+Installation Attestation For Electrical Installations,Class
+Installation Attestation For Electrical Installations,Information
+Installation Instruction,Class
+Installation Instruction,Information
+Instruction For Use And Maintenance,Class
+Instruction For Use And Maintenance,Information
+Instrument,Class
+Instrument,Equipment
+Insulation,Class
+Klaxon,Class
+Klaxon,Sound Signal Apparatuses
+Ladder,Class
+Ladder,Construction
+Ladder,Equipment
+Ladder,Safety Measures
+Letter Concerning Inspection Of Stability Calculations,Class
+Letter Concerning Inspection Of Stability Calculations,Stability Documentation
+Life Saving Appliances,Class
+Life Saving Appliances,Equipment
+Lifebuoys,Class
+Lifebuoys,Life Saving Appliances
+Lifejackets,Class
+Lifejackets,Life Saving Appliances
+Liferaft,Class
+Liferaft,Survival Craft
+Lifting Equipment,Class
+Lifting Equipment,Cargo Handling Appliances
+Lights,Class
+Lights,Equipment
+Liquified Hydrocarbon Gases,Class
+Liquified Hydrocarbon Gases,Fuel
+List Of Lights,Class
+List Of Lights,Information
+Loaded Waterline,Class
+Loaded Waterline,Placement
+Loose Bulkhead,Class
+Loose Bulkhead,Bulkhead
+Loose Bulkhead,Stability
+Loose Ladder,Class
+Loose Ladder,Ladder
+Loose Light,Class
+Loose Light,Lights
+MMSI,Class
+MMSI,Identification
+Machinery,Class
+Magnetic Compass,Class
+Magnetic Compass,Compass
+Manhole,Class
+Manhole,Construction
+Manhole Cover,Class
+Manhole Cover,Means Of Closure
+Manual,Class
+Manual,Information
+Master,Class
+Master,Role
+Material,Class
+Means For Removing Ice,Class
+Means For Removing Ice,Equipment
+Means Of Closure,Class
+Means Of Closure,External Openings
+Means Of Escape,Class
+Means Of Escape,Placement
+Monitor,Class
+Monitor,Equipment
+Muster List,Class
+Muster List,Information
+Nautrical Publication,Class
+Nautrical Publication,Information
+Navigation Equipment,Class
+Navigation Equipment,Equipment
+Navigator,Class
+Navigator,Role
+Nitrocellulose,Class
+Nitrocellulose,Material
+Non Combustible Material,Class
+Non Combustible Material,Construction Material
+Norway,Class
+Norway,Country
+Norway,BLANK NODE
+Norwegian Economic Zone,Class
+Norwegian Economic Zone,Geographical Location
+Norwegian Merchant Flag,Class
+Norwegian Merchant Flag,Signal Flag
+Notice,Class
+Notice,Information
+Notices To Mariners,Class
+Notices To Mariners,Information
+Oil,Class
+Oil,Power Source
+Oil Fuel,Class
+Oil Fuel,Fuel
+Oil Gauge Glass,Class
+Oil Gauge Glass,Instrument
+Oil Pipe,Class
+Oil Pipe,Pipe
+Oil Pressure Reduction Valve,Class
+Oil Pressure Reduction Valve,Valve
+Overflow System,Class
+Overflow System,Equipment
+Packaging,Class
+Packaging,Equipment
+Paint,Class
+Paint,Material
+Parachute Flare,Class
+Parachute Flare,Distress Signal Equipment
+Pipe,Class
+Pipe,Machinery
+Placement,Class
+Poster,Class
+Poster,Information
+Power Source,Class
+Prismatic Binocular,Class
+Prismatic Binocular,Binocular
+Production Deck,Class
+Production Deck,Deck
+Prohibition Sign,Class
+Prohibition Sign,Sign
+Propane,Class
+Propane,Fuel
+Pyrotechnical Equipment,Class
+Pyrotechnical Equipment,Equipment
+Radar,Class
+Radar,Equipment
+Radar Antenna,Class
+Radar Antenna,Radar
+Radar Apparatus,Class
+Radar Apparatus,Radar
+Radar Display,Class
+Radar Display,Radar
+Radar Display Unit Indicator,Class
+Radar Display Unit Indicator,Radar
+Radar Mast,Class
+Radar Mast,Equipment
+Radar Reflector,Class
+Radar Reflector,Radar
+Radar Transponder,Class
+Radar Transponder,Radar
+Radio,Class
+Radio,Equipment
+Radio Channel,Class
+Radio Channel,Radio
+Radio Coverage Area,Class
+Radio Equipment,Class
+Radio Equipment,Radio
+Radio Inspection Company,Class
+Radio Inspection Company,Company
+Radio Installation,Class
+Radio Installation,Radio
+Radio System,Class
+Radio System,Radio
+Radio Watch,Class
+Radio Watch,Role
+Radiotelephony,Class
+Radiotelephony,Radio Equipment
+Railing,Class
+Railing,Construction
+Railing,Safety Measures
+Reciever,Class
+Reciever,Radio Equipment
+Record,Class
+Record,Information
+Record Book For Cargo Handling Appliances,Class
+Record Book For Cargo Handling Appliances,Information
+Recreational Craft,Class
+Recreational Craft,Ship
+Regulation Valve,Class
+Regulation Valve,Valve
+Release Equipment,Class
+Release Equipment,Equipment
+Release Equipment,Fireproofing
+Report Form For Electrical Installations,Class
+Report Form For Electrical Installations,Information
+Requirement,Class
+Retro Reflex Means,Class
+Retro Reflex Means,Equipment
+Rockwool,Class
+Rockwool,Non Combustible Material
+Role,Class
+Rotating Propulsion And Steering Propeller System,Class
+Rotating Propulsion And Steering Propeller System,Steering
+Rudder,Class
+Rudder,Steering
+SART,Class
+SART,Equipment
+Safety Equipment,Class
+Safety Measures,Class
+Safety Messages,Class
+Safety Messages,Information
+Safety Precaution,Class
+Safety Precaution,Safety Measures
+Safety Radio Certificate,Class
+Safety Radio Certificate,Vessel Certificate
+Sailing Directions,Class
+Sailing Directions,Information
+Sanitary Discharge,Class
+Sanitary Discharge,Pipe
+Saucer,Class
+Saucer,Equipment
+Scandinavia,Class
+Scandinavia,Subregion
+Scope,Class
+Scupper,Class
+Scupper,Construction
+Sea Area,Class
+Sea Area,Geographical Location
+Searchlight,Class
+Searchlight,Lights
+Seawater Pipe,Class
+Seawater Pipe,Pipe
+Service Station,Class
+Service Station,Company
+Set Of Shapes,Class
+Set Of Shapes,Signaling Equipment
+Sheet,Class
+Sheet,Construction
+Ship,Class
+Side Hatch,Class
+Side Hatch,Hatch
+Sign,Class
+Sign,Information
+Signal Flag,Class
+Signal Flag,Signaling Equipment
+Signal Whistle,Class
+Signal Whistle,Life Saving Appliances
+Signaling Equipment,Class
+Signaling Equipment,Equipment
+Signalling Lamp,Class
+Signalling Lamp,Lights
+Signalling Lamp,Signaling Equipment
+Smoke Alarm,Class
+Smoke Alarm,Equipment
+Smoke Alarm,Fireproofing
+Smoke Detector,Class
+Smoke Detector,Equipment
+Smoke Detector,Fireproofing
+Smoke Gas,Class
+Smoke Signal,Class
+Smoke Signal,Distress Signal Equipment
+Sound Signal Apparatuses,Class
+Sound Signal Apparatuses,Signaling Equipment
+Spare Part,Class
+Spare Part,Equipment
+Speed Measuring Device,Class
+Speed Measuring Device,Equipment
+Stability,Class
+Stability Documentation,Class
+Stability Documentation,Information
+Stability Poster,Class
+Stability Poster,Poster
+Stability Poster,Stability Documentation
+Stairway,Class
+Stairway,Placement
+Steel,Class
+Steel,Non Combustible Material
+Steering,Class
+Steering Aid,Class
+Steering Aid,Steering
+Stern,Class
+Stern,Placement
+Storage,Class
+Storage,Equipment
+Stove,Class
+Stove,Equipment
+Subdivision,Class
+Subdivision,Construction
+Subregion,Class
+Subregion,Geographical Location
+Substance,Class
+Superstructure,Class
+Superstructure,Construction
+Surface,Class
+Surface,Placement
+Survival Craft,Class
+Survival Craft,Life Saving Appliances
+Sweden,Class
+Sweden,Country
+Sweden,BLANK NODE
+Switchboard,Class
+Switchboard,Equipment
+Tank,Class
+Tank,Placement
+Test Faucet,Class
+Test Faucet,Faucet
+Thermometer,Class
+Thermometer,Equipment
+Tide Tabel,Class
+Tide Tabel,Information
+Tool,Class
+Trade Area,Class
+Trade In Ice,Class
+Trade In Ice,Trade Area
+Transportable Signalling Lamp,Class
+Transportable Signalling Lamp,Signalling Lamp
+Trunk,Class
+Trunk,Storage
+Tunnel,Class
+Tunnel,Placement
+Uptake Pipe,Class
+Uptake Pipe,Pipe
+Valve,Class
+Valve,Machinery
+Varnish,Class
+Varnish,Material
+Ventilation,Class
+Ventilation Opening,Class
+Ventilation Opening,External Openings
+Ventilation System,Class
+Ventilation System,Ventilation
+Ventilator,Class
+Ventilator,Ventilation
+Vessel Certificate,Class
+Vessel Certificate,Certificate
+Warning Sign,Class
+Warning Sign,Sign
+Water Ballast Tank,Class
+Water Ballast Tank,Tank
+Water Separator,Class
+Water Separator,Machinery
+Waterline,Class
+Waterline,Placement
+Weather Deck,Class
+Weather Deck,Deck
+Weather Forcast,Class
+Weather Forcast,Information
+Wheelhouse,Class
+Wheelhouse,Placement
+Whistle,Class
+Whistle,Sound Signal Apparatuses
+Window,Class
+Window,External Openings
+Wood,Class
+Wood,Combustible Material
+Working Deck,Class
+Working Deck,Deck
