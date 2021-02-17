@@ -58,14 +58,14 @@ def create_api_response_for_post_identify_vessel_length_overall_in_text_service_
 
         merged_line_result = result_length_dictionary | result_length_prefix_dictionary
 
-        if "regularion_year" in result_text_service_url:
-            merged_line_result['regularion_year'] = result_text_service_url['regularion_year']
-        if "regularion_month" in result_text_service_url:
-            merged_line_result['regularion_month'] = result_text_service_url['regularion_month']
-        if "regularion_day" in result_text_service_url:
-            merged_line_result['regularion_day'] = result_text_service_url['regularion_day']
-        if "regularion_id" in result_text_service_url:
-            merged_line_result['regularion_id'] = result_text_service_url['regularion_id']
+        if "regulation_year" in result_text_service_url:
+            merged_line_result['regulation_year'] = result_text_service_url['regulation_year']
+        if "regulation_month" in result_text_service_url:
+            merged_line_result['regulation_month'] = result_text_service_url['regulation_month']
+        if "regulation_day" in result_text_service_url:
+            merged_line_result['regulation_day'] = result_text_service_url['regulation_day']
+        if "regulation_id" in result_text_service_url:
+            merged_line_result['regulation_id'] = result_text_service_url['regulation_id']
         if "chapter_number" in result_text_service_url:
             merged_line_result['chapter_number'] = result_text_service_url['chapter_number']
         if "section_number" in result_text_service_url:
