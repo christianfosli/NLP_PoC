@@ -23,12 +23,12 @@ def get_data_from_text_service_item_url(url):
     url_split_in_list = url.split('/')
 
     for split_index_number, split in enumerate(url_split_in_list):
-        if not "regularion_year" in data:
+        if not "regulation_year" in data:
             if split == "regulation": # before: regulations
-                data['regularion_year'] = url_split_in_list[split_index_number+1] # 2013
-                data['regularion_month'] = url_split_in_list[split_index_number+2] # 11
-                data['regularion_day'] = url_split_in_list[split_index_number+3] # 22
-                data['regularion_id'] = url_split_in_list[split_index_number+4] # 1404
+                data['regulation_year'] = url_split_in_list[split_index_number+1] # 2013
+                data['regulation_month'] = url_split_in_list[split_index_number+2] # 11
+                data['regulation_day'] = url_split_in_list[split_index_number+3] # 22
+                data['regulation_id'] = url_split_in_list[split_index_number+4] # 1404
         elif not "chapter_number" in data:
             if split == "chapter": # before: chapters
                 data['chapter_number'] = url_split_in_list[split_index_number+1] # 3
