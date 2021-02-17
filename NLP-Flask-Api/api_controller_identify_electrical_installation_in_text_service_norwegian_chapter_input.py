@@ -24,14 +24,14 @@ def create_api_response_for_post_identify_electrical_installation_in_text_servic
         # Metadata from URL
         metadata_from_url = {}
         result_text_service_url = get_data_from_text_service_item_url(text_service_url)
-        if "regularion_year" in result_text_service_url:
-            metadata_from_url['regularion_year'] = result_text_service_url['regularion_year']
-        if "regularion_month" in result_text_service_url:
-            metadata_from_url['regularion_month'] = result_text_service_url['regularion_month']
-        if "regularion_day" in result_text_service_url:
-            metadata_from_url['regularion_day'] = result_text_service_url['regularion_day']
-        if "regularion_id" in result_text_service_url:
-            metadata_from_url['regularion_id'] = result_text_service_url['regularion_id']
+        if "regulation_year" in result_text_service_url:
+            metadata_from_url['regulation_year'] = result_text_service_url['regulation_year']
+        if "regulation_month" in result_text_service_url:
+            metadata_from_url['regulation_month'] = result_text_service_url['regulation_month']
+        if "regulation_day" in result_text_service_url:
+            metadata_from_url['regulation_day'] = result_text_service_url['regulation_day']
+        if "regulation_id" in result_text_service_url:
+            metadata_from_url['regulation_id'] = result_text_service_url['regulation_id']
         if "chapter_number" in result_text_service_url:
             metadata_from_url['chapter_number'] = result_text_service_url['chapter_number']
         if "section_number" in result_text_service_url:
