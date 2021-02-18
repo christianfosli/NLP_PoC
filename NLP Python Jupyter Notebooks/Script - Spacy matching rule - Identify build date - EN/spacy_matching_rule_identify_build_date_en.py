@@ -11,6 +11,15 @@ def is_float(n):
     else:
         return True
 
+def is_int(n):
+    try:
+        float_n = float(n)
+        int_n = int(float_n)
+    except ValueError:
+        return False
+    else:
+        return float_n == int_n
+
 def identify_build_date_in_text(text):
     nlp = English()
     doc = nlp(text)
@@ -25,11 +34,7 @@ def identify_build_date_in_text(text):
     matcher.add("WATER_VESSEL", None, water_vessel_pattern)
 
     # DATE
-    date_pattern = [
-        {'IS_DIGIT': True},
-        {"LOWER": {"IN": ["january","february","march","april","may","june","july","august","september","october","november","december"]}},
-        {'IS_DIGIT': True, 'LENGTH': 4}]
-    matcher.add("DATE", None, date_pattern)
+    matcher.add("DATE", None, [{'IS_DIGIT': True, 'LENGTH': 4}])
 
     # CONSTRUCT
     matcher.add("CONSTRUCT", None, [{"LOWER": {"IN": ["constructed"]}}])
@@ -46,6 +51,39 @@ def identify_build_date_in_text(text):
         final_token_start = token_start
         final_token_end = token_end
         
+        if match_id_as_string == "DATE" and token_start > 0:
+
+            # At this point, DATE is just a year string. Example: 2021
+
+            # Expand DATE?
+            prev_word_1_token_number = token_start - 1
+            prev_word_1_token = doc[prev_word_1_token_number]
+            if prev_word_1_token.text.lower() in ("january","february","march","april","may","june","july","august","september","october","november","december"):
+                final_token_start = prev_word_1_token_number # expanding
+                # Expand more?
+                prev_word_2_token_number = token_start - 2
+                prev_word_2_token = doc[prev_word_2_token_number]
+                if is_int(prev_word_2_token.text):
+                    final_token_start = prev_word_2_token_number # expanding
+
+            prev_word_on_date_token_number = final_token_start - 1
+            prev_word_on_date_token = doc[prev_word_on_date_token_number]
+
+            # Does the DATE have a DATE_SEPARATOR?
+            if prev_word_on_date_token.text in ("and", "to"):
+                prev_word_on_date_char_span_start_number = prev_word_on_date_token.idx
+                prev_word_on_date_char_span_end_number = prev_word_on_date_char_span_start_number + len(prev_word_on_date_token.text)
+                identified_entity = {'start': prev_word_on_date_char_span_start_number, 'end': prev_word_on_date_char_span_end_number, 'label': "DATE_SEPARATOR"}
+                result.append(identified_entity)
+
+            # Does the DATE have a DATE_SEPARATOR?
+            elif prev_word_on_date_token.text in ("between", "before"):
+                # DATE_PREFIX detected
+                prev_word_on_date_char_span_start_number = prev_word_on_date_token.idx
+                prev_word_on_date_char_span_end_number = prev_word_on_date_char_span_start_number + len(prev_word_on_date_token.text)
+                identified_entity = {'start': prev_word_on_date_char_span_start_number, 'end': prev_word_on_date_char_span_end_number, 'label': "DATE_PREFIX"}
+                result.append(identified_entity)
+
         #
         # convert token_span to char_span.
         # char_span is needed to display correctly withdisplacy.render().
