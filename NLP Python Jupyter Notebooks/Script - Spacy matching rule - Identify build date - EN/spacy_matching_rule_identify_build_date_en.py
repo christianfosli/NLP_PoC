@@ -77,7 +77,7 @@ def identify_build_date_in_text(text):
                 result.append(identified_entity)
 
             # Does the DATE have a DATE_SEPARATOR?
-            elif prev_word_on_date_token.text in ("between", "before"):
+            elif prev_word_on_date_token.text in ("between", "before", "after"):
                 # DATE_PREFIX detected
                 prev_word_on_date_char_span_start_number = prev_word_on_date_token.idx
                 prev_word_on_date_char_span_end_number = prev_word_on_date_char_span_start_number + len(prev_word_on_date_token.text)
