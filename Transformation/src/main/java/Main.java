@@ -5,6 +5,13 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        GraphGenerator.vesselLengthScope();
+        GraphGenerator.builtDateScope();
+        GraphGenerator.electricalInstallationScope();
+        GraphGenerator.writeScopeModelToFile();
+        GraphGenerator.writeRequirementModelToFile();
+
+        /*
         Utils.createOTTRLibrary();
 
         Utils.csvToXlxs("src/main/resources/input.csv", "../OTTR/test.xlsx");
@@ -15,6 +22,7 @@ public class Main {
 
         GraphGenerator.writeScopeModelToFile();
         GraphGenerator.writeRequirementModelToFile();
+        */
 
         /*
         String err = runLutra();

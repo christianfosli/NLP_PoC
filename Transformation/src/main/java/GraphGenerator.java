@@ -8,11 +8,16 @@ import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
+import scope.BuiltDate;
+import scope.ElectricalInstallation;
+import scope.LOA;
+import scope.Requirement;
 
 import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Locale;
 
 public class GraphGenerator {
@@ -24,39 +29,31 @@ public class GraphGenerator {
      *
      * Build scope for vessel length, appending results to global scopeModel.
      *
-     * @param filename input CSV containing information about vessel length scopes
      * @throws IOException if input file not read
      */
-    public static void vesselLengthScope(String filename) throws IOException {
+    public static void vesselLengthScope() throws IOException {
 
-        String[] content = Utils.fileContentSplitByComma(filename);
-
+        List<LOA> loaList = JSONHandler.vesselLengthOverall();
         Model model = new LinkedHashModel();
 
+        for (LOA l : loaList) {
 
-        for (int i = 0; i < content.length; i++) {
-            if (content[i].equals("less than")) {
-                String value = content[i+1];
-                IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + "PS_maxLOA_" + Utils.removeDecimal(value));
-                createValueScope(model, value, subject,
-                        SHACL.MAX_EXCLUSIVE,
-                        "Virkeområde største lengde " + value,
-                        "Scope of length overall " + value,
-                        Vocabulary.vf.createIRI(Utils.NS_UNIT + "M"));
-
-                addRequirement(Utils.fileContentSplitByLine(filename), subject);
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + l.getSubject());
+            if (!l.getConstraint().equals(SHACL.CONSTRAINT_COMPONENT)) {
+                createValueScope(model, l.getValue1(), subject,
+                        l.getConstraint(),
+                        "Virkeområde største lengde " + l.getValue1(),
+                        "Scope of length overall " + l.getValue1(),
+                        Vocabulary.vf.createIRI(Utils.NS_UNIT + "M")
+                );
+            } else {
+                createValueRangeScope(model, l.getValue1(), l.getValue2(), subject,
+                        "Virkeområde største lengde mellom " + l.getValue1() + " og " + l.getValue2(),
+                        "Scope of length overall between " + l.getValue1() + " and " + l.getValue2(),
+                        Vocabulary.vf.createIRI(Utils.NS_UNIT + "M")
+                );
             }
-            if (content[i].equals("to")) {
-                String min = content[i+1];
-                String max = content[i+2];
-                IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + "PS_minLOA_" + Utils.removeDecimal(min) + "_maxLOA_" + Utils.removeDecimal(max));
-                createValueRangeScope(model, min, max, subject,
-                        "Virkeområde største lengde mellom " + min + " og " + max + ".",
-                        "Scope of length overall between " + min + " and " + max + ".",
-                        Vocabulary.vf.createIRI(Utils.NS_UNIT + "M"));
-
-                addRequirement(Utils.fileContentSplitByLine(filename), subject);
-            }
+            addRequirement(l.getRequirement(), subject);
         }
         scopeModel.addAll(model);
     }
@@ -65,35 +62,30 @@ public class GraphGenerator {
      *
      * Build scope for built date, appending results to global scopeModel.
      *
-     * @param filename input CSV containing information about built date scopes
      * @throws IOException if input file not read
      */
-    public static void builtDateScope(String filename) throws IOException {
-        String[] content = Utils.fileContentSplitByComma(filename);
+    public static void builtDateScope() throws IOException {
 
+        List<BuiltDate> bdList = JSONHandler.builtDate();
         Model model = new LinkedHashModel();
 
-        for (int i = 0; i < content.length; i++) {
-            if(content[i].equals("before")) {
-                LocalDate date = getLocalDate(content[i+1].split("\n")[0]);
-                IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + "PS_BuiltDate_b" + date.toString().replace("-", ""));
-                createValueScope(model, date.toString(), subject,
-                        SHACL.MAX_EXCLUSIVE,
-                        "Virkeområde byggeår før " + date,
-                        "Scope of built date before " + date,
-                        XSD.DATE);
+        for (BuiltDate bd : bdList) {
 
-                addRequirement(Utils.fileContentSplitByLine(filename), subject);
-            }
-            if(content[i].equals("after")) {
-                LocalDate date = getLocalDate(content[i+1].split("\n")[0]);
-                IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + "PS_BuiltDate_a" + date.toString().replace("-", ""));
-                createValueScope(model, date.toString(), subject,
-                        SHACL.MIN_INCLUSIVE,
-                        "Virkeområde byggeår etter " + date, "Scope of built date after " + date,
-                        XSD.DATE);
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + bd.getSubject());
 
-                addRequirement(Utils.fileContentSplitByLine(filename), subject);
+            if (!bd.getConstraint().equals(SHACL.CONSTRAINT_COMPONENT)) {
+                createValueScope(model, bd.getValue1(), subject,
+                        bd.getConstraint(),
+                        "Virkeområde byggedato " + bd.datePrefixNo() + " " + bd.getValue1(),
+                        "Scope of built date " + bd.datePrefixEn() + " " + bd.getValue1(),
+                        XSD.DATE
+                        );
+            } else {
+                createValueRangeScope(model, bd.getValue1(), bd.getValue2(), subject,
+                        "Virkeområde byggedato " + bd.datePrefixNo() + " " + bd.getValue1() + " og " + bd.getValue2(),
+                        "Scope of built date " + bd.datePrefixEn() + " " + bd.getValue1() + " and " + bd.getValue2(),
+                        XSD.DATE
+                );
             }
         }
         scopeModel.addAll(model);
@@ -103,38 +95,25 @@ public class GraphGenerator {
      *
      * Build scope for machine power, appending results to global scopeModel.
      *
-     * @param filename input CSV containing information about machine power scopes
      * @throws IOException if input file not read
      */
-    public static void machinePowerScope(String filename) throws IOException {
-        String[] content = Utils.fileContentSplitByComma(filename);
+    public static void electricalInstallationScope() throws IOException {
 
+        List<ElectricalInstallation> elList = JSONHandler.electricalInstallations();
         Model model = new LinkedHashModel();
 
-        for (int i = 0; i < content.length; i++) {
-            if (content[i].equals("more than")) {
-                String value = content[i+1];
-                IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + "PS_MP_min_" + value);
-                createValueScope(model, value, subject,
-                        SHACL.MIN_INCLUSIVE,
-                        "Virkeområde maskinkraft mer enn " + value + " V.",
-                        "Scope of machine power more than " + value + " V.",
-                        Vocabulary.vf.createIRI(Utils.NS_UNIT + "V"));
+        for (ElectricalInstallation el : elList) {
 
-                addRequirement(Utils.fileContentSplitByLine(filename), subject);
-            }
-            if (content[i].equals("up to")) {
-                String value = content[i+1];
-                IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + "PS_MP_max_" + value);
-                createValueScope(model, value, subject,
-                        SHACL.MAX_EXCLUSIVE,
-                        "Virkeområde maskinkraft opp til " + value + " V.",
-                        "Scope of machine power up to " + value + " V.",
-                        Vocabulary.vf.createIRI(Utils.NS_UNIT + "V"));
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + el.getSubject());
 
-                addRequirement(Utils.fileContentSplitByLine(filename), subject);
-            }
+            createValueScope(model, el.getValue(), subject,
+                    el.getConstraint(),
+                    "Virkeområde elektrisk innstallasjon " + el.getElPrefixNo() + " " + el.getValue(),
+                    "Scope of electrical installation " + el.getElPrefixEn() + " " + el.getValue(),
+                    Vocabulary.vf.createIRI(Utils.NS_UNIT + "V")
+                    );
         }
+
         scopeModel.addAll(model);
     }
 
@@ -204,51 +183,23 @@ public class GraphGenerator {
      * Building the RDF graph of requirements, containing all needed information as defined by NMAs data model.
      * Requirements are split down to sub-parts of a regulation.
      *
-     * @param data data from NLP module's CSV as String[], split by line
-     * @param scope current scope
      * @throws IOException if unable to read files in getSectionHeaders() and getChapterHeader()
      */
-    public static void addRequirement(String[] data, IRI scope) throws IOException {
+    public static void addRequirement(Requirement r, IRI scope) throws IOException {
 
         Model model = new LinkedHashModel();
 
-        HashMap<String, String> sections = getSectionHeaders();
+        String localName = "REG" + r.getRegulation() + "S" + r.getParagraph() + "P" + r.getPart();
 
-        String sectionNumber;
-        String partNumber = "";
-        String subPartNumber = "";
-
-        for (String s : data) {
-            String[] tmp = s.split(",");
-            sectionNumber = tmp[0];
-
-            if (!tmp[1].contains("none")) {
-                partNumber = tmp[1];
-            }
-            if (!tmp[2].contains("none")) {
-                subPartNumber = tmp[2];
-            }
-
-            // TODO: Update regulation no. in a more generic way.
-
-            IRI subject;
-
-            if (!subPartNumber.equals("")) {
-                subject = Vocabulary.vf.createIRI(Vocabulary.NS + "REG1404" + "S" + sectionNumber + "P" + partNumber + "SP" + subPartNumber);
-            }
-            else {
-                subject = Vocabulary.vf.createIRI(Vocabulary.NS + "REG1404" + "S" + sectionNumber + "P" + partNumber);
-            }
-
-            model.add(subject, RDF.TYPE, SHACL.NODE_SHAPE);
-            model.add(subject, RDF.TYPE, Vocabulary.Requirement);
-            model.add(subject, Vocabulary.regulationReference,
-                    Vocabulary.vf.createLiteral("https://lovdata.no/forskrift/2013-11-22-1404/§" + sectionNumber)
-            );
-            model.add(subject, SHACL.PROPERTY, scope);
-            model.add(subject, RDFS.LABEL, Vocabulary.vf.createLiteral(sections.get(sectionNumber), "en"));
-            model.add(subject, Vocabulary.theme, Vocabulary.vf.createLiteral(getChapterHeader().get(sections.get(sectionNumber)), "en"));
+        IRI subject;
+        if (r.getSubpart() != null) {
+            subject = Vocabulary.vf.createIRI(Vocabulary.NS + localName + "SP" + r.getSubpart());
+        } else {
+            subject = Vocabulary.vf.createIRI(Vocabulary.NS + localName);
         }
+
+        model.add(subject, RDF.TYPE, SHACL.NODE_SHAPE);
+        model.add(subject, SHACL.PROPERTY, scope);
 
         requirementModel.addAll(model);
 

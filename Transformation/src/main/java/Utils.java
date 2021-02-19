@@ -31,6 +31,10 @@ public class Utils {
 
     public static final String NS_UNIT = "http://qudt.org/vocab/unit/";
 
+    public static final String LOA_JSON_OBJ = "identified_vessel_length_overall";
+    public static final String BD_JSON_OBJ = "identified_build_dates";
+    public static final String EL_JSON_OBJ = "identified_electrical_installations";
+
     public static String readFromFile(String filename) throws IOException {
         StringBuilder sb = new StringBuilder();
         Files.lines(Paths.get(filename)).forEach(s -> sb.append(s).append("\n"));
