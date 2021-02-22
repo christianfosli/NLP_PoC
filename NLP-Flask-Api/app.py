@@ -41,7 +41,7 @@ def health():
     return "OK"
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1172897823/vessel+length+overall+-+no
-@app.route("/identify-vessel-length-overall-in-text-service-norwegian-chapter-input", methods=["POST"])
+@app.route("/identify-vessel-length-overall-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
@@ -51,7 +51,7 @@ def post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input(
     return jsonify({"identified_vessel_length_overall": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1210286081/electrical+installation+-+no
-@app.route("/identify-electrical-installation-in-text-service-norwegian-chapter-input", methods=["POST"])
+@app.route("/identify-electrical-installation-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_electrical_installation_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
@@ -61,7 +61,7 @@ def post_identify_electrical_installation_in_text_service_norwegian_chapter_inpu
     return jsonify({"identified_electrical_installations": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1225359396/build+date+-+no
-@app.route("/identify-build-date-in-text-service-norwegian-chapter-input", methods=["POST"])
+@app.route("/identify-build-date-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_build_date_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
@@ -71,7 +71,7 @@ def post_identify_build_date_in_text_service_norwegian_chapter_input():
     return jsonify({"identified_build_dates": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1233223681/build+date+-+en
-@app.route("/identify-build-date-in-text-service-english-chapter-input", methods=["POST"])
+@app.route("/identify-build-date-in-text-service-english-chapter", methods=["POST"])
 def post_identify_build_date_in_text_service_english_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
@@ -81,7 +81,7 @@ def post_identify_build_date_in_text_service_english_chapter_input():
     return jsonify({"identified_build_dates": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1264615425/alternative+reference+-+no
-@app.route("/identify-alternative-reference-in-text-service-norwegian-chapter-input", methods=["POST"])
+@app.route("/identify-alternative-reference-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_alternative_reference_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
