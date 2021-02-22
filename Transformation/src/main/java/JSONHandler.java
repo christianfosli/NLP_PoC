@@ -121,11 +121,30 @@ public class JSONHandler {
     }
 
     public static Requirement createRequirement(JsonObject object) {
-        return new Requirement(
-                object.get("regulation_id").toString().replace("\"", ""),
-                object.get("chapter_number").toString().replace("\"", ""),
-                object.get("section_number").toString().replace("\"", ""),
-                object.get("part_number").toString().replace("\"", "")
-        );
+
+        String regulation_id =
+                object.get("regulation_year").toString().replace("\"", "") + "-" +
+                        object.get("regulation_month").toString().replace("\"", "") + "-" +
+                        object.get("regulation_day").toString().replace("\"", "") + "-" +
+                        object.get("regulation_id").toString().replace("\"", "");
+
+        if (object.get("sub_part_number") != null) {
+            return new Requirement(
+                    regulation_id,
+                    object.get("regulation_id").toString().replace("\"", ""),
+                    object.get("chapter_number").toString().replace("\"", ""),
+                    object.get("section_number").toString().replace("\"", ""),
+                    object.get("part_number").toString().replace("\"", ""),
+                    object.get("sub_part_number").toString().replace("\"", "")
+            );
+        } else {
+            return new Requirement(
+                    regulation_id,
+                    object.get("regulation_id").toString().replace("\"", ""),
+                    object.get("chapter_number").toString().replace("\"", ""),
+                    object.get("section_number").toString().replace("\"", ""),
+                    object.get("part_number").toString().replace("\"", "")
+            );
+        }
     }
 }

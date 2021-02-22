@@ -6,32 +6,18 @@
 @prefix sdir: <https://www.sdir.no/SDIR_Simulator#> .
 @prefix scope: <https://www.sdir.no/SDIR_Simulator/shapes/scope#> .
 
-sdir:REG1404S10P10 a sh:NodeShape;
-  sh:property scope:PS_minLOA_8_maxLOA_15 .
-
-sdir:REG1404S15P1 a sh:NodeShape;
-  sh:property scope:PS_minLOA_10_maxLOA_15 .
-
-sdir:REG1404S15P4 a sh:NodeShape;
-  sh:property scope:PS_maxLOA_10 .
-
-sdir:REG1404S16P1 a sh:NodeShape;
-  sh:property scope:PS_minLOA_10_maxLOA_15 .
-
-sdir:REG1404S16P2 a sh:NodeShape;
-  sh:property scope:PS_maxLOA_10 .
-
 sdir:REG1404S23P1 a sh:NodeShape;
-  sh:property scope:PS_minLOA_6_maxLOA_15 .
+  sh:property scope:PS_ElIn_max50;
+  sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2013-11-22-1404" .
 
 sdir:REG1404S23P2 a sh:NodeShape;
-  sh:property scope:PS_minLOA_6_maxLOA_15 .
+  sh:property scope:PS_ElIn_max50;
+  sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2013-11-22-1404" .
 
 sdir:REG1404S23P3 a sh:NodeShape;
-  sh:property scope:PS_minLOA_6_maxLOA_15 .
+  sh:property scope:PS_ElIn_min50;
+  sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2013-11-22-1404" .
 
 sdir:REG1404S23P4 a sh:NodeShape;
-  sh:property scope:PS_minLOA_6_maxLOA_15 .
-
-sdir:REG1404S24P1 a sh:NodeShape;
-  sh:property scope:PS_minLOA_10_maxLOA_15 .
+  sh:property scope:PS_ElIn_min50;
+  sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2013-11-22-1404" .

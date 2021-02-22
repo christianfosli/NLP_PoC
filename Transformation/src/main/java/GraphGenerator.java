@@ -87,6 +87,7 @@ public class GraphGenerator {
                         XSD.DATE
                 );
             }
+            addRequirement(bd.getRequirement(), subject);
         }
         scopeModel.addAll(model);
     }
@@ -112,6 +113,8 @@ public class GraphGenerator {
                     "Scope of electrical installation " + el.getElPrefixEn() + " " + el.getValue(),
                     Vocabulary.vf.createIRI(Utils.NS_UNIT + "V")
                     );
+
+            addRequirement(el.getRequirement(), subject);
         }
 
         scopeModel.addAll(model);
@@ -200,6 +203,8 @@ public class GraphGenerator {
 
         model.add(subject, RDF.TYPE, SHACL.NODE_SHAPE);
         model.add(subject, SHACL.PROPERTY, scope);
+        model.add(subject, Vocabulary.regulationReference,
+                Vocabulary.vf.createLiteral(r.getRegulation_id_lovdata()), XSD.ANYURI);
 
         requirementModel.addAll(model);
 

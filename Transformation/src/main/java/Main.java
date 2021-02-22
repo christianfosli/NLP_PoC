@@ -1,7 +1,6 @@
-import org.eclipse.rdf4j.model.Model;
 import ottr.OTTRWrapper;
 
-import java.io.*;
+import java.io.IOException;
 
 public class Main {
 
