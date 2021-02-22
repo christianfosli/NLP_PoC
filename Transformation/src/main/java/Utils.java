@@ -106,21 +106,4 @@ public class Utils {
         bufferedReader.close();
         out.close();
     }
-
-    public static void createOTTRLibrary() throws IOException {
-
-        String sdir = IOUtils.toString(
-                Utils.class.getResourceAsStream("ottr/o-sdir.ttl"),
-                StandardCharsets.UTF_8
-        );
-
-        String sh = IOUtils.toString(
-                Utils.class.getResourceAsStream("ottr/shaclcore.ttl"),
-                StandardCharsets.UTF_8
-        );
-
-        Path file = Paths.get("../OTTR/o-tpl-lib.ttl");
-        Files.write(file, Collections.singleton(sh + sdir), StandardCharsets.UTF_8);
-
-    }
 }

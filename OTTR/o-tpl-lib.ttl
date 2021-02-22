@@ -203,9 +203,10 @@ o-sh:Description[! sh:PropertyShape ?shape, ! NEList<rdf:langString> ?values] ::
 o-sh:UniqueAndMandatory[! sh:PropertyShape ?shape] :: {
     o-sh:MinCount(?shape, 1),
     o-sh:MaxCount(?shape, 1)
-} .o-sdir:Scope[! sh:PropertyShape ?shape, ! ?path] :: {
+} .
+o-sdir:GraphGenerator[! sh:PropertyShape ?shape, ! ?path] :: {
     o-sh:PropertyShape(?shape, ?path),
-    ottr:Triple(?shape, rdf:type, sdir:Scope)
+    ottr:Triple(?shape, rdf:type, sdir:GraphGenerator)
 } .
 
 o-sdir:Requirement[
@@ -223,3 +224,4 @@ o-sdir:Requirement[
     ottr:Triple(?shape, sdir:eliRef, ?eliReference),
     cross | ottr:Triple(?shape, sdir:theme, ++?theme)
 } .
+

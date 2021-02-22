@@ -54,6 +54,24 @@
 
 
 
+        <dependency>
+            <groupId>xyz.ottr.lutra</groupId>
+            <artifactId>lutra-cli</artifactId>
+            <version>0.6.10</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.ottr.lutra</groupId>
+            <artifactId>lutra-api</artifactId>
+            <version>0.6.10</version>
+        </dependency>
+
+        <dependency>
+            <groupId>xyz.ottr.lutra</groupId>
+            <artifactId>lutra-core</artifactId>
+            <version>0.6.10</version>
+        </dependency>
+
 
     </dependencies>
 

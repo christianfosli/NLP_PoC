@@ -69,3 +69,15 @@ scope:PS_BuiltDate_a20020101 a sh:PropertyShape, scope:Scope;
   sh:path sdir:builtDate;
   sh:minInclusive "2002-01-01";
   sh:datatype xsd:date .
+
+scope:PS_ElIn_max50 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde elektrisk innstallasjon inntil 50"@no, "Scope of electrical installation up to 50"@en;
+  sh:path sdir:builtDate;
+  sh:maxExclusive "50";
+  sh:datatype unit:V .
+
+scope:PS_ElIn_min50 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde elektrisk innstallasjon over 50"@no, "Scope of electrical installation more than 50"@en;
+  sh:path sdir:builtDate;
+  sh:minInclusive "50";
+  sh:datatype unit:V .
