@@ -14,10 +14,10 @@ from spacy_matching_rule_identify_build_date_no import identify_build_date_in_no
 from spacy_matching_rule_identify_build_date_en import identify_build_date_in_english_spacy_lines
 # alternative_reference
 from spacy_matching_rule_identify_alternative_reference_no import identify_alternative_reference_in_norwegian_spacy_lines
-# passenger
+
 from spacy_matching_rule_identify_PASSENGER_no import identify_PASSENGER_in_norwegian_spacy_lines
-# gross_tonnage
 from spacy_matching_rule_identify_GROSS_TONNAGE_no import identify_GROSS_TONNAGE_in_norwegian_spacy_lines
+from spacy_matching_rule_identify_VESSEL_no import identify_VESSEL_in_norwegian_spacy_lines
 
 #
 # API controllers
@@ -32,10 +32,10 @@ from api_controller_identify_build_date_in_text_service_norwegian_chapter_input 
 from api_controller_identify_build_date_in_text_service_english_chapter_input import create_api_response_for_post_identify_build_date_in_text_service_english_chapter_input
 # alternative_reference
 from api_controller_identify_alternative_reference_in_text_service_norwegian_chapter_input import create_api_response_for_post_identify_alternative_reference_in_text_service_norwegian_chapter_input
-# passenger
+
 from api_controller_identify_PASSENGER_in_text_service_norwegian_chapter import create_api_response_for_post_identify_PASSENGER_in_text_service_norwegian_chapter
-# gross_tonnage
 from api_controller_identify_GROSS_TONNAGE_in_text_service_norwegian_chapter import create_api_response_for_post_identify_GROSS_TONNAGE_in_text_service_norwegian_chapter
+from api_controller_identify_VESSEL_in_text_service_norwegian_chapter import create_api_response_for_post_identify_VESSEL_in_text_service_norwegian_chapter
 
 app = Flask(__name__)
 
@@ -113,6 +113,16 @@ def post_identify_GROSS_TONNAGE_in_text_service_norwegian_chapter():
     forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_date_in_norwegian if any("GROSS_TONNAGE" == x['label'] for x in spacy_line['ents'])]
     forward_api_response = create_api_response_for_post_identify_GROSS_TONNAGE_in_text_service_norwegian_chapter(forward_filtered_result_with_only_the_things_we_are_looking_for)
     return jsonify({"identified_GROSS_TONNAGE": forward_api_response})
+
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1279197195/vessel+-+no
+@app.route("/identify-VESSEL-in-text-service-norwegian-chapter", methods=["POST"])
+def post_identify_VESSEL_in_text_service_norwegian_chapter():
+    input_chapter_text_as_json_in_text_service_format = request.json
+    forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
+    forward_result_with_date_in_norwegian = identify_VESSEL_in_norwegian_spacy_lines(forward_text_transformed_to_spacy_format)
+    forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_date_in_norwegian if any("VESSEL" == x['label'] for x in spacy_line['ents'])]
+    forward_api_response = create_api_response_for_post_identify_VESSEL_in_text_service_norwegian_chapter(forward_filtered_result_with_only_the_things_we_are_looking_for)
+    return jsonify({"identified_VESSEL": forward_api_response})
 
 if __name__ == '__main__':
     #app.run()
