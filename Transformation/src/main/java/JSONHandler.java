@@ -10,6 +10,32 @@ import java.util.List;
 
 public class JSONHandler {
 
+    public static List<GrossTonnage> grossTonnage() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/grosstonnage.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.GT_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<GrossTonnage> gtList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            GrossTonnage p = new GrossTonnage(
+                    requirement,
+                    object.get("gross_tonnage_context").toString().replace("\"", ""),
+                    object.get("gross_tonnage_value_1").toString().replace("\"", "")
+            );
+
+            gtList.add(p);
+        }
+        return gtList;
+    }
+
     public static List<Passengers> passengers() throws IOException {
         String content = Utils.readFromFile("src/main/resources/input/passenger.json");
 

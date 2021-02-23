@@ -11,6 +11,8 @@ public class Main {
         GraphGenerator.builtDateScope();
         GraphGenerator.electricalInstallationScope();
         GraphGenerator.passengerScope();
+        GraphGenerator.grossTonnageScope();
+
         GraphGenerator.writeScopeModelToFile();
         GraphGenerator.writeRequirementModelToFile();
 

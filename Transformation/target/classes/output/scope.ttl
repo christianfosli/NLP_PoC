@@ -93,3 +93,9 @@ scope:PS_Pass_max100 a sh:PropertyShape, scope:Scope;
   sh:path sdir:builtDate;
   sh:maxExclusive "100";
   sh:datatype xsd:integer .
+
+scope:PS_GT_max500 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde bruttotonnasje under 500"@no, "Scope of gross tonnage less than 500"@en;
+  sh:path sdir:builtDate;
+  sh:maxExclusive "500";
+  sh:datatype unit:GT .

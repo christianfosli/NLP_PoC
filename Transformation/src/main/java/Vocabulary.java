@@ -14,4 +14,8 @@ public class Vocabulary {
     public static final IRI regulationReference = vf.createIRI(NS + "regulationReference");
     public static final IRI eliReference = vf.createIRI(NS + "eliReference");
     public static final IRI theme = vf.createIRI(NS + "theme");
+    public static final IRI grossTonnage = vf.createIRI(NS + "grossTonnage");
+    public static final IRI passengers = vf.createIRI(NS + "passengers");
+    public static final IRI vesselLengthOverall = vf.createIRI(NS + "vesselLengthOverall");
+    public static final IRI electricalInstallation = vf.createIRI(NS + "electricalInstallation");
 }
