@@ -81,3 +81,15 @@ scope:PS_ElIn_min50 a sh:PropertyShape, scope:Scope;
   sh:path sdir:builtDate;
   sh:minInclusive "50";
   sh:datatype unit:V .
+
+scope:PS_Pass_max12 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde passasjerer mindre enn 12"@no, "Scope of passengers less than 12"@en;
+  sh:path sdir:builtDate;
+  sh:maxExclusive "12";
+  sh:datatype xsd:integer .
+
+scope:PS_Pass_max100 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde passasjerer mindre enn 100"@no, "Scope of passengers less than 100"@en;
+  sh:path sdir:builtDate;
+  sh:maxExclusive "100";
+  sh:datatype xsd:integer .

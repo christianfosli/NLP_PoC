@@ -34,6 +34,7 @@ public class Utils {
     public static final String LOA_JSON_OBJ = "identified_vessel_length_overall";
     public static final String BD_JSON_OBJ = "identified_build_dates";
     public static final String EL_JSON_OBJ = "identified_electrical_installations";
+    public static final String PASS_JSON_OBJ = "identified_PASSENGER";
 
     public static String readFromFile(String filename) throws IOException {
         StringBuilder sb = new StringBuilder();

@@ -2,16 +2,39 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import scope.BuiltDate;
-import scope.ElectricalInstallation;
-import scope.LOA;
-import scope.Requirement;
+import scope.*;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class JSONHandler {
+
+    public static List<Passengers> passengers() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/passenger.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.PASS_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<Passengers> passList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            Passengers p = new Passengers(
+                    requirement,
+                    object.get("passenger_context").toString().replace("\"", ""),
+                    object.get("passenger_value_1").toString().replace("\"", "")
+            );
+
+            passList.add(p);
+        }
+        return passList;
+    }
 
     public static List<ElectricalInstallation> electricalInstallations() throws IOException {
         String content = Utils.readFromFile("src/main/resources/input/electricalinstallation.json");

@@ -8,10 +8,7 @@ import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
-import scope.BuiltDate;
-import scope.ElectricalInstallation;
-import scope.LOA;
-import scope.Requirement;
+import scope.*;
 
 import java.io.*;
 import java.time.LocalDate;
@@ -117,6 +114,25 @@ public class GraphGenerator {
             addRequirement(el.getRequirement(), subject);
         }
 
+        scopeModel.addAll(model);
+    }
+
+    public static void passengerScope() throws IOException {
+        List<Passengers> passList = JSONHandler.passengers();
+        Model model = new LinkedHashModel();
+
+        for (Passengers p : passList) {
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + p.getSubject());
+
+            createValueScope(model, p.getValue(), subject,
+                    p.getConstraint(),
+                    "Virkeområde passasjerer " + p.getPrefixNo() + " " + p.getValue(),
+                    "Scope of passengers " + p.getPrefixEn() + " " + p.getValue(),
+                    XSD.INTEGER
+                    );
+
+            addRequirement(p.getRequirement(), subject);
+        }
         scopeModel.addAll(model);
     }
 

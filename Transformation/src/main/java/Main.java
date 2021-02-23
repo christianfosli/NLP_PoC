@@ -1,3 +1,4 @@
+import org.antlr.v4.misc.Graph;
 import ottr.OTTRWrapper;
 
 import java.io.IOException;
@@ -9,6 +10,7 @@ public class Main {
         GraphGenerator.vesselLengthScope();
         GraphGenerator.builtDateScope();
         GraphGenerator.electricalInstallationScope();
+        GraphGenerator.passengerScope();
         GraphGenerator.writeScopeModelToFile();
         GraphGenerator.writeRequirementModelToFile();
 
