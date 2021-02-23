@@ -30,11 +30,19 @@ public class Requirement {
 
     private String createELIID(String id) {
         String[] split = id.split("-");
-        return  "regulation/" + split[0] + "/" + split[1] + "/" + split[2] + "/" + split[3];
+
+        if (this.subpart != null) {
+            return  "regulation/" + split[0] + "/" + split[1] + "/" + split[2] + "/" + split[3] +
+                    "/chapter/" + this.chapter + "/section/" + this.paragraph + "/part/" + this.part +
+                    "/subpart/" + this.subpart;
+        } else {
+            return  "regulation/" + split[0] + "/" + split[1] + "/" + split[2] + "/" + split[3] +
+                    "/chapter/" + this.chapter + "/section/" + this.paragraph + "/part/" + this.part;
+        }
     }
 
     private String createLovdataID(String id) {
-        return  "https://lovdata.no/dokument/SF/forskrift/" + id;
+        return  "https://lovdata.no/dokument/SF/forskrift/" + id + "/§" + this.paragraph;
     }
 
     public String getRegulation() {

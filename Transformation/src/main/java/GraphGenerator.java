@@ -221,6 +221,8 @@ public class GraphGenerator {
         model.add(subject, SHACL.PROPERTY, scope);
         model.add(subject, Vocabulary.regulationReference,
                 Vocabulary.vf.createLiteral(r.getRegulation_id_lovdata()), XSD.ANYURI);
+        model.add(subject, Vocabulary.eliReference,
+                Vocabulary.vf.createLiteral(r.getRegulation_id_eli()), XSD.ANYURI);
 
         requirementModel.addAll(model);
 

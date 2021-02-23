@@ -76,13 +76,13 @@ sdir:REG1404S24P5 a sh:NodeShape;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2013-11-22-1404" .
 
 sdir:REG1770S1P1SP3 a sh:NodeShape;
-  sh:property scope:null;
+  sh:property scope:PS_Pass_max12;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770" .
 
 sdir:REG1770S1P1SP4 a sh:NodeShape;
-  sh:property scope:null;
+  sh:property scope:PS_Pass_max12;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770" .
 
 sdir:REG1770S1P1SP5 a sh:NodeShape;
-  sh:property scope:null;
+  sh:property scope:PS_Pass_max100;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770" .
