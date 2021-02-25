@@ -10,6 +10,7 @@ import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
+import ottr.OTTRUtils;
 import scope.*;
 
 import java.io.FileNotFoundException;
@@ -58,6 +59,7 @@ public class GraphGenerator {
                 );
             }
             addRequirement(l.getRequirement(), subject);
+            ottrInstances.add(l.getOTTRInstance());
         }
         scopeModel.addAll(model);
     }
@@ -120,6 +122,7 @@ public class GraphGenerator {
                     );
 
             addRequirement(el.getRequirement(), subject);
+            ottrInstances.add(el.getOTTRInstance());
         }
 
         scopeModel.addAll(model);
@@ -140,6 +143,7 @@ public class GraphGenerator {
                     );
 
             addRequirement(p.getRequirement(), subject);
+            ottrInstances.add(p.getOTTRInstance());
         }
         scopeModel.addAll(model);
     }
@@ -159,6 +163,7 @@ public class GraphGenerator {
             );
 
             addRequirement(gt.getRequirement(), subject);
+            ottrInstances.add(gt.getOTTRInstance());
         }
         scopeModel.addAll(model);
     }
@@ -180,6 +185,7 @@ public class GraphGenerator {
             );
 
             addRequirement(fp.getRequirement(), subject);
+            ottrInstances.add(fp.getOTTRInstance());
         }
 
         scopeModel.addAll(model);

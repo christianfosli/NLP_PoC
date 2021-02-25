@@ -64,7 +64,7 @@ o-sh:MinExclusive[! sh:PropertyShape ?shape, ! xsd:anySimpleType ?value] :: {
 } .
 
 # https://www.w3.org/TR/shacl/#MinInclusiveConstraintComponent
-o-sh:MinInclusive[! sh:PropertyShape ?shape, ! ?path, ! xsd:anySimpleType ?value] :: {
+o-sh:MinInclusive[! sh:PropertyShape ?shape, ! xsd:anySimpleType ?value] :: {
     o-sh:PropertyShape(?shape, ?path),
     ottr:Triple(?shape, sh:minInclusive, ?value)
 } .

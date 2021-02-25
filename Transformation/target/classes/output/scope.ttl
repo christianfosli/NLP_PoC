@@ -100,8 +100,8 @@ scope:PS_GT_max500 a sh:PropertyShape, scope:Scope;
   sh:maxExclusive "500";
   sh:datatype unit:GT .
 
-scope:null a sh:PropertyShape, scope:Scope;
-  sh:description "Virkeområde flammepunkt mer enn 43"@no, "Scope of flashpoint less than 43"@en;
+scope:PS_Flash_min43 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde flammepunkt mer enn 43"@no, "Scope of flashpoint more than 43"@en;
   sh:path sdir:flashpoint;
-  sh:ConstraintComponent "43";
+  sh:minInclusive "43";
   sh:datatype unit:C .

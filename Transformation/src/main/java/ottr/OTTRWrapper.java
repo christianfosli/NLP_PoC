@@ -47,12 +47,13 @@ public class OTTRWrapper {
     }
 
     public static void createOTTRInstances(List<String> instances) throws IOException {
-
         Set<String> set = new HashSet<>(instances);
         instances.clear();
         instances.addAll(set);
 
-        Files.write(Paths.get("src/main/resources/ottr/builtdate.ttl"), set);
+        set.add(OTTRUtils.namespaces());
+
+        Files.write(Paths.get("src/main/resources/ottr/_instances.ttl"), set);
     }
 
     public static String readFromFile(String filename) throws IOException {

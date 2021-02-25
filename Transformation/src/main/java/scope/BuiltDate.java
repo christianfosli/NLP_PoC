@@ -3,6 +3,7 @@ package scope;
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
+import ottr.OTTRUtils;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -170,19 +171,6 @@ public class BuiltDate {
     }
 
     public String getOTTRInstance() {
-
-        if (this.constraint.equals(SHACL.MAX_EXCLUSIVE)) {
-            return "\n" +
-                    "o-sdir:Scope(sdir:" + this.subject + ", sdir:builtDate) ." + "\n" +
-                    "o-sh:MaxExclusive(sdir:" + this.subject + ", \"" + this.value1 + "\") ." + "\n" +
-                    "o-sh:Datatype(sdir:" + this.subject + ", xsd:date) ." + "\n" +
-                    "\n";
-        } else {
-            return "\n" +
-                    "o-sdir:Scope(sdir:" + this.subject + ", sdir:builtDate) ." + "\n" +
-                    "o-sh:MinInclusive(sdir:" + this.subject + ", \"" + this.value1 + "\") ." + "\n" +
-                    "o-sh:Datatype(sdir:" + this.subject + ", xsd:date) ." + "\n" +
-                    "\n";
-        }
+        return OTTRUtils.getOTTRInstance(this.constraint, this.subject, this.value1, this.value2);
     }
 }

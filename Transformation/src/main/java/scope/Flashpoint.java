@@ -2,6 +2,7 @@ package scope;
 
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.vocabulary.SHACL;
+import ottr.OTTRUtils;
 
 public class Flashpoint {
     Requirement requirement;
@@ -68,5 +69,9 @@ public class Flashpoint {
         } else {
             return "less than";
         }
+    }
+
+    public String getOTTRInstance() {
+        return OTTRUtils.getOTTRInstance(this.constraint, this.subject, this.value);
     }
 }

@@ -2,6 +2,7 @@ package scope;
 
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.vocabulary.SHACL;
+import ottr.OTTRUtils;
 
 public class LOA {
     Requirement requirement;
@@ -95,4 +96,9 @@ public class LOA {
             System.out.print(": " + this.value1 + " " + this.context + " " + this.value2 + " " + this.metric);
         }
     }
+
+    public String getOTTRInstance() {
+        return OTTRUtils.getOTTRInstance(this.constraint, this.subject, this.value1, this.value2);
+    }
+
 }

@@ -20,6 +20,6 @@ public class Main {
 
         OTTRWrapper.createOTTRInstances(GraphGenerator.ottrInstances);
         Model model = OTTRWrapper.runLutra();
-        //model.forEach(System.out::println);
+        model.forEach(System.out::println);
     }
 }
