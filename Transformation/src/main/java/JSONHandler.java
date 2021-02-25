@@ -10,6 +10,33 @@ import java.util.List;
 
 public class JSONHandler {
 
+    public static List<Flashpoint> flashpoint() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/flashpoint.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.FP_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<Flashpoint> fpList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            Flashpoint fp = new Flashpoint(
+                    requirement,
+                    object.get("flashpoint_value_1_suffix").toString().replace("\"", ""),
+                    object.get("flashpoint_value_1").toString().replace("\"", ""),
+                    object.get("flashpoint_value_1_measurement").toString().replace("\"", "")
+            );
+
+            fpList.add(fp);
+        }
+        return fpList;
+    }
+
     public static List<GrossTonnage> grossTonnage() throws IOException {
         String content = Utils.readFromFile("src/main/resources/input/grosstonnage.json");
 

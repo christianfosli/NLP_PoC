@@ -1,0 +1,36 @@
+
+o-sdir:Scope(sdir:PS_BuiltDate_a19880102, sdir:builtDate) .
+o-sh:MinInclusive(sdir:PS_BuiltDate_a19880102, "1988-01-02") .
+o-sh:Datatype(sdir:PS_BuiltDate_a19880102, xsd:date) .
+
+
+
+o-sdir:Scope(sdir:PS_BuiltDate_b19880102, sdir:builtDate) .
+o-sh:MaxExclusive(sdir:PS_BuiltDate_b19880102, "1988-01-02") .
+o-sh:Datatype(sdir:PS_BuiltDate_b19880102, xsd:date) .
+
+
+
+o-sdir:Scope(sdir:PS_BuiltDate_b19920101, sdir:builtDate) .
+o-sh:MaxExclusive(sdir:PS_BuiltDate_b19920101, "1992-01-01") .
+o-sh:Datatype(sdir:PS_BuiltDate_b19920101, xsd:date) .
+
+
+
+o-sdir:Scope(sdir:PS_BuiltDate_a19920101, sdir:builtDate) .
+o-sh:MinInclusive(sdir:PS_BuiltDate_a19920101, "1992-01-01") .
+o-sh:Datatype(sdir:PS_BuiltDate_a19920101, xsd:date) .
+
+
+
+o-sdir:Scope(sdir:PS_BuiltDate_19920101_to_20020101, sdir:builtDate) .
+o-sh:MinInclusive(sdir:PS_BuiltDate_19920101_to_20020101, "1992-01-01") .
+o-sh:Datatype(sdir:PS_BuiltDate_19920101_to_20020101, xsd:date) .
+
+
+
+o-sdir:Scope(sdir:PS_BuiltDate_a20020101, sdir:builtDate) .
+o-sh:MinInclusive(sdir:PS_BuiltDate_a20020101, "2002-01-01") .
+o-sh:Datatype(sdir:PS_BuiltDate_a20020101, xsd:date) .
+
+

@@ -11,6 +11,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class OTTRWrapper {
 
@@ -41,6 +44,15 @@ public class OTTRWrapper {
 
         Path file = Paths.get("../OTTR/o-tpl-lib.ttl");
         Files.write(file, Collections.singleton(sh + sdir), StandardCharsets.UTF_8);
+    }
+
+    public static void createOTTRInstances(List<String> instances) throws IOException {
+
+        Set<String> set = new HashSet<>(instances);
+        instances.clear();
+        instances.addAll(set);
+
+        Files.write(Paths.get("src/main/resources/ottr/builtdate.ttl"), set);
     }
 
     public static String readFromFile(String filename) throws IOException {

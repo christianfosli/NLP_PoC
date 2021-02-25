@@ -204,22 +204,22 @@ o-sh:UniqueAndMandatory[! sh:PropertyShape ?shape] :: {
     o-sh:MinCount(?shape, 1),
     o-sh:MaxCount(?shape, 1)
 } .
-o-sdir:GraphGenerator[! sh:PropertyShape ?shape, ! ?path] :: {
+o-sdir:Scope[! ottr:IRI ?shape, ! ?path] :: {
     o-sh:PropertyShape(?shape, ?path),
-    ottr:Triple(?shape, rdf:type, sdir:GraphGenerator)
+    o-rdf:Type(?shape, sdir:Scope)
 } .
 
 o-sdir:Requirement[
-        ! sh:NodeShape ?shape,
-        NEList<sh:PropertyShape> ?properties,
+        ! ottr:IRI ?shape,
+        NEList<sh:PropertyShape> ?scopes,
         NEList<rdf:langString> ?label,
         ?regulationReference, ?eliReference,
         NEList<rdf:langString> ?theme] ::
 {
     o-sh:NodeShape(?shape),
-    ottr:Triple(?shape, rdf:type, sdir:Requirement),
-    cross | o-sh:Property(?shape, ++?properties),
-    cross | ottr:Triple(?shape, rdfs:label, ++?label),
+    o-rdf:Type(?shape, sdir:Requirement),
+    cross | o-sh:Property(?shape, ++?scopes),
+    cross | o-rdfs:Label(?shape, ++?label),
     ottr:Triple(?shape, sdir:regulationReference, ?regulationReference),
     ottr:Triple(?shape, sdir:eliRef, ?eliReference),
     cross | ottr:Triple(?shape, sdir:theme, ++?theme)

@@ -1,18 +1,23 @@
-import com.google.gson.*;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.impl.LinkedHashModel;
 import org.eclipse.rdf4j.model.vocabulary.RDF;
-import org.eclipse.rdf4j.model.vocabulary.RDFS;
 import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
 import scope.*;
 
-import java.io.*;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
@@ -21,6 +26,8 @@ public class GraphGenerator {
 
     public static Model scopeModel = Utils.initModel();
     public static Model requirementModel = Utils.initModel();
+
+    public static List<String> ottrInstances = new ArrayList<>();
 
     /** vesselLengthScope
      *
@@ -85,6 +92,7 @@ public class GraphGenerator {
                 );
             }
             addRequirement(bd.getRequirement(), subject);
+            ottrInstances.add(bd.getOTTRInstance());
         }
         scopeModel.addAll(model);
     }
@@ -152,6 +160,28 @@ public class GraphGenerator {
 
             addRequirement(gt.getRequirement(), subject);
         }
+        scopeModel.addAll(model);
+    }
+
+    public static void flashpointScope() throws IOException {
+
+        List<Flashpoint> fpList = JSONHandler.flashpoint();
+        Model model = new LinkedHashModel();
+
+        for (Flashpoint fp : fpList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + fp.getSubject());
+
+            createValueScope(model, fp.getValue(), subject, Vocabulary.flashpoint,
+                    fp.getConstraint(),
+                    "Virkeområde flammepunkt " + fp.getPrefixNo() + " " + fp.getValue(),
+                    "Scope of flashpoint " + fp.getPrefixEn() + " " + fp.getValue(),
+                    Vocabulary.vf.createIRI(Utils.NS_UNIT + "C")
+            );
+
+            addRequirement(fp.getRequirement(), subject);
+        }
+
         scopeModel.addAll(model);
     }
 

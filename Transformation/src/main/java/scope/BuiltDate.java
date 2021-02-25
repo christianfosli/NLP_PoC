@@ -2,7 +2,12 @@ package scope;
 
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.vocabulary.SHACL;
+import org.eclipse.rdf4j.model.vocabulary.XSD;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
@@ -162,5 +167,22 @@ public class BuiltDate {
         date = day + " " + month.substring(0, 1).toUpperCase() + month.substring(1) + " " + year;
 
         return date;
+    }
+
+    public String getOTTRInstance() {
+
+        if (this.constraint.equals(SHACL.MAX_EXCLUSIVE)) {
+            return "\n" +
+                    "o-sdir:Scope(sdir:" + this.subject + ", sdir:builtDate) ." + "\n" +
+                    "o-sh:MaxExclusive(sdir:" + this.subject + ", \"" + this.value1 + "\") ." + "\n" +
+                    "o-sh:Datatype(sdir:" + this.subject + ", xsd:date) ." + "\n" +
+                    "\n";
+        } else {
+            return "\n" +
+                    "o-sdir:Scope(sdir:" + this.subject + ", sdir:builtDate) ." + "\n" +
+                    "o-sh:MinInclusive(sdir:" + this.subject + ", \"" + this.value1 + "\") ." + "\n" +
+                    "o-sh:Datatype(sdir:" + this.subject + ", xsd:date) ." + "\n" +
+                    "\n";
+        }
     }
 }

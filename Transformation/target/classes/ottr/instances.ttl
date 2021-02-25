@@ -10,10 +10,18 @@
 @prefix scope: <https://www.sdir.no/SDIR_Simulator/shapes/scope#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
-o-sdir:GraphGenerator(scope:PS_FishingVessel, sdir:vesselType) .
-o-sh:Description(scope:PS_FishingVessel, ("Virkeområde fiskefartøy."@no, "GraphGenerator of fishing vessels."@en)) .
+o-sdir:Scope(scope:PS_FishingVessel, sdir:vesselType) .
+o-sh:Description(scope:PS_FishingVessel, ("Virkeområde fiskefartøy."@no, "Scope of fishing vessels."@en)) .
 o-sh:HasValue(scope:PS_FishingVessel, scope:FishingVessel) .
 
+o-sdir:Scope(scope:PS_maxLOA_15, sdir:builtDate) .
+o-sh:Description(scope:PS_maxLOA_15, ("Virkeområde byggedato."@no, "Scope of built date."@en)) .
+o-sh:MaxExclusive(scope:PS_maxLOA_15, 15) .
+o-sh:Datatype(scope:PS_maxLOA_15, unit:M) .
+
+o-sdir:Scope(sdir:PS_BuiltDate_b19920101, sdir:builtDate) .
+o-sh:MaxExclusive(sdir:PS_BuiltDate_b19920101, "1992-01-01") .
+o-sh:Datatype(sdir:PS_BuiltDate_b19920101, xsd:date) .
 
 o-sdir:Requirement(
     sdir:FOR1404P19,

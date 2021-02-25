@@ -116,3 +116,8 @@ sdir:REG1770S1P1SP2 a sh:NodeShape;
   sh:property scope:PS_GT_max500;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770/§1";
   sdir:eliReference "regulation/2016/12/16/1770/chapter/1/section/1/part/1/subpart/2" .
+
+sdir:REG1404S24P2SP2 a sh:NodeShape;
+  sh:property scope:PS_Flash_min43;
+  sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2013-11-22-1404/§24";
+  sdir:eliReference "regulation/2013/11/22/1404/chapter/3/section/24/part/2/subpart/2" .

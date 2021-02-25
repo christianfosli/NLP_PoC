@@ -18,4 +18,5 @@ public class Vocabulary {
     public static final IRI passengers = vf.createIRI(NS + "passengers");
     public static final IRI vesselLengthOverall = vf.createIRI(NS + "vesselLengthOverall");
     public static final IRI electricalInstallation = vf.createIRI(NS + "electricalInstallation");
+    public static final IRI flashpoint = vf.createIRI(NS + "flashpoint");
 }

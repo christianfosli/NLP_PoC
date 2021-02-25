@@ -99,3 +99,9 @@ scope:PS_GT_max500 a sh:PropertyShape, scope:Scope;
   sh:path sdir:grossTonnage;
   sh:maxExclusive "500";
   sh:datatype unit:GT .
+
+scope:PS_Flash_min43 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde flammepunkt mer enn 43"@no, "Scope of flashpoint more than 43"@en;
+  sh:path sdir:flashpoint;
+  sh:minInclusive "43";
+  sh:datatype unit:C .
