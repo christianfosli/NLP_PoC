@@ -10,6 +10,31 @@ import java.util.List;
 
 public class JSONHandler {
 
+    public static List<VesselType> vesselType() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/vesseltype.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.VT_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<VesselType> vtList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            VesselType vt = new VesselType(
+                    requirement,
+                    object.get("vessel_type_text").toString().replace("\"", "")
+            );
+
+            vtList.add(vt);
+        }
+        return vtList;
+    }
+
     public static List<Flashpoint> flashpoint() throws IOException {
         String content = Utils.readFromFile("src/main/resources/input/flashpoint.json");
 

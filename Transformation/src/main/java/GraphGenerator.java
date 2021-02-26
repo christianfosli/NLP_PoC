@@ -10,18 +10,15 @@ import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
 import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.Rio;
-import ottr.OTTRUtils;
 import scope.*;
+import vocabulary.Vocabulary;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 
 public class GraphGenerator {
 
@@ -191,16 +188,34 @@ public class GraphGenerator {
         scopeModel.addAll(model);
     }
 
-    /** getLocalDate
-     *
-     * Helper method for formatting date in the correct manner.
-     *
-     * @param dateStr input date as String
-     * @return correctly parsed date
-     */
-    private static LocalDate getLocalDate(String dateStr) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d MMMM yyyy", Locale.ENGLISH);
-        return LocalDate.parse(dateStr, formatter);
+    public static void vesselTypeScope() throws IOException {
+
+        List<VesselType> vtList = JSONHandler.vesselType();
+        Model model = new LinkedHashModel();
+
+        for (VesselType vt : vtList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + vt.getSubject());
+
+            createObjectScope(model, vt.getVesselType(), subject, Vocabulary.vesselType,
+                    "Virkeområde fartøytype " + vt.getValue(),
+                    "Scope of vessel type " + vt.vesselTypeEn(vt.getValue())
+            );
+
+            addRequirement(vt.getRequirement(), subject);
+        }
+
+        scopeModel.addAll(model);
+    }
+
+    private static void createObjectScope(Model model, IRI value, IRI subject, IRI path, String desNo, String desEn) {
+        model.add(subject, RDF.TYPE, SHACL.PROPERTY_SHAPE);
+        model.add(subject, RDF.TYPE, Vocabulary.Scope);
+        model.add(subject, SHACL.DESCRIPTION, Vocabulary.vf.createLiteral(desNo, "no"));
+        model.add(subject, SHACL.DESCRIPTION, Vocabulary.vf.createLiteral(desEn, "en"));
+        model.add(subject, SHACL.PATH, path);
+
+        model.add(subject, SHACL.HAS_VALUE, value);
     }
 
     /** createValueScope

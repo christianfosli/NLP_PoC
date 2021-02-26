@@ -105,3 +105,23 @@ scope:PS_Flash_min43 a sh:PropertyShape, scope:Scope;
   sh:path sdir:flashpoint;
   sh:minInclusive "43";
   sh:datatype unit:C .
+
+scope:PS_CargoShip a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde fartøytype lasteskip"@no, "Scope of vessel type cargo ship"@en;
+  sh:path sdir:vesselType;
+  sh:hasValue <https://www.sdir.no/SDIR_Simulator/vesselType#CargoShip> .
+
+scope:PS_FishingVessel a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde fartøytype fiskefartøy"@no, "Scope of vessel type fishing vessel"@en;
+  sh:path sdir:vesselType;
+  sh:hasValue <https://www.sdir.no/SDIR_Simulator/vesselType#FishingVessel> .
+
+scope:PS_PassengerShip a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde fartøytype passasjerskip"@no, "Scope of vessel type passenger ship"@en;
+  sh:path sdir:vesselType;
+  sh:hasValue <https://www.sdir.no/SDIR_Simulator/vesselType#PassengerShip> .
+
+scope:PS_RoRoPassengerShip a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde fartøytype roro-passasjerskip"@no, "Scope of vessel type ro-ro passenger ship"@en;
+  sh:path sdir:vesselType;
+  sh:hasValue <https://www.sdir.no/SDIR_Simulator/vesselType#RoRoPassengerShip> .

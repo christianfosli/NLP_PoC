@@ -93,27 +93,27 @@ sdir:REG1404S24P5 a sh:NodeShape;
   sdir:eliReference "regulation/2013/11/22/1404/chapter/3/section/24/part/5" .
 
 sdir:REG1770S1P1SP3 a sh:NodeShape;
-  sh:property scope:PS_Pass_max12;
+  sh:property scope:PS_Pass_max12, scope:PS_PassengerShip;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770/§1";
   sdir:eliReference "regulation/2016/12/16/1770/chapter/1/section/1/part/1/subpart/3" .
 
 sdir:REG1770S1P1SP4 a sh:NodeShape;
-  sh:property scope:PS_Pass_max12;
+  sh:property scope:PS_Pass_max12, scope:PS_RoRoPassengerShip;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770/§1";
   sdir:eliReference "regulation/2016/12/16/1770/chapter/1/section/1/part/1/subpart/4" .
 
 sdir:REG1770S1P1SP5 a sh:NodeShape;
-  sh:property scope:PS_Pass_max100;
+  sh:property scope:PS_Pass_max100, scope:PS_PassengerShip;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770/§1";
   sdir:eliReference "regulation/2016/12/16/1770/chapter/1/section/1/part/1/subpart/5" .
 
 sdir:REG1770S1P1SP1 a sh:NodeShape;
-  sh:property scope:PS_GT_max500;
+  sh:property scope:PS_GT_max500, scope:PS_CargoShip;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770/§1";
   sdir:eliReference "regulation/2016/12/16/1770/chapter/1/section/1/part/1/subpart/1" .
 
 sdir:REG1770S1P1SP2 a sh:NodeShape;
-  sh:property scope:PS_GT_max500;
+  sh:property scope:PS_GT_max500, scope:PS_FishingVessel;
   sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770/§1";
   sdir:eliReference "regulation/2016/12/16/1770/chapter/1/section/1/part/1/subpart/2" .
 
