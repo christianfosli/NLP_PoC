@@ -150,7 +150,7 @@ def post_identify_VESSEL_TYPE_in_text_service_norwegian_chapter():
     forward_api_response = create_api_response_for_post_identify_VESSEL_TYPE_in_text_service_norwegian_chapter(forward_filtered_result_with_only_the_things_we_are_looking_for)
     return jsonify({"identified_VESSEL_TYPE": forward_api_response})
 
-# Documentation: 
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1290469377/mobile+unit+-+no
 @app.route("/identify-MOBILE-UNIT-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_MOBILE_UNIT_in_text_service_norwegian_chapter():
     input_chapter_text_as_json_in_text_service_format = request.json
