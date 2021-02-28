@@ -1,0 +1,307 @@
+Regulations of 1 July 2014 No. 1019 on  
+life-saving appliances on ships 
+Legal basis: Laid down by the Norwegian Maritime Authority on 1 July 2014 under the Act of 16 February 2007 No. 9 relating to ship safety and 
+security (Ship Safety and Security Act) sections 6, 9, 11, 19, 20, 55, 56, 59 and 60, cf. Formal Delegation of 16 February 2007 No. 171 and Formal 
+Delegation of 31 May 2007 No. 590. 
+EEA references: EEA Agreement Annex II Chapter XIX point 1 (Directive 98/34/EC as amended by Directive 98/48/EC). 
+Amendments: Amended by Regulations of 5 September 2014 No. 1158, 16 December 2014 No. 1768, 16 August 2016 No. 984 (EEA Hearing), 14 
+October 2016 No. 1211, 30 August 2017 No. 1346 (confirmation following completed EEA hearing), 20 December 2017 No. 2379, 18 December 2019 
+No. 1988 (in force on 1 January 2020). 
+Section 1 
+Scope of application 
+These Regulations apply to Norwegian: 
+a)  cargo ships; 
+b)  ships with Passenger Certificate; 
+c)  ships with Passenger Ship Safety Certificate engaged on foreign voyages; 
+d)  barges which due to their operation have personnel on board in addition to personnel carrying out operations 
+related to mooring or preparation for towing. 
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 2 
+Requirements for life-saving appliances 
+The International Convention for the Safety of Life at Sea, 1974 (SOLAS) consolidated edition 2014 chapter III, as 
+amended by MSC.350(92), 404(96) and 421(98), shall apply as regulation. 
+The provisions referred to in the first paragraph apply to ships and barges irrespective of trade area or gross tonnage 
+and with the additions and limitations specified by these Regulations, however, SOLAS regulation III/30.3 does not apply 
+to ships engaged on domestic voyages. 
+Amended by Regulations of 5 September 2014 No. 1158 (in force on 15 September 2014), 16 December 2014 No. 1768 (in force on 1 January 2015), 
+18 December 2019 No. 1988 (in force on 1 January 2020). 
+Section 3 
+General emergency alarm system 
+Cargo ships of 200 gross tonnage and upwards and all passenger ships shall be fitted with a general emergency alarm 
+system complying with the requirements of SOLAS regulation III/6.4. 
+Passenger ships of less than 24 metres in length engaged on domestic voyages are exempt from the requirement when 
+the alarm signal can be given by the ship’s whistle or siren. 
+Amended by Regulation of 16 December 2014 No. 1768 (in force on 1 January 2015). 
+Section 4 
+Public address system 
+All passenger ships shall be fitted with a public address system complying with the requirements of SOLAS regulation 
+III/6.5. 
+Passenger ships engaged on domestic voyages which are certified to carry 36 passengers or less and passenger ships 
+of less than 300 gross tonnage operating in trade area 1 during the period 1 May to 30 September may be granted 
+exemptions from the requirement for public address system if the crew and passengers can be alerted directly from the 
+ship's bridge or steering position. Section 5 
+Life-saving appliances on ships and open boats  
+certified to carry 12 passengers or less 
+Ships certified to carry 12 passengers or less shall, in lieu of meeting the requirements for number of life-saving 
+appliances laid down in SOLAS chapter III, as a minimum carry the following number of life-saving appliances: 
+a)  liferaft with sufficient capacity to accommodate all persons on board; 
+b)  three rocket parachute flares (SOS flares); 
+c)  lifejackets, thermal lifejackets or thermal suits in combination with lifejackets for all persons on board; 
+d)  one lifebuoy fitted with a light and a buoyant lifeline; 
+e)  a device that makes it possible to recover a helpless person from the water; and 
+f)  a two-way portable VHF radiotelephone apparatus. 
+Open boats certified to carry 12 passengers or less engaged in trade on lakes and rivers shall carry the life-saving 
+appliances referred to in subparagraphs c), d) and e) of the first paragraph. 
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 5a 
+Life-saving appliances on cargo ships  
+of less than 8 metres in overall length  
+Cargo ships of less than 8 metres in overall length shall, in lieu of meeting the requirements for number of life-saving 
+appliances laid down in SOLAS chapter III, as a minimum carry the following number of life-saving appliances: 
+a)  lifejackets for all persons on board; 
+b)  six hand flares; 
+c)  a lifebuoy with a lifeline of at least 30 metres; 
+d)  a dead man's switch, which stops the propulsion of the ship in the event of capsizing or the person conning 
+the ship falling over board; 
+e)  a means of rescue for recovering a helpless person from the water; 
+f)  a two-way portable VHF radiotelephone apparatus.  
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 6 
+Life-saving appliances on cargo ships  
+of less than 500 gross tonnage and manned barges 
+Cargo ships of 8 metres in overall length and upwards, but of less than 500 gross tonnage, and barges shall, in lieu of 
+meeting the requirements for number of life-saving appliances laid down in SOLAS chapter III, as a minimum carry the 
+following number of life-saving appliances: 
+Equipment  Gross tonnage and  Cargo ships  Cargo ships  Cargo ships  Barges 
+length parameters  operating in  operating in  engaged on 
+trade areas 1  trade area 3 to  foreign 
+and 2  small coasting  voyages 
+Survival craft    2 x capacity  2 x capacity to accommodate the  1 x capacity to 
+to  total number of persons on board  accommodate the 
+accommodate  total number of 
+the total  persons on board, 
+number of  cf. section 8 
+persons on 
+board, cf. 
+section 8 fifth 
+paragraph. 
+Immersion suits    1 x the total number of persons on board 
+Lifejackets    1.5 x the total number of persons on board 
+Lifejackets for    All children on board (cf. section 12 second   
+children  paragraph) 
+Lifebuoys  Ships < 15 metres in  2 
+overall length   Ships < 300 GT ≥ 15  3 
+metres in overall 
+length 
+300 GT ≤ ships <  5 
+500 GT 
+Rescue boat  300 GT ≤ ships <  1  See section 9 
+500 GT or 30 metres 
+in length (L) and 
+upwards 
+Line-throwing  Ships < 15 metres in    Two projectiles with two lines   
+appliance  overall length 
+15 metres in overall    Four projectiles with four lines,   
+length ≤ ship <  cf. SOLAS III/18 
+100 GT 
+100 GT ≤ ships <  Four projectiles with four lines, cf.  SOLAS III/18   
+500 GT 
+Rocket parachute    3  6   
+flares (SOS flares) 
+Hand flares    3  6   
+SARD  Ships < 100 GT    1   
+100 GT ≤ ships <  1   
+500 GT 
+Two-way hand-held  Ships < 500 GT  2   
+VHF 
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 7 
+Life-saving appliances on passenger ships  
+engaged on domestic voyages 
+Passenger ships engaged on domestic voyages shall, in lieu of meeting the requirements for number of life-saving 
+appliances laid down in SOLAS chapter III, as a minimum carry the following number of life-saving appliances: 
+Equipment  Metres  Passenger ships operating in  Passenger ships operating  
+trade area 2 and lesser trade  in trade areas 3, 4, and small  
+area  coasting 
+Number of persons on    Ships < 250  250 ≤ ships  Ships < 250  250 ≤ ships 
+board (N) 
+Survival craft    1.1 x N 
+Rescue boat: ships with  ≥24  1 
+a length (L) of 
+(MES) Marine     Cf. section 10 
+evacuation system 
+Immersion suits    Cf. section 12 
+or 
+anti-exposure suit 
+Thermal lifejacket    1.05 N 
+or 
+thermal suit in 
+combination with 
+lifejacket Thermal lifejacket    0.1 x the number of passengers on board or the greater number of 
+or  lifejackets needed for the actual number of children, cf. section 12 second 
+thermal suit in  paragraph 
+combination with 
+lifejacket for children 
+Thermal lifejacket    0.025 x the number of passengers on board, cf. section 12 second 
+or   paragraph 
+thermal suit in 
+combination with 
+lifejacket for infants 
+Lifebuoys: ships with  ≥ 15  4  8  4  8 
+LOA: 
+< 15  2 
+Line-throwing apparatus    -  Four projectiles with four lines, cf. 
+- applies to ships  SOLAS III/18 
+operating in trade area 4 
+and small coasting. 
+Rocket parachute flares    3  12 
+(SOS flares) 
+SARD - applies to ships    1 
+operating in trade area 2 
+or greater  
+Two-way hand-held    2  3  2  3 
+VHF - applies to ships 
+operating in trade area 1 
+or greater 
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 8 
+Survival craft 
+Sufficient number of survival craft has to be carried in order to ensure that in the event of any one survival craft being 
+lost or rendered unserviceable, the remaining survival craft can accommodate the total number of persons the ship is 
+certified to carry. When calculating the capacity, consideration shall be given to whether failures or faults in common 
+components can result in one survival craft being lost or rendered unserviceable. If the ship is fitted with an evacuation 
+system in accordance with section 10, the additional survival craft shall be capable of being connected to this system. 
+Liferafts shall be capable of being safely moored to the embarkation station. 
+Passenger ships engaged on foreign voyages, irrespective of year of construction, shall carry survival craft in 
+accordance with the requirements of SOLAS regulation III/21. This shall not, however, apply to passenger ships 
+operating in trade area small coasting or lesser, cf. section 7.  
+Passenger ships engaged on foreign voyages, irrespective of year of construction, operating in trade area 3 or lesser 
+may carry open reversible inflatable liferafts complying with the requirements of the International Code of Safety for 
+High-Speed Craft adopted by IMO resolution MSC.97(73) on 5 December 2000 chapter 8.10.2.  
+Cargo ships, with the exception of tankers, may in trade area 2 or lesser carry one liferaft capable of being launched 
+from either side of the ship. 
+Tankers shall either carry one enclosed lifeboat on both sides of the ship or a free-fall lifeboat located at the stern, with 
+sufficient capacity to carry at least the total number of persons on board. 
+Cargo ships of 8 to 15 metres in overall length engaged on domestic voyages and carrying not more than three persons 
+on board, may carry liferafts that are not wheel-marked when each liferaft is: 
+a)  intended for at least four persons; 
+b)  manufactured in accordance with ISO 9650-1 (Group A); 
+c)  placed in accordance with the recommendations from the manufacturer, but not more than six metres above 
+the waterline in the least favourable loading condition; 
+d)  provided with a float-free arrangement in accordance with section 4.1.6 of the LSA Code (Res.MSC.48(66) 
+and MSC.81(70)); 
+e)  in compliance with the requirements of the LSA Code for buoyancy of liferafts stowed with a float-free 
+arrangement. 
+Barges in trade area 3 or greater trade area shall be equipped with at least one inflatable liferaft with sufficient capacity 
+to carry everyone on board. Barges in trade areas 1 and 2 shall be equipped with a CE marked motor-powered workboat which at least satisfies the requirements for design category C, or a liferaft that can carry at least the total number of 
+persons on board. For barges carrying flammable liquid cargo, the Norwegian Maritime Authority will lay down the 
+requirements in each individual case, depending on the barge’s manning, trade area, construction and operational 
+conditions. 
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 9 
+Rescue boats 
+Rescue boat means a boat that has been designed to save persons in distress and to assist survival craft. 
+Passenger ships operating in trade area 1 or lesser may have their rescue boat on tow when the ship is provided with 
+an arrangement for rescue boat embarkation. 
+On cargo ships and passenger ships certified for trade area 3 and lesser trade areas, the rescue boat may be included in 
+the survival craft capacity, cf. section 6, section 7 and section 8 sixth paragraph. 
+On passenger ships required to carry a rescue boat, the rescue boat shall be fitted with a rescue frame for recovery of 
+persons from the sea. 
+Ships that are not required to carry a rescue boat shall carry out a risk assessment demonstrating the vessel’s ability to 
+handle emergencies. Such ships shall: 
+a)  be provided with a device that makes it possible to recover a helpless person from the water;  
+b)  be so arranged that it is possible to observe from the bridge at the conning position that a helpless person is 
+recovered from the water; 
+c)  have manoeuvrability under any conditions to get close to and to easily recover persons from the water; and 
+d)  have a lifting appliance which is located in a readily accessible place, ready for immediate use and 
+dimensioned for a static load of minimum 200 kg if the freebord is more than 1 metre. 
+The Norwegian Maritime Authority may exempt a passenger ship of less than 30 metres in length (L) operating in 
+trade area 2 or lesser from the requirement for a rescue boat when the requirements pursuant to the fifth paragraph are 
+met. 
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 9a 
+Rescue ladder and dead man’s switch 
+Ships manned with only one person shall no later than 1 January 2017 be equipped with a fixed rescue ladder where 
+the lowest step is at least 300 mm below the waterline at 10% ballast condition. The rescue ladder shall be ready for 
+immediate use and dimensioned for a static load of at least 200 kg. A ladder that can be rolled up is not considered as 
+fixed. If the fixed ladder is hinged, the ladder shall be capable of being easily deployed by a person in the water. Cargo 
+ships manned with only one person shall not later than 1 January 2017 be equipped with a dead man's switch in 
+accordance with section 5a (d). 
+Added by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 10 
+Evacuation systems on passenger ships  
+engaged on domestic voyages 
+Passenger ships engaged on domestic voyages shall, in lieu of meeting the requirements of SOLAS regulation III/16.1, 
+be fitted with a marine evacuation system (MES) if the ship does not carry lifeboats or davit-launched liferafts and for 
+which the distance in any intact or damaged condition in accordance with approved stability calculations from the 
+waterline to the embarkation deck is 1.5 metres or more. In respect of passenger ships for which there is no requirement 
+for stability calculations, the distance shall be measured in the lightship condition from the waterline to the embarkation 
+deck. 
+MES shall be installed on both sides of the passenger ship. The system shall be operational even if the ship has a list 
+of up to 10 degrees in either direction. Alternatively, the ship may be provided with at least one embarkation station with 
+an associated arrangement on both sides of the ship, having a capacity of at least 100% of the number of passengers. 
+Section 10a 
+Exemptions from requirement for helicopter  
+landing and pick-up areas 
+Ro-ro passenger ships certified for trade area 2 and lesser trade area are exempt from the requirement of SOLAS III/28. 
+Added by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). Section 11 
+Lifebuoys 
+Cargo ships of less than 300 gross tonnage which are required to carry more than one lifebuoy shall carry at least one 
+lifebuoy on each side of the ship. One of the lifebuoy shall be fitted with a lifeline of at least 30 metres in length, and 
+one of the other lifebuoys shall be fitted with a self--igniting smoke signal and a self-igniting light. The other lifebuoys 
+shall be fitted with self--igniting lights, but without lines. 
+Cargo ships of 8 metres in overall length and upwards, but less than 15 metres, and passenger ships of less than 15 
+metres in overall length, shall carry one lifebuoy on each side of the ship. One of the lifebuoys shall be fitted with a 
+lifeline of at least 30 metres in length, and the other lifebuoy shall be fitted with a self-igniting light and shall be without 
+a lifeline. 
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 12 
+Immersion suits and lifejackets 
+Lifejackets for children and infants shall be kept separate from lifejackets for adults. Child means a person who is 1 
+year of age or older and who weighs less than 35 kg. Infant means a person who is under 1 year of age and who weighs 
+less than 15 kg. 
+Passenger ships operating in trade areas north of 30°N and south of 30°S shall carry lifejackets with thermal insulation, 
+or thermal suits in combination with lifejackets. 
+All cargo ships irrespective of their trade area carrying cargo in bulk and all cargo ships operating in trade areas north of 
+30°N and south of 30°S shall, in addition to meeting the requirements of SOLAS regulation III/32.3, carry immersions suits 
+with thermal insulation for everyone on board. 
+All passenger ships shall carry immersion suits or anti-exposure suits for all crew members who are assigned tasks related 
+to survival craft or marine evacuation systems. The suits shall be of a type with detachable gloves or gloves that do not 
+interfere with the performance of necessary tasks and the operation of necessary equipment in an emergency. 
+Amended by Regulation of 14 October 2016 No. 1211 (in force on 17 October 2016). 
+Section 13 
+Replacement of life-saving appliances 
+The Norwegian Maritime Authority may decide that new equipment shall be installed on board in connection with 
+major conversions or repairs that will affect life-saving appliances. The same applies to changes in the use, the 
+operational pattern or manning and change of trade area. 
+Where the Norwegian Maritime Authority, upon a demonstration of the life-saving appliances, finds that they do not 
+work as intended or may jeopardise the safety and health of any person on board in light of the ship’s operation and 
+manning, the Norwegian Maritime Authority may require the equipment to be replaced. 
+Section 14 
+Exemptions 
+The Norwegian Maritime Authority may upon written application permit other solutions than those required by these 
+Regulations when it is documented that such solutions are equivalent to the requirements of the Regulations. 
+The Norwegian Maritime Authority may exempt a barge, a ship engaged on domestic voyages or a cargo ship of less 
+than 500 gross tonnage engaged on foreign voyages from one or more or the requirements of these Regulations if the 
+company applies in writing for such exemption and one of the following conditions is met: 
+a)  it is established that the requirement is not essential and that the exemption is justifiable in terms of safety; 
+b)  it is established that compensating measures will maintain the same level of safety as the requirement of 
+these Regulations. 
+Section 15 
+Documentation 
+Drawings must be submitted to document that the requirements for location of life-saving appliances in SOLAS 
+chapter III and these Regulations are met. The drawings shall be detailed, on a scale and must clearly indicate which 
+regulatory requirements that are met. The Norwegian Maritime Authority may require additional information and 
+documentation to be presented. When changing the life-saving appliances, compliance with the location requirements 
+shall be documented in the same way.  Before the commencement of construction or conversion of a ship or a manned barge pursuant to section 1, 
+documentation shall be submitted to the Norwegian Maritime Authority in accordance with the applicable documentation 
+list prepared by the Norwegian Maritime Authority. 
+Section 16 
+Entry into force 
+These Regulations enter into force on 15 September 2014. 
+Previously approved or accepted equipment which was fitted on board prior to the entry into force of these Regulations 
+may continue to be used until the life-saving appliances or arrangements are altered or replaced.  
+From the date these Regulations enter into force, the following regulations are repealed:  
+–  Regulations of 17 December 2004 No. 1855 concerning life-saving appliances on cargo ships; 
+–  Regulations of 11 October 2004 No. 1341 concerning life-saving appliances on passenger ships;  
+–  Regulations of 15 September 1992 No. 700 concerning life-saving appliances, etc. on passenger ships. 

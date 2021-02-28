@@ -1,0 +1,8 @@
+POWER SOURCE
+Gas
+Fuel
+Electric power
+Accumulator battery
+Generator
+Oil
+Emergency power

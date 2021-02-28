@@ -1,0 +1,4 @@
+identification
+MMSI
+GMDSS identity
+Call sign
