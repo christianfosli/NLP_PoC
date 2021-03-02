@@ -27,6 +27,7 @@ from spacy_matching_rule_identify_RADIO_AREA_no import identify_RADIO_AREA_in_no
 from spacy_matching_rule_identify_CONVERSION_no import identify_CONVERSION_in_norwegian_spacy_lines
 from spacy_matching_rule_identify_PROTECTED_no import identify_PROTECTED_in_norwegian_spacy_lines
 from spacy_matching_rule_identify_LOAD_INSTALLATION_no import identify_LOAD_INSTALLATION_in_norwegian_spacy_lines
+from spacy_matching_rule_identify_PROPULSION_POWER_no import identify_PROPULSION_POWER_in_norwegian_spacy_lines
 
 #
 # API controllers
@@ -54,6 +55,7 @@ from api_controller_identify_RADIO_AREA_in_text_service_norwegian_chapter import
 from api_controller_identify_CONVERSION_in_text_service_norwegian_chapter import create_api_response_for_post_identify_CONVERSION_in_text_service_norwegian_chapter
 from api_controller_identify_PROTECTED_in_text_service_norwegian_chapter import create_api_response_for_post_identify_PROTECTED_in_text_service_norwegian_chapter
 from api_controller_identify_LOAD_INSTALLATION_in_text_service_norwegian_chapter import create_api_response_for_post_identify_LOAD_INSTALLATION_in_text_service_norwegian_chapter
+from api_controller_identify_PROPULSION_POWER_in_text_service_norwegian_chapter import create_api_response_for_post_identify_PROPULSION_POWER_in_text_service_norwegian_chapter
 
 app = Flask(__name__)
 
@@ -231,6 +233,16 @@ def post_identify_LOAD_INSTALLATION_in_text_service_norwegian_chapter():
     forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_date_in_norwegian if any("LOAD_INSTALLATION" == x['label'] for x in spacy_line['ents'])]
     forward_api_response = create_api_response_for_post_identify_LOAD_INSTALLATION_in_text_service_norwegian_chapter(forward_filtered_result_with_only_the_things_we_are_looking_for)
     return jsonify({"identified_LOAD_INSTALLATION": forward_api_response})
+
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1305378821/propulsion+power+-+no
+@app.route("/identify-PROPULSION-POWER-in-text-service-norwegian-chapter", methods=["POST"])
+def post_identify_PROPULSION_POWER_in_text_service_norwegian_chapter():
+    input_chapter_text_as_json_in_text_service_format = request.json
+    forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
+    forward_result_with_date_in_norwegian = identify_PROPULSION_POWER_in_norwegian_spacy_lines(forward_text_transformed_to_spacy_format)
+    forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_date_in_norwegian if any("PROPULSION_POWER" == x['label'] for x in spacy_line['ents']) and any("PROPULSION_POWER_FACT" == x['label'] for x in spacy_line['ents'])]
+    forward_api_response = create_api_response_for_post_identify_PROPULSION_POWER_in_text_service_norwegian_chapter(forward_filtered_result_with_only_the_things_we_are_looking_for)
+    return jsonify({"identified_PROPULSION_POWER": forward_api_response})
 
 if __name__ == '__main__':
     #app.run()
