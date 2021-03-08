@@ -50,6 +50,10 @@ namespace ServiceController.ConsoleApp
                                 (JsonElement)regulationChapterAsJson);
                         Console.WriteLine("Data from NLP Service loaded successfully!");
                         Console.ResetColor();
+
+                        // Just testing
+                        var nlpServiceResultPrinter = new NlpServiceResultPrinter(identified_BUILD_DATE_In_NO_ChapterText);
+                        nlpServiceResultPrinter.ExampleOnPrintingBuildDateResult();
                     }
                     else
 					{

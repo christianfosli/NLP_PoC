@@ -13,7 +13,7 @@ namespace ServiceController.NlpService
             _clientFactory = clientFactory;
         }
 
-        public async Task<JsonElement?> Identify_BUILD_DATE_In_NO_ChapterText(
+        public async Task<JsonElement> Identify_BUILD_DATE_In_NO_ChapterText(
             JsonElement chapterTextFromTextService)
         {
             var request = new HttpRequestMessage(
@@ -36,7 +36,7 @@ namespace ServiceController.NlpService
 			}
             else
             {
-                return null;
+                throw new System.Exception();
             }
         }
     }
