@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ServiceController.NlpService\ServiceController.NlpService.csproj" />
     <ProjectReference Include="..\ServiceController.TextService\ServiceController.TextService.csproj" />
   </ItemGroup>
 
