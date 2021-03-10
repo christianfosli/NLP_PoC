@@ -1,6 +1,7 @@
 ﻿using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace ServiceController.TextService
 {
@@ -32,17 +33,17 @@ namespace ServiceController.TextService
                 regulationChapterNumber);
 
             var request = new HttpRequestMessage(HttpMethod.Get, apiUrl);
-            //request.Headers.TryAddWithoutValidation("some-header", "some-value");
-
             var client = _clientFactory.CreateClient();
             var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
 
             if (response.IsSuccessStatusCode)
             {
-                var json = await response.Content.ReadAsStringAsync();
-				using JsonDocument doc = JsonDocument.Parse(json);
-				return doc.RootElement.Clone();
-			}
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var jsonResponseDeserialized = // UTF-8 fix
+                    JsonConvert.DeserializeObject(jsonResponse).ToString();
+                using JsonDocument doc = JsonDocument.Parse(jsonResponseDeserialized);
+                return doc.RootElement.Clone();
+            }
             else
             {
                 return null;

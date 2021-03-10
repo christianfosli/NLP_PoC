@@ -1,6 +1,8 @@
 ﻿using System.Net.Http;
+using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace ServiceController.NlpService
 {
@@ -22,7 +24,7 @@ namespace ServiceController.NlpService
 
             request.Content = new StringContent(
                 chapterTextFromTextService.ToString(),
-                System.Text.Encoding.UTF8,
+                Encoding.UTF8,
                 "application/json");
 
             var client = _clientFactory.CreateClient();
@@ -30,8 +32,10 @@ namespace ServiceController.NlpService
 
             if (response.IsSuccessStatusCode)
             {
-                var json = await response.Content.ReadAsStringAsync();
-				using JsonDocument doc = JsonDocument.Parse(json);
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var jsonResponseDeserialized = // UTF-8 fix
+                    JsonConvert.DeserializeObject(jsonResponse).ToString();
+                using JsonDocument doc = JsonDocument.Parse(jsonResponseDeserialized);
 				return doc.RootElement.Clone();
 			}
             else
