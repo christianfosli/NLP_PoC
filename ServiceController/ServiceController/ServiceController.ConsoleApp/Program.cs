@@ -4,7 +4,6 @@ using Microsoft.Extensions.Logging;
 using ServiceController.NlpService;
 using ServiceController.TextService;
 using System;
-using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace ServiceController.ConsoleApp
@@ -18,6 +17,7 @@ namespace ServiceController.ConsoleApp
                 {
                     services.AddHttpClient();
                     services.AddTransient<ITextServiceApi, TextServiceApi>();
+                    services.AddTransient<ITextServiceHelper, TextServiceHelper>();
                     services.AddTransient<INlpServiceApi, NlpServiceApi>();
                 }).UseConsoleLifetime();
 
@@ -29,39 +29,60 @@ namespace ServiceController.ConsoleApp
 
                 try
                 {
+
                     Console.ResetColor();
                     Console.WriteLine("Service Controller application started.");
+
+                    /*
                     Console.ForegroundColor = ConsoleColor.Black;
                     Console.BackgroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("Asking Text Service for data.");
+                    Console.WriteLine("Asking Text Service for a chapter.");
                     var textServiceApi = services.GetRequiredService<ITextServiceApi>();
-					var regulationChapterAsJson = await textServiceApi.GetRegulationChapterAsJson(2013, 11, 22, 1404, 4);
+					var regulationChapterFromTextService = 
+                        await textServiceApi.GetRegulationChapter(2013, 11, 22, 1404, 4);
                     Console.WriteLine("Data from Text Service loaded successfully!");
                     Console.ResetColor();
+                    */
 
-                    if (regulationChapterAsJson != null)
-					{
-                        Console.BackgroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("Asking Text Service for a regulation.");
+
+                    var textServiceApi = services.GetRequiredService<ITextServiceApi>();
+                    var regulationFromTextService = await textServiceApi.GetRegulation(2013, 11, 22, 1404);
+
+                    var textServiceHelper = services.GetRequiredService<ITextServiceHelper>();
+                    var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
+
+                    Console.WriteLine(string.Format("{0} chapters loaded successfully.", chapterList.Count));
+                    Console.ResetColor();
+
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.WriteLine("Asking NLP Service for data:");
+                    Console.ResetColor();
+
+                    //for (int i = 0; i < chapterList.Count; i++)
+                    for (int i = 0; i < 2; i++) // TODO: Remove for limit
+                    {
+                        Console.BackgroundColor = ConsoleColor.Yellow;
                         Console.ForegroundColor = ConsoleColor.Black;
-                        Console.WriteLine("Asking NLP Service for data.");
+                        var requestNumber = i + 1;
+                        Console.WriteLine(string.Format("Asking for BUILD_DATE ({0}:{1}):", requestNumber, chapterList.Count));
+                        Console.ResetColor();
+
                         var nlpServiceApi = services.GetRequiredService<INlpServiceApi>();
                         var identified_BUILD_DATE_In_NO_ChapterText =
-                            await nlpServiceApi.Identify_BUILD_DATE_In_NO_ChapterText(
-                                (JsonElement)regulationChapterAsJson);
-                        Console.WriteLine("Data from NLP Service loaded successfully!");
-                        Console.ResetColor();
+                            await nlpServiceApi.Identify_BUILD_DATE_In_NO_ChapterText(chapterList[i]);
+
+                        Console.WriteLine("...");
 
                         // Just testing
                         var nlpServiceResultPrinter = new NlpServiceResultPrinter(identified_BUILD_DATE_In_NO_ChapterText);
                         nlpServiceResultPrinter.ExampleOnPrintingBuildDateResult();
                     }
-                    else
-					{
-                        Console.BackgroundColor = ConsoleColor.Red;
-                        Console.ForegroundColor = ConsoleColor.Black;
-                        Console.WriteLine("Whoops!");
-                        Console.ResetColor();
-                    }
+
+                    Console.ResetColor();
                 }
                 catch (Exception ex)
                 {

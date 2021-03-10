@@ -15,9 +15,9 @@ namespace ServiceController.TextService
         }
 
         /*
-         * https://sdir-d-apim-common.azure-api.net/core-text-internal/regulation/2013/11/22/1404/chapter/4
+         * Example: https://sdir-d-apim-common.azure-api.net/core-text-internal/regulation/2013/11/22/1404/chapter/4
          */
-        public async Task<JsonElement?> GetRegulationChapterAsJson(
+        public async Task<JsonElement> GetRegulationChapter(
             int regulationYear,
             int regulationMonth,
             int regulationDay,
@@ -46,7 +46,41 @@ namespace ServiceController.TextService
             }
             else
             {
-                return null;
+                throw new System.Exception();
+            }
+        }
+
+        /*
+         * Example: https://sdir-d-apim-common.azure-api.net/core-text-internal/regulation/2013/11/22/1404
+         */
+        public async Task<JsonElement> GetRegulation(
+            int regulationYear,
+            int regulationMonth,
+            int regulationDay,
+            int regulationNumber)
+        {
+            string apiUrl = string.Format(
+                @"https://sdir-d-apim-common.azure-api.net/core-text-internal/regulation/{0}/{1}/{2}/{3}",
+                regulationYear,
+                regulationMonth,
+                regulationDay,
+                regulationNumber);
+
+            var request = new HttpRequestMessage(HttpMethod.Get, apiUrl);
+            var client = _clientFactory.CreateClient();
+            var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var jsonResponseDeserialized = // UTF-8 fix
+                    JsonConvert.DeserializeObject(jsonResponse).ToString();
+                using JsonDocument doc = JsonDocument.Parse(jsonResponseDeserialized);
+                return doc.RootElement.Clone();
+            }
+            else
+            {
+                throw new System.Exception();
             }
         }
     }
