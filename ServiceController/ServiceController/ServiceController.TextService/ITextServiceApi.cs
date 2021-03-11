@@ -17,5 +17,7 @@ namespace ServiceController.TextService
             int regulationMonth,
             int regulationDay,
             int regulationNumber);
+
+        Task<JsonElement> GetRegulationList();
     }
 }

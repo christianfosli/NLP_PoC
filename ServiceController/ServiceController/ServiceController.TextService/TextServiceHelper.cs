@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json;
 using static System.Text.Json.JsonElement;
+using ServiceController.Entities.TextService;
 
 namespace ServiceController.TextService
 {
@@ -25,5 +26,35 @@ namespace ServiceController.TextService
 
             return chapterList;
 		}
-	}
+
+        public List<RegulationResource> MapRegulationResources(JsonElement regulationListFromTextService)
+		{
+            var list = new List<RegulationResource>();
+
+            using (JsonDocument document = JsonDocument.Parse(regulationListFromTextService.ToString()))
+            {
+                ArrayEnumerator arrayEnumerator = document.RootElement.EnumerateArray();
+
+                while (arrayEnumerator.MoveNext())
+                {
+                    JsonElement i = arrayEnumerator.Current;
+                    i.TryGetProperty("referenceId", out JsonElement referenceId);
+                    i.TryGetProperty("title", out JsonElement title);
+                    i.TryGetProperty("url", out JsonElement url);
+                    i.TryGetProperty("language", out JsonElement language);
+
+                    var item = new RegulationResource() {
+                        ReferenceId = referenceId.GetString(),
+                        Title = title.GetString(),
+                        Url = new System.Uri(url.GetString()),
+                        Language = language.GetString()
+                    };
+
+                    list.Add(item);
+                }
+            }
+
+            return list;
+		}
+    }
 }

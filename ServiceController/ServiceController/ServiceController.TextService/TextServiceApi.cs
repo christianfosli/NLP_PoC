@@ -83,5 +83,27 @@ namespace ServiceController.TextService
                 throw new System.Exception();
             }
         }
+
+        public async Task<JsonElement> GetRegulationList()
+        {
+            var request = new HttpRequestMessage(
+                HttpMethod.Get,
+                @"https://sdir-d-apim-common.azure-api.net/core-text-internal/regulations");
+            var client = _clientFactory.CreateClient();
+            var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var jsonResponseDeserialized = // UTF-8 fix
+                    JsonConvert.DeserializeObject(jsonResponse).ToString();
+                using JsonDocument doc = JsonDocument.Parse(jsonResponseDeserialized);
+                return doc.RootElement.Clone();
+            }
+            else
+            {
+                throw new System.Exception();
+            }
+        }
     }
 }
