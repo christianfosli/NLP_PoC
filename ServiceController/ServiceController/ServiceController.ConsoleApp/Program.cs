@@ -19,6 +19,7 @@ namespace ServiceController.ConsoleApp
                     services.AddTransient<ITextServiceApi, TextServiceApi>();
                     services.AddTransient<ITextServiceHelper, TextServiceHelper>();
                     services.AddTransient<INlpServiceApi, NlpServiceApi>();
+                    services.AddTransient<INlpServiceHelper, NlpServiceHelper>();
                 }).UseConsoleLifetime();
 
             var host = builder.Build();
@@ -29,7 +30,6 @@ namespace ServiceController.ConsoleApp
 
                 try
                 {
-
                     Console.ResetColor();
                     Console.WriteLine("Service Controller application started.");
 
@@ -59,7 +59,7 @@ namespace ServiceController.ConsoleApp
 
                     Console.BackgroundColor = ConsoleColor.Green;
                     Console.ForegroundColor = ConsoleColor.Black;
-                    Console.WriteLine("Asking NLP Service for data:");
+                    Console.WriteLine("Asking NLP Service for information.");
                     Console.ResetColor();
 
                     //for (int i = 0; i < chapterList.Count; i++)
@@ -75,14 +75,29 @@ namespace ServiceController.ConsoleApp
                         var identified_BUILD_DATE_In_NO_ChapterText =
                             await nlpServiceApi.Identify_BUILD_DATE_In_NO_ChapterText(chapterList[i]);
 
-                        Console.WriteLine("...");
+                        var nlpServiceHelper = services.GetRequiredService<INlpServiceHelper>();
+                        var itemCountOfNlpServiceResponse = 
+                            nlpServiceHelper.CountItemsInNlpServiceApiResponse(
+                                identified_BUILD_DATE_In_NO_ChapterText);
 
-                        // Just testing
-                        var nlpServiceResultPrinter = new NlpServiceResultPrinter(identified_BUILD_DATE_In_NO_ChapterText);
-                        nlpServiceResultPrinter.ExampleOnPrintingBuildDateResult();
+                        if(itemCountOfNlpServiceResponse > 0)
+					    {
+                            Console.BackgroundColor = ConsoleColor.Green;
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            Console.WriteLine(string.Format("{0} detections by NLP Service.", itemCountOfNlpServiceResponse));
+                            Console.ResetColor();
+
+                            var nlpServiceResultPrinter = new NlpServiceResultPrinter(identified_BUILD_DATE_In_NO_ChapterText);
+                            nlpServiceResultPrinter.ExampleOnPrintingBuildDateResult();
+                        }
+                        else
+					    {
+                            Console.BackgroundColor = ConsoleColor.Green;
+                            Console.ForegroundColor = ConsoleColor.Black;
+                            Console.WriteLine("No detections by NLP Service.");
+                            Console.ResetColor();
+                        }
                     }
-
-                    Console.ResetColor();
                 }
                 catch (Exception ex)
                 {
