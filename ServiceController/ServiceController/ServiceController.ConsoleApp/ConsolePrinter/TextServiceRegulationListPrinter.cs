@@ -13,7 +13,7 @@ namespace ServiceController.ConsoleApp.ConsolePrinter
 			RegulationResourceList = regulationResourceList;
 		}
 
-		public void PrintReferenceId()
+		public void PrintRegulationList()
 		{
 			Console.ForegroundColor = ConsoleColor.Black;
 			Console.BackgroundColor = ConsoleColor.Blue;
@@ -23,7 +23,12 @@ namespace ServiceController.ConsoleApp.ConsolePrinter
 
 			foreach (var i in RegulationResourceList)
 			{
-				Console.WriteLine(i.ReferenceId);
+				Console.WriteLine(string.Format(
+					"{0}-{1}-{2}-{3}",
+					i.RegulationYear,
+					i.RegulationMonth,
+					i.RegulationDay,
+					i.RegulationNumber));
 			}
 
 			Console.ResetColor();
