@@ -24,12 +24,14 @@ namespace ServiceController.ConsoleApp.ConsolePrinter
 			foreach (var dictionary in RegulationResourceDictionary)
 			{
 				Console.WriteLine(string.Format(
-					"{0}. {1}-{2}-{3}-{4}",
+					"{0}. {1}-{2}-{3}-{4} ({5}): {6}",
 					dictionary.Key,
 					dictionary.Value.RegulationYear,
 					dictionary.Value.RegulationMonth,
 					dictionary.Value.RegulationDay,
-					dictionary.Value.RegulationNumber));
+					dictionary.Value.RegulationNumber,
+					dictionary.Value.Language,
+					dictionary.Value.Title));
 			}
 
 			Console.ResetColor();

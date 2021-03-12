@@ -67,11 +67,12 @@ namespace ServiceController.ConsoleApp
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.BackgroundColor = ConsoleColor.Blue;
                 Console.WriteLine(string.Format(
-                    "Asking Text Service for a regulation {0}-{1}-{2}-{3}.",
+                    "Asking Text Service for a regulation {0}-{1}-{2}-{3} ({4}).",
                     selectedRegulation.RegulationYear,
                     selectedRegulation.RegulationMonth,
                     selectedRegulation.RegulationDay,
-                    selectedRegulation.RegulationNumber));
+                    selectedRegulation.RegulationNumber,
+                    selectedRegulation.Language));
 
                 var regulationFromTextService = await textServiceApi.GetRegulation(
                     Convert.ToInt32(selectedRegulation.RegulationYear),
