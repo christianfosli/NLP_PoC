@@ -85,6 +85,19 @@ namespace ServiceController.ConsoleApp
                 Console.WriteLine(string.Format("{0} chapters loaded successfully.", chapterList.Count));
                 Console.ResetColor();
 
+                //
+                // NLP
+                //
+
+                // List NLP options
+                var nlpResourceList = nlpServiceApi.GetNlpResourceList();
+
+
+
+
+
+
+
                 Console.BackgroundColor = ConsoleColor.Green;
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.WriteLine("Asking NLP Service for information.");

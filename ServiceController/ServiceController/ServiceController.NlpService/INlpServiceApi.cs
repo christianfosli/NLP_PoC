@@ -1,4 +1,6 @@
-﻿using System.Text.Json;
+﻿using ServiceController.Entities.NlpService;
+using System.Collections.Generic;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace ServiceController.NlpService
@@ -7,5 +9,7 @@ namespace ServiceController.NlpService
     {
         Task<JsonElement> Identify_BUILD_DATE_In_NO_ChapterText(
             JsonElement chapterTextFromTextService);
+
+        List<NlpResource> GetNlpResourceList();
     }
 }
