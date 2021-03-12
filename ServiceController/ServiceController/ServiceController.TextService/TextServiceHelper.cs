@@ -27,13 +27,15 @@ namespace ServiceController.TextService
             return chapterList;
 		}
 
-        public List<RegulationResource> MapRegulationResources(JsonElement regulationListFromTextService)
+        public Dictionary<int,RegulationResource> MapRegulationResources(JsonElement regulationListFromTextService)
 		{
-            var list = new List<RegulationResource>();
+            var dictionary = new Dictionary<int, RegulationResource>();
 
             using (JsonDocument document = JsonDocument.Parse(regulationListFromTextService.ToString()))
             {
                 ArrayEnumerator arrayEnumerator = document.RootElement.EnumerateArray();
+
+                int counter = 1;
 
                 while (arrayEnumerator.MoveNext())
                 {
@@ -50,11 +52,12 @@ namespace ServiceController.TextService
                         Language = language.GetString()
                     };
 
-                    list.Add(item);
+                    dictionary.Add(counter,item);
+                    counter++;
                 }
             }
 
-            return list;
+            return dictionary;
 		}
     }
 }

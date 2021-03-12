@@ -7,6 +7,6 @@ namespace ServiceController.TextService
 	public interface ITextServiceHelper
 	{
 		public List<JsonElement> SplitRegulationResponseIntoChapterList(JsonElement regulationFromTextService);
-		public List<RegulationResource> MapRegulationResources(JsonElement regulationListFromTextService);
+		public Dictionary<int, RegulationResource> MapRegulationResources(JsonElement regulationListFromTextService);
 	}
 }

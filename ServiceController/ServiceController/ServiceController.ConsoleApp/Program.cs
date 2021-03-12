@@ -51,8 +51,8 @@ namespace ServiceController.ConsoleApp
                 */
 
                 var regulationListFromTextService = await textServiceApi.GetRegulationList();
-                var regulationList = textServiceHelper.MapRegulationResources(regulationListFromTextService);
-                var regulationListPrinter = new TextServiceRegulationListPrinter(regulationList);
+                var regulationDictionary = textServiceHelper.MapRegulationResources(regulationListFromTextService);
+                var regulationListPrinter = new TextServiceRegulationListPrinter(regulationDictionary);
                 regulationListPrinter.PrintRegulationList();
 
                 Console.ForegroundColor = ConsoleColor.Black;

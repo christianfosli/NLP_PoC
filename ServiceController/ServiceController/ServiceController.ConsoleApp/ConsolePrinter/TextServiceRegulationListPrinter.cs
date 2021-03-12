@@ -6,11 +6,11 @@ namespace ServiceController.ConsoleApp.ConsolePrinter
 {
 	public class TextServiceRegulationListPrinter
 	{
-		private List<RegulationResource> RegulationResourceList { get; }
+		private Dictionary<int, RegulationResource> RegulationResourceDictionary { get; }
 
-		public TextServiceRegulationListPrinter(List<RegulationResource> regulationResourceList)
+		public TextServiceRegulationListPrinter(Dictionary<int, RegulationResource> regulationResourceDictionary)
 		{
-			RegulationResourceList = regulationResourceList;
+			RegulationResourceDictionary = regulationResourceDictionary;
 		}
 
 		public void PrintRegulationList()
@@ -18,17 +18,18 @@ namespace ServiceController.ConsoleApp.ConsolePrinter
 			Console.ForegroundColor = ConsoleColor.Black;
 			Console.BackgroundColor = ConsoleColor.Blue;
 
-			Console.WriteLine(string.Format("Text Service has {0} regulations:", RegulationResourceList.Count));
+			Console.WriteLine(string.Format("Text Service has {0} regulations:", RegulationResourceDictionary.Count));
 			Console.BackgroundColor = ConsoleColor.Yellow;
 
-			foreach (var i in RegulationResourceList)
+			foreach (var dictionary in RegulationResourceDictionary)
 			{
 				Console.WriteLine(string.Format(
-					"{0}-{1}-{2}-{3}",
-					i.RegulationYear,
-					i.RegulationMonth,
-					i.RegulationDay,
-					i.RegulationNumber));
+					"{0}. {1}-{2}-{3}-{4}",
+					dictionary.Key,
+					dictionary.Value.RegulationYear,
+					dictionary.Value.RegulationMonth,
+					dictionary.Value.RegulationDay,
+					dictionary.Value.RegulationNumber));
 			}
 
 			Console.ResetColor();
