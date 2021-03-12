@@ -55,11 +55,30 @@ namespace ServiceController.ConsoleApp
                 var regulationListPrinter = new TextServiceRegulationListPrinter(regulationDictionary);
                 regulationListPrinter.PrintRegulationList();
 
+                // Question to user
+                string regulationRequestedByTheUser;
+                Console.Write(string.Format("Please select a regulation from the list ({0}-{1}):", 1, regulationDictionary.Count));
+                regulationRequestedByTheUser = Console.ReadLine();
+                int selectedRegulationDictionaryNumber = Convert.ToInt32(regulationRequestedByTheUser);
+
+                // Get selected regulation
+                var selectedRegulation = regulationDictionary[selectedRegulationDictionaryNumber];
+
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.BackgroundColor = ConsoleColor.Blue;
-                Console.WriteLine("Asking Text Service for a regulation.");
+                Console.WriteLine(string.Format(
+                    "Asking Text Service for a regulation {0}-{1}-{2}-{3}.",
+                    selectedRegulation.RegulationYear,
+                    selectedRegulation.RegulationMonth,
+                    selectedRegulation.RegulationDay,
+                    selectedRegulation.RegulationNumber));
 
-                var regulationFromTextService = await textServiceApi.GetRegulation(2013, 11, 22, 1404);
+                var regulationFromTextService = await textServiceApi.GetRegulation(
+                    Convert.ToInt32(selectedRegulation.RegulationYear),
+                    Convert.ToInt32(selectedRegulation.RegulationMonth),
+                    Convert.ToInt32(selectedRegulation.RegulationDay),
+                    Convert.ToInt32(selectedRegulation.RegulationNumber));
+
                 var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
 
                 Console.WriteLine(string.Format("{0} chapters loaded successfully.", chapterList.Count));
