@@ -91,7 +91,7 @@ namespace ServiceController.ConsoleApp
 
                 // List NLP options
                 var nlpResourceList = nlpServiceApi.GetNlpResourceList();
-
+                var nlpResourceDictionary = nlpServiceHelper.AddNlpResourceListToDictionary(nlpResourceList);
 
 
 
