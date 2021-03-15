@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
@@ -42,7 +43,37 @@ namespace ServiceController.NlpService
 			}
             else
             {
-                throw new System.Exception();
+                throw new Exception();
+            }
+        }
+
+        public async Task<JsonElement> IdentifyInformationInChapterTextData(
+            JsonElement chapterTextFromTextService,
+            Uri nlpServiceApiResourceUrl)
+        {
+            var request = new HttpRequestMessage(
+                HttpMethod.Post,
+                nlpServiceApiResourceUrl);
+
+            request.Content = new StringContent(
+                chapterTextFromTextService.ToString(),
+                Encoding.UTF8,
+                "application/json");
+
+            var client = _clientFactory.CreateClient();
+            var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonResponse = await response.Content.ReadAsStringAsync();
+                var jsonResponseDeserialized = // UTF-8 fix
+                    JsonConvert.DeserializeObject(jsonResponse).ToString();
+                using JsonDocument doc = JsonDocument.Parse(jsonResponseDeserialized);
+                return doc.RootElement.Clone();
+            }
+            else
+            {
+                throw new Exception();
             }
         }
 
@@ -57,27 +88,27 @@ namespace ServiceController.NlpService
             {
                 Title = "vessel length overall",
                 Language = "no",
-                Url = new System.Uri(urlPrefix + "identify-vessel-length-overall-in-text-service-norwegian-chapter")
+                Url = new Uri(urlPrefix + "identify-vessel-length-overall-in-text-service-norwegian-chapter")
             });
 
             list.Add(new NlpResource
             {
                 Title = "electrical installation",
                 Language = "no",
-                Url = new System.Uri(urlPrefix + "identify-electrical-installation-in-text-service-norwegian-chapter")
+                Url = new Uri(urlPrefix + "identify-electrical-installation-in-text-service-norwegian-chapter")
             });
 
             list.Add(new NlpResource {
                 Title = "build date",
                 Language = "no",
-                Url = new System.Uri(urlPrefix + "identify-build-date-in-text-service-norwegian-chapter")
+                Url = new Uri(urlPrefix + "identify-build-date-in-text-service-norwegian-chapter")
             });
 
             list.Add(new NlpResource
             {
                 Title = "build date",
                 Language = "en",
-                Url = new System.Uri(urlPrefix + "identify-build-date-in-text-service-english-chapter")
+                Url = new Uri(urlPrefix + "identify-build-date-in-text-service-english-chapter")
             });
 
             //TODO add all
