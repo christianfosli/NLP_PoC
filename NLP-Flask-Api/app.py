@@ -67,54 +67,54 @@ def health():
     return "OK"
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1172897823/vessel+length+overall+-+no
-@app.route("/identify-vessel-length-overall-in-text-service-norwegian-chapter", methods=["POST"])
+@app.route("/identify-VESSEL-LENGTH-OVERALL-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
     forward_result_with_length_overall = identify_length_overall_in_spacy_lines(forward_text_transformed_to_spacy_format)
     forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_length_overall if any("LENGTH" == x['label'] for x in spacy_line['ents']) and any("WATER_VESSEL" == x['label'] for x in spacy_line['ents'])]
     forward_api_response = create_api_response_for_post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input(forward_filtered_result_with_only_the_things_we_are_looking_for)
-    return jsonify({"identified_vessel_length_overall": forward_api_response})
+    return jsonify({"identified_VESSEL_LENGTH_OVERALL": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1210286081/electrical+installation+-+no
-@app.route("/identify-electrical-installation-in-text-service-norwegian-chapter", methods=["POST"])
+@app.route("/identify-ELECTRICAL-INSTALLATION-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_electrical_installation_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
     forward_result_with_electrical_installation = identify_electrical_installation_in_spacy_lines(forward_text_transformed_to_spacy_format)
     forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_electrical_installation if any("VOLTAGE" == x['label'] for x in spacy_line['ents']) and any("WATER_VESSEL" == x['label'] for x in spacy_line['ents']) and any("ELECTRICAL_INSTALLATION" == x['label'] for x in spacy_line['ents'])]
     forward_api_response = create_api_response_for_post_identify_electrical_installation_in_text_service_norwegian_chapter_input(forward_filtered_result_with_only_the_things_we_are_looking_for)
-    return jsonify({"identified_electrical_installations": forward_api_response})
+    return jsonify({"identified_ELECTRICAL_INSTALLATION": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1225359396/build+date+-+no
-@app.route("/identify-build-date-in-text-service-norwegian-chapter", methods=["POST"])
+@app.route("/identify-BUILD-DATE-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_build_date_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
     forward_result_with_date_in_norwegian = identify_build_date_in_norwegian_spacy_lines(forward_text_transformed_to_spacy_format)
     forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_date_in_norwegian if any("WATER_VESSEL" == x['label'] for x in spacy_line['ents']) and any("CONSTRUCT" == x['label'] for x in spacy_line['ents']) and any("DATE" == x['label'] for x in spacy_line['ents'])]
     forward_api_response = create_api_response_for_post_identify_build_date_in_text_service_norwegian_chapter_input(forward_filtered_result_with_only_the_things_we_are_looking_for)
-    return jsonify({"identified_build_dates": forward_api_response})
+    return jsonify({"identified_BUILD_DATE": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1233223681/build+date+-+en
-@app.route("/identify-build-date-in-text-service-english-chapter", methods=["POST"])
+@app.route("/identify-BUILD-DATE-in-text-service-english-chapter", methods=["POST"])
 def post_identify_build_date_in_text_service_english_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
     forward_result_with_date_in_english = identify_build_date_in_english_spacy_lines(forward_text_transformed_to_spacy_format)
     forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_date_in_english if any("WATER_VESSEL" == x['label'] for x in spacy_line['ents']) and any("CONSTRUCT" == x['label'] for x in spacy_line['ents']) and any("DATE" == x['label'] for x in spacy_line['ents'])]
     forward_api_response = create_api_response_for_post_identify_build_date_in_text_service_english_chapter_input(forward_filtered_result_with_only_the_things_we_are_looking_for)
-    return jsonify({"identified_build_dates": forward_api_response})
+    return jsonify({"identified_BUILD_DATE": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1264615425/alternative+reference+-+no
-@app.route("/identify-alternative-reference-in-text-service-norwegian-chapter", methods=["POST"])
+@app.route("/identify-ALTERNATIVE-REFERENCE-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_alternative_reference_in_text_service_norwegian_chapter_input():
     input_chapter_text_as_json_in_text_service_format = request.json
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
     forward_result_with_date_in_norwegian = identify_alternative_reference_in_norwegian_spacy_lines(forward_text_transformed_to_spacy_format)
     forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_date_in_norwegian if any("ALTERNATIVE_REFERENCE" == x['label'] for x in spacy_line['ents'])]
     forward_api_response = create_api_response_for_post_identify_alternative_reference_in_text_service_norwegian_chapter_input(forward_filtered_result_with_only_the_things_we_are_looking_for)
-    return jsonify({"identified_alternative-reference": forward_api_response})
+    return jsonify({"identified_ALTERNATIVE_REFERENCE": forward_api_response})
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1275494401/passenger+-+no
 @app.route("/identify-PASSENGER-in-text-service-norwegian-chapter", methods=["POST"])

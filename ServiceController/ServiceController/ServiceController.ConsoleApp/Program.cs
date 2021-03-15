@@ -67,7 +67,7 @@ namespace ServiceController.ConsoleApp
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.BackgroundColor = ConsoleColor.Blue;
                 Console.WriteLine(string.Format(
-                    "Asking Text Service for a regulation {0}-{1}-{2}-{3} ({4}).",
+                    "Asking Text Service for regulation {0}-{1}-{2}-{3} ({4}).",
                     selectedRegulationDictionary.RegulationYear,
                     selectedRegulationDictionary.RegulationMonth,
                     selectedRegulationDictionary.RegulationDay,
