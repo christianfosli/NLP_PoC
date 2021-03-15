@@ -89,14 +89,21 @@ namespace ServiceController.ConsoleApp
                 // NLP
                 //
 
-                // List NLP options
+                // Get NLP options
                 var nlpResourceList = nlpServiceApi.GetNlpResourceList();
                 var nlpResourceDictionary = nlpServiceHelper.AddNlpResourceListToDictionary(nlpResourceList);
 
+                // Print NLP options
+                var nlpResourceDictionaryPrinter = new NlpServiceResourceDictionaryPrinter(nlpResourceDictionary);
+                nlpResourceDictionaryPrinter.PrintAllOptions();
 
+                // Question to user
+                string nlpResourceRequestedByTheUser;
+                Console.Write(string.Format("Please select a NLP resource from the list ({0}-{1}):", 1, nlpResourceDictionary.Count));
+                nlpResourceRequestedByTheUser = Console.ReadLine();
+                int selectedNlpResourceDictionaryNumber = Convert.ToInt32(nlpResourceRequestedByTheUser);
 
-
-
+                //TODO
 
                 Console.BackgroundColor = ConsoleColor.Green;
                 Console.ForegroundColor = ConsoleColor.Black;
