@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Text.Json;
 
 namespace ServiceController.ConsoleApp
@@ -12,19 +13,15 @@ namespace ServiceController.ConsoleApp
 			NlpServiceResult = nlpServiceResult;
 		}
 
-		public void ExampleOnPrintingBuildDateResult()
+		public void PrintAllItems()
 		{
-			if (NlpServiceResult.TryGetProperty(
-				"identified_build_dates",
-				out JsonElement jsonElement))
+			JObject jObject = JObject.Parse(NlpServiceResult.ToString());
+			var firstObject = jObject.First; // Example: {"identified_build_dates": []}
+			var childrenOfFirstObject = firstObject.First; // Example: {[]}
+			JArray childrenOfFirstObjectInArray = (JArray)childrenOfFirstObject;
+			foreach(var responseItem in childrenOfFirstObjectInArray)
 			{
-				var jsonElementList = jsonElement.EnumerateArray();
-
-				while (jsonElementList.MoveNext())
-				{
-					JsonElement currentJsonElement = jsonElementList.Current;
-					Console.WriteLine(currentJsonElement.ToString());
-				}
+				Console.WriteLine(responseItem.ToString());
 			}
 		}
 	}

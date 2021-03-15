@@ -148,9 +148,8 @@ namespace ServiceController.ConsoleApp
                             itemCountOfNlpServiceResponse));
                         Console.ResetColor();
 
-                        var nlpServiceResultPrinter = 
-                            new NlpServiceResultPrinter(identifiedInformationInChapterTextData);
-                        nlpServiceResultPrinter.ExampleOnPrintingBuildDateResult(); //TODO make this print any type of result
+                        var nlpServiceResultPrinter = new NlpServiceResultPrinter(identifiedInformationInChapterTextData);
+                        nlpServiceResultPrinter.PrintAllItems();
                     }
                     else
 					{
