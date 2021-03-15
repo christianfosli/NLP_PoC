@@ -52,8 +52,8 @@ namespace ServiceController.ConsoleApp
 
                 var regulationListFromTextService = await textServiceApi.GetRegulationList();
                 var regulationDictionary = textServiceHelper.MapRegulationResources(regulationListFromTextService);
-                var regulationListPrinter = new TextServiceRegulationListPrinter(regulationDictionary);
-                regulationListPrinter.PrintRegulationList();
+                var regulationDictionaryPrinter = new TextServiceRegulationDictionaryPrinter(regulationDictionary);
+                regulationDictionaryPrinter.PrintAllOptions();
 
                 // Question to user
                 string regulationRequestedByTheUser;

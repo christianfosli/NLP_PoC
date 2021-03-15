@@ -4,16 +4,16 @@ using ServiceController.Entities.TextService;
 
 namespace ServiceController.ConsoleApp.ConsolePrinter
 {
-	public class TextServiceRegulationListPrinter
+	public class TextServiceRegulationDictionaryPrinter
 	{
 		private Dictionary<int, RegulationResource> RegulationResourceDictionary { get; }
 
-		public TextServiceRegulationListPrinter(Dictionary<int, RegulationResource> regulationResourceDictionary)
+		public TextServiceRegulationDictionaryPrinter(Dictionary<int, RegulationResource> regulationResourceDictionary)
 		{
 			RegulationResourceDictionary = regulationResourceDictionary;
 		}
 
-		public void PrintRegulationList()
+		public void PrintAllOptions()
 		{
 			Console.ForegroundColor = ConsoleColor.Black;
 			Console.BackgroundColor = ConsoleColor.Blue;
