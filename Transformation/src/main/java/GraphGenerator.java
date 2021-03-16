@@ -208,6 +208,152 @@ public class GraphGenerator {
         scopeModel.addAll(model);
     }
 
+    public static void tradeAreaScope() throws IOException {
+
+        List<TradeArea> taList = JSONHandler.tradeArea();
+        Model model = new LinkedHashModel();
+
+        for (TradeArea ta : taList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + ta.getSubject());
+
+            createObjectScope(model, ta.getTradeArea(), subject, Vocabulary.tradeArea,
+                    "Virkeområde fartøytype " + ta.getValue(),
+                    "Scope of vessel type " + ta.valueEn(ta.getValue())
+            );
+
+            addRequirement(ta.getRequirement(), subject);
+        }
+
+        scopeModel.addAll(model);
+    }
+
+    public static void cargoScope() throws IOException {
+        List<Cargo> cargoList = JSONHandler.cargo();
+        Model model = new LinkedHashModel();
+
+        for (Cargo c : cargoList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + c.getSubject());
+
+            createDefaultValueScope(model, subject, Vocabulary.cargo,
+                    "Virkeområde " + c.contextNo(),
+                    "Scope of " + c.contextEn()
+            );
+
+            addRequirement(c.getRequirement(), subject);
+        }
+
+        scopeModel.addAll(model);
+    }
+
+    public static void radioAreaScope() throws IOException {
+        List<RadioArea> cargoList = JSONHandler.radioArea();
+        Model model = new LinkedHashModel();
+
+        for (RadioArea ra : cargoList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + ra.getSubject());
+
+            createObjectScope(model, ra.getValue(), subject, Vocabulary.radioArea,
+                    "Virkeområde radiodekningsområde " + ra.getValue().getLocalName(),
+                    "Scope of radio coverage area " + ra.getValue().getLocalName()
+            );
+
+            addRequirement(ra.getRequirement(), subject);
+        }
+
+        scopeModel.addAll(model);
+    }
+
+    public static void convertedScope() throws IOException {
+        List<Converted> cList = JSONHandler.converted();
+        Model model = new LinkedHashModel();
+
+        for (Converted c : cList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + c.getSubject());
+
+            createDefaultValueScope(model, subject, Vocabulary.converted,
+                    "Virkeområde " + c.contextNo() + " fartøy",
+                    "Scope of " + c.contextEn() + " vessel"
+            );
+
+            addRequirement(c.getRequirement(), subject);
+        }
+
+        scopeModel.addAll(model);
+    }
+
+    public static void protectedScope() throws IOException {
+        List<Protected> proList = JSONHandler._protected();
+        Model model = new LinkedHashModel();
+
+        for (Protected p : proList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + p.getSubject());
+
+            createDefaultValueScope(model, subject, Vocabulary._protected,
+                    "Virkeområde " + p.contextNo() + " fartøy",
+                    "Scope of " + p.contextEn() + " vessel"
+            );
+
+            addRequirement(p.getRequirement(), subject);
+        }
+
+        scopeModel.addAll(model);
+    }
+
+    public static void loadingScope() throws IOException {
+        List<Loading> loList = JSONHandler.loading();
+        Model model = new LinkedHashModel();
+
+        for (Loading l : loList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + l.getSubject());
+
+            createDefaultValueScope(model, subject, Vocabulary.loadingUnloadingInstallation,
+                    "Virkeområde " + l.contextNo(),
+                    "Scope of " + l.contextEn()
+            );
+
+            addRequirement(l.getRequirement(), subject);
+        }
+
+        scopeModel.addAll(model);
+    }
+
+    public static void propulsionPowerScope() throws IOException {
+        List<PropulsionPower> proList = JSONHandler.propulsionPower();
+        Model model = new LinkedHashModel();
+
+        for (PropulsionPower pp : proList) {
+
+            IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS_SCOPE + pp.getSubject());
+
+            createValueScope(model, pp.getValue1(), subject, Vocabulary.propulsionPower, pp.getConstraint(),
+                    "Virkeområde framdriftskraft " + pp.getContext() + " " + pp.getValue1() ,
+                    "Scope of propulsion power " + pp.contextEn() + " " + pp.getValue1(),
+                    Vocabulary.vf.createIRI(Utils.NS_UNIT + "KiloW")
+
+            );
+
+            addRequirement(pp.getRequirement(), subject);
+        }
+
+        scopeModel.addAll(model);
+    }
+
+    private static void createDefaultValueScope(Model model, IRI subject, IRI path, String desNo, String desEn) {
+        model.add(subject, RDF.TYPE, SHACL.PROPERTY_SHAPE);
+        model.add(subject, RDF.TYPE, Vocabulary.Scope);
+        model.add(subject, SHACL.DESCRIPTION, Vocabulary.vf.createLiteral(desNo, "no"));
+        model.add(subject, SHACL.DESCRIPTION, Vocabulary.vf.createLiteral(desEn, "en"));
+        model.add(subject, SHACL.PATH, path);
+
+        model.add(subject, SHACL.DEFAULT_VALUE, Vocabulary.vf.createLiteral(true));
+    }
+
     private static void createObjectScope(Model model, IRI value, IRI subject, IRI path, String desNo, String desEn) {
         model.add(subject, RDF.TYPE, SHACL.PROPERTY_SHAPE);
         model.add(subject, RDF.TYPE, Vocabulary.Scope);

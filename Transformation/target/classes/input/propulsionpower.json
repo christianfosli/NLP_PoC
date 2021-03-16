@@ -1,0 +1,16 @@
+{
+  "identified_PROPULSION_POWER": [
+    {
+      "chapter_number": "1",
+      "measurement_text": "kW",
+      "part_number": "1",
+      "propulsion_power_context": "eller mer",
+      "propulsion_power_value_1": "750",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "3"
+    }
+  ]
+}

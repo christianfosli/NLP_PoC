@@ -10,6 +10,184 @@ import java.util.List;
 
 public class JSONHandler {
 
+
+    public static List<PropulsionPower> propulsionPower() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/propulsionpower.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.PROP_JOSN_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<PropulsionPower> proList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            PropulsionPower pp = new PropulsionPower(
+                    requirement,
+                    object.get("propulsion_power_context").toString().replace("\"", ""),
+                    object.get("propulsion_power_value_1").toString().replace("\"", ""),
+                    object.get("measurement_text").toString().replace("\"", "")
+            );
+
+            proList.add(pp);
+        }
+        return proList;
+    }
+
+    public static List<Loading> loading() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/loading.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.LO_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<Loading> loList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            Loading l = new Loading(
+                    requirement,
+                    object.get("load_installation_text").toString().replace("\"", "")
+            );
+
+            loList.add(l);
+        }
+        return loList;
+    }
+
+    public static List<Protected> _protected() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/protected.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.PRO_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<Protected> proList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            Protected p = new Protected(
+                    requirement,
+                    object.get("protected").toString().replace("\"", "")
+            );
+
+            proList.add(p);
+        }
+        return proList;
+    }
+
+    public static List<Converted> converted() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/conversion.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.CON_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<Converted> cList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            Converted c = new Converted(
+                    requirement,
+                    object.get("conversion_text").toString().replace("\"", "")
+            );
+
+            cList.add(c);
+        }
+        return cList;
+    }
+
+    public static List<RadioArea> radioArea() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/radioarea.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.RA_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<RadioArea> raList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            RadioArea ra = new RadioArea(
+                    requirement,
+                    object.get("radio_area_type_text").toString().replace("\"", "")
+            );
+
+            raList.add(ra);
+        }
+        return raList;
+    }
+
+    public static List<Cargo> cargo() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/cargo.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.CARGO_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<Cargo> cargoList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            Cargo c = new Cargo(
+                    requirement,
+                    object.get("cargo_text").toString().replace("\"", "")
+            );
+
+            cargoList.add(c);
+        }
+        return cargoList;
+    }
+
+    public static List<TradeArea> tradeArea() throws IOException {
+        String content = Utils.readFromFile("src/main/resources/input/tradearea.json");
+
+        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
+        JsonElement jsonElement = jsonObject.get(Utils.TA_JSON_OBJ);
+        JsonArray array = jsonElement.getAsJsonArray();
+
+        List<TradeArea> taList = new ArrayList<>();
+
+        for (int i = 0; i < array.size(); i++) {
+
+            JsonElement element = array.get(i);
+            JsonObject object = element.getAsJsonObject();
+
+            Requirement requirement = createRequirement(object);
+            TradeArea ta = new TradeArea(
+                    requirement,
+                    object.get("trade_area_text").toString().replace("\"", "")
+            );
+
+            taList.add(ta);
+        }
+        return taList;
+    }
+
     public static List<VesselType> vesselType() throws IOException {
         String content = Utils.readFromFile("src/main/resources/input/vesseltype.json");
 

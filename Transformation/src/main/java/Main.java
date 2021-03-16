@@ -1,3 +1,4 @@
+import org.eclipse.rdf4j.model.Model;
 import ottr.OTTRWrapper;
 
 import java.io.IOException;
@@ -13,12 +14,19 @@ public class Main {
         GraphGenerator.grossTonnageScope();
         GraphGenerator.flashpointScope();
         GraphGenerator.vesselTypeScope();
+        GraphGenerator.tradeAreaScope();
+        GraphGenerator.cargoScope();
+        GraphGenerator.radioAreaScope();
+        GraphGenerator.convertedScope();
+        GraphGenerator.protectedScope();
+        GraphGenerator.loadingScope();
+        GraphGenerator.propulsionPowerScope();
 
         GraphGenerator.writeScopeModelToFile();
         GraphGenerator.writeRequirementModelToFile();
 
         OTTRWrapper.createOTTRInstances(GraphGenerator.ottrInstances);
-        //Model model = OTTRWrapper.runLutra();
-        //model.forEach(System.out::println);
+        Model model = OTTRWrapper.runLutra();
+        model.forEach(System.out::println);
     }
 }

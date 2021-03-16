@@ -29,32 +29,18 @@ public class Utils {
     public static final String GT_JSON_OBJ = "identified_GROSS_TONNAGE";
     public static final String FP_JSON_OBJ = "identified_FLASHPOINT";
     public static final String VT_JSON_OBJ = "identified_VESSEL_TYPE";
+    public static final String TA_JSON_OBJ = "identified_TRADE_AREA";
+    public static final String CARGO_JSON_OBJ = "identified_CARGO";
+    public static final String RA_JSON_OBJ = "identified_RADIO_AREA";
+    public static final String CON_JSON_OBJ = "identified_CONVERSION";
+    public static final String PRO_JSON_OBJ = "identified_PROTECTED";
+    public static final String LO_JSON_OBJ = "identified_LOAD_INSTALLATION";
+    public static final String PROP_JOSN_OBJ = "identified_PROPULSION_POWER";
 
     public static String readFromFile(String filename) throws IOException {
         StringBuilder sb = new StringBuilder();
         Files.lines(Paths.get(filename)).forEach(s -> sb.append(s).append("\n"));
         return sb.toString();
-    }
-
-    public static String[] fileContentSplitByComma(String filename) throws IOException {
-        String content = readFromFile(filename);
-        String[] splitLine = content.split("\n");
-
-        StringBuilder tmp = new StringBuilder();
-
-        for (int i = 0; i < splitLine.length; i++) {
-            if (i == splitLine.length-1) {
-                tmp.append(splitLine[i]);
-            } else {
-                tmp.append(splitLine[i]).append(",");
-            }
-        }
-        return tmp.toString().split(",");
-    }
-
-    public static String[] fileContentSplitByLine(String filename) throws IOException {
-        String content = readFromFile(filename);
-        return content.split("\n");
     }
 
     public static Model initModel() {
@@ -66,6 +52,8 @@ public class Utils {
         model.setNamespace("unit", NS_UNIT);
         model.setNamespace("sdir", Vocabulary.NS);
         model.setNamespace("scope", Vocabulary.NS_SCOPE);
+        model.setNamespace("tradearea", Vocabulary.NS_TRADE);
+        model.setNamespace("vesseltype", Vocabulary.NS_VESSEL);
         return model;
     }
 
