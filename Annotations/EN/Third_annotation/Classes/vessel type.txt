@@ -1,0 +1,18 @@
+VESSEL TYPE
+Cargo vessel
+Barge
+Bulk carrier
+Cargo high-speed craft
+Other cargo ship
+Tanker vessel
+Oiler (ship)
+Able seafarer apprentice (engine)
+Cadet (engine)
+Able seafarer engine
+Ship
+Leisure boat
+Recreational craft
+Auxiliary vessel
+Passenger ship
+Fishing vessel
+Off-shore unit

@@ -1,0 +1,702 @@
+Regulations of 22 December 2014 No. 1893 on  
+supervision and certificates for Norwegian ships  
+and mobile offshore units 
+Legal basis: Laid down by the Norwegian Maritime Authority on 22 December 2014 under the Act of 16 February 2007 No. 9 relating to ship safety 
+and security (Ship Safety and Security Act) sections 2, 9, 13, 22, 22a, 41, 42, 43 and 47, cf. Formal Delegation of 16 February 2007 No. 171, Formal 
+Delegation of 31 May 2007 No. 590 and Formal Delegation of 19 August 2013 No. 1002. 
+EEA references: EEA Agreement Annex XIII point 55b (Directive 94/57/EC as amended by Directive 97/58/EC, Directive 2001/105/EC and Directive 
+2002/84/EC), point 56f (Directive 2009/45/EC as amended by Directive 2010/36/EC) and point 56q (Regulation (EC) No 789/2004). 
+Amendments: Amended by Regulations of 18 December 2015 No. 1769, 14 October 2016 No. 1211, 8 September 2017 No. 1369, 10 November 2017 
+No. 1778, 18 December 2015 No. 1769, 31 July 2019 No. 1036 (in force on 1 January 2020), 14 January 2020 No. 65 (in force on 1 February 2020).  
+Chapter 1  
+General provisions 
+Section 1  
+Scope of application 
+(1)  These Regulations apply to Norwegian: 
+a)  cargo ships of 15 metres in overall length and upwards, unless otherwise provided by the individual sections; 
+b)  ships not used for commercial purposes and of 24 metres in overall length and upwards; 
+c)  barges of 15 metres in overall length and upwards; 
+d)  passenger ships; 
+e)  fishing vessels of 15 metres in overall length and upwards; 
+f)  mobile offshore units. 
+(2)  These Regulations also apply to Norwegian ships which shall be used in oil recovery operations or as standby 
+vessels, irrespective of size. 
+(3)  These Regulations do not apply to cargo ships of less than 24 metres in length (L) which are covered by the scope 
+of application of the Regulations on vessels of less than 24 metres carrying 12 passengers or less, etc., and which are 
+engaged only in activities described therein. 
+Amended by Regulation of 14 January 2020 No. 65 (in force on 1 February 2020). 
+Section 2  
+Request for supervision 
+(1)  The company shall submit a request for supervision as soon as possible when: 
+a)  a contract for the construction of a ship or mobile offshore unit has been placed; 
+b)  a certificate for a ship or mobile offshore unit is to be issued to or renewed; 
+c)  an inspection shall be carried out of the working and living conditions (MLC inspection) on board a ship or 
+mobile offshore unit without the issuance of a certificate; 
+d)  a survey shall be carried out of the ballast water management system on board a ship or mobile offshore unit 
+without the issuance of a certificate; 
+e)  a ship or mobile offshore unit has been ordered to carry out repairs due to breakdown, damage or defects; 
+f)  the hull, arrangements, machinery, equipment and other components on a ship or mobile offshore unit shall 
+be or has been changed; 
+g)  the class of a ship or mobile offshore unit in a recognised classification society is deleted; 
+h)  a ship or mobile offshore unit is transferred to a Norwegian ship register. 
+(2)  For mobile offshore units which have been laid up for more than 12 months, the company shall request supervision 
+before the mobile offshore unit is put into service. 
+(3)  The request shall be submitted to: 
+a)  the Norwegian Maritime Authority on the prescribed form, except in cases mentioned in subparagraphs b to 
+d of this paragraph; 
+b)  the classification society when the supervisory authority has been delegated to a recognised classification 
+society; 
+c)  an approved radio inspection company in the event of radio supervision; 
+d)  the Norwegian Directorate for Civil Protection (DSB) in the event of supervision of electrical installations 
+on cargo ships, barges and fishing vessels not classed in a recognised classification society and on passenger 
+ships. Section 3  
+Requirements for recognised organisations 
+Annex XIII to the EEA Agreement (Directive 94/57/EC, as amended by Directive 97/58/EC, Directive 2001/105/EC 
+and Directive 2002/84/EC) on common rules and standards for ship inspection and survey organizations and the relevant 
+activities of maritime administrations applies as regulation with amendments and additions pursuant to Protocol 1 to the 
+Agreement and the Agreement in general. 
+Chapter 2  
+Transfer of ships and mobile offshore units  
+to a Norwegian ship register 
+Section 4  
+Supervision of cargo ships and passenger ships  
+being transferred to a Norwegian ship register  
+from a ship register in the European Economic Area 
+Annex XIII point 56q to the EEA Agreement (Regulation (EC) No 789/2004) of 21 April 2004 on the transfer of cargo 
+and passenger ships between registers within the Community and repealing Council Regulation (EEC) No 613/91 applies 
+as regulation with amendments and additions pursuant to Protocol 1 to the Agreement and the Agreement in general. 
+Section 5  
+Documentation when requesting transfer to a Norwegian ship register 
+(1)  For ships or mobile offshore units which have not previously held a Norwegian certificate nor are covered by 
+section 4, the company shall, together with the request, submit information regarding life-saving appliances, stability, 
+fire  protection  and  fire  fighting  arrangements,  accommodation  arrangements  and  towing  and  anchor-handling 
+equipment, if any, indicated in the prescribed list of documentation. 
+(2)  For fishing vessels, the company shall submit the information indicated in the list of documentation in Appendix 
+3 to Regulations of 13 June 2000 No. 660 on the construction, operation, equipment and surveys of fishing vessels of 
+15 m in overall length (LOA) and over. 
+Chapter 3  
+Supervision of and certificates  
+for ships and mobile offshore units 
+Section 6  
+Passenger Ship Safety Certificate 
+(1)  Ships engaged on international voyages carrying more than 12 passengers shall have: 
+a)  a Passenger Ship Safety Certificate; 
+b)  an  Exemption  Certificate  showing  terms  for  exemptions,  if  any,  granted  pursuant  to  SOLAS 
+SLS.14/Circ.115/Add.3; 
+c)  an attachment to the Passenger Ship Safety Certificate indicating the number of lifeboats and other life-
+saving appliances the ship is required to have when the ship, on a particular voyage, has on board fewer 
+passenger than the number for which it is certified; 
+d)  an attachment to the Passenger Ship Safety Certificate indicating the limitation in the significant wave height 
+applicable to ro-ro passenger ships, resulting from the special stability requirements applicable to ro-ro 
+passenger ships. 
+(2)  Valid declaration of survey for electrical installations shall be available, and survey of radio installations shall be 
+completed before a Passenger Ship Safety Certificate may be issued. 
+(3)  The Passenger Ship Safety Certificate is issued with a validity of up to twelve months. Exemption Certificates as 
+mentioned in the first paragraph cannot be given longer validity than the Passenger Ship Safety Certificate. Section 7  
+Supervision for Passenger Ship Safety Certificate 
+Ships required to have a Passenger Ship Safety Certificate shall be subject to the following supervision, based on the 
+IMO Survey Guidelines under the Harmonized System of Survey and Certification (HSSC), in order to demonstrate that 
+the ship complies with the requirements for construction and outfitting applicable to passenger ships engaged on 
+international voyages: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every twelve months, cf. section 35; 
+c)  inspection of the outside of the ship's bottom at every renewal survey; 
+i.  at least two of the bottom inspections as required by subparagraph c shall during any five-year period 
+be carried out when the ship is dry; 
+ii.  the interval between two inspections of the bottom when the ship is dry shall not exceed 36 months; 
+iii.  passenger ships following the special guidelines of the HSSC, cf. MSC.1/Circ.1348, may in lieu of the 
+requirements pursuant to subparagraph c (i) and (ii) during any five-year period carry out one bottom 
+inspection when the ship is dry. The five-year period coincides with the validity of the ship’s 
+International Load Line Certificate. 
+Amended by Regulation of 31 July 2019 No. 1036 (in force on 1 January 2020). 
+Section 8 
+Safety certificates for cargo ships engaged on foreign voyages 
+(1)  Cargo ships of 300 gross tonnage and upwards engaged on foreign voyages shall have a Cargo Ship Safety Radio 
+Certificate. 
+(2)  Cargo ships of 500 gross tonnage and upwards engaged on foreign voyages shall have: 
+a)  a Cargo Ship Safety Construction Certificate; 
+b)  a Cargo Ship Safety Equipment Certificate; 
+c)  an  Exemption  Certificate  showing  terms  for  exemptions,  if  any,  granted  pursuant  to  SOLAS 
+SLS.14/Circ.115/Add.3. 
+(3)  Valid declaration of survey for electrical installations or valid class certificate shall be available before the Cargo 
+Ship Safety Construction Certificate and Cargo Ship Safety Equipment Certificate may be issued. 
+(4)  The Cargo Ship Safety Construction Certificate, Equipment Certificate and Radio Certificate are issued with a 
+validity of up to five years. Exemption Certificates as mentioned in the first paragraph cannot be given longer validity 
+than the cargo ship safety certificates. 
+Section 9  
+Supervision for Cargo Ship Safety Construction Certificate,  
+Equipment Certificate and Radio Certificate 
+(1)  Ships required to have a Cargo Ship Safety Construction Certificate shall be subject to the following supervision, 
+based on HSSC, in order to demonstrate that the ship complies with the requirements for construction of cargo ships: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every five years, cf. section 35; 
+c)  intermediate survey within three months before or after the second or third anniversary date of the certificate. 
+The intermediate survey may take the place of the annual survey required by subparagraph d; 
+d)  annual survey within a time interval limited to three months before or after each anniversary date of the 
+certificate; 
+e)  inspection of the outside of the ship's bottom at least twice during the five-year period of the validity of the 
+certificate; 
+i.  bottom inspections shall be carried out when the ship is dry. One bottom inspection shall be carried 
+out in conjunction with the fourth anniversary date of or the renewal survey for the certificate; 
+ii.  when the validity of the ship's safety certificate is extended, the deadline for the bottom inspection 
+may be extended correspondingly. In all cases the interval between any two bottom inspections shall 
+not exceed 36 months. 
+(2)  Ships required to have a Cargo Ship Safety Equipment Certificate shall be subject to the following supervision, 
+based on the HSSC, in order to demonstrate that the ship complies with the requirements for equipment on cargo ships: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every five years, cf. section 35; 
+c)  periodical survey within three months before or after the second or third anniversary date of the certificate. 
+The periodical survey may take the place of the annual survey of equipment required by subparagraph d; d)  annual survey within a time interval limited to three months before or after each anniversary date of the 
+certificate. 
+(3)  Ships required to have a Cargo Ship Safety Radio Certificate shall be subject to the following supervision, based 
+on the HSSC, in order to demonstrate that the ship complies with the requirements for radiocommunication equipment 
+on cargo ships: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every five years, cf. section 35; 
+c)  periodical survey within a time interval limited to three months before or after each anniversary date of the 
+certificate. 
+(4)  Completed intermediate, periodical and annual surveys, and inspections of the outside of the ship's bottom, shall 
+be documented by endorsement by the Norwegian Maritime Authority or other supervisory authorities. 
+Amended by Regulation of 31 July 2019 No. 1036 (in force on 1 January 2020). 
+Section 10  
+International Load Line Certificate for passenger and cargo ships 
+(1)  Passenger ships of 24 metres in length (L) and upwards engaged on international voyages and cargo ships of 
+24 metres in length (L) and upwards engaged on foreign voyages shall have: 
+a)  an International Load Line Certificate; 
+b)  an Exemption Certificate showing terms for exemptions, if any, granted from the load line requirements. 
+(2)  Record of Condition of Assignment of Load Lines shall be available before the International Load Line Certificate 
+is issued. The record shall be signed and stamped by the Norwegian Maritime Authority, recognised classification society 
+or by another State which is a Party to the International Load Line Convention. 
+(3)  International Load Line Certificates are issued with a validity of up to five years. Exemption Certificates as 
+mentioned in the first paragraph cannot be given longer validity than the International Load Line Certificate. 
+Section 11  
+Supervision for International Load Line Certificate 
+(1)  Ships required to have an International Load Line Certificate shall be subject to the following supervision, based 
+on the HSSC, in order to demonstrate that the ship complies with the load line requirements for ships: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every five years; 
+c)  annual survey within a time interval limited to three months before or after each anniversary date of the 
+certificate. 
+(2) Completed annual surveys shall be documented by endorsement by the Norwegian Maritime Authority or other 
+supervisory authorities. 
+Amended by Regulation of 31 July 2019 No. 1036 (in force on 1 January 2020). 
+Section 12  
+Mobile Offshore Unit Certificate of Fitness 
+(1)  Mobile offshore units shall have a Mobile Offshore Unit Certificate of Fitness. In addition to certificates which 
+the mobile offshore unit is required to have pursuant to other regulations laid down under the Ship Safety and Security 
+Act, the Mobile Offshore Unit Certificate of Fitness includes the following certificates: 
+a)  Mobile Offshore Unit Safety Construction Certificate; 
+b)  Mobile Offshore Unit Safety Equipment Certificate; 
+c)  Mobile Offshore Unit Safety Radio Certificate; 
+d)  Mobile Offshore Unit Load Line Certificate. 
+(2) The certificate of fitness shall have two appendices: 
+a)  appendix 1 informs of any limitations related to construction or operation applicable to the mobile offshore 
+unit; 
+b)  appendix 2 indicates the regulations pursuant to the which the mobile offshore unit is certified, and any 
+exemptions granted from these. 
+(3)  A valid survey report for electrical installations shall be available before the Mobile Offshore Unit Certificate of 
+Fitness may be issued. 
+(4)  Certificates for mobile offshore units are issued with a validity of up to five years. Section 13  
+Supervision for certificates for mobile offshore units 
+Mobile offshore units required to have a Mobile Offshore Unit Certificate of Fitness shall be subject to the following 
+supervision in order to demonstrate that the mobile offshore unit complies with the requirements for construction, 
+equipment and operation for mobile offshore units: 
+a)  initial survey before the mobile offshore unit is put into service; 
+b)  renewal survey every five years. The survey may commence up to six months before the expiry of the 
+certificates. 
+Section 14  
+Certificate for working and living conditions 
+(1)  Cargo ships and passenger ships, of 500 gross tonnage and upwards engaged on foreign voyages, shall have a 
+Maritime Labour Certificate. The certificate consists of a certificate part and a Declaration of Maritime Labour 
+Compliance. 
+(2)  The Declaration of Maritime Labour Compliance required pursuant to the first paragraph consists of two parts: 
+a)  Part I is drawn up by the Norwegian Maritime Authority and provides information on: 
+i.  the provisions implementing the Maritime Labour Convention, 2006 (MLC); 
+ii.  substantially equivalent implementation of the MLC into Norwegian legislation, cf. paragraph 3 of 
+MLC article VI; 
+iii.  any exemptions from MLC chapter 3, granted under the Regulations of 21 April 2017 No. 515 on 
+accommodation, recreational facilities, food and catering on ships. 
+b)  Part II is drawn up by the company, and shall identify: 
+i.  how the requirements described in Part I are met; 
+ii.  the  measures  adopted  to  ensure  continuous  improvement  and  ongoing  compliance  with  the 
+requirements for working and living conditions on board; 
+iii.  how the compliance with the provisions is continuously checked, the person(s) responsible for the 
+control, where the compliance is documented and the measures implemented when lack of compliance 
+is identified. 
+(3)  The Maritime Labour Certificate is issued with a validity of up to five years. The certificate ceases to be valid if 
+the operation of the ship is transferred to another company. 
+(4)  Fishing vessels shall have a certificate for working and living conditions when the vessel has: 
+a)  an overall length of 15 metres and upwards and is certified for Deepsea fishing I or greater trade area; 
+b)  a length (L) of 24 metres and upwards and is certified for Bank fishing I or greater trade area. 
+(5)  The certificate required pursuant to the fourth paragraph shall demonstrate compliance with the requirements 
+implementing ILO Convention No. 188 concerning work in the fishing sector, and shall be issued with a validity of up 
+to five years when the trading certificate required pursuant to section 26 first paragraph is issued for the first time or 
+renewed on or after 16 November 2017, cf. section 27 first paragraph (a) or (b). 
+Amended by Regulation of 10 November 2017 No. 1778 (in force on 16 November 2017). 
+Section 15  
+Supervision for certificate for working and living conditions 
+(1)  Cargo ships and passenger ships required to have Maritime Labour Certificate shall be subject to the following 
+inspections in order to demonstrate that the ship complies with the requirements for living and working conditions on 
+board ships: 
+a)  initial inspection before the certificate may be issued for the first time; 
+b)  intermediate inspection between the second and third anniversary date of the certificate; 
+c)  renewal inspection every five years. 
+(2)  Supervision required pursuant to the first paragraph may alternatively be carried out in conjunction with an audit 
+of the safety management system on board. 
+(3)  Completed intermediate inspections pursuant to the first paragraph (b) shall be documented by endorsement by 
+the Norwegian Maritime Authority or other supervisory authorities. 
+(4)  Fishing vessels required to have Certificate for working and living conditions shall be subject to the following 
+inspections in order to demonstrate that the fishing vessel complies with the requirements for working and living 
+conditions on board fishing vessels: 
+a)  initial inspection before the certificate may be issued for the first time; 
+b)  renewal inspection every five years. 
+Amended by Regulation of 10 November 2017 No. 1778 (in force on 16 November 2017). 
+Section 16  
+Interim Maritime Labour Certificate 
+(1)  An Interim Maritime Labour Certificate may be issued for a period not exceeding six months to: 
+a)  newbuildings; 
+b)  ships which are transferred to a Norwegian ship register; 
+c)  ships of which a company assumes responsibility for the operation, when the ship is new to that company. 
+(2)  An interim certificate may be issued following completed inspection which, as far as reasonable and practicable, 
+can verify that the ship complies with the requirements of MLC Appendix A5-I, and that the company has: 
+a)  applied for the Declaration of Maritime Labour Compliance Part I to be issued; 
+b)  drawn up adequate procedures demonstrating that the provisions implementing the MLC can be complied 
+with; 
+c)  confirmed that the master is familiar with the requirements and the responsibilities for implementation. 
+(3)  An interim certificate cannot be extended. Also, no further interim certificate may be issued to the same ship 
+before the final Maritime Labour Certificate is issued. 
+Section 17  
+MLC inspection of ships not required  
+to have a Maritime Labour Certificate 
+(1)  Cargo ships and passenger ships certified for trade area 3 or greater, and Class A, B, C or D passenger ships, 
+which are not required to have a Maritime Labour Certificate, cf. section 14 first paragraph, shall be subject to MLC 
+inspection in conjunction with: 
+a)  the initial survey and second or third renewal survey in a five-year period for Passenger Ship Safety 
+Certificate in domestic trade, or construction and equipment certificate issued pursuant to the DSC Code; 
+b)  the initial survey, renewal survey and second or third periodical survey during the certificate period for High-
+Speed Craft Safety Certificate; 
+c)  the initial survey, renewal survey and second or third annual survey during the certificate period for 
+Passenger Certificate; 
+d)  the initial survey and intermediate survey during the certificate period for trading certificate for cargo ships. 
+(2)  The MLC inspection may alternatively be carried out in conjunction with an audit of the safety management 
+system on board. 
+(3)  The interval between two MLC inspections shall not exceed 36 months. 
+Section 18  
+Passenger Ship Safety Certificate for  
+passenger ships engaged on domestic voyages 
+(1)  Class A, B, C or D passenger ships engaged on domestic voyages in the European Economic Area, shall have a 
+Passenger Ship Safety Certificate for passenger ships engages on domestic voyages if the ship: 
+a)  was constructed on or after 1 May 2000; 
+b)  was constructed before 1 May 2000 and is of 24 metres in length (L) and upwards. 
+(2)  The safety certificate shall have: 
+a)  an attachment indicating the number of lifeboats and other life-saving appliances the ship is required to have 
+when the ship, on a particular voyage, has on board fewer passenger than the number for which it is certified; 
+b)  an attachment indicating the limitation in the significant wave height applicable to Class A and B ro-ro 
+passenger ships and Class C ro-ro passenger ships constructed on or after 1 October 2004, resulting from the 
+special stability requirements applicable to ro-ro passenger ships. 
+(3)  During relocation without cargo or passengers, Class C or D passenger ships may cross sea areas of class B. 
+(4)  Valid declaration of survey or installation attestation for electrical installations shall be available, and survey of 
+radio installations shall be completed before the Passenger Ship Safety Certificate for passenger ships engaged on 
+domestic voyages may be issued. 
+(5)  The Passenger Ship Safety Certificate for passenger ships engaged on domestic voyages is issued with a validity 
+of up to twelve months. Section 19  
+Supervision for Passenger Ship Safety Certificate  
+for passenger ships engaged on domestic voyages 
+Ships required to have a Passenger Ship Safety Certificate for passenger ships engaged on domestic voyages shall be 
+subject to the following supervision, based on the HSSC, in order to demonstrate that the ship complies with the 
+requirements for construction and outfitting applicable to Class A, B, C or D passenger ships: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every twelve months; 
+c)  inspection of the outside of the ship's bottom at every renewal survey; 
+i.  at least two inspections of the ship's bottom shall during any five-year period be carried out when the 
+ship is dry; 
+ii.  the interval between two bottom inspections when the ship is dry shall not exceed 36 months; 
+d)  initial survey and second or third renewal survey during a five-year period for passenger ships which are 
+engaged on domestic voyages and are not required to have an International Oil Pollution Prevention 
+Certificate (IOPP) or International Air Pollution Prevention Certificate (IAPP), shall also include measures 
+against oil and air pollution. 
+Amended by Regulation of 31 July 2019 No. 1036 (in force on 1 January 2020). 
+Section 20  
+Passenger Certificate 
+(1)  Ships engaged on domestic voyages carrying more than 12 passengers shall have a Passenger Certificate when 
+the ship: 
+a)  was constructed before 1 May 2000 and is of less than 24 metres in length (L); or 
+b)  is a high-speed craft of less than 24 metres in length (L); or 
+c)  is operating in trade area 2 or lesser trade area. 
+The first sentence does not apply to wooden ships set out in the Regulations of 23 January 2020 No. 69 on open wooden 
+ships carrying 12 passengers or more. 
+(2)  Ships carrying 12 passengers or less which are used for medical service or ambulance service or for organised 
+transport to and from schools shall have a Passenger Certificate. 
+(3)  During relocation without cargo or passengers, ships with a Passenger Certificate may cross trade areas in 
+domestic trade which are up to two trade areas greater than indicated on the Passenger Certificate. 
+(4)  Valid declaration of survey or installation attestation for electrical installations shall be available before the 
+Passenger Certificate may be issued. 
+(5)  The Passenger Certificate is issued with a validity of up to five years. Any operating limitations resulting from 
+the ship being high-speed, protected or historical, shall be indicated on the Passenger Certificate. 
+Amended by Regulation of 14 January 2020 No. 65 (in force on 1 February 2020). 
+Section 21a  
+Passenger Ship Safety Certificate for passenger ships in the territorial waters 
+surrounding Svalbard 
+(1)  Ships carrying more than 12 passengers in the territorial waters surrounding Svalbard and not holding a 
+Passenger Ship Safety Certificate for passenger ships engaged on international voyages shall have a Passenger Ship 
+Safety Certificate for ships in the territorial waters surrounding Svalbard. 
+(2) Valid declaration of survey for electrical installations shall be available, and survey of radio installations shall be 
+completed before the safety certificate may be issued. 
+(3) The Passenger Ship Safety Certificate for passenger ships in the territorial waters surrounding Svalbard is issued 
+with a validity of up to twelve months. 
+Added by Regulation of 31 July 2019 No. 1036 (in force on 1 January 2020). Section 21b  
+Supervision for Passenger Ship Safety Certificate for passenger ships in the territorial 
+waters surrounding Svalbard 
+Ships required to have a Passenger Ship Safety Certificate for passenger ships in the territorial waters surrounding 
+Svalbard shall be subject to the following supervision, based on the HSSC, in order to demonstrate that the ship 
+complies with the requirements for construction and outfitting applicable to passenger ships in the territorial waters 
+surrounding Svalbard: 
+a) initial survey before the ship is put into service; 
+b) renewal survey every twelve months, cf. section 35; 
+c) inspection of the outside of the ship's bottom at every renewal survey; 
+i. at least two of the bottom inspections as required by subparagraph c shall during any five-year period be 
+carried out when the ship is dry; 
+ii. the interval between two inspections of the bottom when the ship is dry shall not exceed 36 months; 
+iii. passenger ships following the special guidelines of the HSSC, may in lieu of the requirements pursuant to 
+subparagraph c (i) and (ii), during any five-year period carry out one bottom inspection when the ship is dry. 
+The five-year period coincides with the validity of the ship's International Load Line Certificate. 
+Added by Regulation of 31 July 2019 No. 1036 (in force on 1 January 2020). 
+Section 21  
+Supervision for Passenger Certificate 
+(1)  Ships required to have a Passenger Certificate shall be subject to the following supervision in order to demonstrate 
+that the ship complies with the requirements for construction and outfitting applicable to passenger ships engaged on 
+domestic voyages: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every five years; 
+c)  annual survey within a time interval limited to three months before or after each anniversary date of the 
+certificate; 
+d)  annual inspection of the outside of the ship's bottom; 
+i.  at least two inspections of the ship's bottom shall during the five-year period of the validity of the 
+Passenger Certificate be carried out when the ship is dry; 
+ii.  the interval between two bottom inspections when the ship is dry shall not exceed 36 months; 
+e)  initial survey, renewal survey and second or third annual survey during the period of validity of the certificate 
+for passenger ships engaged on domestic voyages, shall also include measures against air and oil pollution. 
+(2)  The Norwegian Maritime Authority shall have received the company's declaration on the prescribed form stating 
+that the requirements of all applicable regulations are complied with, before the supervision may be carried out. 
+(3)  Completed annual surveys shall be documented by endorsement of the certificate by the Norwegian Maritime 
+Authority or other supervisory authorities. 
+Section 22  
+Safety Radio Certificate for non-convention ships 
+(1)  The following ships shall have a Safety Radio Certificate for non-convention ships: 
+a)  cargo ships of 8 metres in overall length and upwards engaged on domestic voyages in trade area 1 or greater, 
+and cargo ships of less than 300 gross tonnage engaged on foreign voyages; 
+b)  ships which are not used for commercial purposes; 
+c)  passenger ships required to have a Passenger Certificate. 
+(2)  The Safety Radio Certificate for non-convention ships is issued with a validity of up to five years. 
+Section 23  
+Supervision for Safety Radio Certificate 
+for non-convention ships 
+(1)  Ships required to have a Safety Radio Certificate for non-convention ships shall be subject to the following 
+supervision, based on the HSSC, in order to demonstrate that the ship complies with the applicable requirements for 
+radiocommunication equipment: 
+a)  initial survey before the ship is put into service; b)  annual survey within a time interval limited to three months before or after each anniversary date of the 
+certificate; 
+c)  renewal survey every five years. 
+(2)  Completed annual surveys shall be documented by endorsement of the radio certificate by the Norwegian 
+Maritime Authority or other supervisory authorities. 
+Amended by Regulation of 31 July 2019 No. 1036 (in force on 1 January 2020). 
+Section 24  
+Cargo Ship Trading Certificate 
+(1)  The following ships shall have a Cargo Ship Trading Certificate with defined trade area: 
+a)  cargo ships of 15 metres in overall length and upwards engaged on domestic voyages; 
+b)  cargo ships of 15 metres in overall length and upwards, and of less than 500 gross tonnage, engaged on 
+foreign voyages; 
+c)  ships which are not used for commercial purposes; 
+d)  barges which are either manned, used for the carriage of dangerous or polluting cargoes in bulk or used in 
+trade area 3 or greater trade area. 
+(2)  Valid class certificate, declaration of survey for electrical installations or installation attestation for electrical 
+installations shall be available before a trading certificate may be issued. 
+(3)  The trading certificate is issued with a validity of up to five years. 
+(4)  Cargo ships and barges, of less than 50 gross tonnage, with building contract placed before 1 January 2015 and 
+delivered before 1 January 2016, shall have a trading certificate pursuant to these Regulations at the latest: 
+a)  on 1 January 2017 for ships the keel of which was laid on or after 1 January 1990; 
+b)  on 1 January 2018 for ships the keel of which was laid before 1 January 1990. 
+Section 25  
+Supervision for Cargo Ship Trading Certificate 
+(1)  Ships required to have a Cargo Ship Trading Certificate shall be subject to the following supervision in order to 
+demonstrate that the ship complies with the requirements for construction and outfitting applicable to cargo ships, barges 
+and ships not used for commercial purposes: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every five years; 
+c)  intermediate survey between the second and third anniversary date of the certificate; 
+d)  inspection of the outside of the ship's bottom at every renewal and intermediate survey; 
+i.  inspections of the outside of the ship's bottom shall be carried out when the ship is dry; 
+ii.  the interval between two bottom inspections shall not exceed 36 months. 
+(2)  Initial survey, renewal survey and intermediate survey of cargo ships and barges which are engaged on domestic 
+voyages and are not required to have an International Oil Pollution Prevention Certificate (IOPP) or International Air 
+Pollution Prevention Certificate (IAPP), shall also include measures against oil and air pollution. 
+(3)  The Norwegian Maritime Authority shall have received the company's declaration on the prescribed form stating 
+that the requirements of all applicable regulations are complied with, before the supervision may be carried out. 
+(4)  Completed intermediate surveys shall be documented by endorsement of the trading certificate by the Norwegian 
+Maritime Authority or other supervisory authorities. 
+Section 26  
+Trading Certificate of Compliance for fishing vessel 
+(1)  Fishing vessels shall have: 
+a)  a Trading Certificate of Compliance for fishing vessel; 
+b)  an Exemption Certificate showing terms for exemptions, if any, granted from the regulations of the 
+Norwegian Maritime Authority. 
+(2)  Valid class certificate, declaration of survey for electrical installations or installation attestation for electrical 
+installations shall be available before the Trading Certificate of Compliance for fishing vessel may be issued. 
+(3)  The Exemption Certificate pursuant to the first paragraph may not be given longer validity than the certificate of 
+compliance. Section 27  
+Supervision for Trading Certificate of Compliance for fishing vessel 
+(1)  Fishing vessels shall be subject to the following surveys in order to demonstrate that the vessel complies with the 
+requirements for construction and outfitting of fishing vessels: 
+a)  initial survey before the ship is put into service; 
+b)  renewal survey every five years; 
+c)  intermediate survey between the second and third anniversary date of the certificate; 
+d)  survey of radio installations and automatic identification system (AIS); 
+i.  for vessels of 24 metres in length (L) and upwards and vessels with trade area bank fishing II or greater 
+trade area, the survey shall be carried out within a time interval limited to three months before or after 
+each anniversary date of the certificate; 
+ii.  for vessels of less than 24 metres in length (L) certified for Bank fishing I or lesser trade areas, the 
+survey shall be carried out within a time interval corresponding to subparagraph c; 
+e)  inspection of the outside of the ship's bottom at every renewal and intermediate survey; 
+i.  inspections of the outside of the ship's bottom shall be carried out when the ship is dry; 
+ii.  the interval between two inspections of the outside of the ship's bottom shall not exceed 36 months; 
+f)  initial survey and renewal survey of fishing vessels which are not required to have an International Oil 
+Pollution Prevention Certificate (IOPP) or International Air Pollution Prevention Certificate (IAPP), shall 
+also include measures against oil and air pollution. 
+(2)  Completed intermediate surveys and surveys of radio installations shall be documented by endorsement of the 
+certificate in question by the Norwegian Maritime Authority or other supervisory authorities. 
+(3)  The Norwegian Maritime Authority shall have received the company's declaration on the prescribed form stating 
+that the requirements of all applicable regulations are complied with, before the supervision may be carried out. 
+Amended by Regulation of 10 November 2017 No. 1778 (in force on 16 November 2017). 
+Section 28  
+Certificate of Compliance for ships used in oil recovery operations 
+(1)  Ships used in oil recovery drills or oil recovery operations shall in addition to their ordinary certificate or vessel 
+instructions have a Certificate of Compliance for ships used in oil recovery operations, unless the permission to perform 
+such operations follows from the ordinary certificate or the ordinary vessel instructions. 
+(2)  The Certificate of Compliance for ships used in oil recovery operations is issued with the same expiry date as the 
+ordinary certificate or the ordinary vessel instructions. For ships without another certificate, the Certificate of 
+Compliance for ships used in oil recovery operations is issued with a period of validity of up to 30 months after completed 
+survey. 
+Section 29  
+Supervision for Certificate of Compliance  
+for ships used in oil recovery operations 
+Ships required to have Certificate of Compliance for ships used in oil recovery operations shall be subject to the 
+following surveys in order to demonstrate that the ship complies with the requirements for vessels used in oil recovery 
+operations: 
+a)  initial survey for tow of oil booms before the ship is used in oil recovery operations; 
+b)  renewal survey every five years if the ship has a trading certificate for cargo ships and barges or a trading 
+certificate of compliance for fishing vessel; 
+c)  renewal survey every 30 months for other vessels. The renewal survey may commence up to six months 
+before the expiry of the certificate without amending the next date of expiry. 
+Amended by Regulation of 10 November 2017 No. 1778 (in force on 16 November 2017). 
+Section 30  
+Certificate of Contingency Fitness for Standby Vessel 
+(1)  Ships which shall have duties associated with the management of dangerous situations and casualties in the 
+petroleum sector or which are employed on guard duty around offshore units, shall have a Certificate of Contingency 
+Fitness for Standby Vessel in addition to cargo ship certificate. 
+(2)  The Certificate of Contingency Fitness for Standby Vessel shall have an Annex indicating: 
+a)  standby services for which the vessel is approved; 
+b)  operational limitations; 
+c)  the ship's standby and rescue capacity; 
+d)  standby equipment which shall be available on board. (3)  The Certificate of Contingency Fitness for Standby Vessel is issued with a validity of up to five years. 
+Section 31  
+Supervision for Certificate of Contingency Fitness for Standby Vessel 
+(1)  Ships required to have a Certificate of Contingency Fitness for Standby Vessel shall be subject to the following 
+supervision in order to demonstrate that the ship complies with the requirements for standby vessels: 
+a)  initial survey before the ship is used as standby vessel; 
+b)  annual survey within a time interval limited to three months before or after each anniversary date of the 
+certificate; 
+c)  renewal survey every five years. 
+(2)  Completed annual surveys shall be documented by endorsement of the certificate by the Norwegian Maritime 
+Authority or other supervisory authorities. 
+Section 32  
+Certificate requirements for ships intended  
+to carry out towing operations 
+(1)  Ships intended to carry out towing operations shall have: 
+a)  safety certificates for cargo ships pursuant to section 8 second paragraph; or 
+b)  Cargo Ship Trading Certificate pursuant to section 24 first paragraph (a) or (b) with endorsement for towing 
+in the trading certificate. Towing restrictions, if any, shall be specified in the trading certificate. 
+(2)  “Towing” means the towing or pushing of one or more objects. The towing of light objects, such as a dinghy, a 
+light floating wharf or similar, is not considered towing as per this definition. 
+Amended by Regulation of 18 December 2015 No. 1769 (in force on 1 January 2016), 18 December 2015 No. 1769 (in force on 1 January 2018). 
+Section 33  
+Supervision for ships intended to carry out towing operations 
+Ships intended to carry out towing operations shall be subject to an initial survey in order to demonstrate that the ship 
+complies with the requirements for stability, strength and outfitting before the ship is used in towing operations. 
+Added by Regulation of 18 December 2015 No. 1769 (in force on 1 January 2016). 
+Section 34  
+Inspection and supervision of towing  
+and anchor-handling arrangements 
+(1)  Towing and anchor-handling arrangements shall be inspected at least once annually. 
+(2)  The inspection pursuant to the first paragraph shall be carried out by qualified personnel on board in accordance 
+with instructions from the manufacturer. The inspections shall also include emergency release. After the emergency 
+release tests, dismantling shall be carried out to the extent deemed necessary. 
+(3)  Every five years, the inspections referred to in the first paragraph shall be carried out in the presence of a 
+representative from the Norwegian Maritime Authority or a recognised classification society. 
+(4)  Documentation of completed inspections and supervision of towing and anchor-handling arrangements shall be 
+kept on board. 
+Added by Regulation of 18 December 2015 No. 1769 (in force on 1 January 2016). 
+Section 34a  
+International Ballast Water Management Certificate 
+Ships of 400 gross tonnage and upwards engaged on foreign voyages, and mobile offshore units engaged on foreign 
+voyages, which are constructed to carry ballast water, shall have a Ballast Water Management Certificate. 
+The Ballast Water Management Certificate is issued with a validity of up to five years. 
+Ships with a valid document of compliance demonstrating that the ship complies with the requirements of the 
+International Convention for the Control and Management of Ship's Ballast Water and Sediments, 2004, are required to 
+have Ballast Water Management Certificate by the first annual survey, intermediate survey or renewal survey carried 
+out on or after 8 September 2017, but not later than 8 December 2018. 
+Added by Regulation of 8 September 2017 No. 1369. Section 34b  
+Supervision for International Ballast Water Management Certificate 
+Ships and mobile offshore units required to have a Ballast Water Management Certificate shall be subject to the 
+following supervision in order to demonstrate compliance with the requirements for ballast water treatment: 
+a)  initial survey before the certificate may be issued for the first time; 
+b)  renewal survey every five years; 
+c)  intermediate survey within three months before or after the second or third anniversary date of the certificate. 
+The intermediate survey may take the place of the annual survey required by subparagraph d; 
+d)  annual survey within a time interval limited to three months before or after each anniversary date of the 
+certificate. 
+If a change, replacement or substantial repair is carried out of the structure, equipment, systems, fittings, arrangements 
+and material forming a part of the ballast water management system, a survey shall be carried out to verify compliance 
+with the requirements for ballast water treatment. 
+Completed surveys shall be documented by endorsement of the certificate by the Norwegian Maritime Authority or 
+other supervisory authorities. 
+Added by Regulation of 8 September 2017 No. 1369. 
+Section 34c  
+Supervision of ships not required to have Ballast Water Management Certificate 
+Ships engaged on foreign voyages that are not required to have Ballast Water Management Certificate, cf. section 11a, 
+shall be subject to survey for ballast water management in conjunction with: 
+a)  the initial survey and second or third renewal survey in a five-year period for Passenger Ship Safety 
+Certificate; 
+b)  the initial survey, renewal survey and second or third periodical survey during the certificate period for High-
+Speed Craft Safety Certificate; 
+c)  the initial survey and intermediate survey during the certificate period for trading certificate for cargo ships; 
+d)  the initial survey and intermediate survey during the certificate period for trading certificate for fishing 
+vessels. 
+Added by Regulation of 8 September 2017 No. 1369. 
+Chapter 4  
+The validity of certificates  
+and the company’s duty to report 
+Section 35  
+Calculation of the expiry date of the certificates 
+(1)  At the initial issue of certificates, the expiry date is calculated from the date of completion of the initial survey. 
+(2)  At renewal of certificates, the new expiry date is calculated from: 
+a)  the expiry date for the existing certificate when the renewal survey is completed three months before the 
+expiry date of the existing certificate or later; 
+b)  the date of completion of the renewal survey when it is completed more than three months before the expiry 
+date of the existing certificate. 
+(3)  When ships or mobile offshore units have been laid-up or have been inoperative due to repairs and changes over 
+a significant period of time, the new duration of certificates may be calculated from the date of the renewal survey even 
+when this is completed after the expiry date of the existing certificate. 
+(4)  When annual, intermediate or periodical survey is carried out before the time periods indicated in the Regulations: 
+a)  the anniversary date of the certificate shall be amended by endorsement to a date which shall not be more 
+than three months later than the date on which the survey was completed; 
+b)  the expiry date of the certificate may remain unchanged, if surveys are carried out in such a way that the 
+permitted intervals between required surveys are not exceeded. Section 36  
+Harmonisation of the expiry dates of the certificates 
+(1)  The expiry date of international certificates for passenger ships engaged on international voyages shall be 
+harmonised with the anniversary date of the Passenger Ship Safety Certificate. The expiry date of certificates with a 
+five-year validity shall be harmonised with the expiry date of the ship’s International Load Line Certificate. 
+(2)  The expiry date of international certificates for cargo ships shall be harmonised with: 
+a)  the expiry date of the class certificate when the certificate is issued by a recognised classification society; 
+b)  the expiry date of the Cargo Ship Safety Construction Certificate, for cargo ships not classed by a recognised 
+classification society; 
+c)  the expiry date of the International Load Line Certificate, for cargo ships of less than 500 gross tonnage not 
+classed in a recognised classification society. 
+(3)  The expiry date of the Maritime Labour Certificate need not be harmonised pursuant to the first and second 
+paragraphs. 
+Section 37  
+Extension of the validity of the certificates 
+(1)  The certificates of cargo ships, barges, passenger ships and mobile offshore units may be endorsed to extend the 
+validity by up to five months from the expiry date of the certificates, when a renewal survey has been completed and the 
+new certificate cannot be placed on board the ship or the mobile offshore unit before the expiry date of the existing 
+certificate. The first sentence shall apply accordingly to Ballast Water Management Certificates for fishing vessels. 
+(2)  Cargo ships, barges and passenger ships engaged on foreign voyages or a mobile offshore unit, which are not in 
+a port where the survey may be conducted before the expiry of the certificates, may upon application from the company 
+have their certificates endorsed to extend the validity by up to three months. The extension may only be granted for the 
+purpose of allowing the ship or mobile offshore unit to complete a voyage to a port where it may be surveyed, and only 
+when the extension is justifiable. The provisions of the first and second sentence shall apply accordingly to Ballast Water 
+Management Certificates for fishing vessels. 
+(3)  Fishing vessels may have the validity of the Trading Certificate of Compliance for fishing vessels extended by up 
+to one year when the Norwegian Maritime Authority finds it reasonable, the validity of the certificate has not previously 
+been extended, and a complete survey of the interior of the vessel, and an inspection of the outside as far as possible 
+without placing the vessel in dock or a slipway, show that the vessel complies with the certificate requirements. 
+(4)  Fishing vessels which are not in a Norwegian port when the trading certificate expires, may have the validity of 
+the certificate extended until the vessel arrives at a port where the survey may be carried out, however not by more than 
+five months after the original expiry date. 
+(5)  Ships or mobile offshore units with a certificate issued for a short voyage where the certificate has not been 
+extended pursuant to the first or second paragraph, may upon application from the company have the certificate endorsed 
+to extend the validity by up to one month from the expiry date of the certificate. Short voyage means a voyage where 
+neither the voyage from the port of departure to the port of destination nor the return voyage exceeds 1,000 nautical 
+miles. The provisions of the first and second sentence shall apply accordingly to Ballast Water Management Certificates 
+for fishing vessels. 
+(6)  Fishing vessels with a certificate which has not been extended pursuant to the fourth paragraph, may be granted 
+an extension of the validity of the certificate of up to one month. 
+Amended by Regulation of 8 September 2017 No. 1369. 
+Section 38  
+Availability of certificate 
+(1)  Original certificates pursuant to these Regulations shall be readily available on board for control purposes. 
+(2)  The MLC report from the inspection of working and living conditions shall be made available to all persons 
+working on board. The Maritime Labour Certificate and the Declaration of Maritime Labour Compliance shall be posted 
+on board in a place where they are available to all persons working on board. 
+Section 39  
+Cease of certificate validity 
+(1)  A certificate ceases to be valid when: 
+a)  it has expired; 
+b)  supervision has not been completed within the prescribed deadlines; 
+c)  the certificate has not been endorsed by the Norwegian Maritime Authority or other supervisory authorities; 
+d)  the ship or mobile offshore unit is transferred to another country's ship register; e)  significant changes have been made to the ship or the mobile offshore unit, or to equipment on board, without 
+supervision being carried out; 
+f)  the condition of the hull, machinery or equipment of the ship or the mobile offshore unit is deteriorated to 
+such an extent that the requirements which form the basis for the certificate are no longer satisfied.  
+(2)  A certificate which has ceased to be valid, may become valid again when the invalidity is due to lack of supervision 
+and the supervision in question is completed, or when the certificate is endorsed by the Norwegian Maritime Authority 
+or other supervisory authorities. 
+(3)  The Norwegian Maritime Authority may require more comprehensive supervision when supervision has not been 
+completed within the prescribed deadlines. 
+Section 40  
+The company’s duty to report 
+The company shall report to the Norwegian Maritime Authority when: 
+a)  a ship or mobile offshore unit has been involved in an accident or other incident, or a deficiency is discovered, 
+either of which affects the safety in such a way that the validity of the certificate could be influenced. When 
+the ship or mobile offshore unit is in the port of another State, the appropriate authorities of that State shall 
+also receive a report; 
+b)  the class of a ship or mobile offshore unit in a recognised classification society is deleted. The reason for the 
+deletion shall be stated. 
+Chapter 5  
+Concluding provisions 
+Section 41  
+Exemptions 
+(1)  The Norwegian Maritime Authority may grant exemptions from the certificate requirements of these Regulations 
+when the company upon written application establishes that the exemption will be justifiable in terms of safety. An 
+exemption may be granted to: 
+a)  a ship engaged on domestic voyages which shall undertake a single voyage in a greater trade area than the 
+trade area for which is it certified, even if the voyage to be undertaken is a foreign voyage; 
+b)  a ship engaged on domestic voyages which shall to carry more passengers than the number of passenger for 
+which it is certified; 
+c)  a ship which, by way of compensating measures, maintains the same level of safety as required by these 
+Regulations; 
+d)  a ship which shall do a trial run; 
+e)  a cargo ship for which, at the intermediate survey or at the second or third annual survey during a certificate 
+period, a bottom inspection is required when the ship is dry. Such an exemption requires that a satisfactory 
+bottom inspection of the ship can be carried out with the ship afloat. 
+(2)  Ships and mobile offshore units may be granted an exemption from requirements of these Regulations if the 
+enforcement of the requirements for construction, rescue and radio means that innovative solutions cannot be used. For 
+ships or mobile offshore units which shall be engaged on international voyages, an exemption pursuant to this paragraph 
+may be granted from any requirement if the State at which the ship is to call is informed of and accepts the exemption. 
+Section 42  
+Entry into force 
+(1)  These Regulations enter into force on 1 January 2015. 
+(2)  As from the same date, the following regulations are repealed: 
+a)  Regulations of 15 June 1987 No. 506 on survey for the issue of certificates to passenger ships, cargo ships 
+and lighters, and concerning other surveys, etc.; 
+b)  Regulations of 4 September 1987 No. 855 on notification of newbuilding, survey, and certification etc. of 
+mobile offshore units. 
+Section 43  
+Amendments to other regulations 
+From 1 January 2015 the following amendments are made to other regulations: Regulations of 19 August 2013 No. 998 on the right to lodge complaints for persons working on board are amended 
+as follows: - - - 
+Regulations of 28 March 2000 No. 305 on surveys, construction and equipment of passenger ships engaged on 
+domestic voyages are amended as follows: - - - 
+Regulations of 13 June 2000 No. 660 on the construction, operation, equipment and surveys of fishing vessels of 15 m 
+in overall length (LOA) and over are amended as follows: - - - 
+Regulations of 8 February 2011 No. 130 on vessels used in oil recovery operations are amended as follows: - - - 
+Regulations of 16 October 1991 No. 853 on standby vessels are amended as follows: - - - 

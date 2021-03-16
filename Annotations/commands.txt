@@ -1,0 +1,16 @@
+ssh -i LightsailDefaultKey-eu-central-1.pem bitnami@3.121.113.34
+
+scp -i all_patterns.jsonl bitnami@3.3.121.113.34:~/
+scp -i LightsailDefaultKey-eu-central-1.pem all_patterns.jsonl bitnami@3.121.113.34:~/
+------------------------------------------------------------------------------------------------------
+ssh -i key.pem bitnami@3.121.113.34
+scp -r -i key.pem Benjamin bitnami@benjamin.merkmineord.tech:~/
+
+
+torleif: torleif.merkmineord.tech 
+fo: fo.merkmineord.tech 
+bjornar: bjornar.merkmineord.tech 
+
+scp -r -i key.pem Torleif bitnami@:18.198.141.102~/
+scp -r -i key.pem FO bitnami@:3.124.91.181~/
+scp -r -i key.pem Bjornar bitnami@18.156.182.99~/

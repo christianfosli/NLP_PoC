@@ -1,0 +1,1641 @@
+Regulations of 19 December 2014 No. 1853 on  
+the construction and supervision of small cargo ships 
+Legal basis: Laid down by the Norwegian Maritime Authority on 19 December 2014 under the Act of 16 February 2007 No. 9 relating to ship safety 
+and security (Ship Safety and Security Act) section 2 third paragraph, sections 6, 9, 11, 12, 13 and 21, section 41 third paragraph, section 43 fifth 
+paragraph, sections 45 and 47, cf. Formal Delegation of 16 February 2007 No. 171 and Formal Delegation of 31 May 2007 No. 590.  
+EEA references: EEA Agreement Annex II chapter XIX point 1 (Directive 98/34/EC as amended by Directive 98/48/EC). 
+Amendments: Amended by Regulations of 18 December 2015 No. 1769, 20 December 2017 No. 2379, 14 January 2020 (in force on 1 February 2020). 
+Chapter 1 
+General provisions 
+Section 1 
+Scope of application 
+(1)  These Regulations apply to Norwegian cargo ships of 8 metres and above in overall length, but of less than 24 
+metres in length (L). 
+(2)  These Regulations do not apply to ships:  
+a)  of less than 15 metres in overall length which shall not carry out towing operations and which: 
+i.  carry maximum 1,000 kg of cargo; and 
+ii.  carry out hoists where the heeling moment arm does not exceed 0.100 metres. Heeling moment arm 
+means heeling moment divided by the ship's displacement (MK/displ.); 
+b)  which are covered by the scope of application of Regulations on vessels of less than 24 metres carrying 
+12 passengers or less, and which are engaged only in activities described therein; 
+c)  of 500 gross tonnage and upwards. 
+Amended by Regulation of 14 January 2020 (in force on 1 February 2020). 
+Section 2 
+Ships used for research and training purposes 
+(1)  Ships which for research or training purposes are used for catching fish, whales, seals or other living resources in 
+the sea shall comply with the requirements applicable to fishing vessels, including the requirement for vessel instructions 
+for fishing vessels. 
+(2)  Ships used for training related to certificates for deck officer class 5 pleasure craft may comply with the 
+requirements applicable to recreational craft. 
+Section 3 
+Requirements for ships with building contract  
+placed before 1 January 2015 and delivered before 1 January 2016 
+(1)  Ships for which the building contract was placed before 1 January 2015 and which are delivered before 1 January 
+2016 shall comply with the provisions of the Norwegian regulations in force at the time of construction of the ship. Later 
+amendments applicable to existing ships, as laid down in regulations previously in force, and in chapter 11 of these 
+Regulations, also apply. For ships without building contract, the keel shall be laid or they shall be at a similar stage of 
+construction before 1 April 2015. 
+(2)  The Norwegian Maritime Authority may order that the ship, wholly or partly, shall comply with requirements 
+applicable to ships for which the building contract is placed on or after 1 January 2015 or which are delivered on or after 
+1 January 2016, in the event of: 
+a)  modifications in the use or operation; 
+b)  replacement of equipment; 
+c)  repairs, 
+d)  conversions; 
+e)  increased draught; 
+or for other reasons, after a specific assessment of safety based on the general structural design, equipment, 
+arrangement and condition of the ship. Section 4 
+Definitions 
+For the purpose of these Regulations, the following definitions shall apply: 
+a)  “Anchor-handling”: work involving anchoring and mooring of floating constructions. Work involving the 
+anchoring and mooring of light objects, such as a light floating wharf or similar, is not considered anchor-
+handling.  
+b)  “Cargo ship”: a ship which is not a passenger ship, fishing vessel, barge, recreational craft or a vessel 
+considered to be a part of another ship's outfitting.  
+c)  “Closed ship”: a ship with deck which can be closed weathertight from the stern to the stem uninterrupted 
+by other than superstructure or deckhouse so constructed that sea water will not flood spaces below deck.  
+d)  “MK”: Nordic Boat Standard: Materials and Components for Commercial Boats of less than 15 metres, 1990. 
+e)  “Passenger ship”: ships required to have Passenger Certificate.  
+f)  “Towing”: towing or pushing of one or more objects. The towing of light objects, such as a dinghy or a light 
+floating wharf or similar, is not considered towing as per this definition.  
+Section 5 
+Acceptance of equivalent legislation in another EEA country 
+As an alternative to chapters 2 to 7 of these Regulations, a ship may be constructed in compliance with a complete 
+and equivalent body of legislation in another EEA country. The body of legislation shall be accepted as equivalent by 
+the Norwegian Maritime Authority before the construction commences. The same applies when purchasing ships from 
+another EEA country.  
+Section 6 
+Maintenance requirements 
+The ship and appurtenant equipment shall be maintained in accordance with the manufacturer’s recommendations or 
+with recognised methods. The company shall have a plan for such maintenance.  
+Chapter 2 
+Construction 
+Section 7 
+Construction requirements 
+(1)  The ship’s: 
+a)  hull;  
+b)  outfitting;  
+c)  watertight bulkheads; and 
+d)  means of closure for openings in:  
+1.  bulkheads;  
+2.  superstructures; and 
+3.  deckhouses; 
+shall be in compliance with the requirements for:  
+a)  material properties; 
+b)  construction; 
+c)  strength; and 
+d)  watertight integrity; 
+in one standard or set of rules. 
+(2)  The standard or set of rules mentioned in the first paragraph shall be appropriate to the ship being constructed 
+with regard to construction material, size, type and use, and shall either be from a recognised classification society or 
+another accepted recognised standard.  
+(3)  Sections 8 to 25 apply regardless of selected standard or set of rules pursuant to this section. Section 8 
+Requirements for strengthening of hull 
+Areas of the hull which may be subjected to increased loads or damages shall be strengthened. Areas which cannot 
+be strengthened shall have an internal watertight barrier preventing further flooding of the ship in the event of damage. 
+Section 9 
+Ice-strengthening requirements 
+(1)  Ships operating in areas with ice shall be strengthened for ice.  
+(2)  The ice-strengthening of the ship shall be done in accordance with rules from a recognised classification society.  
+(3)  For ships constructed in accordance with the Nordic Boat Standard for Commercial Boats less than 15 metres, 
+1990, C33 in the same standard applies. 
+Section 10 
+Requirements for production conditions  
+for ships constructed of cast materials 
+For ships constructed wholly or partly of reinforced fibre glass polyester or other cast materials, the production 
+conditions shall comply with rules for production conditions from a recognised classification society, or Nordic Boat 
+Standard for Commercial Boats less than 15 metres, 1990, C26 for ships constructed in accordance with this standard. 
+Section 11 
+Requirements for anchor and mooring equipment 
+(1)  Ships shall have anchor and mooring equipment. 
+(2)  The anchor and mooring equipment shall be in accordance with the rules of a recognised classification society.  
+(3)  For ships of less than 15 metres the anchor and mooring equipment may be in accordance with the Nordic Boat 
+Standard for Commercial boats less than 15 metres, 1990, C16. 
+Section 12 
+Requirements for foundations for lifting equipment  
+for life-saving appliances 
+The foundations of davit, crane and other lifting equipment for life-saving appliances shall be dimensioned with a 
+safety factor of 4.5 against the tensile strength of the material. 
+Section 13 
+Requirements for towing winch or towing hook  
+when towing in small coasting or lesser trade area 
+(1)  Ships carrying out towing operations in small coasting or lesser trade area shall be equipped with a towing winch 
+or towing hook. The towing hook shall be mounted in such a way that it can move freely in the horizontal and vertical 
+sectors in which the towline can move.  
+(2)  The tow shall be attached to the towing winch or towing hook. 
+(3)  The towing equipment shall be so arranged as to make it possible to maintain control of the tow, even under poor 
+weather conditions. The tow connection shall be protected from wear due to movement of the tow, and shall be long 
+enough or be so arranged that the effect of shock loads is reduced. 
+(4)  When towing in a trade area greater than protected waters, a complete spare tow connection shall be available. 
+This shall be so arranged that it is readily available for use under all weather conditions. 
+Section 14 
+Requirements for towing equipment for smaller tows  
+in trade areas 1 and 2 
+(1)  Ships carrying out towing operations in trade areas 1 or 2 may as an alternative to towing winch or towing hook 
+have towing mountings or other equipment suitable for towing the object in question, when the towed object is less than 
+15 metres and does not carry cargo. (2)  The tow shall be capable of being quickly released at maximum bollard pull. 
+(3)  Sections 16 and 17 do not apply to ships covered by the first paragraph.  
+Section 15 
+Requirements for stern roller, winch, guide pins,  
+shark-jaw and safety zone for anchor-handling operations  
+in small coasting and lesser trade area 
+(1)  Ships carrying out towing operations in small coasting or lesser trade area shall have stern roller and winch. 
+(2)  The ship shall have a safety zone where the crew may stay when the anchor-handling equipment is in operation. 
+(3)  Ships pursuant to the first paragraph shall have guide pins that can be closed and shark-jaw appropriate to the 
+vessel’s intended operations not later than 1 January 2018. 
+Section 16 
+Requirements for emergency release for towing or  
+anchor-handling in small coasting or lesser trade area 
+(1)  In ships carrying out towing or anchor-handling operations in small coasting or lesser trade area, winch, towing 
+hook, guide pins and shark-jaw shall be fitted with a reliable and appropriate emergency release mechanism for releasing 
+tow or load.  
+(2)  Emergency release shall be possible: 
+a)  without manual handling on or in the vicinity of the equipment;  
+b)  from the control panel for the equipment; 
+c)  from the relevant steering position for the ship; 
+d)  in dead ship situations; and 
+e)  at the safe working load (SWL) for the equipment in question. 
+(3)  When the emergency release mechanism is activated, the tension on the line shall be gone within 10 seconds.  
+Section 17 
+Requirements for automatic audible alarm  
+in small coasting or lesser trade area 
+Ships operating in small coasting or lesser trade area with shark-jaw or guide pins that can be closed shall be fitted 
+with automatic audible alarm on the working deck. The alarm shall be sounded when the equipment is set in motion. 
+Section 18 
+Requirements for dimensioning, etc. of equipment  
+and arrangement for towing or anchor-handling  
+in small coasting or lesser trade area 
+(1)  The requirements of this section apply to ships operating in small coasting or lesser trade area. 
+(2)  Towing hooks, guide pins, cruciform bollards, roller hawses and similar with foundation and mounting shall be 
+dimensioned for the maximum continuous pull (bollard pull) of the vessel with a safety factor of at least 5 in relation to 
+the tensile strength of the material or of 3.5 in relation to the minimum yield stress of the material (RₑH). For materials 
+without an easily defined yield point, the 0.2 per cent proof stress (offset yield stress), i.e. the stress at which the material 
+undergoes a 0.2 per cent non-proportional extension (RP0.2), shall be used instead of RₑH. The same applies to shark-
+jaw with foundation and mounting, but a force corresponding to 120 per cent of the SWL of the winch shall be used 
+instead of bollard pull.  
+(3)  As an alternative to the requirements of the second paragraph, the mentioned equipment with foundation and 
+mounting may be dimensioned in accordance with a standard or a set of rules from a recognised classification society. 
+The standard or set of rules shall be appropriate to the equipment. 
+(4)  For shark-jaws, the following technical requirements for materials apply: 
+a)  elongation shall be minimum 12 per cent;  
+b)  notched impact resistance shall be minimum 50 J on average of three single tests at room temperature, where 
+no test value shall fall below 40 J;  
+c)  hardness value shall be minimum 320 HV Vickers. 
+(5)  Dimensioning and testing of winch for towing and winch for anchor-handling shall be in accordance with ISO 
+7365. The towing line and anchor-handling line shall, when using winch, be dimensioned in accordance with point 4.5.1 
+of ISO 7365. The foundation and mounting of the winch shall be dimensioned for the SWL of the winch with a safety factor of at least 5 in relation to the tensile strength of the material or of 3.6 in relation to the minimum yield stress of 
+the material (RₑH). For materials without an easily defined yield point, the 0.2 per cent proof stress (offset yield stress), 
+i.e. the stress at which the material undergoes a 0.2 per cent non-proportional extension (RP0.2), shall be used instead 
+of RₑH.  
+(6)  For towing with towing hook, all components of the towing line shall be dimensioned against breakage with a 
+safety factor of at least 3 in relation to the bollard pull of the ship. 
+(7)  When equipment for towing or anchor-handling may be subjected to forces in horizontal or vertical direction, 
+such equipment shall at least be dimensioned for the ship's bollard pull in the least favourable directions from 0 to 60 
+degrees to either side in relation to the ship's centre line and 30 degrees upwards in relation to the horizontal plane. 
+(8)  All movable equipment used in connection with towing and anchor-handling operations, such as shackles, rings, 
+wires and hawsers, shall be certified. 
+Section 19 
+Requirement for documentation to be kept on board 
+Certificates for movable equipment and the documentation for the towing arrangement and anchor-handling 
+arrangement shall be kept on board. 
+Section 20 
+Requirements for equipment and arrangement for towing  
+or anchor-handling in great coasting or greater trade area 
+Ships carrying out towing or anchor-handling operations in great coasting or greater trade area shall comply with the 
+requirements of the Regulations of 1 July 2014 No. 1072 on the construction of ships, sections 12, 13, 14 and 16.   
+Section 21 
+Requirements for watertight subdivision on closed ships 
+(1)  Closed ships of less than 15 metres in overall length shall have at least two watertight bulkheads. 
+(2)  Closed ships of 15 metres in overall length and upwards shall have at least three watertight bulkheads, whereof 
+one bulkhead shall be a collision bulkhead at a distance of at least 0.05L from the forward perpendicular. 
+(3)  Collision bulkheads on closed ships having a whole superstructure or a superstructure in the fore-body which is 
+longer than one-fourth of the ship's length, shall be extended weathertight to the first deck above the freeboard deck. 
+Where the extension is not located directly above the collision bulkhead below, the part of the deck which forms the step 
+shall be weathertight. Openings in the collision bulkhead above the freeboard deck shall be capable of being closed 
+weathertight. 
+Section 22 
+Requirements for openings in watertight bulkheads on closed ships 
+(1)  Watertight bulkheads on closed ships shall have as few openings as possible. Cable and pipe penetrations shall be 
+so designed and constructed that the watertight integrity of the bulkhead is maintained. 
+(2)  Doors and hatches in watertight bulkheads shall also be watertight and of equivalent strength to the unpierced 
+bulkhead. Manholes shall be bolted tight. 
+Section 23 
+Requirements for openings in collision bulkheads on closed ships 
+Collision bulkheads below the freeboard deck on closed ships shall not have openings or penetrations. When a tank 
+for liquid has been arranged in front of the collision bulkhead, the collision bulkhead may have a pipe penetration in 
+order to convey this liquid. This pipe shall have a valve fitted where the pipe penetrates the bulkhead. The valve shall 
+be operable from above the freeboard deck. 
+Section 24 
+Requirements for moving parts penetrating the hull  
+(1)  Ships with moving parts penetrating the hull below the deepest waterline, such as sonar, shall have an internal 
+watertight barrier which prevents the further flooding of the ship in the event of a leak. The compartment that can be 
+flooded shall not be greater than what is necessary to be able to carry out maintenance, repairs and similar.  (2)  Openings in the internal watertight barrier below the freeboard deck shall have watertight means of closure of the 
+same strength as the adjacent structure. The means of closure shall be marked on both sides stating that it shall be kept 
+closed while at sea. The compartment within the opening shall have a water level meter with an alarm to the wheelhouse 
+which is activated when the water level in the compartment reaches a maximum of 0.3 m. 
+Section 25 
+Requirements for constructional adaptation for loading and unloading  
+ILO Convention No. 152 shall apply as regulation when the Convention has constructional significance. 
+Chapter 3 
+Stability documentation 
+Section 26 
+Requirements for preparation of stability information 
+(1)  Before the ship is put into service, stability information shall be prepared to enable the master by rapid and simple 
+processes to obtain accurate guidance as to the ship’s trim and stability under all conditions. 
+(2)  Hull geometry, hydrostatics, cross curves, limit curves and supporting documentation shall be prepared by means 
+of software listed on the Norwegian Maritime Authority's list of approved stability calculation programs. 
+Section 27 
+Requirements for stability information to be kept on board 
+(1)  A stability poster with information about the ship's limitations shall be posted in the wheelhouse. The stability 
+poster shall at least include the following information, as appropriate for the ship: 
+a)  type of cargo and maximum amount of cargo in cargo spaces and on decks pursuant to sections 30 to 32; 
+b)  use of ballast; 
+c)  limitations when using anti-rolling tank(s); and 
+d)  the ship's capacities with regard to towing, anchor-handling and use of crane.  
+(2)  The following stability documentation shall be kept on board: 
+a)  tank plan, and tables or curves stating, as a minimum, the volume, centre of gravity and free surface effects 
+at different levels for each tank;  
+b)  hydrostatics; 
+c)  cross curves; 
+d)  limit curves; 
+e)  loading conditions; 
+f)  examples of the preparation of other loading conditions and control against permitted limit curves. 
+Section 28 
+Requirements for determination of lightship data  
+(1)  The ship shall be subjected to an inclining test when construction and equipping is completed. The actual 
+displacement and position of the centre of gravity for the lightship condition shall be determined before the ship is put 
+into service.  
+(2)  When several ships are constructed in a series with identical main dimensions, identical structure and hull design, 
+and with equal weight and placement of equipment, the first two ships in the series shall be subjected to an inclining 
+test. For the next ships in the series, the inclining test may be omitted if it can be documented, by calculation or weighing, 
+that the deviation of the lightship weight is less than 2 per cent, and that the deviation of the longitudinal centre of gravity 
+is less than 1 per cent of the overall length.  
+(3)  Within ten years after the last approved lightship data, a displacement measurement shall be made. A new 
+inclining test shall be performed whenever a deviation in the lightship weight exceeding 2 per cent of the ship’s weight, 
+or a deviation of the longitudinal centre of gravity exceeding 1 per cent of overall length, is found or anticipated.  
+(4)  Where alterations are made to a ship affecting its lightship condition or the position of the centre of gravity, an 
+approved company or the Norwegian Maritime Authority shall consider whether the ship shall be re-inclined or whether 
+previously determined lightship data can be accepted with corrections for the alterations made. Revised stability 
+calculations shall be prepared based on new lightship data following alterations.  
+(5)  Inclining tests and displacement measurements shall be performed according to procedures laid down by the 
+Norwegian Maritime Authority. Section 29 
+Requirements for determination of bollard pull 
+For ships carrying out towing or anchor-handling operations, the maximum continuous pull (bollard pull) shall be 
+determined by way of a towing test in accordance with procedures laid down by the Norwegian Maritime Authority. 
+Section 30 
+Requirements for preparation of loading conditions  
+(1)  Loading conditions which cover all operations of the ship shall be calculated, including the following loading 
+conditions and any less favourable cargo distributions, if they are relevant with regard to the operation of the ship:  
+a)  ship fully equipped without cargo;  
+b)  ship fully equipped with cargo holds fully loaded and the cargo is homogeneously distributed in all holds, 
+including hatches;  
+c)  ship fully equipped with maximum deck cargo and any cargo below deck homogeneously distributed;  
+d)  ship fully equipped with maximum deck cargo. 
+(2)  For the loading conditions described in the first paragraph subparagraphs c and d, the stowage weight of the deck 
+cargo and the length, breadth, height and centre of gravity of the deck cargo shall be given in the calculations. 
+(3)  The loading conditions described in the first paragraph subparagraphs a to c shall be calculated for the ship with 
+100 per cent stores and 100 per cent fuel, and with 10 per cent stores and 10 per cent fuel. 
+(4)  In the loading conditions described in the first paragraph subparagraphs b and c the ship shall be loaded to the 
+deepest waterline.  
+(5)  For ships with openings or ventilators for free flooding or circulation in wells, loading conditions as described in 
+subparagraphs a to f below shall be calculated instead of the loading conditions of the first paragraph subparagraphs a 
+to d:  
+a)  ship fully equipped, with 100 per cent stores and 100 per cent fuel, empty well and without cargo in cargo 
+holds, if any; 
+b)  as for subparagraph a, but with 10 per cent stores and 10 per cent fuel; 
+c)  ship fully loaded, with 100 per cent stores and 100 per cent fuel, full equipment, flooded well and the amount 
+of water ballast necessary to obtain immersion in accordance with the freeboard; 
+d)  as for subparagraph c, but with empty water ballast tanks; 
+e)  ship fully loaded, with 10 per cent stores and 10 per cent fuel; 
+f)  ship with cargo well partly loaded, indicating the least favourable stability situation that will occur with 
+regard to free surfaces, cargo distribution, etc.  
+(6)  If a ship pursuant to the fifth paragraph is constructed so that the water level inside the well can be increased in 
+relation to the water level outside, stability calculations shall be prepared showing that the requirements for stability 
+have been complied with in such loading conditions. The water level inside the well shall not be below the water level 
+outside in any loading conditions. 
+(7)  When ships carry liquid cargo, and the specific weight of the cargo in the homogeneous conditions is less than for 
+sea water, fully loaded conditions with specific weight as for sea water shall in addition be calculated taking into account 
+the free surface effects. 
+(8)  For ships equipped with one or more anti-rolling tank(s), the stability calculations shall take due account of the 
+reduction in stability caused by the use of such tank(s). If the anti-rolling tank(s) for stability reasons cannot be used for 
+all loading conditions, instructions for the use of the tank(s) shall be prepared, as well as loading conditions 
+corresponding to the instructions. 
+(9)  If the amount of water ballast is different in the departure condition and the arrival condition, intermediate 
+conditions shall be calculated indicating when water ballast shall be replenished or drained. The calculations shall 
+indicate the stability situation immediately prior to replenishing or after drainage of water ballast. 
+(10) If, in one particular condition, there is a need to use water ballast or a particular distribution of stores in order to 
+achieve a particular capacity, the stability manual shall give clear instructions on the necessary quantity and placement. 
+Section 31 
+Requirements for preparation of additional conditions for ships  
+carrying out towing, crane or anchor-handling operations 
+(1)  When ships carrying out towing operations do not comply with the towing criteria of section 38 when the ship is 
+loaded in accordance with section 30 first paragraph subparagraphs a to d, corrected loading conditions shall be 
+calculated, showing the limitations of the loading capacity during towing operations.  
+(2)  For ships carrying out crane operations, the maximum permitted heeling moment from crane when the ship is 
+loaded as described in section 30 first paragraph subparagraphs a to d shall be calculated. The calculations shall be based 
+on the criteria of section 39. Information regarding maximum permitted weight shall be calculated as a function of 
+extension and direction of the crane boom. The Safe Working Load (SWL) of the crane shall in no case be exceeded.  (3)  Ships carrying out anchor-handling operations shall calculate a loading condition where the ship is fully equipped 
+and loaded in the least favourable condition under which the ship can carry out anchor-handling operations. The stability 
+criteria of section 39 shall be met when the maximum pulling force of the winch is placed as a weight in the stern. The 
+weight shall be placed in the outermost point bounding the area of movement of the anchor-handling line. If limitations 
+of the loading capacity or similar are assumed, this shall be clearly stated in the instructions for the master in the stability 
+manual. 
+Section 32 
+Requirements for preparation of additional conditions for ships 
+operating in areas where there is a danger of ice accretion  
+(1)  When the ship is operating in areas where there is a danger of ice accretion: 
+a)  loading conditions with the weight of ice added shall be prepared; 
+b)  the ship shall be capable of satisfying the stability requirements in all loading conditions, with the weight of 
+ice added; and 
+c)  the weight of ice shall not cause submersion of the deepest waterline. 
+(2)  The weight of ice shall be assumed to be at least 30 kg/m2 for exposed weather decks, gangways and front 
+bulkheads of superstructures and deckhouses, and at least 7.5 kg/m2 for projected lateral planes on both sides of the ship 
+above the waterline. The weight of ice on non-continuous surfaces such as railings, rigging, spars (except masts) and 
+equipment shall be included by increasing the total area of the projected lateral plane of the ship’s sides by 5 per cent. 
+The static moment of this area shall be increased by 10 per cent.  
+Section 33 
+Preconditions to apply when calculating loading conditions 
+For the calculation of the loading conditions described in sections 30 to 32, the following shall apply: 
+a)  In the fully loaded conditions, the cargo shall be assumed to be homogeneously distributed among all holds, 
+hatch coamings and trunks, if any.  
+b)  When calculating the free surface effects in tanks for consumable liquids it shall be assumed that, for each 
+type of liquid, at least one pair of transverse side tanks or at least one centre tank has a free surface. The 
+tank(s) that shall be assumed to have free liquid surface shall be the tank(s) where the free surface effects 
+are the largest. The maximum free surface effects that the tank(s) can have between associated departure 
+condition and arrival condition shall be used as basis. 
+c)  For  vessels  with  cargo  wells  arranged  with  free  flooding  of  the  well,  in  other  words  with  direct 
+communication to the sea, the following shall in addition apply: 
+1.  The loading conditions shall be calculated with correction for free surface effects in the cargo well. 
+Cargo holds shall be included in the stability calculations as an integrated part of the hull, and 
+documented in the specifications for the other parts of the hull. The specific weight of the cargo shall 
+be set at 1.025 tonnes/m3 for such calculations.  
+2.  When the ship is fully fuelled and fully equipped, the draught shall not exceed the draught 
+corresponding to the assigned freeboard. The water level inside the well shall then be regarded as equal 
+to the water level outside.  
+Section 34 
+Requirements for calculation of stability curves 
+(1)  Hydrostatic curves shall be laid out, containing the hydrostatic parameters necessary for the calculation of the 
+stability. 
+(2)  The cross curves shall be calculated for a sufficient number of angles of heel, depending on the shape and size of 
+the ship. 
+(3)  In the calculation of cross curves the ship shall be capable of trimming freely during heeling. 
+(4)  Hydrostatic curves, cross curves and KG limit curves shall be calculated for the ship without trim, for maximum 
+trim and for intermediate trim values. The curves shall be calculated for a total of at least three trim values. 
+(5)  Superstructures, deckhouses, trunks, etc. may be included in the buoyancy, provided that the openings in such 
+volumes are fitted with means of closure in accordance with these Regulations. 
+(6)  When the ship will sink due to flooding through an opening, the GZ curve shall be terminated at the angle of 
+flooding in question, and the ship shall be considered to have lost all stability. 
+(7)  The KG limit curves, or equivalent tables, shall show the maximum permissible height of the ship’s centre of 
+gravity for intact stability at various draughts and trim values. The KG limit curves shall be based on the stability criteria 
+applicable for the ship. KG limit curves shall be drawn up for trim values corresponding to those for which hydrostatics 
+and cross curves have been calculated. (8)  Ships carrying out towing or anchor-handling operations shall also have limit curves showing KG  during such 
+max
+operations. 
+Chapter 4  
+Stability criteria 
+Section 35 
+Stability requirements 
+(1)  All ships shall have sufficient stability and satisfactory trim in all relevant loading conditions. Any list shall be 
+avoided. 
+(2)  Ballast shall be located and secured so that it cannot shift. Permanent ballast shall not be removed or moved.  
+(3)  Where liquid ballast is to be used as permanent ballast, it shall be stored in sealed tanks which are completely full. 
+Detailed information thereof shall be included in the stability manual. 
+Section 36 
+Requirements for intact stability for closed ships 
+(1)  For closed ships, the following stability criteria shall be satisfied for all loading conditions, unless otherwise 
+provided by sections 38 to 40:  
+a)  The area below the righting arm curve (GZ curve) shall be at least 0.055 metre radians calculated up to an 
+angle of heel of 30 degrees, and at least 0.09 metre radians calculated up to 40 degrees or the angle of 
+flooding if that angle is less than 40 degrees. In addition, the area below the GZ curve between the heeling 
+angles of 30 and 40 degrees, or between 30 degrees and the angle of flooding if that angle is less than 40 
+degrees, shall be at least 0.03 metre radians.  
+b)  The righting arm (GZ) shall be at least 0.20 metres at an angle of heel of 30 degrees or more.  
+c)  The angle of heel at which the righting arm (GZ ) is at its maximum value shall not be less than 25 degrees.  
+max
+d)  The initial metacentric height (GM) shall be at least 0.15 metres.  
+(2)  When the ship because of its shape fails to comply with the first paragraph subparagraph c, the first paragraph 
+subparagraphs a and c may be replaced by the following: 
+a)  The area below the GZ curve shall be at least 0.07 metre radians calculated to an angle of heel of 15 degrees 
+when the maximum righting arm (GZ ) occurs at 15 degrees, and 0.055 metre radians up to 30 degrees 
+max
+when GZ  occurs at 30 degrees or more. When GZ  occurs between 15 and 30 degrees, the area 
+max max
+requirement below the GZ curve up to the angle where GZ  occurs shall be determined by this formula: 
+max
+Minimum area = 0.055 + 0.001 (30 degrees – θ ), 
+max
+where θ  is the angle where GZ  occurs. In addition the area below the GZ curve between 30 and 40 
+max max
+degrees, or between 30 degrees and the angle of flooding if the latter is less than 40 degrees, shall be not less 
+than 0.03 metre radians. 
+b)  The angle of heel where GZ  occurs shall not be less than 15 degrees.  
+max
+Section 37 
+Requirements for intact stability for open ships  
+Open ships shall comply with the Nordic Boat Standard for Commercial Boats less than 15 metres, 1990, C3 point 
+4, but with a requirement for minimum GM equal to 0.50 metres. 
+Section 38 
+Additional stability requirements  
+for ship carrying out towing operations  
+(1)  Ships carrying out towing operations shall be closed ships.  
+(2)  When a ship carrying out towing operations is exposed to a transverse force giving the ship a transverse speed 
+through the water of 5 knots, the first intersection between the heeling arm curve and the righting arm curve (GZ curve) 
+shall occur at an angle which is less than the angle of flooding.  
+(3)  When a ship carrying out towing operations is exposed to a transverse force equal to the ship’s bollard pull 
+multiplied by 0.65, the area between the righting arm curve (GZ curve) and the heeling arm curve calculated from the 
+first point of intersection to the angle which occurs first of 40°, the angle of GZ  and the angle of flooding, shall be 
+max
+equal to or greater than 0.010 metre radians. The vertical arm of the heeling moment shall be taken from the centre of 
+the propeller(s) to the fastening point of the hawser.  Section 39 
+Additional stability requirements when using crane  
+and in connection with anchor-handling operations 
+(1)  Ships which shall use deck crane, and ships which shall carry out anchor-handling operations, shall be closed 
+ships.  
+(2)  The maximum angle of heel due to heeling moment from the crane shall be 7 degrees, or the angle resulting in 
+parts of the freeboard deck being located 200 mm from the waterline, if this angle is smaller. The area between the 
+righting arm curve (GZ curve) and the heeling arm curve calculated from the first point of intersection to the angle which 
+occurs first of 40° and the angle of flooding, shall be equal to or greater than 0.090 metre radians.  
+(3)  The maximum angle of heel may be between 7 and 10 degrees if the following conditions are satisfied when the 
+crane or winch is operating at maximum loading moment: 
+a)  The righting arm curve (GZ curve) has a positive extent of at least 20 degrees beyond the state of equilibrium. 
+Flooding shall be assumed to take place through openings which do not have weathertight closing appliances. 
+b)  The area requirement of the second paragraph is satisfied. 
+c)  No parts of the freeboard deck are located less than 200 mm from the waterline. 
+(4)  Information from the manufacturer shall be available concerning the maximum angle of heel for which the cargo-
+handling appliance is intended. The maximum permitted angle of heel of the second and third paragraphs shall not exceed 
+the maximum angle of heel from the manufacturer. 
+(5)  If, when lifting by crane, counter ballasting is used in order to counterbalance heeling moment due to weight in 
+the crane, the consequence of loss of crane load shall be considered. 
+Section 40 
+Alternative stability requirements for vessels with cargo wells 
+Loading conditions for partly flooded wells may have a GZ  of at least 0.10 m and a positive GZ curve up to at 
+max
+least 20 degrees, provided that the flooding and discharging of the well takes place only in calm seas, and that the cargo 
+well is either completely empty or completely flooded when the vessel is at sea. 
+Chapter 5 
+Freeboard 
+Section 41 
+Freeboard requirements for closed ships 
+The freeboard shall be determined based on stability, trim and hull strength, etc., but shall in no place or in no loading 
+condition be less than 200 mm from the upper edge of the deck at side to the waterline. 
+Section 42 
+Requirements for indication of draught marks for closed ships 
+(1)  For ships of 15 metres and above in overall length, the draught marks and deck line shall be indicated on both 
+sides of the ship in accordance with the marking form laid down by the Norwegian Maritime Authority. 
+(2)  For ships of less than 15 metres in overall length, the draught marks shall be indicated on both sides of the ship in 
+accordance with the Nordic Boat Standard for Commercial boats less than 15 metres, 1990, C2.  
+Section 43 
+Freeboard requirements for open ships 
+(1)  The freeboard shall be determined based on stability, trim and hull strength, etc., but shall amidships not be less 
+than the greatest of: 
+a)  F= (4.5 x Δ) / (1000 x overall length x breadth) m 
+b)  F= 0.5 m 
+(2)  The forward freeboard shall not be less than 1.2F. The aft freeboard shall not be less than 0.8F. Chapter 6  
+Machinery and electrical installations 
+Section 44 
+Machinery requirements 
+(1)  Ships shall have machinery, generators, steering gear, pumps, piping systems, etc. in compliance with the Nordic 
+Boat Standard for Commercial boats less than 15 metres, 1990, C6 to C10. 
+(2)  The following equipment shall be type-approved by and in accordance with rules from a recognised classification 
+society: 
+a)  propulsion and auxiliary machinery, gears, etc. with a 100 kW rating and above, on ships of 15 metres in 
+overall length and upwards;  
+b)  steering gear installations with appurtenant control systems on ships of 15 metres in overall length and 
+upwards; 
+c)  boiler installations and pressure vessels with a working pressure of 3.5 bar or more; 
+d)  flexible pipes and hoses conveying flammable liquids. 
+(3) Couplings on oil fuel lines shall be screened to avoid oil spray onto hot surfaces or other sources of ignition. Such 
+piping systems shall have as few couplings as possible. Flexible hoses may only be used wherever necessary in order to 
+absorb movement between machinery and fixed piping system. 
+(4)  Oil tanks in machinery spaces shall, as far as practicable, have drip trays with sufficient capacity for the collection 
+of leakages from couplings. This also applies to the parts of the oil fuel system which are often opened for cleaning 
+purposes. 
+(5)  Air pipes from oil fuel tanks shall be led to open deck.  
+Section 45 
+Requirement for means of communication  
+in the event of emergency steering 
+Communication between the bridge and the emergency steering position shall be possible. 
+Section 46 
+Requirements for main source of power  
+Where the auxiliary services essential for the safety and propulsion of the ship are dependent on electrical power, the 
+ship shall have two or more main generating sets. One of the main generating sets may be operated by the main engine 
+for propulsion. 
+Section 47 
+Requirements for emergency source of electrical power  
+(1)  An emergency source of electrical power with emergency switchboard shall be provided. The emergency source 
+of power with emergency switchboard shall be located above the bulkhead in a space not contiguous to the boundaries 
+of machinery spaces, or those spaces containing the main source of electrical power or main switchboard. Machinery 
+spaces means spaces containing internal combustion machinery used for propulsion, internal combustion machinery with 
+a total power output of not less than 375 kW, oil-fired boilers or other oil-fired equipment such as gas generators, 
+incinerators, etc. 
+(2)  There shall be a clear division between the main and emergency source of power so that fire or other casualty or 
+malfunction in one installation does not affect the other.  
+(3)  The emergency source of electrical power shall be an accumulator battery or a generator that complies with the 
+requirements of section 48. The accumulator battery shall be capable of carrying the load pursuant to the requirements 
+of section 48 without recharging, with a reduction in the voltage of the battery limited to 12 per cent of its nominal 
+voltage. Where the emergency source of electrical power is a generator, the generator shall be provided with a separate 
+fuelling system.   
+(4)  The emergency source of electrical power shall be automatically connected in the event of loss of the main source 
+of electrical power. It shall be so arranged that it will operate efficiently even if the ship is listed to 22.5 degrees and the 
+trim of the ship is up to 10 degrees from an even keel.  
+(5)  The emergency switchboard shall be situated as close to the emergency source of electrical power as possible. 
+(6)  It shall be possible to restore propulsion to the ship from a dead ship condition within 30 minutes after a blackout.  
+(7)  The requirement for an emergency source of electrical power pursuant to the first paragraph shall be considered 
+to have been satisfied if: a)  the main source of power is located in two or more rooms which are not adjacent, and every room: 
+1.  has its own complete system, including power distribution and control systems; and 
+2.  is completely independent of each other, so that a fire or other accidents in any of the rooms will not 
+affect the power distribution from the others or to services listed in section 48;  
+b)  an emergency source of electrical power is installed above the bulkhead deck, which at least has the capacity 
+of supplying the services listed in section 48 first paragraph subparagraph a No. 1 and 2 and subparagraph 
+b.  
+Section 48 
+Requirements for the capacity of the emergency source of power  
+(1) The emergency source of electrical power shall be capable of operating the following services for three hours: 
+a)  emergency lighting: 
+1.  at every muster or embarkation station and over the sides;  
+2.  in all alleyways, stairways and exits giving access to the muster or embarkation stations;  
+3.  in the machinery spaces and at the source of emergency power;  
+4.  in the spaces where radio and main navigating equipment are situated; and 
+5.  at the fire pump and at the starting position of the fire pump's motor; 
+b)  navigation lights; 
+c)  internal means of communication necessary in an emergency situation;  
+d)  the fire detection system, the fire alarm system and the general alarm system; 
+e)  the ship’s sprinkler pump, if any and if it is electrically operated; and 
+f)  the ship’s daylight signalling lamp, if it is operated by the ship’s main source of electrical power. 
+(2)  On ships of 15 metres in overall length and upwards the emergency source of electrical power shall in addition 
+have sufficient capacity to supply the fire pump for 30 minutes. This does not apply if the fire pump can be operated for 
+30 minutes by another source of power which is located outside of the machinery space, and which is independent of 
+both the main and emergency sources of power. 
+Section 49 
+Requirements for transitional source of power for emergency generator 
+(1)  Where a generator is used as emergency source of power, a transitional source of electrical power shall be 
+provided. The transitional source of electrical power shall consist of one or more accumulator batteries, and shall be 
+capable of supplying electrical power for 30 minutes without recharging to:  
+a)  emergency lighting as laid down in section 48 first paragraph subparagraph a; and 
+b)  the fire detection system, the fire alarm system and the general alarm system. 
+(2)  If the emergency generator has automatic start and is capable of supplying services as mentioned in the first 
+paragraph within 45 seconds of loss of main power, the requirement for transitional source of power is considered to 
+have been satisfied. 
+Section 50 
+Requirements for power supply to the general  
+alarm system and public address system  
+The general alarm system and the public address system (PA system) shall be supplied with electrical power both from 
+the ship's main source of power and from an emergency source of power. 
+Chapter 7  
+Fire protection 
+Section 51 
+Definitions 
+For the purpose of these Regulations, the following definitions shall apply: 
+a)  “Fire load (MJ)”: the sum of thermal energies which are released by combustion of all fixed and mobile 
+combustible materials in a space, i.e. the sum of the permanent and variable fire loads. The calculated fire 
+load must include all combustible content in the building and the relevant parts of the construction, including 
+linings and accommodation. b)  “Fire-restricting material”: a material satisfying the requirements for fire-restricting material of the FTP 
+Code. 
+c)  “FSS Code”: the International Code for Fire Safety Systems (Fire Safety Systems Code), as adopted by the 
+Maritime Safety Committee by resolution MSC.98(73), as last amended by MSC.339(91). 
+d)  “FTP Code”: the International Code for Application of Fire Test Procedures, 2010 (Fire Test Procedures 
+Code), as adopted by the Maritime Safety Committee by resolution MSC.307(88). 
+e)  “HSC Code”: the International Code of Safety for High-Speed Craft (High-Speed Craft Code), as adopted 
+by the Maritime Safety Committee by resolution MSC.97(73), as last amended by MSC.352(92). 
+f)  “Low flame-spread”: that the surface thus described will adequately restrict the spread of flame, this being 
+determined in accordance with the FTP Code. 
+g)  “‘A’ class divisions”: those divisions formed by bulkheads and decks which comply with the following 
+criteria:  
+1.  they are constructed of steel or other equivalent material;  
+2.  they are suitably stiffened;  
+3.  they are insulated with approved non-combustible materials such that the average temperature of the 
+unexposed side will not rise more than 140 degrees C above the original temperature, nor will the 
+temperature, at any one point, including any joint, rise more than 180 degrees C above the original 
+temperature, within the time listed below:  
+class ‘A-60’:  60 min  
+class ‘A-30’:  30 min  
+class ‘A-15’:  15 min  
+class ‘A-0’:    0 min  
+4.  they are so constructed as to be capable of preventing the passage of smoke and flame through the 
+division to the end of the one-hour standard fire test described in the FTP Code.  
+h)  “‘B’ class divisions”: those divisions formed by bulkheads, decks, ceilings or linings which comply with the 
+following criteria:  
+1.  they are constructed of approved, non-combustible materials, and all materials entering into the 
+construction and erection of ‘B’ class divisions shall be non-combustible;  
+2.  they have an insulation value such that the average temperature of the unexposed side will not rise 
+more than 140 degrees C above the original temperature, nor will the temperature at any one point, 
+including any joint, rise more than 225 degrees C above the original temperature, within the time listed 
+below:  
+class ‘B-15’   15 min  
+class ‘B-0’  0 min  
+3.  they are so constructed as to be capable of preventing the passage of flame through the division to the 
+end of the one-hour standard fire test described in the FTP Code. 
+i)  “Fire load density (MJ/m2)”: the total fire load per area unit in a fire cell. The area unit can be the enveloping 
+surface (the sum of the floor, ceiling and wall surfaces) or the floor surface. The area unit to use depends on 
+the applied method or standard.  
+j)  “Steel or other equivalent material”: any non-combustible material which, by itself or due to insulation 
+provided, has structural and integrity properties equivalent to steel at the end of the applicable exposure to 
+the standard fire test (e.g. aluminium alloy with appropriate insulation). 
+k)  “Non-combustible material”: a material which neither burns nor gives off flammable vapours in sufficient 
+quantity for self-ignition when heated to approximately 750 degrees C, this being determined in accordance 
+with the FTP Code. 
+Section 52 
+Requirements for insulating materials and  
+materials used in accommodation spaces 
+(1)  Insulating materials shall, except in cargo spaces and refrigerated compartments, be non-combustible.  
+(2)  Insulation in the vicinity of engines and oil fuel lines, and on all surfaces with a temperature of 220 degrees C or 
+more, shall be protected against absorbing flammable liquid or gas. 
+(3)  The following shall apply in accommodation spaces, service spaces and control stations: 
+a)  sheeting, ceilings, smoke barriers and associated fixings shall be of non-combustible material; and 
+b)  interior surfaces shall have low flame-spread characteristics, and shall not produce smoke at elevated 
+temperatures or give off substances which may be toxic or give rise to a risk of explosion. 
+(4)  Ships of less than 15 metres constructed of a composite material or aluminium may, as an alternative to non-
+combustible material provided in the first paragraph and the third paragraph subparagraph a, use fire-restricting material. Section 53 
+Possibility of restricted use of combustible materials 
+(1)  The interior sheeting, ceilings and associated fixings in accommodation spaces and service spaces may be of 
+combustible material if these spaces are enclosed by non-combustible bulkheads and decks satisfying the requirements 
+of section 52 third paragraph subparagraph b, and the amount of combustible material in the surfaces has a fire load 
+density of maximum 45 MJ/m2 in a fire cell. The total volume of combustible material shall furthermore not exceed a 
+volume equivalent to 2.5 mm sheeting on the surfaces of the space. 
+(2)  The first paragraph does not apply to ships of less than 15 metres in overall length not satisfying the requirements 
+of section 54. 
+Section 54 
+Requirements for fire-resisting divisions 
+(1)  Fire-resisting divisions shall be provided in bulkheads and decks as described in table 1. 
+(2)  In machinery spaces of ships constructed of composite material or aluminium, the ship's sides shall also be fitted 
+with thermal boundaries up to 300 mm below the minimum draught. 
+(3)  Where there is doubt as to the classification of a space, or where it is possible to assign two or more classifications 
+to a space, it shall be treated as a space within the relevant category having the most stringent division. 
+Table 1 
+Space category    (1)  (2)  (3)  (4)  (5)  (6) 
+Control stations   (1)  *  B-15b  B-15  A-15  B-15  A-15 
+Accommodation  (2)    *  B-15  A-15  B-15  B-15 
+spaces 
+Service spaces   (3)      B-15a  A-15  B-15   B-15 
+Machinery spaces  (4)        *  A-15  B-15 
+Galley   (5)          *  B-15 
+Cargo spaces  (6)            B-15 
+a  A bulkhead or deck of the rating shown in the table is only required when the adjacent spaces are used for a different purpose. If the spaces are 
+used for the same purpose, the division shall be of non-combustible material. 
+b  Public spaces, mess rooms, offices and lavatories on ships of less than 15 metres may be arranged in connection with wheelhouse without 
+requirement for fire-resisting division. 
+*   The division shall be of non-combustible material.  
+(4)  For the purpose of the table, the following definitions shall apply: 
+a)  “Control stations (1)”: navigation bridge, control room for propulsion machinery when located outside the 
+machinery space, and spaces containing sources of emergency power, radio equipment, fire-extinguishing 
+medium for gas-based fire-extinguishing systems and fire alarm centres. 
+b)  “Accommodation spaces (2)”: spaces used as public spaces, corridors, stairways, lavatories and bathrooms, 
+cabins, offices, hospitals, recreation rooms and pantries containing no cooking appliances.  
+c)  “Service spaces (3)”: paint lockers and store-rooms having a floor area of 4 m2 or more, spaces for the 
+storage of flammable liquids, saunas and workshops other than those forming part of the machinery spaces.  
+d)  “Machinery spaces (4)”: spaces containing internal combustion machinery used for propulsion, internal 
+combustion machinery with a total power output of not less than 375 kW, and spaces with oil-fired boilers 
+or other oil-fired equipment such as gas generators, incinerators, etc. 
+e)  “Galley (5)”: spaces, with the exception of pantries, containing electrical cooking plates, stove, deep fryer, 
+gas stove, gas-fired installations without open flame and similar kitchen appliances. “Pantry” means an area 
+in connection with wheelhouse or mess room which contains electrical cooking plates, stove or similar 
+kitchen appliances with a total effect of 5 kW or less. 
+f)  “Cargo spaces (6)”: all spaces used for the storage of cargo, including tanks for the carriage of oil, and 
+trunks and hatch coamings to such spaces. 
+(5)  Ships of less than 15 metres in overall length may, as an alternative to the requirements of the first to fourth 
+paragraphs, comply with the Nordic Boat Standard for Commercial boats less than 15 metres, 1990, C14 point 3.3., the 
+requirements of a standard or set of rules from a recognised classification society or another accepted recognised 
+standard. Section 55 
+Alternative requirements for ships  
+constructed of composite material or aluminium 
+Ships constructed of composite material or aluminium may, as an alternative to sections 52 to 54, section 56 first 
+paragraph and section 57 first and fifth paragraphs comply with the HSC Code chapters 7.2, 7.3 and 7.4.1 to 7.4.3. The 
+requirement for protection time given in the HSC Code need not exceed 30 minutes. 
+Section 56 
+Requirements for arrangement of fire insulation 
+(1)  Fire insulation shall be carried at a distance of at least 450 mm past the intersection and terminal points for struts, 
+bulkheads and decks and in the penetrations of bulkheads and decks. Where there are different class standard 
+requirements for the fire insulation in accordance with the table in section 54, the insulation with the highest class 
+standard shall be carried at a distance of 450 mm past the relevant area. 
+(2)  All surfaces with a temperature of 220 degrees C or more, which may come into contact with flammable liquids 
+as a result of system failure, shall be adequately insulated. 
+Section 57 
+Requirements for openings in and penetrations of bulkheads and decks 
+(1)  Doors, hatches and other openings in bulkheads and decks shall have the same fire integrity as the bulkhead or 
+deck in which they are located. Watertight doors need not be insulated.  
+(2)  Ventilation openings may be placed in the lower portion of doors or under doors in accommodation leading to 
+corridors, except stairway enclosures. The total area of any such openings shall not exceed 0.05 m2. 
+(3)  Doors between an accommodation space and a machinery space shall be self-closing and gas-tight. No direct 
+access between a control station or cabin and a machinery space shall be permitted. 
+(4)  If self-closing doors are fitted with hold-back mechanisms, these shall be capable of remote release from the 
+navigation bridge. 
+(5)  Penetrations for the passage of pipes, cables, trunks, beams and similar shall not reduce the fire integrity of the 
+bulkhead or deck. 
+Section 58 
+Requirements for stairway enclosures 
+(1)  Stairway enclosures which penetrate only a single deck shall have at least ‘B-0’ class divisions against adjacent 
+spaces on one of the decks, and a self-closing door. 
+(2)  Stairway enclosures which penetrate more than a single deck shall have at least ‘B-0’ class divisions against 
+adjacent spaces on all decks. All doors to these spaces shall be self-closing. 
+Section 59 
+Requirements for means of escape  
+(1)  Stairways, ladders or corridors, or combinations thereof, which provide safe escape to open deck, muster stations 
+and life-saving appliances, shall be provided. The means of escape shall be clear of obstacles. 
+(2)  In accommodation spaces, service spaces and control stations, at least two separate means of escape shall be 
+provided from each space or group of spaces on each deck. 
+(3)  On ships with superstructure where only one door may be arranged, a window may be used as one of the means 
+of escape. Ships having only wheelhouse may have one means of escape therefrom. 
+(4)  All machinery spaces shall have at least two separate means of escape, except in the cases described below where 
+one means of escape is permitted:  
+a)  the machinery space is so small that two separate means of escape is not practicable; 
+b)  the machinery space has an exit giving direct access to the open deck. 
+(5)  No dead-end corridors shall be of a length of more than 7 m.  
+(6)  Doors and hatches in escape routes shall open in-way of the direction of escape. Cabin doors and doors to smaller 
+spaces may as an alternative be fitted with a kick plate. The kick plate shall not be less than 400 mm × 500 mm. Doors 
+and hatches in escape routes shall be operable from both sides in a simple manner. 
+(7)  Means of escape shall have a clear width of at least 700 mm. For hatches, these dimensions shall apply to both 
+the length and width of the hatch. Corridors and other alleyways shall have guard rails or grab rails or have other means 
+to ensure safe passage. Section 60 
+Requirements for ventilation system  
+(1)  Ventilation openings to machinery spaces, cargo spaces and accommodation spaces shall have means of closure 
+of non-combustible material. These openings, and appurtenant ventilation fans, shall be capable of being closed and 
+stopped from outside the space. 
+(2)  Ventilation ducts shall be of non-combustible material.  
+(3)  The requirement for wheel-marking does not apply to penetrations where steel sleeves are directly attached to the 
+ventilation duct. 
+(4)  In galleys and pantries a separate extract to the open air shall be provided. 
+Section 61 
+Requirements for arrangement of ventilation ducts 
+(1)  Ventilation systems to machinery spaces and galleys shall be separated from other ventilation systems.  
+(2)  Ventilation ducts to galleys or machinery spaces which pass through accommodation spaces, service spaces or 
+control stations, and ventilation ducts to accommodation spaces, service spaces or control stations which pass through 
+galleys or machinery spaces shall:  
+a)  be fitted with automatic fire dampers at the penetration and be insulated so that the fire integrity of machinery 
+spaces or galley is maintained at a distance of at least 5 metres from the damper; or  
+b)  be insulated so that the fire integrity of machinery spaces or galley is maintained throughout the entire length 
+of the ventilation duct. 
+Section 62 
+Requirements for materials in piping systems 
+(1)  Pipes conveying oil and other pipelines required for the safety of the ship shall be made of non-combustible 
+material. 
+(2)  Seawater pipes and bilge pipes shall be made of a material which is resistant to fire. 
+(3)  Short, flexible pipe connections may be used on pipes conveying oil, if necessitated by vibrations. Such pipe 
+connections shall be resistant to oil, reinforced and made of a material which is resistant to fire. 
+(4)  Where failure of the material due to fire may lead to flooding, scuppers, sanitary discharges or other outlets which 
+are close to the waterline shall be made of materials which are resistant to fire. 
+Section 63 
+Requirements for oil fuel tanks and piping systems 
+(1)  Lines from storage, settling or service tanks which are arranged above a double bottom shall have a valve fitted 
+on the tank. The valve shall be capable of being closed from outside the space where the tank is located. 
+(2)  Deep tanks adjacent to shaft or pipe tunnel shall have a valve fitted on the tank. Pipelines outside the pipe tunnel 
+shall have an additional valve. 
+(3)  Oil fuel lines and other lines conveying liquids which may afford a fire risk in the event of a line failure, shall be 
+placed as far away as possible from hot surfaces. 
+(4)  Pumps of lines covered by the third paragraph shall be capable of being stopped from a position outside the space 
+in which they are located. 
+Section 64 
+Requirements for heating installations 
+(1)  Heating elements shall be arranged and fixed so that the risk of fire is minimal. The arrangement and placement 
+of the sources of heat shall be such that materials nearby are not charred or catch fire.  
+(2)  Heating by means of open flame shall not permitted in accommodation spaces. 
+Section 65 
+Requirements for storage of combustible substances 
+(1)  Combustible substances not carried as cargo, but intended for use on board the ship, shall be stored in a separate 
+store-room which: 
+a)  has direct access from the open deck; 
+b)  is ventilated in such a way that gases do not accumulate in the space; 
+c)  has only the necessary electrical equipment; and d)  does not contain sources of heat. 
+(2)  One of the following fixed fire-extinguishing systems shall be installed in spaces for the storage of combustible 
+substances: 
+a)  CO system providing a minimum volume of free gas equal to 40 per cent of the gross volume of the space; 
+b)  dry powder system with 0.5 kg powder per m3 gross volume of the space; 
+c)  water-based sprinkler system supplying 5 l/m2 per minute, which may be connected to the fire main. 
+(3) Where the store-room has a deck area of less than 4 m2, a CO portable fire extinguisher providing a minimum 
+volume of free gas equal to 40 per cent of the gross volume of the space may be used in lieu of a fixed fire-extinguishing 
+system. In this case, a hatch shall be arranged so that the extinguisher may be used without persons having to enter the 
+space.  
+(4)  Cylinders, valves, regulators and pipes shall be protected against damage, large fluctuations of temperature and 
+frost. 
+Section 66 
+Requirements for fire detection and fire alarm systems 
+(1)  Ships shall have a fire detection and fire alarm system.  
+(2)  The type, number and location of detectors shall be adapted to the conditions in the area to be monitored. 
+(3)  A fire detection and fire alarm system with a sufficient number of fire detectors in relation to the size of the space 
+shall be installed in machinery spaces and in cargo spaces with flammable or explosive cargo. Nevertheless, at least one 
+smoke detector and one heat detector shall be installed. 
+(4)  Where five or more detectors are installed in the machinery space or more than ten detectors are installed in the 
+accommodation, the detectors shall be distributed in one loop serving the machinery space and another serving the 
+accommodation.  
+(5)  Manually operated call points shall be provided at exits of means of escape and otherwise on the ship in sufficient 
+number. 
+(6)  Audible alarm instruments shall be fitted in sufficient number, and at least one for each deck. The system shall in 
+addition to an audible alarm provide an audio-visual alarm at the steering position or other manned control room. In the 
+event that the combination of a high noise level on board the vessel and the use of ear protection may make it difficult 
+to hear an audible fire alarm, a visual fire alarm shall be fitted. 
+Section 67 
+Requirements for fire pumps  
+(1)  Closed ships, except for ships with a wheelhouse only, shall have at least one fire pump. 
+(2)  The fire pump shall: 
+a)  be capable of being started from the steering position or other readily accessible position; 
+b)  have relief valves where fire pump delivery pressure may exceed the designed working pressure of the fire 
+main; and 
+c)  have a non-return valve if backflow may occur. 
+(3)  Sanitary, ballast, bilge and any other general service pumps may be used as fire pumps if they comply with the 
+requirements for fire pumps, do not affect the ability to cope with pumping of the bilges, and are normally not used for 
+pumping oil or other flammable liquids.  
+(4)  When more than one fire pump is installed, each of the pumps shall have a capacity of not less than 80 per cent 
+of the total capacity divided by the number of pumps.  
+Section 68 
+Requirements for fire pump capacity  
+(1)  The minimum total fire pump capacity (Q) shall be calculated by this formula: 
+[m3 / t] 
+w𝑄𝑄he=re� t0h.e1 5fo�ll𝐿𝐿o𝑝𝑝w𝑝𝑝i(n𝐵𝐵g +is 𝐷𝐷in)d+ica2te.2d5 i�n metres: 
+L  = the ship’s length between perpendiculars 
+pp
+B = the ship’s maximum moulded breadth 
+D = the ship’s moulded depth to bulkhead deck amidships. 
+The fire pump capacity (Q) shall in any case be at least 16 m3⁄t. 
+(2)  When the fire pump is delivering the quantity of water indicated in the first paragraph, the pressure maintained at 
+the hydrant(s) shall be at least 2.5 bar. Section 69 
+Requirements for fire mains 
+(1)  Ships equipped with fire pumps shall have a fire main. The ship's arrangement for washing the deck may be used 
+as a fire main if it satisfies the requirements related to a fire main. 
+(2)  The fire main and associated valves shall be arranged so that no damage is caused by deck cargo or by typical 
+operations.  
+(3)  The fire main shall: 
+a)  have a diameter based on the capacity of the pumps and be sufficient to ensure an even distribution and an 
+even pressure to the fire hoses; 
+b)  be made of non-combustible materials which are heat-resistant; and 
+c)  be self-draining or have drain cocks to avoid frost damage. 
+Section 70 
+Requirements for hydrants 
+(1)  The ship shall have one or more hydrants so positioned that: 
+a)  at least one jet of water from one single length of hose is capable of reaching any part of the ship to which 
+the crew has access;  
+b)  the entire machinery space can be reached by the jet of water from a single length of hose; 
+c)  they do not become inaccessible due to deck cargo or the ship's intended operations; and 
+d)  fire hoses may be readily connected. 
+(2)  The hydrants shall have couplings enabling the removal of fire hoses when the fire pump or fire pumps are in 
+operation. 
+Section 71 
+Requirements for hose stations 
+(1)  A hose station shall be provided near each hydrant. This shall consist of a fire hose with connection to the hydrant, 
+appurtenant nozzle(s) and two sets of coupling spanners.  
+(2)  In addition to the fire hoses required by the first paragraph, there shall be at least one spare fire hose. 
+(3)  Fire hoses shall not be more than 20 metres long. 
+Section 72 
+Requirements for portable fire extinguishers  
+(1)  The fire-extinguishing medium shall be suitable for extinguishing the types of fire that may arise, in accordance 
+with table 2. 
+Table 2 
+Fire-extinguishing medium  Suitable for use on fires involving: 
+Water  wood, paper, textiles and similar materials 
+Foam  wood, paper, textiles and flammable liquids 
+Dry powder/dry chemical (standard/classes  flammable liquids, electrical equipment and 
+B, C)  flammable gases 
+Dry powder/dry chemical (standard/classes  wood, paper, textiles, flammable liquids, 
+A, B, C)  electrical equipment and flammable gases 
+Dry powder/dry chemical (metal)  combustible metals 
+CO  flammable liquids and electrical equipment 
+Wet chemical  cooking grease, fats or oil fires 
+(2)  The quantity of fire-extinguishing medium in fire extinguishers shall at least be as follows: 
+a)  dry powder extinguishers:  5 kg b)  CO extinguishers:  5 kg 
+c)  foam extinguishers:  9 l 
+(3)  Fire extinguishers with a weight of more than 23 kg are not considered portable.  
+(4)  The number of suitable fire extinguishers in the various spaces shall at least be as indicated in table 3: 
+Table 3 
+Type of space  Minimum number of fire extinguishers 
+Accommodation spaces  One extinguisher per deck, placed easily accessible from 
+all spaces. The walking distance between the 
+extinguishers shall not be more than 15 metres. 
+Galleys and pantries  One extinguisher. One additional extinguisher if deep 
+fryer is installed in galley. 
+Machinery spaces  Two extinguishers. They shall be so located that no 
+point in the machinery space is more than 10 metres 
+walking distance from an extinguisher. One of the 
+extinguishers shall be placed near the entrance. 
+Service spaces  One extinguisher  
+Room for main electrical   One extinguisher 
+switchboard 
+Wheelhouse/bridge  One extinguisher. Two extinguishers where the 
+wheelhouse is larger than 50 m2. 
+(5)  A fire extinguisher may be placed at the entrance, either inside or outside the space in question.  
+(6)  Fire extinguishers placed in locations where they may be exposed to frost shall be of a frost-proof type. 
+(7)  Pressurised extinguishers shall not be placed in cabins. 
+(8)  CO extinguishers shall not be placed in accommodation spaces. 
+(9)  Fire extinguishers containing a fire-extinguishing medium which, either by itself or under expected conditions of 
+use, gives off toxic gases in such quantities as to endanger persons are not permitted on board. 
+(10) Spare extinguishers equivalent to 50 per cent of the number required by table 3 shall be provided. 
+(11) Fire extinguishers shall be subject to yearly inspections and service. Inspections and service shall be undertaken 
+by a competent person in accordance with NS 3910:2006. The fire extinguishers shall be pressure-tested every ten years. 
+Section 73 
+Requirements for fire blanket 
+A fire blanket shall be placed easily accessible in galley and pantry. 
+Section 74 
+Requirements for fixed fire-extinguishing systems, etc. 
+(1)  When a fixed fire-extinguishing system is required in a space, the system shall be of one of the following types: 
+a)  gas-based system in compliance with chapter 5 of the FSS Code; 
+b)  foam-based system in compliance with chapter 6 of the FSS Code; 
+c)  water-based system in compliance with chapter 7 of the FSS Code. 
+(2)  Ventilation fans to spaces protected by fire-extinguishing systems shall be capable of being stopped near the place 
+where the fire-extinguishing system is started. This also applies in the case of arrangements as described in section 76. 
+(3)  A description of the fire-extinguishing system with instructions for use and maintenance of the system in 
+accordance with the manufacturer’s instructions shall be provided on board. The instructions for use shall be posted near 
+the point of operation.  
+(4)  Necessary spare parts for the fire-extinguishing system shall be available on board. Section 75 
+Requirements for fire-extinguishing system in machinery spaces 
+and cargo spaces for dangerous goods 
+A fixed fire-extinguishing system satisfying the requirements of section 74 shall be installed in: 
+a)  machinery spaces; and 
+b)  cargo spaces for dangerous goods or other flammable cargo. 
+Section 76 
+Alternative solutions for fire-extinguishing systems  
+in small machinery spaces 
+In machinery spaces with a gross volume of up to 10 m3 an arrangement with a fire extinguisher complying with the 
+following may be used as an alternative to a fixed fire-extinguishing system as mentioned in section 74 first paragraph: 
+a)  The quantity of fire-extinguishing medium shall be such that a sufficient extinguishing effect is achieved. 
+b)  It shall be possible to check that the fire extinguisher is intact and in working order. 
+c)  When the fire extinguisher is placed outside the machinery space, it shall be possible to distribute the fire-
+extinguishing medium in the machinery space through a pipe penetration or hatch.  
+d)  When the fire extinguisher is placed inside the machinery space, it shall be fixed, arranged with one or more 
+nozzles so that the fire-extinguishing medium is distributed in the machinery space and be capable of being 
+released from a position outside the machinery space. The release mechanism shall not easily be rendered 
+inoperative in the event of a fire. 
+Section 77 
+Requirements for fire control plan 
+The fire control plan shall be exhibited in a central and conspicuous position. The plan shall show the actual location 
+of the fire safety equipment at any time, and be on a scale sufficient to give a clear overview of the ship's arrangement 
+and equipment in the case of fire, escape and rescue. 
+Section 78 
+Requirements for wheelmarking 
+Equipment and materials required by this chapter and covered by Regulations of 30 August 2016 No. 1042 on marine 
+equipment shall be wheelmarked. 
+Amended by Regulation of 20 December 2017 No. 2379 (in force on 1 January 2018). 
+Chapter 8  
+Duty to notify and document control 
+Section 79 
+Duty to notify 
+(1)  When a contract has been placed for the construction, conversion or major repair of a ship, or for the purchase of 
+a ship from abroad, for which a trading certificate is required, the company shall without delay send a notification thereof 
+to the Norwegian Maritime Authority.  
+(2)  When a contract has been placed for the construction, conversion or major repair of a ship, or for the purchase of 
+a ship from abroad, for which vessel instructions are required, the company shall without delay send a notification thereof 
+to approved company. 
+(3)  The notification shall be submitted on the prescribed form together with a drawing of the general arrangement. 
+(4)  In the event of cancellation, changes in the contractual relationship, modification of the design of the ship or 
+similar, a notification thereof shall be sent to the Norwegian Maritime Authority or approved company. Section 80 
+Requirements for submission of documentation  
+(1)  Documentation as indicated in Appendix 1 shall be submitted as soon as possible following notification 
+concerning the construction, conversion or major repair of a ship, or purchase of a ship from abroad. The Norwegian 
+Maritime Authority may require further documentation as necessary.  
+(2)  The documentation shall be submitted to the Norwegian Maritime Authority in the case of ships requiring a trading 
+certificate, and to approved company in the case of ships requiring vessel instructions. 
+(3)  A report regarding the inclining test and calculation of lightship data shall be received before the ship is put into 
+service or does a trial run. 
+(4)  Final loading conditions based on the preliminary loading conditions and corrected with regard to lightship data 
+shall be submitted at the latest within one month of the date of delivery of the ship. 
+(5)  The documentation shall demonstrate that the requirements of both these Regulations and other regulations 
+applicable to the ship, are satisfied. 
+Chapter 9  
+Supervision during construction,  
+conversion and major repair 
+Section 81 
+Requirements for supervision during construction,  
+conversion and major repairs 
+The company shall submit a request for supervision during construction, conversion or major repair, and shall 
+facilitate that the Norwegian Maritime Authority or approved company can supervise to the extent considered necessary. 
+The necessary supporting documentation shall be made available to the surveyor. 
+Chapter 10 
+Vessel instructions issued by approved company 
+for ships of less than 15 metres in overall length 
+Section 82 
+Requirements for vessel instructions  
+Ships of 8 metres in overall length and upwards, but of less than 15 metres, shall have vessel instructions with vessel 
+data and limitations on the use of the vessel. The vessel instructions shall be exhibited in a conspicuous place on board. 
+Section 83 
+Requirements for supervision for vessel instructions 
+(1)  In order for vessel instructions to be issued, the ship shall be presented for a complete inspection by an approved 
+company. 
+(2)  The validity of the vessel instructions shall be renewed in that the ship is presented for periodic simplified 
+inspection by an approved company within a period of 30 months of the date for the last complete inspection or of the 
+date for the last periodic simplified inspection. 
+(3)  The periodic simplified inspection may be carried out within six months prior to the expiry of the current validity 
+period of the vessel instructions, without the date of the next inspection being changed. If the ship is not presented for 
+periodic simplified inspection by the expiry of the validity period, a new complete inspection shall be carried out. 
+(4)  The company shall conduct a control before the ship is presented for periodic simplified inspection. The control 
+shall be documented on the notification form and report form prescribed by the Norwegian Maritime Authority. These 
+forms shall be filled out and submitted to approved company before the inspection by the approved company 
+commences. 
+(5)  The report forms for completed complete inspection and completed periodic simplified inspection, including 
+company’s control, shall be kept on board and submitted to the Norwegian Maritime Authority via an approved company. Section 84 
+Requirements for presenting report form issued by  
+accepted electrical enterprise and radio safety certificate 
+(1)  Before vessel instructions are issued, a report form from an accepted electrical enterprise, a declaration of survey 
+issued by the Norwegian Directorate for Civil Protection (DSB) or an installation attestation issued prior to 1 January 
+2014 shall be issued. A radio safety certificate from an approved radio inspection company, if required, shall in addition 
+be issued.  
+(2)  The documents mentioned in the first paragraph shall be valid at the time of issuance of the vessel instructions or 
+at the time of renewal of the validity period of the vessel instructions and at least until the next renewal. 
+Section 85 
+Special provisions for inspection of towing and anchor-handling  
+winches, towing hooks and safety equipment for use  
+during towing and anchor-handling 
+(1)  On ships where towing or anchor-handling operations are carried out, qualified personnel on board shall, at least 
+once annually, conduct thorough tests and inspections of: 
+a)  towing winch and anchor-handling winch with appurtenant equipment, including testing of emergency 
+release at full towing power; 
+b)  towing hook and appurtenant equipment; and 
+c)  guide pins, wire, shark-jaw, towing eyes and similar, including load tests and tests of the emergency release, 
+if applicable. 
+(2)  Tests shall be carried out in accordance with the manufacturer's instructions.  
+(3)  The completion of such inspections shall be documented, and the documentation shall be kept on board. 
+(4)  Tests and inspections as mentioned in the first paragraph shall also form part of the complete inspection and 
+thereafter of every second periodic simplified inspection. For these inspections the winch shall, after function testing, be 
+disassembled as necessary. 
+Section 86 
+Special requirements for inspection of hull and machinery  
+Inspections of hull and machinery shall be carried out in accordance with rules from a recognised classification 
+society, and shall form part of the complete inspection and thereafter of periodic simplified inspections.  
+Section 87 
+Requirements for inspections in the event of modification,  
+damage or loss of function 
+In the event of damage, loss of function, repairs or changes in the ship or its equipment, the ship shall be inspected by 
+an approved company before it is put back into service. This does not apply if the change or repair is part of the normal 
+maintenance. 
+Chapter 11  
+Ships with building contract placed before  
+1 January 2015 and delivered before 1 January 2016 
+Section 88 
+Requirements for ships with building contract placed  
+before 1 January 2015 and delivered before 1 January 2016 
+Ships with building contract placed before 1 January 2015 and delivered before 1 January 2016 shall comply with the 
+following provisions: 
+a)  Chapter 1 regarding general provisions. 
+b)  Chapter 2 regarding construction: 
+1.  section 11 regarding requirements for anchor and mooring equipment; 2.  section 13 regarding requirements for towing winch or towing hook when towing in small coasting or 
+lesser trade area; 
+3.  section 14 regarding requirements for towing equipment for smaller tows in trade areas 1 and 2; 
+4.  section 15 regarding requirements for stern roller, winch, closed guide pins, shark-jaw and safety zone 
+for anchor-handling operations in small coasting and lesser trade area; 
+5.  section 16 regarding requirements for emergency release for towing or anchor-handling in small 
+coasting or lesser trade area; 
+6.  section 17 regarding requirements for automatic audible alarm in small coasting or lesser trade area; 
+7.  section 18 regarding requirements for dimensioning, etc. of equipment and arrangement when towing 
+or anchor-handling in small coasting or lesser trade area; 
+8.  section 19 regarding requirement for documentation to be kept on board; and 
+9.  section 20 regarding requirements for equipment and arrangement for towing or anchor-handling in 
+great coasting or greater trade area. 
+c)  Chapter 3 regarding stability documentation and chapter 4 regarding stability criteria, when the ship does 
+not already have stability calculations for cargo ships approved by the Norwegian Maritime Authority. For 
+ships which have stability calculations for cargo ships approved by the Norwegian Maritime Authority, the 
+following shall apply: For ships carrying out towing operations, and which do not have towing stability for 
+cargo ships approved by the Norwegian Maritime Authority, and for ships carrying out crane operations or 
+anchor-handling operations, stability calculations for such operations shall be prepared in accordance with 
+chapters 3 and 4 in addition to the existing stability manual. For ships of less than 15 metres in overall length, 
+the Nordic Boat Standard for Commercial boats less than 15 metres, 1990, C3 may be satisfied as an 
+alternative to the first and second paragraphs of section 36 regarding requirements for intact stability for 
+closed ships. 
+d)  Chapter 5 regarding freeboard: 
+1.  section 41 regarding freeboard requirements for closed ships; and 
+2.  section 42 regarding requirements for indication of draught marks for closed ships. 
+e)  Chapter 7 regarding fire safety: 
+1.  section 72 regarding requirements for portable fire extinguishers; 
+2.  section 73 regarding requirements for other fire-fighting equipment; 
+3.  section 77 regarding requirements for fire control plan; and 
+4.  section 78 regarding requirements for wheelmarking. 
+f)  Chapter 8 regarding duty to notify and document control. The chapter applies correspondingly for the 
+issuance of vessel instructions or trading certificate to ships to which these have not previously been issued. 
+g)  Chapter 9 regarding supervision during construction, conversion and major repairs. 
+h)  Chapter 10 regarding vessel instructions issued by an approved company for ships of less than 15 metres in 
+overall length. 
+i)  Chapter 11 regarding ships with building contract placed before 1 January 2015 and delivered before 1 
+January 2016. 
+j)  Chapter 12 regarding concluding provisions. 
+Section 89 
+Transitional provisions for ships with building contract placed 
+before 1 January 2015 and delivered before 1 January 2016 
+(1)  For ships with building contract placed before 1 January 2015 and delivered before 1 January 2016, chapter 11 
+shall apply at the latest on: 
+a)  1 January 2017 for ships the keel of which was laid on or after 1 January 1990; and  
+b)  1 January 2018 for ships the keel of which was laid before 1 January 1990.  
+(2)  Until these dates the regulations which were in force for the various ships on 31 December 2014 shall apply, with 
+the exception of chapter 11 of Regulations of 15 June 1987 No. 506 on survey for the issue of certificates to passenger 
+ships, cargo ships and lighters, and on other surveys, etc. 
+Amended by Regulation of 18 December 2015 No. 1769 (in force on 1 January 2016). 
+Section 89a 
+(Repealed) 
+Added by Regulation of 18 December 2015 No. 1769 (in force on 1 January 2016), repealed by Regulation of 18 December 2015 No. 1769 (in force on 
+1 January 2018). 
+Chapter 12  
+Concluding provisions 
+Section 90 
+Exemptions 
+The Norwegian Maritime Authority may upon written application exempt one ship, or a limited series of ships which 
+are identical, from one or more of the requirements of these Regulations if it is established that one of the following 
+conditions is met: 
+a)  special reasons make the requirement less essential for this ship, and the exemption is justifiable in terms of 
+safety; 
+b)  compensating measures will maintain the same level of safety as the requirement of these Regulations; 
+c)  the requirement hinders the testing, development or use of an innovative solution, and the innovative solution 
+is justifiable in terms of safety. 
+Section 91 
+Entry into force 
+These Regulations enter into force on 1 January 2015. As from the same date, the following amendments are made 
+to other regulations: 
+a)  Regulations of 1 July 2014 No. 1072 on the construction of ships are amended as follows: 
+--- 
+b)  Regulations of 1 July 2014 No. 1099 on fire protection on ships are amended as follows: 
+--- 
+Appendix 1  
+List of drawings 
+Documentation which clearly demonstrates compliance with the requirements applicable to the vessel in question shall 
+be submitted. Not all documentation in the list below is relevant for all vessels; the documentation to be submitted is 
+decided by the requirements applicable for the vessel in question. If documentation has been submitted at an earlier 
+stage, and the vessel, outfitting or equipment has not been changed, it is sufficient to refer to previously submitted 
+documentation. 
+Column 2 indicates groups of vessels to be inspected with regard to delivery date (new or existing) and size (less than 
+or more than 15 metres), columns 3 and 4 contain the designation of the documentation to be submitted and the 
+information which at a minimum should be contained therein, while column 5 refers to the Regulations where the 
+requirements in question are laid down.  
+The company shall submit the documentation to the Norwegian Maritime Authority for trading certificate and to an 
+approved company for vessel instructions.  
+The Norwegian Maritime Authority or approved company may request that further documentation, including 
+documentation not listed below, be submitted as necessary. 
+1  2  3  4  5 
+C – Common  All Ships  General     
+arrangement 
+N13 –  All Ships  Accommodation  Area of cabins, mess-rooms, day  Regulations of 15 
+Nautical  drawing  rooms and galleys.  September 1992 No. 
+707 on the 
+accommodation and 
+(May be  Width of corridors and doors.  catering service on 
+included in  ships 
+general 
+arrangement  Height from deck up to below 
+drawing.)  deck. Location of cabins in relation to 
+the waterline. 
+All Ships  Means of escape  Means of access, exits and  Regulations of 15 
+emergency exits.  September 1992 No. 
+707 on the 
+(May be  Stairways and ladders  accommodation and 
+included in a  catering service on 
+fire control and  Width of stairways and  ships 
+safety plan)  appurtenant doors. 
+All Ships  Navigating  Blind sectors on bridge  Regulations of 5 
+bridge visibility  September 2014 No. 
+1157 on navigation and 
+navigational aids for 
+(May be  Details of windows on bridge  ships and mobile 
+included in  offshore units 
+general 
+arrangement 
+drawing.) 
+All Ships  Lighting   Placement  Regulations of 1 
+arrangement  December 1975 No. 5 
+Blind sectors  for preventing 
+collisions at sea 
+Type approval certificate 
+All Ships  Wheelhouse   Layout  Regulations of 5 
+arrangement  September 2014 No. 
+Profile  1157 on navigation and 
+navigational aids for 
+Cross-section of forward and  ships and mobile 
+after sections and sides.  offshore units 
+Seats in radio room. 
+Location of equipment 
+Information about equipment 
+regarding manufacturer and type 
+approval. 
+RM9 –   All Ships  Life-saving   Rescue boats with davits in  Regulations of 1 July 
+Life-saving  arrangements  relation to hull and propeller.  2014 No. 1019 on life-
+appliances  saving appliances on 
+ships 
+(Fire control  Arrangements for bringing 
+plan and life- persons gently on board, if any. 
+saving 
+arrangements 
+may be  Liferafts 
+combined in a 
+fire and safety  Means of embarkation 
+plan) 
+Radar transponders and EPIRB. 
+Lifejackets Lifebuoys 
+Immersion suits 
+Water outlets in the vessel’s 
+side. 
+Manufacturer, size, type, 
+capacity, etc., shall be indicated 
+for the life-saving equipment. 
+Symbols shall be in accordance 
+with a recognised international 
+standard. 
+All Ships  Rescue boat  Foundation and underlying  Regulations of 1 July 
+arrangement  structure of davit with  2014 No. 1019 on life-
+appurtenant calculations.  saving appliances on 
+ships 
+M12 –   All new ships  Oil fuel  Arrangement for filling,  Regulations of 19 
+Machine  between 8 and  arrangement  discharging and trimming of oil  December 2014 on the 
+15 metres  fuel tanks  construction and 
+supervision of small 
+cargo ships 
+All ships  Make and type of essential 
+between 15  components which form part of 
+and 24 metres  the system 
+Diameter, material thickness and 
+material type for pipes 
+Operating position for quick-
+action closing valves 
+All new ships  Bilge water  Arrangement showing collection  Regulations of 19 
+between 8 and  arrangement  of oily bilge water  December 2014 on the 
+15 metres  construction and 
+supervision of small 
+cargo ships 
+All ships  Make and type of essential 
+between 15  components which form part of 
+and 24 metres  the system 
+Pump capacity 
+Diameter, material thickness and 
+material type for pipes 
+All new ships  Sea water inlets  Make and type of essential  Regulations of 19 
+between 8 and  and outlets  components which form part of  December 2014 on the 
+15 metres  the system   construction and 
+supervision of small 
+cargo ships All ships  Diameter, material thickness and 
+between 15  material type for pipes 
+and 24 metres 
+Position of overboard valves in 
+relation to the waterline 
+All new ships  Starting air  Make and type of essential  Regulations of 19 
+between 8 and  system  components which form part of  December 2014 on the 
+15 metres  the system  construction and 
+supervision of small 
+cargo ships 
+All ships  Diameter, material thickness and 
+between 15  material type for pipes 
+and 24 metres 
+All new ships  Machinery  Arrangement   Regulations of 19 
+between 8 and  space  of machinery spaces  December 2014 on the 
+15 metres  arrangement  construction and 
+supervision of small 
+cargo ships 
+All ships  Means of escape from 
+between 15  machinery spaces 
+and 24 metres 
+All new ships  Ballast water  Make and type of essential  Regulations of 19 
+between 8 and  arrangement  components which form part of  December 2014 on the 
+15 metres  the system  construction and 
+supervision of small 
+cargo ships 
+All ships  Diameter, material thickness and 
+between 15  material type for pipes 
+and 24 metres 
+Position of overboard valves in 
+relation to the waterline 
+Calculations of system capacity 
+All new ships  Propulsion and  Type  Regulations of 19 
+between 8 and  propeller  December 2014 on the 
+15 metres  arrangement  construction and 
+supervision of small 
+cargo ships 
+All ships  Make 
+between 15 
+and 24 metres 
+All new ships  Documentation  Type approval from recognised  Regulations of 19 
+between 8 and  for machinery  classification society for  December 2014 on the 
+15 metres  propulsion machinery, auxiliary  construction and 
+machinery, steering gear, boilers  supervision of small 
+and pressure vessels.  cargo ships All ships 
+between 15 
+and 24 metres 
+All new ships  Report or    Regulations of 19 
+between 8 and  confirmation  December 2014 on the 
+15 metres  concerning a  construction and 
+completed  supervision of small 
+torsional  cargo ships 
+oscillation 
+All ships  check for 
+between 15  machinery with 
+and 24 metres  an output of 
+more than 500 
+kW, or 300 kW 
+if the length of 
+the shaft 
+arrangement 
+exceeds 6 
+metres. 
+E16 –  All new ships  Layout of  Make, type and capacity of  Regulations of 19 
+Electrical  emergency  essential components which  December 2014 on the 
+documentation  generator room  form part of the system  construction and 
+supervision of small 
+cargo ships 
+The specific oil fuel  
+consumption of  
+the emergency generator 
+All new ships  Power balance  Power balance/load analysis for  Regulations of 19 
+of emergency  the emergency source of  December 2014 on the 
+source of  electrical power  construction and 
+electrical power  supervision of small 
+cargo ships 
+All new ships  Emergency  Power balance  Regulations of 19 
+lighting  December 2014 on the 
+arrangement  Make, type and location  construction and 
+supervision of small 
+cargo ships 
+S-14 Hull  All new ships  Documentation    Regulations of 19 
+between 8 and  demonstrating  December 2014 on the 
+15 metres  that the  construction and 
+production  supervision of small 
+conditions for  cargo ships All ships  ships 
+between 15  constructed 
+and 24 metres  wholly or 
+partly of 
+fibreglass-
+reinforced 
+polyester or 
+other cast 
+materials 
+comply with 
+the regulatory 
+provisions for 
+production 
+conditions.  
+New ships  Profile and  Longitudinal in vertical and  Regulations of 19 
+between 8 and  deck plan  horizontal plane. Shall show  December 2014 on the 
+15 metres  water ballast tanks, bulkheads,  construction and 
+erections, hatches, etc.   supervision of small 
+cargo ships 
+All ships  Shall include the vessel's main 
+between 15  dimensions, baseline, maximum 
+and 24 metres  draught and frame spacing. 
+New ships  Midship  Transverse showing design of  Regulations of 19 
+between 8 and  section  bottom, camber etc.  December 2014 on the 
+15 metres  construction and 
+supervision of small 
+cargo ships 
+All ships  Shall show the frames essential 
+between 15  for the dimensioning, generally at 
+and 24 metres  least one frame in each space. The 
+midship section drawing shall 
+contain information about the 
+vessel's equipment number and 
+anchor equipment. The baseline 
+shall be sketched in for each 
+frame. 
+New ships  Shell  Shall show the shell expansion in  Regulations of 19 
+between 8 and  expansion  unfolded condition.  December 2014 on the 
+15 metres  construction and 
+supervision of small 
+cargo ships 
+All ships 
+between 15 
+and 24 metres 
+New ships  Watertight    Regulations of 19 
+between 8 and  bulkheads /  December 2014 on the 
+15 metres  tank bulkheads  construction and 
+supervision of small 
+cargo ships 
+All ships 
+between 15 
+and 24 metres   New ships  Foundations of  The drawing shall show  Regulations of 19 
+between 8 and  deck  foundations including underlying  December 2014 on the 
+15 metres  machinery and  structure. Shall be submitted for  construction and 
+launching  winch, towing hook, davit, etc.  supervision of small 
+arrangements  The SWL shall be indicated on  cargo ships 
+All ships  for life-saving  the drawing. 
+between 15  appliances 
+and 24 metres 
+New ships  Deck  The drawing shall show the  Regulations of 19 
+between 8 and  arrangement  location of deck machinery,  December 2014 on the 
+15 metres  winches, containers, cranes and  construction and 
+similar with fittings.   supervision of small 
+cargo ships 
+All ships       
+between 15 
+and 24 metres 
+New ships  Hatch cover  The drawing shall show  Regulations of 19 
+between 8 and  for cargo  dimensions, materials and  December 2014 on the 
+15 metres  spaces  gaskets along with the number of  construction and 
+hinges.  supervision of small 
+cargo ships 
+All ships 
+between 15 
+and 24 metres 
+New ships  Rudder    Regulations of 19 
+between 8 and  arrangement  December 2014 on the 
+15 metres  construction and 
+supervision of small 
+cargo ships 
+All ships 
+between 15 
+and 24 metres 
+New ships  Dimensioning  Dimensioning calculations  Regulations of 19 
+between 8 and  calculations  showing regulatory requirements  December 2014 on the 
+15 metres  and achieved values in  construction and 
+compliance with the construction  supervision of small 
+standard in accordance with  cargo ships 
+All ships  which the ship is constructed.  
+between 15 
+and 24 metres 
+All Ships    Documentation from the  Regulations of 19 
+Documentation  manufacturer shall be submitted,  December 2014 on the 
+for winch,  which shows that the  construction and 
+towing hook,  requirements of the Regulations  supervision of small 
+guide pins,  are satisfied. The documentation  cargo ships 
+shark-jaw and  shall also include information 
+other fixed  regarding SWL. 
+equipment.   All Ships  Documentation  Drawings and calculations of the  Regulations of 19 
+for towing and  towing and/or anchor-handling  December 2014 on the 
+anchor- winch, wire/chain stopper, guide  construction and 
+handling  pins, towing hooks, etc.  supervision of small 
+equipment  cargo ships 
+(Vessels with a  Anchor-handling plan showing 
+particular class  the arrangement of the anchor-
+for anchor- handling system, including the 
+handling and  line routing, all equipment 
+towing  forming part of the anchor-
+equipment  handling system and fastenings 
+may instead  on deck which may be used 
+submit  during the anchor-handling. The 
+documentation  drawing shall also indicate the 
+thereof.)  SWL for all components forming 
+part of the system. 
+Towing arrangement plan for 
+ocean towing. 
+S10 –   All Ships  Preliminary  Intact stability calculations, with  Regulations of 19 
+Stability  stability  loading conditions  December 2014 on the 
+calculations  construction and 
+supervision of small 
+Input data for hull description  cargo ships 
+Instructions for use of  
+anti-rolling tanks, indicating 
+limitations when using anti-
+rolling tanks. The  
+instructions shall be supported 
+by loading conditions. 
+GM / KG  curves with 
+min max
+examples of the use of these. 
+Cross curves 
+Hydrostatic curves and tables: 
+For vessels with cargo wells, 
+hydrostatics shall in addition be 
+laid out with the well totally 
+excluded from the buoyancy. The 
+hydrostatics shall be clearly 
+marked to the effect that it applies 
+only when the well is excluded 
+from the buoyancy. 
+Tank plan 
+Sounding tables for tanks Lines drawing 
+Outline of buoyancy volumes 
+with means of closure and 
+flooding openings. 
+Stability information for towing, 
+if any. 
+Information about maximum 
+permitted weight as a function of 
+extension and direction of crane, 
+if applicable. 
+Stability information for anchor-  
+handling, if any. 
+All Ships  Inclining test  The inclining test shall be carried  Regulations of 19 
+report  out in accordance with the  December 2014 on the 
+Norwegian Maritime Authority’s  construction and 
+procedure, and the report shall  supervision of small 
+contain:  cargo ships 
+Lightship data 
+Draught measurements 
+Description of inclining weights, 
+with weight and centre of gravity 
+Length of pendulums and 
+pendulum readings 
+Description of the movements of 
+the inclining weights 
+Arm for moved weights 
+Heeling moment for each move 
+and plot of heeling moment 
+Calculation of GM for the listed 
+ship 
+Additional weights 
+Hydrostatics for heeling 
+waterline 
+Calculation of lightship data   All Ships  Final stability  Stability calculations with  Regulations of 19 
+calculations  updated lightship data according  December 2014 on the 
+to approved inclining test report  construction and 
+supervision of small 
+cargo ships 
+LS6 –  New ships  Freeboard plan  The overall length, length (L)  Regulations of 19 
+Load line  between 8 and  and moulded depth of the vessel.  December 2014 on the 
+15 metres  construction and 
+supervision of small 
+cargo ships 
+All ships  Extension and height of 
+between 15  weathertight enclosed 
+and 24 metres  superstructure. 
+Location and type of means of 
+closure for hatches in freeboard 
+deck and superstructure. 
+Exterior doors in weathertight 
+superstructure and deckhouse 
+protecting accesses to below 
+freeboard deck and first 
+superstructure deck. 
+Sidescuttles in ship's sides and 
+superstructure. 
+Windows in erections on 
+freeboard deck and first 
+superstructure deck. 
+The heights of coamings and sills 
+of hatches and doors. 
+Location and area of freeing 
+ports. 
+Location and type of valves for 
+sanitary pipelines, scuppers, etc. 
+and of other overboard 
+ventilators. 
+Outline of means of closure, 
+location and indication of height 
+above deck for air pipes and 
+ventilators. 
+Location of deck line at L/2. 
+Bulwarks and guard rails. 
+Doors in shipside, bow and 
+outboard side. B19 –  All new ships  Insulation  Structural fire protection with  Regulations of 19 
+Structural fire  arrangement or  subdivision into A and B class  December 2014 on the 
+protection  fire divisions  divisions.  construction and 
+supervision of small 
+Location of all A and B class  cargo ships 
+divisions in bulkheads and decks. 
+Details of A class divisions, with 
+regard to connections and 
+materials used. 
+Categorisation of rooms. 
+All new ships  Door plan  Fire class standard of doors  Regulations of 19 
+December 2014 on the 
+construction and 
+Dimensions of doors  supervision of small 
+cargo ships 
+Hold-back mechanisms, if any 
+Ventilation openings or similar 
+in the doors, if any. 
+All new ships  Ventilation  Arrangement/layout of the  Regulations of 19 
+arrangement  ventilation ducts in  December 2014 on the 
+accommodation spaces, control  construction and 
+stations, service spaces, store- supervision of small 
+rooms, machinery spaces and, if  cargo ships 
+applicable, cargo spaces and 
+pump rooms. 
+Details of penetrations in 
+bulkheads and decks. 
+B11 – Fire- All Ships  Fire control  The drawing shall show the  Regulations of 19 
+fighting  plan  location of:  December 2014 on the 
+construction and 
+(Fire control  The vessel’s structural fire  supervision of small 
+plan and life- protection with A and B class  cargo ships 
+saving  bulkheads 
+arrangements 
+may be  Fire detection and fire alarm 
+combined in a 
+fire and safety 
+plan)  Sprinkler systems 
+Fixed fire-extinguishing 
+equipment 
+Portable fire-extinguishing 
+equipment 
+Access to spaces and decks etc. 
+Stopping of fans and dampers in 
+the ventilation system. Shut-off valves for oil fuel and 
+lubricating oil. 
+Fire pump and emergency fire 
+pump, if any, with capacity. 
+Symbols shall be in accordance 
+with a recognised international 
+standard. 
+All new ships  Fire main  Arrangement of fire main system  Regulations of 19 
+December 2014 on the 
+construction and 
+Location of main fire pumps and  supervision of small 
+hydrants  cargo ships 
+Location of emergency fire 
+pump 
+Capacity of main fire pumps and 
+emergency fire pumps 
+All new ships  Fire alarm and  General arrangement showing  Regulations of 19 
+fire detection  the location of:  December 2014 on the 
+construction and 
+– fire detection in  supervision of small 
+accommodation, service and  cargo ships 
+machinery spaces 
+– fire alarms 
+Connection diagram (one-line 
+diagram) showing: 
+– coupling of the loops for the 
+units indicated on the general 
+arrangement 
+Copy of type approval 
+certificate. 
+All new ships  Fixed fire- Type approval certificate  Regulations of 19 
+extinguishing  December 2014 on the 
+system in  Manual showing documentation  construction and 
+machinery  required by type approval  supervision of small 
+spaces  certificate  cargo ships 
+Arrangement drawings showing 
+location of nozzles and release 
+stations 
+Capacity calculations 
+Instructions for activation of 
+system   All new ships  Manual for    Regulations of 19 
+fire- December 2014 on the 
+extinguishing  construction and 
+system  supervision of small 
+cargo ships 

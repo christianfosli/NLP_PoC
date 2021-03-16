@@ -1,0 +1,37 @@
+CONSTRUCTION
+Railing
+Casing
+Freeing port
+Bulwark
+External openings
+Bow
+Bilge
+Bilge flap
+Ladder
+Hull
+Bulkhead
+Plate
+Beam
+Manhole
+Scupper
+Deck
+Subdivision
+Superstructure
+Chimney
+Freeing port area
+External openings
+Means of closure
+Airing pipe
+Ventilation Opening
+Window
+Door
+Hatch
+Manhole cover
+Tank
+Safety measures
+Insulation
+Fire insulation
+Storage
+Spare part
+
+

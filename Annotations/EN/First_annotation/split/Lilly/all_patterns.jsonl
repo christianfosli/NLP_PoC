@@ -1,0 +1,2710 @@
+{"pattern": "endorsement for", "label": "OBJECT PROPERTY"}
+{"pattern": "gives right", "label": "OBJECT PROPERTY"}
+{"pattern": "has endorsement", "label": "OBJECT PROPERTY"}
+{"pattern": "has seagoing service requirement", "label": "OBJECT PROPERTY"}
+{"pattern": "in position", "label": "OBJECT PROPERTY"}
+{"pattern": "in trade area", "label": "OBJECT PROPERTY"}
+{"pattern": "issued by", "label": "OBJECT PROPERTY"}
+{"pattern": "on ship type", "label": "OBJECT PROPERTY"}
+{"pattern": "refered to in", "label": "OBJECT PROPERTY"}
+{"pattern": "refers to", "label": "OBJECT PROPERTY"}
+{"pattern": "renewal requirements for", "label": "OBJECT PROPERTY"}
+{"pattern": "requirement for", "label": "OBJECT PROPERTY"}
+{"pattern": "requires", "label": "OBJECT PROPERTY"}
+{"pattern": "requires attachement", "label": "OBJECT PROPERTY"}
+{"pattern": "requires certificate", "label": "OBJECT PROPERTY"}
+{"pattern": "requires competancy", "label": "OBJECT PROPERTY"}
+{"pattern": "requires course", "label": "OBJECT PROPERTY"}
+{"pattern": "requires education", "label": "OBJECT PROPERTY"}
+{"pattern": "servedinposition", "label": "OBJECT PROPERTY"}
+{"pattern": "uses fuel", "label": "OBJECT PROPERTY"}
+{"pattern": "age", "label": "DATATYPE PROPERTY"}
+{"pattern": "days since completion", "label": "DATATYPE PROPERTY"}
+{"pattern": "duration", "label": "DATATYPE PROPERTY"}
+{"pattern": "engine power", "label": "DATATYPE PROPERTY"}
+{"pattern": "gross tonnage", "label": "DATATYPE PROPERTY"}
+{"pattern": "promulgated", "label": "DATATYPE PROPERTY"}
+{"pattern": "radio coverage area", "label": "DATATYPE PROPERTY"}
+{"pattern": "trade area rank_fishing", "label": "DATATYPE PROPERTY"}
+{"pattern": "trade area rank_general", "label": "DATATYPE PROPERTY"}
+{"pattern": "valid from", "label": "DATATYPE PROPERTY"}
+{"pattern": "valid to", "label": "DATATYPE PROPERTY"}
+{"pattern": "vessel length overall", "label": "DATATYPE PROPERTY"}
+{"pattern": "voltage", "label": "DATATYPE PROPERTY"}
+{"pattern": "ab", "label": "COMPETANCY"}
+{"pattern": "able seafarer apprentice_deck", "label": "DECK CREW POSITION"}
+{"pattern": "able seafarer apprentice_engine", "label": "ENGINE CREW POSITION"}
+{"pattern": "able seafarer_deck", "label": "DECK CREW POSITION"}
+{"pattern": "able seafarer_engine", "label": "ENGINE CREW POSITION"}
+{"pattern": "advanced safety course", "label": "SAFETY COURSE"}
+{"pattern": "annex", "label": "LEGAL DOCUMENT"}
+{"pattern": "barge", "label": "CARGO VESSEL"}
+{"pattern": "basic safety course", "label": "SAFETY COURSE"}
+{"pattern": "bulk carrier", "label": "CARGO VESSEL"}
+{"pattern": "cadet deck", "label": "DECK CREW POSITION"}
+{"pattern": "cadet engine", "label": "ENGINE CREW POSITION"}
+{"pattern": "cargo high speed craft", "label": "CARGO VESSEL"}
+{"pattern": "cargo vessel", "label": "SHIP"}
+{"pattern": "certificate", "label": "CLASS"}
+{"pattern": "chemical tanker", "label": "TANKER"}
+{"pattern": "chief engineer", "label": "ENGINE OFFICER POSITION"}
+{"pattern": "chief officer", "label": "DECK OFFICER POSITION"}
+{"pattern": "competancy", "label": "CLASS"}
+{"pattern": "competence certificate", "label": "PERSON CERTIFICATE"}
+{"pattern": "course", "label": "CLASS"}
+{"pattern": "crowd and crisis", "label": "COURSE"}
+{"pattern": "deck crew position", "label": "POSITION"}
+{"pattern": "deck education", "label": "EDUCATION"}
+{"pattern": "deck officer certificate", "label": "COMPETENCE CERTIFICATE"}
+{"pattern": "deck officer certificate limited trade area", "label": "COMPETENCE CERTIFICATE"}
+{"pattern": "deck officer position", "label": "POSITION"}
+{"pattern": "exp", "label": "COMPETANCY"}
+{"pattern": "educational establishment", "label": "CLASS"}
+{"pattern": "electrical course", "label": "COURSE"}
+{"pattern": "electrical crew position", "label": "POSITION"}
+{"pattern": "electrical education", "label": "EDUCATION"}
+{"pattern": "electrical officer certificate", "label": "COMPETENCE CERTIFICATE"}
+{"pattern": "electro technical officer", "label": "POSITION"}
+{"pattern": "electro technical rating", "label": "ELECTRICAL CREW POSITION"}
+{"pattern": "endorsement certificate", "label": "CERTIFICATE"}
+{"pattern": "engine course", "label": "COURSE"}
+{"pattern": "engine crew position", "label": "POSITION"}
+{"pattern": "engine education", "label": "EDUCATION"}
+{"pattern": "engine officer certificate", "label": "COMPETENCE CERTIFICATE"}
+{"pattern": "engine officer position", "label": "POSITION"}
+{"pattern": "engineer", "label": "ENGINE OFFICER POSITION"}
+{"pattern": "evidence of formal qualifications", "label": "PERSON CERTIFICATE"}
+{"pattern": "for-2011-12-22-1523", "label": "REGULATION"}
+{"pattern": "for-2011-12-22-1523-annex", "label": "ANNEX"}
+{"pattern": "fast rescue boat course", "label": "COURSE"}
+{"pattern": "fisherman", "label": "DECK CREW POSITION"}
+{"pattern": "fishing trade area", "label": "TRADE AREA"}
+{"pattern": "fishing vessel", "label": "SHIP"}
+{"pattern": "fuel", "label": "CLASS"}
+{"pattern": "gmdssradiocertificate", "label": "RADIO OPERATOR CERTIFICATE"}
+{"pattern": "gmdssseaarea", "label": "TRADE AREA"}
+{"pattern": "gas tanker", "label": "TANKER"}
+{"pattern": "general trade area", "label": "TRADE AREA"}
+{"pattern": "high speed passenger craft", "label": "PASSENGER SHIP"}
+{"pattern": "high speed craft course", "label": "COURSE"}
+{"pattern": "igfcourse", "label": "COURSE"}
+{"pattern": "instructor course", "label": "COURSE"}
+{"pattern": "legal document", "label": "CLASS"}
+{"pattern": "leisure boat", "label": "SHIP"}
+{"pattern": "leisure skipper course", "label": "COURSE"}
+{"pattern": "limited safety course", "label": "COURSE"}
+{"pattern": "master", "label": "DECK OFFICER POSITION"}
+{"pattern": "mate", "label": "DECK OFFICER POSITION"}
+{"pattern": "medical certificate", "label": "PERSON CERTIFICATE"}
+{"pattern": "medical course", "label": "COURSE"}
+{"pattern": "national certificate", "label": "CERTIFICATE"}
+{"pattern": "navigator course", "label": "COURSE"}
+{"pattern": "norske skip", "label": "CLASS"}
+{"pattern": "off shore unit", "label": "SHIP"}
+{"pattern": "oil chemical tanker", "label": "TANKER"}
+{"pattern": "oil tanker", "label": "TANKER"}
+{"pattern": "oiler ship", "label": "ENGINE CREW POSITION"}
+{"pattern": "onboard training", "label": "COMPETANCY"}
+{"pattern": "ordinary seafarer", "label": "DECK CREW POSITION"}
+{"pattern": "other cargo", "label": "CARGO VESSEL"}
+{"pattern": "other passenger ship", "label": "PASSENGER SHIP"}
+{"pattern": "pp", "label": "COMPETANCY"}
+{"pattern": "passenger ship", "label": "SHIP"}
+{"pattern": "person certificate", "label": "CERTIFICATE"}
+{"pattern": "pilot", "label": "DECK OFFICER POSITION"}
+{"pattern": "pleasure craft certificate", "label": "PERSON CERTIFICATE"}
+{"pattern": "polar certificate", "label": "VESSEL CERTIFICATE"}
+{"pattern": "polar course", "label": "COURSE"}
+{"pattern": "position", "label": "CLASS"}
+{"pattern": "professional competence officer course", "label": "NAVIGATOR COURSE"}
+{"pattern": "proficiency certificate", "label": "PERSON CERTIFICATE"}
+{"pattern": "radio operator certificate", "label": "PERSON CERTIFICATE"}
+{"pattern": "radiooperator ship", "label": "POSITION"}
+{"pattern": "regulation", "label": "LEGAL DOCUMENT"}
+{"pattern": "requirement", "label": "CLASS"}
+{"pattern": "rescue boat course", "label": "COURSE"}
+{"pattern": "roro passenger ferry", "label": "PASSENGER SHIP"}
+{"pattern": "safety course", "label": "COURSE"}
+{"pattern": "seagoing service requirement", "label": "REQUIREMENT"}
+{"pattern": "second engineer", "label": "ENGINE OFFICER POSITION"}
+{"pattern": "ship electrician apprentice", "label": "ELECTRICAL CREW POSITION"}
+{"pattern": "ship security course", "label": "COURSE"}
+{"pattern": "short range radio certificate", "label": "RADIO OPERATOR CERTIFICATE"}
+{"pattern": "small fishing vessel", "label": "CLASS"}
+{"pattern": "tanker", "label": "CARGO VESSEL"}
+{"pattern": "tankerman course", "label": "COURSE"}
+{"pattern": "trade area", "label": "CLASS"}
+{"pattern": "vsk", "label": "ADVANCED SAFETY COURSE"}
+{"pattern": "vskr", "label": "ADVANCED SAFETY COURSE"}
+{"pattern": "vessel certificate", "label": "CERTIFICATE"}
+{"pattern": "vessel requirement", "label": "REQUIREMENT"}
+{"pattern": "administration", "label": "ORGANISATION"}
+{"pattern": "heavy lift vessel", "label": "DRY CARGO VESSEL"}
+{"pattern": "dry cargo vessel", "label": "CARGO SHIP"}
+{"pattern": "cargo ship", "label": "MERCHANT SHIP"}
+{"pattern": "merchant ship", "label": "SHIP"}
+{"pattern": "cargo handling activity", "label": "MARITIME ACTIVITY"}
+{"pattern": "direction of thrust of the propellers", "label": "NAVIGATIONAL TERM"}
+{"pattern": "heavy scrap", "label": "SCRAP"}
+{"pattern": "scrap", "label": "CARGO"}
+{"pattern": "at anchor", "label": "NAVIGATIONAL TERM"}
+{"pattern": "vacuum valve", "label": "VALVE"}
+{"pattern": "valve", "label": "SHIP EQUIPMENT"}
+{"pattern": "biocide", "label": "SUBSTANCE"}
+{"pattern": "warm clothing", "label": "PROTECTIVE CLOTHING"}
+{"pattern": "protective clothing", "label": "CREW EQUIPMENT"}
+{"pattern": "crew equipment", "label": "SHIP EQUIPMENT"}
+{"pattern": "international water", "label": "WATER AREA"}
+{"pattern": "ballasting", "label": "SHIP MAINTENANCE"}
+{"pattern": "ship maintenance", "label": "MARITIME ACTIVITY"}
+{"pattern": "ship intended to operate in low air temperature", "label": "SPECIAL PURPOSE SHIP"}
+{"pattern": "special purpose ship", "label": "SHIP"}
+{"pattern": "ship routeing system", "label": "IT SYSTEM"}
+{"pattern": "maintenance agreement", "label": "DOCUMENT"}
+{"pattern": "international energy efficiency certificate iapp", "label": "MARPOL STATUTORY CERTIFICATE"}
+{"pattern": "marpol statutory certificate", "label": "STATUTORY CERTIFICATES"}
+{"pattern": "statutory certificates", "label": "CERTIFICATE"}
+{"pattern": "certificate", "label": "DOCUMENT"}
+{"pattern": "cyclone", "label": "STORM"}
+{"pattern": "storm", "label": "WIND"}
+{"pattern": "storm", "label": "UNFAVOURABLE CONDITION"}
+{"pattern": "unfavourable condition", "label": "WEATHER CONDITION"}
+{"pattern": "wind", "label": "WEATHER CONDITION"}
+{"pattern": "weather condition", "label": "MARITIME SITUATION"}
+{"pattern": "injury", "label": "MEDICAL CONDITION"}
+{"pattern": "medical condition", "label": "PHYSIOLOGICAL STATE"}
+{"pattern": "physiological state", "label": "CREW CONDITION"}
+{"pattern": "offshore terminal", "label": "OFFSHORE INSTALLATION"}
+{"pattern": "inflatable liferaft", "label": "LIFERAFT"}
+{"pattern": "liferaft", "label": "SURVIVAL CRAFT"}
+{"pattern": "survival craft", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "emergency position indicating radio beacon for liferafts certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "liferaft certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "falls of launching appliances liferafts certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "life saving appliance", "label": "SHIP EQUIPMENT"}
+{"pattern": "survival craft muster", "label": "EMERGENCY MANAGEMENT"}
+{"pattern": "ship equipment certificate", "label": "CERTIFICATE"}
+{"pattern": "multi-year ice", "label": "OLD ICE"}
+{"pattern": "old ice", "label": "ICE DEVELOPMENT"}
+{"pattern": "ice development", "label": "ICE"}
+{"pattern": "ice", "label": "UNFAVOURABLE CONDITION"}
+{"pattern": "crude oil", "label": "OIL"}
+{"pattern": "oil", "label": "CARGO"}
+{"pattern": "oil", "label": "SUBSTANCE"}
+{"pattern": "crude oil tanker", "label": "TANKER"}
+{"pattern": "crude oil washing", "label": "SHIP MAINTENANCE"}
+{"pattern": "tanker", "label": "CARGO SHIP"}
+{"pattern": "owner", "label": "ROLE"}
+{"pattern": "metal scrap", "label": "SCRAP"}
+{"pattern": "passenger with need of assistance in an emergency", "label": "PASSENGER"}
+{"pattern": "passenger", "label": "PERSON ON BOARD"}
+{"pattern": "person on board", "label": "ROLE"}
+{"pattern": "chief steward", "label": "OFFICER"}
+{"pattern": "officer", "label": "CREWMEMBER"}
+{"pattern": "crewmember", "label": "PERSON ON BOARD"}
+{"pattern": "east coast of australia", "label": "COASTAL WATERS"}
+{"pattern": "coastal waters", "label": "WATER AREA"}
+{"pattern": "maritime safety committee", "label": "COMMITTEE"}
+{"pattern": "committee", "label": "INTERNATIONAL MARITIME ORGANIZATION"}
+{"pattern": "committee", "label": "ORGANISATION"}
+{"pattern": "open deck cargo ship", "label": "HEAVY LIFT VESSEL"}
+{"pattern": "record book", "label": "DOCUMENT"}
+{"pattern": "thin first year ice second stage", "label": "THIN FIRST-YEAR ICE"}
+{"pattern": "thin first-year ice", "label": "FIRST YEAR ICE"}
+{"pattern": "first year ice", "label": "ICE DEVELOPMENT"}
+{"pattern": "good visibility", "label": "VISIBILITY"}
+{"pattern": "visibility", "label": "WEATHER CONDITION"}
+{"pattern": "intermediate survey", "label": "LEGAL CONCEPT"}
+{"pattern": "intermediate survey", "label": "SURVEY"}
+{"pattern": "survey", "label": "LEGAL CONCEPT"}
+{"pattern": "knot", "label": "UNIT"}
+{"pattern": "speed", "label": "NAVIGATIONAL TERM"}
+{"pattern": "navigation light", "label": "LIGHT"}
+{"pattern": "light", "label": "SHIP EQUIPMENT"}
+{"pattern": "performance of safety equipment", "label": "PERFORMANCE OF EQUIPMENT"}
+{"pattern": "performance of equipment", "label": "EQUIPMENT CONDITION"}
+{"pattern": "class 1.1 substance", "label": "CLASS 1 SUBSTANCE"}
+{"pattern": "class 1 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "imdg substance", "label": "SUBSTANCE"}
+{"pattern": "entering into force", "label": "LEGAL CONCEPT"}
+{"pattern": "in force", "label": "LEGAL CONCEPT"}
+{"pattern": "slight swell", "label": "SWELL"}
+{"pattern": "swell", "label": "WEATHER CONDITION"}
+{"pattern": "sea state", "label": "WEATHER CONDITION"}
+{"pattern": "passage planning", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "shiphandling activity", "label": "MARITIME ACTIVITY"}
+{"pattern": "ice field", "label": "ICE ARRANGEMENT"}
+{"pattern": "ice arrangement", "label": "ICE"}
+{"pattern": "international ship security certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "solas statutory certificates", "label": "STATUTORY CERTIFICATES"}
+{"pattern": "radioactive substance", "label": "HAZARDOUS SUBSTANCE"}
+{"pattern": "hazardous substance", "label": "SUBSTANCE"}
+{"pattern": "fire pump", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "fire pump", "label": "PUMP"}
+{"pattern": "fire extinguishing appliance", "label": "FIRE PROTECTION SYSTEM"}
+{"pattern": "pump", "label": "SHIP EQUIPMENT"}
+{"pattern": "fire protection system", "label": "SHIP EQUIPMENT"}
+{"pattern": "pump room", "label": "MACHINERY SPACE"}
+{"pattern": "machinery space", "label": "SPACE"}
+{"pattern": "full load displacement", "label": "DISPLACEMENT"}
+{"pattern": "displacement", "label": "WEIGHT"}
+{"pattern": "weight", "label": "SHIP STRUCTURAL PROPERTY"}
+{"pattern": "ship structural property", "label": "SHIP PROPERTY"}
+{"pattern": "oil residue", "label": "OIL"}
+{"pattern": "oil residue tank", "label": "TANK"}
+{"pattern": "tank", "label": "SHIP STRUCTURE"}
+{"pattern": "ice patrol", "label": "MARINE ACTIVITY"}
+{"pattern": "marine activity", "label": "MARITIME ACTIVITY"}
+{"pattern": "freeboard deck", "label": "DECK"}
+{"pattern": "deck", "label": "SHIP STRUCTURE"}
+{"pattern": "operational speed", "label": "SPEED"}
+{"pattern": "feeder", "label": "CONTAINERSHIP"}
+{"pattern": "containership", "label": "DRY CARGO VESSEL"}
+{"pattern": "investigation", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "marine administration activity", "label": "MARITIME ACTIVITY"}
+{"pattern": "acceptance of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "renewal of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "qualification of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "certificated person", "label": "CREWMEMBER"}
+{"pattern": "expiry date", "label": "LEGAL CONCEPT"}
+{"pattern": "endorsement of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "expiry of certificate", "label": "EXPIRY DATE"}
+{"pattern": "examination of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "validity period", "label": "LEGAL CONCEPT"}
+{"pattern": "issue of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "validity of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "bergy bit", "label": "ICEBERG"}
+{"pattern": "iceberg", "label": "CALVED ICE OF LAND ORIGIN"}
+{"pattern": "iceberg", "label": "FLOATING ICE"}
+{"pattern": "floating ice", "label": "ICE"}
+{"pattern": "calved ice of land origin", "label": "ICE OF LAND ORIGIN"}
+{"pattern": "ice of land origin", "label": "ICE"}
+{"pattern": "performance of systems", "label": "EQUIPMENT CONDITION"}
+{"pattern": "distraction", "label": "CREW CONDITION"}
+{"pattern": "number of passengers on board", "label": "SHIP PASSENGER PROPERTY"}
+{"pattern": "ship passenger property", "label": "SHIP PROPERTY"}
+{"pattern": "ice breccia", "label": "FLOATING ICE"}
+{"pattern": "lifejacket", "label": "PERSONAL RESCUE EQUIPMENT"}
+{"pattern": "personal rescue equipment", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "inflatable appliance", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "environmental ship operation", "label": "SHIP OPERATION"}
+{"pattern": "ship operation", "label": "MARITIME ACTIVITY"}
+{"pattern": "displacement hull", "label": "HULL TYPE"}
+{"pattern": "hull type", "label": "HULL STRUCTURE"}
+{"pattern": "hull structure", "label": "SHIP STRUCTURE"}
+{"pattern": "ice boundary", "label": "ICE ARRANGEMENT"}
+{"pattern": "ice limit", "label": "ICE EDGE"}
+{"pattern": "ice edge", "label": "ICE ARRANGEMENT"}
+{"pattern": "category x substance", "label": "MARPOL ANNEX 2 SUBSTANCE"}
+{"pattern": "marpol annex 2 substance", "label": "SUBSTANCE"}
+{"pattern": "national law", "label": "LAW"}
+{"pattern": "law", "label": "LEGAL CONCEPT"}
+{"pattern": "regulation", "label": "DOCUMENT PART"}
+{"pattern": "survey planning", "label": "PROCEDURE"}
+{"pattern": "deteriorated human performance", "label": "HUMAN PERFORMANCE"}
+{"pattern": "human performance", "label": "CREW CONDITION"}
+{"pattern": "logbook", "label": "RECORD BOOK"}
+{"pattern": "semi-submersible platform", "label": "FLOATING PLATFORM"}
+{"pattern": "floating platform", "label": "OFFSHORE PLATFORM"}
+{"pattern": "offshore platform", "label": "OFFSHORE INSTALLATION"}
+{"pattern": "echo sounding", "label": "SONAR"}
+{"pattern": "echo sounding", "label": "NAVIGATIONAL AID"}
+{"pattern": "sonar", "label": "NAVIGATIONAL AID"}
+{"pattern": "navigational aid", "label": "SHIP EQUIPMENT"}
+{"pattern": "ice concentration", "label": "UNFAVOURABLE CONDITION"}
+{"pattern": "column", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "hull structural member", "label": "HULL STRUCTURE"}
+{"pattern": "slush", "label": "NEW ICE"}
+{"pattern": "new ice", "label": "ICE DEVELOPMENT"}
+{"pattern": "readily accessible", "label": "GOOD ORDER"}
+{"pattern": "good order", "label": "EQUIPMENT CONDITION"}
+{"pattern": "nautical information", "label": "SERVICE"}
+{"pattern": "damaged condition", "label": "SHIP CONDITION"}
+{"pattern": "medical certificate", "label": "CREW CERTIFICATE"}
+{"pattern": "crew certificate", "label": "CERTIFICATE"}
+{"pattern": "segregation", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "intact stability booklet", "label": "EMERGENCY PLAN"}
+{"pattern": "emergency plan", "label": "DOCUMENT"}
+{"pattern": "ice massif", "label": "ICE ARRANGEMENT"}
+{"pattern": "vessel traffic service", "label": "IT SYSTEM"}
+{"pattern": "gross tonnage", "label": "WEIGHT"}
+{"pattern": "navigational hazard", "label": "HAZARD"}
+{"pattern": "hazard", "label": "MARITIME SITUATION"}
+{"pattern": "temperature", "label": "WEATHER CONDITION"}
+{"pattern": "drug smuggling", "label": "SMUGGLING"}
+{"pattern": "smuggling", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "unlawful activity", "label": "MARITIME ACTIVITY"}
+{"pattern": "denmark", "label": "SCHENGEN STATE"}
+{"pattern": "denmark", "label": "EU MEMBER STATE"}
+{"pattern": "denmark", "label": "EUROPEAN COUNTRY"}
+{"pattern": "eu member state", "label": "COUNTRY"}
+{"pattern": "european country", "label": "COUNTRY"}
+{"pattern": "schengen state", "label": "COUNTRY"}
+{"pattern": "poisonous substance", "label": "HAZARDOUS SUBSTANCE"}
+{"pattern": "ship reporting", "label": "REPORTING"}
+{"pattern": "reporting", "label": "SHIP MANAGEMENT ACTIVITY"}
+{"pattern": "ship management activity", "label": "MARITIME ACTIVITY"}
+{"pattern": "lightering", "label": "SHIP MAINTENANCE"}
+{"pattern": "ice cake", "label": "FLOATING ICE"}
+{"pattern": "record of oil discharge monitoring and control system", "label": "RECORD BOOK"}
+{"pattern": "amendment", "label": "DOCUMENT PART"}
+{"pattern": "corridor", "label": "SPACE"}
+{"pattern": "space", "label": "SHIP STRUCTURE"}
+{"pattern": "agency", "label": "ORGANISATION"}
+{"pattern": "consignee", "label": "ROLE"}
+{"pattern": "group survival equipment", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "international tonnage certificate", "label": "TONNAGE STATUTORY CERTIFICATE"}
+{"pattern": "tonnage statutory certificate", "label": "STATUTORY CERTIFICATES"}
+{"pattern": "shipboard oil pollution emergency plan", "label": "EMERGENCY PLAN"}
+{"pattern": "structural integrity", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "ship characteristic", "label": "SHIP PROPERTY"}
+{"pattern": "unattended", "label": "CREW CONDITION"}
+{"pattern": "attended", "label": "CREW CONDITION"}
+{"pattern": "car carrier", "label": "RO RO VESSEL"}
+{"pattern": "ro ro vessel", "label": "DRY CARGO VESSEL"}
+{"pattern": "deck cadet", "label": "OFFICER"}
+{"pattern": "willy willy", "label": "STORM"}
+{"pattern": "disposal of waste", "label": "SHIP MAINTENANCE"}
+{"pattern": "ocean current", "label": "CURRENT"}
+{"pattern": "current", "label": "MARITIME SITUATION"}
+{"pattern": "open water", "label": "ICE CONCENTRATION"}
+{"pattern": "actual time of arrival", "label": "NAVIGATIONAL TERM"}
+{"pattern": "sweden", "label": "SCHENGEN STATE"}
+{"pattern": "sweden", "label": "EU MEMBER STATE"}
+{"pattern": "sweden", "label": "EUROPEAN COUNTRY"}
+{"pattern": "safety valve", "label": "VALVE"}
+{"pattern": "medical oxygen certificate", "label": "SHIP SANITATION CERTIFICATE"}
+{"pattern": "ship sanitation certificate", "label": "CERTIFICATE"}
+{"pattern": "collision avoidance", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "accident investigation", "label": "INVESTIGATION"}
+{"pattern": "stevedore", "label": "ROLE"}
+{"pattern": "chemical tanker", "label": "TANKER"}
+{"pattern": "helmsperson", "label": "NON OFFICER"}
+{"pattern": "non officer", "label": "CREWMEMBER"}
+{"pattern": "open deck", "label": "DECK"}
+{"pattern": "record book of engine parameters", "label": "RECORD BOOK"}
+{"pattern": "hazardous area", "label": "WORKING ENVIRONMENT"}
+{"pattern": "working environment", "label": "CREW CONDITION"}
+{"pattern": "strait of gibraltar", "label": "STRAIT"}
+{"pattern": "strait", "label": "WATER AREA"}
+{"pattern": "approval of design and arrangement", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "shipbuilding activity", "label": "MARITIME ACTIVITY"}
+{"pattern": "gyro repeater", "label": "NAVIGATIONAL AID"}
+{"pattern": "gyro compass", "label": "NAVIGATIONAL AID"}
+{"pattern": "voice communication", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "communication system", "label": "SHIP EQUIPMENT"}
+{"pattern": "double bottom tank", "label": "TANK"}
+{"pattern": "ultra large crude carrier", "label": "CRUDE OIL TANKER"}
+{"pattern": "lifeboat", "label": "SURVIVAL CRAFT"}
+{"pattern": "lifeboat certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "lifeboat crewmember", "label": "CREWMEMBER"}
+{"pattern": "life davit for lifeboats certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "falls of launching appliance lifeboat", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "emergency position indicating radio beacon battery for rescue boat and lifeboat", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "rescue boat", "label": "SURVIVAL CRAFT"}
+{"pattern": "emergency management", "label": "PROCEDURE"}
+{"pattern": "rescue boat certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "life davit for rescue boat certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "rescue boat crewmember", "label": "CREWMEMBER"}
+{"pattern": "falls of launching appliances rescue boat", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "mutual consent", "label": "CONSENT"}
+{"pattern": "consent", "label": "LEGAL CONCEPT"}
+{"pattern": "malfunction of safety equipment", "label": "MALFUNCTION OF EQUIPMENT"}
+{"pattern": "malfunction of equipment", "label": "EQUIPMENT CONDITION"}
+{"pattern": "hydrographic surveying", "label": "MARINE ACTIVITY"}
+{"pattern": "smoke", "label": "CREW CONDITION"}
+{"pattern": "actual time of departure", "label": "NAVIGATIONAL TERM"}
+{"pattern": "oil fuel tank", "label": "FUEL TANK"}
+{"pattern": "fuel tank", "label": "TANK"}
+{"pattern": "ore oil carrier", "label": "COMBINATION CARRIER"}
+{"pattern": "combination carrier", "label": "CARGO SHIP"}
+{"pattern": "light scrap", "label": "SCRAP"}
+{"pattern": "class 1.6 substance", "label": "CLASS 1 SUBSTANCE"}
+{"pattern": "discharge of residues", "label": "DISCHARGE"}
+{"pattern": "discharge", "label": "DISPOSAL OF WASTE"}
+{"pattern": "rule", "label": "LEGAL CONCEPT"}
+{"pattern": "dynamic positioning", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "stowaway", "label": "PERSON ON BOARD"}
+{"pattern": "class 6.1 substance", "label": "CLASS 6 SUBSTANCE"}
+{"pattern": "class 6 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "institution", "label": "ASSOCIATION"}
+{"pattern": "association", "label": "ORGANISATION"}
+{"pattern": "medical equipment", "label": "SHIP EQUIPMENT"}
+{"pattern": "icing of structures", "label": "ICING"}
+{"pattern": "icing", "label": "EQUIPMENT CONDITION"}
+{"pattern": "legal act", "label": "LEGAL CONCEPT"}
+{"pattern": "first aid procedure", "label": "EMERGENCY PLAN"}
+{"pattern": "red sea", "label": "WATER AREA"}
+{"pattern": "speed and distance measuring device", "label": "NAVIGATIONAL AID"}
+{"pattern": "cyprus", "label": "EU MEMBER STATE"}
+{"pattern": "cyprus", "label": "EUROPEAN COUNTRY"}
+{"pattern": "manoeuvrability", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "machinery installation", "label": "SHIP EQUIPMENT"}
+{"pattern": "high latitude", "label": "LATITUDE"}
+{"pattern": "latitude", "label": "POSITION"}
+{"pattern": "position", "label": "NAVIGATIONAL TERM"}
+{"pattern": "increased viscosity", "label": "VISCOSITY"}
+{"pattern": "viscosity", "label": "EQUIPMENT CONDITION"}
+{"pattern": "shipboard experience", "label": "SHIP CREW EXPERIENCE"}
+{"pattern": "ship crew experience", "label": "CREW CONDITION"}
+{"pattern": "single copy", "label": "DOCUMENT"}
+{"pattern": "interpretation", "label": "LEGAL CONCEPT"}
+{"pattern": "small floe", "label": "FLOE"}
+{"pattern": "floe", "label": "FLOATING ICE"}
+{"pattern": "entrance", "label": "OPENING"}
+{"pattern": "opening", "label": "SHIP STRUCTURE"}
+{"pattern": "certificate of flag registry", "label": "FLAG STATE CERTIFICATE"}
+{"pattern": "flag state certificate", "label": "CERTIFICATE"}
+{"pattern": "pitch of the propeller", "label": "NAVIGATIONAL TERM"}
+{"pattern": "cargo ship safety certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "cleaning", "label": "SHIP MAINTENANCE"}
+{"pattern": "discharge into the sea", "label": "DISCHARGE"}
+{"pattern": "performance standard", "label": "EQUIPMENT CONDITION"}
+{"pattern": "southern ocean", "label": "WATER AREA"}
+{"pattern": "suezmax tanker", "label": "CRUDE OIL TANKER"}
+{"pattern": "bridge resource management", "label": "BRIDGE PROCEDURE"}
+{"pattern": "bridge procedure", "label": "PROCEDURE"}
+{"pattern": "cassette carrier", "label": "DRY CARGO VESSEL"}
+{"pattern": "medium ice field", "label": "ICE FIELD"}
+{"pattern": "maximum working stress", "label": "EQUIPMENT CONDITION"}
+{"pattern": "international chamber of shipping", "label": "NON GOVERNMENTAL ORGANISATION"}
+{"pattern": "non governmental organisation", "label": "ORGANISATION"}
+{"pattern": "large ice field", "label": "ICE FIELD"}
+{"pattern": "ice wall", "label": "GLACIER ICE"}
+{"pattern": "glacier ice", "label": "ICE OF LAND ORIGIN"}
+{"pattern": "international law", "label": "LAW"}
+{"pattern": "thick first year ice", "label": "FIRST YEAR ICE"}
+{"pattern": "armed robbery", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "weathertight door", "label": "DOOR"}
+{"pattern": "door", "label": "OPENING"}
+{"pattern": "international bulk chemical code", "label": "CODE"}
+{"pattern": "code", "label": "DOCUMENT"}
+{"pattern": "integrated navigation system", "label": "NAVIGATIONAL AID"}
+{"pattern": "risk-based procedure", "label": "PROCEDURE"}
+{"pattern": "disinfestation ship certificate", "label": "SHIP SANITATION CERTIFICATE"}
+{"pattern": "single original", "label": "DOCUMENT"}
+{"pattern": "seagoing service", "label": "SERVICE"}
+{"pattern": "member of the watch", "label": "CREWMEMBER"}
+{"pattern": "lack of ship crew experience in polar operations", "label": "LACK OF SHIP CREW EXPERIENCE"}
+{"pattern": "lack of ship crew experience", "label": "CREW CONDITION"}
+{"pattern": "engineering analysis", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "ice strengthened category c", "label": "CATEGORY C"}
+{"pattern": "category c", "label": "SHIP ICE PROPERTY 1"}
+{"pattern": "ship ice property 1", "label": "SHIP PROPERTY"}
+{"pattern": "macedonia", "label": "EUROPEAN COUNTRY"}
+{"pattern": "seafarers%27 training%2c certification and watchkeeping code", "label": "CODE"}
+{"pattern": "engine", "label": "PROPULSION SYSTEM"}
+{"pattern": "propulsion system", "label": "SHIP STRUCTURE"}
+{"pattern": "malfunction of systems", "label": "EQUIPMENT CONDITION"}
+{"pattern": "access hatchway", "label": "HATCH"}
+{"pattern": "hatch", "label": "OPENING"}
+{"pattern": "thermohaline circulation", "label": "CURRENT"}
+{"pattern": "automatic identification system", "label": "NAVIGATIONAL AID"}
+{"pattern": "preventing snow accretion", "label": "SHIP MAINTENANCE"}
+{"pattern": "day tank", "label": "TANK"}
+{"pattern": "loading condition", "label": "SHIP CONDITION"}
+{"pattern": "noise", "label": "CREW CONDITION"}
+{"pattern": "sailing", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "grounding", "label": "ACCIDENT"}
+{"pattern": "accident", "label": "SHIP CONDITION"}
+{"pattern": "feet", "label": "UNIT"}
+{"pattern": "meter", "label": "UNIT"}
+{"pattern": "mile", "label": "UNIT"}
+{"pattern": "kilometer", "label": "UNIT"}
+{"pattern": "mist", "label": "WEATHER CONDITION"}
+{"pattern": "fog", "label": "WEATHER CONDITION"}
+{"pattern": "open space", "label": "SPACE"}
+{"pattern": "mobile offshore drilling unit", "label": "DRILLING RIG"}
+{"pattern": "drilling rig", "label": "OFFSHORE PLATFORM"}
+{"pattern": "heavy cargo", "label": "CARGO"}
+{"pattern": "pantry without cooking appliances", "label": "PANTRY"}
+{"pattern": "pantry", "label": "SPACE"}
+{"pattern": "validation of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "operated by", "label": "SHIP ADMINISTRATIVE PROPERTY"}
+{"pattern": "ship administrative property", "label": "SHIP PROPERTY"}
+{"pattern": "delivery date", "label": "SHIP CONSTRUCTION PROPERTY"}
+{"pattern": "ship construction property", "label": "SHIP PROPERTY"}
+{"pattern": "survey and certification", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "oil recovery", "label": "MARINE ACTIVITY"}
+{"pattern": "steering gear compartment", "label": "COMPARTMENT"}
+{"pattern": "compartment", "label": "SPACE"}
+{"pattern": "steering gear", "label": "STEERING EQUIPMENT"}
+{"pattern": "steering equipment", "label": "SHIP EQUIPMENT"}
+{"pattern": "second engineer", "label": "ENGINEER OFFICER"}
+{"pattern": "engineer officer", "label": "OFFICER"}
+{"pattern": "traffic condition", "label": "MARITIME SITUATION"}
+{"pattern": "infringement", "label": "LEGAL CONCEPT"}
+{"pattern": "class 9 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "non-return valve", "label": "VALVE"}
+{"pattern": "panamax container vessel", "label": "CONTAINERSHIP"}
+{"pattern": "cargo ship safety equipment certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "lobby", "label": "OPEN SPACE"}
+{"pattern": "tabular berg", "label": "ICEBERG"}
+{"pattern": "glacier", "label": "GLACIER ICE"}
+{"pattern": "marine evacuation system deployment certificate", "label": "TEST CERTIFICATE"}
+{"pattern": "test certificate", "label": "CERTIFICATE"}
+{"pattern": "lavatory", "label": "SANITARY SPACE"}
+{"pattern": "sanitary space", "label": "SPACE"}
+{"pattern": "plutonium", "label": "RADIOACTIVE SUBSTANCE"}
+{"pattern": "boatswain", "label": "OFFICER"}
+{"pattern": "glacier tongue", "label": "GLACIER ICE"}
+{"pattern": "steam turbine", "label": "PROPULSION SYSTEM"}
+{"pattern": "permission", "label": "LEGAL CONCEPT"}
+{"pattern": "dangerous overpressure", "label": "MALFUNCTION OF EQUIPMENT"}
+{"pattern": "shipboard marine pollution emergency plan for nls", "label": "EMERGENCY PLAN"}
+{"pattern": "modification", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "pleasure yacht", "label": "RECREATIONAL CRAFT"}
+{"pattern": "lake ice", "label": "FLOATING ICE"}
+{"pattern": "ship energy efficiency management plan", "label": "PROCEDURE"}
+{"pattern": "self-propelled mobile offshore unit", "label": "MOBILE OFFSHORE UNIT"}
+{"pattern": "mobile offshore unit", "label": "OFFSHORE INSTALLATION"}
+{"pattern": "safety zone", "label": "WATER AREA"}
+{"pattern": "ship ice property", "label": "SHIP PROPERTY"}
+{"pattern": "international federation of shipmasters associations", "label": "FEDERATION"}
+{"pattern": "federation", "label": "ASSOCIATION"}
+{"pattern": "port state control", "label": "PORT ACTIVITY"}
+{"pattern": "port activity", "label": "MARITIME ACTIVITY"}
+{"pattern": "muster list", "label": "EMERGENCY PLAN"}
+{"pattern": "ship-to-ship communication", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "on board training aid", "label": "SHIP EQUIPMENT"}
+{"pattern": "injured person", "label": "PERSON ON BOARD"}
+{"pattern": "mlc 2006 statutory certificate", "label": "STATUTORY CERTIFICATES"}
+{"pattern": "relocation voyage", "label": "VOYAGE"}
+{"pattern": "voyage", "label": "SHIP OPERATION"}
+{"pattern": "finland", "label": "EU MEMBER STATE"}
+{"pattern": "finland", "label": "SCHENGEN STATE"}
+{"pattern": "finland", "label": "EUROPEAN COUNTRY"}
+{"pattern": "simulator training", "label": "TRAINING"}
+{"pattern": "training", "label": "PROCEDURE"}
+{"pattern": "emergency action", "label": "SHIP OPERATION"}
+{"pattern": "moderate swell", "label": "SWELL"}
+{"pattern": "non-contracting government", "label": "GOVERNMENT"}
+{"pattern": "government", "label": "ORGANISATION"}
+{"pattern": "subchapter", "label": "DOCUMENT PART"}
+{"pattern": "wastewater", "label": "WATER"}
+{"pattern": "water", "label": "SUBSTANCE"}
+{"pattern": "periodical survey", "label": "SURVEY"}
+{"pattern": "belgium", "label": "SCHENGEN STATE"}
+{"pattern": "belgium", "label": "EU MEMBER STATE"}
+{"pattern": "belgium", "label": "EUROPEAN COUNTRY"}
+{"pattern": "polar ship certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "river ice", "label": "FLOATING ICE"}
+{"pattern": "inspection report", "label": "REPORT"}
+{"pattern": "report", "label": "DOCUMENT"}
+{"pattern": "pest control", "label": "SHIP MAINTENANCE"}
+{"pattern": "readiness", "label": "CREW CONDITION"}
+{"pattern": "port", "label": "ORGANISATION"}
+{"pattern": "public address system", "label": "SHIP EQUIPMENT"}
+{"pattern": "fumigation", "label": "PEST CONTROL"}
+{"pattern": "electrical installation", "label": "SHIP EQUIPMENT"}
+{"pattern": "hull bottom", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "hull structural element", "label": "HULL STRUCTURE"}
+{"pattern": "bulkhead deck", "label": "DECK"}
+{"pattern": "fire drill", "label": "DRILL"}
+{"pattern": "drill", "label": "ON BOARD TRAINING"}
+{"pattern": "on board training", "label": "PRACTICAL TRAINING"}
+{"pattern": "practical training", "label": "TRAINING"}
+{"pattern": "portside tailshaft modified survey", "label": "SURVEY REPORT"}
+{"pattern": "survey report", "label": "DOCUMENT"}
+{"pattern": "assessor", "label": "ROLE"}
+{"pattern": "smoke detector", "label": "FIRE PROTECTION SYSTEM"}
+{"pattern": "ice patch", "label": "ICE FIELD"}
+{"pattern": "emergency alarm system", "label": "EMERGENCY EQUIPMENT"}
+{"pattern": "emergency equipment", "label": "SHIP EQUIPMENT"}
+{"pattern": "true course", "label": "COURSE"}
+{"pattern": "course", "label": "NAVIGATIONAL TERM"}
+{"pattern": "berthing", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "class 3 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "scantling", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "heavy snow", "label": "SNOW"}
+{"pattern": "snow", "label": "WEATHER CONDITION"}
+{"pattern": "dead-end corridor", "label": "CORRIDOR"}
+{"pattern": "ship%27s cargo", "label": "CARGO"}
+{"pattern": "fishing zone", "label": "WATER AREA"}
+{"pattern": "trim", "label": "LOADING CONDITION"}
+{"pattern": "high speed craft safety certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "government non-commercial service", "label": "SERVICE"}
+{"pattern": "suitable polar clothing", "label": "POLAR CLOTHING"}
+{"pattern": "polar clothing", "label": "PROTECTIVE CLOTHING"}
+{"pattern": "deckhouse structure", "label": "SHIP STRUCTURE"}
+{"pattern": "growler", "label": "ICEBERG"}
+{"pattern": "solas", "label": "CONVENTION"}
+{"pattern": "convention", "label": "DOCUMENT"}
+{"pattern": "convention", "label": "LEGAL CONCEPT"}
+{"pattern": "arctic ocean", "label": "WATER AREA"}
+{"pattern": "second-in-command", "label": "CREWMEMBER"}
+{"pattern": "extreme depth", "label": "DEPTH"}
+{"pattern": "depth", "label": "SHIP STRUCTURAL PROPERTY"}
+{"pattern": "first aid", "label": "EMERGENCY ACTION"}
+{"pattern": "prescription", "label": "LEGAL CONCEPT"}
+{"pattern": "incident", "label": "SHIP CONDITION"}
+{"pattern": "italy", "label": "SCHENGEN STATE"}
+{"pattern": "italy", "label": "EUROPEAN COUNTRY"}
+{"pattern": "italy", "label": "EU MEMBER STATE"}
+{"pattern": "prevention of pollution", "label": "ENVIRONMENTAL SHIP OPERATION"}
+{"pattern": "terrorism", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "toxic waste", "label": "DANGEROUS CARGO"}
+{"pattern": "dangerous cargo", "label": "CARGO"}
+{"pattern": "port of arrival", "label": "NAVIGATIONAL TERM"}
+{"pattern": "going astern", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "mean ice edge", "label": "ICE EDGE"}
+{"pattern": "ship dismantling", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "ballast voyage", "label": "VOYAGE"}
+{"pattern": "bracket", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "repair", "label": "SHIP MAINTENANCE"}
+{"pattern": "hypothermia", "label": "MEDICAL CONDITION"}
+{"pattern": "sea water intake temperature", "label": "TEMPERATURE"}
+{"pattern": "oil rig", "label": "DRILLING RIG"}
+{"pattern": "emergency source of electrical power", "label": "EMERGENCY POWER SUPPLY"}
+{"pattern": "emergency power supply", "label": "EMERGENCY EQUIPMENT"}
+{"pattern": "painting", "label": "SHIP MAINTENANCE"}
+{"pattern": "window", "label": "OPENING"}
+{"pattern": "available for immidiate use", "label": "GOOD ORDER"}
+{"pattern": "class 1.4 substance", "label": "CLASS 1 SUBSTANCE"}
+{"pattern": "fire safety design", "label": "SHIP ICE PROPERTY"}
+{"pattern": "united nations", "label": "INTERGOVERNMENTAL ORGANISATION"}
+{"pattern": "intergovernmental organisation", "label": "ORGANISATION"}
+{"pattern": "safe sea net", "label": "IT SYSTEM"}
+{"pattern": "european maritime safety agency", "label": "INTERGOVERNMENTAL ORGANISATION"}
+{"pattern": "fire extinguisher inspection certificate", "label": "TEST CERTIFICATE"}
+{"pattern": "competent person", "label": "ROLE"}
+{"pattern": "fire hose", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "safety requirement", "label": "REQUIREMENT"}
+{"pattern": "unseaworthy", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "garbage management plan", "label": "SHIP MANUAL"}
+{"pattern": "ship manual", "label": "DOCUMENT"}
+{"pattern": "rough sea", "label": "SEA STATE"}
+{"pattern": "offshore drilling", "label": "MARINE ACTIVITY"}
+{"pattern": "domed iceberg", "label": "ICEBERG"}
+{"pattern": "france", "label": "SCHENGEN STATE"}
+{"pattern": "france", "label": "EU MEMBER STATE"}
+{"pattern": "france", "label": "EUROPEAN COUNTRY"}
+{"pattern": "checklist", "label": "DOCUMENT"}
+{"pattern": "international pollution prevention certificate for the carriage of noxious liquid substances in bulk", "label": "MARPOL STATUTORY CERTIFICATE"}
+{"pattern": "glacier berg", "label": "ICEBERG"}
+{"pattern": "shuga", "label": "NEW ICE"}
+{"pattern": "ceiling", "label": "SHIP STRUCTURE"}
+{"pattern": "steering lever", "label": "STEERING EQUIPMENT"}
+{"pattern": "sts operation plan and records of sts operations", "label": "SHIP MANUAL"}
+{"pattern": "vhf radiotelephone", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "grey ice", "label": "YOUNG ICE"}
+{"pattern": "young ice", "label": "ICE DEVELOPMENT"}
+{"pattern": "fatigue", "label": "PHYSIOLOGICAL STATE"}
+{"pattern": "atmospheric pressure", "label": "PRESSURE"}
+{"pattern": "pressure", "label": "WEATHER CONDITION"}
+{"pattern": "after peak tank", "label": "TANK"}
+{"pattern": "revalidation of certificate", "label": "LEGAL CONCEPT"}
+{"pattern": "assembly station", "label": "SPACE"}
+{"pattern": "ice-free", "label": "ICE CONCENTRATION"}
+{"pattern": "harbour master", "label": "ROLE"}
+{"pattern": "tide table", "label": "NAVIGATIONAL AID"}
+{"pattern": "voyage data recorder", "label": "RECORDING AID"}
+{"pattern": "recording aid", "label": "SHIP EQUIPMENT"}
+{"pattern": "self unloading wood chip carrier", "label": "BULK CARRIER"}
+{"pattern": "bulk carrier", "label": "DRY CARGO VESSEL"}
+{"pattern": "hydro-chlorofluorocarbon", "label": "OZONE DEPLETING SUBSTANCE"}
+{"pattern": "ozone depleting substance", "label": "SUBSTANCE"}
+{"pattern": "certified lifeboatman", "label": "CERTIFICATED PERSON"}
+{"pattern": "concealed space", "label": "SPACE"}
+{"pattern": "diesel electric propulsion system", "label": "PROPULSION SYSTEM"}
+{"pattern": "meteorological measuring device", "label": "SHIP EQUIPMENT"}
+{"pattern": "brash ice", "label": "FLOATING ICE"}
+{"pattern": "ear protector", "label": "CREW EQUIPMENT"}
+{"pattern": "international load line certificate", "label": "LOAD LINE STATUTORY CERTIFICATE"}
+{"pattern": "load line statutory certificate", "label": "STATUTORY CERTIFICATES"}
+{"pattern": "fire resisting division", "label": "DIVISION"}
+{"pattern": "division", "label": "SHIP STRUCTURE"}
+{"pattern": "coastal navigation", "label": "SAILING"}
+{"pattern": "ice front", "label": "ICE SHELF"}
+{"pattern": "ice shelf", "label": "ICE OF LAND ORIGIN"}
+{"pattern": "annual survey", "label": "SURVEY"}
+{"pattern": "protocol", "label": "DOCUMENT"}
+{"pattern": "wing tank", "label": "TANK"}
+{"pattern": "machinery noise", "label": "NOISE"}
+{"pattern": "ice bight", "label": "ICE ARRANGEMENT"}
+{"pattern": "fast rescue boat", "label": "RESCUE BOAT"}
+{"pattern": "extended inspection", "label": "INSPECTION"}
+{"pattern": "inspection", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "vatican city", "label": "EUROPEAN COUNTRY"}
+{"pattern": "check list ais", "label": "CHECKLIST"}
+{"pattern": "boiler certificate class renewal survey", "label": "SURVEY REPORT"}
+{"pattern": "estimated time of arrival", "label": "NAVIGATIONAL TERM"}
+{"pattern": "river", "label": "WATER AREA"}
+{"pattern": "thermal protective aid", "label": "PROTECTIVE CLOTHING"}
+{"pattern": "north sea", "label": "WATER AREA"}
+{"pattern": "troopship", "label": "NAVAL VESSEL"}
+{"pattern": "naval vessel", "label": "SHIP"}
+{"pattern": "hurricane", "label": "STORM"}
+{"pattern": "training manual", "label": "ON BOARD TRAINING AID"}
+{"pattern": "sto ro paper carrier", "label": "RO RO VESSEL"}
+{"pattern": "sms designated person", "label": "ROLE"}
+{"pattern": "navigation zone", "label": "WATER AREA"}
+{"pattern": "tin", "label": "SUBSTANCE"}
+{"pattern": "hydrostatic release unit certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "level of compliance", "label": "COMPLIANCE"}
+{"pattern": "compliance", "label": "LEGAL CONCEPT"}
+{"pattern": "orange juice carrier", "label": "FRUIT JUICE TANKER"}
+{"pattern": "fruit juice tanker", "label": "TANKER"}
+{"pattern": "engineering cadet", "label": "OFFICER"}
+{"pattern": "special purpose ship safety certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "sub-freezing air temperature", "label": "UNFAVOURABLE CONDITION"}
+{"pattern": "sub-freezing air temperature", "label": "FREEZING TEMPERATURE"}
+{"pattern": "freezing temperature", "label": "TEMPERATURE"}
+{"pattern": "special category space", "label": "SPACE"}
+{"pattern": "buoyant lifeline", "label": "LIFELINE"}
+{"pattern": "lifeline", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "lifebuoy", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "lifebuoy signal", "label": "LIFE SAVING SIGNAL"}
+{"pattern": "life saving signal", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "cabin balcony", "label": "BALCONY"}
+{"pattern": "balcony", "label": "SPACE"}
+{"pattern": "steam pipe", "label": "PIPE"}
+{"pattern": "pipe", "label": "SHIP STRUCTURE"}
+{"pattern": "pilot transfer arrangement", "label": "PROCEDURE"}
+{"pattern": "pilot", "label": "ROLE"}
+{"pattern": "compact ice", "label": "ICE CONCENTRATION"}
+{"pattern": "moldova", "label": "EUROPEAN COUNTRY"}
+{"pattern": "wooden hull", "label": "HULL TYPE"}
+{"pattern": "safe speed", "label": "SPEED"}
+{"pattern": "security officer", "label": "OFFICER"}
+{"pattern": "closing appliance", "label": "SHIP EQUIPMENT"}
+{"pattern": "kilowatt", "label": "UNIT"}
+{"pattern": "firemans outfit certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "international ship and port facility security code", "label": "CODE"}
+{"pattern": "declaration of maritime labour compliance", "label": "MLC 2006 STATUTORY CERTIFICATE"}
+{"pattern": "medical personnel", "label": "ROLE"}
+{"pattern": "under way", "label": "NAVIGATIONAL TERM"}
+{"pattern": "hotel vessel", "label": "STATIONARY VESSEL"}
+{"pattern": "stationary vessel", "label": "SPECIAL PURPOSE SHIP"}
+{"pattern": "confined space", "label": "SPACE"}
+{"pattern": "perfluorocarbon", "label": "SUBSTANCE"}
+{"pattern": "control system", "label": "SHIP EQUIPMENT"}
+{"pattern": "spar platform", "label": "FLOATING PLATFORM"}
+{"pattern": "semi submersible heavy lift ship", "label": "HEAVY LIFT VESSEL"}
+{"pattern": "ship routeing", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "extended period of daylight", "label": "MARITIME SITUATION"}
+{"pattern": "voice communication with aircraft", "label": "VOICE COMMUNICATION"}
+{"pattern": "exemption", "label": "LEGAL CONCEPT"}
+{"pattern": "latvia", "label": "EU MEMBER STATE"}
+{"pattern": "latvia", "label": "SCHENGEN STATE"}
+{"pattern": "latvia", "label": "EUROPEAN COUNTRY"}
+{"pattern": "navigating bridge", "label": "SHIP BRIDGE"}
+{"pattern": "ship bridge", "label": "SPACE"}
+{"pattern": "indian ocean", "label": "WATER AREA"}
+{"pattern": "mapping", "label": "MARINE ACTIVITY"}
+{"pattern": "navigational information", "label": "SERVICE"}
+{"pattern": "holding tank", "label": "TANK"}
+{"pattern": "retroactive requirement", "label": "REQUIREMENT"}
+{"pattern": "serbia", "label": "EUROPEAN COUNTRY"}
+{"pattern": "gyro compass bearing repeater", "label": "GYRO REPEATER"}
+{"pattern": "pancake ice", "label": "FLOATING ICE"}
+{"pattern": "emergency", "label": "SHIP CONDITION"}
+{"pattern": "capacity", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "arctic tanker", "label": "CRUDE OIL TANKER"}
+{"pattern": "ship design", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "light multi-year ice", "label": "MULTI-YEAR ICE"}
+{"pattern": "hydrant", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "prevention of the spread of fire", "label": "FIRE FIGHTING"}
+{"pattern": "fire fighting", "label": "EMERGENCY ACTION"}
+{"pattern": "industrial vessel", "label": "MERCHANT SHIP"}
+{"pattern": "girder", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "united kingdom", "label": "EU MEMBER STATE"}
+{"pattern": "united kingdom", "label": "EUROPEAN COUNTRY"}
+{"pattern": "navy", "label": "ORGANISATION"}
+{"pattern": "upper ice waterline length", "label": "LENGTH"}
+{"pattern": "length", "label": "SHIP STRUCTURAL PROPERTY"}
+{"pattern": "class 5 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "very low temperature", "label": "LOW TEMPERATURE"}
+{"pattern": "low temperature", "label": "TEMPERATURE"}
+{"pattern": "main fire pump", "label": "FIRE PUMP"}
+{"pattern": "international voyage", "label": "VOYAGE"}
+{"pattern": "boiler", "label": "SHIP STRUCTURE"}
+{"pattern": "fire extinguisher", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "sprinkler system", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "lifebuoy self igniting light", "label": "LIFEBUOY SIGNAL"}
+{"pattern": "outfitting", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "flashing light", "label": "LIGHT"}
+{"pattern": "unloading", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "radio station licence", "label": "FLAG STATE CERTIFICATE"}
+{"pattern": "speed log", "label": "NAVIGATIONAL AID"}
+{"pattern": "rapidly changing and severe weather condition", "label": "WEATHER CONDITION"}
+{"pattern": "wheel-over point", "label": "NAVIGATIONAL TERM"}
+{"pattern": "engineering watch", "label": "WATCHKEEPING"}
+{"pattern": "watchkeeping", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "member of the engineering watch", "label": "MEMBER OF THE WATCH"}
+{"pattern": "cargo record book", "label": "RECORD BOOK"}
+{"pattern": "sea area", "label": "WATER AREA"}
+{"pattern": "tonnage measurement", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "bulwark", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "insurance organisation", "label": "ORGANISATION"}
+{"pattern": "waypoint", "label": "NAVIGATIONAL TERM"}
+{"pattern": "surveyor", "label": "ORGANISATION"}
+{"pattern": "compliant tower", "label": "FIXED PLATFORM"}
+{"pattern": "fixed platform", "label": "OFFSHORE PLATFORM"}
+{"pattern": "data communication", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "buoyancy", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "lithuania", "label": "EU MEMBER STATE"}
+{"pattern": "lithuania", "label": "SCHENGEN STATE"}
+{"pattern": "lithuania", "label": "EUROPEAN COUNTRY"}
+{"pattern": "traffic monitoring", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "infant", "label": "PASSENGER"}
+{"pattern": "self unloading coal carrier", "label": "BULK CARRIER"}
+{"pattern": "compass", "label": "NAVIGATIONAL AID"}
+{"pattern": "exit", "label": "OPENING"}
+{"pattern": "oily mixture", "label": "SUBSTANCE"}
+{"pattern": "hydrographic office", "label": "GOVERNMENT INSTITUTE"}
+{"pattern": "government institute", "label": "ORGANISATION"}
+{"pattern": "operation in ice", "label": "SHIP OPERATION"}
+{"pattern": "thermal protection of equipment", "label": "EQUIPMENT CONDITION"}
+{"pattern": "medium iceberg", "label": "ICEBERG"}
+{"pattern": "insurance certificate", "label": "CERTIFICATE"}
+{"pattern": "greenhouse gas", "label": "SUBSTANCE"}
+{"pattern": "search and rescue locating device", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "bridgedeck", "label": "DECK"}
+{"pattern": "limited communication capability", "label": "MALFUNCTION OF EQUIPMENT"}
+{"pattern": "cement carrier", "label": "BULK CARRIER"}
+{"pattern": "water-based firefighting system", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "non-governmental agency", "label": "AGENCY"}
+{"pattern": "shoal", "label": "NAVIGATIONAL HAZARD"}
+{"pattern": "functional requirement", "label": "REQUIREMENT"}
+{"pattern": "drillship", "label": "INDUSTRIAL VESSEL"}
+{"pattern": "securing", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "drought", "label": "WEATHER CONDITION"}
+{"pattern": "number of persons on board", "label": "SHIP PASSENGER PROPERTY"}
+{"pattern": "official report", "label": "REPORT"}
+{"pattern": "darkness", "label": "MARITIME SITUATION"}
+{"pattern": "shuttle tanker", "label": "TANKER"}
+{"pattern": "shuttle tanker", "label": "CRUDE OIL TANKER"}
+{"pattern": "by law", "label": "DOCUMENT"}
+{"pattern": "build stage", "label": "SHIP CONDITION"}
+{"pattern": "ship agent", "label": "ROLE"}
+{"pattern": "fire safety operational booklet", "label": "EMERGENCY PLAN"}
+{"pattern": "bulgaria", "label": "EU MEMBER STATE"}
+{"pattern": "bulgaria", "label": "EUROPEAN COUNTRY"}
+{"pattern": "lounge", "label": "OPEN SPACE"}
+{"pattern": "signal lamp", "label": "LIGHT"}
+{"pattern": "seabed mining", "label": "MARINE ACTIVITY"}
+{"pattern": "world custom organization", "label": "INTERGOVERNMENTAL ORGANISATION"}
+{"pattern": "gyro compass heading repeater", "label": "GYRO REPEATER"}
+{"pattern": "north atlantic", "label": "WATER AREA"}
+{"pattern": "machinery certificate", "label": "CLASS CERTIFICATE"}
+{"pattern": "class certificate", "label": "CERTIFICATE"}
+{"pattern": "classification society", "label": "ORGANISATION"}
+{"pattern": "warehousing", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "drift ice", "label": "SEA ICE"}
+{"pattern": "sea ice", "label": "FLOATING ICE"}
+{"pattern": "storage room", "label": "SPACE"}
+{"pattern": "vertical stability", "label": "STABILITY"}
+{"pattern": "stability", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "intact stability", "label": "STABILITY"}
+{"pattern": "planing hull", "label": "HULL TYPE"}
+{"pattern": "deck officer", "label": "OFFICER"}
+{"pattern": "settling tank", "label": "TANK"}
+{"pattern": "radionavigation system receiver", "label": "NAVIGATIONAL AID"}
+{"pattern": "in water survey", "label": "SURVEY REPORT"}
+{"pattern": "high-speed craft", "label": "SHIP"}
+{"pattern": "specialised agency", "label": "AGENCY"}
+{"pattern": "floebit", "label": "FLOEBERG"}
+{"pattern": "floeberg", "label": "FLOATING ICE"}
+{"pattern": "third officer", "label": "DECK OFFICER"}
+{"pattern": "third officer", "label": "OFFICER"}
+{"pattern": "moulded breadth", "label": "BREADTH"}
+{"pattern": "breadth", "label": "SHIP STRUCTURAL PROPERTY"}
+{"pattern": "search and rescue", "label": "MARINE ACTIVITY"}
+{"pattern": "fuel oil", "label": "OIL"}
+{"pattern": "small ice cake", "label": "ICE CAKE"}
+{"pattern": "class 2 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "gap in compliance", "label": "LEVEL OF COMPLIANCE"}
+{"pattern": "salvage", "label": "MARINE ACTIVITY"}
+{"pattern": "mediterranean sea", "label": "WATER AREA"}
+{"pattern": "partially enclosed lifeboat", "label": "LIFEBOAT"}
+{"pattern": "radio service", "label": "SERVICE"}
+{"pattern": "nilas", "label": "ICE DEVELOPMENT"}
+{"pattern": "material property", "label": "EQUIPMENT CONDITION"}
+{"pattern": "immersion suit", "label": "PROTECTIVE CLOTHING"}
+{"pattern": "european commission", "label": "INTERGOVERNMENTAL ORGANISATION"}
+{"pattern": "up-to-date copy", "label": "DOCUMENT"}
+{"pattern": "main steering gear", "label": "STEERING GEAR"}
+{"pattern": "international sewage pollution prevention certificate", "label": "MARPOL STATUTORY CERTIFICATE"}
+{"pattern": "dark nilas", "label": "NILAS"}
+{"pattern": "sandstorm", "label": "STORM"}
+{"pattern": "trusse", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "guideline", "label": "DOCUMENT"}
+{"pattern": "health examination by flag", "label": "CREW CERTIFICATE"}
+{"pattern": "geographical situation", "label": "MARITIME SITUATION"}
+{"pattern": "illness", "label": "MEDICAL CONDITION"}
+{"pattern": "officer in charge of a navigational watch", "label": "OFFICER-IN-CHARGE"}
+{"pattern": "officer-in-charge", "label": "OFFICER"}
+{"pattern": "member of the naviational watch", "label": "MEMBER OF THE WATCH"}
+{"pattern": "operator", "label": "ROLE"}
+{"pattern": "superstructure", "label": "SHIP STRUCTURE"}
+{"pattern": "helideck", "label": "DECK"}
+{"pattern": "maritime assistance service", "label": "SERVICE"}
+{"pattern": "iceland", "label": "SCHENGEN STATE"}
+{"pattern": "iceland", "label": "EUROPEAN COUNTRY"}
+{"pattern": "pantry with cooking appliances", "label": "PANTRY"}
+{"pattern": "ship sanitation control exemption certificate", "label": "SHIP SANITATION CERTIFICATE"}
+{"pattern": "ship%27s design", "label": "SHIP ICE PROPERTY"}
+{"pattern": "international anti fouling system certificate", "label": "AFS CONVENTION STATUTORY CERTIFICATE"}
+{"pattern": "afs convention statutory certificate", "label": "STATUTORY CERTIFICATES"}
+{"pattern": "river st. lawrence", "label": "RIVER"}
+{"pattern": "torremolinos international convention for the safety of fishing vessels", "label": "CONVENTION"}
+{"pattern": "loss of performance", "label": "MALFUNCTION OF EQUIPMENT"}
+{"pattern": "limited waters", "label": "WATER AREA"}
+{"pattern": "antarctic waters", "label": "WATER AREA"}
+{"pattern": "ballast pump", "label": "PUMP"}
+{"pattern": "ballast water", "label": "WATER"}
+{"pattern": "transceiver", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "grey-white ice", "label": "YOUNG ICE"}
+{"pattern": "pacific ocean", "label": "WATER AREA"}
+{"pattern": "electrotechnical officer", "label": "OFFICER"}
+{"pattern": "self righting liferaft", "label": "LIFERAFT"}
+{"pattern": "antarctic area", "label": "POLAR WATERS"}
+{"pattern": "polar waters", "label": "WATER AREA"}
+{"pattern": "tonne", "label": "UNIT"}
+{"pattern": "portable extinguisher", "label": "FIRE EXTINGUISHER"}
+{"pattern": "medium lake ice", "label": "LAKE ICE DEVELOPMENT"}
+{"pattern": "lake ice development", "label": "ICE DEVELOPMENT"}
+{"pattern": "starboard tailshaft complete survey", "label": "SURVEY REPORT"}
+{"pattern": "fourth engineer", "label": "ENGINEER OFFICER"}
+{"pattern": "ais test report", "label": "TEST CERTIFICATE"}
+{"pattern": "coal carrier", "label": "BULK CARRIER"}
+{"pattern": "embarkation", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "procedures and arrangements manual", "label": "SHIP MANUAL"}
+{"pattern": "smooth sea", "label": "SEA STATE"}
+{"pattern": "compass adjustment certificate", "label": "TEST CERTIFICATE"}
+{"pattern": "residual ice", "label": "OLD ICE"}
+{"pattern": "transport of migrants by sea", "label": "MARINE ACTIVITY"}
+{"pattern": "second officer", "label": "OFFICER"}
+{"pattern": "second officer", "label": "DECK OFFICER"}
+{"pattern": "free-fall lifeboat", "label": "LIFEBOAT"}
+{"pattern": "certificate of insurance or any other financial security in respect of civil liability for oil pollution damage", "label": "INSURANCE CERTIFICATE"}
+{"pattern": "netherlands", "label": "EU MEMBER STATE"}
+{"pattern": "netherlands", "label": "EUROPEAN COUNTRY"}
+{"pattern": "netherlands", "label": "SCHENGEN STATE"}
+{"pattern": "ethyl", "label": "SUBSTANCE"}
+{"pattern": "decision making", "label": "PROCEDURE"}
+{"pattern": "very thick lake ice", "label": "LAKE ICE DEVELOPMENT"}
+{"pattern": "building contract date", "label": "SHIP CONSTRUCTION PROPERTY"}
+{"pattern": "tail shaft certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "material", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "cargo ship safety construction certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "class 6.2 substance", "label": "CLASS 6 SUBSTANCE"}
+{"pattern": "alarm panel", "label": "CONTROL SYSTEM"}
+{"pattern": "anchorage", "label": "WATER AREA"}
+{"pattern": "port system", "label": "IT SYSTEM"}
+{"pattern": "andorra", "label": "EUROPEAN COUNTRY"}
+{"pattern": "disembarkation", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "instruction", "label": "DOCUMENT"}
+{"pattern": "gas engine", "label": "ENGINE"}
+{"pattern": "starboard tailshaft modified survey", "label": "SURVEY REPORT"}
+{"pattern": "safety management certificate ism", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "registration of person", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "dry-docked iceberg", "label": "ICEBERG"}
+{"pattern": "heavy rain", "label": "RAIN"}
+{"pattern": "rain", "label": "WEATHER CONDITION"}
+{"pattern": "cargo tank", "label": "TANK"}
+{"pattern": "arctic waters", "label": "POLAR WATERS"}
+{"pattern": "small iceberg", "label": "ICEBERG"}
+{"pattern": "port survey", "label": "PORT ACTIVITY"}
+{"pattern": "engine room telegraph", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "habitable environment", "label": "CREW CONDITION"}
+{"pattern": "miles from the nearest land", "label": "GEOGRAPHICAL SITUATION"}
+{"pattern": "air cushion vehicle", "label": "SPECIAL PURPOSE SHIP"}
+{"pattern": "officer of the watch", "label": "OFFICER"}
+{"pattern": "scantling of the structure", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "international load line exemption certificate", "label": "LOAD LINE STATUTORY CERTIFICATE"}
+{"pattern": "radio lifesaving appliance", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "reduction of equipment functionality", "label": "MALFUNCTION OF EQUIPMENT"}
+{"pattern": "trapdoor", "label": "OPENING"}
+{"pattern": "article", "label": "DOCUMENT PART"}
+{"pattern": "ice cover", "label": "FLOATING ICE"}
+{"pattern": "big floe", "label": "FLOE"}
+{"pattern": "goal", "label": "REQUIREMENT"}
+{"pattern": "liquid substance", "label": "SUBSTANCE"}
+{"pattern": "volatile organic compound", "label": "SUBSTANCE"}
+{"pattern": "periodic servicing of launching appliances and on load release gear certificate", "label": "TEST CERTIFICATE"}
+{"pattern": "sea ice one winter growth", "label": "SEA ICE"}
+{"pattern": "fire nozzle", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "charterer", "label": "ROLE"}
+{"pattern": "estimated time of departure", "label": "NAVIGATIONAL TERM"}
+{"pattern": "auxiliary machinery", "label": "MACHINERY INSTALLATION"}
+{"pattern": "multi purpose ro ro carrier", "label": "RO RO VESSEL"}
+{"pattern": "embarkation arrangement", "label": "PROCEDURE"}
+{"pattern": "maximum astern speed", "label": "SPEED"}
+{"pattern": "rescuing persons from the sea", "label": "EMERGENCY ACTION"}
+{"pattern": "anti exposure suit", "label": "PROTECTIVE CLOTHING"}
+{"pattern": "piracy", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "survival", "label": "EMERGENCY ACTION"}
+{"pattern": "warship", "label": "NAVAL VESSEL"}
+{"pattern": "hull penetration", "label": "ACCIDENT"}
+{"pattern": "lifebuoy self activating smoke signal", "label": "LIFEBUOY SIGNAL"}
+{"pattern": "daylight", "label": "MARITIME SITUATION"}
+{"pattern": "malta", "label": "EUROPEAN COUNTRY"}
+{"pattern": "malta", "label": "EU MEMBER STATE"}
+{"pattern": "malta", "label": "SCHENGEN STATE"}
+{"pattern": "release of ship", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "special rule", "label": "LEGAL CONCEPT"}
+{"pattern": "ro-ro deck", "label": "DECK"}
+{"pattern": "organic peroxide", "label": "SUBSTANCE"}
+{"pattern": "poland", "label": "SCHENGEN STATE"}
+{"pattern": "poland", "label": "EUROPEAN COUNTRY"}
+{"pattern": "poland", "label": "EU MEMBER STATE"}
+{"pattern": "unattended machinery space certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "turbulence", "label": "WIND"}
+{"pattern": "heavy multi-year ice", "label": "MULTI-YEAR ICE"}
+{"pattern": "hungary", "label": "EU MEMBER STATE"}
+{"pattern": "hungary", "label": "EUROPEAN COUNTRY"}
+{"pattern": "hungary", "label": "SCHENGEN STATE"}
+{"pattern": "litre", "label": "UNIT"}
+{"pattern": "lack of compliance", "label": "LEVEL OF COMPLIANCE"}
+{"pattern": "prevention of oil pollution", "label": "PREVENTION OF POLLUTION"}
+{"pattern": "global positioning system", "label": "POSITION FIXING SYSTEM"}
+{"pattern": "position fixing system", "label": "NAVIGATIONAL AID"}
+{"pattern": "resolution", "label": "DOCUMENT"}
+{"pattern": "paragraph", "label": "DOCUMENT PART"}
+{"pattern": "rigid liferaft", "label": "LIFERAFT"}
+{"pattern": "safe loading", "label": "LOADING AND UNLOADING"}
+{"pattern": "loading and unloading", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "longitudinal member", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "break-down", "label": "MALFUNCTION OF EQUIPMENT"}
+{"pattern": "marine evacuation system", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "deepest sea-going draught", "label": "DRAUGHT"}
+{"pattern": "draught", "label": "SHIP STRUCTURAL PROPERTY"}
+{"pattern": "class division", "label": "DIVISION"}
+{"pattern": "night vision equipment", "label": "SHIP EQUIPMENT"}
+{"pattern": "human trafficking", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "maintenance contract gmdss", "label": "MAINTENANCE AGREEMENT"}
+{"pattern": "upper ice waterline", "label": "WATERLINE"}
+{"pattern": "waterline", "label": "SHIP STRUCTURAL PROPERTY"}
+{"pattern": "deadweight tonnage", "label": "WEIGHT"}
+{"pattern": "fitness", "label": "PHYSIOLOGICAL STATE"}
+{"pattern": "two-way on-scene communication", "label": "ON-SCENE COMMUNICATION"}
+{"pattern": "on-scene communication", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "seaworthiness", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "restriction", "label": "LEGAL CONCEPT"}
+{"pattern": "barograph", "label": "BAROMETER"}
+{"pattern": "barometer", "label": "METEOROLOGICAL MEASURING DEVICE"}
+{"pattern": "damage control", "label": "EMERGENCY ACTION"}
+{"pattern": "towing", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "global maritime distress and safety system", "label": "IT SYSTEM"}
+{"pattern": "distance", "label": "NAVIGATIONAL TERM"}
+{"pattern": "nautical mile", "label": "UNIT"}
+{"pattern": "fishing", "label": "MARINE ACTIVITY"}
+{"pattern": "by day", "label": "MARITIME SITUATION"}
+{"pattern": "escape route", "label": "SPACE"}
+{"pattern": "class 8 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "catamaran", "label": "HULL TYPE"}
+{"pattern": "construction date", "label": "SHIP CONSTRUCTION PROPERTY"}
+{"pattern": "marpol", "label": "CONVENTION"}
+{"pattern": "class 2.2 substance", "label": "CLASS 2 SUBSTANCE"}
+{"pattern": "ore bulk oil carrier", "label": "COMBINATION CARRIER"}
+{"pattern": "german bight", "label": "BIGHT"}
+{"pattern": "bight", "label": "WATER AREA"}
+{"pattern": "meteorological information", "label": "SERVICE"}
+{"pattern": "audio visual aid", "label": "ON BOARD TRAINING AID"}
+{"pattern": "ship registration", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "fast ice boundary", "label": "ICE BOUNDARY"}
+{"pattern": "sugar carrier", "label": "BULK CARRIER"}
+{"pattern": "fire alarm system", "label": "FIRE PROTECTION SYSTEM"}
+{"pattern": "shipping line", "label": "COMPANY"}
+{"pattern": "company", "label": "ORGANISATION"}
+{"pattern": "mental health condition", "label": "MEDICAL CONDITION"}
+{"pattern": "poor visibility", "label": "VISIBILITY"}
+{"pattern": "chart", "label": "NAVIGATIONAL AID"}
+{"pattern": "certified copy", "label": "DOCUMENT"}
+{"pattern": "integrated bridge system", "label": "NAVIGATIONAL AID"}
+{"pattern": "stern", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "accommodation space", "label": "SPACE"}
+{"pattern": "medium first year ice", "label": "FIRST YEAR ICE"}
+{"pattern": "ice damage", "label": "DAMAGED CONDITION"}
+{"pattern": "ship identification", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "belarus", "label": "EUROPEAN COUNTRY"}
+{"pattern": "world health organization", "label": "INTERGOVERNMENTAL ORGANISATION"}
+{"pattern": "removing ice accretion", "label": "SHIP MAINTENANCE"}
+{"pattern": "ice accretion", "label": "ICE"}
+{"pattern": "constant speed", "label": "SPEED"}
+{"pattern": "dry docking inspection certificate", "label": "SURVEY REPORT"}
+{"pattern": "single instrument", "label": "DOCUMENT"}
+{"pattern": "scuttle", "label": "OPENING"}
+{"pattern": "contract", "label": "LEGAL CONCEPT"}
+{"pattern": "contract", "label": "DOCUMENT"}
+{"pattern": "unlawful practice associated with certificates", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "sar coordination plan for passenger ships trading on fixed routes", "label": "EMERGENCY PLAN"}
+{"pattern": "ice strengthened", "label": "SHIP ICE PROPERTY 1"}
+{"pattern": "fireman", "label": "NON OFFICER"}
+{"pattern": "number of infants on board", "label": "SHIP PASSENGER PROPERTY"}
+{"pattern": "plate", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "sailing directions", "label": "NAVIGATIONAL AID"}
+{"pattern": "gas carrier", "label": "TANKER"}
+{"pattern": "steering", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "frazil ice", "label": "NEW ICE"}
+{"pattern": "very large crude carrier", "label": "CRUDE OIL TANKER"}
+{"pattern": "channel", "label": "WATER AREA"}
+{"pattern": "ship tracking", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "transverse stability", "label": "STABILITY"}
+{"pattern": "single hull", "label": "HULL TYPE"}
+{"pattern": "mooring", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "tanker for palm oil", "label": "TANKER"}
+{"pattern": "registered owner", "label": "OWNER"}
+{"pattern": "longitudinal stability", "label": "STABILITY"}
+{"pattern": "transverse penetration extent", "label": "STABILITY"}
+{"pattern": "coast of somalia", "label": "COASTAL WATERS"}
+{"pattern": "office", "label": "ACCOMMODATION SPACE"}
+{"pattern": "galley", "label": "SPACE"}
+{"pattern": "operational instruction", "label": "SERVICE"}
+{"pattern": "class 2.3 toxic gas", "label": "CLASS 2 SUBSTANCE"}
+{"pattern": "electrical requirement", "label": "REQUIREMENT"}
+{"pattern": "noxious liquid", "label": "SUBSTANCE"}
+{"pattern": "disabled person", "label": "PERSON ON BOARD"}
+{"pattern": "international oil pollution prevention certificate", "label": "MARPOL STATUTORY CERTIFICATE"}
+{"pattern": "exceptional circumstance", "label": "SHIP CONDITION"}
+{"pattern": "new lake ice", "label": "LAKE ICE DEVELOPMENT"}
+{"pattern": "fire hydrant", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "czech republic", "label": "SCHENGEN STATE"}
+{"pattern": "czech republic", "label": "EU MEMBER STATE"}
+{"pattern": "czech republic", "label": "EUROPEAN COUNTRY"}
+{"pattern": "pressure relief valve", "label": "VALVE"}
+{"pattern": "similar stage of construction", "label": "STAGE OF CONSTRUCTION"}
+{"pattern": "stage of construction", "label": "SHIP CONSTRUCTION PROPERTY"}
+{"pattern": "stcw convention", "label": "CONVENTION"}
+{"pattern": "port policing", "label": "PORT ACTIVITY"}
+{"pattern": "freeboard", "label": "SHIP STRUCTURAL PROPERTY"}
+{"pattern": "variable speed", "label": "SPEED"}
+{"pattern": "nurse", "label": "MEDICAL PERSONNEL"}
+{"pattern": "hydrographic information", "label": "SERVICE"}
+{"pattern": "psychrometer", "label": "HYGROMETER"}
+{"pattern": "hygrometer", "label": "METEOROLOGICAL MEASURING DEVICE"}
+{"pattern": "coastguard", "label": "ORGANISATION"}
+{"pattern": "damage control plan", "label": "EMERGENCY PLAN"}
+{"pattern": "aframax tanker", "label": "CRUDE OIL TANKER"}
+{"pattern": "removing snow accretion", "label": "SHIP MAINTENANCE"}
+{"pattern": "fast ice edge", "label": "ICE EDGE"}
+{"pattern": "collision bulkhead", "label": "BULKHEAD"}
+{"pattern": "bulkhead", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "tie rod", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "fast ice", "label": "SEA ICE"}
+{"pattern": "contaminated water", "label": "WATER"}
+{"pattern": "combustible substance", "label": "SUBSTANCE"}
+{"pattern": "document of compliance issued by the testing facility", "label": "TEST CERTIFICATE"}
+{"pattern": "fixed pitch propeller", "label": "PROPELLER"}
+{"pattern": "propeller", "label": "PROPULSION SYSTEM"}
+{"pattern": "subheading", "label": "DOCUMENT PART"}
+{"pattern": "preventing ice accretion", "label": "SHIP MAINTENANCE"}
+{"pattern": "heavy grade oil", "label": "OIL"}
+{"pattern": "royal national lifeboat institution", "label": "INSTITUTION"}
+{"pattern": "rocket parachute flare", "label": "DISTRESS FLARE"}
+{"pattern": "distress flare", "label": "LIFE SAVING SIGNAL"}
+{"pattern": "international requirement", "label": "REQUIREMENT"}
+{"pattern": "electronic chart display and information system", "label": "NAVIGATIONAL AID"}
+{"pattern": "great lake of north america", "label": "LAKE"}
+{"pattern": "lake", "label": "WATER AREA"}
+{"pattern": "beaufort scale", "label": "WEATHER CONDITION"}
+{"pattern": "concrete hull", "label": "HULL TYPE"}
+{"pattern": "turkey", "label": "EUROPEAN COUNTRY"}
+{"pattern": "asphalt", "label": "SUBSTANCE"}
+{"pattern": "cargo ship safety radio certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "level of competence", "label": "CREW CONDITION"}
+{"pattern": "category b", "label": "SHIP ICE PROPERTY 1"}
+{"pattern": "deviating from the prescriptive requirements", "label": "LEVEL OF COMPLIANCE"}
+{"pattern": "british standards institution", "label": "INSTITUTION"}
+{"pattern": "certificate of insurance or any other financial security in respect of civil liability for bunker oil pollution damage", "label": "INSURANCE CERTIFICATE"}
+{"pattern": "longshore current", "label": "CURRENT"}
+{"pattern": "heading control system", "label": "NAVIGATIONAL AID"}
+{"pattern": "radar transponder certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "germany", "label": "EU MEMBER STATE"}
+{"pattern": "germany", "label": "SCHENGEN STATE"}
+{"pattern": "germany", "label": "EUROPEAN COUNTRY"}
+{"pattern": "ice information", "label": "SERVICE"}
+{"pattern": "distress", "label": "EMERGENCY"}
+{"pattern": "ship conversion", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "untrained person", "label": "PERSON ON BOARD"}
+{"pattern": "ship%27s relevant design", "label": "SHIP%27S DESIGN"}
+{"pattern": "estonia", "label": "SCHENGEN STATE"}
+{"pattern": "estonia", "label": "EU MEMBER STATE"}
+{"pattern": "estonia", "label": "EUROPEAN COUNTRY"}
+{"pattern": "double hull", "label": "HULL TYPE"}
+{"pattern": "class 4 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "category y substance", "label": "MARPOL ANNEX 2 SUBSTANCE"}
+{"pattern": "loading%2funloading plan for bulk carriers", "label": "SHIP MANUAL"}
+{"pattern": "light displacement", "label": "DISPLACEMENT"}
+{"pattern": "subparagraph", "label": "DOCUMENT PART"}
+{"pattern": "strut", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "third engineer", "label": "ENGINEER OFFICER"}
+{"pattern": "port management", "label": "PORT ACTIVITY"}
+{"pattern": "floating storage unit", "label": "FLOATING PLATFORM"}
+{"pattern": "forecastle", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "protected space", "label": "SPACE"}
+{"pattern": "two way voice communication with a telemedical assistance service", "label": "TWO-WAY VOICE COMMUNICATION"}
+{"pattern": "two-way voice communication", "label": "VOICE COMMUNICATION"}
+{"pattern": "engine room resource management", "label": "ENGINE ROOM PROCEDURE"}
+{"pattern": "engine room procedure", "label": "PROCEDURE"}
+{"pattern": "legislation", "label": "LEGAL CONCEPT"}
+{"pattern": "boiler annual external survey", "label": "SURVEY REPORT"}
+{"pattern": "international shore connection", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "feedwater", "label": "WATER"}
+{"pattern": "safety of life at sea", "label": "CREW CONDITION"}
+{"pattern": "net tonnage", "label": "WEIGHT"}
+{"pattern": "ballast tank", "label": "TANK"}
+{"pattern": "bow section", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "international maritime organization", "label": "INTERGOVERNMENTAL ORGANISATION"}
+{"pattern": "ro ro freight ferry", "label": "PASSENGER SHIP"}
+{"pattern": "ro ro freight ferry", "label": "RO RO VESSEL"}
+{"pattern": "passenger ship", "label": "MERCHANT SHIP"}
+{"pattern": "coastal tanker", "label": "CRUDE OIL TANKER"}
+{"pattern": "segregated ballast tank", "label": "BALLAST TANK"}
+{"pattern": "notice to mariners", "label": "NAVIGATIONAL AID"}
+{"pattern": "international strait", "label": "STRAIT"}
+{"pattern": "cloud", "label": "WEATHER CONDITION"}
+{"pattern": "diesel engine", "label": "ENGINE"}
+{"pattern": "ship master", "label": "OFFICER"}
+{"pattern": "category a", "label": "SHIP ICE PROPERTY 1"}
+{"pattern": "moulded depth", "label": "DEPTH"}
+{"pattern": "computer based training", "label": "PRACTICAL TRAINING"}
+{"pattern": "escalation of incidents", "label": "CREW CONDITION"}
+{"pattern": "raster chart display system", "label": "ELECTRONIC CHART DISPLAY AND INFORMATION SYSTEM"}
+{"pattern": "owned by", "label": "SHIP ADMINISTRATIVE PROPERTY"}
+{"pattern": "portugal", "label": "SCHENGEN STATE"}
+{"pattern": "portugal", "label": "EU MEMBER STATE"}
+{"pattern": "portugal", "label": "EUROPEAN COUNTRY"}
+{"pattern": "ocean fertilization", "label": "MARINE ACTIVITY"}
+{"pattern": "lubricating oil", "label": "OIL"}
+{"pattern": "median ice edge", "label": "ICE EDGE"}
+{"pattern": "semi-portable extinguisher", "label": "FIRE EXTINGUISHER"}
+{"pattern": "norway", "label": "SCHENGEN STATE"}
+{"pattern": "norway", "label": "EUROPEAN COUNTRY"}
+{"pattern": "freezing", "label": "EQUIPMENT CONDITION"}
+{"pattern": "damage stability", "label": "STABILITY"}
+{"pattern": "enclosed space entry and rescue drill", "label": "DRILL"}
+{"pattern": "remote area", "label": "WATER AREA"}
+{"pattern": "true heading", "label": "HEADING"}
+{"pattern": "heading", "label": "NAVIGATIONAL TERM"}
+{"pattern": "polar class", "label": "SHIP ICE PROPERTY 1"}
+{"pattern": "voyage planning", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "port of call", "label": "PORT"}
+{"pattern": "albania", "label": "EUROPEAN COUNTRY"}
+{"pattern": "reduction of stability", "label": "SHIP CONDITION"}
+{"pattern": "spain", "label": "EUROPEAN COUNTRY"}
+{"pattern": "spain", "label": "EU MEMBER STATE"}
+{"pattern": "spain", "label": "SCHENGEN STATE"}
+{"pattern": "bergy water", "label": "ICE CONCENTRATION"}
+{"pattern": "rudder", "label": "STEERING EQUIPMENT"}
+{"pattern": "large iceberg", "label": "ICEBERG"}
+{"pattern": "remoteness", "label": "GEOGRAPHICAL SITUATION"}
+{"pattern": "ice island fragment", "label": "ICEBERG"}
+{"pattern": "fire door", "label": "DOOR"}
+{"pattern": "emergency lighting", "label": "EMERGENCY EQUIPMENT"}
+{"pattern": "gale", "label": "STORM"}
+{"pattern": "equipment efficiency", "label": "EQUIPMENT CONDITION"}
+{"pattern": "class 4.3 substance", "label": "CLASS 4 SUBSTANCE"}
+{"pattern": "transfer of register", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "endorsed by", "label": "LEGAL CONCEPT"}
+{"pattern": "port maintenance", "label": "PORT ACTIVITY"}
+{"pattern": "document of compliance certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "alteration", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "wood pulp", "label": "CARGO"}
+{"pattern": "trainee", "label": "CREWMEMBER"}
+{"pattern": "two-way portable radio communication equipment", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "misuse of equipment", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "turning radius", "label": "MANOEUVRABILITY"}
+{"pattern": "member of the anchor watch", "label": "MEMBER OF THE WATCH"}
+{"pattern": "ice-covered water", "label": "ICE CONCENTRATION"}
+{"pattern": "hot room", "label": "SPACE"}
+{"pattern": "tidal current", "label": "CURRENT"}
+{"pattern": "ship recycling", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "ice jam", "label": "ICE ARRANGEMENT"}
+{"pattern": "african state", "label": "COUNTRY"}
+{"pattern": "continuous synopsis record", "label": "FLAG STATE CERTIFICATE"}
+{"pattern": "unlawful act threatening the safety of the ship", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "chief engineer", "label": "ENGINEER OFFICER"}
+{"pattern": "smoke extraction system", "label": "FIRE PROTECTION SYSTEM"}
+{"pattern": "small ice field", "label": "ICE FIELD"}
+{"pattern": "safety lamp", "label": "LIGHT"}
+{"pattern": "class 5.1 substance", "label": "CLASS 5 SUBSTANCE"}
+{"pattern": "bulbous bow", "label": "BOW"}
+{"pattern": "bow", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "service space", "label": "SPACE"}
+{"pattern": "waterjet", "label": "PROPULSION SYSTEM"}
+{"pattern": "long range identification and tracking", "label": "IT SYSTEM"}
+{"pattern": "closest approach", "label": "NAVIGATIONAL TERM"}
+{"pattern": "documentation", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "cabin", "label": "ACCOMMODATION SPACE"}
+{"pattern": "position fixing", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "sar coordination communication", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "oil-fired boiler", "label": "BOILER"}
+{"pattern": "transboundary cooperation", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "baggage room", "label": "SPACE"}
+{"pattern": "thick lake ice", "label": "LAKE ICE DEVELOPMENT"}
+{"pattern": "keel", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "survivability", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "asbestos", "label": "SUBSTANCE"}
+{"pattern": "child", "label": "PASSENGER"}
+{"pattern": "compacted ice edge", "label": "ICE EDGE"}
+{"pattern": "reduced availability of navigational aids", "label": "REDUCED AVAILABILITY OF EQUIPMENT"}
+{"pattern": "reduced availability of equipment", "label": "REDUCTION OF EQUIPMENT FUNCTIONALITY"}
+{"pattern": "safe evacuation", "label": "EVACUATION"}
+{"pattern": "evacuation", "label": "EMERGENCY ACTION"}
+{"pattern": "exhaust pipe", "label": "PIPE"}
+{"pattern": "belt", "label": "ICE ARRANGEMENT"}
+{"pattern": "automated installations annual survey", "label": "SURVEY REPORT"}
+{"pattern": "hydrometer", "label": "METEOROLOGICAL MEASURING DEVICE"}
+{"pattern": "navigational watch", "label": "WATCHKEEPING"}
+{"pattern": "fire main", "label": "FIRE EXTINGUISHING APPLIANCE"}
+{"pattern": "european union", "label": "INTERGOVERNMENTAL ORGANISATION"}
+{"pattern": "directive", "label": "DOCUMENT"}
+{"pattern": "grease ice", "label": "NEW ICE"}
+{"pattern": "ice navigation", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "san marino", "label": "EUROPEAN COUNTRY"}
+{"pattern": "greece", "label": "EUROPEAN COUNTRY"}
+{"pattern": "greece", "label": "SCHENGEN STATE"}
+{"pattern": "greece", "label": "EU MEMBER STATE"}
+{"pattern": "periodically unattended", "label": "UNATTENDED"}
+{"pattern": "ship%27s relevant design and arrangement", "label": "SHIP%27S DESIGN AND ARRANGEMENT"}
+{"pattern": "ship%27s design and arrangement", "label": "SHIP ICE PROPERTY"}
+{"pattern": "loss of performance of battery", "label": "LOSS OF PERFORMANCE"}
+{"pattern": "bosnia and herzegovina", "label": "EUROPEAN COUNTRY"}
+{"pattern": "shallow water", "label": "NAVIGATIONAL HAZARD"}
+{"pattern": "annex", "label": "DOCUMENT PART"}
+{"pattern": "baltic sea", "label": "WATER AREA"}
+{"pattern": "port zone", "label": "WATER AREA"}
+{"pattern": "romania", "label": "EUROPEAN COUNTRY"}
+{"pattern": "romania", "label": "EU MEMBER STATE"}
+{"pattern": "length between perpendiculars", "label": "LENGTH"}
+{"pattern": "lrit conformance test report", "label": "TEST CERTIFICATE"}
+{"pattern": "dock ship", "label": "HEAVY LIFT VESSEL"}
+{"pattern": "designated officer", "label": "OFFICER"}
+{"pattern": "wreck removal", "label": "MARINE ACTIVITY"}
+{"pattern": "lack of equipment", "label": "EQUIPMENT CONDITION"}
+{"pattern": "port of origin", "label": "NAVIGATIONAL TERM"}
+{"pattern": "ukraine", "label": "EUROPEAN COUNTRY"}
+{"pattern": "partial compliance", "label": "LEVEL OF COMPLIANCE"}
+{"pattern": "flooding", "label": "EMERGENCY"}
+{"pattern": "metric ton", "label": "UNIT"}
+{"pattern": "cargo securing manual", "label": "SHIP MANUAL"}
+{"pattern": "good health", "label": "PHYSIOLOGICAL STATE"}
+{"pattern": "radio officer", "label": "OFFICER"}
+{"pattern": "fish farming", "label": "MARINE ACTIVITY"}
+{"pattern": "chapter", "label": "DOCUMENT PART"}
+{"pattern": "concentration boundary", "label": "ICE BOUNDARY"}
+{"pattern": "survival time", "label": "CREW CONDITION"}
+{"pattern": "definition", "label": "DOCUMENT PART"}
+{"pattern": "sound signalling system", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "entrapment by ice", "label": "SHIP CONDITION"}
+{"pattern": "polar code", "label": "CODE"}
+{"pattern": "landlocked sea", "label": "WATER AREA"}
+{"pattern": "excessive viscosity", "label": "VISCOSITY"}
+{"pattern": "long crested waves", "label": "CRESTED WAVES"}
+{"pattern": "crested waves", "label": "SEA STATE"}
+{"pattern": "topside icing", "label": "ICING"}
+{"pattern": "seasonal rain squall", "label": "RAIN"}
+{"pattern": "search light", "label": "LIGHT"}
+{"pattern": "ship-to-shore communication", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "voyage data recorder system certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "short crested waves", "label": "CRESTED WAVES"}
+{"pattern": "sandblasting", "label": "SHIP MAINTENANCE"}
+{"pattern": "abandon ship drill", "label": "DRILL"}
+{"pattern": "sloping iceberg", "label": "ICEBERG"}
+{"pattern": "ultra large container ship", "label": "CONTAINERSHIP"}
+{"pattern": "outdoor working environment", "label": "WORKING ENVIRONMENT"}
+{"pattern": "renewal", "label": "SHIP MAINTENANCE"}
+{"pattern": "echo sounding device with two separate independent transducers", "label": "ECHO SOUNDING"}
+{"pattern": "emergency fire pump", "label": "FIRE PUMP"}
+{"pattern": "maintenance", "label": "SHIP MAINTENANCE"}
+{"pattern": "international labour organization", "label": "INTERGOVERNMENTAL ORGANISATION"}
+{"pattern": "fishing vessel", "label": "MERCHANT SHIP"}
+{"pattern": "fully charged condition", "label": "GOOD ORDER"}
+{"pattern": "chayka receiver", "label": "RADIONAVIGATION SYSTEM RECEIVER"}
+{"pattern": "additional polar clothing", "label": "POLAR CLOTHING"}
+{"pattern": "prohibition", "label": "LEGAL CONCEPT"}
+{"pattern": "emergency instruction", "label": "EMERGENCY MANAGEMENT"}
+{"pattern": "collision", "label": "ACCIDENT"}
+{"pattern": "steering wheel", "label": "STEERING EQUIPMENT"}
+{"pattern": "pilgrim trade", "label": "MARINE ACTIVITY"}
+{"pattern": "thermometer", "label": "METEOROLOGICAL MEASURING DEVICE"}
+{"pattern": "certificate of competency", "label": "CREW CERTIFICATE"}
+{"pattern": "polar service temperature", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "water spray pump", "label": "FIRE PUMP"}
+{"pattern": "as-built construction drawing", "label": "DOCUMENT"}
+{"pattern": "cargo handling", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "propulsion line", "label": "PROPULSION SYSTEM"}
+{"pattern": "coal port", "label": "PORT"}
+{"pattern": "slovakia", "label": "SCHENGEN STATE"}
+{"pattern": "slovakia", "label": "EUROPEAN COUNTRY"}
+{"pattern": "slovakia", "label": "EU MEMBER STATE"}
+{"pattern": "seated passenger", "label": "PASSENGER"}
+{"pattern": "tween deck", "label": "DECK"}
+{"pattern": "floating storage and offloading system", "label": "FLOATING PLATFORM"}
+{"pattern": "heavy rain clutter", "label": "RAIN"}
+{"pattern": "heavy swell", "label": "SWELL"}
+{"pattern": "squall", "label": "STORM"}
+{"pattern": "ice island", "label": "ICEBERG"}
+{"pattern": "convention for the suppression of unlawful acts against the safety of maritime navigation", "label": "CONVENTION"}
+{"pattern": "wind generated current", "label": "CURRENT"}
+{"pattern": "nautical publication", "label": "NAVIGATIONAL AID"}
+{"pattern": "port state jurisdiction", "label": "PORT ACTIVITY"}
+{"pattern": "storage vessel", "label": "STATIONARY VESSEL"}
+{"pattern": "glonass receiver", "label": "RADIONAVIGATION SYSTEM RECEIVER"}
+{"pattern": "fire detection system", "label": "FIRE PROTECTION SYSTEM"}
+{"pattern": "icebreaker assistance", "label": "SERVICE"}
+{"pattern": "icebreaker", "label": "SPECIAL PURPOSE SHIP"}
+{"pattern": "industrial waste", "label": "CARGO"}
+{"pattern": "renewal survey", "label": "SURVEY"}
+{"pattern": "oil record book", "label": "RECORD BOOK"}
+{"pattern": "chief cook", "label": "OFFICER"}
+{"pattern": "derelict", "label": "NAVIGATIONAL HAZARD"}
+{"pattern": "ship retrofitting", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "oil filtering equipment", "label": "SHIP EQUIPMENT"}
+{"pattern": "ice rind", "label": "NILAS"}
+{"pattern": "control officer", "label": "OFFICER"}
+{"pattern": "extinction of fire", "label": "FIRE FIGHTING"}
+{"pattern": "necessary equipment", "label": "SHIP EQUIPMENT"}
+{"pattern": "liferaft embarkation deck", "label": "DECK"}
+{"pattern": "gasoline", "label": "SUBSTANCE"}
+{"pattern": "improved weather", "label": "WEATHER CONDITION"}
+{"pattern": "fire", "label": "EMERGENCY"}
+{"pattern": "territorial sea", "label": "WATER AREA"}
+{"pattern": "nautical chart", "label": "CHART"}
+{"pattern": "submarine", "label": "SPECIAL PURPOSE SHIP"}
+{"pattern": "tornado", "label": "STORM"}
+{"pattern": "dover strait", "label": "STRAIT"}
+{"pattern": "ice stream", "label": "GLACIER ICE"}
+{"pattern": "pinnacle iceberg", "label": "ICEBERG"}
+{"pattern": "gnss compass", "label": "NAVIGATIONAL AID"}
+{"pattern": "atlantic ocean", "label": "WATER AREA"}
+{"pattern": "atrium", "label": "OPEN SPACE"}
+{"pattern": "medium floe", "label": "FLOE"}
+{"pattern": "protection of the environment", "label": "MARINE ACTIVITY"}
+{"pattern": "international association of classification societies", "label": "ASSOCIATION"}
+{"pattern": "person in distress", "label": "PERSON ON BOARD"}
+{"pattern": "passenger ship safety certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "self discharging bulk carrier", "label": "BULK CARRIER"}
+{"pattern": "incinerator", "label": "SHIP EQUIPMENT"}
+{"pattern": "blocky iceberg", "label": "ICEBERG"}
+{"pattern": "heel angle", "label": "SHIP CONDITION"}
+{"pattern": "firemans outfit", "label": "PROTECTIVE CLOTHING"}
+{"pattern": "passenger with need of special care", "label": "PASSENGER"}
+{"pattern": "lack of emergency response equipment", "label": "LACK OF EQUIPMENT"}
+{"pattern": "shiprepair", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "ice isthmus", "label": "STRIP"}
+{"pattern": "strip", "label": "ICE ARRANGEMENT"}
+{"pattern": "floating production%2c storage and offloading system", "label": "FLOATING PLATFORM"}
+{"pattern": "line throwing appliance", "label": "LIFE SAVING APPLIANCE"}
+{"pattern": "recognised organisation", "label": "ORGANISATION"}
+{"pattern": "emergency alarm", "label": "EMERGENCY"}
+{"pattern": "fresh water", "label": "WATER"}
+{"pattern": "halon", "label": "SUBSTANCE"}
+{"pattern": "dangerous storm", "label": "STORM"}
+{"pattern": "officer in charge of an engineering watch", "label": "OFFICER-IN-CHARGE"}
+{"pattern": "unified interpretation", "label": "INTERPRETATION"}
+{"pattern": "diesel oil", "label": "OIL"}
+{"pattern": "rescue boat communication capabilities", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "hull certificate", "label": "CLASS CERTIFICATE"}
+{"pattern": "void space", "label": "SPACE"}
+{"pattern": "mf%2fhf radiotelephone", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "ice management function", "label": "SERVICE"}
+{"pattern": "open ice", "label": "ICE CONCENTRATION"}
+{"pattern": "bunkering", "label": "SHIP MAINTENANCE"}
+{"pattern": "ethylene tanker", "label": "GAS CARRIER"}
+{"pattern": "fore peak", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "injunction", "label": "DOCUMENT"}
+{"pattern": "non self-propelled mobile offshore unit", "label": "MOBILE OFFSHORE UNIT"}
+{"pattern": "beam", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "reversing", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "human error", "label": "CREW CONDITION"}
+{"pattern": "generator", "label": "MACHINERY INSTALLATION"}
+{"pattern": "shipbuilding", "label": "SHIPBUILDING ACTIVITY"}
+{"pattern": "category z substance", "label": "MARPOL ANNEX 2 SUBSTANCE"}
+{"pattern": "international air pollution certificate", "label": "MARPOL STATUTORY CERTIFICATE"}
+{"pattern": "able-bodied person", "label": "PERSON ON BOARD"}
+{"pattern": "slovenia", "label": "EU MEMBER STATE"}
+{"pattern": "slovenia", "label": "EUROPEAN COUNTRY"}
+{"pattern": "slovenia", "label": "SCHENGEN STATE"}
+{"pattern": "expressed consent", "label": "CONSENT"}
+{"pattern": "appendix", "label": "DOCUMENT PART"}
+{"pattern": "bilge water", "label": "WATER"}
+{"pattern": "watertight door", "label": "DOOR"}
+{"pattern": "navigational demand", "label": "REQUIREMENT"}
+{"pattern": "maritime and coastguard agency", "label": "GOVERNMENT INSTITUTE"}
+{"pattern": "weathertightness", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "automated installation class renewal survey", "label": "SURVEY REPORT"}
+{"pattern": "cinema", "label": "ACCOMMODATION SPACE"}
+{"pattern": "tributyl", "label": "SUBSTANCE"}
+{"pattern": "diffuse ice edge", "label": "ICE EDGE"}
+{"pattern": "midship section", "label": "HULL STRUCTURAL ELEMENT"}
+{"pattern": "track control system", "label": "NAVIGATIONAL AID"}
+{"pattern": "steam generator", "label": "GENERATOR"}
+{"pattern": "molten sulphur tanker", "label": "TANKER"}
+{"pattern": "bridge watchkeeping", "label": "WATCHKEEPING"}
+{"pattern": "upper ice waterline draught", "label": "DRAUGHT"}
+{"pattern": "anchor watch", "label": "WATCHKEEPING"}
+{"pattern": "consolidated ice", "label": "COMPACT ICE"}
+{"pattern": "manhole", "label": "OPENING"}
+{"pattern": "vast floe", "label": "FLOE"}
+{"pattern": "adjacent coastal area", "label": "COASTAL WATERS"}
+{"pattern": "enforcement", "label": "LEGAL CONCEPT"}
+{"pattern": "two way vhf radiotelephone", "label": "RADIO LIFESAVING APPLIANCE"}
+{"pattern": "contracting government", "label": "GOVERNMENT"}
+{"pattern": "safe return to port", "label": "EMERGENCY ACTION"}
+{"pattern": "refrigerated container ship", "label": "CONTAINERSHIP"}
+{"pattern": "alertness", "label": "CREW CONDITION"}
+{"pattern": "mail room", "label": "SPACE"}
+{"pattern": "light nilas", "label": "NILAS"}
+{"pattern": "mining", "label": "MARINE ACTIVITY"}
+{"pattern": "fendering", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "thick mittens", "label": "PROTECTIVE CLOTHING"}
+{"pattern": "fixed fire extinguishing co2 system certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "barometric pressure", "label": "PRESSURE"}
+{"pattern": "normal operation", "label": "SHIP OPERATION"}
+{"pattern": "forepeak tank", "label": "TANK"}
+{"pattern": "compass certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "part", "label": "DOCUMENT PART"}
+{"pattern": "sea lane", "label": "WATER AREA"}
+{"pattern": "safe ship operation", "label": "SHIP OPERATION"}
+{"pattern": "typhoon", "label": "STORM"}
+{"pattern": "sub-committee", "label": "INTERNATIONAL MARITIME ORGANIZATION"}
+{"pattern": "galapagos archipelago", "label": "ARCHIPELAGO"}
+{"pattern": "archipelago", "label": "WATER AREA"}
+{"pattern": "immersion suit with insulation", "label": "IMMERSION SUIT"}
+{"pattern": "tropical cyclone", "label": "CYCLONE"}
+{"pattern": "blanket", "label": "PROTECTIVE CLOTHING"}
+{"pattern": "drinking water", "label": "WATER"}
+{"pattern": "approval", "label": "LEGAL CONCEPT"}
+{"pattern": "full load condition", "label": "LOADING CONDITION"}
+{"pattern": "ventilation system", "label": "SHIP EQUIPMENT"}
+{"pattern": "automatic radar plotting aid", "label": "NAVIGATIONAL AID"}
+{"pattern": "statute", "label": "LEGAL CONCEPT"}
+{"pattern": "watertight space", "label": "SPACE"}
+{"pattern": "close ice", "label": "ICE CONCENTRATION"}
+{"pattern": "controllable pitch propeller", "label": "PROPELLER"}
+{"pattern": "frame", "label": "HULL STRUCTURAL MEMBER"}
+{"pattern": "hatchcoverless container ship", "label": "CONTAINERSHIP"}
+{"pattern": "class 1.3 substance", "label": "CLASS 1 SUBSTANCE"}
+{"pattern": "water mist pump", "label": "FIRE PUMP"}
+{"pattern": "bridge officer", "label": "OFFICER"}
+{"pattern": "pesticide", "label": "SUBSTANCE"}
+{"pattern": "re routeing", "label": "SHIPHANDLING ACTIVITY"}
+{"pattern": "weathered iceberg", "label": "ICEBERG"}
+{"pattern": "garbage record book", "label": "RECORD BOOK"}
+{"pattern": "short circuit", "label": "MALFUNCTION OF EQUIPMENT"}
+{"pattern": "cargo gear record book", "label": "RECORD BOOK"}
+{"pattern": "unconscious person", "label": "PERSON ON BOARD"}
+{"pattern": "very large iceberg", "label": "ICEBERG"}
+{"pattern": "project cargo ship", "label": "HEAVY LIFT VESSEL"}
+{"pattern": "heavy fuel engine", "label": "ENGINE"}
+{"pattern": "appropriate service", "label": "SERVICE"}
+{"pattern": "at night", "label": "MARITIME SITUATION"}
+{"pattern": "moderate speed", "label": "SPEED"}
+{"pattern": "dust", "label": "WEATHER CONDITION"}
+{"pattern": "portside tailshaft complete survey", "label": "SURVEY REPORT"}
+{"pattern": "seakeeping", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "international code of signal", "label": "NAVIGATIONAL AID"}
+{"pattern": "monaco", "label": "EUROPEAN COUNTRY"}
+{"pattern": "in accordance with", "label": "LEGAL CONCEPT"}
+{"pattern": "refrigerated cargo", "label": "CARGO"}
+{"pattern": "telemedical assistance service", "label": "SERVICE"}
+{"pattern": "con ro vessel", "label": "RO RO VESSEL"}
+{"pattern": "post panamax container ship", "label": "CONTAINERSHIP"}
+{"pattern": "national legislation", "label": "LEGISLATION"}
+{"pattern": "ship-to-ship operation", "label": "SHIP OPERATION"}
+{"pattern": "unlawful act of violence", "label": "UNLAWFUL ACTIVITY"}
+{"pattern": "liechtenstein", "label": "EUROPEAN COUNTRY"}
+{"pattern": "liechtenstein", "label": "SCHENGEN STATE"}
+{"pattern": "use of medication", "label": "CREW CONDITION"}
+{"pattern": "physiological state of agitation", "label": "PHYSIOLOGICAL STATE"}
+{"pattern": "decree", "label": "DOCUMENT"}
+{"pattern": "force majeure", "label": "LEGAL CONCEPT"}
+{"pattern": "class 5.2 substance", "label": "CLASS 5 SUBSTANCE"}
+{"pattern": "non-hazardous area", "label": "WORKING ENVIRONMENT"}
+{"pattern": "jammed brash barrier", "label": "COMPACTED ICE EDGE"}
+{"pattern": "minimum safe manning certificate", "label": "FLAG STATE CERTIFICATE"}
+{"pattern": "dangerous ice", "label": "ICE"}
+{"pattern": "petrol tanker", "label": "TANKER"}
+{"pattern": "circular", "label": "DOCUMENT"}
+{"pattern": "public space", "label": "SPACE"}
+{"pattern": "sms auditor", "label": "ROLE"}
+{"pattern": "good management practice", "label": "PROCEDURE"}
+{"pattern": "non-combustible substance", "label": "SUBSTANCE"}
+{"pattern": "dentist", "label": "MEDICAL PERSONNEL"}
+{"pattern": "certification of seafarers", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "extended period of darkness", "label": "MARITIME SITUATION"}
+{"pattern": "instructor", "label": "ROLE"}
+{"pattern": "large shipment", "label": "CARGO"}
+{"pattern": "longitude", "label": "POSITION"}
+{"pattern": "iceberg tongue", "label": "ICE ARRANGEMENT"}
+{"pattern": "database", "label": "IT SYSTEM"}
+{"pattern": "obligation", "label": "LEGAL CONCEPT"}
+{"pattern": "coaster", "label": "DRY CARGO VESSEL"}
+{"pattern": "full compliance", "label": "LEVEL OF COMPLIANCE"}
+{"pattern": "offshore mining", "label": "MARINE ACTIVITY"}
+{"pattern": "marine evacuation system certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "ice class", "label": "SHIP ICE PROPERTY 1"}
+{"pattern": "second year ice", "label": "OLD ICE"}
+{"pattern": "combustion air for internal combustion engine", "label": "MACHINERY INSTALLATION"}
+{"pattern": "chief officer", "label": "OFFICER"}
+{"pattern": "chief officer", "label": "DECK OFFICER"}
+{"pattern": "isolating valve", "label": "VALVE"}
+{"pattern": "building contract", "label": "CONTRACT"}
+{"pattern": "low air draught coaster", "label": "DRY CARGO VESSEL"}
+{"pattern": "reserve tank", "label": "TANK"}
+{"pattern": "polar water operational manual", "label": "SHIP MANUAL"}
+{"pattern": "capsizing", "label": "EMERGENCY"}
+{"pattern": "serious malfunction", "label": "MALFUNCTION OF EQUIPMENT"}
+{"pattern": "restricted visibility", "label": "VISIBILITY"}
+{"pattern": "chart coverage", "label": "EQUIPMENT CONDITION"}
+{"pattern": "port agent", "label": "ROLE"}
+{"pattern": "working language", "label": "CREW CONDITION"}
+{"pattern": "applicable for", "label": "LEGAL CONCEPT"}
+{"pattern": "form", "label": "DOCUMENT"}
+{"pattern": "pressure valve", "label": "VALVE"}
+{"pattern": "radio beacon", "label": "EMERGENCY EQUIPMENT"}
+{"pattern": "engine room", "label": "MACHINERY SPACE"}
+{"pattern": "fire patrol", "label": "SHIP MAINTENANCE"}
+{"pattern": "class 4.1 substance", "label": "CLASS 4 SUBSTANCE"}
+{"pattern": "trimaran", "label": "HULL TYPE"}
+{"pattern": "stowage", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "hydrogen sulphide", "label": "SUBSTANCE"}
+{"pattern": "nuclear ship", "label": "SHIP"}
+{"pattern": "fresh water tank", "label": "TANK"}
+{"pattern": "interdiction of ship", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "navtex", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "montenegro", "label": "EUROPEAN COUNTRY"}
+{"pattern": "relative speed", "label": "SPEED"}
+{"pattern": "severe weather condition", "label": "UNFAVOURABLE CONDITION"}
+{"pattern": "sulphur", "label": "SUBSTANCE"}
+{"pattern": "subdivision", "label": "DIVISION"}
+{"pattern": "prolonged use", "label": "EQUIPMENT CONDITION"}
+{"pattern": "safety management system", "label": "PROCEDURE"}
+{"pattern": "medical box certificate", "label": "SHIP SANITATION CERTIFICATE"}
+{"pattern": "ship%27s alternative design or arrangement", "label": "SHIP%27S DESIGN AND ARRANGEMENT"}
+{"pattern": "international convention for safe containers", "label": "CONVENTION"}
+{"pattern": "tributary water", "label": "WATER AREA"}
+{"pattern": "paramedic", "label": "MEDICAL PERSONNEL"}
+{"pattern": "ireland", "label": "EUROPEAN COUNTRY"}
+{"pattern": "ireland", "label": "EU MEMBER STATE"}
+{"pattern": "maritime labour certificate", "label": "MLC 2006 STATUTORY CERTIFICATE"}
+{"pattern": "electronic equipment", "label": "SHIP EQUIPMENT"}
+{"pattern": "class 2.1 substance", "label": "CLASS 2 SUBSTANCE"}
+{"pattern": "type approval certificate for incinerator", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "two-way data communication", "label": "DATA COMMUNICATION"}
+{"pattern": "jurisdiction", "label": "LEGAL CONCEPT"}
+{"pattern": "hour", "label": "UNIT"}
+{"pattern": "seaman", "label": "NON OFFICER"}
+{"pattern": "emergency training", "label": "ON BOARD TRAINING"}
+{"pattern": "firn", "label": "ICE OF LAND ORIGIN"}
+{"pattern": "thin lake ice", "label": "LAKE ICE DEVELOPMENT"}
+{"pattern": "compass spare certificate", "label": "SHIP EQUIPMENT CERTIFICATE"}
+{"pattern": "fire control plan", "label": "EMERGENCY PLAN"}
+{"pattern": "safety fuse", "label": "ELECTRICAL INSTALLATION"}
+{"pattern": "naval auxiliary vessel", "label": "NAVAL VESSEL"}
+{"pattern": "switzerland", "label": "SCHENGEN STATE"}
+{"pattern": "switzerland", "label": "EUROPEAN COUNTRY"}
+{"pattern": "trade or seaworthiness certificate", "label": "FLAG STATE CERTIFICATE"}
+{"pattern": "stairway", "label": "SPACE"}
+{"pattern": "length overall", "label": "LENGTH"}
+{"pattern": "luxembourg", "label": "SCHENGEN STATE"}
+{"pattern": "luxembourg", "label": "EUROPEAN COUNTRY"}
+{"pattern": "luxembourg", "label": "EU MEMBER STATE"}
+{"pattern": "flagstate", "label": "SHIP ADMINISTRATIVE PROPERTY"}
+{"pattern": "hydrofoil", "label": "SPECIAL PURPOSE SHIP"}
+{"pattern": "polar operation", "label": "SHIP OPERATION"}
+{"pattern": "class 7 substance", "label": "IMDG SUBSTANCE"}
+{"pattern": "surveying", "label": "MARINE ADMINISTRATION ACTIVITY"}
+{"pattern": "oil transfer", "label": "MARINE ACTIVITY"}
+{"pattern": "navigational system", "label": "IT SYSTEM"}
+{"pattern": "low-location lighting", "label": "LIGHT"}
+{"pattern": "international safety management code", "label": "CODE"}
+{"pattern": "sewage tank", "label": "TANK"}
+{"pattern": "extremely low temperature", "label": "LOW TEMPERATURE"}
+{"pattern": "spill response", "label": "PROTECTION OF THE ENVIRONMENT"}
+{"pattern": "service vessel", "label": "MERCHANT SHIP"}
+{"pattern": "spigot", "label": "VALVE"}
+{"pattern": "class 4.2", "label": "CLASS 4 SUBSTANCE"}
+{"pattern": "somalia", "label": "AFRICAN STATE"}
+{"pattern": "asphalt bitumen tanker", "label": "TANKER"}
+{"pattern": "emergency steering", "label": "EMERGENCY EQUIPMENT"}
+{"pattern": "ice allowance", "label": "SHIP CONDITION"}
+{"pattern": "moderate sea", "label": "SEA STATE"}
+{"pattern": "marginal ice zone", "label": "ICE ARRANGEMENT"}
+{"pattern": "list of operational limitations", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "snow ice", "label": "ICE DEVELOPMENT"}
+{"pattern": "doctor", "label": "MEDICAL PERSONNEL"}
+{"pattern": "croatia", "label": "EU MEMBER STATE"}
+{"pattern": "croatia", "label": "EUROPEAN COUNTRY"}
+{"pattern": "class 1.5", "label": "CLASS 1 SUBSTANCE"}
+{"pattern": "skylight", "label": "OPENING"}
+{"pattern": "tension-leg platform", "label": "FLOATING PLATFORM"}
+{"pattern": "ore carrier", "label": "BULK CARRIER"}
+{"pattern": "lifejacket light", "label": "LIFE SAVING SIGNAL"}
+{"pattern": "habitability", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "class 1.2 substance", "label": "CLASS 1 SUBSTANCE"}
+{"pattern": "totally enclosed lifeboat", "label": "LIFEBOAT"}
+{"pattern": "escorted operation", "label": "SHIP OPERATION"}
+{"pattern": "thin first year ice first stage", "label": "THIN FIRST-YEAR ICE"}
+{"pattern": "local law", "label": "LAW"}
+{"pattern": "ship reporting system", "label": "IT SYSTEM"}
+{"pattern": "list of lights", "label": "NAVIGATIONAL AID"}
+{"pattern": "austria", "label": "EU MEMBER STATE"}
+{"pattern": "austria", "label": "SCHENGEN STATE"}
+{"pattern": "austria", "label": "EUROPEAN COUNTRY"}
+{"pattern": "open hatch bulk carrier", "label": "BULK CARRIER"}
+{"pattern": "slop tank", "label": "TANK"}
+{"pattern": "loran c receiver", "label": "RADIONAVIGATION SYSTEM RECEIVER"}
+{"pattern": "exemption certificate", "label": "SOLAS STATUTORY CERTIFICATES"}
+{"pattern": "radioactive waste", "label": "DANGEROUS CARGO"}
+{"pattern": "mean daily low temperature", "label": "TEMPERATURE"}
+{"pattern": "international maritime dangerous goods code", "label": "CODE"}
+{"pattern": "giant floe", "label": "FLOE"}
+{"pattern": "english channel", "label": "CHANNEL"}
+{"pattern": "international association of independent tanker owners", "label": "ASSOCIATION"}
+{"pattern": "wind gust", "label": "WIND"}
+{"pattern": "tidal change", "label": "MARITIME SITUATION"}
+{"pattern": "radio installation", "label": "COMMUNICATION SYSTEM"}
+{"pattern": "slinging", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "port planning and development", "label": "PORT ACTIVITY"}
+{"pattern": "impairment", "label": "PHYSIOLOGICAL STATE"}
+{"pattern": "watertightness", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "assembly", "label": "INTERNATIONAL MARITIME ORGANIZATION"}
+{"pattern": "council", "label": "INTERNATIONAL MARITIME ORGANIZATION"}
+{"pattern": "marine environment protection committee", "label": "COMMITTEE"}
+{"pattern": "sub committee on implementation of imo instruments", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on human element%2c training and watchkeeping", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on navigation%2c communications and search and rescue", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on pollution prevention and response", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on ship design and construction", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on ship systems and equipment", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on carriage of cargoes and containers", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on bulk liquids and gases", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on carriage of dangerous goods%2c solid cargoes and containers", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on fire protection", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on radio communications and search and rescue", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on safety of navigation", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on ship design and equipment", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on stability and load lines and fishing vessels safety", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on standards of training and watchkeeping", "label": "SUB-COMMITTEE"}
+{"pattern": "sub committee on flag state implementation", "label": "SUB-COMMITTEE"}
+{"pattern": "legal committee", "label": "COMMITTEE"}
+{"pattern": "technical cooperation committee", "label": "COMMITTEE"}
+{"pattern": "facilitation committee", "label": "COMMITTEE"}
+{"pattern": "laundry", "label": "SPACE"}
+{"pattern": "permit", "label": "DOCUMENT"}
+{"pattern": "incineration", "label": "DISPOSAL OF WASTE"}
+{"pattern": "incineration of waste at sea", "label": "INCINERATION"}
+{"pattern": "segregated ballast", "label": "BALLAST WATER"}
+{"pattern": "clean ballast", "label": "BALLAST WATER"}
+{"pattern": "clean ballast tank", "label": "BALLAST TANK"}
+{"pattern": "oil unloading port", "label": "PORT"}
+{"pattern": "machinery space operation", "label": "SHIP OPERATION"}
+{"pattern": "bunker", "label": "SHIP STRUCTURE"}
+{"pattern": "fire safety systems code", "label": "CODE"}
+{"pattern": "emergency circuit", "label": "EMERGENCY EQUIPMENT"}
+{"pattern": "emergency generator", "label": "EMERGENCY EQUIPMENT"}
+{"pattern": "emergency system", "label": "EMERGENCY EQUIPMENT"}
+{"pattern": "other group", "label": "INTERNATIONAL MARITIME ORGANIZATION"}
+{"pattern": "group of experts on scientific aspects of marine environmental protection", "label": "OTHER GROUP"}
+{"pattern": "special meeting of contracting parties to the london convention 1972", "label": "OTHER GROUP"}
+{"pattern": "safe practice for cargo stowage and securing code", "label": "CODE"}
+{"pattern": "council directive", "label": "DOCUMENT"}
+{"pattern": "treaty", "label": "DOCUMENT"}
+{"pattern": "decision", "label": "DOCUMENT"}
+{"pattern": "climate", "label": "WEATHER CONDITION"}
+{"pattern": "cold climate", "label": "CLIMATE"}
+{"pattern": "warm climate", "label": "CLIMATE"}
+{"pattern": "initial survey", "label": "SURVEY"}
+{"pattern": "ro-ro passenger ship", "label": "RO RO VESSEL"}
+{"pattern": "section", "label": "DOCUMENT PART"}
+{"pattern": "launching appliance", "label": "SHIP EQUIPMENT"}
+{"pattern": "pre-certification survey", "label": "SURVEY"}
+{"pattern": "table", "label": "DOCUMENT PART"}
+{"pattern": "cargo control room", "label": "SPACE"}
+{"pattern": "cargo leakage", "label": "INCIDENT"}
+{"pattern": "international gas carrier code", "label": "CODE"}
+{"pattern": "passenger accommodation space", "label": "ACCOMMODATION SPACE"}
+{"pattern": "fire detection", "label": "EMERGENCY ACTION"}
+{"pattern": "fire protection", "label": "SHIP OPERATION"}
+{"pattern": "special trade passenger ships agreement", "label": "CONVENTION"}
+{"pattern": "protocol on space requirements for special trade passenger ships", "label": "PROTOCOL"}
+{"pattern": "terminal personnel", "label": "ROLE"}
+{"pattern": "heavy fuel oil", "label": "FUEL OIL"}
+{"pattern": "heavy fuel oil", "label": "HEAVY GRADE OIL"}
+{"pattern": "recreational craft", "label": "SHIP"}
+{"pattern": "cargo space", "label": "SPACE"}
+{"pattern": "special trade passenger ship", "label": "PASSENGER SHIP"}
+{"pattern": "double-hull oil tanker", "label": "CRUDE OIL TANKER"}
+{"pattern": "single-hull oil tanker", "label": "CRUDE OIL TANKER"}
+{"pattern": "line", "label": "SHIP EQUIPMENT"}
+{"pattern": "mooring line", "label": "LINE"}
+{"pattern": "heavy diesel oil", "label": "DIESEL OIL"}
+{"pattern": "product oil", "label": "OIL"}
+{"pattern": "test method", "label": "PROCEDURE"}
+{"pattern": "main vertical zone", "label": "FIRE RESISTING DIVISION"}
+{"pattern": "hospital", "label": "SPACE"}
+{"pattern": "hall", "label": "OPEN SPACE"}
+{"pattern": "dining room", "label": "SPACE"}
+{"pattern": "container", "label": "CARGO"}
+{"pattern": "wheelhouse", "label": "SPACE"}
+{"pattern": "cargo hatch", "label": "HATCH"}
+{"pattern": "domestic voyage", "label": "VOYAGE"}
+{"pattern": "critical damage", "label": "DAMAGED CONDITION"}
+{"pattern": "vehicle deck", "label": "DECK"}
+{"pattern": "sun deck", "label": "DECK"}
+{"pattern": "special trade passenger", "label": "PASSENGER"}
+{"pattern": "cargo transfer", "label": "CARGO HANDLING ACTIVITY"}
+{"pattern": "solas 1974", "label": "SOLAS"}
+{"pattern": "solas 1978", "label": "SOLAS"}
+{"pattern": "drift ice concentration", "label": "ICE CONCENTRATION"}
+{"pattern": "high-speed passenger craft", "label": "HIGH-SPEED CRAFT"}
+{"pattern": "strength", "label": "SHIP CHARACTERISTIC"}
+{"pattern": "under construction", "label": "STAGE OF CONSTRUCTION"}
+{"pattern": "restricted area", "label": "WATER AREA"}
+{"pattern": "member state", "label": "COUNTRY"}
+{"pattern": "ship", "label": "SHIP"}
+{"pattern": "algeria", "label": "AFRICAN STATE"}
+{"pattern": "angola", "label": "AFRICAN STATE"}
+{"pattern": "benin", "label": "AFRICAN STATE"}
+{"pattern": "botswana", "label": "AFRICAN STATE"}
+{"pattern": "burkina faso", "label": "AFRICAN STATE"}
+{"pattern": "burundi", "label": "AFRICAN STATE"}
+{"pattern": "cameroon", "label": "AFRICAN STATE"}
+{"pattern": "cape verde", "label": "AFRICAN STATE"}
+{"pattern": "central african republic", "label": "AFRICAN STATE"}
+{"pattern": "chad", "label": "AFRICAN STATE"}
+{"pattern": "comoros", "label": "AFRICAN STATE"}
+{"pattern": "democratic republic of the congo", "label": "AFRICAN STATE"}
+{"pattern": "republic of the congo", "label": "AFRICAN STATE"}
+{"pattern": "djibouti", "label": "AFRICAN STATE"}
+{"pattern": "egypt", "label": "AFRICAN STATE"}
+{"pattern": "equatorial guinea", "label": "AFRICAN STATE"}
+{"pattern": "eritrea", "label": "AFRICAN STATE"}
+{"pattern": "ethiopia", "label": "AFRICAN STATE"}
+{"pattern": "gabon", "label": "AFRICAN STATE"}
+{"pattern": "gambia", "label": "AFRICAN STATE"}
+{"pattern": "ghana", "label": "AFRICAN STATE"}
+{"pattern": "guinea", "label": "AFRICAN STATE"}
+{"pattern": "guinea-bissau", "label": "AFRICAN STATE"}
+{"pattern": "ivory coast", "label": "AFRICAN STATE"}
+{"pattern": "kenya", "label": "AFRICAN STATE"}
+{"pattern": "lesotho", "label": "AFRICAN STATE"}
+{"pattern": "liberia", "label": "AFRICAN STATE"}
+{"pattern": "libya", "label": "AFRICAN STATE"}
+{"pattern": "madagascar", "label": "AFRICAN STATE"}
+{"pattern": "malawi", "label": "AFRICAN STATE"}
+{"pattern": "mali", "label": "AFRICAN STATE"}
+{"pattern": "mauritania", "label": "AFRICAN STATE"}
+{"pattern": "mauritius", "label": "AFRICAN STATE"}
+{"pattern": "morocco", "label": "AFRICAN STATE"}
+{"pattern": "mozambique", "label": "AFRICAN STATE"}
+{"pattern": "namibia", "label": "AFRICAN STATE"}
+{"pattern": "niger", "label": "AFRICAN STATE"}
+{"pattern": "nigeria", "label": "AFRICAN STATE"}
+{"pattern": "rwanda", "label": "AFRICAN STATE"}
+{"pattern": "sao tome and principe", "label": "AFRICAN STATE"}
+{"pattern": "senegal", "label": "AFRICAN STATE"}
+{"pattern": "seychelles", "label": "AFRICAN STATE"}
+{"pattern": "sierra leone", "label": "AFRICAN STATE"}
+{"pattern": "south africa", "label": "AFRICAN STATE"}
+{"pattern": "south sudan", "label": "AFRICAN STATE"}
+{"pattern": "sudan", "label": "AFRICAN STATE"}
+{"pattern": "swaziland", "label": "AFRICAN STATE"}
+{"pattern": "tanzania", "label": "AFRICAN STATE"}
+{"pattern": "togo", "label": "AFRICAN STATE"}
+{"pattern": "tunisia", "label": "AFRICAN STATE"}
+{"pattern": "uganda", "label": "AFRICAN STATE"}
+{"pattern": "zambia", "label": "AFRICAN STATE"}
+{"pattern": "zimbabwe", "label": "AFRICAN STATE"}
+{"pattern": "port community system", "label": "PORT SYSTEM"}
+{"pattern": "national single window", "label": "SHIP REPORTING SYSTEM"}
+{"pattern": "caspian sea", "label": "WATER AREA"}
+{"pattern": "black sea", "label": "WATER AREA"}
+{"pattern": "strait of malacca", "label": "STRAIT"}
+{"pattern": "strait of hormuz", "label": "STRAIT"}
+{"pattern": "strait of magellan", "label": "STRAIT"}
+{"pattern": "canal", "label": "CHANNEL"}
+{"pattern": "panama canal", "label": "CANAL"}
+{"pattern": "suez canal", "label": "CANAL"}
+{"pattern": "kiel canal", "label": "CANAL"}
+{"pattern": "white sea   baltic canal", "label": "CANAL"}
+{"pattern": "rhine main danube canal", "label": "CANAL"}
+{"pattern": "volga don canal", "label": "CANAL"}
+{"pattern": "danube black sea canal", "label": "CANAL"}
+{"pattern": "dardanelles", "label": "STRAIT"}
+{"pattern": "attach", "label": "OBJECT PROPERTY"}
+{"pattern": "building material", "label": "OBJECT PROPERTY"}
+{"pattern": "charge source", "label": "OBJECT PROPERTY"}
+{"pattern": "illumination arrangement", "label": "OBJECT PROPERTY"}
+{"pattern": "kept", "label": "OBJECT PROPERTY"}
+{"pattern": "oil supply", "label": "OBJECT PROPERTY"}
+{"pattern": "placement", "label": "OBJECT PROPERTY"}
+{"pattern": "power supply", "label": "OBJECT PROPERTY"}
+{"pattern": "radio area", "label": "OBJECT PROPERTY"}
+{"pattern": "scope", "label": "OBJECT PROPERTY"}
+{"pattern": "sub requirement", "label": "OBJECT PROPERTY"}
+{"pattern": "subregion", "label": "OBJECT PROPERTY"}
+{"pattern": "supply of fuel", "label": "OBJECT PROPERTY"}
+{"pattern": "trade area", "label": "OBJECT PROPERTY"}
+{"pattern": "vessel type", "label": "OBJECT PROPERTY"}
+{"pattern": "alternative reference", "label": "DATATYPE PROPERTY"}
+{"pattern": "angle of heel", "label": "DATATYPE PROPERTY"}
+{"pattern": "angle of list", "label": "DATATYPE PROPERTY"}
+{"pattern": "angle of rudder", "label": "DATATYPE PROPERTY"}
+{"pattern": "blind sector", "label": "DATATYPE PROPERTY"}
+{"pattern": "bow height", "label": "DATATYPE PROPERTY"}
+{"pattern": "built date", "label": "DATATYPE PROPERTY"}
+{"pattern": "capacity", "label": "DATATYPE PROPERTY"}
+{"pattern": "clear sector", "label": "DATATYPE PROPERTY"}
+{"pattern": "closeable", "label": "DATATYPE PROPERTY"}
+{"pattern": "closed vessel", "label": "DATATYPE PROPERTY"}
+{"pattern": "closed weathertight", "label": "DATATYPE PROPERTY"}
+{"pattern": "control interval", "label": "DATATYPE PROPERTY"}
+{"pattern": "date of manufacture", "label": "DATATYPE PROPERTY"}
+{"pattern": "derivation", "label": "DATATYPE PROPERTY"}
+{"pattern": "diameter", "label": "DATATYPE PROPERTY"}
+{"pattern": "flash point", "label": "DATATYPE PROPERTY"}
+{"pattern": "frost proof", "label": "DATATYPE PROPERTY"}
+{"pattern": "gaz hazardous space", "label": "DATATYPE PROPERTY"}
+{"pattern": "headroom", "label": "DATATYPE PROPERTY"}
+{"pattern": "height", "label": "DATATYPE PROPERTY"}
+{"pattern": "inflateable", "label": "DATATYPE PROPERTY"}
+{"pattern": "issued", "label": "DATATYPE PROPERTY"}
+{"pattern": "language", "label": "DATATYPE PROPERTY"}
+{"pattern": "letter height", "label": "DATATYPE PROPERTY"}
+{"pattern": "litre volume", "label": "DATATYPE PROPERTY"}
+{"pattern": "load", "label": "DATATYPE PROPERTY"}
+{"pattern": "magnetic moment", "label": "DATATYPE PROPERTY"}
+{"pattern": "max length", "label": "DATATYPE PROPERTY"}
+{"pattern": "max temperature", "label": "DATATYPE PROPERTY"}
+{"pattern": "metacentric height", "label": "DATATYPE PROPERTY"}
+{"pattern": "min length", "label": "DATATYPE PROPERTY"}
+{"pattern": "operational capacity", "label": "DATATYPE PROPERTY"}
+{"pattern": "procured", "label": "DATATYPE PROPERTY"}
+{"pattern": "propulsion power", "label": "DATATYPE PROPERTY"}
+{"pattern": "radio frequency", "label": "DATATYPE PROPERTY"}
+{"pattern": "regulation reference", "label": "DATATYPE PROPERTY"}
+{"pattern": "rightning lever", "label": "DATATYPE PROPERTY"}
+{"pattern": "seawater temperature", "label": "DATATYPE PROPERTY"}
+{"pattern": "sector", "label": "DATATYPE PROPERTY"}
+{"pattern": "self closing", "label": "DATATYPE PROPERTY"}
+{"pattern": "service speed", "label": "DATATYPE PROPERTY"}
+{"pattern": "spraytight", "label": "DATATYPE PROPERTY"}
+{"pattern": "thickness", "label": "DATATYPE PROPERTY"}
+{"pattern": "time interval", "label": "DATATYPE PROPERTY"}
+{"pattern": "trim", "label": "DATATYPE PROPERTY"}
+{"pattern": "used by date", "label": "DATATYPE PROPERTY"}
+{"pattern": "voltage", "label": "DATATYPE PROPERTY"}
+{"pattern": "any u r i", "label": "CLASS"}
+{"pattern": "accomodation area", "label": "PLACEMENT"}
+{"pattern": "accumulator battery", "label": "POWER SOURCE"}
+{"pattern": "adhersive note", "label": "POSTER"}
+{"pattern": "adjustment and steering devices", "label": "STEERING"}
+{"pattern": "airing pipe", "label": "EXTERNAL OPENINGS"}
+{"pattern": "airing pipe", "label": "PIPE"}
+{"pattern": "alleyway", "label": "PLACEMENT"}
+{"pattern": "aluminium", "label": "NON COMBUSTIBLE MATERIAL"}
+{"pattern": "antenna", "label": "EQUIPMENT"}
+{"pattern": "anti skid surface", "label": "SAFETY MEASURES"}
+{"pattern": "approved company", "label": "COMPANY"}
+{"pattern": "audible and visual alarm", "label": "DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "automatic pilot system", "label": "STEERING"}
+{"pattern": "auxiliary vessel", "label": "SHIP"}
+{"pattern": "bank fishing", "label": "TRADE AREA"}
+{"pattern": "bank fishing i", "label": "BANK FISHING"}
+{"pattern": "bank fishing i i", "label": "BANK FISHING"}
+{"pattern": "barriers", "label": "SAFETY MEASURES"}
+{"pattern": "battery room", "label": "PLACEMENT"}
+{"pattern": "beam", "label": "CONSTRUCTION"}
+{"pattern": "bilge", "label": "CONSTRUCTION"}
+{"pattern": "bilge flap", "label": "CONSTRUCTION"}
+{"pattern": "bilge pipe", "label": "PIPE"}
+{"pattern": "binocular", "label": "NAVIGATION EQUIPMENT"}
+{"pattern": "bow", "label": "CONSTRUCTION"}
+{"pattern": "bow", "label": "PLACEMENT"}
+{"pattern": "breathing protection", "label": "EQUIPMENT"}
+{"pattern": "bridge navigational watch alarm system", "label": "EQUIPMENT"}
+{"pattern": "bulkhead", "label": "CONSTRUCTION"}
+{"pattern": "bulwark", "label": "CONSTRUCTION"}
+{"pattern": "caffine", "label": "FUEL"}
+{"pattern": "call sign", "label": "IDENTIFICATION"}
+{"pattern": "cargo", "label": "CLASS"}
+{"pattern": "cargo handling appliances", "label": "EQUIPMENT"}
+{"pattern": "cargo spaces", "label": "PLACEMENT"}
+{"pattern": "casing", "label": "CONSTRUCTION"}
+{"pattern": "centre line", "label": "PLACEMENT"}
+{"pattern": "certificate", "label": "CLASS"}
+{"pattern": "certificate of installation for gasfired installations", "label": "INFORMATION"}
+{"pattern": "chart", "label": "INFORMATION"}
+{"pattern": "chimney", "label": "CONSTRUCTION"}
+{"pattern": "clock", "label": "EQUIPMENT"}
+{"pattern": "clock", "label": "NAVIGATION EQUIPMENT"}
+{"pattern": "closing valve", "label": "VALVE"}
+{"pattern": "collection tank", "label": "TANK"}
+{"pattern": "combustible material", "label": "CONSTRUCTION MATERIAL"}
+{"pattern": "company", "label": "CLASS"}
+{"pattern": "compass", "label": "INSTRUMENT"}
+{"pattern": "compass", "label": "NAVIGATION EQUIPMENT"}
+{"pattern": "confirmation of construction", "label": "INFORMATION"}
+{"pattern": "construction", "label": "THING"}
+{"pattern": "construction material", "label": "MATERIAL"}
+{"pattern": "copper", "label": "NON COMBUSTIBLE MATERIAL"}
+{"pattern": "corridor", "label": "PLACEMENT"}
+{"pattern": "country", "label": "GEOGRAPHICAL LOCATION"}
+{"pattern": "deck", "label": "CONSTRUCTION"}
+{"pattern": "deck", "label": "PLACEMENT"}
+{"pattern": "deckhouse", "label": "PLACEMENT"}
+{"pattern": "declaration of conformity from manufacturer of liferaft", "label": "INFORMATION"}
+{"pattern": "declaration of surveys", "label": "INFORMATION"}
+{"pattern": "denmark", "label": "COUNTRY"}
+{"pattern": "depth measuring equipment", "label": "EQUIPMENT"}
+{"pattern": "description of fire extinguishing system", "label": "INFORMATION"}
+{"pattern": "distance measuring device", "label": "EQUIPMENT"}
+{"pattern": "distress signal", "label": "DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "distress signal equipment", "label": "SIGNALING EQUIPMENT"}
+{"pattern": "documentation of pressure testing tightness testing", "label": "INFORMATION"}
+{"pattern": "door", "label": "MEANS OF CLOSURE"}
+{"pattern": "drain pipe", "label": "PIPE"}
+{"pattern": "drain spigot", "label": "PIPE"}
+{"pattern": "draught marks", "label": "INFORMATION"}
+{"pattern": "drill", "label": "CLASS"}
+{"pattern": "drip regulation", "label": "EQUIPMENT"}
+{"pattern": "drip tray", "label": "EQUIPMENT"}
+{"pattern": "electric power", "label": "POWER SOURCE"}
+{"pattern": "electrical company", "label": "COMPANY"}
+{"pattern": "emergency power", "label": "POWER SOURCE"}
+{"pattern": "engine room", "label": "PLACEMENT"}
+{"pattern": "equipment", "label": "CLASS"}
+{"pattern": "exhaust manifold", "label": "PIPE"}
+{"pattern": "exhaust pipe", "label": "PIPE"}
+{"pattern": "external openings", "label": "CONSTRUCTION"}
+{"pattern": "extinguisher spare charge", "label": "EQUIPMENT"}
+{"pattern": "extinguisher spare charge", "label": "FIREPROOFING"}
+{"pattern": "extinguisher spare charge", "label": "SPARE PART"}
+{"pattern": "extinguishing gas", "label": "EXTINGUISHING MEDIUM"}
+{"pattern": "extinguishing medium", "label": "FIREPROOFING"}
+{"pattern": "extinguishing medium", "label": "SUBSTANCE"}
+{"pattern": "faucet", "label": "VALVE"}
+{"pattern": "filling pipe", "label": "PIPE"}
+{"pattern": "fire detection alarm system", "label": "EQUIPMENT"}
+{"pattern": "fire detection alarm system", "label": "FIREPROOFING"}
+{"pattern": "fire extinguisher", "label": "EQUIPMENT"}
+{"pattern": "fire extinguisher", "label": "FIREPROOFING"}
+{"pattern": "fire extinguishing system", "label": "EQUIPMENT"}
+{"pattern": "fire extinguishing system", "label": "FIREPROOFING"}
+{"pattern": "fire insulation", "label": "INSULATION"}
+{"pattern": "fireplace", "label": "EQUIPMENT"}
+{"pattern": "fireproofing", "label": "SAFETY EQUIPMENT"}
+{"pattern": "fishing", "label": "SCOPE"}
+{"pattern": "fishing gear", "label": "EQUIPMENT"}
+{"pattern": "fishing vessel", "label": "SHIP"}
+{"pattern": "fixed bench", "label": "PLACEMENT"}
+{"pattern": "fixed light", "label": "LIGHTS"}
+{"pattern": "fjord fishing", "label": "TRADE AREA"}
+{"pattern": "flexible pipe connection", "label": "PIPE"}
+{"pattern": "float valve", "label": "VALVE"}
+{"pattern": "floor", "label": "DECK"}
+{"pattern": "foreign port", "label": "GEOGRAPHICAL LOCATION"}
+{"pattern": "freeboard", "label": "STABILITY"}
+{"pattern": "freeing port", "label": "CONSTRUCTION"}
+{"pattern": "freeing port", "label": "FREEING PORT AREA"}
+{"pattern": "freeing port area", "label": "FREEING PORT"}
+{"pattern": "freeing port area", "label": "STABILITY"}
+{"pattern": "fresh water tank", "label": "TANK"}
+{"pattern": "front window", "label": "WINDOW"}
+{"pattern": "fuel", "label": "POWER SOURCE"}
+{"pattern": "fuel oil tank", "label": "TANK"}
+{"pattern": "gmdssidentity", "label": "IDENTIFICATION"}
+{"pattern": "galvanized steel", "label": "NON COMBUSTIBLE MATERIAL"}
+{"pattern": "gangways", "label": "DECK"}
+{"pattern": "gangways", "label": "EQUIPMENT"}
+{"pattern": "gas", "label": "POWER SOURCE"}
+{"pattern": "gas", "label": "SUBSTANCE"}
+{"pattern": "gasfired installation", "label": "EQUIPMENT"}
+{"pattern": "gasket", "label": "SPARE PART"}
+{"pattern": "generator", "label": "POWER SOURCE"}
+{"pattern": "geographical location", "label": "CLASS"}
+{"pattern": "greater fjord fishing", "label": "TRADE AREA"}
+{"pattern": "greater in shore", "label": "TRADE AREA"}
+{"pattern": "greenland", "label": "COUNTRY"}
+{"pattern": "hand flare", "label": "DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "hand rail", "label": "RAILING"}
+{"pattern": "hatch", "label": "MEANS OF CLOSURE"}
+{"pattern": "heat detector", "label": "EQUIPMENT"}
+{"pattern": "heat detector", "label": "FIREPROOFING"}
+{"pattern": "helsman", "label": "ROLE"}
+{"pattern": "hull", "label": "CONSTRUCTION"}
+{"pattern": "hull", "label": "PLACEMENT"}
+{"pattern": "iceland", "label": "COUNTRY"}
+{"pattern": "identification", "label": "CLASS"}
+{"pattern": "illumination arrangement", "label": "EQUIPMENT"}
+{"pattern": "immersion suits", "label": "LIFE SAVING APPLIANCES"}
+{"pattern": "in shore", "label": "TRADE AREA"}
+{"pattern": "information", "label": "CLASS"}
+{"pattern": "installation attestation for electrical installations", "label": "INFORMATION"}
+{"pattern": "installation instruction", "label": "INFORMATION"}
+{"pattern": "instruction for use and maintenance", "label": "INFORMATION"}
+{"pattern": "instrument", "label": "EQUIPMENT"}
+{"pattern": "insulation", "label": "CLASS"}
+{"pattern": "klaxon", "label": "SOUND SIGNAL APPARATUSES"}
+{"pattern": "ladder", "label": "CONSTRUCTION"}
+{"pattern": "ladder", "label": "EQUIPMENT"}
+{"pattern": "ladder", "label": "SAFETY MEASURES"}
+{"pattern": "letter concerning inspection of stability calculations", "label": "STABILITY DOCUMENTATION"}
+{"pattern": "life saving appliances", "label": "EQUIPMENT"}
+{"pattern": "lifebuoys", "label": "LIFE SAVING APPLIANCES"}
+{"pattern": "lifejackets", "label": "LIFE SAVING APPLIANCES"}
+{"pattern": "liferaft", "label": "SURVIVAL CRAFT"}
+{"pattern": "lifting equipment", "label": "CARGO HANDLING APPLIANCES"}
+{"pattern": "lights", "label": "EQUIPMENT"}
+{"pattern": "liquified hydrocarbon gases", "label": "FUEL"}
+{"pattern": "list of lights", "label": "INFORMATION"}
+{"pattern": "loaded waterline", "label": "PLACEMENT"}
+{"pattern": "loose bulkhead", "label": "BULKHEAD"}
+{"pattern": "loose bulkhead", "label": "STABILITY"}
+{"pattern": "loose ladder", "label": "LADDER"}
+{"pattern": "loose light", "label": "LIGHTS"}
+{"pattern": "mmsi", "label": "IDENTIFICATION"}
+{"pattern": "machinery", "label": "CLASS"}
+{"pattern": "magnetic compass", "label": "COMPASS"}
+{"pattern": "manhole", "label": "CONSTRUCTION"}
+{"pattern": "manhole cover", "label": "MEANS OF CLOSURE"}
+{"pattern": "manual", "label": "INFORMATION"}
+{"pattern": "master", "label": "ROLE"}
+{"pattern": "material", "label": "CLASS"}
+{"pattern": "means for removing ice", "label": "EQUIPMENT"}
+{"pattern": "means of closure", "label": "EXTERNAL OPENINGS"}
+{"pattern": "means of escape", "label": "PLACEMENT"}
+{"pattern": "monitor", "label": "EQUIPMENT"}
+{"pattern": "muster list", "label": "INFORMATION"}
+{"pattern": "nautrical publication", "label": "INFORMATION"}
+{"pattern": "navigation equipment", "label": "EQUIPMENT"}
+{"pattern": "navigator", "label": "ROLE"}
+{"pattern": "nitrocellulose", "label": "MATERIAL"}
+{"pattern": "non combustible material", "label": "CONSTRUCTION MATERIAL"}
+{"pattern": "norway", "label": "COUNTRY"}
+{"pattern": "norwegian economic zone", "label": "GEOGRAPHICAL LOCATION"}
+{"pattern": "norwegian merchant flag", "label": "SIGNAL FLAG"}
+{"pattern": "notice", "label": "INFORMATION"}
+{"pattern": "notices to mariners", "label": "INFORMATION"}
+{"pattern": "oil", "label": "POWER SOURCE"}
+{"pattern": "oil fuel", "label": "FUEL"}
+{"pattern": "oil gauge glass", "label": "INSTRUMENT"}
+{"pattern": "oil pipe", "label": "PIPE"}
+{"pattern": "oil pressure reduction valve", "label": "VALVE"}
+{"pattern": "overflow system", "label": "EQUIPMENT"}
+{"pattern": "packaging", "label": "EQUIPMENT"}
+{"pattern": "paint", "label": "MATERIAL"}
+{"pattern": "parachute flare", "label": "DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "pipe", "label": "MACHINERY"}
+{"pattern": "placement", "label": "CLASS"}
+{"pattern": "poster", "label": "INFORMATION"}
+{"pattern": "power source", "label": "CLASS"}
+{"pattern": "prismatic binocular", "label": "BINOCULAR"}
+{"pattern": "production deck", "label": "DECK"}
+{"pattern": "prohibition sign", "label": "SIGN"}
+{"pattern": "propane", "label": "FUEL"}
+{"pattern": "pyrotechnical equipment", "label": "EQUIPMENT"}
+{"pattern": "radar", "label": "EQUIPMENT"}
+{"pattern": "radar antenna", "label": "RADAR"}
+{"pattern": "radar apparatus", "label": "RADAR"}
+{"pattern": "radar display", "label": "RADAR"}
+{"pattern": "radar display unit indicator", "label": "RADAR"}
+{"pattern": "radar mast", "label": "EQUIPMENT"}
+{"pattern": "radar reflector", "label": "RADAR"}
+{"pattern": "radar transponder", "label": "RADAR"}
+{"pattern": "radio", "label": "EQUIPMENT"}
+{"pattern": "radio channel", "label": "RADIO"}
+{"pattern": "radio coverage area", "label": "CLASS"}
+{"pattern": "radio equipment", "label": "RADIO"}
+{"pattern": "radio inspection company", "label": "COMPANY"}
+{"pattern": "radio installation", "label": "RADIO"}
+{"pattern": "radio system", "label": "RADIO"}
+{"pattern": "radio watch", "label": "ROLE"}
+{"pattern": "radiotelephony", "label": "RADIO EQUIPMENT"}
+{"pattern": "railing", "label": "CONSTRUCTION"}
+{"pattern": "railing", "label": "SAFETY MEASURES"}
+{"pattern": "reciever", "label": "RADIO EQUIPMENT"}
+{"pattern": "record", "label": "INFORMATION"}
+{"pattern": "record book for cargo handling appliances", "label": "INFORMATION"}
+{"pattern": "recreational craft", "label": "SHIP"}
+{"pattern": "regulation valve", "label": "VALVE"}
+{"pattern": "release equipment", "label": "EQUIPMENT"}
+{"pattern": "release equipment", "label": "FIREPROOFING"}
+{"pattern": "report form for electrical installations", "label": "INFORMATION"}
+{"pattern": "requirement", "label": "CLASS"}
+{"pattern": "retro reflex means", "label": "EQUIPMENT"}
+{"pattern": "rockwool", "label": "NON COMBUSTIBLE MATERIAL"}
+{"pattern": "role", "label": "CLASS"}
+{"pattern": "rotating propulsion and steering propeller system", "label": "STEERING"}
+{"pattern": "rudder", "label": "STEERING"}
+{"pattern": "sart", "label": "EQUIPMENT"}
+{"pattern": "safety equipment", "label": "CLASS"}
+{"pattern": "safety measures", "label": "CLASS"}
+{"pattern": "safety messages", "label": "INFORMATION"}
+{"pattern": "safety precaution", "label": "SAFETY MEASURES"}
+{"pattern": "safety radio certificate", "label": "VESSEL CERTIFICATE"}
+{"pattern": "sailing directions", "label": "INFORMATION"}
+{"pattern": "sanitary discharge", "label": "PIPE"}
+{"pattern": "saucer", "label": "EQUIPMENT"}
+{"pattern": "scandinavia", "label": "SUBREGION"}
+{"pattern": "scope", "label": "CLASS"}
+{"pattern": "scupper", "label": "CONSTRUCTION"}
+{"pattern": "sea area", "label": "GEOGRAPHICAL LOCATION"}
+{"pattern": "searchlight", "label": "LIGHTS"}
+{"pattern": "seawater pipe", "label": "PIPE"}
+{"pattern": "service station", "label": "COMPANY"}
+{"pattern": "set of shapes", "label": "SIGNALING EQUIPMENT"}
+{"pattern": "sheet", "label": "CONSTRUCTION"}
+{"pattern": "ship", "label": "CLASS"}
+{"pattern": "side hatch", "label": "HATCH"}
+{"pattern": "sign", "label": "INFORMATION"}
+{"pattern": "signal flag", "label": "SIGNALING EQUIPMENT"}
+{"pattern": "signal whistle", "label": "LIFE SAVING APPLIANCES"}
+{"pattern": "signaling equipment", "label": "EQUIPMENT"}
+{"pattern": "signalling lamp", "label": "LIGHTS"}
+{"pattern": "signalling lamp", "label": "SIGNALING EQUIPMENT"}
+{"pattern": "smoke alarm", "label": "EQUIPMENT"}
+{"pattern": "smoke alarm", "label": "FIREPROOFING"}
+{"pattern": "smoke detector", "label": "EQUIPMENT"}
+{"pattern": "smoke detector", "label": "FIREPROOFING"}
+{"pattern": "smoke gas", "label": "CLASS"}
+{"pattern": "smoke signal", "label": "DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "sound signal apparatuses", "label": "SIGNALING EQUIPMENT"}
+{"pattern": "spare part", "label": "EQUIPMENT"}
+{"pattern": "speed measuring device", "label": "EQUIPMENT"}
+{"pattern": "stability", "label": "CLASS"}
+{"pattern": "stability documentation", "label": "INFORMATION"}
+{"pattern": "stability poster", "label": "POSTER"}
+{"pattern": "stability poster", "label": "STABILITY DOCUMENTATION"}
+{"pattern": "stairway", "label": "PLACEMENT"}
+{"pattern": "steel", "label": "NON COMBUSTIBLE MATERIAL"}
+{"pattern": "steering", "label": "CLASS"}
+{"pattern": "steering aid", "label": "STEERING"}
+{"pattern": "stern", "label": "PLACEMENT"}
+{"pattern": "storage", "label": "EQUIPMENT"}
+{"pattern": "stove", "label": "EQUIPMENT"}
+{"pattern": "subdivision", "label": "CONSTRUCTION"}
+{"pattern": "subregion", "label": "GEOGRAPHICAL LOCATION"}
+{"pattern": "substance", "label": "CLASS"}
+{"pattern": "superstructure", "label": "CONSTRUCTION"}
+{"pattern": "surface", "label": "PLACEMENT"}
+{"pattern": "survival craft", "label": "LIFE SAVING APPLIANCES"}
+{"pattern": "sweden", "label": "COUNTRY"}
+{"pattern": "switchboard", "label": "EQUIPMENT"}
+{"pattern": "tank", "label": "PLACEMENT"}
+{"pattern": "test faucet", "label": "FAUCET"}
+{"pattern": "thermometer", "label": "EQUIPMENT"}
+{"pattern": "tide tabel", "label": "INFORMATION"}
+{"pattern": "tool", "label": "CLASS"}
+{"pattern": "trade area", "label": "CLASS"}
+{"pattern": "trade in ice", "label": "TRADE AREA"}
+{"pattern": "transportable signalling lamp", "label": "SIGNALLING LAMP"}
+{"pattern": "trunk", "label": "STORAGE"}
+{"pattern": "tunnel", "label": "PLACEMENT"}
+{"pattern": "uptake pipe", "label": "PIPE"}
+{"pattern": "valve", "label": "MACHINERY"}
+{"pattern": "varnish", "label": "MATERIAL"}
+{"pattern": "ventilation", "label": "CLASS"}
+{"pattern": "ventilation opening", "label": "EXTERNAL OPENINGS"}
+{"pattern": "ventilation system", "label": "VENTILATION"}
+{"pattern": "ventilator", "label": "VENTILATION"}
+{"pattern": "vessel certificate", "label": "CERTIFICATE"}
+{"pattern": "warning sign", "label": "SIGN"}
+{"pattern": "water ballast tank", "label": "TANK"}
+{"pattern": "water separator", "label": "MACHINERY"}
+{"pattern": "waterline", "label": "PLACEMENT"}
+{"pattern": "weather deck", "label": "DECK"}
+{"pattern": "weather forcast", "label": "INFORMATION"}
+{"pattern": "wheelhouse", "label": "PLACEMENT"}
+{"pattern": "whistle", "label": "SOUND SIGNAL APPARATUSES"}
+{"pattern": "window", "label": "EXTERNAL OPENINGS"}
+{"pattern": "wood", "label": "COMBUSTIBLE MATERIAL"}
+{"pattern": "working deck", "label": "DECK"}
+{"pattern": "ab", "label": " COMPETANCY"}
+{"pattern": "vsk", "label": " ADVANCED SAFETY COURSE"}
+{"pattern": "vskr", "label": " ADVANCED SAFETY COURSE"}
+{"pattern": "for-2011-12-22-1523-annex", "label": " ANNEX"}
+{"pattern": "bank fishing i", "label": " BANK FISHING"}
+{"pattern": "bank fishing i i", "label": " BANK FISHING"}
+{"pattern": "prismatic binocular", "label": " BINOCULAR"}
+{"pattern": "loose bulkhead", "label": " BULKHEAD"}
+{"pattern": "lifting equipment", "label": " CARGO HANDLING APPLIANCES"}
+{"pattern": "barge", "label": " CARGO VESSEL"}
+{"pattern": "bulk carrier", "label": " CARGO VESSEL"}
+{"pattern": "cargo high- speed craft", "label": " CARGO VESSEL"}
+{"pattern": "other cargo", "label": " CARGO VESSEL"}
+{"pattern": "tanker", "label": " CARGO VESSEL"}
+{"pattern": "endorsement certificate", "label": " CERTIFICATE"}
+{"pattern": "national certificate", "label": " CERTIFICATE"}
+{"pattern": "person certificate", "label": " CERTIFICATE"}
+{"pattern": "vessel certificate", "label": " CERTIFICATE"}
+{"pattern": "wood", "label": " COMBUSTIBLE MATERIAL"}
+{"pattern": "approved company", "label": " COMPANY"}
+{"pattern": "electrical company", "label": " COMPANY"}
+{"pattern": "radio inspection company", "label": " COMPANY"}
+{"pattern": "service station", "label": " COMPANY"}
+{"pattern": "magnetic compass", "label": " COMPASS"}
+{"pattern": "exp", "label": " COMPETANCY"}
+{"pattern": "onboard training", "label": " COMPETANCY"}
+{"pattern": "pp", "label": " COMPETANCY"}
+{"pattern": "deck officer certificate", "label": " COMPETENCE CERTIFICATE"}
+{"pattern": "deck officer certificate limited trade area", "label": " COMPETENCE CERTIFICATE"}
+{"pattern": "electrical officer certificate", "label": " COMPETENCE CERTIFICATE"}
+{"pattern": "engine officer certificate", "label": " COMPETENCE CERTIFICATE"}
+{"pattern": "beam", "label": " CONSTRUCTION"}
+{"pattern": "bilge", "label": " CONSTRUCTION"}
+{"pattern": "bilge flap", "label": " CONSTRUCTION"}
+{"pattern": "bow", "label": " CONSTRUCTION"}
+{"pattern": "bulkhead", "label": " CONSTRUCTION"}
+{"pattern": "bulwark", "label": " CONSTRUCTION"}
+{"pattern": "casing", "label": " CONSTRUCTION"}
+{"pattern": "chimney", "label": " CONSTRUCTION"}
+{"pattern": "deck", "label": " CONSTRUCTION"}
+{"pattern": "external openings", "label": " CONSTRUCTION"}
+{"pattern": "freeing port", "label": " CONSTRUCTION"}
+{"pattern": "hull", "label": " CONSTRUCTION"}
+{"pattern": "ladder", "label": " CONSTRUCTION"}
+{"pattern": "manhole", "label": " CONSTRUCTION"}
+{"pattern": "railing", "label": " CONSTRUCTION"}
+{"pattern": "scupper", "label": " CONSTRUCTION"}
+{"pattern": "sheet", "label": " CONSTRUCTION"}
+{"pattern": "subdivision", "label": " CONSTRUCTION"}
+{"pattern": "superstructure", "label": " CONSTRUCTION"}
+{"pattern": "combustible material", "label": " CONSTRUCTION MATERIAL"}
+{"pattern": "non combustible material", "label": " CONSTRUCTION MATERIAL"}
+{"pattern": "denmark", "label": " COUNTRY"}
+{"pattern": "greenland", "label": " COUNTRY"}
+{"pattern": "iceland", "label": " COUNTRY"}
+{"pattern": "norway", "label": " COUNTRY"}
+{"pattern": "sweden", "label": " COUNTRY"}
+{"pattern": "crowd and crisis", "label": " COURSE"}
+{"pattern": "electrical course", "label": " COURSE"}
+{"pattern": "engine course", "label": " COURSE"}
+{"pattern": "fast rescue boat course", "label": " COURSE"}
+{"pattern": "high speed craft course", "label": " COURSE"}
+{"pattern": "igf course", "label": " COURSE"}
+{"pattern": "instructor course", "label": " COURSE"}
+{"pattern": "leisure skipper course", "label": " COURSE"}
+{"pattern": "limited safety course", "label": " COURSE"}
+{"pattern": "medical course", "label": " COURSE"}
+{"pattern": "navigator course", "label": " COURSE"}
+{"pattern": "polar course", "label": " COURSE"}
+{"pattern": "rescue boat course", "label": " COURSE"}
+{"pattern": "safety course", "label": " COURSE"}
+{"pattern": "ship security course", "label": " COURSE"}
+{"pattern": "tankerman course", "label": " COURSE"}
+{"pattern": "floor", "label": " DECK"}
+{"pattern": "gangways", "label": " DECK"}
+{"pattern": "production deck", "label": " DECK"}
+{"pattern": "weather deck", "label": " DECK"}
+{"pattern": "working deck", "label": " DECK"}
+{"pattern": "able seafarer apprentice deck", "label": " DECK CREW POSITION"}
+{"pattern": "able seafarer deck", "label": " DECK CREW POSITION"}
+{"pattern": "cadet deck", "label": " DECK CREW POSITION"}
+{"pattern": "fisherman", "label": " DECK CREW POSITION"}
+{"pattern": "ordinary seafarer", "label": " DECK CREW POSITION"}
+{"pattern": "chief officer", "label": " DECK OFFICER POSITION"}
+{"pattern": "master", "label": " DECK OFFICER POSITION"}
+{"pattern": "mate", "label": " DECK OFFICER POSITION"}
+{"pattern": "pilot", "label": " DECK OFFICER POSITION"}
+{"pattern": "audible and visual alarm", "label": " DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "distress signal", "label": " DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "hand flare", "label": " DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "parachute flare", "label": " DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "smoke signal", "label": " DISTRESS SIGNAL EQUIPMENT"}
+{"pattern": "deck education", "label": " EDUCATION"}
+{"pattern": "electrical education", "label": " EDUCATION"}
+{"pattern": "engine education", "label": " EDUCATION"}
+{"pattern": "electro technical rating", "label": " ELECTRICAL CREW POSITION"}
+{"pattern": "ship electrician apprentice", "label": " ELECTRICAL CREW POSITION"}
+{"pattern": "able seafarer apprentice engine", "label": " ENGINE CREW POSITION"}
+{"pattern": "able seafarer engine", "label": " ENGINE CREW POSITION"}
+{"pattern": "cadet engine", "label": " ENGINE CREW POSITION"}
+{"pattern": "oiler ship", "label": " ENGINE CREW POSITION"}
+{"pattern": "chief engineer", "label": " ENGINE OFFICER POSITION"}
+{"pattern": "engineer", "label": " ENGINE OFFICER POSITION"}
+{"pattern": "second engineer", "label": " ENGINE OFFICER POSITION"}
+{"pattern": "antenna", "label": " EQUIPMENT"}
+{"pattern": "breathing protection", "label": " EQUIPMENT"}
+{"pattern": "bridge navigational watch alarm system", "label": " EQUIPMENT"}
+{"pattern": "cargo handling appliances", "label": " EQUIPMENT"}
+{"pattern": "clock", "label": " EQUIPMENT"}
+{"pattern": "depth measuring equipment", "label": " EQUIPMENT"}
+{"pattern": "distance measuring device", "label": " EQUIPMENT"}
+{"pattern": "drip regulation", "label": " EQUIPMENT"}
+{"pattern": "drip tray", "label": " EQUIPMENT"}
+{"pattern": "extinguisher spare charge", "label": " EQUIPMENT"}
+{"pattern": "fire detection alarm system", "label": " EQUIPMENT"}
+{"pattern": "fire extinguisher", "label": " EQUIPMENT"}
+{"pattern": "fire extinguishing system", "label": " EQUIPMENT"}
+{"pattern": "fireplace", "label": " EQUIPMENT"}
+{"pattern": "fishing gear", "label": " EQUIPMENT"}
+{"pattern": "gangways", "label": " EQUIPMENT"}
+{"pattern": "gasfired installation", "label": " EQUIPMENT"}
+{"pattern": "heat detector", "label": " EQUIPMENT"}
+{"pattern": "illumination arrangement", "label": " EQUIPMENT"}
+{"pattern": "instrument", "label": " EQUIPMENT"}
+{"pattern": "ladder", "label": " EQUIPMENT"}
+{"pattern": "life saving appliances", "label": " EQUIPMENT"}
+{"pattern": "lights", "label": " EQUIPMENT"}
+{"pattern": "means for removing ice", "label": " EQUIPMENT"}
+{"pattern": "monitor", "label": " EQUIPMENT"}
+{"pattern": "navigation equipment", "label": " EQUIPMENT"}
+{"pattern": "overflow system", "label": " EQUIPMENT"}
+{"pattern": "packaging", "label": " EQUIPMENT"}
+{"pattern": "pyrotechnical equipment", "label": " EQUIPMENT"}
+{"pattern": "radar", "label": " EQUIPMENT"}
+{"pattern": "radar mast", "label": " EQUIPMENT"}
+{"pattern": "radio", "label": " EQUIPMENT"}
+{"pattern": "release equipment", "label": " EQUIPMENT"}
+{"pattern": "retro reflex means", "label": " EQUIPMENT"}
+{"pattern": "sart", "label": " EQUIPMENT"}
+{"pattern": "saucer", "label": " EQUIPMENT"}
+{"pattern": "signaling equipment", "label": " EQUIPMENT"}
+{"pattern": "smoke alarm", "label": " EQUIPMENT"}
+{"pattern": "smoke detector", "label": " EQUIPMENT"}
+{"pattern": "spare part", "label": " EQUIPMENT"}
+{"pattern": "speed measuring device", "label": " EQUIPMENT"}
+{"pattern": "storage", "label": " EQUIPMENT"}
+{"pattern": "stove", "label": " EQUIPMENT"}
+{"pattern": "switchboard", "label": " EQUIPMENT"}
+{"pattern": "thermometer", "label": " EQUIPMENT"}
+{"pattern": "airing pipe", "label": " EXTERNAL OPENINGS"}
+{"pattern": "means of closure", "label": " EXTERNAL OPENINGS"}
+{"pattern": "ventilation opening", "label": " EXTERNAL OPENINGS"}
+{"pattern": "window", "label": " EXTERNAL OPENINGS"}
+{"pattern": "extinguishing gas", "label": " EXTINGUISHING MEDIUM"}
+{"pattern": "test faucet", "label": " FAUCET"}
+{"pattern": "extinguisher spare charge", "label": " FIREPROOFING"}
+{"pattern": "extinguishing medium", "label": " FIREPROOFING"}
+{"pattern": "fire detection alarm system", "label": " FIREPROOFING"}
+{"pattern": "fire extinguisher", "label": " FIREPROOFING"}
+{"pattern": "fire extinguishing system", "label": " FIREPROOFING"}
+{"pattern": "heat detector", "label": " FIREPROOFING"}
+{"pattern": "release equipment", "label": " FIREPROOFING"}
+{"pattern": "smoke alarm", "label": " FIREPROOFING"}
+{"pattern": "smoke detector", "label": " FIREPROOFING"}
+{"pattern": "freeing port area", "label": " FREEING PORT"}
+{"pattern": "freeing port", "label": " FREEING PORT AREA"}
+{"pattern": "caffine", "label": " FUEL"}
+{"pattern": "liquified hydrocarbon gases", "label": " FUEL"}
+{"pattern": "oil fuel", "label": " FUEL"}
+{"pattern": "propane", "label": " FUEL"}
+{"pattern": "country", "label": " GEOGRAPHICAL LOCATION"}
+{"pattern": "foreign port", "label": " GEOGRAPHICAL LOCATION"}
+{"pattern": "norwegian economic zone", "label": " GEOGRAPHICAL LOCATION"}
+{"pattern": "sea area", "label": " GEOGRAPHICAL LOCATION"}
+{"pattern": "subregion", "label": " GEOGRAPHICAL LOCATION"}
+{"pattern": "side hatch", "label": " HATCH"}
+{"pattern": "call sign", "label": " IDENTIFICATION"}
+{"pattern": "gmdss identity", "label": " IDENTIFICATION"}
+{"pattern": "mmsi", "label": " IDENTIFICATION"}
+{"pattern": "certificate of installation for gasfired installations", "label": " INFORMATION"}
+{"pattern": "chart", "label": " INFORMATION"}
+{"pattern": "confirmation of construction", "label": " INFORMATION"}
+{"pattern": "declaration of conformity from manufacturer of liferaft", "label": " INFORMATION"}
+{"pattern": "declaration of surveys", "label": " INFORMATION"}
+{"pattern": "description of fire extinguishing system", "label": " INFORMATION"}
+{"pattern": "documentation of pressure testing tightness testing", "label": " INFORMATION"}
+{"pattern": "draught marks", "label": " INFORMATION"}
+{"pattern": "installation attestation for electrical installations", "label": " INFORMATION"}
+{"pattern": "installation instruction", "label": " INFORMATION"}
+{"pattern": "instruction for use and maintenance", "label": " INFORMATION"}
+{"pattern": "list of lights", "label": " INFORMATION"}
+{"pattern": "manual", "label": " INFORMATION"}
+{"pattern": "muster list", "label": " INFORMATION"}
+{"pattern": "nautrical publication", "label": " INFORMATION"}
+{"pattern": "notice", "label": " INFORMATION"}
+{"pattern": "notices to mariners", "label": " INFORMATION"}
+{"pattern": "poster", "label": " INFORMATION"}
+{"pattern": "record", "label": " INFORMATION"}
+{"pattern": "record book for cargo handling appliances", "label": " INFORMATION"}
+{"pattern": "report form for electrical installations", "label": " INFORMATION"}
+{"pattern": "safety messages", "label": " INFORMATION"}
+{"pattern": "sailing directions", "label": " INFORMATION"}
+{"pattern": "sign", "label": " INFORMATION"}
+{"pattern": "stability documentation", "label": " INFORMATION"}
+{"pattern": "tide tabel", "label": " INFORMATION"}
+{"pattern": "weather forcast", "label": " INFORMATION"}
+{"pattern": "compass", "label": " INSTRUMENT"}
+{"pattern": "oil gauge glass", "label": " INSTRUMENT"}
+{"pattern": "fire insulation", "label": " INSULATION"}
+{"pattern": "loose ladder", "label": " LADDER"}
+{"pattern": "annex", "label": " LEGAL DOCUMENT"}
+{"pattern": "regulation", "label": " LEGAL DOCUMENT"}
+{"pattern": "immersion suits", "label": " LIFE SAVING APPLIANCES"}
+{"pattern": "lifebuoys", "label": " LIFE SAVING APPLIANCES"}
+{"pattern": "lifejackets", "label": " LIFE SAVING APPLIANCES"}
+{"pattern": "signal whistle", "label": " LIFE SAVING APPLIANCES"}
+{"pattern": "survival craft", "label": " LIFE SAVING APPLIANCES"}
+{"pattern": "fixed light", "label": " LIGHTS"}
+{"pattern": "loose light", "label": " LIGHTS"}
+{"pattern": "searchlight", "label": " LIGHTS"}
+{"pattern": "signalling lamp", "label": " LIGHTS"}
+{"pattern": "pipe", "label": " MACHINERY"}
+{"pattern": "valve", "label": " MACHINERY"}
+{"pattern": "water separator", "label": " MACHINERY"}
+{"pattern": "construction material", "label": " MATERIAL"}
+{"pattern": "nitrocellulose", "label": " MATERIAL"}
+{"pattern": "paint", "label": " MATERIAL"}
+{"pattern": "varnish", "label": " MATERIAL"}
+{"pattern": "door", "label": " MEANS OF CLOSURE"}
+{"pattern": "hatch", "label": " MEANS OF CLOSURE"}
+{"pattern": "manhole cover", "label": " MEANS OF CLOSURE"}
+{"pattern": "binocular", "label": " NAVIGATION EQUIPMENT"}
+{"pattern": "clock", "label": " NAVIGATION EQUIPMENT"}
+{"pattern": "compass", "label": " NAVIGATION EQUIPMENT"}
+{"pattern": "professional competence officer course", "label": " NAVIGATOR COURSE"}
+{"pattern": "aluminium", "label": " NON COMBUSTIBLE MATERIAL"}
+{"pattern": "copper", "label": " NON COMBUSTIBLE MATERIAL"}
+{"pattern": "galvanized steel", "label": " NON COMBUSTIBLE MATERIAL"}
+{"pattern": "rockwool", "label": " NON COMBUSTIBLE MATERIAL"}
+{"pattern": "steel", "label": " NON COMBUSTIBLE MATERIAL"}
+{"pattern": "high-speed passenger craft", "label": " PASSENGER SHIP"}
+{"pattern": "other passenger ship", "label": " PASSENGER SHIP"}
+{"pattern": "ro-ro passenger ferry", "label": " PASSENGER SHIP"}
+{"pattern": "competence certificate", "label": " PERSON CERTIFICATE"}
+{"pattern": "evidence of formal qualifications", "label": " PERSON CERTIFICATE"}
+{"pattern": "medical certificate", "label": " PERSON CERTIFICATE"}
+{"pattern": "pleasure craft certificate", "label": " PERSON CERTIFICATE"}
+{"pattern": "proficiency certificate", "label": " PERSON CERTIFICATE"}
+{"pattern": "radio operator certificate", "label": " PERSON CERTIFICATE"}
+{"pattern": "airing pipe", "label": " PIPE"}
+{"pattern": "bilge pipe", "label": " PIPE"}
+{"pattern": "drain pipe", "label": " PIPE"}
+{"pattern": "drain spigot", "label": " PIPE"}
+{"pattern": "exhaust manifold", "label": " PIPE"}
+{"pattern": "exhaust pipe", "label": " PIPE"}
+{"pattern": "filling pipe", "label": " PIPE"}
+{"pattern": "flexible pipe connection", "label": " PIPE"}
+{"pattern": "oil pipe", "label": " PIPE"}
+{"pattern": "sanitary discharge", "label": " PIPE"}
+{"pattern": "seawater pipe", "label": " PIPE"}
+{"pattern": "uptake pipe", "label": " PIPE"}
+{"pattern": "accomodation area", "label": " PLACEMENT"}
+{"pattern": "alleyway", "label": " PLACEMENT"}
+{"pattern": "battery room", "label": " PLACEMENT"}
+{"pattern": "bow", "label": " PLACEMENT"}
+{"pattern": "cargo spaces", "label": " PLACEMENT"}
+{"pattern": "centre line", "label": " PLACEMENT"}
+{"pattern": "corridor", "label": " PLACEMENT"}
+{"pattern": "deck", "label": " PLACEMENT"}
+{"pattern": "deckhouse", "label": " PLACEMENT"}
+{"pattern": "engine room", "label": " PLACEMENT"}
+{"pattern": "fixed bench", "label": " PLACEMENT"}
+{"pattern": "hull", "label": " PLACEMENT"}
+{"pattern": "loaded waterline", "label": " PLACEMENT"}
+{"pattern": "means of escape", "label": " PLACEMENT"}
+{"pattern": "stairway", "label": " PLACEMENT"}
+{"pattern": "stern", "label": " PLACEMENT"}
+{"pattern": "surface", "label": " PLACEMENT"}
+{"pattern": "tank", "label": " PLACEMENT"}
+{"pattern": "tunnel", "label": " PLACEMENT"}
+{"pattern": "waterline", "label": " PLACEMENT"}
+{"pattern": "wheelhouse", "label": " PLACEMENT"}
+{"pattern": "deck crew position", "label": " POSITION"}
+{"pattern": "deck officer position", "label": " POSITION"}
+{"pattern": "electrical crew position", "label": " POSITION"}
+{"pattern": "electro technical officer", "label": " POSITION"}
+{"pattern": "engine crew position", "label": " POSITION"}
+{"pattern": "engine officer position", "label": " POSITION"}
+{"pattern": "radiooperator ship", "label": " POSITION"}
+{"pattern": "adhersive note", "label": " POSTER"}
+{"pattern": "stability poster", "label": " POSTER"}
+{"pattern": "accumulator battery", "label": " POWER SOURCE"}
+{"pattern": "electric power", "label": " POWER SOURCE"}
+{"pattern": "emergency power", "label": " POWER SOURCE"}
+{"pattern": "fuel", "label": " POWER SOURCE"}
+{"pattern": "gas", "label": " POWER SOURCE"}
+{"pattern": "generator", "label": " POWER SOURCE"}
+{"pattern": "oil", "label": " POWER SOURCE"}
+{"pattern": "radar antenna", "label": " RADAR"}
+{"pattern": "radar apparatus", "label": " RADAR"}
+{"pattern": "radar display", "label": " RADAR"}
+{"pattern": "radar display unit indicator", "label": " RADAR"}
+{"pattern": "radar reflector", "label": " RADAR"}
+{"pattern": "radar transponder", "label": " RADAR"}
+{"pattern": "radio channel", "label": " RADIO"}
+{"pattern": "radio equipment", "label": " RADIO"}
+{"pattern": "radio installation", "label": " RADIO"}
+{"pattern": "radio system", "label": " RADIO"}
+{"pattern": "radiotelephony", "label": " RADIO EQUIPMENT"}
+{"pattern": "reciever", "label": " RADIO EQUIPMENT"}
+{"pattern": "gmdss radio certificate", "label": " RADIO OPERATOR CERTIFICATE"}
+{"pattern": "short range radio certificate", "label": " RADIO OPERATOR CERTIFICATE"}
+{"pattern": "hand rail", "label": " RAILING"}
+{"pattern": "for-2011-12-22-1523", "label": " REGULATION"}
+{"pattern": "seagoing service requirement", "label": " REQUIREMENT"}
+{"pattern": "vessel requirement", "label": " REQUIREMENT"}
+{"pattern": "helsman", "label": " ROLE"}
+{"pattern": "master", "label": " ROLE"}
+{"pattern": "navigator", "label": " ROLE"}
+{"pattern": "radio watch", "label": " ROLE"}
+{"pattern": "advanced safety course", "label": " SAFETY COURSE"}
+{"pattern": "basic safety course", "label": " SAFETY COURSE"}
+{"pattern": "fireproofing", "label": " SAFETY EQUIPMENT"}
+{"pattern": "anti skid surface", "label": " SAFETY MEASURES"}
+{"pattern": "barriers", "label": " SAFETY MEASURES"}
+{"pattern": "ladder", "label": " SAFETY MEASURES"}
+{"pattern": "railing", "label": " SAFETY MEASURES"}
+{"pattern": "safety precaution", "label": " SAFETY MEASURES"}
+{"pattern": "fishing", "label": " SCOPE"}
+{"pattern": "cargo vessel", "label": " SHIP"}
+{"pattern": "fishing vessel", "label": " SHIP"}
+{"pattern": "leisure boat", "label": " SHIP"}
+{"pattern": "off shore unit", "label": " SHIP"}
+{"pattern": "passenger ship", "label": " SHIP"}
+{"pattern": "auxiliary vessel", "label": " SHIP"}
+{"pattern": "recreational craft", "label": " SHIP"}
+{"pattern": "prohibition sign", "label": " SIGN"}
+{"pattern": "warning sign", "label": " SIGN"}
+{"pattern": "norwegian merchant flag", "label": " SIGNAL FLAG"}
+{"pattern": "distress signal equipment", "label": " SIGNALING EQUIPMENT"}
+{"pattern": "set of shapes", "label": " SIGNALING EQUIPMENT"}
+{"pattern": "signal flag", "label": " SIGNALING EQUIPMENT"}
+{"pattern": "signalling lamp", "label": " SIGNALING EQUIPMENT"}
+{"pattern": "sound signal apparatuses", "label": " SIGNALING EQUIPMENT"}
+{"pattern": "transportable signalling lamp", "label": " SIGNALLING LAMP"}
+{"pattern": "klaxon", "label": " SOUND SIGNAL APPARATUSES"}
+{"pattern": "whistle", "label": " SOUND SIGNAL APPARATUSES"}
+{"pattern": "extinguisher spare charge", "label": " SPARE PART"}
+{"pattern": "gasket", "label": " SPARE PART"}
+{"pattern": "freeboard", "label": " STABILITY"}
+{"pattern": "freeing port area", "label": " STABILITY"}
+{"pattern": "loose bulkhead", "label": " STABILITY"}
+{"pattern": "letter concerning inspection of stability calculations", "label": " STABILITY DOCUMENTATION"}
+{"pattern": "stability poster", "label": " STABILITY DOCUMENTATION"}
+{"pattern": "adjustment and steering devices", "label": " STEERING"}
+{"pattern": "automatic pilot system", "label": " STEERING"}
+{"pattern": "rotating propulsion and steering propeller system", "label": " STEERING"}
+{"pattern": "rudder", "label": " STEERING"}
+{"pattern": "steering aid", "label": " STEERING"}
+{"pattern": "trunk", "label": " STORAGE"}
+{"pattern": "scandinavia", "label": " SUBREGION"}
+{"pattern": "extinguishing medium", "label": " SUBSTANCE"}
+{"pattern": "gas", "label": " SUBSTANCE"}
+{"pattern": "liferaft", "label": " SURVIVAL CRAFT"}
+{"pattern": "collection tank", "label": " TANK"}
+{"pattern": "fresh water tank", "label": " TANK"}
+{"pattern": "fuel oil tank", "label": " TANK"}
+{"pattern": "water ballast tank", "label": " TANK"}
+{"pattern": "chemical tanker", "label": " TANKER"}
+{"pattern": "gas tanker", "label": " TANKER"}
+{"pattern": "oil chemical tanker", "label": " TANKER"}
+{"pattern": "oil tanker", "label": " TANKER"}
+{"pattern": "construction", "label": " THING"}
+{"pattern": "fishing trade area", "label": " TRADE AREA"}
+{"pattern": "gmdss sea area", "label": " TRADE AREA"}
+{"pattern": "general trade area", "label": " TRADE AREA"}
+{"pattern": "bank fishing", "label": " TRADE AREA"}
+{"pattern": "fjord fishing", "label": " TRADE AREA"}
+{"pattern": "greater fjord fishing", "label": " TRADE AREA"}
+{"pattern": "greater in shore", "label": " TRADE AREA"}
+{"pattern": "in shore", "label": " TRADE AREA"}
+{"pattern": "trade in ice", "label": " TRADE AREA"}
+{"pattern": "closing valve", "label": " VALVE"}
+{"pattern": "faucet", "label": " VALVE"}
+{"pattern": "float valve", "label": " VALVE"}
+{"pattern": "oil pressure reduction valve", "label": " VALVE"}
+{"pattern": "regulation valve", "label": " VALVE"}
+{"pattern": "ventilation system", "label": " VENTILATION"}
+{"pattern": "ventilator", "label": " VENTILATION"}
+{"pattern": "polar certificate", "label": " VESSEL CERTIFICATE"}
+{"pattern": "safety radio certificate", "label": " VESSEL CERTIFICATE"}
+{"pattern": "front window", "label": " WINDOW"}

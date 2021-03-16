@@ -1,0 +1,724 @@
+Regulations of 20 December 1991 No. 878 on stability, watertight 
+subdivision and watertight/weathertight means of closure on mobile 
+offshore units 
+Legal basis: Laid down by the Norwegian Maritime Authority on 20 December 1991 under the Act of 9 June 1903 No. 7 relating to public control of 
+the seaworthiness of ships etc. Legal basis amended to Act of 16 February 2007 No 9 relating to ship safety and security (Ship Safety and Security Act) 
+sections 9, 11, 12, 13, 21 and 45, cf. Formal Delegation of 16 February 2007 No. 171 and Formal Delegation of 31 May 2007 No. 590.  
+EEA references: Directive 83/189/EEC. EEA Agreement Annex II Chapter XIX point 1 (Directive 98/34/EC).  
+Amendments: Amended by Regulations of 2 March 1999 No. 406, 11 April 2003 No. 543, 29 June 2007 No. 1006, 14 March 2008 No. 305, 18 January 
+2011 No. 56, 5 July 2016 No. 897, 19 December 2017 No. 2322. 
+Chapter I 
+Introductory provisions 
+Section 1 
+Scope of application 
+These Regulations apply to mobile offshore units which are or will be registered in a Norwegian ship register. 
+Mobile offshore units which are registered in a Norwegian ship register may, until the next certificate issue, comply with 
+the requirements that applied at the time of the last certificate issue. 
+Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 2 
+Definitions 
+For the purpose of these Regulations the following definitions shall apply: 
+1.  Recognized standard: Standard issued by NS/BS/API/DIN/NFPA/ISO/CEN/IEC or any other standard or body 
+of rules, as appropriate, which is recognized nationally and/or internationally for a particular sphere of application. 
+The Norwegian Maritime Authority may in each individual case decide which standard is considered to be 
+recognized. 
+2.  Ballasting and deballasting curve: A curve which, with a given reference point, shows how a unit’s vertical 
+centre of gravity varies as a function of draught, alternatively displacement, when ballast tanks are filled or emptied 
+in the order complying with the unit’s ballasting procedures. 
+3.  Transit condition: The condition in which the unit changes its position either by towing or by its own means 
+of propulsion, and which is within the operational limitations and preconditions set for the condition. 
+4.  Recognized classification society: Any classification society with which the Ministry has entered into an 
+agreement pursuant to section 41 of the Ship Safety and Security Act: 
+1.  American Bureau of Shipping (ABS) 
+2.  Bureau Veritas (BV) 
+3.  DNV GL 
+4.  Lloyd’s Register of Shipping (LR) 
+5.  Nippon Kaiji Kyoaki (Class NK) 
+6.  Rina Services S.p.A (RINA) 
+5.  Unit: Mobile platform, including drilling ship, equipped for drilling for subsea petroleum deposits, and mobile 
+platform for other use than drilling for subsea petroleum deposits. 
+6.  KG limit curve: A curve showing the maximum allowable vertical centre of gravity (max. KG) as a function 
+of draught, alternatively displacement, for the stability requirements to be complied with. 
+7.  Control station: Spaces in which equipment for monitoring, remote control and operation of the unit is located. 
+These include: 
+7.1.  spaces in which radio, main navigating equipment, emergency source of power and operations centres 
+for inter-communication, alarm and public address systems are located; 
+7.2.  spaces in which equipment for remote control and operation of anchoring systems, ballast systems, 
+fire-doors, diving systems, dynamic positioning systems, fixed fire-extinguishing systems, emergency sources 
+of power and watertight doors are located. 
+8.  MODU Code: IMO’s (International Maritime Organization) Code for the Construction and Equipment of 
+Mobile Offshore Drilling Units, 1989. 
+9.  MOU classification society: A recognized classification society with which there is an additional agreement on 
+its carrying out inspections and surveys, etc. on mobile offshore units. The following societies are MOU 
+classification societies: 
+1.  American Bureau of Shipping (ABS) 
+2.  DNV GL    3.  Lloyd’s Register of Shipping (LR). 
+10.  Operating condition: The condition in which the unit carries out its normal functions, e.g. drilling, and which is 
+within the operational limitations and preconditions set for the condition. 
+11.  Company: Cf. the definition given in section 4 of the Ship Safety and Security Act. 
+12.  Survival condition: The condition in which the operational limitations (maximum allowable wind velocity) for 
+the relevant operating or transit condition have been exceeded, and/or in which the measures necessary for the 
+condition have been taken. 
+13.  Safety Management System: All systematic efforts which the company is required to make to ensure that 
+activities are planned, organized, performed and maintained in accordance with requirements laid down in or 
+pursuant to Act of 16 February 2007 No. 9 relating to ship safety and security. 
+14.  Temporary condition: The condition in which a semi-submersible unit changes its draught from one mode of 
+operation to another, e.g. from transit condition to operating condition. 
+15.  Watertight means of closure: Means of closure capable of withstanding a specified water pressure (normally 
+from either side) to secure the watertight subdivision of the unit. 
+16.  Weathertight means of closure: Means of closure which, under all relevant sea conditions, prevents water from 
+entering the unit. 
+Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003), 29 June 2007 No. 1006 
+(in force on 1 July 2007), 29 June 2007 No. 1006 (in force on 1 July 2007), 14 March 2008 No. 305 (in force on 24 March 2008), 18 January 2011 No. 
+56, 5 July 2016 No. 897. 
+Chapter II 
+General provisions 
+Section 3 
+Obligations 
+The company, the offshore installation manager and others who have their work on board shall perform their duties in 
+accordance with the Ship Safety and Security Act and the supplementary provisions laid down in these Regulations. 
+Amended by Regulations of 2 March 1999 No. 406 (in force 1 Sept 1999), 11 April 2003 No. 543 (in force 1 July 2003), 29 June 2007 No. 1006 (in 
+force on 1 July 2007). 
+Section 4 
+Deviations 
+The Norwegian Maritime Authority may, in individual cases and upon written application, deviate from the 
+requirements of these regulations. There must be special reasons that make the deviations necessary and they must be 
+justifiable in terms of safety. If the requirements of the coastal state and the requirements of these regulations are 
+irreconcilable, the Norwegian Maritime Authority may deviate from the requirements insofar as safety considerations 
+allow. Deviations must not contravene international agreements to which Norway has acceded. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 4 A 
+Mutual recognition 
+Where the regulations require that particular fittings, materials, equipment or devices or type of equipment etc. be 
+procured or found on a vessel, or that some specific measure be taken or the construction or design safety specific 
+requirements, the Norwegian Maritime Authority shall permit that other appurtenances, materials, devices or types of such 
+are installed or found on the vessel or that other measures are taken on board or that the vessel is built or designed in another 
+way. 
+The Norwegian Maritime Authority shall accept this provided that it is documented by testing or other means that the 
+appurtenances, materials, equipment or devices or types of such, or the arrangement, construction or design is at least as 
+effective as specified by the requirements of the regulations. 
+The Norwegian Maritime Authority shall accept the results of tests performed by recognized testing institutions, 
+including testing institutions in other EEA countries. Such acceptance will be given on condition that the tests give an 
+appropriate and satisfactory guarantee of a technical, professional, and independent nature. 
+Added by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). Chapter III 
+Documentation 
+Section 5 
+Documentation 
+The company shall be able to document compliance with the requirements of these regulations. Documentation shall 
+be sent to the Norwegian Maritime Authority on demand. The contents, extent, and type of documentation and the time 
+of its forwarding shall be determined by the Norwegian Maritime Authority. 
+Added by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). Amended by Regulation of 29 June 2007 No. 1006 (in force on 1 July 
+2007). 
+Section 6 
+Repealed by Regulation of 2 March 1999 No. 406, in force on 1 Sept 1999. 
+Section 7 
+Requirements for load line certificate 
+The unit shall carry a valid international load line certificate (1966), cf. section 29. 
+Chapter IV 
+Inclining test and light ship data 
+Section 8 
+Inclining test and light ship data 
+1.  When as near to completion as possible, every unit shall undergo an inclining test to determine its light ship 
+data (weight and position of centre of gravity). 
+2.  A record shall be kept of all changes in the weight and location of the equipment included in the light ship 
+weight. Updated light ship data shall always be used when calculating daily loading conditions. 
+3.  After conversions, a new inclining test shall be carried out. For minor alterations where the weights involved 
+are clearly identified and detailed calculations of weight after completion of alterations show consistency with a 
+displacement measurement, cf. subparagraph 4, the requirement for an inclining test may be waived upon application 
+pursuant to section 4. 
+4.  A displacement measurement shall be made at every 5-yearly periodic survey of the unit to discover any change 
+in the light ship weight. If there is a difference between the light ship weight and the updated light ship data kept on 
+board, or if other circumstances may indicate and error in the light ship centre of gravity used, the Norwegian 
+Maritime Authority may require a new inclining test to be conducted. 
+Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). 
+Chapter V 
+Modes of operation, corresponding stability requirements, KG limit 
+curves 
+Section 9 
+Modes of operation, KG limit curves and operational limitations 
+1.  Operation of the unit is divided into four modes of operation: 
+–  operating condition, cf. section 10, 
+–  transit condition, cf. section 11, 
+–  survival condition, cf. section 12 
+–  temporary condition (ballasting/deballasting), cf. section 13. 
+2.  For each mode of operation a KG limit curve shall be drawn. All KG limit curves shall be presented in one 
+diagram together with any ballasting/deballasting curves and continuous damage stability KG limit curve, cf. 
+sections 13 and 14. 
+3.  Relevant operational limitations alongside with regard to maximum wind velocity, prohibition against vessels 
+alongside the unit, tanks which shall be full etc. shall be indicated in connection with the KG limit curve for each 
+individual mode of operation. The maximum wind velocity permitted for a mode of operation may not exceed the wind velocity used for the calculation of the maximum KG for intact stability. Wind velocities shall refer to a height of 10 m 
+above the water level and shall be an average of measurements over a period of 10 minutes. 
+4.  If it is desirable to raise the level of operational limitation as regards the maximum wind velocity permitted for 
+a condition, this may be achieved by using higher wind velocities for the calculation of maximum KG than what is 
+indicated as the minimum. The ratio between the wind velocity employed for intact and damage stability shall still 
+be 1.4. 
+Section 10 
+Operating condition, stability requirements, curve I-op 
+1.  In the operating condition the unit shall comply with the intact stability requirements laid down in section 20 
+with a wind velocity of at least 36 metres per second (m/s) (70 knots) and the damage stability requirements laid 
+down in section 21 with a wind velocity of at least 25.8 m/s (50 knots) following assumed damage in accordance 
+with section 23. In addition semi-submersible units shall satisfy the reserve buoyancy requirements laid down in 
+section 22. 
+2.  Maximum KG to comply with the above stability requirements shall be drawn up for all relevant operating draughts 
+and will subsequently be referred to as curve I-op. Relevant operational limitations for the condition shall be indicated 
+in connection with the KG limit curve. 
+3.  The unit shall be capable of attaining the survival condition from any operating condition by deballasting only, or, 
+if necessary by dumping liquid drilling mud, cf. section 12. If the max KG relating to the survival condition or 
+temporary conditions impose limitations with regard to the capability of the unit in attaining the survival condition 
+from the operating condition, these limitations will determine the max. KG for the operating condition, cf. section 13. 
+4.  The above requirements do not apply to submersible and self-elevating units.1 
+5.  Special conditions for operation. 
+KG limit curves for special or short-term operations may be based on other criteria or lower wind velocities than 
+those referred to in subparagraph 1. This requires the total safety for the condition to be at least equal to that of 
+ordinary operating conditions, when operational limitations are also taken into account. 
+Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). 
+1 Cf. safety requirements to prevent capsize in the Regulations of 4 September 1987 on the construction of mobile offshore units, section 6 
+subparagraph 2.4. 
+Section 11 
+Transit condition, stability requirements, curve I-tr 
+1.  In the transit condition the unit shall comply with the intact stability requirements laid down in section 20 with 
+a wind velocity of at least 36 m/s (70 knots) and the damage stability requirements laid down in section 21 with a 
+wind velocity of at least 25.8 m/s (50 knots) following assumed damage in accordance with section 23. 
+2.  Maximum KG to comply with the above stability requirements shall be drawn up for all relevant transit draughts and 
+will subsequently be referred to as KG limit curve I-tr. Relevant operational limitations for the condition shall be indicated 
+in connection with the KG limit curve. 
+3.  The unit shall be capable of attaining the survival condition from any transit condition by ballasting only, or, 
+if necessary, by dumping liquid drilling mud. If the max. KG relating to the survival condition or temporary 
+conditions, cf. sections 12 and 13, impose limitations with regard to the capability of the unit in attaining the survival 
+condition from the transit condition, these limitations will determine the max. KG for the transit condition. 
+Section 12 
+Survival condition, stability requirements, curve II 
+1.  In the survival condition the unit shall comply with the intact stability requirements laid down in section 20 
+with wind velocity of 51.5 m/s (100 knots). For the survival condition no requirements as to damage stability apply, 
+provided no vessel is permitted alongside the unit. Other activities which may represent a danger of damage or 
+flooding shall restricted to the minimum necessary for the safety of the unit. If the intended function of the unit 
+precludes compliance with the above requirements, the damage stability requirements laid down in section 21 shall 
+be complied with, with the wind velocity of at least 36 m/s (70 knots) following assumed damage in accordance 
+with section 23. 
+2.  Damage stability is not required for accommodation units in survival condition unless necessitated by the above 
+circumstances or other grounds, as e.g. when units connected by gangway do not pull away from other installations 
+in survival condition. 
+3.  Max. KG to comply with the above stability requirements shall be drawn up for all the relevant draughts for 
+survival conditions and will subsequently be referred to as KG limit curve II. Relevant operational limitations in 
+accordance with the above shall be indicated in connection with the KG limit curve for the survival condition. When 
+survival draughts are determined for semi-submersible units account must also be taken of the requirements 
+regarding distance between sea level and deck.1 
+4.  For submersible and self-elevating units the above requirements are applicable only in connection with transit. 1  Cf. requirements for distance between sea level and deck in the Regulations of 4 September 1987 on the construction of mobile units, section 10. 
+Section 13 
+Temporary condition for semi-submersible units, stability requirements, curve III,  
+(de-)ballasting curves 
+1.  In the temporary condition the unit shall comply with the intact stability requirements laid down in section 20 
+with a wind velocity at least equal to the one used for the calculation of intact stability for operating and transit 
+conditions, minimum 36 m/s (70 knots). 
+2.  Damage stability is not required if vessels are not permitted alongside at the unit during this condition. Other 
+activities which may represent a danger of damage or flooding shall be restricted to the minimum necessary to 
+ballast/deballast the unit. If vessels are permitted alongside the unit during temporary conditions, the unit is also 
+required to comply with the damage stability requirements laid down in section 21 with a wind velocity of at least 
+25.8 m/s (50 knots) following damage assumptions in accordance with section 23, cf. also section 14. 
+3.  Max. KG to comply with the above stability requirements shall be drawn up for all the relevant draughts for 
+temporary conditions and will subsequently be referred to as KG limit curve III. Relevant operational limitations in 
+accordance with the above shall be indicated in connection with the KG limit curve for temporary conditions. 
+4.  For semi-submersible units ballasting and deballasting curves shall be drawn up to show that the unit is capable 
+of attaining the survival condition from both transit condition and operating condition, and that KG is below curve 
+III for temporary conditions. 
+Section 14 
+Continuous KG limit curve for damage stability 
+In addition to the KG limit curves referred to in sections 10 to 13 inclusive, a separate curve for draughts apart from 
+specific operating or transit draughts shall be drawn up to show the max. KG when the unit complies with the damage 
+stability requirements laid down in section 21 with a wind velocity of at least 25.8 m/s (50 knots) following assumed damage 
+in accordance with section 23. 
+Chapter VI 
+Daily calculations, loading conditions 
+Section 15 
+Calculation of daily loading conditions 
+1.  Daily loading conditions with corresponding survival condition shall be calculated on board on the basis of the 
+relevant quantity of load (deadweight) placed in the most adverse position which may apply. The KG limit curves 
+shall be used as indicated in section 16. 
+2.  The operations manual and the form for calculation of daily loading conditions shall give specific instructions 
+on when the survival condition is required and on the measures to be taken to bring the unit to that condition. Any 
+necessary dumping of liquid drilling mud shall be clearly indicated. Only drilling mud permitted dumped under 
+environmental requirements shall be assumed to be dumped in the calculations. 
+3.  When calculating displacement and vertical centre of gravity (KG), the amount of chains/ wire which has been 
+paid out/remains on board shall be taken into account. Account shall also be taken of other vertical forces which 
+may have an adverse effect on the unit’s stability, for example from the rotary table/derrick hook load or the riser 
+tension load. 
+Section 16 
+Use of KG limit curve 
+1.  The KG values for all operating and transit conditions, corrected for the effect of free liquid surface, shall be 
+below the values given in curve I-op and curve I-tr respectively. 
+2.  For semi-submersible units account shall also be taken of the increased effect of free liquid surface which may 
+occur in temporary conditions during any ballasting/deballasting in preparation for the survival condition, cf. section 
+13 subparagraph 4. 
+3.  When the wind velocity exceeds 36 m/s, or any higher verified limit, the unit’s KG values, corrected for the 
+effect of free surfaces, shall be below the values given in curve II. 
+4.  The KG values for all temporary conditions, corrected for the effect of free liquid surfaces, shall be below the 
+values given in curve III. Section 17 
+Loading conditions 
+The following conditions shall be calculated and shall be included in the operations manual: 
+1.  Normal operating condition at maximum draught with maximum deck load and equipment in the most adverse 
+position applicable. 
+2.  Survival condition at maximum survival draught, using the same weight distribution as in subparagraph 1, 
+except for necessary adjustments of ballast and any dumping of liquid drilling mud. For drilling units the riser shall 
+be disconnected, and a representative number of drill pipes shall be standing in the derrick set back area. 
+3.  Normal transit condition with maximum deck load. For self-elevating units the transit condition shall be 
+checked with the legs standing at their highest position and if relevant, laid down for ocean tow. 
+4.  Survival condition at maximum survival draught, using the same weight distribution as in subparagraph 3, 
+except for necessary ballast adjustments and any dumping of liquid drilling mud. For the purpose of the calculations 
+the unit’s anchors are assumed to be on board. 
+Chapter VII 
+Detailed requirements, stability 
+Section 18 
+Righting moment curves 
+1.  Righting moment curves, cf. figures 1 and 2, shall be prepared as supporting material for the KG limit curves 
+calculated. 
+2.  Calculations of the righting moment shall be based on the unit being able to trim freely during inclination, and 
+the effects of mooring forces shall be disregarded. 
+3.  Openings into spaces presumed as buoyant when calculation righting moments shall be fitted with the following 
+means of closure: 
+a)  watertight means of closure up to the equilibrium waterline in both intact and damage condition, 
+taking wind moments into account, cf. sections 20 subparagraph 1 and 21 subparagraph 1. For semi-submersible 
+units, see also requirements in section 22 subparagraph 2 a). 
+b)  weathertight means of closure up to the angle at which the requirement as to area between the curves 
+of the heeling and righting moments has been complied with, at least 30° heel for the intact condition, cf. the 
+requirement for «second intercept» in section 20 subparagraph 1 b) (figs. 1 and 2). For semi-submersible units, 
+see also requirements in section 22 subparagraph 2 b). 
+4.  Means of closure of a lower standard than referred to in subparagraph 3 above shall be considered as resulting 
+in progressive flooding. This shall be shown as steps in righting moment curve. (Cf. section 22 subparagraph 3). 
+Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). 
+Section 19 
+Heeling moment curves (wind moment) 
+1.  Wind heeling moment curves shall be prepared as supporting material for the KG limit curves calculated. Wind 
+heeling moments can be determined either by wind tunnel tests or by calculations. Wind heeling moments may be 
+prepared and presented in accordance with guidelines issued by the Norwegian Maritime Authority or other 
+recognized methods. 
+2.  Wind heeling moments shall be prepared for the wind velocities used for the calculation of max. KG for the 
+various modes of operation. These will normally be 36 and 51.5 m/s for intact stability and 25.8 m/s for damage 
+stability, cf. chapter V. The wind velocity shall refer to a height of 10 metres above the sea level. 
+3.  Wind forces shall be considered from any direction relative to the unit. For the purpose of defining the wind 
+moment curves for the unit’s total draught area, the wind moments shall be documented for a sufficient number of 
+inclination axis and angles of heel. 
+4.  The wind moment curves shall take into account maximum deck load and equipment in the most adverse 
+position applicable. The unit shall be assumed to be floating free of mooring restraints so that the arm of the wind 
+overturning force is considered to be equal to the vertical distance from the centre of pressure of all surfaces exposed 
+to the wind to the centre of lateral resistance of the underwater body of the unit. 
+5.  For units with a dynamic positioning system, the wind moment curves shall also be calculated by taking into 
+account the reactive wind force operating at thruster level. The most adverse wind moment shall be used for the 
+calculation of the unit’s max. KG in the dynamically positioned condition. 
+6.  Where a unit has undergone alterations which affect the wind heeling moment, new wind heeling moments 
+shall be prepared either by means of wind tunnel tests or by calculation. Section 20 
+Intact stability requirements 
+1.  General requirements for intact stability (cf. fig. 1): 
+a)  Static angle of heel due to wind (Θ) shall not exceed 17° in any condition. 
+b)  The «second intercept» between the righting moment curve and the wind heeling moment curve (Θ) 
+shall occur at an angle of 30 or more. The «second intercept» is defined as the point where the righting moment 
+curve, corrected for any progressive flooding, crosses the wind heeling moment curve for the second time. 
+c)  The righting moment curve shall be positive over the entire range of angles from upright to the second 
+intercept. 
+2.  Additional requirements for units of a ship design and self-elevating units: 
+a)  The metacentric height shall be 0.5 metres or higher. 
+b)  The area under the righting moment curve up to the «second intercept», or alternatively to a smaller 
+angle, shall be not less than 40% in excess of the area under the wind heeling moment curve to the same limiting 
+angle. 
+3.  Additional requirements for semi-submersible units: 
+a)  The metacentric height (GM) shall be at least 1.0 metres for all operating conditions and survival 
+conditions. The metacentric height shall never be less than 0.3 metres in temporary conditions.    b)  The area under the righting moment curve up to the «second intercept», or alternatively to a smaller 
+angle, shall be not less than 30% in excess of the area under the wind heeling moment curve to the same limiting 
+angle. 
+4.  Alternative stability requirements may be approved by the Norwegian Maritime Authority, e.g. based on model 
+tests, cf. section 4, provided an equivalent level of safety is maintained. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 21 
+Damage stability requirements 
+The following stability requirements apply when the unit is assumed to be damaged in accordance with sections 23 to 
+28: 
+1.  The waterline in the final state of equilibrium after flooding, taking into account the effect of wind, shall be 
+below the lower edge of any opening which might lead to progressive flooding of compartments assumed intact in 
+the calculations. Such openings include air pipes (regardless of means of closure), ventilators, ventilation openings, 
+non-watertight means of closure, cf. chapter X. Openings fitted with remote-controlled watertight doors kept closed 
+during operation of the unit and portholes which cannot be opened are not considered to result in progressive 
+flooding. 
+2.  In the above-mentioned state of equilibrium the angle of heel (Θ) shall never exceed 17° in any direction. 
+3.  The area under the righting moment curve shall be at least equal to the area under the heeling moment curve up 
+to the «second intercept» (Θ) of the curves. Both areas shall be calculated from the static angle of heel without wind 
+(Θ). (See fig. 2). 
+4.  The possibility of reducing angles of heel by cross-flooding arrangements, by emptying ballast tanks or other 
+tanks or by taking into account anchoring forces etc. shall not be taken into consideration for the purpose of 
+complying with the requirements laid down in subparagraphs 1 to 3 inclusive. 
+Amended by Regulation of 19 December 2017 No. 2322 (in force on 1 January 2018). 
+Section 22 
+Reserve buoyancy requirements for semi-submersible units 
+Reserve buoyancy requirements for semi-submersible units are (see fig. 3): 
+1.  The righting arm curve after assumed damage in operating condition (cf. section 10) shall have a positive range 
+of at least 10° between the first and second intercept with the wind moment curve. For one and the same angle 
+(Θwa) within the positive range the following shall apply: 
+a)  The righting lever curve after damage (righting moment divided by displacement) shall reach a value 
+of at least 2.5 m. 
+b)  At least 1.0 m of this righting lever shall arise from enclosed watertight volumes above watertight 
+barriers positioned at or above the lowest continuous deck (top of column). 
+2.  Requirements for the closing of volumes assumed to provide buoyancy after damage: 
+a)  All openings submerged at the angle Θwa, shall be fitted with watertight means of closure, cf. chapter 
+X. Means of closure activated by submersion may be accepted for smaller openings if adequate strength and 
+reliability of function can be documented. 
+b)  Openings submerged beyond the angle Θwa, minimum to the range required by subparagraph 1 (angle 
+for first intercept with the wind moment curve plus 10°), shall at least be fitted with weathertight means of closure 
+which can be closed from a dry deck at the angle Θwa, and which have operating facilities as described in chapter 
+XIV. This minimum range for weathertight integrity is shown as Θwe in fig. 3. 
+3.  Steps in the righting lever curve:    a)  Any opening referred to in subparagraph section 2 (a) and (b) without satisfactory means of closure 
+shall be considered to result in flooding of adjacent spaces from the angle at which the lower edge of the opening 
+is submerged. This shall be shown as steps in the righting lever curve. 
+b)  Loss of buoyancy as referred to above shall not cause the righting lever curve to fall below a value 
+twice the value of the wind heeling lever (wind moment divided by displacement) for the same angle. 
+Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). 
+1  Mobile offshore units registered before 1 January 1992 for which an equivalent safety level concerning reserve buoyancy can be documented are 
+considered to meet the requirements of this section. 
+Section 23 
+Damage assumptions and watertight subdivision 
+1.  General provisions. 
+The unit shall be divided by means of watertight decks and bulkheads to resist flooding as the result of two main 
+categories of damage: 
+–  One-compartment damage in accordance with section 24. 
+–  Collision damage in accordance with the extent of damage for the type of vessel in question, cf. 
+sections 25, 26 and 27 below. 
+Damage and flooding shall be assumed for the individual modes of operation as specified in the requirements laid 
+down in sections 10 to 13 inclusive. 
+2.  Pipes etc. in the damage area. 
+All shafts, piping and ventilation ducts which may cause flooding of compartments presumed to be intact shall be 
+placed outside the damage area for the individual type of vessel, cf. sections 25, 26 and 27. 
+3.  Permeability factors. 
+The following permeability factors shall be used for flooding as referred to in subparagraph 1: 
+Store rooms 0.60, engine rooms 0.85, accommodation spaces, empty compartments and tanks 0.95. For spaces 
+where there is reason to believe that deviations from the above factors exist, the permeability shall be calculated. 
+Section 24 
+One-compartment damage 
+One-compartment damage shall be assumed for any compartment which is wholly or partially under the waterline in 
+question, and in addition either is limited by the sea or containing piping systems which lead to the sea. 
+Section 25 
+Collision damage to units of ship design 
+1.  In assessing collision damage to units of ship design, the following extent of damage shall be assumed to occur 
+anywhere within the length of the ship: 
+–  longitudinal extent: 3.0 m; 
+–  horizontal penetration: 1.5 m; 
+–  vertical extent: from the base line and vertically upwards without limit. 
+2.  The unit’s watertight subdivision shall be such that when collision damage is assumed according to 
+subparagraph 1, at least one watertight bulkhead may be assumed to be damaged. Where damage of a lesser extent 
+than that referred to in subparagraph 1 results in a more severe condition, such lesser extent shall be assumed. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 26 
+Collision damage to self-elevating units 
+1.  In assessing collision damage to self-elevating units, the following damage shall be assumed to occur anywhere 
+at the periphery of the unit: 
+–  horizontal extent: 3.0 m; 
+–  horizontal penetration: 1.5 m; 
+–  vertical extent: from the base line and vertically upwards without limit. 
+2.  The unit’s watertight subdivision shall be such that when collision damage is assumed according to 
+subparagraph 1, at least one watertight bulkhead may be assumed to be damaged. Where damage of a lesser extent 
+than that referred to in subparagraph 1 results in a more severe condition, such lesser extent shall be assumed. 
+3.  Where a mat is fitted, the Norwegian Maritime Authority may permit deviations from the above requirements, 
+if the distance between the hull and the mat is great, cf. section 4. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). Section 27 
+Collision damage to semi-submersible units 
+1.  In assessing collision damage to semi-submersible units, the following extent of damage shall be assumed: 
+a)  Only those columns and pontoons on the periphery of the unit shall be assumed open to damage, and 
+it is assumed that damage will only occur to «exposed parts». «Exposed parts» are those portions of columns 
+and pontoons, or other parts providing buoyancy which are located outside a line drawn through the centres of 
+the peripheral columns (see fig. 4). Vertical limits will be from 5 metres above the maximum operational 
+draught to 3 metres below the minimum transit draught. 
+b)  Vertical extent: 3.0 m within 5 metres above and 3 metres below the waterline in question. 
+c)  Horizontal extent: 3.0 m measured along the periphery of the shell.  
+d)  Penetration: 1.5 m measured at a right angle to the shell.    2.  The unit’s watertight subdivision shall be such that when collision damage is assumed according to 
+subparagraph 1, at least one watertight bulkhead may be assumed to be damaged. Where damage of a lesser extent 
+than that referred to in subparagraph 1 results in a more severe condition, such lesser extent shall be assumed. 
+Section 28 
+Exceptions from damage assumptions for semi-submersible units 
+For semi-submersible units the calculations of damage stability after assumed damage according to sections 24 and 27 
+may disregard the flooding of ballast tanks which are always full at the relevant draughts, provided that: 
+1.  The ballasting procedure in the operations manual clearly states that the tanks in question shall be full at the 
+relevant draughts, irrespective of loading condition. 
+2.  An indication is given on the KG limit curve of the tanks which are required to be full and the draught area to 
+which this applies. 
+Chapter VIII 
+Freeboard and load lines 
+Section 29 
+Freeboard and load lines 
+1.  The unit’s load line marks shall indicate the maximum permissible draught, based on the unit’s stability and 
+strength and any other provisions of significance to the determination of draught. 
+2.  The draught determined shall not be less than laid down in the requirements and chapter V of these regulations.1 
+3.  Drilling ships and any other types of unit to which the International Load Line Convention, 1966, applies, shall 
+be subject to the provisions of the said Convention. The maximum draught shall not exceed the load line calculated 
+in accordance with this Convention. 
+4.  Air pipes for tanks and similar with means of closure shall be well protected against the sea and against being 
+struck by deck cargo which has become loose. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+1  Cf. also requirements for strength and the distance between sea level and deck in the Regulations on the construction of mobile units, sections 6 
+and 10. 
+Chapter IX 
+Watertight bulkheads 
+Section 30 
+Strength of watertight bulkheads 
+1.  General requirements. 
+The bulkheads which with reference to the damage stability calculations are expected to be watertight shall be 
+dimensioned for the maximum water pressure that may occur during inclination following damage according to the 
+stability requirements of section 21, with a utilization factor of 0.75 against the material’s limit of yield strength. If 
+necessary, a confirmation from a MOU classification society of the strength shall be submitted. 
+2.  Additional requirements for semi-submersible units. 
+a)  All submerged bulkheads around volumes providing buoyancy, and watertight barriers at the top of 
+columns shall also be dimensioned to withstand the water pressure which may occur during inclining, in 
+accordance with the stability requirements of section 22 subparagraph 1 a) and b). If necessary, a confirmation 
+from a MOU classification society of the strength shall be submitted. 
+b)  Bulkheads and barriers referred to in a) above are permitted with a utilization factor of 0,95 against 
+the material’s ultimate strength. 
+c)  As a minimum requirement, watertight bulkheads around volumes providing buoyancy located above 
+the top of the column shall be dimensioned according to requirements laid down in rules for external bulkheads 
+exposed to waves, issued by a MOU classification society. 
+Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 31 
+Openings in watertight bulkheads 
+The number of openings in bulkheads which with reference to the damage stability calculations are expected to be 
+watertight, shall be limited to the minimum compatible with the design and safe operation of the unit. Chapter X 
+General requirements for watertight means of closure 
+Section 32 
+Requirements for watertight means of closure 
+1.  Watertight means of closure shall be arranged for all openings or penetrations in watertight bulkheads in order 
+to maintain the unit’s watertight subdivision. 
+2.  Access openings for personnel through watertight bulkheads shall be closed by watertight sliding doors equipped 
+in accordance with the requirements of Chapter XII. Other types of watertight doors may be used, provided that the 
+assumptions of section 33 subparagraph 2 is fulfilled. 
+Amended by regulation 11 April 2003 No. 543 (in force 1 July 2003). 
+Section 33 
+Requirements for provide remote-controlled closing systems 
+1.  Means of closure required to be of a watertight type in accordance with the requirements of section 18 
+subparagraph 3 (a), 21 subparagraph 1, section 22 subparagraph 2 and section 45, shall be arranged with remote-
+controlled closing systems operated from a control console, cf. section 37. 
+2.  Means of closure may, however, be arranged without a remote-controlled closing system provided that the 
+following conditions are satisfied: 
+a)  they are kept closed and instructions are posted at each means of closure, stating that it should be kept 
+closed whenever the unit is at sea 
+b)  they are used as access openings to closed rooms that are not in use, or in areas not designed for 
+common traffic, 
+c)  the control system otherwise satisfies the requirements of section 37 subparagraphs 1(b), 1(c), 1(d), 
+subparagraph 2 and subparagraph 3, and 
+d)  central operated dogs are fitted on means of closure used as access openings or emergency exits. 
+Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 34 
+Requirements for dimensioning and testing 
+1.  Watertight means of closure shall be dimensioned to withstand pressure, normally from either side. The design 
+pressure shall correspond to the maximum water pressure that may occur during inclination as specified in 
+section 30. Strength calculations shall be carried out according to recognized standards, cf. section 2 subparagraph 
+1. 
+2.  As a minimum requirement, means of closure located in watertight bulkheads above the top of the column shall 
+dimensioned according to section 30 subparagraph 2 c). 
+3.  A prototype of the means of closure, fitted in the same way as required on board, shall be pressure-tested by 
+the manufacturer according to the following criteria: 
+a)  minimum test pressure = relevant water pressure + 5m waterhead, for windows 3 x relevant water 
+pressure minimum 5m waterhead 
+b)  pressure testing to be conducted using water from the most critical side c) acceptable  leakage  of 
+water = 2 litre per minute/m2 light area. 
+4.  The means of closure shall not be permanently deformed as a result of the pressure test. 
+5.  Following installation on board, means of closure such as doors, hatches and flaps shall be tested for 
+watertightness using a hose test. If the seal is clearly visible when the means is closed, testing using a detector, 
+chalk-testing, etc. may be accepted. 
+6.  If the means of closure are also to be used as fire division the prototype shall be tested from the most critical 
+side, according to the fire safety requirements in force. For watertight sliding doors, cf. also section 41 subparagraph 
+5. 
+Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 351 
+Emergency battery lighting 
+Repealed by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+1  Cf. Regulations of 4 September 1987 No. 856 on the construction of mobile offshore units section 12. Section 36 
+Other types of watertight means of closure 
+1.  Other types of watertight means of closure than those referred to in these Regulations will be evaluated 
+particularly with regard to requirements concerning strength, remote control, and alarm systems. 
+2.  If the means of closure have remote-controlled closing system and personnel may be injured during remote-
+controlled closing, the system shall satisfy the standard specified in Chapter XII with regard to local alarms and the 
+possibility of stopping the remote-controlled closing locally. 
+Chapter XI 
+Remote-controlled closing systems and control systems for watertight 
+means of closure 
+Section 37 
+Equipment on, and location of, control console and control station 
+1.  The control console for the means of closure shall be equipped with: 
+a)  Remote-controlled closing system with a master switch with two modes of control: «normal 
+operation» and «emergency closing», cf. section 38  
+b)  Diagram showing the location of each means of closure. 
+c)  Visual indicators showing whether each means of closure are open or closed (indicators on closing 
+mechanism/dogs). 
+d)  Sound alarm which indicates within one hour that means of closure which should have been closed, 
+have been left open. 
+e)  For means of closure operated by mechanical or hydraulic remote control, an alarm system giving: 
+–  low-level alarm for the hydraulic oil tank 
+–  low-level alarm for stored energy (pressure) in the accumulators 
+–  low-level alarm for the power supply (measured as close as possible to source) 
+2.  The control console shall be located in the same manned control station as the ballast control console1. 
+3.  The control station shall be located above the most unfavourable waterline for angles of heel as specified in 
+section 30, and shall be sufficiently protected against the weather. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+1  See equivalent requirements regarding location in Regulations of 20 December 1991 on ballast system, section 16. 
+Section 38 
+Master switch for the remote-controlled closing system 
+1.  The master switch shall normally be in the «normal operation» mode. The means of closure shall then only be 
+capable of being opened and closed locally. 
+2.  With the master switch in the «emergency closing» mode, means of closure which are open shall be 
+automatically closed by remote control. After reopened locally, the means of closure shall return to closed position. 
+3.  Instructions for use of the master switch shall be located near the switch. 
+Section 39 
+Mechanical/hydraulic remote-controlled closing system 
+1.  The power supply for the mechanical/hydraulic remote-controlled closing system shall be connected to the 
+main and the emergency switchboards. 
+2.  The mechanical/hydraulic system shall be separate from other systems and shall be designed so that a single 
+failure normally only affects the operation of one means of closure and under no circumstances leads to the opening 
+of any means of closure which is closed. 
+3.  The mechanical/hydraulic remote-controlled closing system can either be: 
+a)  a centralized system with two independent pumps each connected to accumulators. The total capacity 
+of the accumulators shall be sufficient to operate 50% of all means of closure at least 3 times (closed-open-
+closed) during inclination as specified in section 30. For watertight sliding doors, see also requirements in 
+Chapter XII; or, 
+b)  an independent system for each means of closure, each with its own pump and accumulators. The 
+capacity of the accumulators shall be sufficient to operate each means of closure at least 3 times (closed-open-
+closed) during inclination as specified in section 30. For watertight sliding doors, see also requirements in 
+Chapter XII; or, 
+c)  a combination of alternatives a) and b).    4.  When the unit is in the upright position, the system/accumulators shall also have the capacity to close all the 
+means of closure simultaneously by remote control within 60 seconds. 
+5.  The time taken from the means of closure begin to move until it is completely closed shall be between 20 and 
+40 seconds both for the «normal operation» and for the «emergency closing» modes. Opening the door shall be at 
+least equally quick. 
+Section 40 
+Control, indicator and alarm systems 
+1.  The control, indicator and alarm systems for the means of closure shall be connected to the main and the 
+emergency switchboard. In addition they shall have battery connection. 
+2.  The collective capacity of the batteries shall be sufficient to operate 50% of all means of closure at least 3 times 
+(closed-open-closed) during inclination as specified in section 30. 
+3.  The systems and their components shall be separate from any other system and shall be designed in such a way 
+that a single failure in a component or a ruptured pipe/cable will not prevent remote-controlled closing of more than 
+one means of closure, or cause already closed means to open. Similarly, a single failure in the indicator or alarm 
+systems shall not prohibit the closing, either by remote control or locally, of the means of closure. 
+4.  During and after emergency closing the means of closure shall not be capable of being opened or closed 
+unintentionally due to electrical short circuit in the remote-controlled closing systems. Means of closure at access 
+openings shall still be capable of being operated locally. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Chapter XII 
+Additional requirements for watertight sliding doors 
+In addition to requirements laid down in Chapters X and XI watertight sliding doors shall satisfy the following 
+requirements: 
+Section 41 
+General requirements 
+1.  All doors should be capable of being closed mechanically/hydraulically and by hand-pump during inclination as 
+specified in section 30, when water is flowing through the opening applying a static head equivalent to a water column 
+of 1 m above the sill on the centreline of the door. 
+2.  When the unit is in the upright position, local closure of the doors by hand-pump shall be possible within 90 
+seconds. A single failure in the remote-controlled closing system shall not prohibit operation of the doors by means 
+of the hand-pump. 
+3.  Local operation of the doors shall be carried out by one handle, i.e. the same handle shall be used for «normal 
+operation», «emergency closing» and for the hand-pump. 
+4.  To guard against incorrect operation of the doors while the unit is at a quay/in a yard or similar, the remote-
+controlled closing system must be capable of being disconnected manually and locked in this position. The 
+watertight doors will then remain open. Under these conditions no form of remote-controlled closing or local 
+operation of the doors shall make the doors close until the system has been re-activated manually. 
+5.  Watertight sliding doors may also be fire doors provided that: 
+a)  the doors have been insulated so that they are equivalent to the fire bulkheads in which they will be 
+fitted 
+b)  the mechanical/hydraulic remote-controlled closing system has been designed so that the doors will 
+not open under the influence of heat. 
+Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). 
+Section 42 
+Function in «normal operation» mode 
+1.  When the remote control master switch in the control room is switched to the «normal operation» mode, the 
+doors shall be capable of being opened and closed locally, from both sides, both mechanically/hydraulically and by 
+hand-pump. 
+2.  Doors shall be opened by activating the local control handle. The door shall then open when the handle is held 
+in the open position and stop when it is released. Systems whereby the doors open completely and remain in the 
+open position although the handle is released are also acceptable. 
+3.  To close doors locally, the control handle shall be held in the closed position until the door is closed. If the 
+handle is released before the door is completely closed, the movement of the door shall stop or the door shall 
+automatically return the open position again. After the stop, it shall be possible either to continue closing the door 
+or to reopen the door without completely closing the door first. Section 43 
+Function in «emergency closing» mode 
+1.  When the remote control master switch in the control room is switched to the «emergency closing» mode, the 
+doors shall still be capable of being opened and closed locally, from both sides, by using the normal control handles. 
+The location of the handles shall be such that they are capable of being operated simultaneously from both sides of 
+the door when it is open. This is in order to ensure that the door does not close during transit through the door. The 
+doors shall also be capable of being opened and closed by hand-pump. 
+2.  The door shall close automatically when the handles are released. It shall be possible, by using the handles, to 
+stop the door during closure or to reopen the door without waiting for complete closure first. 
+Section 44 
+Signals during «emergency closing» 
+A sound signal shall be activated locally during emergency closing of an open door. The signal shall also be activated 
+during any subsequent local operation of the door if this is still centrally emergency closed. A visual signal shall be 
+arranged in areas where the sound signal is not likely to be heard because of noise. 
+Chapter XIII 
+Watertight closing on self-elevating units 
+Heading amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 45 
+Additional requirements for watertight closing of openings on self-elevating units 
+If ventilators or similar equipment or devices are located where they may be damaged or torn off by the sea or by 
+equipment or deck cargo which has become loose, and by this lead to flooding of compartments which in the stability 
+calculations are considered to provide buoyancy at angles of heel given in section 21, the ventilators shall have a 
+watertight means of closure located so that it will still be fit for use after such accident. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Chapter XIV 
+Weathertight integrity 
+Section 46 
+Weathertight closure of openings 
+1.  Openings to spaces which according to section 18 subparagraph 3 (b) shall be weathertight when closed, shall 
+be fitted with weathertight means of closure. 
+2.  Each means of closure shall be designed and hinged so that it can be easily closed by one person. The design 
+shall take into account the inclination at which it is necessary to close the appliance, cf. section 30. 
+3.  The design and calculation of the strength of weathertight means of closure shall comply with a recognized 
+standard, cf. section 2 subparagraph 1. Where the means of closure serve as access openings they shall be fitted with 
+central operated dogs. 
+Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). 
+Section 47 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 48 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). Chapter XV 
+Operations manual, routines and instructions 
+Section 49 
+Stability instructions and operations manual 
+1.  Written instructions for the daily follow-up of stability in accordance with these regulations shall be prepared. The 
+instructions shall be incorporated into the unit’s operations manual. 
+2.  The follow-up of stability shall be carried out by: 
+–  calculation of loading conditions and checking of the result against the KG limit curve 
+–  follow-up of light ship data 
+–  maintenance of the watertight subdivision and, where applicable, separate routines for: 
+–  ballasting from operating condition to survival condition and from transit condition to survival 
+condition, cf. sections 17 and 28 
+–  special operations, cf. section 9 subparagraph 5 
+–  maintenance of the watertight subdivision for self-elevating units, cf. section 50, or for drilling ships 
+cf. section 51. 
+3.  The operations manual shall also include at least the following information necessary to carry out the above 
+follow-up: 
+–  short outline of the regulations according to which the unit has been documented and their 
+implications for the operation of the unit 
+–  KG limit curves with limitations and explanations, cf. sections 9, 16 and 28 
+–  form for the calculation of daily loading conditions, cf. section 15 subparagraph 2 
+–  necessary data for the calculation of daily loading conditions, cf. sections 15 and 16 
+–  examples of loading conditions, cf. section 17 
+–  light ship data and form for follow-up of light ship data, cf. section 8subparagraph 2 
+–  watertight subdivision plan, also showing which watertight means of closure are to be kept closed at 
+all times, and which are to be closed by remote control in an emergency situation or when the unit goes to 
+survival condition 
+–  plan of the weathertight means of closure, also showing which means of closure are to be kept closed 
+either in an emergency situation or when the unit goes to survival condition. 
+Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999).  
+Section 50 
+Special routines for self-elevating units 
+1.  Before the unit is made waterborne an entry shall be made in the official log-book, the shift report or similar 
+reporting system, stating that all watertight and weathertight means of closure that shall be closed in accordance 
+with section 49, have been witnessed closed. 
+2.  As long as the unit is waterborne, all means of closure, unless they have to remain open, shall be kept closed. 
+Instructions stating that it should be kept closed whenever waterborne, shall be posted on these means of closure. 
+3.  As long as the unit is waterborne, inspection and reporting routines shall ensure and document that the means 
+of closure remain closed. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Section 51 
+Special routines for units of a ship design 
+1.  Before the ship goes to survival condition, cf. section 2 subparagraph 12, all openings in accordance with the 
+plan required by section 49, shall be closed weathertight. 
+2.  As long as the ship is in the survival condition, inspection and reporting routines shall ensure and document 
+that the means of closure remain closed. 
+Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). 
+Chapter XVI 
+Final provisions 
+Section 52 
+Entry into force 
+These Regulations enter into force on 1 January 1992. 
+Amended by Regulation of 29 June 2007 No. 1006 (in force on 1 July 2007, previously section 53). 

@@ -1,0 +1,1 @@
+prodigy ner.manual sdir_xx_db blank:en ./xx/text.jsonl --label ./xx/labels.txt --patterns ./xx/all_patterns.jsonl

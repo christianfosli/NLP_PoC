@@ -76,13 +76,31 @@ def identify_VESSEL_TYPE_in_text(text):
                     final_token_start = prev_word_2_token_number
             else:
                 if token_start > 0:
+
                     prev_word_1_token_number = token_start - 1
                     prev_word_1_token = doc[prev_word_1_token_number]
-                    if prev_word_1_token.text.lower() == "hurtiggående":
+
+                    if (prev_word_1_token.text.lower() == "hurtiggående" or 
+                        prev_word_1_token.text.lower() == "kjemikalie"):
                         # Example: hurtiggående passasjerskip / hurtiggående passasjerfartøy
                         # Expanding.
                         final_token_start = prev_word_1_token_number
-                    elif (prev_word_1_token.text.lower() == "-" and token_start > 1):
+
+                    if token_start > 2:
+                        prev_word_2_token_number = token_start - 2
+                        prev_word_2_token = doc[prev_word_2_token_number]
+
+                        prev_word_3_token_number = token_start - 3
+                        prev_word_3_token = doc[prev_word_3_token_number]
+
+                        if (prev_word_3_token.text.lower() == "olje" and
+                            prev_word_2_token.text.lower() == "-"):
+
+                            # Example: olje-kjemikalie tankerskip
+                            # Expanding.
+                            final_token_start = prev_word_3_token_number
+
+                    if (prev_word_1_token.text.lower() == "-" and token_start > 1):
                         prev_word_2_token_number = token_start - 2
                         prev_word_2_token = doc[prev_word_2_token_number]
                         if prev_word_2_token.text.lower() == "roro":

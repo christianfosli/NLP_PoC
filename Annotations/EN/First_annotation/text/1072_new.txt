@@ -1,0 +1,1406 @@
+Regulations of 1 July 2014 No. 1072  
+on the construction of ships 
+Legal basis: Laid down by the Norwegian Maritime Authority on 1 July 2014 under the Act of 16 February 2007 No. 9 relating to ship safety and 
+security (Ship Safety and Security Act) sections 2, 6, 9, 11, 21, 28a, 29, 30 and 45, cf. Formal Delegation of 16 February 2007 No. 171 and Formal 
+Delegation of 31 May 2008 No. 590. 
+EEA references: EEA Agreement Annex II Chapter XIX point 1 (Directive 98/34/EC as amended by Directive 98/48/EC), Annex XIII point 56cb 
+(Directive 2003/25/EC as amended by Directive 2005/12/EC), and point 56f (Directive 2009/45/EC as amended by Directive 2010/36/EU). 
+Amendments: Amended by Regulations of 5 September 2014 No. 1158, 19 December 2014 No. 1853, 7 December 2015 No. 1628, 18 December 2015 
+No. 1769, 29 June 2016 No. 850, 27 December 2016 No. 1884, 19 December 2019 No. 2214 (in force on 1 January 2020). 
+Chapter 1 
+Scope of application and general provisions 
+Section 1 
+Scope of application 
+These Regulations apply to Norwegian: 
+a)   ships required to have Passenger Ship Safety Certificate engaged on foreign voyages; 
+b)   ships required to have Passenger Certificate; 
+c)   Class C and D passenger ships of 24 metres in length (L) and upwards, constructed before 1 May 2000, 
+required to have Passenger Ship Safety Certificate (EU); 
+d)   cargo ships of 24 metres in length (L) and upwards, or of 500 gross tonnage and upwards; 
+e)   barges of 15 metres in overall length and upwards, used for the carriage of cargoes. 
+Amended by Regulations of 19 December 2014 No. 1853, 29 June 2016 No. 850 (in force on 1 July 2016).  
+Section 2  
+Definitions 
+(1)  The International Convention for the Safety of Life at Sea, 1974 (SOLAS) consolidated edition 2009, chapter II-
+1, as amended by MSC.290(87), regulations 2 and 3 shall apply as definitions in these Regulations. 
+(2)  In addition to the definitions of the first paragraph, the following definitions shall apply for the purpose of these 
+Regulations: 
+a)   “Passenger ship”: A ship certified to carry more than 12 passengers or required to have a Passenger 
+Certificate; 
+b)   “Cargo ship”: Any ship that is not a passenger ship, fishing vessel, barge or pleasure craft; 
+c)   “Offshore support vessel”: A cargo ship that shall be engaged in the safety zones of oil platforms or operate 
+in the close vicinity of other offshore structures in the open sea; 
+d)   “SOLAS 90”: The International Convention for the Safety of Life at Sea, 1974, as amended by MSC.1(XLV), 
+MSC.6(48), MSC.11(55) and MSC.12(56); 
+e)   “Load Line Convention”: The International Convention on Load Lines of 1966, as amended by the Protocol 
+of 1988, consolidated edition 2005 as amended by MSC.223(82), MSC.270(85), MSC.329(90) and 
+MSC.345(91). 
+Section 3 
+Requirements for construction, stability and outfitting  
+of cargo ships and passenger ships engaged on foreign voyages  
+(1)  SOLAS consolidated edition 2014, as amended by MSC.365(93), MSC.392(95), MSC.409(97), MCS.413(97), 
+MSC.414(97), MSC.421(98), MSC.436(99), MSC.443(99) and MSC.444(99), applies as regulation for: 
+a)   cargo ships of 500 gross tonnage and upwards engaged on foreign voyages; 
+b)   passenger ships engaged on foreign voyages. 
+(2)  SOLAS regulations II-1/19 to 22, 23 and 24 do not apply.  
+(3)  MSC.235(82) “Guidelines for the design and construction of offshore supply vessels, 2006” applies as regulation 
+for offshore support vessels, the keel of which is laid or which is at a similar stage of construction before 1 July 2016. 
+(4)  MSC.235(82) as amended by MSC.335(90) applies as regulation for offshore support vessels:  
+a)   for which the building contract is placed on or after 1 January 2015; or b)   the keel of which is laid or which is at a similar stage of construction on or after 1 July 2016. 
+Amended by Regulations of 7 December 2015 No. 1628 (in force on 1 January 2016), 27 December 2016 No. 1884 (in force on 1 January 2017), 
+19 December 2019 No. 2214 (in force on 1 January 2020). 
+Section 4 
+Requirements for construction of ships engaged on  
+domestic voyages, barges regardless of trade area and cargo ships  
+of less than 500 gross tonnage engaged on foreign voyages 
+The requirements of a recognised classification society for construction and maintenance of hull, main and auxiliary 
+engines, electrical installations and automation installations shall apply for the design, construction and maintenance of: 
+a)   passenger ships or cargo ships engaged on domestic voyages; 
+b)   barges; 
+c)   cargo ships of less than 500 gross tonnage engaged on foreign voyages.  
+Section 5 
+Requirements for construction, stability and outfitting  
+of passenger ships of less than 15 metres in overall length  
+engaged on domestic voyages 
+Passenger ships of less than 15 metres in overall length engaged on domestic voyages, which are constructed, 
+dimensioned and equipped in accordance with the requirements of the Nordic Boat Standard 1990 for Commercial Boats 
+less than 15 metres, satisfy the requirements of these Regulations.  
+Section 6 
+New requirements for ships constructed before 1 November 1992  
+(1)  Ships or barges constructed before 1 November 1992 may be issued an order to satisfy certain provisions of these 
+Regulations, for instance in the event of:  
+a)   initial certification upon changes in use; 
+b)   modifications in the use or operation; 
+c)   replacement of equipment; 
+d)   major repairs or conversions; 
+e)   increased draught; 
+f)   extension. 
+(2)  A decision on orders pursuant to the first paragraph may be taken only after a specific assessment of safety based 
+on the general structural design, equipment, arrangement and condition of the ship or barge.  
+(3)  The requirements of the first paragraph do not apply to modifications with the purpose of improving the ability to 
+keep the ship or barge afloat.  
+Chapter 2 
+Supplementary safety rules 
+Section 7 
+Requirements for universal design of passenger ships 
+(1)  Passenger ships shall comply with the requirements of MSC.1/Circ.735 for universal design of and safety for 
+persons with reduced functional ability with the modifications required for the ship. 
+(2)  Passenger ships constructed on or after 1 January 2010 shall comply with the following requirements: 
+a)   The ship shall be constructed and equipped in such a way that a person with reduced functional ability can 
+embark and disembark easily and safely, and can, as far as possible, be ensured access between decks, either 
+unassisted or by means of ramps or lifts. Directions to such access shall be posted at the other accesses to 
+the ship and at other appropriate locations through the ship. 
+b)   Signs provided on board to aid passengers shall be of universal design, placed at key points and easy to read 
+for persons with reduced functional ability. 
+c)   The ship shall be equipped with the means to communicate important announcements to persons with 
+reduced functional ability, e.g. announcements regarding delays, schedule changes and on-board services. d)   The alarm systems and alarm buttons shall be so designed as to be accessible by and to alert everyone. The 
+alarm signal shall be perceived by everyone, regardless of functional ability. 
+e)   Handrails,  corridors  and  passageways,  doorways,  doors,  lifts,  vehicle  decks,  passenger  lounges, 
+accommodation and washrooms shall be so constructed that they to a reasonable extent and in a reasonable 
+way are universally designed. 
+(3)  For passenger ships constructed before 1 January 2010 the requirements of the first and second paragraphs only 
+apply when conversion and repairs entail major modifications and altered outfitting of areas where passengers have 
+general access. 
+Section 8 
+Securing of bow ports on ferries  
+(1)  Lifting bows or bow ports on ferries shall have mechanical stoppers which, together with the limit switches in the 
+lifting system, shall secure the doors against falling backwards from the upright position. 
+(2)  The dimensioning and arrangement of a lifting cylinder for a hydraulic lifting bow / bow port shall be such that a 
+hose rupture does not cause a safety risk. One single cylinder shall be capable of keeping the port in the upright position. 
+(3)  A port in the lowered position at the end of the vehicle deck, including any locking mechanism, shall be 
+dimensioned at least as the hull in general for enclosed ferries and as the bulwarks of open ferries. 
+(4)  If there is an opening between the deck end and a vehicle bridge or quay or between the deck end and the inside 
+lifting bow or bow port on board, the opening shall be properly secured for persons and vehicles. 
+(5)  The manoeuvring system for the end port shall be located in a position from which the operator has an 
+unobstructed view of the port, ferry quay and barrier boom. 
+Section 9 
+Securing of mooring arrangements on ferries  
+(1)  A ferry shall have a mooring arrangement between the ferry and the ferry quay or the vehicle bridge with 
+anchorage points on board and ashore. The arrangement shall be dimensioned to withstand a mooring force of 30 tonnes 
+when the mooring force is acting in the most adverse manner. If a transportable vehicle bridge with a direct connection 
+to the ferry forms part of the ferry’s mooring arrangement, the vehicle bridge with its shore anchorage shall be capable 
+of absorbing the mooring force. The mooring arrangement and the locking mechanisms shall be functional in all positions 
+applicable for the vehicle bridge. 
+(2)  If warranted by the ferry’s size or type, the Norwegian Maritime Authority may require the mooring arrangement 
+to be dimensioned for a mooring force higher than 30 tonnes. 
+Section 10 
+Access to cargo holds, tanks and deck,  
+lifts and bulwarks or guard rails on ships and barges 
+(1)  On ships and barges, the access to cargo holds, tanks and to decks with cargo shall consist of permanent stairways, 
+or where this is not possible, a fixed ladder or footboards of suitable dimensions, sufficient strength and appropriate 
+constructions. 
+(2)  The access shall as far as practicable be separate from hatch openings. 
+(3)  Personnel and cargo lifts shall, in addition to the requirements of sections 3 or 4, be designed, constructed, installed 
+and tested in accordance with international standard (ISO) No. 8383 “Lifts on Ships – Specific Requirements”. 
+(4)  In lieu of requirements pursuant to a recognised classification society’s rules for bulwarks and guard rails, cf. 
+sections 3 or 4, the Norwegian Maritime Authority may permit ships of less than 15 metres in overall length to have 
+bulwarks or equivalent fixed guard rails with a height of 750 millimetres on all exposed parts of the freeboard and 
+superstructure decks when it is established that compensating measures will maintain the same level of safety.   
+(5)  A manned barge shall have fixed guard rails in exposed places where people move.  
+Section 11 
+Safety measures on offshore support vessels  
+(1)  Offshore support vessels shall have permanent bulwarks around decks on which personnel will be engaged in 
+work with deck cargo in open sea. 
+(2)  Offshore support vessels engaged in anchor-handling shall have an arrangement for controlled release of torsional 
+forces in wires. Offshore support vessels constructed before 1 November 1992 shall satisfy the requirement no later than 
+1 July 2004. 
+(3)  Offshore support vessels shall on each side of the cargo deck have a strong stowage rail or equivalent arrangement 
+providing effective protection for persons loading or unloading deck cargo. Necessary side openings shall be provided for access from the cargo deck. The stowage rail shall be dimensioned for the relevant dynamic and static loads imposed 
+by the cargo, and shall be so designed that it, in the event of damage, will be deformed without tearing or perforating the 
+deck. 
+(4)  Offshore support vessels shall have fixing devices arranged forward, which are dimensioned for securing a towing 
+hawser from another boat that can tow.  
+Section 12 
+Specific safety measures on ships engaged in towing  
+(1)  Ships carrying out towing operations shall have permanent bulwarks around decks on which personnel will be 
+engaged in work.  
+(2)  Ships engaged in towing shall be fitted with a towing winch. Spare towing wire shall be stored on the drum. 
+(3)  The travel of a towing hawser shall be limited by bollards, bridles, tow rails or similar with rounded edges, if this 
+is considered necessary. This outfitting shall be so designed and located as to ensure good manoeuvrability and prevent 
+the towing hawser from being jammed or damaged.  
+(4)  Ships not engaged in ocean towing may be exempted from the requirements of the first and second paragraphs. 
+Ocean towing means tows outside the trade area small coasting. 
+(5)  Ships engaged in towing which are not fitted with a towing winch in accordance with the second paragraph, shall 
+have a towing hook and, if necessary, a hauling winch for the towline. 
+(6)  The components of the towing connection shall be dimensioned for the ship's bollard pull with a safety factor of 
+at least 3 against breakage. 
+Amended by Regulation of 18 December 2015 No. 1769 (in force on 1 January 2016).  
+Section 13 
+Towing and anchor-handling equipment  
+(1)  Cruciform bollards, towing pins and guide pins and similar equipment for use in towing operations shall at least 
+be designed for the ship’s maximum towing force in the least favourable directions from 0 to 60 degrees to either side 
+in relation to the ship’s centre-line and 30 degrees upwards in relation to the horizontal plane. 
+(2)  Towing or anchor-handling winches shall: 
+a)   satisfy the requirements for dimensioning and testing of international standard ISO 7365, unless otherwise 
+provided in this section; 
+b)   be capable of being emergency released from the navigation bridge; and 
+c)   have winch drums with a remote-operated spooling device which can be operated from the bridge. Offshore 
+support vessels constructed before 1 November 1992 shall satisfy the requirement no later than 1 July 2004. 
+The spooling device shall: 
+(i)  if it operates the main anchor-handling drums, have rollers which can be split apart; 
+(ii)  be so dimensioned as to be capable of spooling wire at maximum winch load and with the view of the 
+wire in the least favourable position in relation to the drum and towing pins or guide pins; 
+(iii)  have a capacity of at least ten per cent of the maximum lifting force of the winch; 
+(iv)  give way in a controlled fashion if the spooling device is overloaded; 
+d)   have a main towline for ocean towing with a length that at least satisfies the following formula: 
+L = (BP/BL)1,800 metres where the following is given in tonnes: 
+BL = documented breaking load of the main towline 
+BP = maximum continuous bollard pull; 
+e)   have a main towline with a minimum documented breaking load (MBL) as follows: 
+BP (tonnes)        <40          40-90                >90 
+MBL (tonnes)    3.0BP       (3.8-(BP/50))     2.0BP 
+(3)  Wire/chain stoppers, towing pins, guide pins and arrangements pursuant to section 11 second paragraph shall have 
+an automatic audible alarm on the working deck. The alarm shall be activated when the equipment is set in motion. 
+Offshore support vessels constructed before 1 November 1992 shall satisfy the requirement no later than 1 July 2004. 
+(4)  Wire/chain stoppers shall be dimensioned for a safe working load (SWL) which is 20 per cent higher than the 
+maximum winch power and shall satisfy the following requirements: 
+a)   the elongation at break shall be minimum 12 per cent; 
+b)   average impact resistance of three single tests shall be minimum 50 J at room temperature and no test value 
+shall fall below 40 J; 
+c)   the hardness shall be maximum 320 HV Vickers hardness value. 
+(5)  Chain stoppers designed for a SWL of:  
+a)   up to 120 tonnes shall be capable of being released at the specified SWL;  
+b)   from 120 and up to 500 tonnes shall be capable of being released at a minimum pull of 100 tonnes + 20 per 
+cent of the chain stopper’s SWL;  
+c)   500 tonnes and upwards shall be capable of being released at a minimum pull of 40 per cent of the SWL.  (6)  Wire/chain stoppers, towing pins, guide pins and similar equipment shall not be used as a strong point during 
+towing and anchor-handling operations  
+(7)  Offshore support vessels engaged in anchor-handling shall be fitted with a remote-controlled wire/chain stopper 
+capable of being emergency released from the bridge or a control station from which there is communication to the 
+bridge. Emergency release shall be possible in dead ship situations and without manual handling close to the stopper. 
+Amended by Regulation of 5 September 2014 No. 1158 (in force on 15 September 2014). 
+Section 14 
+Requirements for towing hook  
+Towing hooks shall: 
+a)   with the mounting arrangement, be designed for the maximum towing force of the ship and have a safety 
+factor of not less than 5 in relation to the ultimate strength of the material; 
+b)   be mounted in such a way that it can move freely in the horizontal and vertical sectors in which the towline 
+can move; 
+c)   have a reliable and appropriate emergency release mechanism, the release of which shall be possible from 
+all points from which the boat can be manoeuvred (wheelhouse, navigation bridge, etc.) and from a safe 
+place on deck in the immediate vicinity of the towing hook; 
+d)   be capable of being emergency released irrespective of the heeling of the ship, the angle and direction of the 
+towing arrangement drag, etc.  
+Section 15 
+Towing and pushing arrangements on barges  
+(1)  Barges required to have a trading certificate shall be fitted with a permanent main towing arrangement and a spare 
+towing arrangement. The towing arrangements shall be dimensioned for the towing power necessary to tow the barge at 
+a speed of at least five knots in calm waters and to keep the barge steady and to manoeuvre it in a safe manner under the 
+maximum wind, wave and current conditions which may be expected to occur in the area in which the barge shall be 
+towed. The wind resistance of the deck cargo shall be taken into consideration. 
+(2)   A main towing arrangement shall consist of: 
+a)   towing fastenings on the barge;  
+b)   bridle which shall consist of a chain or steel wire, or a combination of these with a length that normally 
+corresponds to the width of the barge; 
+c)   flounder plate. 
+(3)  A spare towing arrangement shall always be ready for use and a new towing connection shall be capable of being 
+quickly and safety established. 
+(4)  A towing arrangement and towing fastenings shall be dimensioned with a safety factor of at least three times the 
+force pursuant to the first paragraph. 
+(5)  The first and fourth paragraph shall apply correspondingly for pushing arrangements.  
+Section 16 
+Material certificates  
+(1)  All movable equipment on board included in the towing arrangement or anchor-handling system, such as shackles, 
+rings, steel wires and hawsers, shall have a material certificate. 
+(2)  Material certificates for movable equipment shall be delivered with the ship. 
+Chapter 3 
+Stability 
+Section 17 
+Stability calculations  
+Ships shall have stability calculations, hydrostatics, KY curves, calculations of gross and net tonnage and supporting 
+documentation carried out by means of a computer program approved by the Norwegian Maritime Authority. The same 
+database shall be used for stability and tonnage calculations. Section 18 
+Stability of ships constructed in accordance with section 4 
+(1)  Ships constructed in accordance with section 4 shall in all relevant loading conditions have sufficient stability and 
+satisfactory trim, and shall avoid any list. 
+(2)  Ballast shall be so located and secured that it cannot shift. Permanent ballast shall not be liquid or capable of being 
+pumped.  
+(3)  When construction is completed, the ship shall be subjected to an inclining test for the determination of light ship 
+data. 
+(4)  The Norwegian Maritime Authority may upon application grant exemptions from the requirement for inclining 
+test when the basic light ship data may be obtained from an inclining test for a sister ship, and the applicant demonstrates 
+that such data gives reliable information on the stability of the ship for which the application for exemption is submitted. 
+(5)  If an exemption from the requirement for inclining test is granted, a displacement measurement shall be carried 
+out. If the measurement result deviates from the result for the sister ship, an inclining test shall nevertheless be carried 
+out. 
+(6)  The Norwegian Maritime Authority shall be contacted if there, due to the shape of a ship, are doubts as to whether 
+an inclining test made according to normal procedures will provide reliable light ship data.  
+Section 19 
+Intact stability for ships constructed in accordance with section 4 
+(1)  The International Code on Intact Stability, 2008 (IS Code of 2008) adopted by MSC.267(85) Part A, as amended 
+by MSC.413(97), MSC.414(97), MSC.443(99) and MSC.444(99), applies as regulation for cargo ships engaged on 
+foreign voyages of less than 500 gross tonnage.  
+(2)  The IS Code of 2008 Part A paragraphs 2.2.1 to 2.2.4 apply as regulation for: 
+a)   cargo ships engaged on domestic voyages; and 
+b)   passenger ships engaged on domestic voyages. 
+(3)  The requirements pursuant to the first and second paragraphs shall be satisfied for all loading conditions when the 
+cross curves are calculated under free trim. 
+(4)  Passenger ships which are limited to trade area 3 and have a covered and enclosed bow area or a long forward 
+superstructure, cf. the first paragraph of section 25, are exempt from the requirements of the second paragraph when the 
+initial metacentric height (GM) is at least 0.15 metres and the area under the righting lever curve (GZ curve) for the 
+loading conditions is at least 0.055 metre radians calculated to the angle of flooding, or to a list of 20 degrees when the 
+angle of flooding is greater. 
+(5)  The maximum righting lever (GZ ) for ferries shall be at least twice the GZ at the angle to which the ferry would 
+max
+heel when half the total weight of vehicles for which the ferry may be approved is placed on the most adverse side of the 
+deck and the other side of the deck is empty. 
+(6)  When heavy vehicles are placed in an area specially marked near the centreline of the ship, this may be taken into 
+account in the calculations required in the fourth paragraph. The greatest angle of heel for which GZ  may be calculated 
+max
+is the angle of flooding. 
+(7)  Passenger ships shall not have an angle of heel that exceeds 10 degrees when all passengers are placed in the most 
+adverse position on one side of the ship. 
+Amended by Regulations of 19 December 2014 No. 1853 (in force on 1 January 2015), 7 December 2015 No. 1628 (in force on 1 January 2016), 
+19 December 2019 No. 2214 (in force on 1 January 2020). 
+. 
+Section 20 
+Stability of passenger ships of less than 15 metres in overall length 
+(1)  For passenger ships in the fully equipped condition, of less than 15 metres in overall length and engaged on 
+domestic voyages, a practical inclining test shall be carried out with weights on board corresponding to the maximum 
+number of passengers for which the ship is certified. The weights shall be placed in the most adverse position.  
+(2)   On passenger ships pursuant to the first paragraph carrying cargo with a high centre of gravity, the cargo or 
+equivalent weights shall be on board during the practical inclining test. When all passengers are placed on one side of 
+the ship in the most adverse position, the angle of heel shall not exceed 10 degrees. The resulting inclination shall not 
+lead to a reduction of the freeboard of more than half the freeboard for ships in the uninclined position. 
+(3)  Instead of the requirements of the first and second paragraphs of this section, stability calculations may be 
+performed pursuant to section 17. The provisions of section 19 second, fourth and fifth paragraphs shall apply 
+correspondingly.  Section 21 
+Intact stability for barges  
+(1)  Barges shall have intact stability which is sufficient for intended operations, taking into consideration the most 
+adverse effects of weight shifting, free liquid surfaces, environmental forces, etc. which may occur. 
+(2)  Barges shall for all loading conditions have an area below the GZ curve which is greater than 0.08 metre radians 
+up to the angle of GZ  or the angle of flooding when this is less than the angle of GZ . 
+max max
+(3)  Unmanned barges operating in trade area 3 or lesser trade area shall have an area below the GZ curve of at least 
+0.053 metre radians up to the angle of GZ  or to the angle of flooding when this is less than the angle of GZ . 
+max max
+Section 22 
+Stability of heavy lift vessels 
+Submersible heavy lift vessels which have been granted exemptions from the requirements of the Load Line 
+Convention shall be subject to special assessment with regard to intact and damage stability.  
+Section 23 
+Requirements for new stability calculations  
+(1)  Ships which are assigned a smaller freeboard than previously determined shall satisfy the same stability 
+requirements as for new ships with the new draught.  
+(2)  When alterations of a ship affect the ship’s buoyancy in such a way that the hydrostatics and KY values are 
+changed, the company shall submit new stability calculations.  
+(3)  Ships altered through repair, conversion or outfitting in such a way that the ship’s stability is affected, shall at 
+least satisfy the requirements for stability which applied before the ship was altered.  
+(4)  In the event of major alterations due to repairs, changes, conversions or changes in outfitting, the ship shall satisfy 
+the requirements for stability which apply to a new ship at the time of the alteration. 
+(5)  If there are doubts about the light ship data of a vessel, a new inclining test shall be performed. 
+(6)  If there are doubts about the stability of a ship, the Norwegian Maritime Authority may demand stability 
+information to be submitted.  
+(7)  Ships being certified for a greater trade area shall satisfy the requirements for stability applicable for the new trade 
+area  
+Section 24 
+Double bottoms for passenger ships engaged on domestic voyages 
+(1)  Passenger ships of 50 metres in length (L) and upwards engaged on domestic voyages shall have a double bottom 
+in accordance with SOLAS 90 regulation II-1/12. 
+(2)  The requirement pursuant to the first paragraph may be dispensed with in its entirety or for a limited area when 
+the requirements for damage stability in SOLAS 90 regulation II-1/8 are satisfied for any two-compartment damage in 
+the area concerned, with the extent of damage as defined below:  
+a)   Longitudinal extent: The damage shall include at least one watertight transverse bulkhead and the length 
+shall be calculated as 3 metres + 0.03 L, or 11 metres, whichever is less. 
+b)   Transverse extent: Symmetrical on the ship’s centreline without limit. 
+c)   Vertical extent: Equal to the requirement for double bottom height as set out in SOLAS 90 regulation II-
+1/12. 
+Section 25 
+Watertight integrity above the freeboard deck  
+on ships constructed pursuant to section 4 
+(1)  The requirements of SOLAS regulation II-1/12.7 apply to ships constructed pursuant to section 4 which have: 
+a)   a bow port and superstructure covering the entire length of the ship;  
+b)   a long forward superstructure and where the collision bulkhead above the freeboard deck is replaced by an 
+inner bow port or bow ramp. 
+(2)  For Class C or D ro-ro passenger ships or ro-ro passenger ships operating in trade area 2 or lesser trade area, an 
+inner bow port or bow ramp pursuant to the first paragraph is not required, when the ship at least satisfies the rules of a 
+recognised classification society for enclosed vehicle ferries related to: 
+a)   deck drainage; 
+b)   the heights of coamings and sills for accesses to below deck inside the superstructure. (3)  Ro-ro passenger ships shall have indicators on the navigation bridge, showing whether bow and stern ports for 
+superstructures on freeboard decks and side ports on and below freeboard decks are fully closed and secured with the 
+entire activating arrangement. 
+(4)  Passenger ships with decks for special category spaces, e.g. enclosed vehicle decks, shall have openings for 
+efficient drainage of the maximum water quantity which can be pumped on to the deck simultaneously through the fixed 
+pressure water spraying system and through other systems.  
+(5)  Descending accesses to below decks in special category spaces shall have coaming and sill heights preventing 
+flooding through such accesses for the quantity of water specified in the fourth paragraph. 
+Section 26 
+Watertight subdivision and damage stability for  
+passenger ships constructed pursuant to section 4 
+(1)  Passenger ships constructed pursuant to section 4 which are operating in trade area 1 or greater trade area and are 
+certified for 100 passengers or more, shall have a survival index “A” which is not less than the minimum index “R”. 
+(2)  The survival index “A” is calculated by the formula: 
+A = Σ p s 
+i i
+where: 
+“i”   represents the case of flooding in question; 
+“p”   represents the probability that only the case of flooding under consideration may occur, disregarding the 
+vertical extent of damage; 
+“s”   represents the probability that the vessel will not sink or capsize in the case of flooding under consideration, 
+including the effect of any horizontal watertight subdivision. 
+(3)  For the calculation pursuant to the second paragraph the following conditions apply: 
+a)  “A” shall be calculated for zero trim, unless this is inconsistent with the design and operation of the ship. 
+b)  The summation of p s covers only those cases of flooding which contribute to the value of the survival index 
+i i
+“A”. 
+c)  The summation of p s shall be taken over the entire length “L” for all cases of flooding in which a single 
+i i s
+compartment or group of two or more adjacent compartments may be flooded. 
+d)  When the ship has wing compartments, the summation of p s shall be taken for all cases of flooding which 
+i i
+cover only wing compartments and which contribute to the survival index “A”. In addition all cases of 
+flooding covering the wing compartments and inboard compartments shall be calculated. A rectangular 
+penetration extending to the ship’s centreline shall be assumed as basis for the calculations, but excluding 
+damage to any centreline bulkhead. 
+e)  The vertical extent of any damage shall be calculated from the baseline upwards to any watertight horizontal 
+subdivision above the waterline, or higher. When a lesser vertical extent of damage will give a less favourable 
+result, such damage shall be assumed. 
+f)  When pipes, ducts or tunnels are situated within assumed damaged compartments, it shall be assumed that 
+arrangements have been made to prevent progressive flooding of intact compartments. 
+g)  Only one breach of the hull shall be assumed in the calculations.  
+(4)  The minimum index “R” is calculated by the formula: 
+3  
+√0.15𝑁𝑁+𝐿𝐿𝐿𝐿
+where:  10
+Ls is the ship’s subdivision length in metres; 
+“N” is the number of passengers which the ship is certified to carry. 
+The value “s”, calculated for all compartments forward of the collision bulkhead, shall not be less than 1 when 
+the ship is loaded to the summer freeboard and unlimited vertical damage is assumed. 
+(5)  Ships satisfying the requirements of SOLAS chapter II-1 parts B and B1 to B4 with regard to watertight 
+subdivision and damage stability need not comply with the requirements of the first paragraph of this section. 
+Section 27 
+Calculation of the probability that only the case of  
+flooding considered pursuant to section 26 occurs 
+(1)  The probability (“p”) that only the case of flooding considered pursuant to section 26 occurs, is calculated as 
+follows:  
+a)  if the case of flooding extends over the entire subdivision length L: p = 1; 
+s i
+b)  if x  coincides with the aft terminal: p = F + 0.5 a p + q; 
+1 i
+c)  if x  coincides with the forward terminal: p = 1 - F + 0.5 a p; 
+2 id)  if both x  and x  are inside the aft and forward terminals of the length L: p = a p 
+1 2 s i
+(2)  In applying the formulae of subparagraphs b), c) and d) to flooded compartments where x  and x  are on either 
+1 2
+side of the mid-length, the formulae values shall be reduced by an amount determined according to the formula for “q” 
+in the fifth paragraph below, in which F  is calculated by taking y = J’/ Jmax. 
+(3)  Compartments with longitudinal bulkheads: 
+a)  For compartments fitted with longitudinal bulkheads the value “p” for the wing compartment is determined 
+by multiplying the value referred to in the fourth paragraph by the reduction factor “r” according to 
+subparagraph c) of this paragraph.  
+b)  In cases where both a wing compartment and adjacent inboard compartments are flooded, the value “p” shall 
+be calculated by multiplying the value referred to in the fourth paragraph of this section by the factor (1 – r). 
+c)  The reduction factor “r” is determined by the following formulae: 
+If   
+𝑏𝑏
+𝐽𝐽 ≥ 0.2 𝐵𝐵:     if   
+𝑏𝑏 0.08 𝑏𝑏
+𝑟𝑟 = 𝐵𝐵�2.3+𝐽𝐽+0.02�+0.1  ,   if𝐵𝐵 ≤ 0.2 
+0.016 𝑏𝑏 𝑏𝑏
+I𝑟𝑟f = �𝐽𝐽+0.02 +𝐵𝐵+0.36�,   𝐵𝐵 > 0.2
+𝑏𝑏
+The reduction factor "r" shall be determined by linear interpolation between    
+𝐽𝐽 < 0.2𝐵𝐵:
+r = 1 for J = 0 
+and 
+r as for   with   inserted for J 
+𝑏𝑏 𝑏𝑏
+where  𝐽𝐽 ≥ 0.2𝐵𝐵, 0.2𝐵𝐵
+b = the mean horizontal distance between the shell and a plane at right angles to the centreline at the deepest 
+subdivision waterline. The plane is thought to intersect with the outermost point of the longitudinal bulkheads 
+in the compartment considered, and shall be calculated parallel to the bulkhead between the transverse limits 
+used in the individual compartment. 
+(4)  Combinations of compartments: 
+a)  For the calculation of single compartments the formulae of the first and second paragraphs shall be applied. 
+b)  To calculate “p” for groups of compartments the following applies: 
+For compartments taken by pairs: 
+p = p  – p  – p
+i 12 1 2 
+p = p  – p  – p , etc. 
+i 23 2 3
+For compartments taken by groups of three: 
+p = p  – p  – p  + p
+i 123 12 23 2 
+p = p  – p  – p  + p, etc. 
+i 234 23 34 3
+For compartments taken by groups of four: 
+p = p  – p  – p  + p
+i 1234 123 234 23 
+p = p  – p  – p  + p , etc.  
+i 2345 234 345 34
+The values 
+p , p , p34, etc. 
+12 23
+p , p , p , etc. and 
+123 234 345
+p , p , p , etc. 
+1234 2345 3456
+shall be calculated according to the first, second and third paragraphs as for a single compartment whose non-
+dimensional length J corresponds to that of a group consisting of the compartments indicated by the indices assigned to 
+p. 
+c)  The factor “p” for a group of three or more compartments equals zero if the non-dimensional length, minus 
+the foremost and aftermost compartments in the group, is greater than J . 
+max
+(5)  For the calculation of pi according to the first paragraph, the following applies: 
+x  = the distance from the aft terminal of “L” to the foremost portion of the aft end of the compartment being 
+1 s
+considered. 
+x  = the distance from the aft terminal of “L” to the aftermost end of the forwardmost limit of the flooded 
+2 s
+compartment considered. 
+E = x  / Ls 
+1 1
+E2 = x2 / Ls 
+E = E + E - 1 
+1 2
+J = E - E 
+2 1
+J’ = J - E, if E ≥ 0 
+J’ = J + E, if E < 0. 
+The maximum non-dimensional damage length: 
+J  = 48/Ls, but not more than 0.24. 
+maxThe assumed distribution density of damage location along the ship’s length: 
+a = 1.2 + 0.8E, but not more than 1.2 
+The assumed distribution function of damage location along the ship’s length: 
+F = 0.4 + 0.25E (1.2 + a) 
+y = J/ J
+max 
+If y < 1: 
+F  = y2 – y3/3 
+F  = y3 / 3 – y4/12 
+If y > 1: 
+F  = y – 1/3 
+F  = y2/ 2 – y/3 + 1/12 
+p = F  J
+1 max 
+q = 0.4 F (J )2.  
+2 max
+Amended by Regulation of 7 December 2015 No. 1628 (in force on 1 January 2016). 
+Section 28 
+Calculation of the probability that passenger ships  
+constructed pursuant to section 4 will not sink or  
+capsize in the case of flooding under consideration  
+(1)  The probability “s” that passenger ships constructed pursuant to section 4, cf. section 26 second paragraph, will 
+not sink or capsize shall be calculated as follows for each individual case of flooding: 
+𝑈𝑈
+where:   𝐿𝐿 = 𝐶𝐶�2𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺𝐺 
+C = 1 if ϑe < 7° for damage to single compartments 
+C = 1 if ϑe < 12° for damage to two or more compartments 
+C = 0 in all other cases  
+ϑe = final equilibrium angle of heel in degrees.  
+U = positive range of the GZ curve beyond the angle ϑe in degrees, but not more than 15°. The range shall also be 
+terminated at the angle where any openings without weathertight means of closure are immersed. 
+GZ  = the maximum value in metres of the GZ curve within the range U, but not more than 0.1 metres. 
+max
+(2)  s = 0 when openings without watertight means of closure where progressive flooding may take place, are 
+immersed at the angle of equilibrium, and such flooding is not taken into account in the calculations. Such openings 
+include air pipes, ventilators and openings which are closed by means of weathertight doors or hatches, but need not 
+include openings closed by means of watertight manhole covers, small watertight hatch covers, remote-operated sliding 
+watertight doors and other watertight doors and access hatches normally closed when the ship is underway. 
+(3)  For each compartment “s” shall be weighted according to draught considerations as follows: 
+s = 0.5s  + 0.5sp 
+i 1
+where 
+“s ” is the s-factor for the deepest subdivision waterline 
+“s ” is the s-factor for the partial subdivision waterline. 
+(4)  For ships with horizontal subdivision above the waterline in question, the following shall be taken into account: 
+a)  The s-value for the portion of the compartment or group of compartments below the horizontal subdivision 
+shall be calculated by multiplying the s-value from the first paragraph by the reduction factor “v”, calculated 
+according to subparagraph c) below.  
+b)  When simultaneous flooding of the spaces above and below the horizontal subdivision will give a positive 
+contribution  to  the  survival  index  “A”,  the  resulting  s-value  for  such  a  compartment  or  group  of 
+compartments shall be obtained by an increase in the s-value calculated according to subparagraph a) above 
+by the s-value from the first paragraph, multiplied by the factor (1 – v). 
+c)  The value “v” represents the probability that the spaces above the horizontal subdivision will not be flooded, 
+and is calculated as follows: 
+𝐻𝐻−𝑑𝑑
+when flooding up to the horizontal subdivision abo𝑣𝑣ve𝑖𝑖 t=he subdivision waterline is assumed. 
+“H” shall not be greater than “Hmax”.   𝐻𝐻𝑚𝑚𝑚𝑚𝑚𝑚 −𝑑𝑑
+v = 1 when the height to the horizontal subdivision in the damaged region is below “H ”. 
+i max
+Where: 
+“H” is the assumed vertical extent of damage in metres calculated from the baseline. “H ” is the maximum possible vertical extent of damage in metres calculated from the baseline, or 
+max
+H  = d + 0.056 Ls (1 - Ls / 500), if Ls < 250 (m) 
+max
+or 
+H = d + 7, if Ls > 250 (m), whichever is less.  
+max
+Amended by Regulation of 5 September 2014 No. 1158. 
+Section 29 
+Permeability to be applied for the calculations  
+pursuant to sections 27 and 28  
+For the purpose of the calculations pursuant to sections 27 and 28 the following permeabilities shall apply for each 
+individual space or part of a space: 
+Space         Permeability (u) 
+Appropriated to stores      0.60 
+Occupied by accommodation      0.95 
+Occupied by machinery       0.85 
+Void spaces and similar       0.95 
+Intended for dry cargo      0.70 
+Intended for liquid         0 or 0.95. The value resulting in the more severe requirements shall be 
+applied.  
+Section 30 
+Openings in afterpeak bulkheads and peak bulkheads on passenger ships constructed 
+pursuant to section 4 
+(1)  Passenger ships operating in trade area 4 or lesser trade area, and which are certified to carry not more than 99 
+passengers, may have an opening in the afterpeak bulkhead without any securing arrangement from above the freeboard 
+deck, when access to the steering gear cannot be arranged without considerable difficulty from another location. 
+(2)  The opening shall be located close to the ship’s centreline with a sill as high as practicable. The opening shall not 
+be larger than absolutely necessary and shall be capable of being securely closed with a watertight cover (manhole cover) 
+or a packed watertight door or hatch opening inwards into the afterpeak. Signs shall be exhibited stating that the opening 
+shall be closed watertight when the ship is underway. 
+(3)  For shuttle ferries the peak bulkhead at either end shall be regarded as a collision bulkhead in which openings are 
+not permitted.  
+Section 31 
+Ships having side thrusters with elastic mounting 
+(1)   Ships having side thrusters with elastic mounting and barrier against flooding consisting of rubber lining or 
+similar, shall in all loading conditions satisfy the requirements of intact stability with the side thruster space flooded with 
+water. The same applies to ships with requirements for damage stability.  
+(2)   When calculating the KG limit curves, it shall be taken into account that the side thruster space is flooded with 
+water.  
+Section 32 
+Loading conditions  
+(1)  Ships shall have prepared loading conditions which are relevant for the operation of the ship. The IS Code of 2008 
+Part A paragraphs 2.2.1 to 2.2.7 apply as regulation.  
+(2)  In addition to the requirements of the first paragraph, offshore support vessels shall also prepare a fully loaded 
+departure condition loaded to the summer load line with deck cargo the extent and weight of which is specified, with 
+any cargo below deck, fully equipped, 100 per cent and 10 per cent provisions and fuel corresponding to the most adverse 
+condition of stability which satisfies all requirements for intact stability and damage stability. 
+(3)  In addition to the requirement of the first paragraph, relevant towing conditions shall be prepared for ships carrying 
+out towing operations.  
+(4)  For ships which carry out towing operations and do not comply with the towing criteria of section 34 when the 
+ship is loaded pursuant to the first and second paragraphs, corrected loading conditions shall be prepared showing 
+limitations in loading capacity during towing operations.  Section 33 
+Calculation of loading conditions for ships  
+with free flooding or circulation in wells 
+(1)  For ships with openings/ventilators for free flooding or circulation in wells, the following loading conditions shall 
+be calculated: 
+a)   ship fully equipped, with 100 per cent fuel and fresh water, empty well and without cargo in cargo holds, if 
+any; 
+b)   as for subparagraph a), but with 10 per cent fuel and fresh water; 
+c)   ship fully loaded, with 100 per cent fuel and fresh water, full equipment, flooded well and the amount of 
+water ballast necessary to obtain immersion in accordance with the load line certificate; 
+d)   as for subparagraph c), but with empty water ballast tanks; 
+e)   ship fully loaded, with 10 per cent fuel and fresh water; 
+f)   ship with or without load, but with a distribution of fuel and fresh water which may have a less favourable 
+effect on stability; 
+g)   vessel with cargo well partly flooded. This condition shall indicate the least favourable stability situation 
+that may occur with regard to free liquid surfaces, cargo distribution, etc. 
+(2)  For the loading conditions pursuant to the first paragraph the requirements for cargo ships shall apply, cf. section 
+32.  
+(3)  When the flooding or discharging of the well takes place only in port and the cargo well is either completely 
+empty or completely flooded when the vessel is underway, loading conditions for partly flooded wells may have a GZ  
+max
+of at least 10 cm and a positive GZ curve up to at least 20 degrees. 
+(4)  Loading conditions shall be calculated with correction for free surface effects in the cargo well.  
+(5)  Cargo holds shall be included in the calculations as an integrated part of the hull, and documented in the 
+specifications for the other parts of the hull. Data on the volume, centres of gravity, moments of inertia, etc. shall appear 
+from the sounding table(s) for the cargo well(s). The specific weight of the cargo shall be set at 1.025 tonnes/m3 for the 
+calculations. 
+(6)  For a vessel with direct communication to the sea and with free flooding of the well(s), hydrostatic curves shall 
+be prepared and clearly marked to the effect that it applies only when the well is excluded from the buoyancy. When the 
+vessel is fully bunkered and fully equipped, and the cargo well is filled by free flooding, the draught shall not exceed the 
+vessel’s load line limitations. The water level inside the well shall then be regarded as equal to the water level outside, 
+and should reach well up into the trunk(s). 
+(7)  Loading conditions in which the water level inside the well is below the waterline in question are not permitted. 
+Loading conditions in which the water level inside the well is above the waterline in question are permitted if the 
+company by means of supplementary calculations can document sufficient stability. 
+Section 34 
+Intact stability for ships carrying out towing operations  
+Ships carrying out towing operations shall, in addition to the requirements for intact stability pursuant to section 3 or 
+sections 18 and 19, comply with the following requirements: 
+a)   When the ship is exposed to a force giving the ship a transverse speed through the water of 5 knots, the first 
+intersection between the righting lever curve (GZ curve) and the heeling arm curve shall occur at an angle 
+which is less than the angle of flooding. 
+b)   When the ship is exposed to a transverse force equal to the ship’s maximum towing force multiplied by 0.65, 
+the area between the righting lever curve (GZ curve) and the heeling arm curve calculated from the first 
+point of intersection to the angle of GZ  or 40 degrees or the angle of flooding, shall be equal to or greater 
+max
+than 0.010 metre radians. The vertical arm of the heeling moment shall be taken from the centre of the 
+propeller(s) to the fastening point of the hawser.  
+Section 35 
+Watertight bulkheads in offshore support vessels  
+(1)  Offshore support vessels shall have bulkheads and means of closure for openings in bulkheads of such strength 
+and design as to be capable of effectively withstanding the water pressure which may occur in the event of damage to 
+the ship. 
+(2)   All openings and pipe penetrations in watertight bulkheads or in the bulkhead deck shall be so arranged that they 
+cannot result in flooding of adjacent compartments. 
+(3)   An indicator to show whether a watertight door is open or closed shall be provided on the bridge. 
+(4)  Watertight bulkheads may have hinged doors, when the strength, tightness and closing capacities of such doors 
+are equivalent to those of watertight sliding doors.  
+(5)  Pipe penetrations shall be fitted with valves operated from above the bulkhead deck. (6)  Emergency exits from machinery spaces to exposed decks shall be in a trunk with a clear opening of not less than 
+60 x 80 cm. A watertight door shall be provided between the machinery space and the trunk. When this door is hinged, 
+it shall be fitted with centrally operated closing appliances and shall open inwards into the trunk.  
+Section 36 
+Time of closing for watertight doors  
+The time of closing for watertight doors shall not be less than 20 seconds.  
+Chapter 4 
+Special damage stability requirements for ro-ro  
+passenger ships engaged in regular service on foreign voyages  
+Section 37 
+Damage stability for ro-ro passenger ships engaged  
+in regular service on foreign voyages  
+(1)  For ro-ro passenger ships engaged in regular service on foreign voyages, SOLAS 90 regulation II-1/B/8 applies 
+as regulation in addition to the requirements pursuant to section 3. 
+(2)  Ro-ro passenger ships engaged in regular service on foreign voyages shall comply with the requirements of 
+SOLAS 90 regulation II-1/B/8.2.3 when taking into account the effect of a hypothetical amount of seawater which is 
+assumed to have accumulated on the first deck above the design waterline of the ro-ro cargo space or the special category 
+space as defined in SOLAS 90 regulation II-2/3, and the deck is assumed to be damaged. Other requirements of SOLAS 
+90 regulation II-1/B/8 do not apply. 
+(3)  All ro-ro passenger ships which on 17 May 2003 were in compliance with the requirements of the SOLAS 90 
+regulation II-1/B/8, shall comply with the requirements of sections 37 to 40 not later than 1 October 2015.  
+Section 38 
+Determination of significant wave height  
+(1)  Significant wave heights (h) shall be used to determine the height of the water surface on the ro-ro deck when the 
+requirements of section 37 apply. 
+(2)  When determining significant wave height, the wave heights indicated by the maps in Appendix 1 shall be used. 
+Where the ship’s route crosses more than one sea area, the ship shall satisfy the specific stability requirements for the 
+highest value of significant wave height identified for these areas. 
+(3)  For ro-ro passenger ships in regular scheduled service in areas other than those indicated by the maps in Appendix 
+1, a significant wave height of 4 m shall be used, unless a smaller significant wave height may be documented. 
+(4)  For ro-ro passenger ships engaged in seasonal or time-limited service in sea areas with lower significant wave 
+height than the wave height established for the same sea area for all-year-round traffic, the Norwegian Maritime 
+Authority shall, when applying the special stability requirements pursuant to section 37, use the significant wave height 
+applicable for this shorter time period to determine the height of the water surface on deck. The value of the significant 
+wave height applicable for this shorter time period is determined by the Norwegian Maritime Authority or by agreement 
+with the EEA country in which the ship will be engaged on a regular service. 
+(5)  For ro-ro passenger ships engaged in regular service on foreign voyages for only a shorter time period, the 
+Norwegian Maritime Authority shall determine the significant wave height to be applied by agreement with the port 
+State at which the ship is to call. 
+Section 39 
+Calculation of assumed accumulated seawater  
+on the first ro-ro deck above the design waterline 
+(1)  The effect of the volume of assumed accumulated seawater, cf. section 37 second paragraph, is calculated on the 
+basis of a water surface having a fixed height above the lowest point of the deck edge of the compartment on the damaged 
+ro-ro deck.  
+(2)  When the deck edge of the compartment on the damaged ro-ro deck is submerged, then the calculation shall be 
+based on a fixed height above the still water surface at all heel and trim angles, as follows: 
+a)   0.5 m if the residual freeboard (f) is 0.3 m or less; 
+b)   0.0 m if the residual freeboard (f) is 2.0 m or more; 
+rc)   intermediate values are determined by linear interpolation, if the residual freeboard (f) is 0.3 m or more, but 
+less than 2.0 m. 
+(3)  The residual freeboard pursuant to the second paragraph a) and b) is the minimum distance between the damaged 
+ro-ro deck and the final waterline at the location of the damage in the damage case being considered, without taking into 
+account the effect of the volume of assumed accumulated water on the damaged ro-ro deck. 
+(4)  For a ro-ro passenger ship having a high-efficiency drainage system, the Norwegian Maritime Authority may 
+allow a reduction in the height of the assumed constant water surface.  
+Section 40 
+Adaptations for ro-ro passenger ships in  
+geographically defined trade areas  
+(1)  For a ro-ro passenger ship engaged in regular service in geographically defined trade areas, the Norwegian 
+Maritime Authority may establish the height of the assumed constant water surface pursuant to section 39 second or 
+third paragraph at the following values: 
+a)   0.0 m if the significant wave height defined for the area concerned is 1.5 m or less; 
+b)   the value established in accordance with section 39 if the significant wave height defined for the area 
+concerned is 4.0 m or above; 
+c)   intermediate values to be determined by linear interpolation if the significant wave height defined for the 
+area concerned is 1.5 m or more but less than 4.0 m. 
+(2)  The values are established pursuant to the first paragraph provided that the following conditions are fulfilled: 
+a)   the area concerned has a significant wave height which is not exceeded with a probability of more than 10 
+per cent; 
+b)   the trade area and, if applicable, the part of the year for which a certain value of the significant wave height 
+has been established, are entered into the certificates. 
+(3)  For ro-ro passenger ships exclusively engaged on voyages in sea areas where the significant wave height is 1.5 m 
+or less, the requirements for stability in SOLAS 90 regulation II-1/B/8 are considered equivalent to the requirements 
+pursuant to section 37.  
+Section 41 
+Assessment of the effect of assumed accumulated  
+seawater on damaged ro-ro deck  
+(1)  When the effect of the volume of assumed accumulated seawater on a damaged ro-ro deck shall be assessed, cf. 
+sections 39 and 40, the following conditions shall apply: 
+a)   A transverse or longitudinal bulkhead shall be considered intact if all parts of it lie inboard of vertical surfaces 
+on both sides of the ship, when these are situated at a distance from the shell plating equal to one-fifth of the 
+breadth of the ship, cf. SOLAS 90 regulation II-1/2, measured at right angles to the centreline at the level of 
+the deepest subdivision load line. 
+b)   In cases where the ship’s hull is structurally partly widened for compliance with the provisions of section 
+37, the resulting increase of the value of one-fifth of the breadth of it is to be used throughout. The increase 
+shall not govern the location of existing bulkhead penetrations, piping systems, etc., which were acceptable 
+prior to the widening. 
+c)   Transverse and longitudinal bulkheads shall be of sufficient tightness to confine the assumed accumulated 
+seawater in the compartment concerned in the damaged ro-ro deck, shall be so dimensioned that they are 
+adapted to the drainage system, and shall withstand hydrostatic pressure in accordance with the results of the 
+damage calculation. Unless the height of water is less than 0.5 m, such bulkheads shall be at least 4 metres 
+in height. In such cases the height of the bulkhead shall be calculated in accordance with the following: B 
+= 8h , 
+where: 
+B  is the bulkhead height 
+and h  is the height of water. 
+d)   In any event, the minimum height of the bulkhead should be not less than 2.2 m. On ships with hanging 
+decks the minimum height of the bulkhead shall not be less than the height to the underside of the hanging 
+deck when in its lowered position. 
+e)   For special arrangements, e.g. full width hanging decks and wide side casings, other bulkhead heights may 
+be accepted by the Norwegian Maritime Authority based on detailed model tests. It is not necessary to take 
+into account the effect of the volume of the assumed accumulated seawater for any compartment of the 
+damaged ro-ro deck, provided that such a compartment has on each side of the deck freeing ports evenly 
+distributed along the sides of the compartment complying with the following:  
+(i)  A ≥ 0.3 l where A is the total area of freeing ports on each side of the deck in m2; and l is the length of 
+the compartment in metres. (ii)  Residual freeboard is at least 1.0 m in the worst damage condition without taking into account the 
+effect of the assumed volume of water on the damaged ro-ro deck. 
+(iii)  The freeing ports are located within the height of 0.6 m above the damaged ro-ro deck, and the lower 
+edge of the ports shall be within 2 cm above the damaged ro-ro deck. 
+(iv)  The freeing ports are fitted with closing devices or flaps to prevent water entering the ro-ro deck, which 
+allow water which may accumulate on the ro-ro deck to drain. 
+f)   When a bulkhead above the ro-ro deck is assumed damaged, both compartments bordering the bulkhead 
+shall be assumed flooded to the same height of water surface as calculated pursuant to sections 39 or 40. 
+Section 42 
+Model test as alternative verification of  
+the requirements pursuant to section 37 
+(1)  The Norwegian Maritime Authority may exempt an individual ro-ro passenger ship from the requirements 
+pursuant to section 37, when verification established by model tests show that the ship in an irregular seaway will not 
+capsize with the assumed extent of damage as provided in SOLAS 90 regulation II-1/B/8.4 in the worst location 
+considered pursuant to section 39. The ship’s certificate shall show that the Norwegian Maritime Authority has accepted 
+the model test as equivalent to compliance with section 37. The value of the significant wave height used in the test shall 
+be included on the certificate. 
+(2)  Ro-ro passenger ships with model tests approved in accordance with the model test method which applied before 
+10 March 2006, may be exempted from the requirements pursuant to section 37, correspondingly to the provisions of 
+the first paragraph of this section. 
+(3)  Model tests shall be carried out in accordance with Appendix 2.  
+Chapter 5 
+Load lines and freeboard 
+Section 43 
+Load lines and requirements for assignment  
+of freeboard on ships engaged on foreign voyages  
+For cargo ships and passenger ships engaged on foreign voyages, the Load Line Convention shall apply as regulation  
+Amended by Regulation of 19 December 2014 No. 1853. 
+Section 44 
+Requirements related to means of closure,  
+coaming and sill height for all ships  
+(1)  The Load Line Convention Annex B Appendix I Chapter II except regulations 10 and 11 applies as regulation for 
+all ships. 
+(2)  Unmanned barges or barges not carrying chemicals, gas or oil engaged only on voyages in trade area 2 or lesser 
+trade area, may be constructed without means of closure for cargo holds and other openings (open barge). 
+Section 45 
+National freeboard on passenger ships of 15 metres in  
+overall length and upwards engaged on domestic voyages 
+(1)  Passenger ships of 15 metres in overall length and upwards engaged on domestic voyages shall have a national 
+freeboard which is assigned on the basis of hull strength, the greatest immersion for which the stability is approved and 
+the location of side scuttles in the ship’s sides. Minimum freeboard shall be 100 millimetres. 
+(2)  The reduction in the freeboard for fresh water shall be maximum 1/48 of the draughts corresponding to the 
+assigned freeboard.  
+(3)  Passenger ships shall have markings for equal summer and winter freeboard and deck line on the ship’s sides in 
+accordance with the marking form. 
+(4)  Passenger ships which do not carry cargo and do not have holds or other spaces for the carriage of cargo, shall 
+have strength and stability based on the immersion of the ship with the maximum number of passengers on board for 
+which the ship is certified, including normal luggage. Amended by Regulation of 7 December 2015 No. 1628 (in force on 1 January 2016). 
+Section 46 
+Exemptions from the requirements of the Load Line Convention  
+for passenger ships engaged on domestic voyages 
+(1)  Passenger ships engaged on domestic voyages with a freeboard exceeding the minimum freeboard (100 
+millimetres), where the freeboard is given an increase in relation to the minimum freeboard which is at least equal to the 
+greatest reduction in the height of coamings or sills of hatches and doors on the freeboard deck in accordance with 
+section 44 first paragraph, need not comply with the requirements of the Load Line Convention for the dimensioning of 
+coaming and sill height, windows and freeing port area, when the conditions pursuant to the second to eighth paragraphs 
+are met.  
+(2)  Passenger ships pursuant to the first paragraph operating in trade area 2 may have: 
+a)   a sill height of minimum 380 millimetres for doors to machinery spaces. The doors shall be spraytight and 
+shall open outwards; 
+b)   a sill height of minimum 100 millimetres for doors to accommodation spaces. If the requirement for angle 
+of flooding does not specify weathertight means of closure, plate doors opening outwards are permitted; 
+c)   ship windows without hinged deadlights in deckhouses and superstructures on freeboard decks protecting 
+passages to below deck; 
+d)   windows with a strength and mounting corresponding to a recognised classification society’s rules in 
+deckhouses and superstructures on freeboard decks where there are no passages to below deck. The distance 
+from the lower edge of the window to the loaded waterline shall be at least 1,500 millimetres. The Norwegian 
+Maritime Authority may require a certain number of loose deadlights on board or arrangements for draining 
+the deckhouse and superstructure; 
+e)   a freeing port area which is reduced by up to 30 per cent compared to the requirements of section 44 first 
+paragraph. With a freeboard between the minimum freeboard (100 millimetres) and a freeboard giving the 
+greatest possible reduction in the height of the sill (600 millimetres), the freeing port area may be reduced 
+proportionately. The freeing port area may also be reduced by up to 1/3 on the one side, when the area is 
+increased correspondingly on the opposite side.  
+(3)  Ships pursuant to the second paragraph with a minimum freeboard may not reduce the sill height of doors pursuant 
+to the second paragraph a) and b) or freeing port area pursuant to subparagraph e). 
+(4)  Class D passenger ships and passenger ships pursuant to the first paragraph operating in trade area 3 or lesser 
+trade area may have: 
+a)   sill heights and doors to machinery spaces and accommodation spaces as specified in the second paragraph 
+a) and b); 
+b)   ship windows with hinged deadlights in deckhouses and superstructures on freeboard decks protecting 
+passages to below deck; 
+c)   a freeing port area which is reduced by up to 30 per cent compared to the requirements of section 44 first 
+paragraph, when the ship has a covered and enclosed bow area. A correction for high bulwarks is not required 
+when determining the freeing port area.  
+(5)  Ships pursuant to the fourth paragraph with a minimum freeboard may not have: 
+a)   a reduction in the sill height of doors; 
+b)   plate doors to accommodations spaces; 
+c)   a reduction in the freeing port area. To ensure efficient drainage of the deck, the Norwegian Maritime 
+Authority may require that the height of the bulwarks is limited to 1 metre or that these are partly or entirely 
+replaced by railings. 
+(6)  Class C passenger ships and passenger ships pursuant to the first paragraph operating in trade in trade area 4 or 
+lesser may have: 
+a)   a sill height of doors to accommodation spaces of minimum 380 millimetres. The doors shall be of a 
+spraytight type or equivalent and shall open outwards; 
+b)   ship windows with hinged deadlights in deckhouses and superstructures on freeboard decks protecting 
+passages to below deck;  
+c)   a freeing port area which is reduced by up to 30 per cent compared to the requirements of section 44 first 
+paragraph, when the ship has a covered and enclosed bow area. 
+(7)  Ships pursuant to the sixth paragraph with a minimum freeboard may not have a reduction of: 
+a)   sill heights of doors pursuant to the sixth paragraph a);  
+b)   freeing port area pursuant to the sixth paragraph c). To ensure efficient drainage of the deck, the Norwegian 
+Maritime Authority may require that the height of the bulwarks is limited to 1 metre or that these are partly 
+or entirely replaced by railings. 
+(8)  Class C or D passenger ships and passenger ships pursuant to the first paragraph operating in trade area 4 or lesser 
+trade area may have:  a)   weathertight hatches on freeboard decks which are flush with the deck, without any increase in the freeboard 
+being required. The hatches shall be kept permanently closed at sea and shall be opened only during stays in 
+shipyards etc.; 
+b)   small, weathertight hatches on freeboard decks (emergency exits and similar) with a coaming height of 
+minimum 380 millimetres, without any increase in the freeboard being required. The hatches shall normally 
+not be opened when the ship is underway; 
+c)   larger weathertight hatches on freeboard decks (cargo hold hatches and similar) with a coaming height of 
+minimum 600 millimetres. The hatches shall not be opened when the ship is underway.  
+Amended by Regulation of 7 December 2015 No. 1628 (in force on 1 January 2016). 
+Section 47 
+National freeboard for cargo ships engaged on domestic voyages  
+(1)  Cargo ships operating in small coasting or lesser trade area shall have a national freeboard. The national summer 
+freeboard shall be a freeboard assigned in accordance with the rules of the Load Line Convention Annex I Chapter III 
+reduced by 1/24 of the international summer draught. The national winter freeboard shall be a national summer freeboard 
+plus 1/48 of the international summer draught. The deduction for fresh water shall be maximum 1/48 of the international 
+summer draught. The reduction in the freeboard for fresh water shall be maximum 1/48 of the draught corresponding to 
+assigned freeboard. 
+(2)  The size of the freeboard referred to in the first paragraph is the minimum freeboard, which shall be increased in 
+accordance with the maximum draught permitted.  
+(3)  Cargo ships engaged on domestic voyages shall have markings for the freeboard size and the deck line on the 
+ship’s sides according to the marking form. 
+(4)  Cargo ships which do not carry cargo and do not have holds or other spaces for the carriage of cargo are exempted 
+from the requirements of the first paragraph of this section. The strength and stability of such ships shall be based on the 
+largest draught which the ship will have in its intended operation. 
+Amended by Regulation of 19 December 2014 No. 1853. 
+Section 48 
+Freeboard and freeboard conditions for barges  
+For barges required to have a trading certificate, but not an international load line certificate, section 47 applies 
+correspondingly.  
+Section 49 
+Exemptions from the requirements of the Load Line Convention for cargo ships and 
+barges certified for trade area 4 or lesser trade area  
+(1)  Cargo ships or barges operating in trade area 4 or lesser trade area with a freeboard exceeding the minimum 
+freeboard, where the freeboard is given an increase in relation to the minimum freeboard which is at least equal to the 
+greatest reduction in the height of coamings or sills of hatches and doors on the freeboard deck in accordance with 
+section 44, need not comply with the requirements of the Load Line Convention for the dimensioning of coaming and 
+sill height, windows and freeing port area, when the conditions pursuant to the second paragraph are met.  
+(2)  Cargo ships or barges pursuant to the first paragraph may have: 
+a)  a coaming height of minimum 380 millimetres for cargo hold hatches on freeboard decks. The hatches shall 
+not be opened when the ship is underway; 
+b)  a sill height of minimum 380 millimetres for doors to machinery spaces. The doors shall be of a spraytight 
+type and shall open outwards; 
+c)  a sill height of minimum 300 millimetres for doors to accommodation spaces. The doors shall be of a 
+spraytight type and shall open outwards; 
+d)  a coaming height of minimum 300 millimetres for small, weathertight hatches on freeboard decks 
+(emergency exit hatches or similar), which are not normally opened when the ship is underway; 
+e)  a height of coamings and sills of minimum 100 millimetres for weathertight hatches and doors on the first 
+superstructure deck; 
+f)  ship windows with hinged deadlights on the inside in superstructures and deckhouses on freeboard decks 
+protecting passages to below deck. In the front bulkhead of a superstructure or deckhouse which is 
+particularly exposed, ship windows with hinged deadlights on the inside are not permitted. 
+Amended by Regulation of 19 December 2014 No. 1853. Chapter 6 
+Machinery installations 
+Section 50 
+Approval of machinery 
+(1)  Propulsion and auxiliary machinery the output of which is 100 kW and upwards, with associated gear and control 
+and monitoring systems shall be type-approved by a recognised classification society. 
+(2)  Propulsion and auxiliary machinery the output of which is 400 kW and upwards shall, in addition to the 
+requirements of the first paragraph, be produced subject to a quality assurance system satisfying the requirements of a 
+recognised classification society. 
+(3)  Steering gear installations, boiler installations and pressure vessels having a working pressure of 3.5 bar and 
+upwards shall be type-approved by a recognised classification society.  
+Section 51 
+Additional requirements for passenger ships using sails 
+(1)  Passenger ships using sails shall have propulsion machinery as their main means of propulsion. The propulsion 
+machinery shall: 
+a)  give the vessel a speed of at least 6 knots in calm waters; 
+b)  be capable of rapid start from the manoeuvring position.  
+(2)  The strength of the rigging, rigging arrangements, sails, and the ballast necessary for the spread of canvas shall 
+be according to the directions of a person with previous experience and knowledge of this.  
+Section 52 
+Communication between machinery space and bridge on ships  
+where means for emergency manoeuvring from  
+the machinery space is provided 
+Passenger ships engaged on domestic voyages and cargo ships of less than 500 gross tonnage which have the means 
+for emergency manoeuvring from the machinery space, shall have equipment ensuring communication between the 
+navigation bridge and the machinery space.  
+Section 53 
+Automatic stop and alarm in the event  
+of abnormal operating conditions 
+(1)  Passenger ships which are engaged on domestic voyages and on which the operation and control of the propulsion 
+machinery completely depend on energy from the auxiliary machinery, shall not have automatic stop (autostop) of the 
+auxiliary machinery in the event of abnormal operating conditions.  
+(2)  The requirements of the first paragraph do not apply when a prior alarm can be given to the engineer of the watch 
+or to the officer of the watch in the wheelhouse. 
+Section 54 
+Manoeuvring system on offshore support vessels  
+and ships carrying out ocean towing operations 
+Offshore support vessels and ships carrying out ocean towing operations shall have propulsion machinery which is 
+manoeuvrable from the wheelhouse and which satisfies the following requirements: 
+a)   All controls required to manoeuvre the propulsion machinery shall function effectively even in case of 
+damage to the wheelhouse, e.g. by broken windows and similar.  
+b)   When the manoeuvrability of the ship is dependent on electrical power, measures shall be taken to prevent 
+failure of the power units due to overload. A failure of the electrical power supply shall not result in a loss 
+of manoeuvrability for more than 30 seconds. 
+c)   Emergency control of the steering gear shall be arranged in the wheelhouse. The emergency steering system 
+shall be totally independent of the main steering system and immediately be activated in the event of a failure 
+of the main system Chapter 7 
+Electrical installations on ships constructed pursuant to section 4 
+Heading amended by Regulation of 7 December 2015 No. 1628 (in force on 1 January 2016). 
+Section 55 
+Provisions for ships constructed on or after 1 March 2008 
+The provisions of sections 56 to 64 apply to the following ships constructed after 1 March 2008: 
+a)   passenger ships or cargo ships engaged on domestic voyages; 
+b)   cargo ships of less than 500 gross tonnage engaged on foreign voyages.  
+Section 56 
+Main source of electrical power 
+(1)  Ships which only use electrical power in order to maintain the auxiliary services essential for the safety and 
+propulsion of the ship, shall have redundancy ensuring that the auxiliary services can be operated when one or more 
+generating sets are out of service. 
+(2)  One of the ship’s main generating sets may be main propulsion engine driven.  
+(3)  All electrical services necessary for maintaining the ship in normal operational and habitable condition shall be 
+ensured without use of the emergency source of electrical power. 
+(4)  The ship shall have main and emergency source of power so constructed that malfunction in one installation does 
+not affect the other. 
+Section 57 
+Main and emergency electrical lighting system 
+(1)  Ships shall have a main electric lighting system which shall provide lighting throughout those parts of the ships 
+that are normally accessible to and used by passengers or crew. The main electric lighting system shall be supplied from 
+the main source of electrical power. 
+(2)  The main electric lighting system shall be so arranged that the emergency electric lighting system will not be 
+rendered inoperative in the event of a fire or other casualty in spaces containing the main source of electrical power, 
+associated transforming equipment, the main switchboard or the main lighting switchboard. 
+(3)  Ships shall have emergency electric lighting system. The system shall be so arranged that the main electric lighting 
+system will not be rendered inoperative in the event of a fire or other casualty in spaces containing the main source of 
+electrical power. 
+Section 58 
+Emergency source of electrical power 
+(1)  Ships shall be provided with a self-contained source of electrical power with emergency switchboard located 
+above the bulkhead deck, in a readily accessible place which shall not be contiguous to machinery spaces of category A 
+or to those spaces containing the main source of electrical power or main switchboard. 
+(2)  For ships where the main source of electrical power is located in two or more rooms which are not adjacent, the 
+requirement for a self-contained emergency source of electrical power is considered satisfied when: 
+a)   an emergency source of electrical power which at least has the capacity of supplying the services listed in 
+section 59 subparagraphs b) (i) and (ii) and subparagraph c), is installed above the bulkhead deck; 
+b)   every room has its own complete system for the production of electrical power, including power distribution 
+and control systems, which are completely independent of each other;  
+c)   fire or other casualty in any of the rooms will not affect the power distribution from the others or the services 
+required pursuant to section 59. 
+(3)  The emergency source of power may be a generator satisfying the requirements of the fourth and fifth paragraphs 
+or an accumulator battery satisfying the requirements of section 59 without being recharged or suffering an excessive 
+voltage drop. The generator shall be driven by an appropriate internal combustion engine with an independent supply of 
+fuel and with automatic starting arrangements in case of loss of electrical power. 
+(4)  The emergency source of electrical power shall be so arranged that it will operate efficiently when the ship is 
+listed to 22.5 degrees and when the trim of the ship is 10 degrees.  
+(5)  The emergency generator sets shall be capable of being readily started under all temperature conditions likely to 
+occur.  
+(6)  The emergency switchboard shall be situated as near as possible to the emergency source of power. Section 59 
+The capacity of the emergency source of electrical power 
+Ships shall have an emergency source of electrical power capable of operating, for a period of at least half an hour, 
+power-operated watertight doors together with the associated control, indication and alarm circuits, and for a period of 
+at least three hours, be capable of operating simultaneously the following services:  
+a)   the ship’s emergency bilge pump and one of the fire pumps; 
+b)   emergency lighting: 
+(i)  at every muster or embarkation station and over the sides; 
+(ii)  in all alleyways, stairways and exits giving access to the muster or embarkation stations; 
+(iii)  in the machinery spaces, and in the place where the emergency generator is situated; 
+(iv)  in the control stations where radio and main navigating equipment is situated; 
+(v)  in the form of electrical emergency light pursuant to section 63; 
+(vi)  at all stowage positions for firefighter’s outfits; 
+(vii)  at the emergency bilge pump and one of the fire pumps, and at the starting position of their motors;  
+(viii) in the steering engine room; 
+c)   the ship’s navigation lights; 
+d)   all communication equipment; 
+e)   the general alarm system; 
+f)   the fire detection system; 
+g)   all signal and alarm systems which may be required in an emergency, if they are electrically operated by the 
+ship’s main generating sets; 
+h)   the ship’s sprinkler pump, if any and if it is electrically operated; 
+i)   the ship’s daylight signalling lamp, if it is operated by the ship’s main source of electrical power; 
+j)   the steering engine. 
+Section 60 
+Transitional source 
+(1)  Ships without battery arrangements pursuant to section 58 second and third paragraphs shall have a transitional 
+source of electrical power. 
+(2)  The transitional source of electrical power shall consist of an accumulator battery suitably located for use in an 
+emergency. The transitional source shall be capable of supplying electrical power to the following services for a period 
+of half an hour, without being recharged or suffering an excessive voltage drop: 
+a)   emergency lighting pursuant to section 59 subparagraphs b) (i) and (ii); 
+b)   the general alarm system; 
+c)   the fire detection system; 
+d)   watertight doors, but not necessarily all of them simultaneously, unless an independent temporary source of 
+stored energy is provided; 
+e)   the control, indication and alarm circuits for watertight doors. 
+(3)  When electrical power is necessary to restore propulsion, the capacity of the transitional source, in conjunction 
+with other machinery, as appropriate, shall be sufficient to restore propulsion to the ship from a dead ship condition 
+within 30 minutes after blackout. 
+Section 61 
+Electrical power to the general alarm system  
+and public address system 
+Ships shall have a general alarm system and a personal address system (PA system) which is supplied with electrical 
+power both from the ship’s main source of power and from the emergency source of power. 
+Section 62 
+Supplementary emergency lighting for ro-ro passenger ships 
+(1)  Ro-ro passenger ships shall, in addition to the emergency lighting required by section 59  subparagraph b), have 
+electrical emergency lighting in all passenger public spaces and alleyways capable of operating for at least three hours 
+under any condition of heel when all other source of electrical power have failed. 
+(2)  The source of power for the emergency lighting shall be accumulator batteries located within the lighting units. 
+The accumulator batteries shall be continuously charged from the emergency switchboard. Any failure of the 
+supplementary emergency lighting shall be immediately apparent. The accumulator batteries shall be replaced at 
+intervals adapted to the service life of the batteries in the ambient conditions in which they are used. (3)  The emergency lighting pursuant to the first paragraph may be combined with the lighting arrangement required 
+by the regulations currently in force on life-saving appliances. 
+(4)  All alleyways, recreational spaces and service spaces normally used by the crew shall be provided with portable 
+and rechargeable battery-operated lamps. 
+Section 63 
+Escape routes with emergency lighting on passenger ships 
+(1)  Passenger ships shall have escape routes which at all points shall be marked by lighting or luminescent strip 
+indicators placed not more than 0.3 metres above the deck.  
+(2)  The marking pursuant to the first paragraph shall enable passengers to identify all the routes of escape and readily 
+identify the escape exits. When electric illumination is used, it shall be in accordance with the guidelines as given in 
+IMO Resolution A.752(18). 
+Section 64 
+Failure Mode Effect Analysis (FMEA) on passenger ships 
+(1)  For passenger ships a Failure Mode Effect Analysis (FMEA) shall be prepared in order to document the 
+functionality, stability and safety of the electrical installation under conditions that may affect the manoeuvring 
+limitations and the manoeuvring capacity.  
+(2)  The analysis shall be based on the various operating modes, including emergency mode. The document shall 
+include a description of the ship, an analysis, as well as procedures for carrying out tests. 
+Section 65 
+Regarding ships constructed before 1 March 2008 
+(1)  Ships constructed before 1 March 2008 shall, at the latest within the date of the first certificate survey after 1 
+January 2010, install an emergency source of power above the bulkhead deck, with the capacity of supplying at least the 
+services as specified in section 59 subparagraphs b) (i) and (ii) and subparagraph c). 
+(2)  Ro-ro passenger ships constructed before 1 March 2008 where the lounge is located below the main deck are 
+exempt from the requirements of the first paragraph when the source of power for the emergency lighting required 
+pursuant to section 59 subparagraph b) satisfies the requirements of section 62 second paragraph. 
+Chapter 8 
+Required documentation when constructing ships 
+Section 66 
+Addressee and deadlines for documentation 
+(1)  For ships required to have a certificate issued by the Norwegian Maritime Authority, drawings, information and 
+other documentation required for the construction shall be submitted to the Norwegian Maritime Authority. 
+(2)  For ships required to have a certificate issued by a recognised classification society, documentation pursuant to 
+the first paragraph shall be submitted to the classification society in question. 
+(3)  When  the  Norwegian  Maritime  Authority  has  not  laid  down  specified  deadlines  for  the  submission  of 
+documentation, drawings and other documentation shall be submitted as early as possible after the notification of a 
+newbuilding has been sent. 
+Section 67 
+Requirements for documentation 
+(1)  The  company  shall  with  regard  to  drawings  and other documentation demonstrate  compliance  with  the 
+requirements of the Regulations for strength, stability, watertight subdivision, machinery and electrical installations. 
+(2)  The documentation shall be so detailed and clear that the assessment as to whether the requirements are met can 
+be made based on this and additional information, if necessary. 
+(3)  The documentation shall be presented in a well-organised manner. The tonnage calculations and the stability data 
+shall be submitted under the same cover, but in separate documents. 
+(4)  The documentation may be submitted electronically, with the exception of drawings in a larger format than A1. 
+Drawings and other documentation on paper shall be submitted in triplicate, unless otherwise stipulated. (5)  The Norwegian Maritime Authority may stipulate additional detailed drawings and information to be submitted, 
+including the form in which the data shall be presented. 
+Section 68 
+Documentation to be submitted for the construction  
+of ships without class 
+(1)  For ships and barges constructed without class, which are required to have a certificate issued by the Norwegian 
+Maritime Authority, the following documentation shall be submitted:  
+a)   general drawings including the hull, and any weathertight enclosed superstructure when the superstructure 
+has been included in the ship’s buoyancy, as well as watertight bulkheads according to the rules of a 
+recognised classification society, and cargo hold and tank bulkheads. The drawings shall show the design 
+and dimensions of the hull and superstructure in normal sections and planes. Dimension calculations shall 
+be submitted with the drawings in accordance with the requirements of sections 3, 4 or 5, as well as 
+information on the use of material qualities. Dimension calculations shall contain text which clearly 
+identifies the hull elements to which the various calculations refer, or references to the corresponding 
+calculation requirements set out in the individual rules; 
+b)   other drawings related to hull for which strength calculations are required, including drawings of movable 
+decks with associated safety arrangements and the supporting calculations;  
+c)   drawings and documentation pursuant to section 69 first paragraph; 
+d)   calculations for bilge and ballast systems; 
+e)   copy of the type certificate for machinery and equipment for which type-approval is required pursuant to 
+section 50. 
+(2)  Confirmation or report concerning completed torsional oscillation check shall be submitted for ships having 
+machinery with an output of at least: 
+a)   500 kW;  
+b)   300 kW when the length of the shaft arrangement exceeds 6 metres. 
+(3)  For ships or barges carrying fish loose in cargo holds or carrying live fish in water or in another liquid mixture of 
+water, ice or similar, or carrying sand or other heavy bulk cargo, drawings shall be submitted of bulkheads in spaces for 
+the carriage of such cargo along with dimension calculations. 
+Section 69 
+Documentation to be submitted for the construction  
+of passenger ships 
+(1)  For passenger ships with class, general drawings of hulls approved by a classification society, a confirmation or 
+report concerning completed torsional oscillation check for propulsion and auxiliary machinery according to the rules of 
+a recognised classification society, cf. sections 3 or 4, shall be submitted, as well as documentation showing:  
+a)   machinery space arrangements with emergency exits indicated; 
+b)   fuel oil, bilge and ballast systems; 
+c)   seawater inlets and outlets; 
+d)   arrangements for propulsion and propellers; 
+e)   starting air system. 
+(2)   Drawings pursuant to the first paragraph shall be approved by the classification society, with the exception of 
+drawings showing the machinery space arrangement. 
+(3)  For passenger ships with damage stability requirements, a drawing showing the arrangement and dimensions of 
+bulkheads for watertight subdivision, and the type of means of closure and closing devices for openings in such 
+bulkheads shall be submitted, when this is not shown on the general drawings pursuant to the first paragraph or to section 
+68. 
+(4)  For passenger ships for which a double bottom is required, a drawing showing the height and extent of the double 
+bottom, and the position and depth of bilge wells shall be submitted, when this is not shown on the general drawings 
+pursuant to the first paragraph or to section 68. 
+(5)  For passenger ships with special category spaces, a drawing showing drainage arrangements (scuppers) for special 
+category spaces above the bulkhead deck shall be submitted. 
+Section 70 
+Documentation when constructing ships  
+without special class notations 
+(1)  For ships with class without a particular class notation for movable decks, section 68 first paragraph b) applies 
+correspondingly. (2)  For vessels without particular class notations for anchor-handling and towing equipment, the following documents 
+shall be submitted:  
+a)   drawings and calculations of the towing and anchor-handling winch, wire/chain stopper, guide pins, towing 
+hooks, cf. sections 13 and 14; 
+b)   arrangement drawing of the system used for anchor-handling. The drawing shall show the wire routing, all 
+equipment forming part of the ship’s anchor-handling system, and fastenings on deck which may be used 
+during anchor-handling. The drawing shall indicate the SWL and breaking load for all components forming 
+part of the system; 
+c)   drawing of towing arrangements for ships carrying out ocean towing operations. 
+Section 71 
+Supporting calculation material and documentation on stability 
+(1)  The hull description with any superstructures included in the stability calculations shall be plotted and submitted 
+with a print-out of the hull description. In addition to body plans and isometric plots, the section area curve shall be 
+plotted. 
+(2)  The following documentation shall be submitted not later than 2 months prior to the date of delivery from the 
+shipyard: 
+a)   Supporting calculation material: 
+(i)  hull description;  
+(ii)  general arrangement; 
+(iii)  lines drawing and body plan; 
+(iv)  outline of buoyancy volumes with means of closure and flooding openings. 
+b)   Documentation for use on board: 
+(i)  tank plans and tables/curves stating, i.a., the volume, centre of gravity, and free surface effect at 
+different levels for the individual tanks; 
+(ii)  hydrostatics; 
+(iii)  KY curves or equivalent; 
+(iv)  KG limit curves with examples of usage; 
+(v)  preliminary loading conditions. 
+c)   Before the ship is put into service or does a trial run: 
+(i)  a report regarding the inclining test and calculation of light ship data. 
+d)   Within one month of the date of delivery of the ship from the shipyard: 
+(i)  final loading conditions. 
+e)   Hydrostatics containing the following parameters as a function of the draught with a specified reference 
+point: 
+(i)  ∆, displacement; 
+(ii)  KB, centre of buoyancy; 
+(iii)  KM, transverse metacentre above the baseline; 
+(iv)  AwT , waterline area; 
+(v)  TP1, tonnes per unit submersion; 
+(vi)  MT1, moment to change trim; 
+(vii)  LCF, longitudinal centre of flotation; 
+(viii) LCB, longitudinal centre of buoyancy. 
+f)   Cross curves shall be calculated for a sufficient number of angles of heel, taking into account the shape and 
+size of the ship.  
+g)   For ships which are to carry grain in bulk, cross curves for angles of heel of 12 degrees and 40 degrees shall 
+be calculated. 
+h)   In the calculation of cross curves the ship shall be capable of trimming freely during heeling. 
+i)   For ships designed in such a way that alterations of trim values will cause substantial changes of hydrostatics 
+and cross curves, and for ships engaged in operations inside the safety zones of petroleum installations, 
+hydrostatic curves, cross curves and KG limit curves shall be calculated for the ship without trim, for 
+maximum trim and for intermediate trim values. The curves shall be calculated for a total of at least 3 trim 
+values. 
+j)   Suitable scales shall be selected for the layout of curves, to ensure that the curves are easy to read and 
+understand. Hydrostatic tables, etc. for use on board shall be calculated with the smallest possible draught 
+intervals to ensure that they are simple to read.  
+k)   Superstructures, deckhouses, trunks, etc. may be included in their entirety in the buoyancy, provided that the 
+openings in such volumes are fitted with means of closure pursuant to section 44 first paragraph. 
+l)   When volumes included in the buoyancy have openings without weathertight means of closure, and such 
+openings may lead to progressive flooding, buoyancy may be calculated up to the angle of flooding. Where 
+the angle of flooding will lead to progressive flooding, such volumes shall be excluded from the calculations. This shall appear clearly from the course of the GZ curves (one or more steps). Curves shall be drawn up 
+showing the angle of flooding as a function of the displacement/draught and trim. 
+m)   If the ship will sink due to flooding through an opening, the GZ curve shall be terminated at the angle of 
+flooding in question, and the ship shall be considered to have lost all stability. 
+n)   Small openings, for instance for passing wires, chains, tackles, etc. and scuppers, need not be considered 
+open if immersion takes place at an angle of heel of 30 degrees or more. 
+o)   The KG limit curves, or equivalent tables, shall show the maximum permissible height of the ship’s centre 
+of gravity for intact stability at various draughts and, if applicable, various conditions of trim. These 
+curves/tables shall be based on the stability criteria applicable to the individual vessel in intact and damaged 
+condition. KG limit curves shall be drawn up for trim values corresponding to those for which hydrostatics 
+and cross curves have been calculated. 
+p)   Preliminary loading conditions shall be calculated on the basis of theoretically calculated light ship data. 
+They shall contain curves of righting levers (GZ curves), and tables showing metacentric height, trim, 
+distribution of loads and tank contents. 
+q)   Final loading conditions shall be calculated on the basis of the preliminary loading conditions, corrected for 
+approved light ship data. 
+(3)  Passenger ships of less than 15 metres in overall length shall have a report on a completed inclining test, containing 
+the results of the test and data on the ship’s freeboard and trim during the test, and data on the freeboard and trim in the 
+fully loaded condition shall also be available. 
+Section 72 
+Documentation of freeboard conditions 
+For all ships documentation of compliance with the requirements for freeboard of the Load Line Convention shall be 
+submitted, cf. sections 43 and 44. 
+Section 73 
+Documentation of prepared loading conditions 
+Prepared loading conditions required pursuant to sections 3 and 34 shall be submitted. 
+Amended by Regulation of 7 December 2015 No. 1628 (in force on 1 January 2016). 
+Section 74 
+Documentation of damage stability 
+(1)  The following documentation shall be submitted regarding stability in damaged condition: 
+a)   arrangement drawing showing the watertight subdivision of the ship;  
+b)   damage control plan showing all penetrations, openings and means of closure for openings in watertight 
+bulkheads or decks, any equalizing devices and the position of their controls; 
+c)   calculations and analyses showing compliance with the requirements for damage stability or floating 
+calculations; 
+d)   instructions for the use of any equalizing devices and other measures presupposed in the calculations. 
+(2)  For ro-ro passenger ships engaged in regular service on foreign voyages, which have undergone model test 
+pursuant to section 42, documentation in accordance with Appendix 2 No. 6 to the Regulations shall be submitted. The 
+documentation shall be submitted in English. 
+Chapter 9 
+Concluding provisions 
+Section 75 
+Exemptions 
+(1)  The Norwegian Maritime Authority may upon written application permit other solutions than those required by 
+these Regulations when it is established that such solutions are equivalent to the requirements of the Regulations. 
+(2)  The Norwegian Maritime Authority may exempt a ship engaged on domestic voyages or a cargo ship of less than 
+500 gross tonnage engaged on foreign voyages from one or more or the requirements of these Regulations if the company 
+applies in writing for such exemption and one of the following conditions is met: 
+a)   it is established that the requirement is not essential and that the exemption is justifiable in terms of safety; b)   it is established that compensating measures will maintain the same level of safety as the requirement of 
+these Regulations. 
+Section 76 
+Entry into force and repeal 
+These Regulations enter into force on 15 September 2014. As from the same date, the Regulations of 15 September 
+1992 No. 695 concerning the construction of passenger ships, cargo ships and barges, and the Regulations of 15 June 
+1987 No. 505 concerning the construction, equipment and operation of passenger ships of less than 15 m in overall 
+length are repealed. 
+Appendix 1 
+Significant wave heights 
+The provisions of this Appendix are binding pursuant to section 38 of the Regulations of 1 July 2014 No. 1072 on the 
+construction of ships. 
+This Appendix states the significant wave heights (H) which shall be used for determining the height of water when 
+applying the technical standard contained in Appendix 2. 
+The figures are provided on a map presenting the significant wave heights which are not exceeded by a probability of 
+more than 10 per cent on a yearly basis for the different sea areas covered. 
+Inshore areas shall be considered to have significant wave heights of less than 1.5 m unless otherwise indicated on the 
+map. 
+Amended by Regulation of 7 December 2015 No. 1628 (in force on 1 January 2016). 
+Appendix 2  
+Model test method  
+The provisions of this Appendix are binding, cf. section 42 of the Regulations of 1 July 2014 on the construction of 
+ships (the Construction Regulations). 
+1.  Purpose   This model test method is a revision of the method contained in the Appendix to the Annex to resolution 14 
+(Stockholm Agreement) of the 1995 SOLAS Conference. Since the entry into force of the Stockholm Agreement 
+a number of model tests have been carried out in accordance with the test method previously in force. As a result 
+of these test a number of refinements of the procedures have been identified, which aim to provide a more robust 
+procedure for the assessment of survivability of a damaged ro-ro passenger ship in a seaway. The tests pursuant to 
+section 41 of the Construction Regulations shall demonstrate that the ship is capable of withstanding a seaway as 
+defined in paragraph 4 hereunder in the worst damage case scenario. 
+2.  Definitions 
+L   is the length between perpendiculars 
+BP
+H   is the significant wave height 
+B  is the moulded breadth of the ship 
+T   is the peak period 
+T   is the zero crossing period 
+3.  Ship model 
+3.1.  The model should copy the actual ship for both outer configuration and internal arrangement, in particular 
+all damaged spaces having an effect on the process of flooding and shipping of water. Intact draught, trim, 
+heel and limiting operational KG corresponding to the worst damage case should be used. Furthermore, the 
+test case(s) to be considered should represent the worst damage case(s) defined in accordance with SOLAS 
+regulation II-1/8.2.3.2 (SOLAS 90) with regard to the total area under the positive GZ curve. The centreline 
+of the damage opening should be located within the following range: 
+3.1.1. ± 35% LBP from midship. 
+3.1.2. an additional test will be required for the worst damage within ± 10% LBP from midship if the damage 
+case referred to in No. 1 is outside of ± 10% LBP from midship. 
+3.2.  The model should comply with the following: 
+3.2.1. length between perpendiculars (LBP) is to be at least 3 m or a length corresponding to a model scale 
+of 1:40, whichever is greater, and the vertical extent up to at least three superstructure standard heights 
+above the bulkhead (freeboard) deck; 
+3.2.2. hull thickness of flooded spaces should not exceed 4 mm; 
+3.2.3. in both intact and damaged conditions, the model should satisfy the correct displacement and draught 
+marks (TA, TM, TF, port and starboard) with a maximum tolerance in any draught mark of + 2 mm. 
+Draught marks forward and aft should be located as near FP and AP as practicable; 
+3.2.4. all damaged compartments and ro-ro spaces should be modelled with the correct surface and volume 
+permeabilities (actual values and distributions) ensuring that floodwater mass and mass distribution 
+are correctly represented; 
+3.2.5 the characteristics of motion of the actual ship should be modelled properly, paying particular attention 
+to the intact GM tolerance and radii of gyration in roll and pitch motion. Both radii should be measured 
+in air and be in the range of 0.35B to 0.4B for roll motion, and 0.2LOA to 0.25LOA for pitch motion; 
+3.2.6. main design features such as watertight bulkheads, air escapes, etc., above and below the bulkhead 
+deck that can result in asymmetric flooding should be modelled properly as far as practicable to 
+represent the real situation; Ventilating and cross-flooding arrangements should be constructed to a 
+minimum cross section of 500 mm²; 
+3.2.7. the shape of the damage opening should be as follows: 
+1.  trapezodial profile with side at 15° slope to the vertical and the width at the design waterline 
+defined according to SOLAS 90 regulation II-1/8.4.1; 
+2.  isosceles triangular profile in the horizontal plane with the height equal to B/5 according to 
+SOLAS 90 regulation II-1/8.4.2. If side casings are fitted within B/5, the damaged length in way 
+of the side casings should not be less than 25 mm; 
+3.  notwithstanding the provisions of subparagraphs 3.2.7.1 and 3.2.7.2 above, all compartments 
+taken as damaged in calculating the worst damage case(s) referred to in paragraph 3.1 should be 
+flooded in the model tests; 
+3.3.  The model in the flooded equilibrium condition should be heeled by an additional angle corresponding to 
+that induced by the heeling moment Mh = max (Mpass; Mlaunch)-Mwind, but in no case should the final 
+heel be less than 1° towards damage. Mpass, Mlaunch and Mwind are specified in SOLAS 90 regulation II-
+1/8.2.3.4. For existing ships this angle may be taken as 1°. 
+4.  Procedures for experiments 
+4.1.  The model should be tested in a long-crested irregular seaway defined by the JONSWAP spectrum with 
+significant wave height HS, a peak enhancement factor Γ =3.3 and a peak period TP= (4√HS(TZ = 
+(TP/1.285))). HS is the significant wave height for the area of operation, which is not exceeded by a 
+probability of more than 10% on a yearly basis, but limited to a maximum of 4 m. 
+Furthermore, 
+4.1.1. the basin width should be sufficient to avoid contact or other interaction with the sides of the basin and 
+is recommended not to be less than LBP + 2 m; 
+4.1.2 the basin depth should be sufficient for proper wave modelling but should not be less than 1 m; 4.1.3. for a representative wave realisation to be used, measurements should be performed prior to the test at 
+three different locations within the drift range; 
+4.1.4. the wave probe closer to the wave maker should be located at the position where the model is placed 
+when the test starts; 
+4.1.5. variation in HS and TP should be within ± 5% for the three locations; and 
+4.1.6. during the tests, for approval purposes, a tolerance of + 2.5% in HS, ± 2.5% in TP and ± 5% in TZ 
+should be allowed with reference to the probe closer to the wave maker. 
+4.2.  The model should be free to drift and placed in beam seas (90° heading) with the damage hole facing the 
+oncoming waves, with no mooring system permanently attached to the model used. To maintain a beam sea 
+heading of approximately 90° during the model test the following requirements should be satisfied: 
+4.2.1. heading control lines, intended for minor adjustment, should be located at the centre line of the stem 
+and stern, in a symmetrical fashion and at a level between the position of KG and the damaged 
+waterline; and 
+4.2.2. the carriage speed should be equal to the actual drift speed of the model with speed adjustment made 
+when necessary. 
+4.3.  At least 10 experiments should be carried out. The test period for each experiment should be of a duration 
+such that a stationary state is reached, but not less than 30 min in full-scale. A different wave realisation train 
+should be used for each experiment. 
+5.  Survival criteria 
+The model should be considered as surviving if a stationary state is reached for the successive test runs as 
+required in paragraph 4.3. The model should be considered as capsized if angles of roll of more than 30° to 
+the vertical axis or steady (average) heel greater than 20° for a period longer than three minutes full-scale 
+occur, even if a stationary state is reached. 
+6.  Test documentation 
+6.1.  The model test programme should be approved by the Administration in advance. 
+6.2.  Tests should be documented by means of a report and a video or other visual records containing all relevant 
+information on the model and the test results, which are to be approved by the Administration. These should 
+include, as a minimum, the theoretical and measured wave spectra and statistics (HS, TP, TZ) of the wave 
+elevation at the three different locations in the basin for a representative realisation, and for the tests with the 
+model, the time series of main statistics of the measured wave elevation close to the wave maker and records 
+of model roll, heave and pitch motions, and of the drift speed. 
+Amended by Regulation of 7 December 2015 No. 1628 (in force on 1 January 2016). 

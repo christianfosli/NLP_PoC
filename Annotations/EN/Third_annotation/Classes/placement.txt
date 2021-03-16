@@ -1,0 +1,22 @@
+PLACEMENT
+Cargo spaces 
+Deckhouse 
+Battery room 
+Bow 
+Fixed bench 
+Tank
+Means of escape 
+Corridor 
+Hull 
+Loaded waterline 
+Waterline 
+Deck 
+Engine room 
+Stairway 
+Tunnel 
+Stern 
+Surface 
+Alleyway 
+Wheelhouse 
+Accomodation area 
+Centre line 

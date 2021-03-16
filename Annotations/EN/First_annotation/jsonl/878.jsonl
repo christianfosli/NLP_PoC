@@ -1,0 +1,724 @@
+{"text": "Regulations of 20 December 1991 No. 878 on stability, watertight "}
+{"text": "subdivision and watertight/weathertight means of closure on mobile "}
+{"text": "offshore units "}
+{"text": "Legal basis: Laid down by the Norwegian Maritime Authority on 20 December 1991 under the Act of 9 June 1903 No. 7 relating to public control of "}
+{"text": "the seaworthiness of ships etc. Legal basis amended to Act of 16 February 2007 No 9 relating to ship safety and security (Ship Safety and Security Act) "}
+{"text": "sections 9, 11, 12, 13, 21 and 45, cf. Formal Delegation of 16 February 2007 No. 171 and Formal Delegation of 31 May 2007 No. 590.  "}
+{"text": "EEA references: Directive 83/189/EEC. EEA Agreement Annex II Chapter XIX point 1 (Directive 98/34/EC).  "}
+{"text": "Amendments: Amended by Regulations of 2 March 1999 No. 406, 11 April 2003 No. 543, 29 June 2007 No. 1006, 14 March 2008 No. 305, 18 January "}
+{"text": "2011 No. 56, 5 July 2016 No. 897, 19 December 2017 No. 2322. "}
+{"text": "Chapter I "}
+{"text": "Introductory provisions "}
+{"text": "Section 1 "}
+{"text": "Scope of application "}
+{"text": "These Regulations apply to mobile offshore units which are or will be registered in a Norwegian ship register. "}
+{"text": "Mobile offshore units which are registered in a Norwegian ship register may, until the next certificate issue, comply with "}
+{"text": "the requirements that applied at the time of the last certificate issue. "}
+{"text": "Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 2 "}
+{"text": "Definitions "}
+{"text": "For the purpose of these Regulations the following definitions shall apply: "}
+{"text": "1.  Recognized standard: Standard issued by NS/BS/API/DIN/NFPA/ISO/CEN/IEC or any other standard or body "}
+{"text": "of rules, as appropriate, which is recognized nationally and/or internationally for a particular sphere of application. "}
+{"text": "The Norwegian Maritime Authority may in each individual case decide which standard is considered to be "}
+{"text": "recognized. "}
+{"text": "2.  Ballasting and deballasting curve: A curve which, with a given reference point, shows how a unit’s vertical "}
+{"text": "centre of gravity varies as a function of draught, alternatively displacement, when ballast tanks are filled or emptied "}
+{"text": "in the order complying with the unit’s ballasting procedures. "}
+{"text": "3.  Transit condition: The condition in which the unit changes its position either by towing or by its own means "}
+{"text": "of propulsion, and which is within the operational limitations and preconditions set for the condition. "}
+{"text": "4.  Recognized classification society: Any classification society with which the Ministry has entered into an "}
+{"text": "agreement pursuant to section 41 of the Ship Safety and Security Act: "}
+{"text": "1.  American Bureau of Shipping (ABS) "}
+{"text": "2.  Bureau Veritas (BV) "}
+{"text": "3.  DNV GL "}
+{"text": "4.  Lloyd’s Register of Shipping (LR) "}
+{"text": "5.  Nippon Kaiji Kyoaki (Class NK) "}
+{"text": "6.  Rina Services S.p.A (RINA) "}
+{"text": "5.  Unit: Mobile platform, including drilling ship, equipped for drilling for subsea petroleum deposits, and mobile "}
+{"text": "platform for other use than drilling for subsea petroleum deposits. "}
+{"text": "6.  KG limit curve: A curve showing the maximum allowable vertical centre of gravity (max. KG) as a function "}
+{"text": "of draught, alternatively displacement, for the stability requirements to be complied with. "}
+{"text": "7.  Control station: Spaces in which equipment for monitoring, remote control and operation of the unit is located. "}
+{"text": "These include: "}
+{"text": "7.1.  spaces in which radio, main navigating equipment, emergency source of power and operations centres "}
+{"text": "for inter-communication, alarm and public address systems are located; "}
+{"text": "7.2.  spaces in which equipment for remote control and operation of anchoring systems, ballast systems, "}
+{"text": "fire-doors, diving systems, dynamic positioning systems, fixed fire-extinguishing systems, emergency sources "}
+{"text": "of power and watertight doors are located. "}
+{"text": "8.  MODU Code: IMO’s (International Maritime Organization) Code for the Construction and Equipment of "}
+{"text": "Mobile Offshore Drilling Units, 1989. "}
+{"text": "9.  MOU classification society: A recognized classification society with which there is an additional agreement on "}
+{"text": "its carrying out inspections and surveys, etc. on mobile offshore units. The following societies are MOU "}
+{"text": "classification societies: "}
+{"text": "1.  American Bureau of Shipping (ABS) "}
+{"text": "2.  DNV GL    3.  Lloyd’s Register of Shipping (LR). "}
+{"text": "10.  Operating condition: The condition in which the unit carries out its normal functions, e.g. drilling, and which is "}
+{"text": "within the operational limitations and preconditions set for the condition. "}
+{"text": "11.  Company: Cf. the definition given in section 4 of the Ship Safety and Security Act. "}
+{"text": "12.  Survival condition: The condition in which the operational limitations (maximum allowable wind velocity) for "}
+{"text": "the relevant operating or transit condition have been exceeded, and/or in which the measures necessary for the "}
+{"text": "condition have been taken. "}
+{"text": "13.  Safety Management System: All systematic efforts which the company is required to make to ensure that "}
+{"text": "activities are planned, organized, performed and maintained in accordance with requirements laid down in or "}
+{"text": "pursuant to Act of 16 February 2007 No. 9 relating to ship safety and security. "}
+{"text": "14.  Temporary condition: The condition in which a semi-submersible unit changes its draught from one mode of "}
+{"text": "operation to another, e.g. from transit condition to operating condition. "}
+{"text": "15.  Watertight means of closure: Means of closure capable of withstanding a specified water pressure (normally "}
+{"text": "from either side) to secure the watertight subdivision of the unit. "}
+{"text": "16.  Weathertight means of closure: Means of closure which, under all relevant sea conditions, prevents water from "}
+{"text": "entering the unit. "}
+{"text": "Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003), 29 June 2007 No. 1006 "}
+{"text": "(in force on 1 July 2007), 29 June 2007 No. 1006 (in force on 1 July 2007), 14 March 2008 No. 305 (in force on 24 March 2008), 18 January 2011 No. "}
+{"text": "56, 5 July 2016 No. 897. "}
+{"text": "Chapter II "}
+{"text": "General provisions "}
+{"text": "Section 3 "}
+{"text": "Obligations "}
+{"text": "The company, the offshore installation manager and others who have their work on board shall perform their duties in "}
+{"text": "accordance with the Ship Safety and Security Act and the supplementary provisions laid down in these Regulations. "}
+{"text": "Amended by Regulations of 2 March 1999 No. 406 (in force 1 Sept 1999), 11 April 2003 No. 543 (in force 1 July 2003), 29 June 2007 No. 1006 (in "}
+{"text": "force on 1 July 2007). "}
+{"text": "Section 4 "}
+{"text": "Deviations "}
+{"text": "The Norwegian Maritime Authority may, in individual cases and upon written application, deviate from the "}
+{"text": "requirements of these regulations. There must be special reasons that make the deviations necessary and they must be "}
+{"text": "justifiable in terms of safety. If the requirements of the coastal state and the requirements of these regulations are "}
+{"text": "irreconcilable, the Norwegian Maritime Authority may deviate from the requirements insofar as safety considerations "}
+{"text": "allow. Deviations must not contravene international agreements to which Norway has acceded. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 4 A "}
+{"text": "Mutual recognition "}
+{"text": "Where the regulations require that particular fittings, materials, equipment or devices or type of equipment etc. be "}
+{"text": "procured or found on a vessel, or that some specific measure be taken or the construction or design safety specific "}
+{"text": "requirements, the Norwegian Maritime Authority shall permit that other appurtenances, materials, devices or types of such "}
+{"text": "are installed or found on the vessel or that other measures are taken on board or that the vessel is built or designed in another "}
+{"text": "way. "}
+{"text": "The Norwegian Maritime Authority shall accept this provided that it is documented by testing or other means that the "}
+{"text": "appurtenances, materials, equipment or devices or types of such, or the arrangement, construction or design is at least as "}
+{"text": "effective as specified by the requirements of the regulations. "}
+{"text": "The Norwegian Maritime Authority shall accept the results of tests performed by recognized testing institutions, "}
+{"text": "including testing institutions in other EEA countries. Such acceptance will be given on condition that the tests give an "}
+{"text": "appropriate and satisfactory guarantee of a technical, professional, and independent nature. "}
+{"text": "Added by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). Chapter III "}
+{"text": "Documentation "}
+{"text": "Section 5 "}
+{"text": "Documentation "}
+{"text": "The company shall be able to document compliance with the requirements of these regulations. Documentation shall "}
+{"text": "be sent to the Norwegian Maritime Authority on demand. The contents, extent, and type of documentation and the time "}
+{"text": "of its forwarding shall be determined by the Norwegian Maritime Authority. "}
+{"text": "Added by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). Amended by Regulation of 29 June 2007 No. 1006 (in force on 1 July "}
+{"text": "2007). "}
+{"text": "Section 6 "}
+{"text": "Repealed by Regulation of 2 March 1999 No. 406, in force on 1 Sept 1999. "}
+{"text": "Section 7 "}
+{"text": "Requirements for load line certificate "}
+{"text": "The unit shall carry a valid international load line certificate (1966), cf. section 29. "}
+{"text": "Chapter IV "}
+{"text": "Inclining test and light ship data "}
+{"text": "Section 8 "}
+{"text": "Inclining test and light ship data "}
+{"text": "1.  When as near to completion as possible, every unit shall undergo an inclining test to determine its light ship "}
+{"text": "data (weight and position of centre of gravity). "}
+{"text": "2.  A record shall be kept of all changes in the weight and location of the equipment included in the light ship "}
+{"text": "weight. Updated light ship data shall always be used when calculating daily loading conditions. "}
+{"text": "3.  After conversions, a new inclining test shall be carried out. For minor alterations where the weights involved "}
+{"text": "are clearly identified and detailed calculations of weight after completion of alterations show consistency with a "}
+{"text": "displacement measurement, cf. subparagraph 4, the requirement for an inclining test may be waived upon application "}
+{"text": "pursuant to section 4. "}
+{"text": "4.  A displacement measurement shall be made at every 5-yearly periodic survey of the unit to discover any change "}
+{"text": "in the light ship weight. If there is a difference between the light ship weight and the updated light ship data kept on "}
+{"text": "board, or if other circumstances may indicate and error in the light ship centre of gravity used, the Norwegian "}
+{"text": "Maritime Authority may require a new inclining test to be conducted. "}
+{"text": "Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Chapter V "}
+{"text": "Modes of operation, corresponding stability requirements, KG limit "}
+{"text": "curves "}
+{"text": "Section 9 "}
+{"text": "Modes of operation, KG limit curves and operational limitations "}
+{"text": "1.  Operation of the unit is divided into four modes of operation: "}
+{"text": "–  operating condition, cf. section 10, "}
+{"text": "–  transit condition, cf. section 11, "}
+{"text": "–  survival condition, cf. section 12 "}
+{"text": "–  temporary condition (ballasting/deballasting), cf. section 13. "}
+{"text": "2.  For each mode of operation a KG limit curve shall be drawn. All KG limit curves shall be presented in one "}
+{"text": "diagram together with any ballasting/deballasting curves and continuous damage stability KG limit curve, cf. "}
+{"text": "sections 13 and 14. "}
+{"text": "3.  Relevant operational limitations alongside with regard to maximum wind velocity, prohibition against vessels "}
+{"text": "alongside the unit, tanks which shall be full etc. shall be indicated in connection with the KG limit curve for each "}
+{"text": "individual mode of operation. The maximum wind velocity permitted for a mode of operation may not exceed the wind velocity used for the calculation of the maximum KG for intact stability. Wind velocities shall refer to a height of 10 m "}
+{"text": "above the water level and shall be an average of measurements over a period of 10 minutes. "}
+{"text": "4.  If it is desirable to raise the level of operational limitation as regards the maximum wind velocity permitted for "}
+{"text": "a condition, this may be achieved by using higher wind velocities for the calculation of maximum KG than what is "}
+{"text": "indicated as the minimum. The ratio between the wind velocity employed for intact and damage stability shall still "}
+{"text": "be 1.4. "}
+{"text": "Section 10 "}
+{"text": "Operating condition, stability requirements, curve I-op "}
+{"text": "1.  In the operating condition the unit shall comply with the intact stability requirements laid down in section 20 "}
+{"text": "with a wind velocity of at least 36 metres per second (m/s) (70 knots) and the damage stability requirements laid "}
+{"text": "down in section 21 with a wind velocity of at least 25.8 m/s (50 knots) following assumed damage in accordance "}
+{"text": "with section 23. In addition semi-submersible units shall satisfy the reserve buoyancy requirements laid down in "}
+{"text": "section 22. "}
+{"text": "2.  Maximum KG to comply with the above stability requirements shall be drawn up for all relevant operating draughts "}
+{"text": "and will subsequently be referred to as curve I-op. Relevant operational limitations for the condition shall be indicated "}
+{"text": "in connection with the KG limit curve. "}
+{"text": "3.  The unit shall be capable of attaining the survival condition from any operating condition by deballasting only, or, "}
+{"text": "if necessary by dumping liquid drilling mud, cf. section 12. If the max KG relating to the survival condition or "}
+{"text": "temporary conditions impose limitations with regard to the capability of the unit in attaining the survival condition "}
+{"text": "from the operating condition, these limitations will determine the max. KG for the operating condition, cf. section 13. "}
+{"text": "4.  The above requirements do not apply to submersible and self-elevating units.1 "}
+{"text": "5.  Special conditions for operation. "}
+{"text": "KG limit curves for special or short-term operations may be based on other criteria or lower wind velocities than "}
+{"text": "those referred to in subparagraph 1. This requires the total safety for the condition to be at least equal to that of "}
+{"text": "ordinary operating conditions, when operational limitations are also taken into account. "}
+{"text": "Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). "}
+{"text": "1 Cf. safety requirements to prevent capsize in the Regulations of 4 September 1987 on the construction of mobile offshore units, section 6 "}
+{"text": "subparagraph 2.4. "}
+{"text": "Section 11 "}
+{"text": "Transit condition, stability requirements, curve I-tr "}
+{"text": "1.  In the transit condition the unit shall comply with the intact stability requirements laid down in section 20 with "}
+{"text": "a wind velocity of at least 36 m/s (70 knots) and the damage stability requirements laid down in section 21 with a "}
+{"text": "wind velocity of at least 25.8 m/s (50 knots) following assumed damage in accordance with section 23. "}
+{"text": "2.  Maximum KG to comply with the above stability requirements shall be drawn up for all relevant transit draughts and "}
+{"text": "will subsequently be referred to as KG limit curve I-tr. Relevant operational limitations for the condition shall be indicated "}
+{"text": "in connection with the KG limit curve. "}
+{"text": "3.  The unit shall be capable of attaining the survival condition from any transit condition by ballasting only, or, "}
+{"text": "if necessary, by dumping liquid drilling mud. If the max. KG relating to the survival condition or temporary "}
+{"text": "conditions, cf. sections 12 and 13, impose limitations with regard to the capability of the unit in attaining the survival "}
+{"text": "condition from the transit condition, these limitations will determine the max. KG for the transit condition. "}
+{"text": "Section 12 "}
+{"text": "Survival condition, stability requirements, curve II "}
+{"text": "1.  In the survival condition the unit shall comply with the intact stability requirements laid down in section 20 "}
+{"text": "with wind velocity of 51.5 m/s (100 knots). For the survival condition no requirements as to damage stability apply, "}
+{"text": "provided no vessel is permitted alongside the unit. Other activities which may represent a danger of damage or "}
+{"text": "flooding shall restricted to the minimum necessary for the safety of the unit. If the intended function of the unit "}
+{"text": "precludes compliance with the above requirements, the damage stability requirements laid down in section 21 shall "}
+{"text": "be complied with, with the wind velocity of at least 36 m/s (70 knots) following assumed damage in accordance "}
+{"text": "with section 23. "}
+{"text": "2.  Damage stability is not required for accommodation units in survival condition unless necessitated by the above "}
+{"text": "circumstances or other grounds, as e.g. when units connected by gangway do not pull away from other installations "}
+{"text": "in survival condition. "}
+{"text": "3.  Max. KG to comply with the above stability requirements shall be drawn up for all the relevant draughts for "}
+{"text": "survival conditions and will subsequently be referred to as KG limit curve II. Relevant operational limitations in "}
+{"text": "accordance with the above shall be indicated in connection with the KG limit curve for the survival condition. When "}
+{"text": "survival draughts are determined for semi-submersible units account must also be taken of the requirements "}
+{"text": "regarding distance between sea level and deck.1 "}
+{"text": "4.  For submersible and self-elevating units the above requirements are applicable only in connection with transit. 1  Cf. requirements for distance between sea level and deck in the Regulations of 4 September 1987 on the construction of mobile units, section 10. "}
+{"text": "Section 13 "}
+{"text": "Temporary condition for semi-submersible units, stability requirements, curve III,  "}
+{"text": "(de-)ballasting curves "}
+{"text": "1.  In the temporary condition the unit shall comply with the intact stability requirements laid down in section 20 "}
+{"text": "with a wind velocity at least equal to the one used for the calculation of intact stability for operating and transit "}
+{"text": "conditions, minimum 36 m/s (70 knots). "}
+{"text": "2.  Damage stability is not required if vessels are not permitted alongside at the unit during this condition. Other "}
+{"text": "activities which may represent a danger of damage or flooding shall be restricted to the minimum necessary to "}
+{"text": "ballast/deballast the unit. If vessels are permitted alongside the unit during temporary conditions, the unit is also "}
+{"text": "required to comply with the damage stability requirements laid down in section 21 with a wind velocity of at least "}
+{"text": "25.8 m/s (50 knots) following damage assumptions in accordance with section 23, cf. also section 14. "}
+{"text": "3.  Max. KG to comply with the above stability requirements shall be drawn up for all the relevant draughts for "}
+{"text": "temporary conditions and will subsequently be referred to as KG limit curve III. Relevant operational limitations in "}
+{"text": "accordance with the above shall be indicated in connection with the KG limit curve for temporary conditions. "}
+{"text": "4.  For semi-submersible units ballasting and deballasting curves shall be drawn up to show that the unit is capable "}
+{"text": "of attaining the survival condition from both transit condition and operating condition, and that KG is below curve "}
+{"text": "III for temporary conditions. "}
+{"text": "Section 14 "}
+{"text": "Continuous KG limit curve for damage stability "}
+{"text": "In addition to the KG limit curves referred to in sections 10 to 13 inclusive, a separate curve for draughts apart from "}
+{"text": "specific operating or transit draughts shall be drawn up to show the max. KG when the unit complies with the damage "}
+{"text": "stability requirements laid down in section 21 with a wind velocity of at least 25.8 m/s (50 knots) following assumed damage "}
+{"text": "in accordance with section 23. "}
+{"text": "Chapter VI "}
+{"text": "Daily calculations, loading conditions "}
+{"text": "Section 15 "}
+{"text": "Calculation of daily loading conditions "}
+{"text": "1.  Daily loading conditions with corresponding survival condition shall be calculated on board on the basis of the "}
+{"text": "relevant quantity of load (deadweight) placed in the most adverse position which may apply. The KG limit curves "}
+{"text": "shall be used as indicated in section 16. "}
+{"text": "2.  The operations manual and the form for calculation of daily loading conditions shall give specific instructions "}
+{"text": "on when the survival condition is required and on the measures to be taken to bring the unit to that condition. Any "}
+{"text": "necessary dumping of liquid drilling mud shall be clearly indicated. Only drilling mud permitted dumped under "}
+{"text": "environmental requirements shall be assumed to be dumped in the calculations. "}
+{"text": "3.  When calculating displacement and vertical centre of gravity (KG), the amount of chains/ wire which has been "}
+{"text": "paid out/remains on board shall be taken into account. Account shall also be taken of other vertical forces which "}
+{"text": "may have an adverse effect on the unit’s stability, for example from the rotary table/derrick hook load or the riser "}
+{"text": "tension load. "}
+{"text": "Section 16 "}
+{"text": "Use of KG limit curve "}
+{"text": "1.  The KG values for all operating and transit conditions, corrected for the effect of free liquid surface, shall be "}
+{"text": "below the values given in curve I-op and curve I-tr respectively. "}
+{"text": "2.  For semi-submersible units account shall also be taken of the increased effect of free liquid surface which may "}
+{"text": "occur in temporary conditions during any ballasting/deballasting in preparation for the survival condition, cf. section "}
+{"text": "13 subparagraph 4. "}
+{"text": "3.  When the wind velocity exceeds 36 m/s, or any higher verified limit, the unit’s KG values, corrected for the "}
+{"text": "effect of free surfaces, shall be below the values given in curve II. "}
+{"text": "4.  The KG values for all temporary conditions, corrected for the effect of free liquid surfaces, shall be below the "}
+{"text": "values given in curve III. Section 17 "}
+{"text": "Loading conditions "}
+{"text": "The following conditions shall be calculated and shall be included in the operations manual: "}
+{"text": "1.  Normal operating condition at maximum draught with maximum deck load and equipment in the most adverse "}
+{"text": "position applicable. "}
+{"text": "2.  Survival condition at maximum survival draught, using the same weight distribution as in subparagraph 1, "}
+{"text": "except for necessary adjustments of ballast and any dumping of liquid drilling mud. For drilling units the riser shall "}
+{"text": "be disconnected, and a representative number of drill pipes shall be standing in the derrick set back area. "}
+{"text": "3.  Normal transit condition with maximum deck load. For self-elevating units the transit condition shall be "}
+{"text": "checked with the legs standing at their highest position and if relevant, laid down for ocean tow. "}
+{"text": "4.  Survival condition at maximum survival draught, using the same weight distribution as in subparagraph 3, "}
+{"text": "except for necessary ballast adjustments and any dumping of liquid drilling mud. For the purpose of the calculations "}
+{"text": "the unit’s anchors are assumed to be on board. "}
+{"text": "Chapter VII "}
+{"text": "Detailed requirements, stability "}
+{"text": "Section 18 "}
+{"text": "Righting moment curves "}
+{"text": "1.  Righting moment curves, cf. figures 1 and 2, shall be prepared as supporting material for the KG limit curves "}
+{"text": "calculated. "}
+{"text": "2.  Calculations of the righting moment shall be based on the unit being able to trim freely during inclination, and "}
+{"text": "the effects of mooring forces shall be disregarded. "}
+{"text": "3.  Openings into spaces presumed as buoyant when calculation righting moments shall be fitted with the following "}
+{"text": "means of closure: "}
+{"text": "a)  watertight means of closure up to the equilibrium waterline in both intact and damage condition, "}
+{"text": "taking wind moments into account, cf. sections 20 subparagraph 1 and 21 subparagraph 1. For semi-submersible "}
+{"text": "units, see also requirements in section 22 subparagraph 2 a). "}
+{"text": "b)  weathertight means of closure up to the angle at which the requirement as to area between the curves "}
+{"text": "of the heeling and righting moments has been complied with, at least 30° heel for the intact condition, cf. the "}
+{"text": "requirement for «second intercept» in section 20 subparagraph 1 b) (figs. 1 and 2). For semi-submersible units, "}
+{"text": "see also requirements in section 22 subparagraph 2 b). "}
+{"text": "4.  Means of closure of a lower standard than referred to in subparagraph 3 above shall be considered as resulting "}
+{"text": "in progressive flooding. This shall be shown as steps in righting moment curve. (Cf. section 22 subparagraph 3). "}
+{"text": "Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). "}
+{"text": "Section 19 "}
+{"text": "Heeling moment curves (wind moment) "}
+{"text": "1.  Wind heeling moment curves shall be prepared as supporting material for the KG limit curves calculated. Wind "}
+{"text": "heeling moments can be determined either by wind tunnel tests or by calculations. Wind heeling moments may be "}
+{"text": "prepared and presented in accordance with guidelines issued by the Norwegian Maritime Authority or other "}
+{"text": "recognized methods. "}
+{"text": "2.  Wind heeling moments shall be prepared for the wind velocities used for the calculation of max. KG for the "}
+{"text": "various modes of operation. These will normally be 36 and 51.5 m/s for intact stability and 25.8 m/s for damage "}
+{"text": "stability, cf. chapter V. The wind velocity shall refer to a height of 10 metres above the sea level. "}
+{"text": "3.  Wind forces shall be considered from any direction relative to the unit. For the purpose of defining the wind "}
+{"text": "moment curves for the unit’s total draught area, the wind moments shall be documented for a sufficient number of "}
+{"text": "inclination axis and angles of heel. "}
+{"text": "4.  The wind moment curves shall take into account maximum deck load and equipment in the most adverse "}
+{"text": "position applicable. The unit shall be assumed to be floating free of mooring restraints so that the arm of the wind "}
+{"text": "overturning force is considered to be equal to the vertical distance from the centre of pressure of all surfaces exposed "}
+{"text": "to the wind to the centre of lateral resistance of the underwater body of the unit. "}
+{"text": "5.  For units with a dynamic positioning system, the wind moment curves shall also be calculated by taking into "}
+{"text": "account the reactive wind force operating at thruster level. The most adverse wind moment shall be used for the "}
+{"text": "calculation of the unit’s max. KG in the dynamically positioned condition. "}
+{"text": "6.  Where a unit has undergone alterations which affect the wind heeling moment, new wind heeling moments "}
+{"text": "shall be prepared either by means of wind tunnel tests or by calculation. Section 20 "}
+{"text": "Intact stability requirements "}
+{"text": "1.  General requirements for intact stability (cf. fig. 1): "}
+{"text": "a)  Static angle of heel due to wind (Θ) shall not exceed 17° in any condition. "}
+{"text": "b)  The «second intercept» between the righting moment curve and the wind heeling moment curve (Θ) "}
+{"text": "shall occur at an angle of 30 or more. The «second intercept» is defined as the point where the righting moment "}
+{"text": "curve, corrected for any progressive flooding, crosses the wind heeling moment curve for the second time. "}
+{"text": "c)  The righting moment curve shall be positive over the entire range of angles from upright to the second "}
+{"text": "intercept. "}
+{"text": "2.  Additional requirements for units of a ship design and self-elevating units: "}
+{"text": "a)  The metacentric height shall be 0.5 metres or higher. "}
+{"text": "b)  The area under the righting moment curve up to the «second intercept», or alternatively to a smaller "}
+{"text": "angle, shall be not less than 40% in excess of the area under the wind heeling moment curve to the same limiting "}
+{"text": "angle. "}
+{"text": "3.  Additional requirements for semi-submersible units: "}
+{"text": "a)  The metacentric height (GM) shall be at least 1.0 metres for all operating conditions and survival "}
+{"text": "conditions. The metacentric height shall never be less than 0.3 metres in temporary conditions.    b)  The area under the righting moment curve up to the «second intercept», or alternatively to a smaller "}
+{"text": "angle, shall be not less than 30% in excess of the area under the wind heeling moment curve to the same limiting "}
+{"text": "angle. "}
+{"text": "4.  Alternative stability requirements may be approved by the Norwegian Maritime Authority, e.g. based on model "}
+{"text": "tests, cf. section 4, provided an equivalent level of safety is maintained. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 21 "}
+{"text": "Damage stability requirements "}
+{"text": "The following stability requirements apply when the unit is assumed to be damaged in accordance with sections 23 to "}
+{"text": "28: "}
+{"text": "1.  The waterline in the final state of equilibrium after flooding, taking into account the effect of wind, shall be "}
+{"text": "below the lower edge of any opening which might lead to progressive flooding of compartments assumed intact in "}
+{"text": "the calculations. Such openings include air pipes (regardless of means of closure), ventilators, ventilation openings, "}
+{"text": "non-watertight means of closure, cf. chapter X. Openings fitted with remote-controlled watertight doors kept closed "}
+{"text": "during operation of the unit and portholes which cannot be opened are not considered to result in progressive "}
+{"text": "flooding. "}
+{"text": "2.  In the above-mentioned state of equilibrium the angle of heel (Θ) shall never exceed 17° in any direction. "}
+{"text": "3.  The area under the righting moment curve shall be at least equal to the area under the heeling moment curve up "}
+{"text": "to the «second intercept» (Θ) of the curves. Both areas shall be calculated from the static angle of heel without wind "}
+{"text": "(Θ). (See fig. 2). "}
+{"text": "4.  The possibility of reducing angles of heel by cross-flooding arrangements, by emptying ballast tanks or other "}
+{"text": "tanks or by taking into account anchoring forces etc. shall not be taken into consideration for the purpose of "}
+{"text": "complying with the requirements laid down in subparagraphs 1 to 3 inclusive. "}
+{"text": "Amended by Regulation of 19 December 2017 No. 2322 (in force on 1 January 2018). "}
+{"text": "Section 22 "}
+{"text": "Reserve buoyancy requirements for semi-submersible units "}
+{"text": "Reserve buoyancy requirements for semi-submersible units are (see fig. 3): "}
+{"text": "1.  The righting arm curve after assumed damage in operating condition (cf. section 10) shall have a positive range "}
+{"text": "of at least 10° between the first and second intercept with the wind moment curve. For one and the same angle "}
+{"text": "(Θwa) within the positive range the following shall apply: "}
+{"text": "a)  The righting lever curve after damage (righting moment divided by displacement) shall reach a value "}
+{"text": "of at least 2.5 m. "}
+{"text": "b)  At least 1.0 m of this righting lever shall arise from enclosed watertight volumes above watertight "}
+{"text": "barriers positioned at or above the lowest continuous deck (top of column). "}
+{"text": "2.  Requirements for the closing of volumes assumed to provide buoyancy after damage: "}
+{"text": "a)  All openings submerged at the angle Θwa, shall be fitted with watertight means of closure, cf. chapter "}
+{"text": "X. Means of closure activated by submersion may be accepted for smaller openings if adequate strength and "}
+{"text": "reliability of function can be documented. "}
+{"text": "b)  Openings submerged beyond the angle Θwa, minimum to the range required by subparagraph 1 (angle "}
+{"text": "for first intercept with the wind moment curve plus 10°), shall at least be fitted with weathertight means of closure "}
+{"text": "which can be closed from a dry deck at the angle Θwa, and which have operating facilities as described in chapter "}
+{"text": "XIV. This minimum range for weathertight integrity is shown as Θwe in fig. 3. "}
+{"text": "3.  Steps in the righting lever curve:    a)  Any opening referred to in subparagraph section 2 (a) and (b) without satisfactory means of closure "}
+{"text": "shall be considered to result in flooding of adjacent spaces from the angle at which the lower edge of the opening "}
+{"text": "is submerged. This shall be shown as steps in the righting lever curve. "}
+{"text": "b)  Loss of buoyancy as referred to above shall not cause the righting lever curve to fall below a value "}
+{"text": "twice the value of the wind heeling lever (wind moment divided by displacement) for the same angle. "}
+{"text": "Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "1  Mobile offshore units registered before 1 January 1992 for which an equivalent safety level concerning reserve buoyancy can be documented are "}
+{"text": "considered to meet the requirements of this section. "}
+{"text": "Section 23 "}
+{"text": "Damage assumptions and watertight subdivision "}
+{"text": "1.  General provisions. "}
+{"text": "The unit shall be divided by means of watertight decks and bulkheads to resist flooding as the result of two main "}
+{"text": "categories of damage: "}
+{"text": "–  One-compartment damage in accordance with section 24. "}
+{"text": "–  Collision damage in accordance with the extent of damage for the type of vessel in question, cf. "}
+{"text": "sections 25, 26 and 27 below. "}
+{"text": "Damage and flooding shall be assumed for the individual modes of operation as specified in the requirements laid "}
+{"text": "down in sections 10 to 13 inclusive. "}
+{"text": "2.  Pipes etc. in the damage area. "}
+{"text": "All shafts, piping and ventilation ducts which may cause flooding of compartments presumed to be intact shall be "}
+{"text": "placed outside the damage area for the individual type of vessel, cf. sections 25, 26 and 27. "}
+{"text": "3.  Permeability factors. "}
+{"text": "The following permeability factors shall be used for flooding as referred to in subparagraph 1: "}
+{"text": "Store rooms 0.60, engine rooms 0.85, accommodation spaces, empty compartments and tanks 0.95. For spaces "}
+{"text": "where there is reason to believe that deviations from the above factors exist, the permeability shall be calculated. "}
+{"text": "Section 24 "}
+{"text": "One-compartment damage "}
+{"text": "One-compartment damage shall be assumed for any compartment which is wholly or partially under the waterline in "}
+{"text": "question, and in addition either is limited by the sea or containing piping systems which lead to the sea. "}
+{"text": "Section 25 "}
+{"text": "Collision damage to units of ship design "}
+{"text": "1.  In assessing collision damage to units of ship design, the following extent of damage shall be assumed to occur "}
+{"text": "anywhere within the length of the ship: "}
+{"text": "–  longitudinal extent: 3.0 m; "}
+{"text": "–  horizontal penetration: 1.5 m; "}
+{"text": "–  vertical extent: from the base line and vertically upwards without limit. "}
+{"text": "2.  The unit’s watertight subdivision shall be such that when collision damage is assumed according to "}
+{"text": "subparagraph 1, at least one watertight bulkhead may be assumed to be damaged. Where damage of a lesser extent "}
+{"text": "than that referred to in subparagraph 1 results in a more severe condition, such lesser extent shall be assumed. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 26 "}
+{"text": "Collision damage to self-elevating units "}
+{"text": "1.  In assessing collision damage to self-elevating units, the following damage shall be assumed to occur anywhere "}
+{"text": "at the periphery of the unit: "}
+{"text": "–  horizontal extent: 3.0 m; "}
+{"text": "–  horizontal penetration: 1.5 m; "}
+{"text": "–  vertical extent: from the base line and vertically upwards without limit. "}
+{"text": "2.  The unit’s watertight subdivision shall be such that when collision damage is assumed according to "}
+{"text": "subparagraph 1, at least one watertight bulkhead may be assumed to be damaged. Where damage of a lesser extent "}
+{"text": "than that referred to in subparagraph 1 results in a more severe condition, such lesser extent shall be assumed. "}
+{"text": "3.  Where a mat is fitted, the Norwegian Maritime Authority may permit deviations from the above requirements, "}
+{"text": "if the distance between the hull and the mat is great, cf. section 4. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). Section 27 "}
+{"text": "Collision damage to semi-submersible units "}
+{"text": "1.  In assessing collision damage to semi-submersible units, the following extent of damage shall be assumed: "}
+{"text": "a)  Only those columns and pontoons on the periphery of the unit shall be assumed open to damage, and "}
+{"text": "it is assumed that damage will only occur to «exposed parts». «Exposed parts» are those portions of columns "}
+{"text": "and pontoons, or other parts providing buoyancy which are located outside a line drawn through the centres of "}
+{"text": "the peripheral columns (see fig. 4). Vertical limits will be from 5 metres above the maximum operational "}
+{"text": "draught to 3 metres below the minimum transit draught. "}
+{"text": "b)  Vertical extent: 3.0 m within 5 metres above and 3 metres below the waterline in question. "}
+{"text": "c)  Horizontal extent: 3.0 m measured along the periphery of the shell.  "}
+{"text": "d)  Penetration: 1.5 m measured at a right angle to the shell.    2.  The unit’s watertight subdivision shall be such that when collision damage is assumed according to "}
+{"text": "subparagraph 1, at least one watertight bulkhead may be assumed to be damaged. Where damage of a lesser extent "}
+{"text": "than that referred to in subparagraph 1 results in a more severe condition, such lesser extent shall be assumed. "}
+{"text": "Section 28 "}
+{"text": "Exceptions from damage assumptions for semi-submersible units "}
+{"text": "For semi-submersible units the calculations of damage stability after assumed damage according to sections 24 and 27 "}
+{"text": "may disregard the flooding of ballast tanks which are always full at the relevant draughts, provided that: "}
+{"text": "1.  The ballasting procedure in the operations manual clearly states that the tanks in question shall be full at the "}
+{"text": "relevant draughts, irrespective of loading condition. "}
+{"text": "2.  An indication is given on the KG limit curve of the tanks which are required to be full and the draught area to "}
+{"text": "which this applies. "}
+{"text": "Chapter VIII "}
+{"text": "Freeboard and load lines "}
+{"text": "Section 29 "}
+{"text": "Freeboard and load lines "}
+{"text": "1.  The unit’s load line marks shall indicate the maximum permissible draught, based on the unit’s stability and "}
+{"text": "strength and any other provisions of significance to the determination of draught. "}
+{"text": "2.  The draught determined shall not be less than laid down in the requirements and chapter V of these regulations.1 "}
+{"text": "3.  Drilling ships and any other types of unit to which the International Load Line Convention, 1966, applies, shall "}
+{"text": "be subject to the provisions of the said Convention. The maximum draught shall not exceed the load line calculated "}
+{"text": "in accordance with this Convention. "}
+{"text": "4.  Air pipes for tanks and similar with means of closure shall be well protected against the sea and against being "}
+{"text": "struck by deck cargo which has become loose. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "1  Cf. also requirements for strength and the distance between sea level and deck in the Regulations on the construction of mobile units, sections 6 "}
+{"text": "and 10. "}
+{"text": "Chapter IX "}
+{"text": "Watertight bulkheads "}
+{"text": "Section 30 "}
+{"text": "Strength of watertight bulkheads "}
+{"text": "1.  General requirements. "}
+{"text": "The bulkheads which with reference to the damage stability calculations are expected to be watertight shall be "}
+{"text": "dimensioned for the maximum water pressure that may occur during inclination following damage according to the "}
+{"text": "stability requirements of section 21, with a utilization factor of 0.75 against the material’s limit of yield strength. If "}
+{"text": "necessary, a confirmation from a MOU classification society of the strength shall be submitted. "}
+{"text": "2.  Additional requirements for semi-submersible units. "}
+{"text": "a)  All submerged bulkheads around volumes providing buoyancy, and watertight barriers at the top of "}
+{"text": "columns shall also be dimensioned to withstand the water pressure which may occur during inclining, in "}
+{"text": "accordance with the stability requirements of section 22 subparagraph 1 a) and b). If necessary, a confirmation "}
+{"text": "from a MOU classification society of the strength shall be submitted. "}
+{"text": "b)  Bulkheads and barriers referred to in a) above are permitted with a utilization factor of 0,95 against "}
+{"text": "the material’s ultimate strength. "}
+{"text": "c)  As a minimum requirement, watertight bulkheads around volumes providing buoyancy located above "}
+{"text": "the top of the column shall be dimensioned according to requirements laid down in rules for external bulkheads "}
+{"text": "exposed to waves, issued by a MOU classification society. "}
+{"text": "Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 31 "}
+{"text": "Openings in watertight bulkheads "}
+{"text": "The number of openings in bulkheads which with reference to the damage stability calculations are expected to be "}
+{"text": "watertight, shall be limited to the minimum compatible with the design and safe operation of the unit. Chapter X "}
+{"text": "General requirements for watertight means of closure "}
+{"text": "Section 32 "}
+{"text": "Requirements for watertight means of closure "}
+{"text": "1.  Watertight means of closure shall be arranged for all openings or penetrations in watertight bulkheads in order "}
+{"text": "to maintain the unit’s watertight subdivision. "}
+{"text": "2.  Access openings for personnel through watertight bulkheads shall be closed by watertight sliding doors equipped "}
+{"text": "in accordance with the requirements of Chapter XII. Other types of watertight doors may be used, provided that the "}
+{"text": "assumptions of section 33 subparagraph 2 is fulfilled. "}
+{"text": "Amended by regulation 11 April 2003 No. 543 (in force 1 July 2003). "}
+{"text": "Section 33 "}
+{"text": "Requirements for provide remote-controlled closing systems "}
+{"text": "1.  Means of closure required to be of a watertight type in accordance with the requirements of section 18 "}
+{"text": "subparagraph 3 (a), 21 subparagraph 1, section 22 subparagraph 2 and section 45, shall be arranged with remote-"}
+{"text": "controlled closing systems operated from a control console, cf. section 37. "}
+{"text": "2.  Means of closure may, however, be arranged without a remote-controlled closing system provided that the "}
+{"text": "following conditions are satisfied: "}
+{"text": "a)  they are kept closed and instructions are posted at each means of closure, stating that it should be kept "}
+{"text": "closed whenever the unit is at sea "}
+{"text": "b)  they are used as access openings to closed rooms that are not in use, or in areas not designed for "}
+{"text": "common traffic, "}
+{"text": "c)  the control system otherwise satisfies the requirements of section 37 subparagraphs 1(b), 1(c), 1(d), "}
+{"text": "subparagraph 2 and subparagraph 3, and "}
+{"text": "d)  central operated dogs are fitted on means of closure used as access openings or emergency exits. "}
+{"text": "Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 34 "}
+{"text": "Requirements for dimensioning and testing "}
+{"text": "1.  Watertight means of closure shall be dimensioned to withstand pressure, normally from either side. The design "}
+{"text": "pressure shall correspond to the maximum water pressure that may occur during inclination as specified in "}
+{"text": "section 30. Strength calculations shall be carried out according to recognized standards, cf. section 2 subparagraph "}
+{"text": "1. "}
+{"text": "2.  As a minimum requirement, means of closure located in watertight bulkheads above the top of the column shall "}
+{"text": "dimensioned according to section 30 subparagraph 2 c). "}
+{"text": "3.  A prototype of the means of closure, fitted in the same way as required on board, shall be pressure-tested by "}
+{"text": "the manufacturer according to the following criteria: "}
+{"text": "a)  minimum test pressure = relevant water pressure + 5m waterhead, for windows 3 x relevant water "}
+{"text": "pressure minimum 5m waterhead "}
+{"text": "b)  pressure testing to be conducted using water from the most critical side c) acceptable  leakage  of "}
+{"text": "water = 2 litre per minute/m2 light area. "}
+{"text": "4.  The means of closure shall not be permanently deformed as a result of the pressure test. "}
+{"text": "5.  Following installation on board, means of closure such as doors, hatches and flaps shall be tested for "}
+{"text": "watertightness using a hose test. If the seal is clearly visible when the means is closed, testing using a detector, "}
+{"text": "chalk-testing, etc. may be accepted. "}
+{"text": "6.  If the means of closure are also to be used as fire division the prototype shall be tested from the most critical "}
+{"text": "side, according to the fire safety requirements in force. For watertight sliding doors, cf. also section 41 subparagraph "}
+{"text": "5. "}
+{"text": "Amended by Regulations of 2 March 1999 No. 406 (in force on 1 Sept 1999), 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 351 "}
+{"text": "Emergency battery lighting "}
+{"text": "Repealed by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "1  Cf. Regulations of 4 September 1987 No. 856 on the construction of mobile offshore units section 12. Section 36 "}
+{"text": "Other types of watertight means of closure "}
+{"text": "1.  Other types of watertight means of closure than those referred to in these Regulations will be evaluated "}
+{"text": "particularly with regard to requirements concerning strength, remote control, and alarm systems. "}
+{"text": "2.  If the means of closure have remote-controlled closing system and personnel may be injured during remote-"}
+{"text": "controlled closing, the system shall satisfy the standard specified in Chapter XII with regard to local alarms and the "}
+{"text": "possibility of stopping the remote-controlled closing locally. "}
+{"text": "Chapter XI "}
+{"text": "Remote-controlled closing systems and control systems for watertight "}
+{"text": "means of closure "}
+{"text": "Section 37 "}
+{"text": "Equipment on, and location of, control console and control station "}
+{"text": "1.  The control console for the means of closure shall be equipped with: "}
+{"text": "a)  Remote-controlled closing system with a master switch with two modes of control: «normal "}
+{"text": "operation» and «emergency closing», cf. section 38  "}
+{"text": "b)  Diagram showing the location of each means of closure. "}
+{"text": "c)  Visual indicators showing whether each means of closure are open or closed (indicators on closing "}
+{"text": "mechanism/dogs). "}
+{"text": "d)  Sound alarm which indicates within one hour that means of closure which should have been closed, "}
+{"text": "have been left open. "}
+{"text": "e)  For means of closure operated by mechanical or hydraulic remote control, an alarm system giving: "}
+{"text": "–  low-level alarm for the hydraulic oil tank "}
+{"text": "–  low-level alarm for stored energy (pressure) in the accumulators "}
+{"text": "–  low-level alarm for the power supply (measured as close as possible to source) "}
+{"text": "2.  The control console shall be located in the same manned control station as the ballast control console1. "}
+{"text": "3.  The control station shall be located above the most unfavourable waterline for angles of heel as specified in "}
+{"text": "section 30, and shall be sufficiently protected against the weather. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "1  See equivalent requirements regarding location in Regulations of 20 December 1991 on ballast system, section 16. "}
+{"text": "Section 38 "}
+{"text": "Master switch for the remote-controlled closing system "}
+{"text": "1.  The master switch shall normally be in the «normal operation» mode. The means of closure shall then only be "}
+{"text": "capable of being opened and closed locally. "}
+{"text": "2.  With the master switch in the «emergency closing» mode, means of closure which are open shall be "}
+{"text": "automatically closed by remote control. After reopened locally, the means of closure shall return to closed position. "}
+{"text": "3.  Instructions for use of the master switch shall be located near the switch. "}
+{"text": "Section 39 "}
+{"text": "Mechanical/hydraulic remote-controlled closing system "}
+{"text": "1.  The power supply for the mechanical/hydraulic remote-controlled closing system shall be connected to the "}
+{"text": "main and the emergency switchboards. "}
+{"text": "2.  The mechanical/hydraulic system shall be separate from other systems and shall be designed so that a single "}
+{"text": "failure normally only affects the operation of one means of closure and under no circumstances leads to the opening "}
+{"text": "of any means of closure which is closed. "}
+{"text": "3.  The mechanical/hydraulic remote-controlled closing system can either be: "}
+{"text": "a)  a centralized system with two independent pumps each connected to accumulators. The total capacity "}
+{"text": "of the accumulators shall be sufficient to operate 50% of all means of closure at least 3 times (closed-open-"}
+{"text": "closed) during inclination as specified in section 30. For watertight sliding doors, see also requirements in "}
+{"text": "Chapter XII; or, "}
+{"text": "b)  an independent system for each means of closure, each with its own pump and accumulators. The "}
+{"text": "capacity of the accumulators shall be sufficient to operate each means of closure at least 3 times (closed-open-"}
+{"text": "closed) during inclination as specified in section 30. For watertight sliding doors, see also requirements in "}
+{"text": "Chapter XII; or, "}
+{"text": "c)  a combination of alternatives a) and b).    4.  When the unit is in the upright position, the system/accumulators shall also have the capacity to close all the "}
+{"text": "means of closure simultaneously by remote control within 60 seconds. "}
+{"text": "5.  The time taken from the means of closure begin to move until it is completely closed shall be between 20 and "}
+{"text": "40 seconds both for the «normal operation» and for the «emergency closing» modes. Opening the door shall be at "}
+{"text": "least equally quick. "}
+{"text": "Section 40 "}
+{"text": "Control, indicator and alarm systems "}
+{"text": "1.  The control, indicator and alarm systems for the means of closure shall be connected to the main and the "}
+{"text": "emergency switchboard. In addition they shall have battery connection. "}
+{"text": "2.  The collective capacity of the batteries shall be sufficient to operate 50% of all means of closure at least 3 times "}
+{"text": "(closed-open-closed) during inclination as specified in section 30. "}
+{"text": "3.  The systems and their components shall be separate from any other system and shall be designed in such a way "}
+{"text": "that a single failure in a component or a ruptured pipe/cable will not prevent remote-controlled closing of more than "}
+{"text": "one means of closure, or cause already closed means to open. Similarly, a single failure in the indicator or alarm "}
+{"text": "systems shall not prohibit the closing, either by remote control or locally, of the means of closure. "}
+{"text": "4.  During and after emergency closing the means of closure shall not be capable of being opened or closed "}
+{"text": "unintentionally due to electrical short circuit in the remote-controlled closing systems. Means of closure at access "}
+{"text": "openings shall still be capable of being operated locally. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Chapter XII "}
+{"text": "Additional requirements for watertight sliding doors "}
+{"text": "In addition to requirements laid down in Chapters X and XI watertight sliding doors shall satisfy the following "}
+{"text": "requirements: "}
+{"text": "Section 41 "}
+{"text": "General requirements "}
+{"text": "1.  All doors should be capable of being closed mechanically/hydraulically and by hand-pump during inclination as "}
+{"text": "specified in section 30, when water is flowing through the opening applying a static head equivalent to a water column "}
+{"text": "of 1 m above the sill on the centreline of the door. "}
+{"text": "2.  When the unit is in the upright position, local closure of the doors by hand-pump shall be possible within 90 "}
+{"text": "seconds. A single failure in the remote-controlled closing system shall not prohibit operation of the doors by means "}
+{"text": "of the hand-pump. "}
+{"text": "3.  Local operation of the doors shall be carried out by one handle, i.e. the same handle shall be used for «normal "}
+{"text": "operation», «emergency closing» and for the hand-pump. "}
+{"text": "4.  To guard against incorrect operation of the doors while the unit is at a quay/in a yard or similar, the remote-"}
+{"text": "controlled closing system must be capable of being disconnected manually and locked in this position. The "}
+{"text": "watertight doors will then remain open. Under these conditions no form of remote-controlled closing or local "}
+{"text": "operation of the doors shall make the doors close until the system has been re-activated manually. "}
+{"text": "5.  Watertight sliding doors may also be fire doors provided that: "}
+{"text": "a)  the doors have been insulated so that they are equivalent to the fire bulkheads in which they will be "}
+{"text": "fitted "}
+{"text": "b)  the mechanical/hydraulic remote-controlled closing system has been designed so that the doors will "}
+{"text": "not open under the influence of heat. "}
+{"text": "Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). "}
+{"text": "Section 42 "}
+{"text": "Function in «normal operation» mode "}
+{"text": "1.  When the remote control master switch in the control room is switched to the «normal operation» mode, the "}
+{"text": "doors shall be capable of being opened and closed locally, from both sides, both mechanically/hydraulically and by "}
+{"text": "hand-pump. "}
+{"text": "2.  Doors shall be opened by activating the local control handle. The door shall then open when the handle is held "}
+{"text": "in the open position and stop when it is released. Systems whereby the doors open completely and remain in the "}
+{"text": "open position although the handle is released are also acceptable. "}
+{"text": "3.  To close doors locally, the control handle shall be held in the closed position until the door is closed. If the "}
+{"text": "handle is released before the door is completely closed, the movement of the door shall stop or the door shall "}
+{"text": "automatically return the open position again. After the stop, it shall be possible either to continue closing the door "}
+{"text": "or to reopen the door without completely closing the door first. Section 43 "}
+{"text": "Function in «emergency closing» mode "}
+{"text": "1.  When the remote control master switch in the control room is switched to the «emergency closing» mode, the "}
+{"text": "doors shall still be capable of being opened and closed locally, from both sides, by using the normal control handles. "}
+{"text": "The location of the handles shall be such that they are capable of being operated simultaneously from both sides of "}
+{"text": "the door when it is open. This is in order to ensure that the door does not close during transit through the door. The "}
+{"text": "doors shall also be capable of being opened and closed by hand-pump. "}
+{"text": "2.  The door shall close automatically when the handles are released. It shall be possible, by using the handles, to "}
+{"text": "stop the door during closure or to reopen the door without waiting for complete closure first. "}
+{"text": "Section 44 "}
+{"text": "Signals during «emergency closing» "}
+{"text": "A sound signal shall be activated locally during emergency closing of an open door. The signal shall also be activated "}
+{"text": "during any subsequent local operation of the door if this is still centrally emergency closed. A visual signal shall be "}
+{"text": "arranged in areas where the sound signal is not likely to be heard because of noise. "}
+{"text": "Chapter XIII "}
+{"text": "Watertight closing on self-elevating units "}
+{"text": "Heading amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 45 "}
+{"text": "Additional requirements for watertight closing of openings on self-elevating units "}
+{"text": "If ventilators or similar equipment or devices are located where they may be damaged or torn off by the sea or by "}
+{"text": "equipment or deck cargo which has become loose, and by this lead to flooding of compartments which in the stability "}
+{"text": "calculations are considered to provide buoyancy at angles of heel given in section 21, the ventilators shall have a "}
+{"text": "watertight means of closure located so that it will still be fit for use after such accident. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Chapter XIV "}
+{"text": "Weathertight integrity "}
+{"text": "Section 46 "}
+{"text": "Weathertight closure of openings "}
+{"text": "1.  Openings to spaces which according to section 18 subparagraph 3 (b) shall be weathertight when closed, shall "}
+{"text": "be fitted with weathertight means of closure. "}
+{"text": "2.  Each means of closure shall be designed and hinged so that it can be easily closed by one person. The design "}
+{"text": "shall take into account the inclination at which it is necessary to close the appliance, cf. section 30. "}
+{"text": "3.  The design and calculation of the strength of weathertight means of closure shall comply with a recognized "}
+{"text": "standard, cf. section 2 subparagraph 1. Where the means of closure serve as access openings they shall be fitted with "}
+{"text": "central operated dogs. "}
+{"text": "Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999). "}
+{"text": "Section 47 "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 48 "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). Chapter XV "}
+{"text": "Operations manual, routines and instructions "}
+{"text": "Section 49 "}
+{"text": "Stability instructions and operations manual "}
+{"text": "1.  Written instructions for the daily follow-up of stability in accordance with these regulations shall be prepared. The "}
+{"text": "instructions shall be incorporated into the unit’s operations manual. "}
+{"text": "2.  The follow-up of stability shall be carried out by: "}
+{"text": "–  calculation of loading conditions and checking of the result against the KG limit curve "}
+{"text": "–  follow-up of light ship data "}
+{"text": "–  maintenance of the watertight subdivision and, where applicable, separate routines for: "}
+{"text": "–  ballasting from operating condition to survival condition and from transit condition to survival "}
+{"text": "condition, cf. sections 17 and 28 "}
+{"text": "–  special operations, cf. section 9 subparagraph 5 "}
+{"text": "–  maintenance of the watertight subdivision for self-elevating units, cf. section 50, or for drilling ships "}
+{"text": "cf. section 51. "}
+{"text": "3.  The operations manual shall also include at least the following information necessary to carry out the above "}
+{"text": "follow-up: "}
+{"text": "–  short outline of the regulations according to which the unit has been documented and their "}
+{"text": "implications for the operation of the unit "}
+{"text": "–  KG limit curves with limitations and explanations, cf. sections 9, 16 and 28 "}
+{"text": "–  form for the calculation of daily loading conditions, cf. section 15 subparagraph 2 "}
+{"text": "–  necessary data for the calculation of daily loading conditions, cf. sections 15 and 16 "}
+{"text": "–  examples of loading conditions, cf. section 17 "}
+{"text": "–  light ship data and form for follow-up of light ship data, cf. section 8subparagraph 2 "}
+{"text": "–  watertight subdivision plan, also showing which watertight means of closure are to be kept closed at "}
+{"text": "all times, and which are to be closed by remote control in an emergency situation or when the unit goes to "}
+{"text": "survival condition "}
+{"text": "–  plan of the weathertight means of closure, also showing which means of closure are to be kept closed "}
+{"text": "either in an emergency situation or when the unit goes to survival condition. "}
+{"text": "Amended by Regulation of 2 March 1999 No. 406 (in force on 1 Sept 1999).  "}
+{"text": "Section 50 "}
+{"text": "Special routines for self-elevating units "}
+{"text": "1.  Before the unit is made waterborne an entry shall be made in the official log-book, the shift report or similar "}
+{"text": "reporting system, stating that all watertight and weathertight means of closure that shall be closed in accordance "}
+{"text": "with section 49, have been witnessed closed. "}
+{"text": "2.  As long as the unit is waterborne, all means of closure, unless they have to remain open, shall be kept closed. "}
+{"text": "Instructions stating that it should be kept closed whenever waterborne, shall be posted on these means of closure. "}
+{"text": "3.  As long as the unit is waterborne, inspection and reporting routines shall ensure and document that the means "}
+{"text": "of closure remain closed. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Section 51 "}
+{"text": "Special routines for units of a ship design "}
+{"text": "1.  Before the ship goes to survival condition, cf. section 2 subparagraph 12, all openings in accordance with the "}
+{"text": "plan required by section 49, shall be closed weathertight. "}
+{"text": "2.  As long as the ship is in the survival condition, inspection and reporting routines shall ensure and document "}
+{"text": "that the means of closure remain closed. "}
+{"text": "Amended by Regulation of 11 April 2003 No. 543 (in force on 1 July 2003). "}
+{"text": "Chapter XVI "}
+{"text": "Final provisions "}
+{"text": "Section 52 "}
+{"text": "Entry into force "}
+{"text": "These Regulations enter into force on 1 January 1992. "}
+{"text": "Amended by Regulation of 29 June 2007 No. 1006 (in force on 1 July 2007, previously section 53). "}
