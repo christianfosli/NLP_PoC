@@ -1,8 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using ServiceController.NlpService;
 using ServiceController.TextService;
+using ServiceController.NlpService;
+using ServiceController.KnowledgeService;
 using System;
 using System.Threading.Tasks;
 using ServiceController.ConsoleApp.ConsolePrinter;
@@ -17,10 +18,16 @@ namespace ServiceController.ConsoleApp
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHttpClient();
+
+                    // api
                     services.AddTransient<ITextServiceApi, TextServiceApi>();
-                    services.AddTransient<ITextServiceHelper, TextServiceHelper>();
                     services.AddTransient<INlpServiceApi, NlpServiceApi>();
+                    services.AddTransient<ITopBraidEdgApi, TopBraidEdgApi>();
+
+                    // helpers
+                    services.AddTransient<ITextServiceHelper, TextServiceHelper>();
                     services.AddTransient<INlpServiceHelper, NlpServiceHelper>();
+
                 }).UseConsoleLifetime();
 
             var host = builder.Build();
@@ -32,6 +39,7 @@ namespace ServiceController.ConsoleApp
                 // api
                 var textServiceApi = services.GetRequiredService<ITextServiceApi>();
                 var nlpServiceApi = services.GetRequiredService<INlpServiceApi>();
+                var topBraidEdgApi = services.GetRequiredService<ITopBraidEdgApi>();
 
                 // helpers
                 var textServiceHelper = services.GetRequiredService<ITextServiceHelper>();
@@ -39,6 +47,12 @@ namespace ServiceController.ConsoleApp
 
                 Console.ResetColor();
                 Console.WriteLine("Service Controller application started.");
+
+                await topBraidEdgApi.TestInsert();
+
+
+
+
 
                 /*
                 Console.ForegroundColor = ConsoleColor.Black;
@@ -118,14 +132,14 @@ namespace ServiceController.ConsoleApp
                     selectedRegulationDictionary.Language));
                 Console.ResetColor();
 
-                //for (int i = 0; i < chapterList.Count; i++)
-                for (int i = 0; i < 2; i++) // TODO: Remove for limit
+                for (int i = 0; i < chapterList.Count; i++)
+                //for (int i = 0; i < 2; i++) // Limit on 2.
                 {
                     Console.BackgroundColor = ConsoleColor.Yellow;
                     Console.ForegroundColor = ConsoleColor.Black;
                     var requestNumber = i + 1;
                     Console.WriteLine(string.Format(
-                        "Asking chapter {0} of {1}:", 
+                        "Processing chapter {0} of {1}:", 
                         requestNumber, 
                         chapterList.Count));
                     Console.ResetColor();
