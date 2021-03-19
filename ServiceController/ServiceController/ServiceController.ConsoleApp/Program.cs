@@ -58,12 +58,25 @@ namespace ServiceController.ConsoleApp
                 Console.ResetColor();
                 Console.WriteLine("Service Controller application started.");
 
-                await topBraidEdgApi.TestInsert(TopBraidEdgOAuthAccessToken);
+
+                //TODO not done
+
+                var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
+	                "nlppoctestontology",
+                    "nlpknowledgefromappworkflow",
+                    "ontologist"
+                    );
+
+                var topBraidEdgSparqlInsertQuery =
+	                @"INSERT DATA { <http://test.org/test1> <http://www.w3.org/2000/01/rdf-schema%23comment> 'Test 26 by Lars' . }";
+
+                await topBraidEdgApi.TestInsert(
+	                TopBraidEdgOAuthAccessToken,
+	                topBraidEdgSparqlInsertQuery,
+	                topBraidEdgSparqlInsertBuilder.Urn);
 
 
-
-
-
+                //TODO not done
 
 
 

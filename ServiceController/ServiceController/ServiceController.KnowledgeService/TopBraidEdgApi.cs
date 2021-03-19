@@ -15,18 +15,29 @@ namespace ServiceController.KnowledgeService
 			_clientFactory = clientFactory;
 		}
 
-		public async Task TestInsert(string topBraidEdgOAuthAccessToken)
+		public async Task TestInsert(
+			string topBraidEdgOAuthAccessToken, 
+			string topBraidEdgSparqlInsertQuery,
+			string topBraidEdgWorkflowUrn)
 		{
-			var nvc = new List<KeyValuePair<string, string>>();
-
-			nvc.Add(new KeyValuePair<string, string>("update", @"INSERT DATA { GRAPH <urn:x-evn-master:nlppoctestontology> { <http://test.org/test1> <http://www.w3.org/2000/01/rdf-schema%23comment> 'Test 12 by Lars' . } }"));
+			var contentList = new List<string>
+			{
+				$"update={Uri.EscapeDataString(topBraidEdgSparqlInsertQuery)}",
+				$"using-graph-uri={Uri.EscapeDataString(topBraidEdgWorkflowUrn)}"
+			};
 
 			var request = new HttpRequestMessage(
 				HttpMethod.Post,
 				@"https://sdir-d-apim-common.azure-api.net/core-topbraid-edg/tbl/sparql")
 			{
-				Content = new FormUrlEncodedContent(nvc)
+				Content = new StringContent(string.Join("&", contentList))
 			};
+
+			//request.Content.Headers.ContentType = new MediaTypeHeaderValue("application/x-www-form-urlencoded");
+			request.Content.Headers.Remove("Content-Type");
+			request.Content.Headers.TryAddWithoutValidation(
+				"Content-Type", 
+				"application/x-www-form-urlencoded; charset=UTF-8");
 
 			var client = _clientFactory.CreateClient();
 
