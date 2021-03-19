@@ -4,6 +4,6 @@ namespace ServiceController.KnowledgeService
 {
 	public interface ITopBraidEdgApi
 	{
-		Task TestInsert();
+		Task TestInsert(string topBraidEdgOAuthAccessToken);
 	}
 }

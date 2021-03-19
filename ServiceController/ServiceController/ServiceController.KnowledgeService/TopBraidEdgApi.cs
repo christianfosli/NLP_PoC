@@ -15,11 +15,11 @@ namespace ServiceController.KnowledgeService
 			_clientFactory = clientFactory;
 		}
 
-		public async Task TestInsert()
+		public async Task TestInsert(string topBraidEdgOAuthAccessToken)
 		{
 			var nvc = new List<KeyValuePair<string, string>>();
 
-			nvc.Add(new KeyValuePair<string, string>("update", @"INSERT DATA { GRAPH <urn:x-evn-master:nlppoctestontology> { <http://test.org/test1> <http://www.w3.org/2000/01/rdf-schema%23comment> 'Test 11 by Lars' . } }"));
+			nvc.Add(new KeyValuePair<string, string>("update", @"INSERT DATA { GRAPH <urn:x-evn-master:nlppoctestontology> { <http://test.org/test1> <http://www.w3.org/2000/01/rdf-schema%23comment> 'Test 12 by Lars' . } }"));
 
 			var request = new HttpRequestMessage(
 				HttpMethod.Post,
@@ -30,11 +30,8 @@ namespace ServiceController.KnowledgeService
 
 			var client = _clientFactory.CreateClient();
 
-			// Initialization  
-			string authorizationToken = "";
-
-			// Setting Authorization.  
-			client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", authorizationToken);
+			client.DefaultRequestHeaders.Authorization = 
+				new AuthenticationHeaderValue("Bearer", topBraidEdgOAuthAccessToken);
 
 			var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
 

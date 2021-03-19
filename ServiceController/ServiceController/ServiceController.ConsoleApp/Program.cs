@@ -6,15 +6,25 @@ using ServiceController.NlpService;
 using ServiceController.KnowledgeService;
 using System;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 using ServiceController.ConsoleApp.ConsolePrinter;
 
 namespace ServiceController.ConsoleApp
 {
     public class Program
     {
+	    public static IConfigurationRoot Configuration { get; set; }
+        private static string TopBraidEdgOAuthAccessToken { get; set; }
+
         static async Task<int> Main(string[] args)
         {
-            var builder = new HostBuilder()
+	        var hostBuilder = new HostBuilder()
+	            .ConfigureAppConfiguration((hostContext, configurationBuilder) =>
+	            {
+		            configurationBuilder.AddUserSecrets<Program>();
+                    Configuration = configurationBuilder.Build();
+                    TopBraidEdgOAuthAccessToken = Configuration["Secrets:TopBraidEdgOAuthAccessToken"];
+	            })
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHttpClient();
@@ -27,10 +37,10 @@ namespace ServiceController.ConsoleApp
                     // helpers
                     services.AddTransient<ITextServiceHelper, TextServiceHelper>();
                     services.AddTransient<INlpServiceHelper, NlpServiceHelper>();
+                })
+                .UseConsoleLifetime();
 
-                }).UseConsoleLifetime();
-
-            var host = builder.Build();
+            var host = hostBuilder.Build();
 
             using (var serviceScope = host.Services.CreateScope())
             {
@@ -48,7 +58,10 @@ namespace ServiceController.ConsoleApp
                 Console.ResetColor();
                 Console.WriteLine("Service Controller application started.");
 
-                await topBraidEdgApi.TestInsert();
+                await topBraidEdgApi.TestInsert(TopBraidEdgOAuthAccessToken);
+
+
+
 
 
 
