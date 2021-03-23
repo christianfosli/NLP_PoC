@@ -33,7 +33,6 @@ namespace ServiceController.KnowledgeService
 				Content = new StringContent(string.Join("&", contentList))
 			};
 
-			//request.Content.Headers.ContentType = new MediaTypeHeaderValue("application/x-www-form-urlencoded");
 			request.Content.Headers.Remove("Content-Type");
 			request.Content.Headers.TryAddWithoutValidation(
 				"Content-Type", 

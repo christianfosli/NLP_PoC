@@ -5,6 +5,7 @@ using ServiceController.TextService;
 using ServiceController.NlpService;
 using ServiceController.KnowledgeService;
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using ServiceController.ConsoleApp.ConsolePrinter;
@@ -58,40 +59,9 @@ namespace ServiceController.ConsoleApp
                 Console.ResetColor();
                 Console.WriteLine("Service Controller application started.");
 
-
-                //TODO not done
-
-                var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
-	                "nlppoctestontology",
-                    "nlpknowledgefromappworkflow",
-                    "ontologist",
-	                RdfTurtleTriplesForTesting
-                    );
-
-                var sparqlInsertQueryString = topBraidEdgSparqlInsertBuilder.BuildSparqlInsertQueryString();
-                var topBraidEdgGraphUrn = topBraidEdgSparqlInsertBuilder.BuildTopBraidEdgGraphUrn();
-
-                //var topBraidEdgSparqlInsertQuery = @"INSERT DATA { <http://test.org/test1> <http://www.w3.org/2000/01/rdf-schema%23comment> 'Test 26 by Lars' . }";
-
-                await topBraidEdgApi.TestInsert(
-	                TopBraidEdgOAuthAccessToken,
-	                sparqlInsertQueryString,
-	                topBraidEdgGraphUrn);
-
-
-                //TODO not done
-
-
-
-                /*
-                Console.ForegroundColor = ConsoleColor.Black;
-                Console.BackgroundColor = ConsoleColor.Blue;
-                Console.WriteLine("Asking Text Service for a chapter.");
-				var regulationChapterFromTextService = 
-                    await textServiceApi.GetRegulationChapter(2013, 11, 22, 1404, 4);
-                Console.WriteLine("Data from Text Service loaded successfully!");
-                Console.ResetColor();
-                */
+                //
+                // Text Service
+                //
 
                 var regulationListFromTextService = await textServiceApi.GetRegulationList();
                 var regulationDictionary = textServiceHelper.MapRegulationResources(regulationListFromTextService);
@@ -100,7 +70,7 @@ namespace ServiceController.ConsoleApp
 
                 // Question to user
                 string regulationRequestedByTheUser;
-                Console.Write(string.Format("Please select a regulation from the list ({0}-{1}):", 1, regulationDictionary.Count));
+                Console.Write($"Please select a regulation from the list ({1}-{regulationDictionary.Count}):");
                 regulationRequestedByTheUser = Console.ReadLine();
                 int selectedRegulationDictionaryNumber = Convert.ToInt32(regulationRequestedByTheUser);
 
@@ -125,11 +95,11 @@ namespace ServiceController.ConsoleApp
 
                 var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
 
-                Console.WriteLine(string.Format("{0} chapters loaded successfully.", chapterList.Count));
+                Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
                 Console.ResetColor();
 
                 //
-                // NLP
+                // NLP Service
                 //
 
                 // Get NLP options
@@ -142,7 +112,7 @@ namespace ServiceController.ConsoleApp
 
                 // Question to user
                 string nlpResourceRequestedByTheUser;
-                Console.Write(string.Format("Please select a NLP resource from the list ({0}-{1}):", 1, nlpResourceDictionary.Count));
+                Console.Write($"Please select a NLP resource from the list ({1}-{nlpResourceDictionary.Count}):");
                 nlpResourceRequestedByTheUser = Console.ReadLine();
                 int selectedNlpResourceDictionaryNumber = Convert.ToInt32(nlpResourceRequestedByTheUser);
                 var selectedNlpResourceDictionary = nlpResourceDictionary[selectedNlpResourceDictionaryNumber];
@@ -162,15 +132,11 @@ namespace ServiceController.ConsoleApp
                 Console.ResetColor();
 
                 for (int i = 0; i < chapterList.Count; i++)
-                //for (int i = 0; i < 2; i++) // Limit on 2.
                 {
                     Console.BackgroundColor = ConsoleColor.Yellow;
                     Console.ForegroundColor = ConsoleColor.Black;
                     var requestNumber = i + 1;
-                    Console.WriteLine(string.Format(
-                        "Processing chapter {0} of {1}:", 
-                        requestNumber, 
-                        chapterList.Count));
+                    Console.WriteLine($"Processing chapter {requestNumber} of {chapterList.Count}:");
                     Console.ResetColor();
 
                     var identifiedInformationInChapterTextData =
@@ -186,9 +152,7 @@ namespace ServiceController.ConsoleApp
 					{
                         Console.BackgroundColor = ConsoleColor.Green;
                         Console.ForegroundColor = ConsoleColor.Black;
-                        Console.WriteLine(string.Format(
-                            "{0} detections in this chapter:", 
-                            itemCountOfNlpServiceResponse));
+                        Console.WriteLine($"{itemCountOfNlpServiceResponse} detections in this chapter:");
                         Console.ResetColor();
 
                         var nlpServiceResultPrinter = new NlpServiceResultPrinter(identifiedInformationInChapterTextData);
@@ -202,7 +166,45 @@ namespace ServiceController.ConsoleApp
                         Console.ResetColor();
                     }
                 }
-                
+
+                //
+                // Transformer Service
+                //
+
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.BackgroundColor = ConsoleColor.Magenta;
+                Console.WriteLine("TODO: Asking Transformer Service to transform information.");
+                Console.ResetColor();
+
+                //
+                // Knowledge Service
+                //
+
+                Console.ForegroundColor = ConsoleColor.Black;
+                Console.BackgroundColor = ConsoleColor.Cyan;
+                Console.WriteLine("Asking Knowledge Service to construct SPARQL INSERT query.");
+
+                var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
+	                "nlppoctestontology",
+	                "nlpknowledgefromappworkflow",
+	                "ontologist",
+	                RdfTurtleTriplesForTesting
+                );
+
+                Console.WriteLine($"Successfully parsed {topBraidEdgSparqlInsertBuilder.Graph.Nodes.Count()} triples from Transformer Service.");
+                var sparqlInsertQueryString = topBraidEdgSparqlInsertBuilder.BuildSparqlInsertQueryString();
+                Console.WriteLine("Successfully constructed SPARQL INSERT query.");
+                var topBraidEdgGraphUrn = topBraidEdgSparqlInsertBuilder.BuildTopBraidEdgGraphUrn();
+                Console.WriteLine($"Loading knowledge into TopBraid EDG graph: {topBraidEdgGraphUrn}");
+
+                await topBraidEdgApi.TestInsert(
+	                TopBraidEdgOAuthAccessToken,
+	                sparqlInsertQueryString,
+	                topBraidEdgGraphUrn);
+
+                Console.WriteLine("Successfully loaded knowledge.");
+                Console.ResetColor();
+
                 /* TODO maby include later
                 try
                 {

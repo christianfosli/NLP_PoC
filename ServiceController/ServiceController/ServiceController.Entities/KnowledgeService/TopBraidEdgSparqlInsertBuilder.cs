@@ -11,6 +11,8 @@ namespace ServiceController.Entities.KnowledgeService
 {
 	public class TopBraidEdgSparqlInsertBuilder
 	{
+		public IGraph Graph { get; internal set; } = new Graph();
+
 		// Example: nlppoctestontology
 		public string OntologyName { get; internal set; }
 
@@ -32,6 +34,10 @@ namespace ServiceController.Entities.KnowledgeService
 			WorkflowName = workflowName;
 			Username = username;
 			RdfTurtleTriples = rdfTurtleTriples;
+
+			if (string.IsNullOrWhiteSpace(RdfTurtleTriples)) return;
+			IRdfReader parser = new TurtleParser();
+			parser.Load(Graph, new StringReader(RdfTurtleTriples));
 		}
 
 		//
@@ -40,18 +46,12 @@ namespace ServiceController.Entities.KnowledgeService
 
 		public string BuildSparqlInsertQueryString()
 		{
-			if (string.IsNullOrWhiteSpace(RdfTurtleTriples)) return "";
-
-			IRdfReader parser = new TurtleParser();
-			IGraph graph = new Graph();
-			parser.Load(graph, new StringReader(RdfTurtleTriples));
-
-			if (graph.IsEmpty) return "";
+			if (Graph.IsEmpty) return "";
 
 			var list = new List<string> { "INSERT DATA {" };
 			list.AddRange(
 				from triple
-					in graph.Triples
+					in Graph.Triples
 				let tripleSubject = FormatNodeToNTripleString(triple.Subject, TripleSegment.Subject)
 				let triplePredicate = FormatNodeToNTripleString(triple.Predicate, TripleSegment.Predicate)
 				let tripleObject = FormatNodeToNTripleString(triple.Object, TripleSegment.Predicate)
@@ -105,8 +105,6 @@ namespace ServiceController.Entities.KnowledgeService
 
 			output.Append('"');
 			var value = l.Value;
-			//value = Escape(value, _litEscapes);
-			//output.Append(FormatChar(value.ToCharArray()));
 			output.Append(value.ToCharArray());
 			output.Append('"');
 
@@ -147,7 +145,6 @@ namespace ServiceController.Entities.KnowledgeService
 				throw new ArgumentException("IRIs to be formatted by the NTriplesFormatter must be absolute IRIs");
 			}
 
-			//return FormatUri(Rfc3987Formatter.EscapeUriString(u.ToString()));
 			return u.ToString();
 		}
 	}
