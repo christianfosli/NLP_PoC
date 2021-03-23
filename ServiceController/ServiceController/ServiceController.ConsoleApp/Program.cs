@@ -12,6 +12,11 @@ using ServiceController.ConsoleApp.ConsolePrinter;
 
 namespace ServiceController.ConsoleApp
 {
+    /// <summary>
+    /// Ontology: NlpPocTestOntology
+    /// Workflow: NlpKnowledgeFromAppWorkflow
+    /// Username: ontologist
+    /// </summary>
     public class Program
     {
 	    public static IConfigurationRoot Configuration { get; set; }
@@ -43,169 +48,168 @@ namespace ServiceController.ConsoleApp
 
             var host = hostBuilder.Build();
 
-            using (var serviceScope = host.Services.CreateScope())
+            using var serviceScope = host.Services.CreateScope();
             {
-                var services = serviceScope.ServiceProvider;
+	            var services = serviceScope.ServiceProvider;
 
-                // api
-                var textServiceApi = services.GetRequiredService<ITextServiceApi>();
-                var nlpServiceApi = services.GetRequiredService<INlpServiceApi>();
-                var topBraidEdgApi = services.GetRequiredService<ITopBraidEdgApi>();
+	            // api
+	            var textServiceApi = services.GetRequiredService<ITextServiceApi>();
+	            var nlpServiceApi = services.GetRequiredService<INlpServiceApi>();
+	            var topBraidEdgApi = services.GetRequiredService<ITopBraidEdgApi>();
 
-                // helpers
-                var textServiceHelper = services.GetRequiredService<ITextServiceHelper>();
-                var nlpServiceHelper = services.GetRequiredService<INlpServiceHelper>();
+	            // helpers
+	            var textServiceHelper = services.GetRequiredService<ITextServiceHelper>();
+	            var nlpServiceHelper = services.GetRequiredService<INlpServiceHelper>();
 
-                Console.ResetColor();
-                Console.WriteLine("Service Controller application started.");
+	            Console.ResetColor();
+	            Console.WriteLine("Service Controller application started.");
 
-                //
-                // Text Service
-                //
+	            //
+	            // Text Service
+	            //
 
-                var regulationListFromTextService = await textServiceApi.GetRegulationList();
-                var regulationDictionary = textServiceHelper.MapRegulationResources(regulationListFromTextService);
-                var regulationDictionaryPrinter = new TextServiceRegulationDictionaryPrinter(regulationDictionary);
-                regulationDictionaryPrinter.PrintAllOptions();
+	            var regulationListFromTextService = await textServiceApi.GetRegulationList();
+	            var regulationDictionary = textServiceHelper.MapRegulationResources(regulationListFromTextService);
+	            var regulationDictionaryPrinter = new TextServiceRegulationDictionaryPrinter(regulationDictionary);
+	            regulationDictionaryPrinter.PrintAllOptions();
 
-                // Question to user
-                string regulationRequestedByTheUser;
-                Console.Write($"Please select a regulation from the list ({1}-{regulationDictionary.Count}):");
-                regulationRequestedByTheUser = Console.ReadLine();
-                int selectedRegulationDictionaryNumber = Convert.ToInt32(regulationRequestedByTheUser);
+	            // Question to user
+	            Console.Write($"Please select a regulation from the list ({1}-{regulationDictionary.Count}):");
+	            var regulationRequestedByTheUser = Console.ReadLine();
+	            var selectedRegulationDictionaryNumber = Convert.ToInt32(regulationRequestedByTheUser);
 
-                // Get selected regulation
-                var selectedRegulationDictionary = regulationDictionary[selectedRegulationDictionaryNumber];
+	            // Get selected regulation
+	            var selectedRegulationDictionary = regulationDictionary[selectedRegulationDictionaryNumber];
 
-                Console.ForegroundColor = ConsoleColor.Black;
-                Console.BackgroundColor = ConsoleColor.Blue;
-                Console.WriteLine(string.Format(
-                    "Asking Text Service for regulation {0}-{1}-{2}-{3} ({4}).",
-                    selectedRegulationDictionary.RegulationYear,
-                    selectedRegulationDictionary.RegulationMonth,
-                    selectedRegulationDictionary.RegulationDay,
-                    selectedRegulationDictionary.RegulationNumber,
-                    selectedRegulationDictionary.Language));
+	            Console.ForegroundColor = ConsoleColor.Black;
+	            Console.BackgroundColor = ConsoleColor.Blue;
+	            Console.WriteLine(string.Format(
+		            "Asking Text Service for regulation {0}-{1}-{2}-{3} ({4}).",
+		            selectedRegulationDictionary.RegulationYear,
+		            selectedRegulationDictionary.RegulationMonth,
+		            selectedRegulationDictionary.RegulationDay,
+		            selectedRegulationDictionary.RegulationNumber,
+		            selectedRegulationDictionary.Language));
 
-                var regulationFromTextService = await textServiceApi.GetRegulation(
-                    Convert.ToInt32(selectedRegulationDictionary.RegulationYear),
-                    Convert.ToInt32(selectedRegulationDictionary.RegulationMonth),
-                    Convert.ToInt32(selectedRegulationDictionary.RegulationDay),
-                    Convert.ToInt32(selectedRegulationDictionary.RegulationNumber));
+	            var regulationFromTextService = await textServiceApi.GetRegulation(
+		            Convert.ToInt32(selectedRegulationDictionary.RegulationYear),
+		            Convert.ToInt32(selectedRegulationDictionary.RegulationMonth),
+		            Convert.ToInt32(selectedRegulationDictionary.RegulationDay),
+		            Convert.ToInt32(selectedRegulationDictionary.RegulationNumber));
 
-                var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
+	            var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
 
-                Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
-                Console.ResetColor();
+	            Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
+	            Console.ResetColor();
 
-                //
-                // NLP Service
-                //
+	            //
+	            // NLP Service
+	            //
 
-                // Get NLP options
-                var nlpResourceList = nlpServiceApi.GetNlpResourceList();
-                var nlpResourceDictionary = nlpServiceHelper.AddNlpResourceListToDictionary(nlpResourceList);
+	            // Get NLP options
+	            var nlpResourceList = nlpServiceApi.GetNlpResourceList();
+	            var nlpResourceDictionary = nlpServiceHelper.AddNlpResourceListToDictionary(nlpResourceList);
 
-                // Print NLP options
-                var nlpResourceDictionaryPrinter = new NlpServiceResourceDictionaryPrinter(nlpResourceDictionary);
-                nlpResourceDictionaryPrinter.PrintAllOptions();
+	            // Print NLP options
+	            var nlpResourceDictionaryPrinter = new NlpServiceResourceDictionaryPrinter(nlpResourceDictionary);
+	            nlpResourceDictionaryPrinter.PrintAllOptions();
 
-                // Question to user
-                string nlpResourceRequestedByTheUser;
-                Console.Write($"Please select a NLP resource from the list ({1}-{nlpResourceDictionary.Count}):");
-                nlpResourceRequestedByTheUser = Console.ReadLine();
-                int selectedNlpResourceDictionaryNumber = Convert.ToInt32(nlpResourceRequestedByTheUser);
-                var selectedNlpResourceDictionary = nlpResourceDictionary[selectedNlpResourceDictionaryNumber];
+	            // Question to user
+	            Console.Write($"Please select a NLP resource from the list ({1}-{nlpResourceDictionary.Count}):");
+	            var nlpResourceRequestedByTheUser = Console.ReadLine();
+	            var selectedNlpResourceDictionaryNumber = Convert.ToInt32(nlpResourceRequestedByTheUser);
+	            var selectedNlpResourceDictionary = nlpResourceDictionary[selectedNlpResourceDictionaryNumber];
 
-                // Send requests to NLP service
-                Console.BackgroundColor = ConsoleColor.Green;
-                Console.ForegroundColor = ConsoleColor.Black;
-                Console.WriteLine(string.Format(
-                    "Asking NLP Service to identify information about {0} ({1}) in regulation {2}-{3}-{4}-{5} ({6}).",
-                    selectedNlpResourceDictionary.Title,
-                    selectedNlpResourceDictionary.Language,
-                    selectedRegulationDictionary.RegulationYear,
-                    selectedRegulationDictionary.RegulationMonth,
-                    selectedRegulationDictionary.RegulationDay,
-                    selectedRegulationDictionary.RegulationNumber,
-                    selectedRegulationDictionary.Language));
-                Console.ResetColor();
+	            // Send requests to NLP service
+	            Console.BackgroundColor = ConsoleColor.Green;
+	            Console.ForegroundColor = ConsoleColor.Black;
+	            Console.WriteLine(string.Format(
+		            "Asking NLP Service to identify information about {0} ({1}) in regulation {2}-{3}-{4}-{5} ({6}).",
+		            selectedNlpResourceDictionary.Title,
+		            selectedNlpResourceDictionary.Language,
+		            selectedRegulationDictionary.RegulationYear,
+		            selectedRegulationDictionary.RegulationMonth,
+		            selectedRegulationDictionary.RegulationDay,
+		            selectedRegulationDictionary.RegulationNumber,
+		            selectedRegulationDictionary.Language));
+	            Console.ResetColor();
 
-                for (int i = 0; i < chapterList.Count; i++)
-                {
-                    Console.BackgroundColor = ConsoleColor.Yellow;
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    var requestNumber = i + 1;
-                    Console.WriteLine($"Processing chapter {requestNumber} of {chapterList.Count}:");
-                    Console.ResetColor();
+	            for (int i = 0; i < chapterList.Count; i++)
+	            {
+		            Console.BackgroundColor = ConsoleColor.Yellow;
+		            Console.ForegroundColor = ConsoleColor.Black;
+		            var requestNumber = i + 1;
+		            Console.WriteLine($"Processing chapter {requestNumber} of {chapterList.Count}:");
+		            Console.ResetColor();
 
-                    var identifiedInformationInChapterTextData =
-                        await nlpServiceApi.IdentifyInformationInChapterTextData(
-                            chapterList[i],
-                            selectedNlpResourceDictionary.Url);
+		            var identifiedInformationInChapterTextData =
+			            await nlpServiceApi.IdentifyInformationInChapterTextData(
+				            chapterList[i],
+				            selectedNlpResourceDictionary.Url);
 
-                    var itemCountOfNlpServiceResponse = 
-                        nlpServiceHelper.CountItemsInNlpServiceApiResponse(
-                            identifiedInformationInChapterTextData);
+		            var itemCountOfNlpServiceResponse = 
+			            nlpServiceHelper.CountItemsInNlpServiceApiResponse(
+				            identifiedInformationInChapterTextData);
 
-                    if(itemCountOfNlpServiceResponse > 0)
-					{
-                        Console.BackgroundColor = ConsoleColor.Green;
-                        Console.ForegroundColor = ConsoleColor.Black;
-                        Console.WriteLine($"{itemCountOfNlpServiceResponse} detections in this chapter:");
-                        Console.ResetColor();
+		            if(itemCountOfNlpServiceResponse > 0)
+		            {
+			            Console.BackgroundColor = ConsoleColor.Green;
+			            Console.ForegroundColor = ConsoleColor.Black;
+			            Console.WriteLine($"{itemCountOfNlpServiceResponse} detections in this chapter:");
+			            Console.ResetColor();
 
-                        var nlpServiceResultPrinter = new NlpServiceResultPrinter(identifiedInformationInChapterTextData);
-                        nlpServiceResultPrinter.PrintAllItems();
-                    }
-                    else
-					{
-                        Console.BackgroundColor = ConsoleColor.Green;
-                        Console.ForegroundColor = ConsoleColor.Black;
-                        Console.WriteLine("No detections in this chapter.");
-                        Console.ResetColor();
-                    }
-                }
+			            var nlpServiceResultPrinter = new NlpServiceResultPrinter(identifiedInformationInChapterTextData);
+			            nlpServiceResultPrinter.PrintAllItems();
+		            }
+		            else
+		            {
+			            Console.BackgroundColor = ConsoleColor.Green;
+			            Console.ForegroundColor = ConsoleColor.Black;
+			            Console.WriteLine("No detections in this chapter.");
+			            Console.ResetColor();
+		            }
+	            }
 
-                //
-                // Transformer Service
-                //
+	            //
+	            // Transformer Service
+	            //
 
-                Console.ForegroundColor = ConsoleColor.Black;
-                Console.BackgroundColor = ConsoleColor.Magenta;
-                Console.WriteLine("TODO: Asking Transformer Service to transform information.");
-                Console.ResetColor();
+	            Console.ForegroundColor = ConsoleColor.Black;
+	            Console.BackgroundColor = ConsoleColor.Magenta;
+	            Console.WriteLine("TODO: Asking Transformer Service to transform information.");
+	            Console.ResetColor();
 
-                //
-                // Knowledge Service
-                //
+	            //
+	            // Knowledge Service
+	            //
 
-                Console.ForegroundColor = ConsoleColor.Black;
-                Console.BackgroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("Asking Knowledge Service to construct SPARQL INSERT query.");
+	            Console.ForegroundColor = ConsoleColor.Black;
+	            Console.BackgroundColor = ConsoleColor.Cyan;
+	            Console.WriteLine("Asking Knowledge Service to construct SPARQL INSERT query.");
 
-                var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
-	                "nlppoctestontology",
-	                "nlpknowledgefromappworkflow",
-	                "ontologist",
-	                RdfTurtleTriplesForTesting
-                );
+	            var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
+		            "nlppoctestontology",
+		            "nlpknowledgefromappworkflow",
+		            "ontologist",
+		            RdfTurtleTriplesForTesting
+	            );
 
-                Console.WriteLine($"Successfully parsed {topBraidEdgSparqlInsertBuilder.Graph.Nodes.Count()} triples from Transformer Service.");
-                var sparqlInsertQueryString = topBraidEdgSparqlInsertBuilder.BuildSparqlInsertQueryString();
-                Console.WriteLine("Successfully constructed SPARQL INSERT query.");
-                var topBraidEdgGraphUrn = topBraidEdgSparqlInsertBuilder.BuildTopBraidEdgGraphUrn();
-                Console.WriteLine($"Loading knowledge into TopBraid EDG graph: {topBraidEdgGraphUrn}");
+	            Console.WriteLine($"Successfully parsed {topBraidEdgSparqlInsertBuilder.Graph.Nodes.Count()} triples from Transformer Service.");
+	            var sparqlInsertQueryString = topBraidEdgSparqlInsertBuilder.BuildSparqlInsertQueryString();
+	            Console.WriteLine("Successfully constructed SPARQL INSERT query.");
+	            var topBraidEdgGraphUrn = topBraidEdgSparqlInsertBuilder.BuildTopBraidEdgGraphUrn();
+	            Console.WriteLine($"Loading knowledge into TopBraid EDG graph: {topBraidEdgGraphUrn}");
 
-                await topBraidEdgApi.TestInsert(
-	                TopBraidEdgOAuthAccessToken,
-	                sparqlInsertQueryString,
-	                topBraidEdgGraphUrn);
+	            await topBraidEdgApi.TestInsert(
+		            TopBraidEdgOAuthAccessToken,
+		            sparqlInsertQueryString,
+		            topBraidEdgGraphUrn);
 
-                Console.WriteLine("Successfully loaded knowledge.");
-                Console.ResetColor();
+	            Console.WriteLine($"Successfully loaded knowledge. Please visit TopBraid EDG (workflow: {topBraidEdgSparqlInsertBuilder.WorkflowName}) to review the result.");
+	            Console.ResetColor();
+	            Console.WriteLine("Service Controller application ended.");
 
-                /* TODO maby include later
+	            /* TODO maybe include later
                 try
                 {
 
