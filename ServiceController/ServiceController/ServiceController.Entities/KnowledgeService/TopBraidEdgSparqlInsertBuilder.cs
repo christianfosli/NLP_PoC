@@ -14,25 +14,25 @@ namespace ServiceController.Entities.KnowledgeService
 		public IGraph Graph { get; internal set; } = new Graph();
 
 		// Example: nlppoctestontology
-		public string OntologyName { get; internal set; }
+		public string OntologyId { get; internal set; }
 
 		// Example: nlpknowledgefromappworkflow
-		public string WorkflowName { get; internal set; }
+		public string WorkflowId { get; internal set; }
 
 		// Example: ontologist
-		public string Username { get; internal set; }
+		public string UserId { get; internal set; }
 
 		public string RdfTurtleTriples { get; internal set; }
 
 		public TopBraidEdgSparqlInsertBuilder(
-			string ontologyName,
-			string workflowName,
-			string username,
+			string ontologyId,
+			string workflowId,
+			string userId,
 			string rdfTurtleTriples)
 		{
-			OntologyName = ontologyName;
-			WorkflowName = workflowName;
-			Username = username;
+			OntologyId = ontologyId;
+			WorkflowId = workflowId;
+			UserId = userId;
 			RdfTurtleTriples = rdfTurtleTriples;
 
 			if (string.IsNullOrWhiteSpace(RdfTurtleTriples)) return;
@@ -64,7 +64,7 @@ namespace ServiceController.Entities.KnowledgeService
 		// Example: urn:x-evn-tag:nlppoctestontology:nlpknowledgefromappworkflow:ontologist
 		public string BuildTopBraidEdgGraphUrn()
 		{
-			return $"urn:x-evn-tag:{OntologyName}:{WorkflowName}:{Username}";
+			return $"urn:x-evn-tag:{OntologyId}:{WorkflowId}:{UserId}";
 		}
 
 		//

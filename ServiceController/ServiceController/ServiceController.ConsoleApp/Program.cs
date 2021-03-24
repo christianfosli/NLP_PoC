@@ -20,16 +20,24 @@ namespace ServiceController.ConsoleApp
     public class Program
     {
 	    public static IConfigurationRoot Configuration { get; set; }
-        private static string TopBraidEdgOAuthAccessToken { get; set; }
+	    private static string TopBraidEdgOntologyId { get; set; }
+	    private static string TopBraidEdgWorkflowId { get; set; }
+	    private static string TopBraidEdgUserId { get; set; }
+		private static string TopBraidEdgOAuthAccessToken { get; set; }
 
-        static async Task<int> Main(string[] args)
+		static async Task<int> Main(string[] args)
         {
 	        var hostBuilder = new HostBuilder()
 	            .ConfigureAppConfiguration((hostContext, configurationBuilder) =>
 	            {
 		            configurationBuilder.AddUserSecrets<Program>();
                     Configuration = configurationBuilder.Build();
-                    TopBraidEdgOAuthAccessToken = Configuration["Secrets:TopBraidEdgOAuthAccessToken"];
+
+					// Load secrets
+					TopBraidEdgOntologyId = Configuration["TopBraidEdg:OntologyId"];
+					TopBraidEdgWorkflowId = Configuration["TopBraidEdg:WorkflowId"];
+					TopBraidEdgUserId = Configuration["TopBraidEdg:UserId"];
+					TopBraidEdgOAuthAccessToken = Configuration["TopBraidEdg:OAuthAccessToken"];
 	            })
                 .ConfigureServices((hostContext, services) =>
                 {
@@ -188,9 +196,9 @@ namespace ServiceController.ConsoleApp
 	            Console.WriteLine("Asking Knowledge Service to construct SPARQL INSERT query.");
 
 	            var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
-		            "nlppoctestontology",
-		            "nlpknowledgefromappworkflow",
-		            "ontologist",
+		            TopBraidEdgOntologyId,
+		            TopBraidEdgWorkflowId,
+		            TopBraidEdgUserId,
 		            RdfTurtleTriplesForTesting
 	            );
 
@@ -205,7 +213,7 @@ namespace ServiceController.ConsoleApp
 		            sparqlInsertQueryString,
 		            topBraidEdgGraphUrn);
 
-	            Console.WriteLine($"Successfully loaded knowledge. Please visit TopBraid EDG (workflow: {topBraidEdgSparqlInsertBuilder.WorkflowName}) to review the result.");
+	            Console.WriteLine($"Successfully loaded knowledge. Please visit TopBraid EDG (workflow: {topBraidEdgSparqlInsertBuilder.WorkflowId}) to review the result.");
 	            Console.ResetColor();
 	            Console.WriteLine("Service Controller application ended.");
 
