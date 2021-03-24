@@ -7,6 +7,6 @@ namespace ServiceController.NlpService
 	public interface INlpServiceHelper
 	{
 		public int CountItemsInNlpServiceApiResponse(JsonElement responseFromNlpService);
-		public Dictionary<int, NlpResource> AddNlpResourceListToDictionary(List<NlpResource> nlpResourceList);
+		public Dictionary<int, NlpResource> MapNlpResources(JsonElement nlpResourceListFromNlpService);
 	}
 }

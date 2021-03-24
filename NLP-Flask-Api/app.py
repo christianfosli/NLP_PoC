@@ -66,6 +66,109 @@ app = Flask(__name__)
 def health():
     return "OK"
 
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1382907905/NLP+rule-based+matching+options
+@app.route("/nlp-rule-based-matching-options", methods=["GET"])
+def get_nlp_rule_based_matching_options():
+    urlPrefix = "http://localhost:5000/"
+    options = [
+        {
+            "title": "vessel length overall",
+            "language": "no",
+            "url": urlPrefix + "identify-VESSEL-LENGTH-OVERALL-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "electrical installation",
+            "language": "no",
+            "url": urlPrefix + "identify-ELECTRICAL-INSTALLATION-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "build date",
+            "language": "no",
+            "url": urlPrefix + "identify-BUILD-DATE-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "build date",
+            "language": "en",
+            "url": urlPrefix + "identify-BUILD-DATE-in-text-service-english-chapter"
+        },
+        {
+            "title": "alternative reference",
+            "language": "no",
+            "url": urlPrefix + "identify-ALTERNATIVE-REFERENCE-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "passenger",
+            "language": "no",
+            "url": urlPrefix + "identify-PASSENGER-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "gross tonnage",
+            "language": "no",
+            "url": urlPrefix + "identify-GROSS-TONNAGE-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "vessel",
+            "language": "no",
+            "url": urlPrefix + "identify-VESSEL-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "flashpoint",
+            "language": "no",
+            "url": urlPrefix + "identify-FLASHPOINT-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "vessel type",
+            "language": "no",
+            "url": urlPrefix + "identify-VESSEL-TYPE-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "mobile unit",
+            "language": "no",
+            "url": urlPrefix + "identify-MOBILE-UNIT-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "cargo",
+            "language": "no",
+            "url": urlPrefix + "identify-CARGO-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "trade area",
+            "language": "no",
+            "url": urlPrefix + "identify-TRADE-AREA-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "radio area",
+            "language": "no",
+            "url": urlPrefix + "identify-RADIO-AREA-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "conversion",
+            "language": "no",
+            "url": urlPrefix + "identify-CONVERSION-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "protected",
+            "language": "no",
+            "url": urlPrefix + "identify-PROTECTED-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "load installation",
+            "language": "no",
+            "url": urlPrefix + "identify-LOAD-INSTALLATION-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "propulsion power",
+            "language": "no",
+            "url": urlPrefix + "identify-PROPULSION-POWER-in-text-service-norwegian-chapter"
+        },
+        {
+            "title": "keel laid",
+            "language": "no",
+            "url": urlPrefix + "identify-KEEL-LAID-in-text-service-norwegian-chapter"
+        }
+    ]
+    return jsonify(options)
+
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1172897823/vessel+length+overall+-+no
 @app.route("/identify-VESSEL-LENGTH-OVERALL-in-text-service-norwegian-chapter", methods=["POST"])
 def post_identify_vessel_length_overall_in_text_service_norwegian_chapter_input():

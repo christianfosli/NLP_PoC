@@ -72,12 +72,15 @@ namespace ServiceController.ConsoleApp
 	            Console.ResetColor();
 	            Console.WriteLine("Service Controller application started.");
 
-	            //
-	            // Text Service
-	            //
+				//
+				// Text Service
+				//
 
-	            var regulationListFromTextService = await textServiceApi.GetRegulationList();
+				// Get regulation options
+				var regulationListFromTextService = await textServiceApi.GetRegulationList();
 	            var regulationDictionary = textServiceHelper.MapRegulationResources(regulationListFromTextService);
+
+				// Print regulation options
 	            var regulationDictionaryPrinter = new TextServiceRegulationDictionaryPrinter(regulationDictionary);
 	            regulationDictionaryPrinter.PrintAllOptions();
 
@@ -110,16 +113,16 @@ namespace ServiceController.ConsoleApp
 	            Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
 	            Console.ResetColor();
 
-	            //
-	            // NLP Service
-	            //
+				//
+				// NLP Service
+				//
 
-	            // Get NLP options
-	            var nlpResourceList = nlpServiceApi.GetNlpResourceList();
-	            var nlpResourceDictionary = nlpServiceHelper.AddNlpResourceListToDictionary(nlpResourceList);
+				// Get NLP options
+				var nlpResourceListFromNlpService = await nlpServiceApi.GetNlpResourceList();
+				var nlpResourceDictionary = nlpServiceHelper.MapNlpResources(nlpResourceListFromNlpService);
 
-	            // Print NLP options
-	            var nlpResourceDictionaryPrinter = new NlpServiceResourceDictionaryPrinter(nlpResourceDictionary);
+				// Print NLP options
+				var nlpResourceDictionaryPrinter = new NlpServiceResourceDictionaryPrinter(nlpResourceDictionary);
 	            nlpResourceDictionaryPrinter.PrintAllOptions();
 
 	            // Question to user
