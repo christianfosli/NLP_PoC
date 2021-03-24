@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json;
-using static System.Text.Json.JsonElement;
 using ServiceController.Entities.TextService;
 
 namespace ServiceController.TextService
@@ -11,17 +10,15 @@ namespace ServiceController.TextService
 		{
             var chapterList = new List<JsonElement>();
 
-            using (JsonDocument document = JsonDocument.Parse(regulationFromTextService.ToString()))
-            {
-                JsonElement current = document.RootElement;
-                var chapters = current.GetProperty("chapters");
-                ArrayEnumerator arrayEnumerator = chapters.EnumerateArray();
+            using var document = JsonDocument.Parse(regulationFromTextService.ToString());
+            var current = document.RootElement;
+            var chapters = current.GetProperty("chapters");
+            var arrayEnumerator = chapters.EnumerateArray();
 
-                while (arrayEnumerator.MoveNext())
-                {
-                    JsonElement clonedChapter = arrayEnumerator.Current.Clone();
-                    chapterList.Add(clonedChapter);
-                }
+            while (arrayEnumerator.MoveNext())
+            {
+	            var clonedChapter = arrayEnumerator.Current.Clone();
+	            chapterList.Add(clonedChapter);
             }
 
             return chapterList;
@@ -31,30 +28,28 @@ namespace ServiceController.TextService
 		{
             var dictionary = new Dictionary<int, RegulationResource>();
 
-            using (JsonDocument document = JsonDocument.Parse(regulationListFromTextService.ToString()))
+            using var document = JsonDocument.Parse(regulationListFromTextService.ToString());
+            var arrayEnumerator = document.RootElement.EnumerateArray();
+
+            var counter = 1;
+
+            while (arrayEnumerator.MoveNext())
             {
-                ArrayEnumerator arrayEnumerator = document.RootElement.EnumerateArray();
+	            var i = arrayEnumerator.Current;
+	            i.TryGetProperty("referenceId", out var referenceId);
+	            i.TryGetProperty("title", out var title);
+	            i.TryGetProperty("url", out var url);
+	            i.TryGetProperty("language", out var language);
 
-                int counter = 1;
+	            var item = new RegulationResource() {
+		            ReferenceId = referenceId.GetString(),
+		            Title = title.GetString(),
+		            Url = new System.Uri(url.GetString()),
+		            Language = language.GetString()
+	            };
 
-                while (arrayEnumerator.MoveNext())
-                {
-                    JsonElement i = arrayEnumerator.Current;
-                    i.TryGetProperty("referenceId", out JsonElement referenceId);
-                    i.TryGetProperty("title", out JsonElement title);
-                    i.TryGetProperty("url", out JsonElement url);
-                    i.TryGetProperty("language", out JsonElement language);
-
-                    var item = new RegulationResource() {
-                        ReferenceId = referenceId.GetString(),
-                        Title = title.GetString(),
-                        Url = new System.Uri(url.GetString()),
-                        Language = language.GetString()
-                    };
-
-                    dictionary.Add(counter,item);
-                    counter++;
-                }
+	            dictionary.Add(counter,item);
+	            counter++;
             }
 
             return dictionary;

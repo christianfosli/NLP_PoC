@@ -211,11 +211,24 @@ namespace ServiceController.ConsoleApp
 	            var topBraidEdgGraphUrn = topBraidEdgSparqlInsertBuilder.BuildTopBraidEdgGraphUrn();
 	            Console.WriteLine($"Loading knowledge into TopBraid EDG graph: {topBraidEdgGraphUrn}");
 
-	            await topBraidEdgApi.TestInsert(
-		            TopBraidEdgOAuthAccessToken,
-		            sparqlInsertQueryString,
-		            topBraidEdgGraphUrn);
-
+	            try
+	            {
+		            await topBraidEdgApi.TestInsert(
+			            TopBraidEdgOAuthAccessToken,
+			            sparqlInsertQueryString,
+			            topBraidEdgGraphUrn);
+				}
+	            catch (Exception e)
+	            {
+		            Console.ForegroundColor = ConsoleColor.Black;
+		            Console.BackgroundColor = ConsoleColor.Red;
+		            Console.WriteLine("Oh no.. :-O Something went wrong. Here is an error message:");
+					Console.WriteLine(e);
+					Console.ResetColor();
+					Console.WriteLine("Service Controller application ended.");
+					return 0;
+				}
+	            
 	            Console.WriteLine($"Successfully loaded knowledge. Please visit TopBraid EDG (workflow: {topBraidEdgSparqlInsertBuilder.WorkflowId}) to review the result.");
 	            Console.ResetColor();
 	            Console.WriteLine("Service Controller application ended.");

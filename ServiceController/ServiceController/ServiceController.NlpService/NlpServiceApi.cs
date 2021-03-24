@@ -16,32 +16,6 @@ namespace ServiceController.NlpService
             _clientFactory = clientFactory;
         }
 
-        //TODO remove
-        public async Task<JsonElement> Identify_BUILD_DATE_In_NO_ChapterText(
-            JsonElement chapterTextFromTextService)
-        {
-            var request = new HttpRequestMessage(
-                HttpMethod.Post, 
-                @"http://localhost:5000/identify-build-date-in-text-service-norwegian-chapter");
-
-            request.Content = new StringContent(
-                chapterTextFromTextService.ToString(),
-                Encoding.UTF8,
-                "application/json");
-
-            var client = _clientFactory.CreateClient();
-            var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
-
-            if (!response.IsSuccessStatusCode) throw new Exception();
-
-            var jsonResponse = await response.Content.ReadAsStringAsync();
-            var jsonResponseDeserialized = // UTF-8 fix
-	            JsonConvert.DeserializeObject(jsonResponse)?.ToString();
-            using var doc = JsonDocument.Parse(jsonResponseDeserialized);
-
-            return doc.RootElement.Clone();
-        }
-
         public async Task<JsonElement> IdentifyInformationInChapterTextData(
             JsonElement chapterTextFromTextService,
             Uri nlpServiceApiResourceUrl)

@@ -35,19 +35,12 @@ namespace ServiceController.TextService
             var request = new HttpRequestMessage(HttpMethod.Get, apiUrl);
             var client = _clientFactory.CreateClient();
             var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
-
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonResponse = await response.Content.ReadAsStringAsync();
-                var jsonResponseDeserialized = // UTF-8 fix
-                    JsonConvert.DeserializeObject(jsonResponse).ToString();
-                using JsonDocument doc = JsonDocument.Parse(jsonResponseDeserialized);
-                return doc.RootElement.Clone();
-            }
-            else
-            {
-                throw new System.Exception();
-            }
+            if (!response.IsSuccessStatusCode) throw new System.Exception();
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+            var jsonResponseDeserialized = // UTF-8 fix
+	            JsonConvert.DeserializeObject(jsonResponse)?.ToString();
+            using var doc = JsonDocument.Parse(jsonResponseDeserialized);
+            return doc.RootElement.Clone();
         }
 
         /*
@@ -69,19 +62,12 @@ namespace ServiceController.TextService
             var request = new HttpRequestMessage(HttpMethod.Get, apiUrl);
             var client = _clientFactory.CreateClient();
             var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
-
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonResponse = await response.Content.ReadAsStringAsync();
-                var jsonResponseDeserialized = // UTF-8 fix
-                    JsonConvert.DeserializeObject(jsonResponse).ToString();
-                using JsonDocument doc = JsonDocument.Parse(jsonResponseDeserialized);
-                return doc.RootElement.Clone();
-            }
-            else
-            {
-                throw new System.Exception();
-            }
+            if (!response.IsSuccessStatusCode) throw new System.Exception();
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+            var jsonResponseDeserialized = // UTF-8 fix
+	            JsonConvert.DeserializeObject(jsonResponse)?.ToString();
+            using var doc = JsonDocument.Parse(jsonResponseDeserialized);
+            return doc.RootElement.Clone();
         }
 
         public async Task<JsonElement> GetRegulationList()
@@ -91,19 +77,12 @@ namespace ServiceController.TextService
                 @"https://sdir-d-apim-common.azure-api.net/core-text-internal/regulations");
             var client = _clientFactory.CreateClient();
             var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
-
-            if (response.IsSuccessStatusCode)
-            {
-                var jsonResponse = await response.Content.ReadAsStringAsync();
-                var jsonResponseDeserialized = // UTF-8 fix
-                    JsonConvert.DeserializeObject(jsonResponse).ToString();
-                using JsonDocument doc = JsonDocument.Parse(jsonResponseDeserialized);
-                return doc.RootElement.Clone();
-            }
-            else
-            {
-                throw new System.Exception();
-            }
+            if (!response.IsSuccessStatusCode) throw new System.Exception();
+            var jsonResponse = await response.Content.ReadAsStringAsync();
+            var jsonResponseDeserialized = // UTF-8 fix
+	            JsonConvert.DeserializeObject(jsonResponse)?.ToString();
+            using var doc = JsonDocument.Parse(jsonResponseDeserialized);
+            return doc.RootElement.Clone();
         }
     }
 }
