@@ -72,7 +72,7 @@ namespace ServiceController.ConsoleApp
 	            Console.ResetColor();
 	            Console.WriteLine("Service Controller application started.");
 
-				//
+	            //
 				// Text Service
 				//
 
@@ -80,106 +80,131 @@ namespace ServiceController.ConsoleApp
 				var regulationListFromTextService = await textServiceApi.GetRegulationList();
 	            var regulationDictionary = textServiceHelper.MapRegulationResources(regulationListFromTextService);
 
-				// Print regulation options
-	            var regulationDictionaryPrinter = new TextServiceRegulationDictionaryPrinter(regulationDictionary);
-	            regulationDictionaryPrinter.PrintAllOptions();
+                do
+                {
+	                // Print regulation options
+					var regulationDictionaryPrinter = new TextServiceRegulationDictionaryPrinter(regulationDictionary);
+					regulationDictionaryPrinter.PrintAllOptions();
 
-	            // Question to user
-	            Console.Write($"Please select a regulation from the list ({1}-{regulationDictionary.Count}):");
-	            var regulationRequestedByTheUser = Console.ReadLine();
-	            var selectedRegulationDictionaryNumber = Convert.ToInt32(regulationRequestedByTheUser);
+					// Question to user
+					Console.Write($"Please select a regulation from the list ({1}-{regulationDictionary.Count}):");
+					var regulationRequestedByTheUser = Console.ReadLine();
+					var selectedRegulationDictionaryNumber = Convert.ToInt32(regulationRequestedByTheUser);
 
-	            // Get selected regulation
-	            var selectedRegulationDictionary = regulationDictionary[selectedRegulationDictionaryNumber];
+					// Get selected regulation
+					var selectedRegulationDictionary = regulationDictionary[selectedRegulationDictionaryNumber];
 
-	            Console.ForegroundColor = ConsoleColor.Black;
-	            Console.BackgroundColor = ConsoleColor.Blue;
-	            Console.WriteLine(string.Format(
-		            "Asking Text Service for regulation {0}-{1}-{2}-{3} ({4}).",
-		            selectedRegulationDictionary.RegulationYear,
-		            selectedRegulationDictionary.RegulationMonth,
-		            selectedRegulationDictionary.RegulationDay,
-		            selectedRegulationDictionary.RegulationNumber,
-		            selectedRegulationDictionary.Language));
+					Console.ForegroundColor = ConsoleColor.Black;
+					Console.BackgroundColor = ConsoleColor.Blue;
+					Console.WriteLine(string.Format(
+						"Asking Text Service for regulation {0}-{1}-{2}-{3} ({4}).",
+						selectedRegulationDictionary.RegulationYear,
+						selectedRegulationDictionary.RegulationMonth,
+						selectedRegulationDictionary.RegulationDay,
+						selectedRegulationDictionary.RegulationNumber,
+						selectedRegulationDictionary.Language));
 
-	            var regulationFromTextService = await textServiceApi.GetRegulation(
-		            Convert.ToInt32(selectedRegulationDictionary.RegulationYear),
-		            Convert.ToInt32(selectedRegulationDictionary.RegulationMonth),
-		            Convert.ToInt32(selectedRegulationDictionary.RegulationDay),
-		            Convert.ToInt32(selectedRegulationDictionary.RegulationNumber));
+					var regulationFromTextService = await textServiceApi.GetRegulation(
+						Convert.ToInt32(selectedRegulationDictionary.RegulationYear),
+						Convert.ToInt32(selectedRegulationDictionary.RegulationMonth),
+						Convert.ToInt32(selectedRegulationDictionary.RegulationDay),
+						Convert.ToInt32(selectedRegulationDictionary.RegulationNumber));
 
-	            var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
+					var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
 
-	            Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
-	            Console.ResetColor();
+					Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
+					Console.ResetColor();
 
-				//
-				// NLP Service
-				//
+					//
+					// NLP Service
+					//
 
-				// Get NLP options
-				var nlpResourceListFromNlpService = await nlpServiceApi.GetNlpResourceList();
-				var nlpResourceDictionary = nlpServiceHelper.MapNlpResources(nlpResourceListFromNlpService);
+					// Get NLP options
+					var nlpResourceListFromNlpService = await nlpServiceApi.GetNlpResourceList();
+					var nlpResourceDictionary = nlpServiceHelper.MapNlpResources(nlpResourceListFromNlpService);
 
-				// Print NLP options
-				var nlpResourceDictionaryPrinter = new NlpServiceResourceDictionaryPrinter(nlpResourceDictionary);
-	            nlpResourceDictionaryPrinter.PrintAllOptions();
+					// Print NLP options
+					var nlpResourceDictionaryPrinter = new NlpServiceResourceDictionaryPrinter(nlpResourceDictionary);
+					nlpResourceDictionaryPrinter.PrintAllOptions();
 
-	            // Question to user
-	            Console.Write($"Please select a NLP resource from the list ({1}-{nlpResourceDictionary.Count}):");
-	            var nlpResourceRequestedByTheUser = Console.ReadLine();
-	            var selectedNlpResourceDictionaryNumber = Convert.ToInt32(nlpResourceRequestedByTheUser);
-	            var selectedNlpResourceDictionary = nlpResourceDictionary[selectedNlpResourceDictionaryNumber];
+					// Question to user
+					Console.Write($"Please select a NLP resource from the list ({1}-{nlpResourceDictionary.Count}):");
+					var nlpResourceRequestedByTheUser = Console.ReadLine();
+					var selectedNlpResourceDictionaryNumber = Convert.ToInt32(nlpResourceRequestedByTheUser);
+					var selectedNlpResourceDictionary = nlpResourceDictionary[selectedNlpResourceDictionaryNumber];
 
-	            // Send requests to NLP service
-	            Console.BackgroundColor = ConsoleColor.Green;
-	            Console.ForegroundColor = ConsoleColor.Black;
-	            Console.WriteLine(string.Format(
-		            "Asking NLP Service to identify information about {0} ({1}) in regulation {2}-{3}-{4}-{5} ({6}).",
-		            selectedNlpResourceDictionary.Title,
-		            selectedNlpResourceDictionary.Language,
-		            selectedRegulationDictionary.RegulationYear,
-		            selectedRegulationDictionary.RegulationMonth,
-		            selectedRegulationDictionary.RegulationDay,
-		            selectedRegulationDictionary.RegulationNumber,
-		            selectedRegulationDictionary.Language));
-	            Console.ResetColor();
+					// Send requests to NLP service
+					Console.BackgroundColor = ConsoleColor.Green;
+					Console.ForegroundColor = ConsoleColor.Black;
+					Console.WriteLine(string.Format(
+						"Asking NLP Service to identify information about {0} ({1}) in regulation {2}-{3}-{4}-{5} ({6}).",
+						selectedNlpResourceDictionary.Title,
+						selectedNlpResourceDictionary.Language,
+						selectedRegulationDictionary.RegulationYear,
+						selectedRegulationDictionary.RegulationMonth,
+						selectedRegulationDictionary.RegulationDay,
+						selectedRegulationDictionary.RegulationNumber,
+						selectedRegulationDictionary.Language));
+					Console.ResetColor();
 
-	            for (int i = 0; i < chapterList.Count; i++)
-	            {
-		            Console.BackgroundColor = ConsoleColor.Yellow;
-		            Console.ForegroundColor = ConsoleColor.Black;
-		            var requestNumber = i + 1;
-		            Console.WriteLine($"Processing chapter {requestNumber} of {chapterList.Count}:");
-		            Console.ResetColor();
+					var totalNlpFindingCounter = 0;
 
-		            var identifiedInformationInChapterTextData =
-			            await nlpServiceApi.IdentifyInformationInChapterTextData(
-				            chapterList[i],
-				            selectedNlpResourceDictionary.Url);
+					for (int i = 0; i < chapterList.Count; i++)
+					{
+						Console.BackgroundColor = ConsoleColor.Yellow;
+						Console.ForegroundColor = ConsoleColor.Black;
+						var requestNumber = i + 1;
+						Console.WriteLine($"Processing chapter {requestNumber} of {chapterList.Count}:");
+						Console.ResetColor();
 
-		            var itemCountOfNlpServiceResponse = 
-			            nlpServiceHelper.CountItemsInNlpServiceApiResponse(
-				            identifiedInformationInChapterTextData);
+						var identifiedInformationInChapterTextData =
+							await nlpServiceApi.IdentifyInformationInChapterTextData(
+								chapterList[i],
+								selectedNlpResourceDictionary.Url);
 
-		            if(itemCountOfNlpServiceResponse > 0)
-		            {
-			            Console.BackgroundColor = ConsoleColor.Green;
-			            Console.ForegroundColor = ConsoleColor.Black;
-			            Console.WriteLine($"{itemCountOfNlpServiceResponse} detections in this chapter:");
-			            Console.ResetColor();
+						var itemCountOfNlpServiceResponse =
+							nlpServiceHelper.CountItemsInNlpServiceApiResponse(
+								identifiedInformationInChapterTextData);
 
-			            var nlpServiceResultPrinter = new NlpServiceResultPrinter(identifiedInformationInChapterTextData);
-			            nlpServiceResultPrinter.PrintAllItems();
-		            }
-		            else
-		            {
-			            Console.BackgroundColor = ConsoleColor.Green;
-			            Console.ForegroundColor = ConsoleColor.Black;
-			            Console.WriteLine("No detections in this chapter.");
-			            Console.ResetColor();
-		            }
-	            }
+						if (itemCountOfNlpServiceResponse > 0)
+						{
+							Console.BackgroundColor = ConsoleColor.Green;
+							Console.ForegroundColor = ConsoleColor.Black;
+							Console.WriteLine($"{itemCountOfNlpServiceResponse} detections in this chapter:");
+							Console.ResetColor();
+
+							var nlpServiceResultPrinter = new NlpServiceResultPrinter(identifiedInformationInChapterTextData);
+							nlpServiceResultPrinter.PrintAllItems();
+
+							totalNlpFindingCounter += itemCountOfNlpServiceResponse;
+						}
+						else
+						{
+							Console.BackgroundColor = ConsoleColor.Green;
+							Console.ForegroundColor = ConsoleColor.Black;
+							Console.WriteLine("No detections in this chapter.");
+							Console.ResetColor();
+						}
+					}
+
+					if (totalNlpFindingCounter > 0)
+					{
+						// Question to user:
+						Console.Write($"Would you like to proceed with the {totalNlpFindingCounter} NLP findings or start over? Continue (c) or Start over (s): ");
+						var userInput = Console.ReadLine();
+						var userInputToLower = userInput?.ToLower();
+						if (userInputToLower == "c")
+							break;
+					}
+					else
+					{
+						// Message to user
+						Console.Write("There were no NLP findings. Please press enter to start over.");
+						Console.ReadLine();
+					}
+
+					Console.WriteLine("Service Controller application is starting over.");
+				} while (true);
 
 	            //
 	            // Transformer Service
