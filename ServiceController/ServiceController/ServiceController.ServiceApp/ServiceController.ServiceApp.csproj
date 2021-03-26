@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>cc544799-547c-42bd-b6e4-664d68218c6f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceController.Entities\ServiceController.Entities.csproj" />
+    <ProjectReference Include="..\ServiceController.KnowledgeService\ServiceController.KnowledgeService.csproj" />
+    <ProjectReference Include="..\ServiceController.NlpService\ServiceController.NlpService.csproj" />
+    <ProjectReference Include="..\ServiceController.TextService\ServiceController.TextService.csproj" />
+  </ItemGroup>
+
+</Project>

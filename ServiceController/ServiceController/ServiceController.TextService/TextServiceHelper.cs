@@ -41,7 +41,7 @@ namespace ServiceController.TextService
 	            i.TryGetProperty("url", out var url);
 	            i.TryGetProperty("language", out var language);
 
-	            var item = new RegulationResource() {
+	            var item = new RegulationResource {
 		            ReferenceId = referenceId.GetString(),
 		            Title = title.GetString(),
 		            Url = new System.Uri(url.GetString()),
