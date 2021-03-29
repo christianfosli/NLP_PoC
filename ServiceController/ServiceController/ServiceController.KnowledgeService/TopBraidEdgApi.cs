@@ -28,7 +28,7 @@ namespace ServiceController.KnowledgeService
 
 			var request = new HttpRequestMessage(
 				HttpMethod.Post,
-				@"https://sdir-d-apim-common.azure-api.net/core-topbraid-edg/tbl/sparql")
+				@"https://sdir-d-apim-common.azure-api.net/core-topbraid-edg/tbl/sparql") //TODO move to settings
 			{
 				Content = new StringContent(string.Join("&", contentList))
 			};

@@ -46,7 +46,7 @@ namespace ServiceController.NlpService
 		{
 			var request = new HttpRequestMessage(
 				HttpMethod.Get,
-                @"http://localhost:5000/nlp-rule-based-matching-options");
+                @"http://localhost:5000/nlp-rule-based-matching-options"); // TODO move to settings
 			var client = _clientFactory.CreateClient();
 			var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
 

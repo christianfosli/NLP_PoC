@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using ServiceController.TextService;
 using ServiceController.NlpService;
 using ServiceController.KnowledgeService;
@@ -8,7 +7,9 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using ServiceController.AuthenticationService;
 using ServiceController.ConsoleApp.ConsolePrinter;
+using ServiceController.Entities.AuthenticationService;
 
 namespace ServiceController.ConsoleApp
 {
@@ -20,12 +21,18 @@ namespace ServiceController.ConsoleApp
     public class Program
     {
 	    public static IConfigurationRoot Configuration { get; set; }
-	    private static string TopBraidEdgOntologyId { get; set; }
+
+		private static AuthenticationServiceSettings AuthenticationServiceSettings { get; set; }
+
+		// TODO move to separate settings class
+		private static string TopBraidEdgOntologyId { get; set; }
 	    private static string TopBraidEdgWorkflowId { get; set; }
 	    private static string TopBraidEdgUserId { get; set; }
-		private static string TopBraidEdgOAuthAccessToken { get; set; }
 
-		static async Task<int> Main(string[] args)
+
+	    private static string TopBraidEdgOAuthAccessToken { get; set; }
+
+	    static async Task<int> Main(string[] args)
         {
 	        var hostBuilder = new HostBuilder()
 	            .ConfigureAppConfiguration((hostContext, configurationBuilder) =>
@@ -33,11 +40,18 @@ namespace ServiceController.ConsoleApp
 		            configurationBuilder.AddUserSecrets<Program>();
                     Configuration = configurationBuilder.Build();
 
+					//
 					// Load secrets
+					//
+
+					AuthenticationServiceSettings =
+						Configuration.GetSection("AuthenticationServiceSettings")
+							.Get<AuthenticationServiceSettings>();
+
+					//TODO move to settings file
 					TopBraidEdgOntologyId = Configuration["TopBraidEdg:OntologyId"];
 					TopBraidEdgWorkflowId = Configuration["TopBraidEdg:WorkflowId"];
 					TopBraidEdgUserId = Configuration["TopBraidEdg:UserId"];
-					TopBraidEdgOAuthAccessToken = Configuration["TopBraidEdg:OAuthAccessToken"];
 	            })
                 .ConfigureServices((hostContext, services) =>
                 {
@@ -47,9 +61,10 @@ namespace ServiceController.ConsoleApp
                     services.AddTransient<ITextServiceApi, TextServiceApi>();
                     services.AddTransient<INlpServiceApi, NlpServiceApi>();
                     services.AddTransient<ITopBraidEdgApi, TopBraidEdgApi>();
+                    services.AddTransient<IAuthenticationApi, AuthenticationApi>();
 
-                    // helpers
-                    services.AddTransient<ITextServiceHelper, TextServiceHelper>();
+					// helpers
+					services.AddTransient<ITextServiceHelper, TextServiceHelper>();
                     services.AddTransient<INlpServiceHelper, NlpServiceHelper>();
                 })
                 .UseConsoleLifetime();
@@ -64,9 +79,10 @@ namespace ServiceController.ConsoleApp
 	            var textServiceApi = services.GetRequiredService<ITextServiceApi>();
 	            var nlpServiceApi = services.GetRequiredService<INlpServiceApi>();
 	            var topBraidEdgApi = services.GetRequiredService<ITopBraidEdgApi>();
+				var authenticationApi = services.GetRequiredService<IAuthenticationApi>();
 
-	            // helpers
-	            var textServiceHelper = services.GetRequiredService<ITextServiceHelper>();
+				// helpers
+				var textServiceHelper = services.GetRequiredService<ITextServiceHelper>();
 	            var nlpServiceHelper = services.GetRequiredService<INlpServiceHelper>();
 
 	            Console.ResetColor();
@@ -237,6 +253,32 @@ namespace ServiceController.ConsoleApp
 	            Console.WriteLine($"Loading knowledge into TopBraid EDG graph: {topBraidEdgGraphUrn}");
 
 	            try
+	            {
+		            Console.ForegroundColor = ConsoleColor.Black;
+		            Console.BackgroundColor = ConsoleColor.DarkCyan;
+		            Console.WriteLine("Asking Authentication Service for access token.");
+
+		            TopBraidEdgOAuthAccessToken = await authenticationApi.GetAuthenticationToken(
+			            AuthenticationServiceSettings.ApiUrl,
+			            AuthenticationServiceSettings.ClientId,
+			            AuthenticationServiceSettings.ClientSecret,
+			            AuthenticationServiceSettings.Scope);
+
+					Console.WriteLine("Successfully loaded access token.");
+					Console.ResetColor();
+				}
+	            catch (Exception e)
+	            {
+					Console.ForegroundColor = ConsoleColor.Black;
+					Console.BackgroundColor = ConsoleColor.Red;
+					Console.WriteLine("Oh no.. :-O Something went wrong. Here is an error message:");
+					Console.WriteLine(e);
+					Console.ResetColor();
+					Console.WriteLine("Service Controller application ended.");
+					return 0;
+				}
+
+				try
 	            {
 		            await topBraidEdgApi.TestInsert(
 			            TopBraidEdgOAuthAccessToken,
