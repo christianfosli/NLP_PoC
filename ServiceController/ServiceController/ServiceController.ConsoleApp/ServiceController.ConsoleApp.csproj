@@ -17,6 +17,7 @@
     <ProjectReference Include="..\ServiceController.KnowledgeService\ServiceController.KnowledgeService.csproj" />
     <ProjectReference Include="..\ServiceController.NlpService\ServiceController.NlpService.csproj" />
     <ProjectReference Include="..\ServiceController.TextService\ServiceController.TextService.csproj" />
+    <ProjectReference Include="..\ServiceController.TransformerService\ServiceController.TransformerService.csproj" />
   </ItemGroup>
 
 </Project>
