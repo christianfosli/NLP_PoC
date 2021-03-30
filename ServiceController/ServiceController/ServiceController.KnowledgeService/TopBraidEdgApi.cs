@@ -16,6 +16,7 @@ namespace ServiceController.KnowledgeService
 		}
 
 		public async Task TestInsert(
+			Uri apiBaseUrl, // For example: https://sdir-d-apim-common.azure-api.net/core-topbraid-edg
 			string topBraidEdgOAuthAccessToken, 
 			string topBraidEdgSparqlInsertQuery,
 			string topBraidEdgWorkflowUrn)
@@ -28,7 +29,7 @@ namespace ServiceController.KnowledgeService
 
 			var request = new HttpRequestMessage(
 				HttpMethod.Post,
-				@"https://sdir-d-apim-common.azure-api.net/core-topbraid-edg/tbl/sparql") //TODO move to settings
+				$@"{apiBaseUrl}/tbl/sparql")
 			{
 				Content = new StringContent(string.Join("&", contentList))
 			};

@@ -282,6 +282,7 @@ namespace ServiceController.ConsoleApp
 				try
 	            {
 		            await topBraidEdgApi.TestInsert(
+			            KnowledgeServiceSettings.ApiBaseUrl,
 			            TopBraidEdgOAuthAccessToken,
 			            sparqlInsertQueryString,
 			            topBraidEdgGraphUrn);
