@@ -42,21 +42,18 @@ namespace ServiceController.NlpService
             return doc.RootElement.Clone();
         }
 
-        public async Task<JsonElement> GetNlpResourceList()
+        public async Task<JsonElement> GetNlpResourceList(Uri apiBaseUrl)
 		{
 			var request = new HttpRequestMessage(
 				HttpMethod.Get,
-                @"http://localhost:5000/nlp-rule-based-matching-options"); // TODO move to settings
+                $@"{apiBaseUrl}/nlp-rule-based-matching-options");
 			var client = _clientFactory.CreateClient();
 			var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
-
 			if (!response.IsSuccessStatusCode) throw new Exception();
-
 			var jsonResponse = await response.Content.ReadAsStringAsync();
 			var jsonResponseDeserialized = // UTF-8 fix
 				JsonConvert.DeserializeObject(jsonResponse)?.ToString();
 			using var doc = JsonDocument.Parse(jsonResponseDeserialized);
-
 			return doc.RootElement.Clone();
 		}
     }

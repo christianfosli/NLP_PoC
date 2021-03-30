@@ -18,6 +18,7 @@ namespace ServiceController.ServiceApp
 		public static IConfigurationRoot Configuration { get; set; }
 		private static AuthenticationServiceSettings AuthenticationServiceSettings { get; set; }
 		private static TextServiceSettings TextServiceSettings { get; set; }
+		private static NlpServiceSettings NlpServiceSettings { get; set; }
 		private static KnowledgeServiceSettings KnowledgeServiceSettings { get; set; }
 		private static string TopBraidEdgOAuthAccessToken { get; set; }
 		private static Uri TextServiceRequestedRegulation { get; set; }
@@ -41,6 +42,10 @@ namespace ServiceController.ServiceApp
 					TextServiceSettings =
 						Configuration.GetSection("TextServiceSettings")
 							.Get<TextServiceSettings>();
+
+					NlpServiceSettings =
+						Configuration.GetSection("NlpServiceSettings")
+							.Get<NlpServiceSettings>();
 
 					KnowledgeServiceSettings =
 						Configuration.GetSection("KnowledgeServiceSettings")
@@ -110,7 +115,8 @@ namespace ServiceController.ServiceApp
 				//
 
 				// Get NLP options
-				var nlpResourceListFromNlpService = await nlpServiceApi.GetNlpResourceList();
+				var nlpResourceListFromNlpService =
+					await nlpServiceApi.GetNlpResourceList(NlpServiceSettings.ApiBaseUrl);
 				var nlpResourceDictionary = nlpServiceHelper.MapNlpResources(nlpResourceListFromNlpService);
 
 				foreach (var nlpResourceDictionaryItem in nlpResourceDictionary)

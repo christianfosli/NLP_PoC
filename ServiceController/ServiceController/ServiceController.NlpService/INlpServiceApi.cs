@@ -10,6 +10,6 @@ namespace ServiceController.NlpService
             JsonElement chapterTextFromTextService,
             Uri nlpServiceApiResourceUrl);
 
-        Task<JsonElement> GetNlpResourceList();
+	    Task<JsonElement> GetNlpResourceList(Uri apiBaseUrl);
     }
 }
