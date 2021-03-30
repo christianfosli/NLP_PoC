@@ -13,12 +13,7 @@ using ServiceController.ConsoleApp.Settings;
 
 namespace ServiceController.ConsoleApp
 {
-    /// <summary>
-    /// Ontology: NlpPocTestOntology
-    /// Workflow: NlpKnowledgeFromAppWorkflow
-    /// Username: ontologist
-    /// </summary>
-    public class Program
+	public class Program
     {
 	    public static IConfigurationRoot Configuration { get; set; }
 	    private static AuthenticationServiceSettings AuthenticationServiceSettings { get; set; }
@@ -34,7 +29,7 @@ namespace ServiceController.ConsoleApp
                     Configuration = configurationBuilder.Build();
 
 					//
-					// Load secrets
+					// Load settings
 					//
 
 					AuthenticationServiceSettings =
@@ -293,19 +288,6 @@ namespace ServiceController.ConsoleApp
 				Console.WriteLine($"Successfully loaded knowledge. Please visit TopBraid EDG (workflow: {topBraidEdgSparqlInsertBuilder.WorkflowId}) to review the result.");
 	            Console.ResetColor();
 	            Console.WriteLine("Service Controller application ended.");
-
-	            /* TODO maybe include later
-                try
-                {
-
-                }
-                catch (Exception ex)
-                {
-                    var logger = services.GetRequiredService<ILogger<Program>>();
-
-                    logger.LogError(ex, "An error occurred.");
-                }
-                */
             }
 
             return 0;
