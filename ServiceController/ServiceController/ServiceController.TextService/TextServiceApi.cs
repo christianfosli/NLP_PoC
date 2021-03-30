@@ -1,4 +1,5 @@
-﻿using System.Net.Http;
+﻿using System;
+using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -18,20 +19,14 @@ namespace ServiceController.TextService
          * Example: https://sdir-d-apim-common.azure-api.net/core-text-internal/regulation/2013/11/22/1404/chapter/4
          */
         public async Task<JsonElement> GetRegulationChapter(
+            Uri apiBaseUrl, // For example: https://sdir-d-apim-common.azure-api.net/core-text-internal
             int regulationYear,
             int regulationMonth,
             int regulationDay,
             int regulationNumber,
             int regulationChapterNumber)
         {
-            string apiUrl = string.Format(
-                @"https://sdir-d-apim-common.azure-api.net/core-text-internal/regulation/{0}/{1}/{2}/{3}/chapter/{4}",
-                regulationYear,
-                regulationMonth,
-                regulationDay,
-                regulationNumber,
-                regulationChapterNumber);
-
+            var apiUrl = $@"{apiBaseUrl}/regulation/{regulationYear}/{regulationMonth}/{regulationDay}/{regulationNumber}/chapter/{regulationChapterNumber}";
             var request = new HttpRequestMessage(HttpMethod.Get, apiUrl);
             var client = _clientFactory.CreateClient();
             var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
@@ -47,18 +42,13 @@ namespace ServiceController.TextService
          * Example: https://sdir-d-apim-common.azure-api.net/core-text-internal/regulation/2013/11/22/1404
          */
         public async Task<JsonElement> GetRegulation(
+	        Uri apiBaseUrl, // For example: https://sdir-d-apim-common.azure-api.net/core-text-internal
             int regulationYear,
             int regulationMonth,
             int regulationDay,
             int regulationNumber)
         {
-            string apiUrl = string.Format(
-                @"https://sdir-d-apim-common.azure-api.net/core-text-internal/regulation/{0}/{1}/{2}/{3}",
-                regulationYear,
-                regulationMonth,
-                regulationDay,
-                regulationNumber);
-
+            var apiUrl = $@"{apiBaseUrl}/regulation/{regulationYear}/{regulationMonth}/{regulationDay}/{regulationNumber}";
             var request = new HttpRequestMessage(HttpMethod.Get, apiUrl);
             var client = _clientFactory.CreateClient();
             var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
@@ -70,11 +60,11 @@ namespace ServiceController.TextService
             return doc.RootElement.Clone();
         }
 
-        public async Task<JsonElement> GetRegulationList()
+        public async Task<JsonElement> GetRegulationList(Uri apiBaseUrl)
         {
             var request = new HttpRequestMessage(
                 HttpMethod.Get,
-                @"https://sdir-d-apim-common.azure-api.net/core-text-internal/regulations");
+                $@"{apiBaseUrl}/regulations");
             var client = _clientFactory.CreateClient();
             var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
             if (!response.IsSuccessStatusCode) throw new System.Exception();

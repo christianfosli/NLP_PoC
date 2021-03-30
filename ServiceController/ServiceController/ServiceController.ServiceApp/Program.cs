@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using ServiceController.TextService;
 using ServiceController.NlpService;
 using ServiceController.KnowledgeService;
@@ -18,6 +17,7 @@ namespace ServiceController.ServiceApp
 	{
 		public static IConfigurationRoot Configuration { get; set; }
 		private static AuthenticationServiceSettings AuthenticationServiceSettings { get; set; }
+		private static TextServiceSettings TextServiceSettings { get; set; }
 		private static KnowledgeServiceSettings KnowledgeServiceSettings { get; set; }
 		private static string TopBraidEdgOAuthAccessToken { get; set; }
 		private static Uri TextServiceRequestedRegulation { get; set; }
@@ -37,6 +37,10 @@ namespace ServiceController.ServiceApp
 					AuthenticationServiceSettings =
 						Configuration.GetSection("AuthenticationServiceSettings")
 							.Get<AuthenticationServiceSettings>();
+
+					TextServiceSettings =
+						Configuration.GetSection("TextServiceSettings")
+							.Get<TextServiceSettings>();
 
 					KnowledgeServiceSettings =
 						Configuration.GetSection("KnowledgeServiceSettings")
@@ -91,6 +95,7 @@ namespace ServiceController.ServiceApp
 				Console.WriteLine($"Asking Text Service for regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber} ({regulationResource.Language}).");
 				
 				var regulationFromTextService = await textServiceApi.GetRegulation(
+					TextServiceSettings.ApiBaseUrl,
 					Convert.ToInt32(regulationResource.RegulationYear),
 					Convert.ToInt32(regulationResource.RegulationMonth),
 					Convert.ToInt32(regulationResource.RegulationDay),

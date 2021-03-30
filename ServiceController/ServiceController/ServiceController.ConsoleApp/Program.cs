@@ -17,6 +17,7 @@ namespace ServiceController.ConsoleApp
     {
 	    public static IConfigurationRoot Configuration { get; set; }
 	    private static AuthenticationServiceSettings AuthenticationServiceSettings { get; set; }
+		private static TextServiceSettings TextServiceSettings { get; set; }
 		private static KnowledgeServiceSettings KnowledgeServiceSettings { get; set; }
 		private static string TopBraidEdgOAuthAccessToken { get; set; }
 
@@ -35,6 +36,10 @@ namespace ServiceController.ConsoleApp
 					AuthenticationServiceSettings =
 						Configuration.GetSection("AuthenticationServiceSettings")
 							.Get<AuthenticationServiceSettings>();
+
+					TextServiceSettings =
+						Configuration.GetSection("TextServiceSettings")
+							.Get<TextServiceSettings>();
 
 					KnowledgeServiceSettings =
 						Configuration.GetSection("KnowledgeServiceSettings")
@@ -80,8 +85,10 @@ namespace ServiceController.ConsoleApp
 				//
 
 				// Get regulation options
-				var regulationListFromTextService = await textServiceApi.GetRegulationList();
-	            var regulationDictionary = textServiceHelper.MapRegulationResources(regulationListFromTextService);
+				var regulationListFromTextService = 
+					await textServiceApi.GetRegulationList(TextServiceSettings.ApiBaseUrl);
+	            var regulationDictionary =
+		            textServiceHelper.MapRegulationResources(regulationListFromTextService);
 
                 do
                 {
@@ -108,6 +115,7 @@ namespace ServiceController.ConsoleApp
 						selectedRegulationDictionary.Language));
 
 					var regulationFromTextService = await textServiceApi.GetRegulation(
+						TextServiceSettings.ApiBaseUrl,
 						Convert.ToInt32(selectedRegulationDictionary.RegulationYear),
 						Convert.ToInt32(selectedRegulationDictionary.RegulationMonth),
 						Convert.ToInt32(selectedRegulationDictionary.RegulationDay),
