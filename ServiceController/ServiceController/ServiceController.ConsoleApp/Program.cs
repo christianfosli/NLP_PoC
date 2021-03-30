@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using ServiceController.AuthenticationService;
 using ServiceController.ConsoleApp.ConsolePrinter;
-using ServiceController.Entities.AuthenticationService;
+using ServiceController.ConsoleApp.Settings;
 
 namespace ServiceController.ConsoleApp
 {

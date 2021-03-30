@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ServiceController.Entities.AuthenticationService
+namespace ServiceController.ConsoleApp.Settings
 {
 	public class AuthenticationServiceSettings
 	{
