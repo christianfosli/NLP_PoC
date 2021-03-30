@@ -8,21 +8,17 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using ServiceController.AuthenticationService;
 using ServiceController.Entities.TextService;
+using ServiceController.ServiceApp.Settings;
 
 namespace ServiceController.ServiceApp
 {
-	/// <summary>
-	/// Ontology: NlpPocTestOntology
-	/// Workflow: NlpKnowledgeFromAppWorkflow
-	/// Username: ontologist
-	/// </summary>
 	public class Program
 	{
 		public static IConfigurationRoot Configuration { get; set; }
-		private static string TopBraidEdgOntologyId { get; set; }
-		private static string TopBraidEdgWorkflowId { get; set; }
-		private static string TopBraidEdgUserId { get; set; }
+		private static AuthenticationServiceSettings AuthenticationServiceSettings { get; set; }
+		private static KnowledgeServiceSettings KnowledgeServiceSettings { get; set; }
 		private static string TopBraidEdgOAuthAccessToken { get; set; }
 		private static Uri TextServiceRequestedRegulation { get; set; }
 
@@ -34,13 +30,18 @@ namespace ServiceController.ServiceApp
 					configurationBuilder.AddUserSecrets<Program>();
 					Configuration = configurationBuilder.Build();
 
-					// Load secrets
-					TopBraidEdgOntologyId = Configuration["TopBraidEdg:OntologyId"];
-					TopBraidEdgWorkflowId = Configuration["TopBraidEdg:WorkflowId"];
-					TopBraidEdgUserId = Configuration["TopBraidEdg:UserId"];
-					TopBraidEdgOAuthAccessToken = Configuration["TopBraidEdg:OAuthAccessToken"];
+					//
+					// Load settings
+					//
 
-					// App request input
+					AuthenticationServiceSettings =
+						Configuration.GetSection("AuthenticationServiceSettings")
+							.Get<AuthenticationServiceSettings>();
+
+					KnowledgeServiceSettings =
+						Configuration.GetSection("KnowledgeServiceSettings")
+							.Get<KnowledgeServiceSettings>();
+
 					TextServiceRequestedRegulation = new Uri(Configuration["TextService:RequestedRegulation"]);
 				})
 				.ConfigureServices((hostContext, services) =>
@@ -51,6 +52,7 @@ namespace ServiceController.ServiceApp
 					services.AddTransient<ITextServiceApi, TextServiceApi>();
 					services.AddTransient<INlpServiceApi, NlpServiceApi>();
 					services.AddTransient<ITopBraidEdgApi, TopBraidEdgApi>();
+					services.AddTransient<IAuthenticationApi, AuthenticationApi>();
 
 					// helpers
 					services.AddTransient<ITextServiceHelper, TextServiceHelper>();
@@ -68,6 +70,7 @@ namespace ServiceController.ServiceApp
 				var textServiceApi = services.GetRequiredService<ITextServiceApi>();
 				var nlpServiceApi = services.GetRequiredService<INlpServiceApi>();
 				var topBraidEdgApi = services.GetRequiredService<ITopBraidEdgApi>();
+				var authenticationApi = services.GetRequiredService<IAuthenticationApi>();
 
 				// helpers
 				var textServiceHelper = services.GetRequiredService<ITextServiceHelper>();
@@ -157,15 +160,36 @@ namespace ServiceController.ServiceApp
 						Console.WriteLine("Asking Knowledge Service to construct SPARQL INSERT query.");
 
 						var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
-							TopBraidEdgOntologyId,
-							TopBraidEdgWorkflowId,
-							TopBraidEdgUserId,
+							KnowledgeServiceSettings.TopBraidEdgOntologyId,
+							KnowledgeServiceSettings.TopBraidEdgWorkflowId,
+							KnowledgeServiceSettings.TopBraidEdgUserId,
 							RdfTurtleTriplesForTesting
 						);
 
 						Console.WriteLine($"Successfully parsed {topBraidEdgSparqlInsertBuilder.Graph.Nodes.Count()} triples from Transformer Service.");
 						var sparqlInsertQueryString = topBraidEdgSparqlInsertBuilder.BuildSparqlInsertQueryString();
 						Console.WriteLine("Successfully constructed SPARQL INSERT query.");
+
+						try
+						{
+							Console.WriteLine("Asking Authentication Service for access token.");
+
+							TopBraidEdgOAuthAccessToken = await authenticationApi.GetAuthenticationToken(
+								AuthenticationServiceSettings.ApiUrl,
+								AuthenticationServiceSettings.ClientId,
+								AuthenticationServiceSettings.ClientSecret,
+								AuthenticationServiceSettings.Scope);
+
+							Console.WriteLine("Successfully loaded access token.");
+						}
+						catch (Exception e)
+						{
+							Console.WriteLine("Oh no.. :-O Something went wrong. Here is an error message:");
+							Console.WriteLine(e);
+							Console.WriteLine("Service Controller application ended.");
+							return 0;
+						}
+
 						var topBraidEdgGraphUrn = topBraidEdgSparqlInsertBuilder.BuildTopBraidEdgGraphUrn();
 						Console.WriteLine($"Loading knowledge into TopBraid EDG graph: {topBraidEdgGraphUrn}");
 
