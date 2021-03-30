@@ -186,7 +186,7 @@ namespace ServiceController.ServiceApp
 							Console.WriteLine("Asking Authentication Service for access token.");
 
 							TopBraidEdgOAuthAccessToken = await authenticationApi.GetAuthenticationToken(
-								AuthenticationServiceSettings.ApiUrl,
+								AuthenticationServiceSettings.ApiBaseUrl,
 								AuthenticationServiceSettings.ClientId,
 								AuthenticationServiceSettings.ClientSecret,
 								AuthenticationServiceSettings.Scope);

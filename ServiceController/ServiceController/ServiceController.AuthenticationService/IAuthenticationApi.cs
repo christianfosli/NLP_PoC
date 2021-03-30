@@ -6,7 +6,7 @@ namespace ServiceController.AuthenticationService
 	public interface IAuthenticationApi
 	{
 		Task<string> GetAuthenticationToken(
-			Uri address,
+			Uri apiBaseUrl,
 			string clientId,
 			string clientSecret,
 			string scope);

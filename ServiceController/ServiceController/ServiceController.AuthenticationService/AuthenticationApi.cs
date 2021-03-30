@@ -15,7 +15,7 @@ namespace ServiceController.AuthenticationService
 		}
 
 		public async Task<string> GetAuthenticationToken(
-			Uri address,
+			Uri apiBaseUrl, // For example: https://sdir-d-apim-common.azure-api.net/core-identityserver
 			string clientId,
 			string clientSecret,
 			string scope)
@@ -23,7 +23,7 @@ namespace ServiceController.AuthenticationService
 			var client = _clientFactory.CreateClient();
 			var response = await client.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest
 			{
-				Address = address.AbsoluteUri,
+				Address = $@"{apiBaseUrl}/connect/token",
 				ClientId = clientId,
 				ClientSecret = clientSecret,
 				Scope = scope
