@@ -51,7 +51,7 @@ namespace ServiceController.ServiceApp
 						Configuration.GetSection("KnowledgeServiceSettings")
 							.Get<KnowledgeServiceSettings>();
 
-					TextServiceRequestedRegulation = new Uri(Configuration["TextService:RequestedRegulation"]);
+					TextServiceRequestedRegulation = new Uri(Configuration["AppInput:RequestedRegulationIri"]);
 				})
 				.ConfigureServices((hostContext, services) =>
 				{
