@@ -295,8 +295,10 @@ namespace ServiceController.ConsoleApp
 					Console.WriteLine("Service Controller application ended.");
 					return 0;
 				}
-	            
-	            Console.WriteLine($"Successfully loaded knowledge. Please visit TopBraid EDG (workflow: {topBraidEdgSparqlInsertBuilder.WorkflowId}) to review the result.");
+
+				Console.ForegroundColor = ConsoleColor.Black;
+				Console.BackgroundColor = ConsoleColor.Cyan;
+				Console.WriteLine($"Successfully loaded knowledge. Please visit TopBraid EDG (workflow: {topBraidEdgSparqlInsertBuilder.WorkflowId}) to review the result.");
 	            Console.ResetColor();
 	            Console.WriteLine("Service Controller application ended.");
 
