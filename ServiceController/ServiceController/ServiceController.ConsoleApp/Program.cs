@@ -21,16 +21,9 @@ namespace ServiceController.ConsoleApp
     public class Program
     {
 	    public static IConfigurationRoot Configuration { get; set; }
-
-		private static AuthenticationServiceSettings AuthenticationServiceSettings { get; set; }
-
-		// TODO move to separate settings class
-		private static string TopBraidEdgOntologyId { get; set; }
-	    private static string TopBraidEdgWorkflowId { get; set; }
-	    private static string TopBraidEdgUserId { get; set; }
-
-
-	    private static string TopBraidEdgOAuthAccessToken { get; set; }
+	    private static AuthenticationServiceSettings AuthenticationServiceSettings { get; set; }
+		private static KnowledgeServiceSettings KnowledgeServiceSettings { get; set; }
+		private static string TopBraidEdgOAuthAccessToken { get; set; }
 
 	    static async Task<int> Main(string[] args)
         {
@@ -48,10 +41,9 @@ namespace ServiceController.ConsoleApp
 						Configuration.GetSection("AuthenticationServiceSettings")
 							.Get<AuthenticationServiceSettings>();
 
-					//TODO move to settings file
-					TopBraidEdgOntologyId = Configuration["TopBraidEdg:OntologyId"];
-					TopBraidEdgWorkflowId = Configuration["TopBraidEdg:WorkflowId"];
-					TopBraidEdgUserId = Configuration["TopBraidEdg:UserId"];
+					KnowledgeServiceSettings =
+						Configuration.GetSection("KnowledgeServiceSettings")
+							.Get<KnowledgeServiceSettings>();
 	            })
                 .ConfigureServices((hostContext, services) =>
                 {
@@ -240,9 +232,9 @@ namespace ServiceController.ConsoleApp
 	            Console.WriteLine("Asking Knowledge Service to construct SPARQL INSERT query.");
 
 	            var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
-		            TopBraidEdgOntologyId,
-		            TopBraidEdgWorkflowId,
-		            TopBraidEdgUserId,
+		            KnowledgeServiceSettings.TopBraidEdgOntologyId,
+		            KnowledgeServiceSettings.TopBraidEdgWorkflowId,
+		            KnowledgeServiceSettings.TopBraidEdgUserId,
 		            RdfTurtleTriplesForTesting
 	            );
 
