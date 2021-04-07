@@ -10,6 +10,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using ServiceController.AuthenticationService;
+using ServiceController.Entities.NlpService;
 using ServiceController.Entities.TextService;
 using ServiceController.ServiceApp.Settings;
 using ServiceController.TransformerService;
@@ -136,9 +137,25 @@ namespace ServiceController.ServiceApp
 				//
 
 				// Get NLP options
-				var nlpResourceListFromNlpService =
-					await nlpServiceApi.GetNlpResourceList(NlpServiceSettings.ApiBaseUrl);
-				var nlpResourceDictionary = nlpServiceHelper.MapNlpResources(nlpResourceListFromNlpService);
+
+				Dictionary<int, NlpResource> nlpResourceDictionary;
+
+				if (NlpServiceSettings.RunAsTest)
+				{
+					nlpResourceDictionary =
+						nlpServiceHelper.GetNlpResourceTestDictionary(
+							NlpServiceSettings.ApiBaseUrl);
+				}
+				else // send request to NLP Service API
+				{
+					var nlpResourceListFromNlpService =
+						await nlpServiceApi.GetNlpResourceList(
+							NlpServiceSettings.ApiBaseUrl);
+
+					nlpResourceDictionary = 
+						nlpServiceHelper.MapNlpResources(
+							nlpResourceListFromNlpService);
+				}
 
 				foreach (var nlpResourceDictionaryItem in nlpResourceDictionary)
 				{
@@ -152,10 +169,20 @@ namespace ServiceController.ServiceApp
 
 						Console.WriteLine($"Processing chapter {requestNumber} of {chapterList.Count}:");
 
-						var identifiedInformationInChapterTextData =
-							await nlpServiceApi.IdentifyInformationInChapterTextData(
-								chapterList[i],
-								selectedNlpResourceDictionary.Url);
+						JsonElement identifiedInformationInChapterTextData;
+
+						if (NlpServiceSettings.RunAsTest)
+						{
+							identifiedInformationInChapterTextData =
+								nlpServiceHelper.GetTestDataForIdentifyInformationInChapterTextData();
+						}
+						else // send request to NLP Service API
+						{
+							identifiedInformationInChapterTextData =
+								await nlpServiceApi.IdentifyInformationInChapterTextData(
+									chapterList[i],
+									selectedNlpResourceDictionary.Url);
+						}
 
 						var itemCountOfNlpServiceResponse =
 							nlpServiceHelper.CountItemsInNlpServiceApiResponse(
