@@ -1,0 +1,43 @@
+{
+  "identified_PASSENGER": [
+    {
+      "chapter_number": "1",
+      "measurement_text": "passasjerer",
+      "part_number": "1",
+      "passenger_context": "eller færre",
+      "passenger_value_1": "12",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "1",
+      "sub_part_number": "3"
+    },
+    {
+      "chapter_number": "1",
+      "measurement_text": "passasjerer",
+      "part_number": "1",
+      "passenger_context": "eller færre",
+      "passenger_value_1": "12",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "1",
+      "sub_part_number": "4"
+    },
+    {
+      "chapter_number": "1",
+      "measurement_text": "passasjerer",
+      "part_number": "1",
+      "passenger_context": "eller færre",
+      "passenger_value_1": "100",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "1",
+      "sub_part_number": "5"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "identified_build_dates": [
+    {
+      "chapter_number": "3",
+      "date_context": "etter",
+      "date_value_1": "2. januar 1988",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "7"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "før",
+      "date_value_1": "2. januar 1988",
+      "part_number": "2",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "7"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "etter",
+      "date_value_1": "1. januar 1992",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "før",
+      "date_value_1": "1. januar 1992",
+      "part_number": "2",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "etter",
+      "date_value_1": "1. januar 1992",
+      "part_number": "4",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "15"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "etter",
+      "date_value_1": "1. januar 1992",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "22"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "før",
+      "date_value_1": "1. januar 1992",
+      "part_number": "2",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "22"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "etter",
+      "date_value_1": "1. januar 1992",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "23"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "før",
+      "date_value_1": "1. januar 1992",
+      "part_number": "2",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "23"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "mellom",
+      "date_separator": "og",
+      "date_value_1": "1. januar 1992",
+      "date_value_2": "2002",
+      "part_number": "3",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "23"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "etter",
+      "date_value_1": "1. januar 2002",
+      "part_number": "4",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "23"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "etter",
+      "date_value_1": "1. januar 1992",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "24"
+    },
+    {
+      "chapter_number": "3",
+      "date_context": "før",
+      "date_value_1": "1. januar 1992",
+      "part_number": "5",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "24"
+    },
+    {
+      "chapter_number": "3",
+      "date_value_1": "1990",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "25"
+    }
+  ]
+}

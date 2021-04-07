@@ -1,0 +1,59 @@
+{
+  "identified_VESSEL_TYPE": [
+    {
+      "chapter_number": "1",
+      "part_number": "1",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "1",
+      "sub_part_number": "1",
+      "vessel_type_text": "lasteskip"
+    },
+    {
+      "chapter_number": "1",
+      "part_number": "1",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "1",
+      "sub_part_number": "2",
+      "vessel_type_text": "fiskefartøy"
+    },
+    {
+      "chapter_number": "1",
+      "part_number": "1",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "1",
+      "sub_part_number": "3",
+      "vessel_type_text": "passasjerskip"
+    },
+    {
+      "chapter_number": "1",
+      "part_number": "1",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "1",
+      "sub_part_number": "4",
+      "vessel_type_text": "roro-passasjerskip"
+    },
+    {
+      "chapter_number": "1",
+      "part_number": "1",
+      "regulation_day": "16",
+      "regulation_id": "1770",
+      "regulation_month": "12",
+      "regulation_year": "2016",
+      "section_number": "1",
+      "sub_part_number": "5",
+      "vessel_type_text": "passasjerskip"
+    }
+  ]
+}
