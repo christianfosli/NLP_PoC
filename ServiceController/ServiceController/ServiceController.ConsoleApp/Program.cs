@@ -156,9 +156,19 @@ namespace ServiceController.ConsoleApp
 					// NLP Service
 					//
 
+					// TODO
+					if (NlpServiceSettings.RunAsTest)
+					{
+
+					}
+					else
+					{
+						
+					}
+
 					// Get NLP options
 					var nlpResourceListFromNlpService =
-						await nlpServiceApi.GetNlpResourceList(NlpServiceSettings.ApiBaseUrl);
+					await nlpServiceApi.GetNlpResourceList(NlpServiceSettings.ApiBaseUrl);
 					var nlpResourceDictionary = nlpServiceHelper.MapNlpResources(nlpResourceListFromNlpService);
 
 					// Print NLP options
@@ -248,11 +258,21 @@ namespace ServiceController.ConsoleApp
 					Console.WriteLine("Service Controller application is starting over.");
 				} while (true);
 
-                //
-                // Transformer Service
-                //
+				//
+				// Transformer Service
+				//
 
-                Console.ForegroundColor = ConsoleColor.Black;
+				// TODO
+				if (TransformerServiceSettings.RunAsTest)
+				{
+
+				}
+				else
+				{
+					
+				}
+
+	            Console.ForegroundColor = ConsoleColor.Black;
                 Console.BackgroundColor = ConsoleColor.Magenta;
                 Console.WriteLine("TODO: Asking Transformer Service to transform information.");
 
