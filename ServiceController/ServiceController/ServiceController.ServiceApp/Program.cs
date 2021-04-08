@@ -36,6 +36,7 @@ namespace ServiceController.ServiceApp
 		//
 
 		private static string TopBraidEdgOAuthAccessToken { get; set; }
+		private static Dictionary<int, NlpResource> NlpResourceDictionary { get; set; } = new Dictionary<int, NlpResource>();
 		private static List<JsonElement> IdentifiedInformationInChapterTextDataList { get; set; } = new List<JsonElement>();
 		private static List<string> TransformedRdfKnowledgeList { get; set; } = new List<string>();
 
@@ -136,28 +137,25 @@ namespace ServiceController.ServiceApp
 				// NLP Service
 				//
 
-				// Get NLP options
-
-				Dictionary<int, NlpResource> nlpResourceDictionary;
-
+				// Load NLP options
 				if (NlpServiceSettings.RunAsTest)
-				{
-					nlpResourceDictionary =
+				{ // Just load test data
+					NlpResourceDictionary =
 						nlpServiceHelper.GetNlpResourceTestDictionary(
 							NlpServiceSettings.ApiBaseUrl);
 				}
-				else // send request to NLP Service API
+				else // Send request to NLP Service API
 				{
 					var nlpResourceListFromNlpService =
 						await nlpServiceApi.GetNlpResourceList(
 							NlpServiceSettings.ApiBaseUrl);
 
-					nlpResourceDictionary = 
+					NlpResourceDictionary = 
 						nlpServiceHelper.MapNlpResources(
 							nlpResourceListFromNlpService);
 				}
 
-				foreach (var nlpResourceDictionaryItem in nlpResourceDictionary)
+				foreach (var nlpResourceDictionaryItem in NlpResourceDictionary)
 				{
 					var selectedNlpResourceDictionary = nlpResourceDictionaryItem.Value;
 
@@ -176,7 +174,7 @@ namespace ServiceController.ServiceApp
 							identifiedInformationInChapterTextData =
 								nlpServiceHelper.GetTestDataForIdentifyInformationInChapterTextData();
 						}
-						else // send request to NLP Service API
+						else // Send request to NLP Service API
 						{
 							identifiedInformationInChapterTextData =
 								await nlpServiceApi.IdentifyInformationInChapterTextData(
@@ -205,16 +203,33 @@ namespace ServiceController.ServiceApp
 				// Transformer Service
 				//
 
-				Console.WriteLine("TODO: Asking Transformer Service to transform information.");
-
-				foreach (var identifiedInformationInChapterTextData in IdentifiedInformationInChapterTextDataList)
+				if (TransformerServiceSettings.RunAsTest)
 				{
-					var transformedRdfKnowledge =
-						await transformerServiceApi.TransformNlpInformationToRdfKnowledge(
-							TransformerServiceSettings.ApiBaseUrl,
-							identifiedInformationInChapterTextData);
+					Console.WriteLine("RUN AS TEST -> Asking Transformer Service to transform information.");
 
-					TransformedRdfKnowledgeList.Add(transformedRdfKnowledge);
+					foreach (var identifiedInformationInChapterTextData in IdentifiedInformationInChapterTextDataList)
+					{
+						var transformedRdfKnowledge =
+							await transformerServiceApi.ReturnTestDataAsTransformNlpInformationToRdfKnowledge(
+								TransformerServiceSettings.ApiBaseUrl,
+								identifiedInformationInChapterTextData);
+
+						TransformedRdfKnowledgeList.Add(transformedRdfKnowledge);
+					}
+				}
+				else // send request to Transformer Service API
+				{
+					Console.WriteLine("Asking Transformer Service to transform information.");
+
+					foreach (var identifiedInformationInChapterTextData in IdentifiedInformationInChapterTextDataList)
+					{
+						var transformedRdfKnowledge =
+							await transformerServiceApi.TransformNlpInformationToRdfKnowledge(
+								TransformerServiceSettings.ApiBaseUrl,
+								identifiedInformationInChapterTextData);
+
+						TransformedRdfKnowledgeList.Add(transformedRdfKnowledge);
+					}
 				}
 
 				//
