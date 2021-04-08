@@ -119,7 +119,7 @@ namespace ServiceController.ServiceApp
 					Url = TextServiceRequestedRegulation
 				};
 
-				Console.WriteLine($"Asking Text Service for regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber} ({regulationResource.Language}).");
+				Console.WriteLine($"Asking Text Service for regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber}.");
 				
 				var regulationFromTextService = await textServiceApi.GetRegulation(
 					TextServiceSettings.ApiBaseUrl,
@@ -161,7 +161,7 @@ namespace ServiceController.ServiceApp
 				{
 					var selectedNlpResourceDictionary = nlpResourceDictionaryItem.Value;
 
-					Console.WriteLine($"Asking NLP Service to identify information about {selectedNlpResourceDictionary.Title} ({selectedNlpResourceDictionary.Language}) in regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber} ({regulationResource.Language}).");
+					Console.WriteLine($"Asking NLP Service to identify information about {selectedNlpResourceDictionary.Title} ({selectedNlpResourceDictionary.Language}) in regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber}.");
 
 					for (var i = 0; i < chapterList.Count; i++)
 					{
@@ -190,7 +190,7 @@ namespace ServiceController.ServiceApp
 
 						if (itemCountOfNlpServiceResponse > 0)
 						{
-							Console.WriteLine($"{itemCountOfNlpServiceResponse} detections in this chapter:");
+							Console.WriteLine($"{itemCountOfNlpServiceResponse} detections in this chapter.");
 
 							IdentifiedInformationInChapterTextDataList.Add(identifiedInformationInChapterTextData);
 						}
@@ -280,8 +280,7 @@ namespace ServiceController.ServiceApp
 						return 0;
 					}
 
-					Console.WriteLine($"Successfully loaded knowledge. Please visit TopBraid EDG (workflow: {topBraidEdgSparqlInsertBuilder.WorkflowId}) to review the result.");
-					Console.WriteLine("Service Controller application ended.");
+					Console.WriteLine("Successfully loaded knowledge.");
 				}
 			}
 
