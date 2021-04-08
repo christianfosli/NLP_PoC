@@ -88,6 +88,7 @@ namespace ServiceController.ServiceApp
 					// helpers
 					services.AddTransient<ITextServiceHelper, TextServiceHelper>();
 					services.AddTransient<INlpServiceHelper, NlpServiceHelper>();
+					services.AddTransient<ITransformerServiceHelper, TransformerServiceHelper>();
 				})
 				.UseConsoleLifetime();
 
@@ -107,6 +108,7 @@ namespace ServiceController.ServiceApp
 				// helpers
 				var textServiceHelper = services.GetRequiredService<ITextServiceHelper>();
 				var nlpServiceHelper = services.GetRequiredService<INlpServiceHelper>();
+				var transformerServiceHelper = services.GetRequiredService<ITransformerServiceHelper>();
 
 				Console.ResetColor();
 				Console.WriteLine("Service Controller application started.");
@@ -205,22 +207,26 @@ namespace ServiceController.ServiceApp
 
 				if (TransformerServiceSettings.RunAsTest)
 				{
-					Console.WriteLine("RUN AS TEST -> Asking Transformer Service to transform information.");
+					Console.WriteLine("RUN AS TEST -> Asking Transformer Service to transform information into knowledge.");
 
+					var transformerCounter = 0;
 					foreach (var identifiedInformationInChapterTextData in IdentifiedInformationInChapterTextDataList)
 					{
 						var transformedRdfKnowledge =
-							await transformerServiceApi.ReturnTestDataAsTransformNlpInformationToRdfKnowledge(
-								TransformerServiceSettings.ApiBaseUrl,
+							transformerServiceHelper.GetTestDataForTransformNlpInformationToRdfKnowledge(
 								identifiedInformationInChapterTextData);
 
 						TransformedRdfKnowledgeList.Add(transformedRdfKnowledge);
+
+						transformerCounter++;
+						Console.WriteLine($"Transformation {transformerCounter}. Success!");
 					}
 				}
 				else // send request to Transformer Service API
 				{
-					Console.WriteLine("Asking Transformer Service to transform information.");
+					Console.WriteLine("Asking Transformer Service to transform information into knowledge.");
 
+					var transformerCounter = 0;
 					foreach (var identifiedInformationInChapterTextData in IdentifiedInformationInChapterTextDataList)
 					{
 						var transformedRdfKnowledge =
@@ -229,6 +235,9 @@ namespace ServiceController.ServiceApp
 								identifiedInformationInChapterTextData);
 
 						TransformedRdfKnowledgeList.Add(transformedRdfKnowledge);
+
+						transformerCounter++;
+						Console.WriteLine($"Transformation {transformerCounter}. Success!");
 					}
 				}
 
