@@ -1,0 +1,70 @@
+{
+  "lang":"nb",
+  "name":"model",
+  "version":"0.0.0",
+  "spacy_version":">=2.3.5",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"1d4b1dea2",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":"spacy_pretrained_vectors"
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "factories":{
+    "ner":"ner"
+  },
+  "labels":{
+    "ner":[
+      "BRENSEL",
+      "DATATYPE",
+      "ELEKSTRISK INNSTALLASJON",
+      "ENERGIKILDE",
+      "ENHET",
+      "FARTSOMR\u00c5DE",
+      "FLYTTBARE INNSTALLASJONER",
+      "GEOGRAFISK LOKASJON",
+      "INFOMASJON",
+      "ISOLASJON",
+      "JURIDISK DOKUMENT",
+      "JURIDISK KONSEPT",
+      "KOMMUNIKASJONSSYSTEM",
+      "KOMPETANSE",
+      "KONSTRUKSJON",
+      "KONTROLLSYSTEM",
+      "LAST",
+      "LOSS",
+      "MASKINERI",
+      "MATERIAL",
+      "MATERIALE",
+      "MOTOR",
+      "N\u00d8D",
+      "PLASSERING P\u00c5 SKIP",
+      "PROSEDYRE",
+      "PUMPE",
+      "REDNINGSMIDLER",
+      "SELSKAP",
+      "SERTIFIKAT",
+      "SKOTT",
+      "STABILITET",
+      "STATLIG INSTITUTT",
+      "STILLING",
+      "STYREANRETNING",
+      "SUBSTANS",
+      "TYPE FART\u00d8Y",
+      "UTSTYR",
+      "VENTIL",
+      "VENTILASJON",
+      "VERKT\u00d8Y",
+      "V\u00c6RFORHOLD",
+      "\u00d8VELSE"
+    ]
+  }
+}

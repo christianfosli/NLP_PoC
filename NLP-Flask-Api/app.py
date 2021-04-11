@@ -29,7 +29,7 @@ from spacy_matching_rule_identify_PROTECTED_no import identify_PROTECTED_in_norw
 from spacy_matching_rule_identify_LOAD_INSTALLATION_no import identify_LOAD_INSTALLATION_in_norwegian_spacy_lines
 from spacy_matching_rule_identify_PROPULSION_POWER_no import identify_PROPULSION_POWER_in_norwegian_spacy_lines
 from spacy_matching_rule_identify_KEEL_LAID_no import identify_KEEL_LAID_in_norwegian_spacy_lines
-
+from spacy_named_entity_recognizer import identify_named_entities_in_spacy_lines
 #
 # API controllers
 #
@@ -59,6 +59,9 @@ from api_controller_identify_LOAD_INSTALLATION_in_text_service_norwegian_chapter
 from api_controller_identify_PROPULSION_POWER_in_text_service_norwegian_chapter import create_api_response_for_post_identify_PROPULSION_POWER_in_text_service_norwegian_chapter
 from api_controller_identify_KEEL_LAID_in_text_service_norwegian_chapter import create_api_response_for_post_identify_KEEL_LAID_in_text_service_norwegian_chapter
 
+#entity classifier
+from api_controller_identify_language_in_request import identify_request_language
+from api_controller_classify_named_entities import create_api_response_for_post_identify_named_entities
 app = Flask(__name__)
 
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1130954877/healthz
@@ -358,6 +361,17 @@ def post_identify_KEEL_LAID_in_text_service_norwegian_chapter():
     forward_filtered_result_with_only_the_things_we_are_looking_for = [spacy_line for spacy_line in forward_result_with_date_in_norwegian if any("KEEL_LAID" == x['label'] for x in spacy_line['ents']) and any("DATE" == x['label'] for x in spacy_line['ents'])]
     forward_api_response = create_api_response_for_post_identify_KEEL_LAID_in_text_service_norwegian_chapter(forward_filtered_result_with_only_the_things_we_are_looking_for)
     return jsonify({"identified_KEEL_LAID": forward_api_response})
+
+# Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/
+@app.route("/classify_named_entities", methods=["POST"])
+# Use only underscore
+def post_classify_named_entities_input():
+    input_chapter_text_as_json_in_text_service_format = request.json
+    language_in_input_chapter_text_as_json_in_text_service_format = identify_request_language(input_chapter_text_as_json_in_text_service_format)
+    forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
+    forward_result_with_entities = identify_named_entities_in_spacy_lines(forward_text_transformed_to_spacy_format, language_in_input_chapter_text_as_json_in_text_service_format)
+    forward_api_response = create_api_response_for_post_identify_named_entities(forward_result_with_entities)
+    return jsonify({"identified_named_entities": forward_api_response})
 
 if __name__ == '__main__':
     #app.run()
