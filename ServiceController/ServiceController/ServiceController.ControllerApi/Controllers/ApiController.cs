@@ -9,14 +9,14 @@ namespace ServiceController.ControllerApi.Controllers
 {
 	[ApiController]
 	[Route("[controller]")]
-	public class WeatherForecastController : ControllerBase
+	public class ApiController : ControllerBase
 	{
-		private readonly ILogger<WeatherForecastController> _logger;
-		private readonly INlpControllerBackgroundTaskQueue _taskQueue;
+		private readonly ILogger<ApiController> _logger;
+		private readonly INlpBackgroundTaskQueue _taskQueue;
 
-		public WeatherForecastController(
-			ILogger<WeatherForecastController> logger,
-			INlpControllerBackgroundTaskQueue taskQueue)
+		public ApiController(
+			ILogger<ApiController> logger,
+			INlpBackgroundTaskQueue taskQueue)
 		{
 			_logger = logger;
 			_taskQueue = taskQueue;
@@ -25,12 +25,13 @@ namespace ServiceController.ControllerApi.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Post([FromForm] Uri uri)
 		{
-			// Enqueue a background work item
-			await _taskQueue.QueueBackgroundWorkItemAsync(BuildWorkItem);
+			await _taskQueue.QueueBackgroundWorkItem(
+				cancellationToken => BuildWorkItem(uri, cancellationToken));
+
 			return Ok();
 		}
 
-		private async ValueTask BuildWorkItem(CancellationToken token)
+		private async ValueTask BuildWorkItem(Uri uri, CancellationToken token)
 		{
 			// Simulate three 5-second tasks to complete
 			// for each enqueued work item

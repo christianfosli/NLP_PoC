@@ -6,27 +6,25 @@ using Microsoft.Extensions.Logging;
 
 namespace ServiceController.ControllerApi.BackgroundServices
 {
-	public class NlpControllerQueuedHostedService : BackgroundService
+	public class NlpQueuedHostedService : BackgroundService
 	{
 		// TODO add api's here
-		private readonly ILogger<NlpControllerQueuedHostedService> _logger;
+		private readonly ILogger<NlpQueuedHostedService> _logger;
+		public INlpBackgroundTaskQueue TaskQueue { get; }
 
-		public NlpControllerQueuedHostedService(
-			INlpControllerBackgroundTaskQueue taskQueue,
-			ILogger<NlpControllerQueuedHostedService> logger)
+		public NlpQueuedHostedService(
+			INlpBackgroundTaskQueue taskQueue,
+			ILogger<NlpQueuedHostedService> logger)
 		{
 			TaskQueue = taskQueue;
 			_logger = logger;
 		}
 
-		public INlpControllerBackgroundTaskQueue TaskQueue { get; }
-
 		protected override async Task ExecuteAsync(CancellationToken stoppingToken)
 		{
 			_logger.LogInformation(
-				$"Queued Hosted Service is running.{Environment.NewLine}" +
-				$"{Environment.NewLine}Tap W to add a work item to the " +
-				$"background queue.{Environment.NewLine}");
+				$"{Environment.NewLine}Queued Hosted Service is running.{Environment.NewLine}" +
+				$"{Environment.NewLine}Send request to API to add a work item to the background queue.{Environment.NewLine}");
 
 			await BackgroundProcessing(stoppingToken);
 		}
@@ -35,8 +33,7 @@ namespace ServiceController.ControllerApi.BackgroundServices
 		{
 			while (!stoppingToken.IsCancellationRequested)
 			{
-				var workItem =
-					await TaskQueue.DequeueAsync(stoppingToken);
+				var workItem = await TaskQueue.DequeueBackgroundWorkItem(stoppingToken);
 
 				try
 				{
@@ -52,7 +49,6 @@ namespace ServiceController.ControllerApi.BackgroundServices
 		public override async Task StopAsync(CancellationToken stoppingToken)
 		{
 			_logger.LogInformation("Queued Hosted Service is stopping.");
-
 			await base.StopAsync(stoppingToken);
 		}
 	}
