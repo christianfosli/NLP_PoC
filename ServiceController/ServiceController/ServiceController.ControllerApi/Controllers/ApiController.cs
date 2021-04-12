@@ -8,7 +8,7 @@ using ServiceController.ControllerApi.BackgroundServices;
 namespace ServiceController.ControllerApi.Controllers
 {
 	[ApiController]
-	[Route("[controller]")]
+	[Route("nlp-controller")]
 	public class ApiController : ControllerBase
 	{
 		private readonly ILogger<ApiController> _logger;
@@ -20,6 +20,12 @@ namespace ServiceController.ControllerApi.Controllers
 		{
 			_logger = logger;
 			_taskQueue = taskQueue;
+		}
+
+		[HttpGet]
+		public IActionResult Get()
+		{
+			return Ok("NLP controller app at your service. Ready to receive a POST request.");
 		}
 
 		[HttpPost]
