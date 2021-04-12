@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ServiceController.ControllerApi.BackgroundServices;
 
 namespace ServiceController.ControllerApi
 {
@@ -26,6 +27,9 @@ namespace ServiceController.ControllerApi
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllers();
+			services.AddHostedService<NlpControllerQueuedHostedService>();
+			services.AddSingleton<INlpControllerBackgroundTaskQueue>(
+				ctx => new NlpControllerBackgroundTaskQueue(100));
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
