@@ -38,7 +38,7 @@ namespace ServiceController.ControllerApi
 			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSecrets").Get<AuthenticationServiceSecrets>());
 
 			// Load api services
-			services.AddScoped<ITestingScopedProcessingService, TestingTestingScopedProcessingService>(); //TODO remove
+			services.AddScoped<ITestingScopedProcessingService, TestingScopedProcessingService>(); //TODO remove
 			//services.AddScoped<ITextServiceApi, TextServiceApi>();
 
 			//services.AddTransient<ITextServiceApi, TextServiceApi>();

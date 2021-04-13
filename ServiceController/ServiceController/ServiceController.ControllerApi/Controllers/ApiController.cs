@@ -3,10 +3,10 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
 using ServiceController.ControllerApi.BackgroundServices;
 using ServiceController.ControllerApi.Settings;
 using ServiceController.Entities.TextService;
-using ServiceController.TextService;
 
 namespace ServiceController.ControllerApi.Controllers
 {
@@ -16,6 +16,7 @@ namespace ServiceController.ControllerApi.Controllers
 	{
 		private readonly ILogger<ApiController> _logger;
 		private readonly INlpBackgroundTaskQueue _taskQueue;
+		private readonly IServiceProvider _serviceProvider;
 
 		// Settings
 		private readonly AuthenticationServiceSettings _authenticationServiceSettings;
@@ -36,11 +37,14 @@ namespace ServiceController.ControllerApi.Controllers
 			NlpServiceSettings nlpServiceSettings,
 			TransformerServiceSettings transformerServiceSettings,
 			KnowledgeServiceSettings knowledgeServiceSettings,
-			AuthenticationServiceSecrets authenticationServiceSecrets
+			AuthenticationServiceSecrets authenticationServiceSecrets,
+			IServiceProvider serviceProvider
 			)
 		{
 			_logger = logger;
 			_taskQueue = taskQueue;
+			_serviceProvider = serviceProvider;
+
 			_authenticationServiceSettings = authenticationServiceSettings;
 			_textServiceSettings = textServiceSettings;
 			_nlpServiceSettings = nlpServiceSettings;
@@ -65,8 +69,7 @@ namespace ServiceController.ControllerApi.Controllers
 
 		private async ValueTask NlpBackgroundTask(Uri requestedTextServiceRegulationIri, CancellationToken token)
 		{
-			if (token.IsCancellationRequested)
-				return;
+			//if (token.IsCancellationRequested) return;
 
 			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (starting): {requestedTextServiceRegulationIri}{Environment.NewLine}");
 
@@ -93,15 +96,20 @@ namespace ServiceController.ControllerApi.Controllers
 			//Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
 
 
-
-
-
-
-
-
 			// TODO
+			await DoooWork(token);
 
 			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (completed): {requestedTextServiceRegulationIri}{Environment.NewLine}");
+		}
+
+		private async Task DoooWork(CancellationToken stoppingToken)
+		{
+			_logger.LogInformation("Consume Scoped Service Hosted Service is working. 111");
+
+			using var scope = _serviceProvider.CreateScope();
+			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService>();
+
+			await scopedProcessingService.DoWork(stoppingToken);
 		}
 
 		/*
@@ -140,5 +148,5 @@ namespace ServiceController.ControllerApi.Controllers
 					: "Queued Background Task {Guid} was cancelled.", guid);
 		}
 		*/
-    }
+	}
 }
