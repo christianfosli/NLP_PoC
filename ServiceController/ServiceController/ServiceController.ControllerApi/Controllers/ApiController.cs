@@ -5,6 +5,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using ServiceController.ControllerApi.BackgroundServices;
 using ServiceController.ControllerApi.Settings;
+using ServiceController.Entities.TextService;
+using ServiceController.TextService;
 
 namespace ServiceController.ControllerApi.Controllers
 {
@@ -14,12 +16,17 @@ namespace ServiceController.ControllerApi.Controllers
 	{
 		private readonly ILogger<ApiController> _logger;
 		private readonly INlpBackgroundTaskQueue _taskQueue;
+
+		// Settings
 		private readonly AuthenticationServiceSettings _authenticationServiceSettings;
 		private readonly TextServiceSettings _textServiceSettings;
 		private readonly NlpServiceSettings _nlpServiceSettings;
 		private readonly TransformerServiceSettings _transformerServiceSettings;
 		private readonly KnowledgeServiceSettings _knowledgeServiceSettings;
 		private readonly AuthenticationServiceSecrets _authenticationServiceSecrets;
+
+		// Services
+		//private ITextServiceApi _textServiceApi;
 
 		public ApiController(
 			ILogger<ApiController> logger,
@@ -40,6 +47,10 @@ namespace ServiceController.ControllerApi.Controllers
 			_transformerServiceSettings = transformerServiceSettings;
 			_knowledgeServiceSettings = knowledgeServiceSettings;
 			_authenticationServiceSecrets = authenticationServiceSecrets;
+
+			//_textServiceApi = textServiceApi;
+			//var y = textServiceApi;
+			var t = "";
 		}
 
 		[HttpGet]
@@ -62,6 +73,35 @@ namespace ServiceController.ControllerApi.Controllers
 				return;
 
 			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (starting): {requestedTextServiceRegulationIri}{Environment.NewLine}");
+
+			//
+			// Text Service
+			//
+
+			var regulationResource = new RegulationResource
+			{
+				Url = requestedTextServiceRegulationIri
+			};
+
+			_logger.LogInformation($"{Environment.NewLine}Asking Text Service for regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber}.{Environment.NewLine}");
+			/*
+			var regulationFromTextService = await _textServiceApi.GetRegulation(
+				_textServiceSettings.ApiBaseUrl,
+				Convert.ToInt32(regulationResource.RegulationYear),
+				Convert.ToInt32(regulationResource.RegulationMonth),
+				Convert.ToInt32(regulationResource.RegulationDay),
+				Convert.ToInt32(regulationResource.RegulationNumber));*/
+
+			//var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
+
+			//Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
+
+
+
+
+
+
+
 
 			// TODO
 

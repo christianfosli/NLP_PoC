@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ServiceController.ControllerApi.BackgroundServices;
 using ServiceController.ControllerApi.Settings;
+using ServiceController.TextService;
 
 namespace ServiceController.ControllerApi
 {
@@ -34,6 +35,23 @@ namespace ServiceController.ControllerApi
 
 			// Load secrets
 			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSecrets").Get<AuthenticationServiceSecrets>());
+
+			// Load api services
+
+			//services.AddTransient<ITextServiceApi, TextServiceApi>();
+			//services.AddSingleton<ITextServiceApi, TextServiceApi>();
+			//services.AddHttpClient<ITextServiceApi, TextServiceApi>();
+
+
+			//services.AddTransient<INlpServiceApi, NlpServiceApi>();
+			//services.AddTransient<ITransformerServiceApi, TransformerServiceApi>();
+			//services.AddTransient<ITopBraidEdgApi, TopBraidEdgApi>();
+			//services.AddTransient<IAuthenticationApi, AuthenticationApi>();
+
+			// Load helpers
+			//services.AddTransient<ITextServiceHelper, TextServiceHelper>();
+			//services.AddTransient<INlpServiceHelper, NlpServiceHelper>();
+			//services.AddTransient<ITransformerServiceHelper, TransformerServiceHelper>();
 		}
 
 		// This method gets called by the runtime.

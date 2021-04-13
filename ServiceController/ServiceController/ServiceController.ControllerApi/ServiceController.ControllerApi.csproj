@@ -5,5 +5,10 @@
     <UserSecretsId>e5a7057d-5d58-40ce-8761-5654be755d48</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceController.Entities\ServiceController.Entities.csproj" />
+    <ProjectReference Include="..\ServiceController.TextService\ServiceController.TextService.csproj" />
+  </ItemGroup>
+
 
 </Project>
