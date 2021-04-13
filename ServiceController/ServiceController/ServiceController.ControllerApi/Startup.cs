@@ -31,6 +31,9 @@ namespace ServiceController.ControllerApi
 			services.AddSingleton(Configuration.GetSection("NlpServiceSettings").Get<NlpServiceSettings>());
 			services.AddSingleton(Configuration.GetSection("TransformerServiceSettings").Get<TransformerServiceSettings>());
 			services.AddSingleton(Configuration.GetSection("KnowledgeServiceSettings").Get<KnowledgeServiceSettings>());
+
+			// Load secrets
+			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSecrets").Get<AuthenticationServiceSecrets>());
 		}
 
 		// This method gets called by the runtime.

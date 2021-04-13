@@ -11,7 +11,13 @@ namespace ServiceController.ControllerApi
 		}
 
 		public static IHostBuilder CreateHostBuilder(string[] args) =>
+
 			Host.CreateDefaultBuilder(args)
+
+				// Load secrets
+				// "CreateDefaultBuilder calls AddUserSecrets when the EnvironmentName is Development"
+				// Source: https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows
+
 				.ConfigureWebHostDefaults(webBuilder =>
 				{
 					webBuilder.UseStartup<Startup>();

@@ -14,12 +14,12 @@ namespace ServiceController.ControllerApi.Controllers
 	{
 		private readonly ILogger<ApiController> _logger;
 		private readonly INlpBackgroundTaskQueue _taskQueue;
-
 		private readonly AuthenticationServiceSettings _authenticationServiceSettings;
 		private readonly TextServiceSettings _textServiceSettings;
 		private readonly NlpServiceSettings _nlpServiceSettings;
 		private readonly TransformerServiceSettings _transformerServiceSettings;
 		private readonly KnowledgeServiceSettings _knowledgeServiceSettings;
+		private readonly AuthenticationServiceSecrets _authenticationServiceSecrets;
 
 		public ApiController(
 			ILogger<ApiController> logger,
@@ -28,17 +28,18 @@ namespace ServiceController.ControllerApi.Controllers
 			TextServiceSettings textServiceSettings,
 			NlpServiceSettings nlpServiceSettings,
 			TransformerServiceSettings transformerServiceSettings,
-			KnowledgeServiceSettings knowledgeServiceSettings
+			KnowledgeServiceSettings knowledgeServiceSettings,
+			AuthenticationServiceSecrets authenticationServiceSecrets
 			)
 		{
 			_logger = logger;
 			_taskQueue = taskQueue;
-
 			_authenticationServiceSettings = authenticationServiceSettings;
 			_textServiceSettings = textServiceSettings;
 			_nlpServiceSettings = nlpServiceSettings;
 			_transformerServiceSettings = transformerServiceSettings;
 			_knowledgeServiceSettings = knowledgeServiceSettings;
+			_authenticationServiceSecrets = authenticationServiceSecrets;
 		}
 
 		[HttpGet]
@@ -63,7 +64,6 @@ namespace ServiceController.ControllerApi.Controllers
 			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (starting): {requestedTextServiceRegulationIri}{Environment.NewLine}");
 
 			// TODO
-			var t = _textServiceSettings;
 
 			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (completed): {requestedTextServiceRegulationIri}{Environment.NewLine}");
 		}
