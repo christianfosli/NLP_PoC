@@ -8,7 +8,6 @@ namespace ServiceController.ControllerApi.BackgroundServices
 {
 	public class NlpQueuedHostedService : BackgroundService
 	{
-		// TODO add api's here
 		private readonly ILogger<NlpQueuedHostedService> _logger;
 		public INlpBackgroundTaskQueue TaskQueue { get; }
 

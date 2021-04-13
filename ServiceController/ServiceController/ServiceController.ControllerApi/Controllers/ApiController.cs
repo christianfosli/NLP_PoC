@@ -4,6 +4,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using ServiceController.ControllerApi.BackgroundServices;
+using ServiceController.ControllerApi.Settings;
 
 namespace ServiceController.ControllerApi.Controllers
 {
@@ -14,12 +15,30 @@ namespace ServiceController.ControllerApi.Controllers
 		private readonly ILogger<ApiController> _logger;
 		private readonly INlpBackgroundTaskQueue _taskQueue;
 
+		private readonly AuthenticationServiceSettings _authenticationServiceSettings;
+		private readonly TextServiceSettings _textServiceSettings;
+		private readonly NlpServiceSettings _nlpServiceSettings;
+		private readonly TransformerServiceSettings _transformerServiceSettings;
+		private readonly KnowledgeServiceSettings _knowledgeServiceSettings;
+
 		public ApiController(
 			ILogger<ApiController> logger,
-			INlpBackgroundTaskQueue taskQueue)
+			INlpBackgroundTaskQueue taskQueue,
+			AuthenticationServiceSettings authenticationServiceSettings,
+			TextServiceSettings textServiceSettings,
+			NlpServiceSettings nlpServiceSettings,
+			TransformerServiceSettings transformerServiceSettings,
+			KnowledgeServiceSettings knowledgeServiceSettings
+			)
 		{
 			_logger = logger;
 			_taskQueue = taskQueue;
+
+			_authenticationServiceSettings = authenticationServiceSettings;
+			_textServiceSettings = textServiceSettings;
+			_nlpServiceSettings = nlpServiceSettings;
+			_transformerServiceSettings = transformerServiceSettings;
+			_knowledgeServiceSettings = knowledgeServiceSettings;
 		}
 
 		[HttpGet]
@@ -31,13 +50,27 @@ namespace ServiceController.ControllerApi.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Post([FromForm] Uri uri)
 		{
-			await _taskQueue.QueueBackgroundWorkItem(
-				cancellationToken => BuildWorkItem(uri, cancellationToken));
+			await _taskQueue.QueueBackgroundWorkItem(cancellationToken => NlpBackgroundTask(uri, cancellationToken));
 
 			return Ok();
 		}
 
-		private async ValueTask BuildWorkItem(Uri uri, CancellationToken token)
+		private async ValueTask NlpBackgroundTask(Uri requestedTextServiceRegulationIri, CancellationToken token)
+		{
+			if (token.IsCancellationRequested)
+				return;
+
+			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (starting): {requestedTextServiceRegulationIri}{Environment.NewLine}");
+
+			// TODO
+			var t = _textServiceSettings;
+
+			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (completed): {requestedTextServiceRegulationIri}{Environment.NewLine}");
+		}
+
+		/*
+		// This is nice to have when testing how a queue is working on a hosted background service.
+		private async ValueTask TestWorkItem(Uri uri, CancellationToken token)
 		{
 			// Simulate three 5-second tasks to complete
 			// for each enqueued work item
@@ -70,5 +103,6 @@ namespace ServiceController.ControllerApi.Controllers
 					? "Queued Background Task {Guid} is complete."
 					: "Queued Background Task {Guid} was cancelled.", guid);
 		}
+		*/
     }
 }
