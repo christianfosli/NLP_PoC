@@ -47,10 +47,6 @@ namespace ServiceController.ControllerApi.Controllers
 			_transformerServiceSettings = transformerServiceSettings;
 			_knowledgeServiceSettings = knowledgeServiceSettings;
 			_authenticationServiceSecrets = authenticationServiceSecrets;
-
-			//_textServiceApi = textServiceApi;
-			//var y = textServiceApi;
-			var t = "";
 		}
 
 		[HttpGet]

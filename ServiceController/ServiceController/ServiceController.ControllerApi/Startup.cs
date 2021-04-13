@@ -25,6 +25,7 @@ namespace ServiceController.ControllerApi
 			services.AddControllers();
 			services.AddHostedService<NlpQueuedHostedService>();
 			services.AddSingleton<INlpBackgroundTaskQueue>(ctx => new NlpBackgroundTaskQueue(100));
+			
 
 			// Load settings
 			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSettings").Get<AuthenticationServiceSettings>());
@@ -37,6 +38,8 @@ namespace ServiceController.ControllerApi
 			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSecrets").Get<AuthenticationServiceSecrets>());
 
 			// Load api services
+			services.AddScoped<ITestingScopedProcessingService, TestingTestingScopedProcessingService>(); //TODO remove
+			//services.AddScoped<ITextServiceApi, TextServiceApi>();
 
 			//services.AddTransient<ITextServiceApi, TextServiceApi>();
 			//services.AddSingleton<ITextServiceApi, TextServiceApi>();
