@@ -16,7 +16,7 @@ namespace ServiceController.ControllerApi.BackgroundServices
 
 		public async Task DoWork(CancellationToken stoppingToken)
 		{
-			while (!stoppingToken.IsCancellationRequested)
+			while (!stoppingToken.IsCancellationRequested && executionCount < 3)
 			{
 				executionCount++;
 

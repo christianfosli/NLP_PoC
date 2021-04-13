@@ -12,17 +12,17 @@ namespace ServiceController.ControllerApi.BackgroundServices
 	{
 		private readonly ILogger<NlpQueuedHostedService> _logger;
 		public INlpBackgroundTaskQueue TaskQueue { get; }
-		//private readonly IServiceProvider _serviceProvider;
+		private readonly IServiceProvider _serviceProvider;
 
 		public NlpQueuedHostedService(
 			INlpBackgroundTaskQueue taskQueue,
-			ILogger<NlpQueuedHostedService> logger
-			//, IServiceProvider serviceProvider
+			ILogger<NlpQueuedHostedService> logger,
+			IServiceProvider serviceProvider
 			)
 		{
 			TaskQueue = taskQueue;
 			_logger = logger;
-			//_serviceProvider = serviceProvider;
+			_serviceProvider = serviceProvider;
 		}
 
 		protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -43,7 +43,15 @@ namespace ServiceController.ControllerApi.BackgroundServices
 				try
 				{
 					await workItem(stoppingToken); // == NlpBackgroundTask
-					//await DoWork(stoppingToken);
+
+					var g = workItem.Target;
+
+					var w = g.GetType().GetField("uri").GetValue(g);
+
+					var uri = new Uri(w.ToString());
+
+					var r = await DoooWork(stoppingToken);
+					var f = "";
 				}
 				catch (Exception ex)
 				{
@@ -52,16 +60,16 @@ namespace ServiceController.ControllerApi.BackgroundServices
 			}
 		}
 
-		/*
-		private async Task DoWork(CancellationToken stoppingToken)
+		private async Task<string> DoooWork(CancellationToken stoppingToken)
 		{
 			_logger.LogInformation("Consume Scoped Service Hosted Service is working.");
 			using var scope = _serviceProvider.CreateScope();
 			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService>();
 
 			await scopedProcessingService.DoWork(stoppingToken);
+
+			return "test return string";
 		}
-		*/
 
 		public override async Task StopAsync(CancellationToken stoppingToken)
 		{
