@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using AngleSharp.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ServiceController.TextService;
 
 namespace ServiceController.ControllerApi.BackgroundServices
 {
@@ -56,7 +56,7 @@ namespace ServiceController.ControllerApi.BackgroundServices
 					// Services
 					//
 
-					var textServiceApiResponse = await DoooWork(requestedTextServiceRegulationIri, stoppingToken);
+					var testTaskResponse = await TestScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
 					
 
 					var f = "";
@@ -70,7 +70,11 @@ namespace ServiceController.ControllerApi.BackgroundServices
 			}
 		}
 
-		private async Task<string> DoooWork(
+		//
+		// Tasks - Scope wrappers
+		//
+
+		private async Task<string> TestScopeWrapper(
 			Uri requestedTextServiceRegulationIri,
 			CancellationToken stoppingToken)
 		{
@@ -78,7 +82,7 @@ namespace ServiceController.ControllerApi.BackgroundServices
 			using var scope = _serviceProvider.CreateScope();
 			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService>();
 
-			await scopedProcessingService.DoWork(stoppingToken);
+			var test = await scopedProcessingService.DoWork(stoppingToken);
 
 			return "test return string";
 		}

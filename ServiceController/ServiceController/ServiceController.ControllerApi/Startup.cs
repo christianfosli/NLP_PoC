@@ -26,7 +26,6 @@ namespace ServiceController.ControllerApi
 			services.AddHostedService<NlpQueuedHostedService>();
 			services.AddSingleton<INlpBackgroundTaskQueue>(ctx => new NlpBackgroundTaskQueue(100));
 			
-
 			// Load settings
 			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSettings").Get<AuthenticationServiceSettings>());
 			services.AddSingleton(Configuration.GetSection("TextServiceSettings").Get<TextServiceSettings>());

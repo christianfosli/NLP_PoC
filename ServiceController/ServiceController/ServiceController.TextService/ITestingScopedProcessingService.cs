@@ -1,10 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 
-namespace ServiceController.ControllerApi.BackgroundServices
+namespace ServiceController.TextService
 {
 	public interface ITestingScopedProcessingService
 	{
-		Task DoWork(CancellationToken stoppingToken);
+		Task<string> DoWork(CancellationToken stoppingToken);
 	}
 }

@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace ServiceController.ControllerApi.BackgroundServices
+namespace ServiceController.TextService
 {
-	internal class TestingScopedProcessingService : ITestingScopedProcessingService
+	public class TestingScopedProcessingService : ITestingScopedProcessingService
 	{
 		private int executionCount = 0;
 		private readonly ILogger _logger;
@@ -14,7 +14,7 @@ namespace ServiceController.ControllerApi.BackgroundServices
 			_logger = logger;
 		}
 
-		public async Task DoWork(CancellationToken stoppingToken)
+		public async Task<string> DoWork(CancellationToken stoppingToken)
 		{
 			while (!stoppingToken.IsCancellationRequested && executionCount < 3)
 			{
@@ -25,6 +25,8 @@ namespace ServiceController.ControllerApi.BackgroundServices
 
 				await Task.Delay(10000, stoppingToken);
 			}
+
+			return "Test response from ITestingScopedProcessingService";
 		}
 	}
 }
