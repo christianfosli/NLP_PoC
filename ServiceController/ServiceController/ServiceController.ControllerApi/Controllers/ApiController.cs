@@ -75,12 +75,6 @@ namespace ServiceController.ControllerApi.Controllers
 			// Text Service
 			//
 
-			var regulationResource = new RegulationResource
-			{
-				Url = requestedTextServiceRegulationIri
-			};
-
-			_logger.LogInformation($"{Environment.NewLine}Asking Text Service for regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber}.{Environment.NewLine}");
 			/*
 			var regulationFromTextService = await _textServiceApi.GetRegulation(
 				_textServiceSettings.ApiBaseUrl,

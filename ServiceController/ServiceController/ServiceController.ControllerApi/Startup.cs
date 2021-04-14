@@ -38,6 +38,7 @@ namespace ServiceController.ControllerApi
 
 			// Load api services
 			services.AddScoped<ITestingScopedProcessingService, TestingScopedProcessingService>(); //TODO remove
+			services.AddScoped<ITestingScopedProcessingService2, TestingScopedProcessingService2>(); //TODO remove
 			//services.AddScoped<ITextServiceApi, TextServiceApi>();
 
 			//services.AddTransient<ITextServiceApi, TextServiceApi>();

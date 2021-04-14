@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ServiceController.Entities.TextService;
 using ServiceController.TextService;
 
 namespace ServiceController.ControllerApi.BackgroundServices
@@ -56,7 +57,10 @@ namespace ServiceController.ControllerApi.BackgroundServices
 					// Services
 					//
 
-					var testTaskResponse = await TestScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
+					var testServiceResponse = await TestScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
+					var testServiceResponse2 = await TestScopeWrapper2(requestedTextServiceRegulationIri, stoppingToken);
+
+					//var textServiceResponse = await TextServiceScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
 					
 
 					var f = "";
@@ -74,6 +78,7 @@ namespace ServiceController.ControllerApi.BackgroundServices
 		// Tasks - Scope wrappers
 		//
 
+		
 		private async Task<string> TestScopeWrapper(
 			Uri requestedTextServiceRegulationIri,
 			CancellationToken stoppingToken)
@@ -83,6 +88,47 @@ namespace ServiceController.ControllerApi.BackgroundServices
 			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService>();
 
 			var test = await scopedProcessingService.DoWork(stoppingToken);
+
+			return "test return string";
+		}
+
+		private async Task<string> TestScopeWrapper2(
+			Uri requestedTextServiceRegulationIri,
+			CancellationToken stoppingToken)
+		{
+			_logger.LogInformation("2 - Consume Scoped Service Hosted Service is working.");
+			using var scope = _serviceProvider.CreateScope();
+			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService2>();
+
+			var test = await scopedProcessingService.DoWork(stoppingToken);
+
+			return "2 - test return string";
+		}
+
+		private async Task<string> TextServiceScopeWrapper(
+			Uri requestedTextServiceRegulationIri,
+			CancellationToken stoppingToken)
+		{
+			_logger.LogInformation("TextServiceScopeWrapper (starting)");
+
+			using var scope = _serviceProvider.CreateScope();
+			var textServiceApi = scope.ServiceProvider.GetRequiredService<ITextServiceApi>();
+
+			var regulationResource = new RegulationResource
+			{
+				Url = requestedTextServiceRegulationIri
+			};
+
+			_logger.LogInformation($"{Environment.NewLine}Asking Text Service for regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber}.{Environment.NewLine}");
+
+			var regulationFromTextService = await textServiceApi.GetRegulation(
+				new Uri(@"https://sdir-d-apim-common.azure-api.net/core-text-internal"), // TODO TextServiceSettings.ApiBaseUrl,
+				Convert.ToInt32(regulationResource.RegulationYear),
+				Convert.ToInt32(regulationResource.RegulationMonth),
+				Convert.ToInt32(regulationResource.RegulationDay),
+				Convert.ToInt32(regulationResource.RegulationNumber));
+
+			_logger.LogInformation("TextServiceScopeWrapper (ending)");
 
 			return "test return string";
 		}
