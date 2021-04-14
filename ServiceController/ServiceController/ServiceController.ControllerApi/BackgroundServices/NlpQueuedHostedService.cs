@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using AngleSharp.Common;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -12,17 +10,14 @@ namespace ServiceController.ControllerApi.BackgroundServices
 	{
 		private readonly ILogger<NlpQueuedHostedService> _logger;
 		public INlpBackgroundTaskQueue TaskQueue { get; }
-		private readonly IServiceProvider _serviceProvider;
 
 		public NlpQueuedHostedService(
 			INlpBackgroundTaskQueue taskQueue,
-			ILogger<NlpQueuedHostedService> logger,
-			IServiceProvider serviceProvider
-			)
+			ILogger<NlpQueuedHostedService> logger
+		)
 		{
 			TaskQueue = taskQueue;
 			_logger = logger;
-			_serviceProvider = serviceProvider;
 		}
 
 		protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -42,45 +37,13 @@ namespace ServiceController.ControllerApi.BackgroundServices
 
 				try
 				{
-					// Same as "NlpBackgroundTask".
-					// Did not manage to get this to return any value directly.
-					await dequeuedBackgroundTask(stoppingToken);
-
-					// Extracting IRI from dequeuedBackgroundTask
-					var target = dequeuedBackgroundTask.Target;
-					var objectWithIri = target?.GetType().GetField("uri")?.GetValue(target);
-					if (objectWithIri == null) throw new Exception("Did not find input IRI.");
-					var requestedTextServiceRegulationIri = new Uri(objectWithIri.ToString() ?? string.Empty);
-
-					//
-					// Services
-					//
-
-					var textServiceApiResponse = await DoooWork(requestedTextServiceRegulationIri, stoppingToken);
-					
-
-					var f = "";
-
-					//TODO
+					await dequeuedBackgroundTask(stoppingToken); // Same as "NlpBackgroundTask"
 				}
 				catch (Exception ex)
 				{
 					_logger.LogError(ex, "Error occurred executing {WorkItem}.", nameof(dequeuedBackgroundTask));
 				}
 			}
-		}
-
-		private async Task<string> DoooWork(
-			Uri requestedTextServiceRegulationIri,
-			CancellationToken stoppingToken)
-		{
-			_logger.LogInformation("Consume Scoped Service Hosted Service is working.");
-			using var scope = _serviceProvider.CreateScope();
-			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService>();
-
-			await scopedProcessingService.DoWork(stoppingToken);
-
-			return "test return string";
 		}
 
 		public override async Task StopAsync(CancellationToken stoppingToken)
