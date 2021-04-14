@@ -3,10 +3,13 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ServiceController.AuthenticationService;
 using ServiceController.ControllerApi.BackgroundServices;
 using ServiceController.ControllerApi.Settings;
+using ServiceController.KnowledgeService;
 using ServiceController.NlpService;
 using ServiceController.TextService;
+using ServiceController.TransformerService;
 
 namespace ServiceController.ControllerApi
 {
@@ -41,14 +44,14 @@ namespace ServiceController.ControllerApi
 			// Load api services
 			services.AddScoped<ITextServiceApi, TextServiceApi>();
 			services.AddScoped<INlpServiceApi, NlpServiceApi>();
-			//services.AddScoped<ITransformerServiceApi, TransformerServiceApi>();
-			//services.AddScoped<ITopBraidEdgApi, TopBraidEdgApi>();
-			//services.AddScoped<IAuthenticationApi, AuthenticationApi>();
+			services.AddScoped<ITransformerServiceApi, TransformerServiceApi>();
+			services.AddScoped<ITopBraidEdgApi, TopBraidEdgApi>();
+			services.AddScoped<IAuthenticationApi, AuthenticationApi>();
 
 			// Load helpers
 			services.AddScoped<ITextServiceHelper, TextServiceHelper>();
 			services.AddScoped<INlpServiceHelper, NlpServiceHelper>();
-			//services.AddScoped<ITransformerServiceHelper, TransformerServiceHelper>();
+			services.AddScoped<ITransformerServiceHelper, TransformerServiceHelper>();
 		}
 
 		// This method gets called by the runtime.

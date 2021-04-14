@@ -2,15 +2,19 @@
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
+using ServiceController.AuthenticationService;
 using ServiceController.ControllerApi.BackgroundServices;
 using ServiceController.ControllerApi.Settings;
 using ServiceController.Entities.NlpService;
 using ServiceController.Entities.TextService;
+using ServiceController.KnowledgeService;
 using ServiceController.NlpService;
 using ServiceController.TextService;
+using ServiceController.TransformerService;
 
 namespace ServiceController.ControllerApi.Controllers
 {
@@ -21,6 +25,18 @@ namespace ServiceController.ControllerApi.Controllers
 		private readonly ILogger<ApiController> _logger;
 		private readonly INlpBackgroundTaskQueue _taskQueue;
 
+		// Services
+		private readonly ITextServiceApi _textServiceApi;
+		private readonly INlpServiceApi _nlpServiceApi;
+		private readonly ITransformerServiceApi _transformerServiceApi;
+		private readonly ITopBraidEdgApi _topBraidEdgApi;
+		private readonly IAuthenticationApi _authenticationApi;
+
+		// Helpers
+		private readonly ITextServiceHelper _textServiceHelper;
+		private readonly INlpServiceHelper _nlpServiceHelper;
+		private readonly ITransformerServiceHelper _transformerServiceHelper;
+
 		// Settings
 		private readonly AuthenticationServiceSettings _authenticationServiceSettings;
 		private readonly TextServiceSettings _textServiceSettings;
@@ -28,14 +44,6 @@ namespace ServiceController.ControllerApi.Controllers
 		private readonly TransformerServiceSettings _transformerServiceSettings;
 		private readonly KnowledgeServiceSettings _knowledgeServiceSettings;
 		private readonly AuthenticationServiceSecrets _authenticationServiceSecrets;
-
-		// Services
-		private readonly ITextServiceApi _textServiceApi;
-		private readonly INlpServiceApi _nlpServiceApi;
-
-		// Helpers
-		private readonly ITextServiceHelper _textServiceHelper;
-		private readonly INlpServiceHelper _nlpServiceHelper;
 
 		// App memory
 		private static string TopBraidEdgOAuthAccessToken { get; set; }
@@ -46,13 +54,14 @@ namespace ServiceController.ControllerApi.Controllers
 		public ApiController(
 			ILogger<ApiController> logger,
 			INlpBackgroundTaskQueue taskQueue,
-
 			ITextServiceApi textServiceApi,
 			INlpServiceApi nlpServiceApi,
-
+			ITransformerServiceApi transformerServiceApi,
+			ITopBraidEdgApi topBraidEdgApi,
+			IAuthenticationApi authenticationApi,
 			ITextServiceHelper textServiceHelper,
 			INlpServiceHelper nlpServiceHelper,
-
+			ITransformerServiceHelper transformerServiceHelper,
 			AuthenticationServiceSettings authenticationServiceSettings,
 			TextServiceSettings textServiceSettings,
 			NlpServiceSettings nlpServiceSettings,
@@ -63,13 +72,14 @@ namespace ServiceController.ControllerApi.Controllers
 		{
 			_logger = logger;
 			_taskQueue = taskQueue;
-
 			_textServiceApi = textServiceApi;
 			_nlpServiceApi = nlpServiceApi;
-
+			_transformerServiceApi = transformerServiceApi;
+			_topBraidEdgApi = topBraidEdgApi;
+			_authenticationApi = authenticationApi;
 			_textServiceHelper = textServiceHelper;
 			_nlpServiceHelper = nlpServiceHelper;
-
+			_transformerServiceHelper = transformerServiceHelper;
 			_authenticationServiceSettings = authenticationServiceSettings;
 			_textServiceSettings = textServiceSettings;
 			_nlpServiceSettings = nlpServiceSettings;
@@ -96,7 +106,11 @@ namespace ServiceController.ControllerApi.Controllers
 			Uri requestedTextServiceRegulationIri,
 			CancellationToken stoppingToken)
 		{
-			//if (token.IsCancellationRequested) return;
+			if (stoppingToken.IsCancellationRequested)
+			{
+				_logger.LogInformation($"{Environment.NewLine}Stopped because of CancellationToken.{Environment.NewLine}");
+				return;
+			}
 
 			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (starting): {requestedTextServiceRegulationIri}{Environment.NewLine}");
 
@@ -183,59 +197,117 @@ namespace ServiceController.ControllerApi.Controllers
 					}
 					else
 					{
-						_logger.LogInformation("{Environment.NewLine}No detections in this chapter.{Environment.NewLine}");
+						_logger.LogInformation($"{Environment.NewLine}No detections in this chapter.{Environment.NewLine}");
 					}
 				}
 			}
 
+			//
+			// Transformer Service
+			//
 
+			if (_transformerServiceSettings.RunAsTest)
+			{
+				_logger.LogInformation($"{Environment.NewLine}RUN AS TEST -> Asking Transformer Service to transform information into knowledge.{Environment.NewLine}");
 
+				var transformerCounter = 0;
+				foreach (var identifiedInformationInChapterTextData in IdentifiedInformationInChapterTextDataList)
+				{
+					var transformedRdfKnowledge =
+						_transformerServiceHelper.GetTestDataForTransformNlpInformationToRdfKnowledge(
+							identifiedInformationInChapterTextData);
 
+					TransformedRdfKnowledgeList.Add(transformedRdfKnowledge);
 
+					transformerCounter++;
+					_logger.LogInformation($"{Environment.NewLine}Transformation {transformerCounter}. Success!{Environment.NewLine}");
+				}
+			}
+			else // send request to Transformer Service API
+			{
+				_logger.LogInformation($"{Environment.NewLine}Asking Transformer Service to transform information into knowledge.{Environment.NewLine}");
 
+				var transformerCounter = 0;
+				foreach (var identifiedInformationInChapterTextData in IdentifiedInformationInChapterTextDataList)
+				{
+					var transformedRdfKnowledge =
+						await _transformerServiceApi.TransformNlpInformationToRdfKnowledge(
+							_transformerServiceSettings.ApiBaseUrl,
+							identifiedInformationInChapterTextData);
 
+					TransformedRdfKnowledgeList.Add(transformedRdfKnowledge);
 
+					transformerCounter++;
+					_logger.LogInformation($"{Environment.NewLine}Transformation {transformerCounter}. Success!{Environment.NewLine}");
+				}
+			}
 
+			//
+			// Authentication Service
+			//
 
+			try
+			{
+				_logger.LogInformation($"{Environment.NewLine}Asking Authentication Service for access token.{Environment.NewLine}");
+
+				TopBraidEdgOAuthAccessToken = await _authenticationApi.GetAuthenticationToken(
+					_authenticationServiceSettings.ApiBaseUrl,
+					_authenticationServiceSecrets.ClientId,
+					_authenticationServiceSecrets.ClientSecret,
+					_authenticationServiceSecrets.Scope);
+
+				_logger.LogInformation($"{Environment.NewLine}Successfully loaded access token.{Environment.NewLine}");
+			}
+			catch (Exception e)
+			{
+				_logger.LogInformation($"{Environment.NewLine}Oh no.. :-O Something went wrong. Here is an error message:{Environment.NewLine}");
+				_logger.LogInformation(e.ToString());
+				_logger.LogInformation($"{Environment.NewLine}Service Controller application ended.{Environment.NewLine}");
+				return;
+			}
+
+			//
+			// Knowledge Service
+			//
+
+			foreach (var transformedRdfKnowledge in TransformedRdfKnowledgeList)
+			{
+				_logger.LogInformation($"{Environment.NewLine}Asking Knowledge Service to construct SPARQL INSERT query.{Environment.NewLine}");
+
+				var topBraidEdgSparqlInsertBuilder = new Entities.KnowledgeService.TopBraidEdgSparqlInsertBuilder(
+					_knowledgeServiceSettings.TopBraidEdgOntologyId,
+					_knowledgeServiceSettings.TopBraidEdgWorkflowId,
+					_knowledgeServiceSettings.TopBraidEdgUserId,
+					transformedRdfKnowledge
+				);
+
+				_logger.LogInformation($"{Environment.NewLine}Successfully parsed {topBraidEdgSparqlInsertBuilder.Graph.Nodes.Count()} triples from Transformer Service.{Environment.NewLine}");
+				var sparqlInsertQueryString = topBraidEdgSparqlInsertBuilder.BuildSparqlInsertQueryString();
+				_logger.LogInformation($"{Environment.NewLine}Successfully constructed SPARQL INSERT query.{Environment.NewLine}");
+
+				var topBraidEdgGraphUrn = topBraidEdgSparqlInsertBuilder.BuildTopBraidEdgGraphUrn();
+				_logger.LogInformation($"{Environment.NewLine}Loading knowledge into TopBraid EDG graph: {topBraidEdgGraphUrn}{Environment.NewLine}");
+
+				try
+				{
+					await _topBraidEdgApi.TestInsert(
+						_knowledgeServiceSettings.ApiBaseUrl,
+						TopBraidEdgOAuthAccessToken,
+						sparqlInsertQueryString,
+						topBraidEdgGraphUrn);
+				}
+				catch (Exception e)
+				{
+					_logger.LogInformation($"{Environment.NewLine}Oh no.. :-O Something went wrong. Here is an error message:{Environment.NewLine}");
+					_logger.LogInformation(e.ToString());
+					_logger.LogInformation($"{Environment.NewLine}Service Controller application ended.{Environment.NewLine}");
+					return;
+				}
+
+				_logger.LogInformation($"{Environment.NewLine}Successfully loaded knowledge.{Environment.NewLine}");
+			}
 
 			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (completed): {requestedTextServiceRegulationIri}{Environment.NewLine}");
 		}
-
-		/*
-		// This is nice to have when testing how a queue is working on a hosted background service.
-		private async ValueTask TestWorkItem(Uri uri, CancellationToken token)
-		{
-			// Simulate three 5-second tasks to complete
-			// for each enqueued work item
-
-			var delayLoop = 0;
-			var guid = Guid.NewGuid().ToString();
-
-			_logger.LogInformation("Queued Background Task {Guid} is starting.", guid);
-
-			while (!token.IsCancellationRequested && delayLoop < 3)
-			{
-				try
-				{
-					await Task.Delay(TimeSpan.FromSeconds(5), token);
-				}
-				catch (OperationCanceledException)
-				{
-					// Prevent throwing if the Delay is cancelled
-				}
-
-				delayLoop++;
-
-				_logger.LogInformation(
-					"Queued Background Task {Guid} is running. " + "{DelayLoop}/3", 
-					guid, delayLoop);
-			}
-
-			_logger.LogInformation(
-				delayLoop == 3
-					? "Queued Background Task {Guid} is complete."
-					: "Queued Background Task {Guid} was cancelled.", guid);
-		}
-		*/
 	}
 }
