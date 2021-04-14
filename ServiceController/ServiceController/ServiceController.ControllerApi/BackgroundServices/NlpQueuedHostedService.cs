@@ -38,29 +38,41 @@ namespace ServiceController.ControllerApi.BackgroundServices
 		{
 			while (!stoppingToken.IsCancellationRequested)
 			{
-				var workItem = await TaskQueue.DequeueBackgroundWorkItem(stoppingToken);
+				var dequeuedBackgroundTask = await TaskQueue.DequeueBackgroundWorkItem(stoppingToken);
 
 				try
 				{
-					await workItem(stoppingToken); // == NlpBackgroundTask
+					// Same as "NlpBackgroundTask".
+					// Did not manage to get this to return any value directly.
+					await dequeuedBackgroundTask(stoppingToken);
 
-					var g = workItem.Target;
+					// Extracting IRI from dequeuedBackgroundTask
+					var target = dequeuedBackgroundTask.Target;
+					var objectWithIri = target?.GetType().GetField("uri")?.GetValue(target);
+					if (objectWithIri == null) throw new Exception("Did not find input IRI.");
+					var requestedTextServiceRegulationIri = new Uri(objectWithIri.ToString() ?? string.Empty);
 
-					var w = g.GetType().GetField("uri").GetValue(g);
+					//
+					// Services
+					//
 
-					var uri = new Uri(w.ToString());
+					var textServiceApiResponse = await DoooWork(requestedTextServiceRegulationIri, stoppingToken);
+					
 
-					var r = await DoooWork(stoppingToken);
 					var f = "";
+
+					//TODO
 				}
 				catch (Exception ex)
 				{
-					_logger.LogError(ex, "Error occurred executing {WorkItem}.", nameof(workItem));
+					_logger.LogError(ex, "Error occurred executing {WorkItem}.", nameof(dequeuedBackgroundTask));
 				}
 			}
 		}
 
-		private async Task<string> DoooWork(CancellationToken stoppingToken)
+		private async Task<string> DoooWork(
+			Uri requestedTextServiceRegulationIri,
+			CancellationToken stoppingToken)
 		{
 			_logger.LogInformation("Consume Scoped Service Hosted Service is working.");
 			using var scope = _serviceProvider.CreateScope();
