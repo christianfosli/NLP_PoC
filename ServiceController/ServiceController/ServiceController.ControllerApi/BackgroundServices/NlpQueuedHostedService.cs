@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using ServiceController.Entities.TextService;
-using ServiceController.TextService;
 
 namespace ServiceController.ControllerApi.BackgroundServices
 {
@@ -43,10 +40,10 @@ namespace ServiceController.ControllerApi.BackgroundServices
 
 				try
 				{
-					// Same as "NlpBackgroundTask".
-					// Did not manage to get this to return any value directly.
-					await dequeuedBackgroundTask(stoppingToken);
+					await dequeuedBackgroundTask(stoppingToken); // Same as "NlpBackgroundTask"
 
+					/*
+					 TODO remove all this
 					// Extracting IRI from dequeuedBackgroundTask
 					var target = dequeuedBackgroundTask.Target;
 					var objectWithIri = target?.GetType().GetField("uri")?.GetValue(target);
@@ -60,12 +57,8 @@ namespace ServiceController.ControllerApi.BackgroundServices
 					//var testServiceResponse = await TestScopeWrapper(requestedTextServiceRegulationIri, stoppingToken); //TODO remove
 					//var testServiceResponse2 = await TestScopeWrapper2(requestedTextServiceRegulationIri, stoppingToken); //TODO remove
 
-					var textServiceResponse = await TextServiceScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
-					
-
-					var f = "";
-
-					//TODO
+					//var textServiceResponse = await TextServiceScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
+					*/
 				}
 				catch (Exception ex)
 				{
@@ -74,11 +67,11 @@ namespace ServiceController.ControllerApi.BackgroundServices
 			}
 		}
 
+		/* TODO remove
+
 		//
 		// Tasks - Scope wrappers
 		//
-
-		
 
 		private async Task<string> TextServiceScopeWrapper(
 			Uri requestedTextServiceRegulationIri,
@@ -107,6 +100,7 @@ namespace ServiceController.ControllerApi.BackgroundServices
 
 			return "test return string";
 		}
+		*/
 
 		public override async Task StopAsync(CancellationToken stoppingToken)
 		{
@@ -114,7 +108,7 @@ namespace ServiceController.ControllerApi.BackgroundServices
 			await base.StopAsync(stoppingToken);
 		}
 
-		/*
+		/* TODO remove
 		private async Task<string> TestScopeWrapper(
 			Uri requestedTextServiceRegulationIri,
 			CancellationToken stoppingToken)
