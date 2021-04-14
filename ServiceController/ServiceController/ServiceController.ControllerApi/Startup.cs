@@ -23,6 +23,7 @@ namespace ServiceController.ControllerApi
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllers();
+			services.AddHttpClient();
 			services.AddHostedService<NlpQueuedHostedService>();
 			services.AddSingleton<INlpBackgroundTaskQueue>(ctx => new NlpBackgroundTaskQueue(100));
 			
@@ -37,24 +38,20 @@ namespace ServiceController.ControllerApi
 			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSecrets").Get<AuthenticationServiceSecrets>());
 
 			// Load api services
-			services.AddScoped<ITestingScopedProcessingService, TestingScopedProcessingService>(); //TODO remove
-			services.AddScoped<ITestingScopedProcessingService2, TestingScopedProcessingService2>(); //TODO remove
-			//services.AddScoped<ITextServiceApi, TextServiceApi>();
+			//services.AddScoped<ITestingScopedProcessingService, TestingScopedProcessingService>(); //TODO remove
+			//services.AddScoped<ITestingScopedProcessingService2, TestingScopedProcessingService2>(); //TODO remove
 
-			//services.AddTransient<ITextServiceApi, TextServiceApi>();
-			//services.AddSingleton<ITextServiceApi, TextServiceApi>();
-			//services.AddHttpClient<ITextServiceApi, TextServiceApi>();
+			services.AddScoped<ITextServiceApi, TextServiceApi>();
 
-
-			//services.AddTransient<INlpServiceApi, NlpServiceApi>();
-			//services.AddTransient<ITransformerServiceApi, TransformerServiceApi>();
-			//services.AddTransient<ITopBraidEdgApi, TopBraidEdgApi>();
-			//services.AddTransient<IAuthenticationApi, AuthenticationApi>();
+			//services.AddScoped<INlpServiceApi, NlpServiceApi>();
+			//services.AddScoped<ITransformerServiceApi, TransformerServiceApi>();
+			//services.AddScoped<ITopBraidEdgApi, TopBraidEdgApi>();
+			//services.AddScoped<IAuthenticationApi, AuthenticationApi>();
 
 			// Load helpers
-			//services.AddTransient<ITextServiceHelper, TextServiceHelper>();
-			//services.AddTransient<INlpServiceHelper, NlpServiceHelper>();
-			//services.AddTransient<ITransformerServiceHelper, TransformerServiceHelper>();
+			//services.AddScoped<ITextServiceHelper, TextServiceHelper>();
+			//services.AddScoped<INlpServiceHelper, NlpServiceHelper>();
+			//services.AddScoped<ITransformerServiceHelper, TransformerServiceHelper>();
 		}
 
 		// This method gets called by the runtime.

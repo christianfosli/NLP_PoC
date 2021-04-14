@@ -57,10 +57,10 @@ namespace ServiceController.ControllerApi.BackgroundServices
 					// Services
 					//
 
-					var testServiceResponse = await TestScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
-					var testServiceResponse2 = await TestScopeWrapper2(requestedTextServiceRegulationIri, stoppingToken);
+					//var testServiceResponse = await TestScopeWrapper(requestedTextServiceRegulationIri, stoppingToken); //TODO remove
+					//var testServiceResponse2 = await TestScopeWrapper2(requestedTextServiceRegulationIri, stoppingToken); //TODO remove
 
-					//var textServiceResponse = await TextServiceScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
+					var textServiceResponse = await TextServiceScopeWrapper(requestedTextServiceRegulationIri, stoppingToken);
 					
 
 					var f = "";
@@ -79,31 +79,6 @@ namespace ServiceController.ControllerApi.BackgroundServices
 		//
 
 		
-		private async Task<string> TestScopeWrapper(
-			Uri requestedTextServiceRegulationIri,
-			CancellationToken stoppingToken)
-		{
-			_logger.LogInformation("Consume Scoped Service Hosted Service is working.");
-			using var scope = _serviceProvider.CreateScope();
-			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService>();
-
-			var test = await scopedProcessingService.DoWork(stoppingToken);
-
-			return "test return string";
-		}
-
-		private async Task<string> TestScopeWrapper2(
-			Uri requestedTextServiceRegulationIri,
-			CancellationToken stoppingToken)
-		{
-			_logger.LogInformation("2 - Consume Scoped Service Hosted Service is working.");
-			using var scope = _serviceProvider.CreateScope();
-			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService2>();
-
-			var test = await scopedProcessingService.DoWork(stoppingToken);
-
-			return "2 - test return string";
-		}
 
 		private async Task<string> TextServiceScopeWrapper(
 			Uri requestedTextServiceRegulationIri,
@@ -138,5 +113,33 @@ namespace ServiceController.ControllerApi.BackgroundServices
 			_logger.LogInformation("Queued Hosted Service is stopping.");
 			await base.StopAsync(stoppingToken);
 		}
+
+		/*
+		private async Task<string> TestScopeWrapper(
+			Uri requestedTextServiceRegulationIri,
+			CancellationToken stoppingToken)
+		{
+			_logger.LogInformation("Consume Scoped Service Hosted Service is working.");
+			using var scope = _serviceProvider.CreateScope();
+			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService>();
+
+			var test = await scopedProcessingService.DoWork(stoppingToken);
+
+			return "test return string";
+		}
+
+		private async Task<string> TestScopeWrapper2(
+			Uri requestedTextServiceRegulationIri,
+			CancellationToken stoppingToken)
+		{
+			_logger.LogInformation("2 - Consume Scoped Service Hosted Service is working.");
+			using var scope = _serviceProvider.CreateScope();
+			var scopedProcessingService = scope.ServiceProvider.GetRequiredService<ITestingScopedProcessingService2>();
+
+			var test = await scopedProcessingService.DoWork(stoppingToken);
+
+			return "2 - test return string";
+		}
+		*/
 	}
 }

@@ -9,7 +9,8 @@ namespace ServiceController.TextService
 		private int executionCount = 0;
 		private readonly ILogger _logger;
 
-		public TestingScopedProcessingService2(ILogger<TestingScopedProcessingService2> logger)
+		public TestingScopedProcessingService2(
+			ILogger<TestingScopedProcessingService2> logger)
 		{
 			_logger = logger;
 		}
