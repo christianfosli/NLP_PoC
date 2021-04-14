@@ -5,17 +5,11 @@ def create_api_response_for_post_identify_named_entities(forward_filtered_result
 
     for part in forward_filtered_result:
             for line in part:
-                merged_line_result = {}
-                text_service_url = line['title']
                 ents = line['ents']
-                entities = []
-                
                 if ents:
                     for ent in ents:
                         entity = ent['ent_text']
                         label = ent['label']
-                        entities.append({'entity': entity, 'class label': label})
-                    if len(entities) != 0:
-                        merged_line_result['named entities'] = entities
-                        forward_result.append(merged_line_result)
+                        forward_result.append({'class label': label, 'entity': entity})
+
     return forward_result
