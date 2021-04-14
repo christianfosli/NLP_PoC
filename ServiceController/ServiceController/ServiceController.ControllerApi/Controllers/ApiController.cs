@@ -28,11 +28,16 @@ namespace ServiceController.ControllerApi.Controllers
 		// Services
 		private readonly ITextServiceApi _textServiceApi;
 
+		// Helpers
+		private readonly ITextServiceHelper _textServiceHelper;
+
 		public ApiController(
 			ILogger<ApiController> logger,
 			INlpBackgroundTaskQueue taskQueue,
 
 			ITextServiceApi textServiceApi,
+
+			ITextServiceHelper textServiceHelper,
 
 			AuthenticationServiceSettings authenticationServiceSettings,
 			TextServiceSettings textServiceSettings,
@@ -46,6 +51,8 @@ namespace ServiceController.ControllerApi.Controllers
 			_taskQueue = taskQueue;
 
 			_textServiceApi = textServiceApi;
+
+			_textServiceHelper = textServiceHelper;
 
 			_authenticationServiceSettings = authenticationServiceSettings;
 			_textServiceSettings = textServiceSettings;
@@ -95,9 +102,9 @@ namespace ServiceController.ControllerApi.Controllers
 				Convert.ToInt32(regulationResource.RegulationDay),
 				Convert.ToInt32(regulationResource.RegulationNumber));
 
-			//var chapterList = textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
+			var chapterList = _textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
 
-			//Console.WriteLine($"{chapterList.Count} chapters loaded successfully.");
+			_logger.LogInformation($"{chapterList.Count} chapters loaded successfully.");
 
 			var p = "";
 

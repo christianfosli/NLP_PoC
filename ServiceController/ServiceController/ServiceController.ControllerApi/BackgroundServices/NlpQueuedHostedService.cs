@@ -10,17 +10,17 @@ namespace ServiceController.ControllerApi.BackgroundServices
 	{
 		private readonly ILogger<NlpQueuedHostedService> _logger;
 		public INlpBackgroundTaskQueue TaskQueue { get; }
-		private readonly IServiceProvider _serviceProvider;
+		//private readonly IServiceProvider _serviceProvider;
 
 		public NlpQueuedHostedService(
 			INlpBackgroundTaskQueue taskQueue,
-			ILogger<NlpQueuedHostedService> logger,
-			IServiceProvider serviceProvider
+			ILogger<NlpQueuedHostedService> logger
+			//, IServiceProvider serviceProvider
 			)
 		{
 			TaskQueue = taskQueue;
 			_logger = logger;
-			_serviceProvider = serviceProvider;
+			//_serviceProvider = serviceProvider;
 		}
 
 		protected override async Task ExecuteAsync(CancellationToken stoppingToken)

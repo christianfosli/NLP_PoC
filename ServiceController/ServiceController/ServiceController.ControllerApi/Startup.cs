@@ -49,7 +49,7 @@ namespace ServiceController.ControllerApi
 			//services.AddScoped<IAuthenticationApi, AuthenticationApi>();
 
 			// Load helpers
-			//services.AddScoped<ITextServiceHelper, TextServiceHelper>();
+			services.AddScoped<ITextServiceHelper, TextServiceHelper>();
 			//services.AddScoped<INlpServiceHelper, NlpServiceHelper>();
 			//services.AddScoped<ITransformerServiceHelper, TransformerServiceHelper>();
 		}
