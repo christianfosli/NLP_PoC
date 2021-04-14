@@ -1,11 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Collections.Generic;
+using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using ServiceController.ControllerApi.BackgroundServices;
 using ServiceController.ControllerApi.Settings;
+using ServiceController.Entities.NlpService;
 using ServiceController.Entities.TextService;
+using ServiceController.NlpService;
 using ServiceController.TextService;
 
 namespace ServiceController.ControllerApi.Controllers
@@ -27,17 +31,27 @@ namespace ServiceController.ControllerApi.Controllers
 
 		// Services
 		private readonly ITextServiceApi _textServiceApi;
+		private readonly INlpServiceApi _nlpServiceApi;
 
 		// Helpers
 		private readonly ITextServiceHelper _textServiceHelper;
+		private readonly INlpServiceHelper _nlpServiceHelper;
+
+		// App memory
+		private static string TopBraidEdgOAuthAccessToken { get; set; }
+		private static Dictionary<int, NlpResource> NlpResourceDictionary { get; set; } = new Dictionary<int, NlpResource>();
+		private static List<JsonElement> IdentifiedInformationInChapterTextDataList { get; set; } = new List<JsonElement>();
+		private static List<string> TransformedRdfKnowledgeList { get; set; } = new List<string>();
 
 		public ApiController(
 			ILogger<ApiController> logger,
 			INlpBackgroundTaskQueue taskQueue,
 
 			ITextServiceApi textServiceApi,
+			INlpServiceApi nlpServiceApi,
 
 			ITextServiceHelper textServiceHelper,
+			INlpServiceHelper nlpServiceHelper,
 
 			AuthenticationServiceSettings authenticationServiceSettings,
 			TextServiceSettings textServiceSettings,
@@ -51,8 +65,10 @@ namespace ServiceController.ControllerApi.Controllers
 			_taskQueue = taskQueue;
 
 			_textServiceApi = textServiceApi;
+			_nlpServiceApi = nlpServiceApi;
 
 			_textServiceHelper = textServiceHelper;
+			_nlpServiceHelper = nlpServiceHelper;
 
 			_authenticationServiceSettings = authenticationServiceSettings;
 			_textServiceSettings = textServiceSettings;
@@ -104,11 +120,83 @@ namespace ServiceController.ControllerApi.Controllers
 
 			var chapterList = _textServiceHelper.SplitRegulationResponseIntoChapterList(regulationFromTextService);
 
-			_logger.LogInformation($"{chapterList.Count} chapters loaded successfully.");
+			_logger.LogInformation($"{Environment.NewLine}{chapterList.Count} chapters loaded successfully.{Environment.NewLine}");
 
-			var p = "";
+			//
+			// NLP Service
+			//
 
-			// TODO
+			// Load NLP options
+			if (_nlpServiceSettings.RunAsTest)
+			{ // Just load test data
+				NlpResourceDictionary =
+					_nlpServiceHelper.GetNlpResourceTestDictionary(
+						_nlpServiceSettings.ApiBaseUrl);
+			}
+			else // Send request to NLP Service API
+			{
+				var nlpResourceListFromNlpService =
+					await _nlpServiceApi.GetNlpResourceList(
+						_nlpServiceSettings.ApiBaseUrl);
+
+				NlpResourceDictionary =
+					_nlpServiceHelper.MapNlpResources(
+						nlpResourceListFromNlpService);
+			}
+
+			foreach (var nlpResourceDictionaryItem in NlpResourceDictionary)
+			{
+				var selectedNlpResourceDictionary = nlpResourceDictionaryItem.Value;
+
+				_logger.LogInformation($"{Environment.NewLine}Asking NLP Service to identify information about {selectedNlpResourceDictionary.Title} ({selectedNlpResourceDictionary.Language}) in regulation {regulationResource.RegulationYear}-{regulationResource.RegulationMonth}-{regulationResource.RegulationDay}-{regulationResource.RegulationNumber}.{Environment.NewLine}");
+
+				for (var i = 0; i < chapterList.Count; i++)
+				{
+					var requestNumber = i + 1;
+
+					_logger.LogInformation($"{Environment.NewLine}Processing chapter {requestNumber} of {chapterList.Count}:{Environment.NewLine}");
+
+					JsonElement identifiedInformationInChapterTextData;
+
+					if (_nlpServiceSettings.RunAsTest)
+					{
+						identifiedInformationInChapterTextData =
+							_nlpServiceHelper.GetTestDataForIdentifyInformationInChapterTextData();
+					}
+					else // Send request to NLP Service API
+					{
+						identifiedInformationInChapterTextData =
+							await _nlpServiceApi.IdentifyInformationInChapterTextData(
+								chapterList[i],
+								selectedNlpResourceDictionary.Url);
+					}
+
+					var itemCountOfNlpServiceResponse =
+						_nlpServiceHelper.CountItemsInNlpServiceApiResponse(
+							identifiedInformationInChapterTextData);
+
+					if (itemCountOfNlpServiceResponse > 0)
+					{
+						_logger.LogInformation($"{Environment.NewLine}{itemCountOfNlpServiceResponse} detections in this chapter.{Environment.NewLine}");
+
+						IdentifiedInformationInChapterTextDataList.Add(identifiedInformationInChapterTextData);
+					}
+					else
+					{
+						_logger.LogInformation("{Environment.NewLine}No detections in this chapter.{Environment.NewLine}");
+					}
+				}
+			}
+
+
+
+
+
+
+
+
+
+
 
 			_logger.LogInformation($"{Environment.NewLine}Queued Background Task (completed): {requestedTextServiceRegulationIri}{Environment.NewLine}");
 		}

@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ServiceController.ControllerApi.BackgroundServices;
 using ServiceController.ControllerApi.Settings;
+using ServiceController.NlpService;
 using ServiceController.TextService;
 
 namespace ServiceController.ControllerApi
@@ -38,19 +39,15 @@ namespace ServiceController.ControllerApi
 			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSecrets").Get<AuthenticationServiceSecrets>());
 
 			// Load api services
-			//services.AddScoped<ITestingScopedProcessingService, TestingScopedProcessingService>(); //TODO remove
-			//services.AddScoped<ITestingScopedProcessingService2, TestingScopedProcessingService2>(); //TODO remove
-
 			services.AddScoped<ITextServiceApi, TextServiceApi>();
-
-			//services.AddScoped<INlpServiceApi, NlpServiceApi>();
+			services.AddScoped<INlpServiceApi, NlpServiceApi>();
 			//services.AddScoped<ITransformerServiceApi, TransformerServiceApi>();
 			//services.AddScoped<ITopBraidEdgApi, TopBraidEdgApi>();
 			//services.AddScoped<IAuthenticationApi, AuthenticationApi>();
 
 			// Load helpers
 			services.AddScoped<ITextServiceHelper, TextServiceHelper>();
-			//services.AddScoped<INlpServiceHelper, NlpServiceHelper>();
+			services.AddScoped<INlpServiceHelper, NlpServiceHelper>();
 			//services.AddScoped<ITransformerServiceHelper, TransformerServiceHelper>();
 		}
 
