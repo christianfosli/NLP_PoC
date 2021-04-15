@@ -14,20 +14,30 @@ import org.eclipse.rdf4j.rio.RDFFormat;
 import rdftransformer.api.transformer.utils.Utils;
 import rdftransformer.api.transformer.utils.Vocabulary;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Classification {
 
     static Model model = Utils.initModel();
 
+    public static void main(String[] args) throws IOException {
+        parseJson(Utils.readFromFile("src/main/resources/input/classes.json"));
+    }
+
     public static String classification(String s) {
 
-        parseJsonEnglish(s);
+        parseJson(s);
         return Utils.printModel(model, RDFFormat.TURTLE);
 
     }
 
-    public static void parseJsonEnglish(String s) {
+    public static void parseJson(String s) {
         JsonObject jsonObject = new JsonParser().parse(s).getAsJsonObject();
         JsonArray array = jsonObject.get("identified_named_entities").getAsJsonArray();
+
+        List<String> ignoredEntities = new ArrayList<>();
 
         for (int i = 0; i < array.size(); i++) {
             JsonElement element = array.get(i);
@@ -59,7 +69,15 @@ public class Classification {
                         }
 
                     } else {
-                        // TODO: Write result to file.
+                        ignoredEntities.add(class_label + "," + entity + "\n");
+                        try {
+                            Utils.writeListToFile(
+                                    ignoredEntities,
+                                    "src/main/resources/output/classification/ignoredEntities.csv"
+                            );
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                     }
                 } else {
                     // TODO: Do something with units

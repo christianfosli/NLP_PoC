@@ -10,10 +10,10 @@ import org.eclipse.rdf4j.rio.RDFFormat;
 import org.eclipse.rdf4j.rio.RDFWriter;
 import org.eclipse.rdf4j.rio.Rio;
 
-import java.io.IOException;
-import java.io.StringWriter;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.List;
 
 public class Utils {
 
@@ -66,5 +66,13 @@ public class Utils {
         RDFWriter rdfWriter = Rio.createWriter(syntax, writer);
         Rio.write(model, rdfWriter);
         return writer.toString();
+    }
+
+    public static void writeListToFile(List<String> list, String filename) throws IOException {
+        FileWriter writer = new FileWriter(filename);
+        for (String s : list) {
+            writer.write(s);
+        }
+        writer.close();
     }
 }
