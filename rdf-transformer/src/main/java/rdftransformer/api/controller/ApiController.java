@@ -25,4 +25,10 @@ public class ApiController {
     public String classifier(@RequestBody String s) {
         return Classification.classification(s);
     }
+
+    @PostMapping(path = "/classifierIgnored", consumes = "application/json")
+    public String classifierIgnored(@RequestBody String s) {
+        Classification.classification(s);
+        return Classification.getIgnoredEntities();
+    }
 }

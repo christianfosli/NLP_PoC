@@ -21,10 +21,7 @@ import java.util.List;
 public class Classification {
 
     static Model model = Utils.initModel();
-
-    public static void main(String[] args) throws IOException {
-        parseJson(Utils.readFromFile("src/main/resources/input/classes.json"));
-    }
+    static List<String> ignoredEntities = new ArrayList<>();
 
     public static String classification(String s) {
 
@@ -36,8 +33,6 @@ public class Classification {
     public static void parseJson(String s) {
         JsonObject jsonObject = new JsonParser().parse(s).getAsJsonObject();
         JsonArray array = jsonObject.get("identified_named_entities").getAsJsonArray();
-
-        List<String> ignoredEntities = new ArrayList<>();
 
         for (int i = 0; i < array.size(); i++) {
             JsonElement element = array.get(i);
@@ -84,6 +79,14 @@ public class Classification {
                 }
             }
         }
+    }
+
+    public static String getIgnoredEntities() {
+        StringBuilder tmp = new StringBuilder();
+        for (String s : ignoredEntities) {
+            tmp.append(s);
+        }
+        return tmp.toString();
     }
 
     private static void addToModel(String class_label, String classLabel, String entity, String entityLabel) {
