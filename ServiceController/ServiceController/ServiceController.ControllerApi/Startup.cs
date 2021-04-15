@@ -38,9 +38,6 @@ namespace ServiceController.ControllerApi
 			services.AddSingleton(Configuration.GetSection("TransformerServiceSettings").Get<TransformerServiceSettings>());
 			services.AddSingleton(Configuration.GetSection("KnowledgeServiceSettings").Get<KnowledgeServiceSettings>());
 
-			// Load secrets
-			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSecrets").Get<AuthenticationServiceSecrets>());
-
 			// Load api services
 			services.AddScoped<ITextServiceApi, TextServiceApi>();
 			services.AddScoped<INlpServiceApi, NlpServiceApi>();

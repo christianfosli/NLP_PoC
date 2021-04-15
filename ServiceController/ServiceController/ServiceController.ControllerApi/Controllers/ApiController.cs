@@ -43,7 +43,6 @@ namespace ServiceController.ControllerApi.Controllers
 		private readonly NlpServiceSettings _nlpServiceSettings;
 		private readonly TransformerServiceSettings _transformerServiceSettings;
 		private readonly KnowledgeServiceSettings _knowledgeServiceSettings;
-		private readonly AuthenticationServiceSecrets _authenticationServiceSecrets;
 
 		// App memory
 		private static string TopBraidEdgOAuthAccessToken { get; set; }
@@ -66,9 +65,8 @@ namespace ServiceController.ControllerApi.Controllers
 			TextServiceSettings textServiceSettings,
 			NlpServiceSettings nlpServiceSettings,
 			TransformerServiceSettings transformerServiceSettings,
-			KnowledgeServiceSettings knowledgeServiceSettings,
-			AuthenticationServiceSecrets authenticationServiceSecrets
-			)
+			KnowledgeServiceSettings knowledgeServiceSettings
+		)
 		{
 			_logger = logger;
 			_taskQueue = taskQueue;
@@ -85,7 +83,6 @@ namespace ServiceController.ControllerApi.Controllers
 			_nlpServiceSettings = nlpServiceSettings;
 			_transformerServiceSettings = transformerServiceSettings;
 			_knowledgeServiceSettings = knowledgeServiceSettings;
-			_authenticationServiceSecrets = authenticationServiceSecrets;
 		}
 
 		[HttpGet]
@@ -252,9 +249,9 @@ namespace ServiceController.ControllerApi.Controllers
 
 				TopBraidEdgOAuthAccessToken = await _authenticationApi.GetAuthenticationToken(
 					_authenticationServiceSettings.ApiBaseUrl,
-					_authenticationServiceSecrets.ClientId,
-					_authenticationServiceSecrets.ClientSecret,
-					_authenticationServiceSecrets.Scope);
+					_authenticationServiceSettings.ClientId,
+					_authenticationServiceSettings.ClientSecret,
+					_authenticationServiceSettings.Scope);
 
 				_logger.LogInformation($"{Environment.NewLine}Successfully loaded access token.{Environment.NewLine}");
 			}
