@@ -156,16 +156,6 @@ namespace ServiceController.ConsoleApp
 					// NLP Service
 					//
 
-					// TODO
-					if (NlpServiceSettings.RunAsTest)
-					{
-
-					}
-					else
-					{
-						
-					}
-
 					// Get NLP options
 					var nlpResourceListFromNlpService =
 					await nlpServiceApi.GetNlpResourceList(NlpServiceSettings.ApiBaseUrl);
@@ -262,19 +252,9 @@ namespace ServiceController.ConsoleApp
 				// Transformer Service
 				//
 
-				// TODO
-				if (TransformerServiceSettings.RunAsTest)
-				{
-
-				}
-				else
-				{
-					
-				}
-
-	            Console.ForegroundColor = ConsoleColor.Black;
+				Console.ForegroundColor = ConsoleColor.Black;
                 Console.BackgroundColor = ConsoleColor.Magenta;
-                Console.WriteLine("TODO: Asking Transformer Service to transform information.");
+                Console.WriteLine("Asking Transformer Service to transform information.");
 
 				foreach (var identifiedInformationInChapterTextData in IdentifiedInformationInChapterTextDataList)
                 {
