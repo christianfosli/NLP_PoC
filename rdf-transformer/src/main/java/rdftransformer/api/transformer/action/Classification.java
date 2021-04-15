@@ -58,6 +58,8 @@ public class Classification {
                             addToModel(class_label_cap, class_label, entity_cap, entity);
                         }
 
+                    } else {
+                        // TODO: Write result to file.
                     }
                 } else {
                     // TODO: Do something with units
