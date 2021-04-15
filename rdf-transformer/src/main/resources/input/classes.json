@@ -1,0 +1,1048 @@
+{
+  "identified_named_entities": [
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "new vessel"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "year"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "gasfired installations"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "gasfired installations"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "electric power supply"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°C"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "flame"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "electric power supply"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°C"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "flame"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "installation instructions"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "regulation valve"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manual"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "installation instructions"
+    },
+    {
+      "class label": "PROCEDURE",
+      "entity": "instructions"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "stove"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "installation instructions"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "floor"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fixed bench"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "centre line"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "litres"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "installation instructions"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "space"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "filter"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "stove"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "stove"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "overflow openings"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "drain pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float valve"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Smoke uptake pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke outlet"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "cleaning of filters"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "burners"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "operating instructions"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 15 metres in overall length"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Bulkheads"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "combustible floor"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "whole floor"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "fireplace"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "fire door"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "combustible material"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "Insulation"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "combustible material"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "Insulation"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "collar"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "bulkhead"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "bulkhead"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "insulated bulkheads"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "insulated bulkhead"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "exhaust pipes"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "combustible material"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "engine parts"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "FTP Code"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "non-combustible"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "insulation"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "fire-insulating"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "Machinery spaces"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wooden vessels"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "floors"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "steel"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery spaces"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "wooden casings"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "bulkheads"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery spaces"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "inside planking"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material down"
+    },
+    {
+      "class label": "FUEL",
+      "entity": "fuel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "combustible material"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "exhaust pipes"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "engine"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "galvanized steel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "aluminium"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "sheet"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manual release"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "PROCEDURE",
+      "entity": "instructions"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of less than 10.67 metres in overall length"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "may"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "guidelines"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "device"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "bulkheads"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deck"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "space/locker"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "space/locker for release of CO2"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "ventilation"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open air"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire detection system"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery spaces"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke alarm"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of less than 10.67 meters in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke detector"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "heat detector"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery spaces"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke detector"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "recreational spaces"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke detector"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "year"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "kg"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "approved fire extinguisher"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "suitable place outside"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "approved fire extinguisher"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "accommodation spaces"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "accommodation spaces"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire extinguisher"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Fire extinguishers"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "accommodation spaces"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "Fire extinguishers"
+    },
+    {
+      "class label": "WEATHER CONDITION",
+      "entity": "frost"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Fire extinguishers"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "ventilators"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck."
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "ventilators"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck."
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "gauge glass"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "drip trays"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "FUEL",
+      "entity": "fuel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "flammable liquids"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deck"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "door communicating"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deck"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "electrical"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "sources"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "Seawater"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "bilge pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "seawater"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipe"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "MATERIAL",
+      "entity": "material"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "flooding"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "waterline"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "bilge systems"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "fuel"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "constructed"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "bilge systems"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "Nordic Boat Standard (1990) C11 on electrical installations."
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "V"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "installations"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "V"
+    },
+    {
+      "class label": "GOVERNMENT INSTITUTE",
+      "entity": "Norwegian Directorate"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Civil Protection"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power providing satisfactory lighting for at least 2 hours to:\n\t\t\t\t\t"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "alarm system"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "emergency"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "sources"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "accumulator battery"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency switchboard"
+    },
+    {
+      "class label": "FUEL",
+      "entity": "fuel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "fuel"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°C"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "trim of"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "floor"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "emergency lighting"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "Vessels constructed"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "Nordic Boat Standard (1990) are considered to satisfy the requirements of sections 18, 19 and 20."
+    }
+  ]
+}

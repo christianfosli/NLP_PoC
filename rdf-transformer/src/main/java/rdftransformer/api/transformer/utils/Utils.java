@@ -6,8 +6,12 @@ import org.eclipse.rdf4j.model.vocabulary.OWL;
 import org.eclipse.rdf4j.model.vocabulary.RDFS;
 import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
+import org.eclipse.rdf4j.rio.RDFFormat;
+import org.eclipse.rdf4j.rio.RDFWriter;
+import org.eclipse.rdf4j.rio.Rio;
 
 import java.io.IOException;
+import java.io.StringWriter;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
@@ -55,5 +59,12 @@ public class Utils {
             return number.split("\\.")[0];
         }
         return number;
+    }
+
+    public static String printModel(Model model, RDFFormat syntax) {
+        StringWriter writer = new StringWriter();
+        RDFWriter rdfWriter = Rio.createWriter(syntax, writer);
+        Rio.write(model, rdfWriter);
+        return writer.toString();
     }
 }
