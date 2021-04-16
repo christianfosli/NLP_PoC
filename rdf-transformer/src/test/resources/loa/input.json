@@ -1,0 +1,132 @@
+{
+  "identified_vessel_length_overall": [
+    {
+      "chapter_number": "3",
+      "length_separator": "til",
+      "length_value_1": "8",
+      "length_value_2": "15",
+      "measurement": "meter",
+      "part_number": "10",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "10"
+    },
+    {
+      "chapter_number": "3",
+      "length_separator": "og",
+      "length_value_1": "10,67",
+      "length_value_2": "15",
+      "measurement": "meter",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "15"
+    },
+    {
+      "chapter_number": "3",
+      "length_prefix": "mindre enn",
+      "length_value": "10,67",
+      "measurement": "meter",
+      "part_number": "4",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "15"
+    },
+    {
+      "chapter_number": "3",
+      "length_separator": "og",
+      "length_value_1": "10,67",
+      "length_value_2": "15",
+      "measurement": "meter",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "16"
+    },
+    {
+      "chapter_number": "3",
+      "length_prefix": "under",
+      "length_value": "10,67",
+      "measurement": "meter",
+      "part_number": "2",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "16"
+    },
+    {
+      "chapter_number": "3",
+      "length_separator": "til",
+      "length_value_1": "6",
+      "length_value_2": "15",
+      "measurement": "meter",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "23"
+    },
+    {
+      "chapter_number": "3",
+      "length_separator": "til",
+      "length_value_1": "6",
+      "length_value_2": "15",
+      "measurement": "meter",
+      "part_number": "2",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "23"
+    },
+    {
+      "chapter_number": "3",
+      "length_separator": "til",
+      "length_value_1": "6",
+      "length_value_2": "15",
+      "measurement": "meter",
+      "part_number": "3",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "23"
+    },
+    {
+      "chapter_number": "3",
+      "length_separator": "til",
+      "length_value_1": "6",
+      "length_value_2": "15",
+      "measurement": "meter",
+      "part_number": "4",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "23"
+    },
+    {
+      "chapter_number": "3",
+      "length_separator": "til",
+      "length_value_1": "10,67",
+      "length_value_2": "15",
+      "measurement": "meter",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "24"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "identified_TRADE_AREA": [
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "bankfiske"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "bankfiske I"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "bankfiske II"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "havfiske"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "havfiske I"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "havfiske II"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "fjordfiske"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "isfarvann I"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "isfarvann II"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "kystfiske"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "fartsområde 1"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "fartsområde 2"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "fartsområde 3"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "fartsområde 4"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "fartsområde 5"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "europeisk fart"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "stor kystfart"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "internasjonal reise"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "intent sertifisert"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "fartsområde"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "nord- og østersjøfart"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "oversjøiskfart"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "kort internasjonal reise"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "fart på innsjøer og elver"
+    },
+    {
+      "chapter_number": "3",
+      "part_number": "1",
+      "regulation_day": "22",
+      "regulation_id": "1404",
+      "regulation_month": "11",
+      "regulation_year": "2013",
+      "section_number": "8",
+      "trade_area_text": "uinnskrenket fart"
+    }
+  ]
+}
