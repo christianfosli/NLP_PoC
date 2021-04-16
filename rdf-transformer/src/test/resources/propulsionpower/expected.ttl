@@ -1,0 +1,20 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix sdir: <https://www.sdir.no/SDIR_Simulator#> .
+@prefix scope: <https://www.sdir.no/SDIR_Simulator/shapes/scope#> .
+@prefix tradearea: <https://www.sdir.no/SDIR_Simulator/tradeArea#> .
+@prefix vesseltype: <https://www.sdir.no/SDIR_Simulator/vesselType#> .
+
+sdir:REG1770S3P1 a sh:NodeShape;
+  sh:property scope:PS_PropulsionPower_min750;
+  sdir:regulationReference "https://lovdata.no/dokument/SF/forskrift/2016-12-16-1770/§3";
+  sdir:eliReference "regulation/2016/12/16/1770/chapter/1/section/3/part/1" .
+
+scope:PS_PropulsionPower_min750 a sh:PropertyShape, scope:Scope;
+  sh:description "Virkeområde framdriftskraft eller mer 750"@no, "Scope of propulsion power more than 750"@en;
+  sh:path sdir:propulsionPower;
+  sh:minInclusive "750";
+  sh:datatype unit:KiloW .
