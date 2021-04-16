@@ -10,14 +10,10 @@ import org.eclipse.rdf4j.model.impl.LinkedHashModel;
 import org.eclipse.rdf4j.model.vocabulary.RDF;
 import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
-import org.eclipse.rdf4j.rio.RDFFormat;
-import org.eclipse.rdf4j.rio.Rio;
 import rdftransformer.api.transformer.scope.*;
 import rdftransformer.api.transformer.utils.Utils;
 import rdftransformer.api.transformer.utils.Vocabulary;
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -521,27 +517,4 @@ public class GraphGenerator {
         return chapter;
     }
 
-    /** writeScopeModelToFile
-     *
-     * Writes the global scope model to local file.
-     * Scope model is built through createXXXScope()-methods.
-     *
-     * @throws FileNotFoundException if output file not found
-     */
-    public static void writeScopeModelToFile() throws FileNotFoundException {
-        FileOutputStream out = new FileOutputStream("src/main/resources/output/scope.ttl");
-        Rio.write(scopeModel, out, RDFFormat.TURTLE);
-    }
-
-    /** writeRequirementModelToFile
-     *
-     * Writes the global requirement model to local file.
-     * Requirement model is built through addRequirement().
-     *
-     * @throws FileNotFoundException if output file not found
-     */
-    public static void writeRequirementModelToFile() throws FileNotFoundException {
-        FileOutputStream out = new FileOutputStream("src/main/resources/output/requirement.ttl");
-        Rio.write(requirementModel, out, RDFFormat.TURTLE);
-    }
 }
