@@ -41,11 +41,13 @@ public class Classification {
             String class_label = object.get("class label").toString()
                     .toLowerCase()
                     .replace("\"", "")
-                    .replace(".", "");
+                    .replace(".", "")
+                    .replace("'", "");
             String entity = object.get("entity").toString()
                     .toLowerCase()
                     .replace("\"", "")
-                    .replace(".", "");
+                    .replace(".", "")
+                    .replace("'", "");
 
             if (!class_label.equals(entity)) {
                 if (!class_label.equals("unit")) {
@@ -59,6 +61,10 @@ public class Classification {
                                     WordUtils.capitalize(split[0]).replace(" ", ""), split[0]);
                             addToModel(class_label_cap, class_label,
                                     WordUtils.capitalize(split[1]).replace(" ", ""), split[1]);
+                        } else if (entity.endsWith("-")) {
+                            ignoredEntities.add(class_label + "," + entity + "\n");
+                        } else if (entity.matches(".*\\d.*")) {
+                            ignoredEntities.add(class_label + "," + entity + "\n");
                         } else {
                             addToModel(class_label_cap, class_label, entity_cap, entity);
                         }

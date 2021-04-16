@@ -1,6 +1,8 @@
 company,accepted electrical enterprise
 legal document,nordic boat standard (1990)\: nordic boat standard for commercial boats less than 15 metres, 1990;
 vessel type,vessels of 6 to 15 meters in overall length
+legal document,nordic boat standard (1990)
+vessel type,cargo-
 legal document,nordic boat standard (1990) c15
 vessel type,vessels of 6 to 15 meters in overall length
 vessel type,vessels of 8 to 15 metres in overall length
@@ -72,6 +74,7 @@ vessel type,vessels of 12 to 15 metres in overall length
 vessel type,vessels of 1067 to 15 metres in overall length
 equipment,suitable lighting for navigation
 vessel type,vessels of 6 to 15 metres in overall length
+placement on ship,cargo-
 vessel type,vessels of 1067 to 15 metres in overall length
 vessel type,vessels of 1067 metres in overall length
 vessel type,vessels of 1067 to 15 metres in overall length
@@ -85,7 +88,7 @@ company,accepted electrical enterprise
 vessel type,vessels of 9 to 1067 metres in overall length
 certificate,complete or periodic simplified inspection
 certificate,periodic simplified inspection
-certificate,preparatory company's control in connection with a complete or periodic simplified inspection
+certificate,preparatory companys control in connection with a complete or periodic simplified inspection
 company,accepted electrical enterprise
 company,accepted electrical enterprise
 company,accepted electrical enterprise
@@ -93,7 +96,7 @@ certificate,periodic simplified inspection
 company,accepted electrical enterprise
 vessel type,vessels of 1067 to 15 metres in overall length
 certificate,complete or periodic simplified inspection
-certificate,preparatory company's control in connection with a complete or periodic simplified inspection
+certificate,preparatory companys control in connection with a complete or periodic simplified inspection
 company,accepted electrical enterprise
 certificate,complete or periodic simplified inspection
 company,accepted electrical enterprise
@@ -109,6 +112,8 @@ company,accepted electrical enterprise
 vessel type,vessels of 8 to 9 metres in overall length
 vessel type,vessels of 6 to 15 metres in overall length
 legal document,regulations of 17 january 1978 no 4 on cargo-handling appliances
+vessel type,vessels of more than 8
+vessel type,semi-
 equipment,installation for gasfired installations
 vessel type,vessels of 8 to 1067 metres in overall length
 vessel type,vessels of 9 to 1067 metres in overall length
