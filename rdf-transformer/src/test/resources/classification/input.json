@@ -1,0 +1,5104 @@
+{
+  "identified_named_entities": [
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "GOVERNMENT INSTITUTE",
+      "entity": "Norwegian Directorate"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "new vessel"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessel"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of flooding"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of heel"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "superstructure"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "deckhouse"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of heel"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "company approved"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "Nordic Boat Standard (1990)\": Nordic Boat Standard for Commercial Boats less than 15 metres, 1990;"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "marine equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio installations"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 6 to 15 meters in overall length"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "constructed"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "new vessel"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loaded waterline"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "constructed"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "watertight subdivision"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "means of closure"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "freeing port area"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "freeboard"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "Nordic Boat Standard (1990)."
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Lifting equipment"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "cargo-"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "Nordic Boat Standard (1990) C15."
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "Cargo spaces"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "applicable"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "Cargo spaces"
+    },
+    {
+      "class label": "CARGO",
+      "entity": "vessels"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "ice"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "Cargo spaces"
+    },
+    {
+      "class label": "CARGO",
+      "entity": "vessels"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "Loose bulkheads"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 meters in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "guard rails"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "working decks"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "superstructures"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "millimetres"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "new vessel"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "year"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "gasfired installations"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "gasfired installations"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "electric power supply"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°C"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "flame"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "electric power supply"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°C"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "flame"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "installation instructions"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "regulation valve"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manual"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "installation instructions"
+    },
+    {
+      "class label": "PROCEDURE",
+      "entity": "instructions"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "stove"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "installation instructions"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "floor"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fixed bench"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "centre line"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "litres"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "installation instructions"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "space"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "filter"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "stove"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "stove"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "overflow openings"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "drain pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float valve"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Smoke uptake pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke outlet"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "cleaning of filters"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "burners"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "operating instructions"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 15 metres in overall length"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Bulkheads"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "combustible floor"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "whole floor"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "fireplace"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "fire door"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "combustible material"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "Insulation"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "combustible material"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "Insulation"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "collar"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "bulkhead"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "bulkhead"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "insulated bulkheads"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "insulated bulkhead"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "exhaust pipes"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "combustible material"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "engine parts"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "FTP Code"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "non-combustible"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "insulation"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "fire-insulating"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "Machinery spaces"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wooden vessels"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "floors"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "steel"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery spaces"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "wooden casings"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "bulkheads"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery spaces"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "inside planking"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material down"
+    },
+    {
+      "class label": "FUEL",
+      "entity": "fuel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "combustible material"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "exhaust pipes"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "non-combustible material"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "engine"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "insulated"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "galvanized steel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "aluminium"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "sheet"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manual release"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "PROCEDURE",
+      "entity": "instructions"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of less than 10.67 metres in overall length"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "may"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "guidelines"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "device"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "bulkheads"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deck"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "space/locker"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "space/locker for release of CO2"
+    },
+    {
+      "class label": "INSULATION",
+      "entity": "ventilation"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open air"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire detection system"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery spaces"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke alarm"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of less than 10.67 meters in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke detector"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "heat detector"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery spaces"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke detector"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "recreational spaces"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "smoke detector"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "year"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "kg"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "approved fire extinguisher"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "suitable place outside"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "approved fire extinguisher"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "accommodation spaces"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "accommodation spaces"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire extinguisher"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Fire extinguishers"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "accommodation spaces"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "Fire extinguishers"
+    },
+    {
+      "class label": "WEATHER CONDITION",
+      "entity": "frost"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Fire extinguishers"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "ventilators"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck."
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "ventilators"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck."
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "oil"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "gauge glass"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "drip trays"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "FUEL",
+      "entity": "fuel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "flammable liquids"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deck"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "door communicating"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deck"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "electrical"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "sources"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "Seawater"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "bilge pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "seawater"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipe"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pipes"
+    },
+    {
+      "class label": "MATERIAL",
+      "entity": "material"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "flooding"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "waterline"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "bilge systems"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "fuel"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "constructed"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "bilge systems"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "Nordic Boat Standard (1990) C11 on electrical installations."
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "V"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "installations"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "V"
+    },
+    {
+      "class label": "GOVERNMENT INSTITUTE",
+      "entity": "Norwegian Directorate"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Civil Protection"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power providing satisfactory lighting for at least 2 hours to:\n\t\t\t\t\t"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "alarm system"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "emergency"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "sources"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "accumulator battery"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency switchboard"
+    },
+    {
+      "class label": "FUEL",
+      "entity": "fuel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "fuel"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°C"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "trim of"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "machinery space"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "floor"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "emergency lighting"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "Vessels constructed"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "Nordic Boat Standard (1990) are considered to satisfy the requirements of sections 18, 19 and 20."
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 6 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 15 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "draught"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "hydrostatics"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "cross curves"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "supporting documentation"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "means of software"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved stability"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "Loading conditions"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "hydrostatics"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "cross curves"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "free trim"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "inclining test"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "displacement"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "revised stability"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "lightship data"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "inclining test"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "lightship data"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "constructed"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "operating conditions"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "GZ curves"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "righting levers"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "trim"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "free surface effects"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "fuel oil tanks"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "loading conditions"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipped"
+    },
+    {
+      "class label": "CARGO",
+      "entity": "catch"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "Water"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipped"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Catch"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "Water"
+    },
+    {
+      "class label": "LOADING",
+      "entity": "loading conditions"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "cargo holds"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "loading conditions"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "maximum catch"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "fully equipped"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "fuel"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "fresh water"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "loading conditions"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "second and"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "loading conditions"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "seawater"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fishing gear"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "ice"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "fully loaded conditions"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "hatch coamings"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "trunks"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "cargo means"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "centre of gravity"
+    },
+    {
+      "class label": "CARGO",
+      "entity": "carriage"
+    },
+    {
+      "class label": "CARGO",
+      "entity": "cargo"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "fully loaded"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "free surface"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "homogeneous conditions"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels carrying"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "seawater"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "free surface effects"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "free surface"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "Liquid ballast"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "ballast"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "tanks"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "tanks"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "pumping systems"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "liquid"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "information"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel instructions"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability documentation"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "Water"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "tanks"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "tanks"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "pumping system"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "departure condition"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "arrival condition"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "intermediate conditions"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "calculations"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "ice"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability criteria"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loading conditions"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "righting lever curve"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "GZ curve"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m-"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of heel"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of flooding"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angles of heel"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "GZ curve"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "initial trim"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability criteria"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "hatches"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "weathertight"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "righting lever"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "millimetres"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of heel"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "maximum righting lever GZmax"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of heel"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "millimetres"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "righting lever"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "GZ"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angles of heel"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "millimetres"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "flooding through hatches"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "weathertight"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability criteria"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability criteria"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "Vessels constructed"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loaded waterline"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loading conditions"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "forward trim"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open foredeck"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deckhouses"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "hatches"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "flooding"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "spaces"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "flooded"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of flooding"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "deck"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck does"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "-shore"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "kilogrammes per square metre"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "forward bulkheads"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deckhouses"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "kilogrammes per square"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "spars"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "per cent"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels without icing allowance"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "May."
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "means for removing ice"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "information"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "operating conditions"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "information"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "cargo holds"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fishing gear"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "angle of heel"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "GZ curve"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "anti-rolling"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "Freeboard"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "freeboard"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "Freeboard"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "draught"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "millimetres"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loaded waterline"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "freeboard"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loaded waterline"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Lifejackets"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "Information"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "lifejackets"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "open vessels"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "Immersion suits procured after 1 July 2014 shall also satisfy the requirements for buoyancy"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "lifejackets"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "International Life-Saving Appliance Code"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "Immersion suits"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "device"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "holding arrangement"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "damaged"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "kg"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "signal whistle"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "light satisfying"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "LSA"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "whistle"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "suit"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Lifejackets"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "immersion suits"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "Immersion suits"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manufacturer"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "immersion suit"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "immersion suit"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "immersion suit"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "immersion suits"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "immersion suit"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "immersion suits"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "Posters"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "information"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "immersion suits"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of more than 6 metres in overall length"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "liferaft"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "raft"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "waterline"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loading condition"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "raft"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "LSA"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float-free lifeboats"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels with a liferaft for recreational craft for four people"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "paragraph"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels operating in"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels operating in"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Fjord fishing."
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float free"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "hydrostatic release system"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "Posters"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "information"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels need not have a liferaft"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing activities"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "waterline and propellers"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "suitable means for alerting everyone"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels on"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "BULKHEAD",
+      "entity": "boarded"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "smallest draught"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "rescue equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "lifebuoy"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "lifebuoy"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "each side fitted with a buoyant lifeline of at least 30 metres"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of less than 10.67 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fishing gear"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "means for making"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "distress signals"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "smoke signals"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "rocket parachute flares"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "hand flares"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "rocket parachute flares"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "hand flares"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "rocket parachute flares"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "hand flares"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "rocket parachute flares"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "hand flares"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "Distress signal equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "Distress signal equipment"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "years"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "alarm system"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fire alarm system"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels alerting"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "signals from the"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "siren"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "instructions"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "muster list"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "muster list"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "alarm system"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "information"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "fire-fighting equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "pyrotechnical equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "valves"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "hatches"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "alarm signals"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving and fire appliances"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "muster list"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "muster list"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "muster list"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "muster list"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "drills"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of less than 6 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "open vessels"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 6 to 8 metres in overall length"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Bank fishing I."
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Bank fishing I."
+    },
+    {
+      "class label": "GEOGRAPHICAL LOCATION",
+      "entity": "trade area"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Bank Fishing II"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "nautical miles"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Bank fishing II"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "means of access"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "tanks"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Corridors"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "means of"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deckhouse"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "accommodation"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "means of access"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Hatches"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "gaskets"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Hatches"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "watertight"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "weathertight"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "notices"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "exposed decks"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "cargo holds"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "spaces/tanks"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "deck"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "hatches"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Hatches"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "decks"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Hatches"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "covered working deck"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "production deck"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "danger of flooding of the working deck"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "seconds"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Hatches"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "notices"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "hatches"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "hatches"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "covered working"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "production decks"
+    },
+    {
+      "class label": "GEOGRAPHICAL LOCATION",
+      "entity": "audible"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "hatch"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "manoeuvring"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "second"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "flaps"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loaded"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "adequate freeboard"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "freeboard"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "loaded"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "trim"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "exposed freeboard deck"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "water"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open decks"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "freeing ports"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open railings"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "cargo holds"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "spaces"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "spaces"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "spaces"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "safe"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "tanks/spaces"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "doors"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "hatches"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "manhole covers"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "spaces"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "damaged"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "warning signs"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "notes"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels calling"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "warning signs"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "text of signs"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "high"
+    },
+    {
+      "class label": "FUEL",
+      "entity": "fuel"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deck"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "door communicating"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "open deck"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "room/locker"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fire insulation"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar apparatus"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar mast"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar apparatus"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar mast"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "superstructures"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar reflector"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "mm"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "mm"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "means shall be"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "mm"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "retro-reflective means"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "air"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fixed ladder"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "waterline"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels with one person on board, such ladder"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "sea"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "sea"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "open boats"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "documentation"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio equipment"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessel"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio equipment"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "terminal equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "marine equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Radio equipment"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "distress signal"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "secondary alarm"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Duplicated radio equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manual satellite EPIRB"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float-free satellite EPIRB"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "secondary alarm relaying source"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float satellite EPIRB"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manual satellite EPIRB"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "indicator."
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "secondary alarm relaying source"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel instructions"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio installations"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Radio installations"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Radio installations"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "actual installations cannot cause such"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Radio installations"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "GMDSS identities"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "VHF radiotelephone"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "wheelhouse convenient"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "conning position"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "conning position"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio communication"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "manoeuvring positions. Portable VHF"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "meet"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float-free satellite EPIRB"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float freely"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "superstructure"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "float-free"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manual satellite EPIRB"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "survival craft"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "SARTs"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "survival craft"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio installation"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "negative electromagnetic influences"
+    },
+    {
+      "class label": "COMMUNICATION SYSTEM",
+      "entity": "radio equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "electronic equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "navigation equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "cables"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "couplings"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio installation"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "source of power"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "hours"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "emergency generator"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "hours"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "hour"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "source of power"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "emergency generator"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "source of power"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "MF radio installation"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "navigation receiver"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "radio installation"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "hours"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "radio tests, cf. section 73 first paragraph subparagraph e; and"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "shall"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "VHF channel"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "/DSC"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "kHz"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "shall"
+    },
+    {
+      "class label": "COMMUNICATION SYSTEM",
+      "entity": "radio watch"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "broadcasts"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "information"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "NAVTEX receiver"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Radio equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "distress signals"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "emergency communication"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Float-free satellite EPIRB"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Radio records"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "communication"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "distress"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio equipment"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "sources of energy"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels operating"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel instructions"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Fjord fishing"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio equipment"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "distress signals"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "means of an internal navigation receiver"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "magnetic compass"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "compass"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "magnetic compass"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "magnetic compass"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "longitudinal centre line"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "magnetic compass"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "compass"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "steering position"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "magnetic compass"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "magnetic conditions"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "compass"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "compass"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "built"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "dimmer"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "compass"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "compass"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "magnetic moment"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "%"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "compass"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "automatic pilot system"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels having steering aids"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "automatic pilot system"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "indicator for the angle of the rudder"
+    },
+    {
+      "class label": "POWER SOURCE",
+      "entity": "steering position(s)"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "steering devices"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "automatic pilot systems"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "helmsman's position"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "automatic pilot system / steering aids"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "bridge navigational watch alarm system"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "BNWAS"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel instructions"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Fjord fishing."
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "BNWAS"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "automatic pilot system"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "BNWAS"
+    },
+    {
+      "class label": "COMMUNICATION SYSTEM",
+      "entity": "audible signal"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "minutes"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "minutes"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "BNWAS"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "BNWAS"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "IMO Res. MSC.128(75) may as an alternative be used."
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "Vessels constructed"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel instructions"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Bank fishing II"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "means of determining"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar installation"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar installation"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar display"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar image"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radar display unit"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "blind sectors"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio equipment"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "EMERGENCY",
+      "entity": "electronic position-fixing equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "IMO Res. A.818(19), IMO Res. A.819(19), MSC.112(73) or newer standards prepared by the International Maritime Organization (IMO)."
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "have equipment for measuring depth"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "rotating propulsion"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "steering propeller system"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "steering gear"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "steering gear"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "wheel"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fixed electronic instrument"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "emergency source of power"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "prismatic binoculars"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "binoculars"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels operating in"
+    },
+    {
+      "class label": "SUBSTANCE",
+      "entity": "seawater"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "notices"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "mariners"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fixed electric"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "control panel or control unit for the lights"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "Distress signal equipment"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels which are likely to use a pilot, or vessels calling"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "means for distress signalling"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 12 to 15 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fixed klaxon/whistle satisfying"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "whistle"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "whistle"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "helmsman's"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "dB(A"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 12 to 15 metres in overall length"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Fjord fishing"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "searchlight"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "signalling lamp"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "rotatable searchlight"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "transportable signalling lamp"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "searchlight"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "instructions"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "technical specifications"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Norwegian"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "requirements"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "door"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "windows"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "each side of the wheelhouse"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "degrees"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "windows"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "suitable lighting for navigation"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "helmsman's"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "helmsman's positioning"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "navigation equipment"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "requirements"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "windows"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "condensation"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "control handles"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse/bridge"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "vessel lengths"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "bow"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "fishing gear"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "cargo-"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse/conning"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "blind sectors"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "blind sectors"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "°"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse/conning"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "beam"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "horizontal field"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "opposite bow"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "conning position"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "horizontal field"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 metres in overall length"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "windows"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "bridge deck"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "windows"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "conning position"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "windows"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "windows"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "bridge construction"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "windows"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "requirements"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "navigational aids"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "navigational watch"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "wheelhouse"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "cm"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "reflector device"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "magnetic compass"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "navigational aids"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "navigational aids"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Navigational aids"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "navigational aids"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "Navigational aids"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "recommendations from"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "manufacturer"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 8 to 15 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "valid vessel"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "information"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "draught"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspections"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of less than 8 metres in overall length"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspections"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 9 metres in overall length"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "vessels"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "valid installation"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installation"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "initial inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel instructions"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 9 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete or periodic simplified inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "years"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "years"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "periodic simplified inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "preparatory company's control in connection with a complete or periodic simplified inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel instructions"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "LEGAL CONCEPT",
+      "entity": "vessels"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "valid installation"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installation"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "initial inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "periodic simplified inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete or periodic simplified inspection"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "preparatory company's control in connection with a complete or periodic simplified inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete or periodic simplified inspection"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "years"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "periodic simplified inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels that are newbuildings"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "GOVERNMENT INSTITUTE",
+      "entity": "Norwegian Maritime Authority"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "GOVERNMENT INSTITUTE",
+      "entity": "Norwegian Maritime Authority"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "GOVERNMENT INSTITUTE",
+      "entity": "Norwegian Maritime Authority"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 9 metres in overall length"
+    },
+    {
+      "class label": "LOADING",
+      "entity": "downloaded from"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 9 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "LOADING",
+      "entity": "downloaded from"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 15 metres in overall length"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "report form"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installation"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel's condition"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installation"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installation"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "inspection"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "drawings"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "documentation"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "Documentation"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "documentation"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 8 metres in overall length"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "installation attestation"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 8 to 15 metres in overall length"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installations"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "accepted electrical enterprise"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 9 metres in overall length"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "valid installation"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "documentation"
+    },
+    {
+      "class label": "ELECTRICAL INSTALLATION",
+      "entity": "electrical installation"
+    },
+    {
+      "class label": "GOVERNMENT INSTITUTE",
+      "entity": "Norwegian Directorate"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "Civil Protection"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "report form"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "Vessels of 6 to 15 metres in overall length"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "record book"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "cargo-handling"
+    },
+    {
+      "class label": "LEGAL DOCUMENT",
+      "entity": "Regulations of 17 January 1978 No. 4 on cargo-handling appliances"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of more than 8"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "semi-"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "/DIY builders"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "installation for gasfired installations"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire-extinguishing system"
+    },
+    {
+      "class label": "PROCEDURE",
+      "entity": "instructions"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "Letter"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability poster"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability documentation"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "liferaft"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "Documentation"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "immersion suits"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "application"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "documentation"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "navigational aids"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "CONTROL SYSTEM",
+      "entity": "fire safety"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "construction"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "equipment"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "life-saving appliances"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "metres"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio installations"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio services"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "fishing vessels"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "m"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "except vessels"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "requirements for"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability documentation"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "PLACEMENT ON SHIP",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 9 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "complete inspection"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "months"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "inspection"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "documentation"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels operating"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels operating"
+    },
+    {
+      "class label": "CONSTRUCTION",
+      "entity": "vessels constructed"
+    },
+    {
+      "class label": "CARGO",
+      "entity": "catch"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 9 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 9 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "TRADE AREA",
+      "entity": "trade area"
+    },
+    {
+      "class label": "CARGO",
+      "entity": "catch"
+    },
+    {
+      "class label": "STABILITY",
+      "entity": "stability calculations"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels may have"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio equipment"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio installations"
+    },
+    {
+      "class label": "EQUIPMENT",
+      "entity": "radio services"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of less than 8 metres in overall length"
+    },
+    {
+      "class label": "UNIT",
+      "entity": "years"
+    },
+    {
+      "class label": "CERTIFICATE",
+      "entity": "vessel instructions"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 8 to 10.67 metres in overall length"
+    },
+    {
+      "class label": "VESSEL TYPE",
+      "entity": "vessels of 10.67 to 15 metres in overall length"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "EPIRB"
+    },
+    {
+      "class label": "LIFE-SAVING APPLIANCE",
+      "entity": "EPIRB"
+    },
+    {
+      "class label": "COMPANY",
+      "entity": "approved company"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "requirements for"
+    },
+    {
+      "class label": "INFORMATION",
+      "entity": "stability documentation"
+    }
+  ]
+}
