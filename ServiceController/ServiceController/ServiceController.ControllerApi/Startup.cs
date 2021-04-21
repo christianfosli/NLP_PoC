@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Sdir.Identity;
 using ServiceController.AuthenticationService;
 using ServiceController.ControllerApi.BackgroundServices;
 using ServiceController.ControllerApi.Settings;
@@ -32,11 +33,12 @@ namespace ServiceController.ControllerApi
 			services.AddSingleton<INlpBackgroundTaskQueue>(ctx => new NlpBackgroundTaskQueue(100));
 			
 			// Load settings
-			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSettings").Get<AuthenticationServiceSettings>());
 			services.AddSingleton(Configuration.GetSection("TextServiceSettings").Get<TextServiceSettings>());
 			services.AddSingleton(Configuration.GetSection("NlpServiceSettings").Get<NlpServiceSettings>());
 			services.AddSingleton(Configuration.GetSection("TransformerServiceSettings").Get<TransformerServiceSettings>());
 			services.AddSingleton(Configuration.GetSection("KnowledgeServiceSettings").Get<KnowledgeServiceSettings>());
+			services.AddSingleton(Configuration.GetSection("AuthenticationServiceSettings").Get<AuthenticationServiceSettings>());
+			services.AddSdirSecurity(Configuration.GetSection("IdentityProviderSettings").Get<IdentityProviderSettings>());
 
 			// Load api services
 			services.AddScoped<ITextServiceApi, TextServiceApi>();
@@ -63,9 +65,8 @@ namespace ServiceController.ControllerApi
 			}
 
 			app.UseHttpsRedirection();
-
 			app.UseRouting();
-
+			app.UseAuthentication();
 			app.UseAuthorization();
 
 			app.UseEndpoints(endpoints =>

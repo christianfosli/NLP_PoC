@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Sdir.Identity" Version="1.10.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ServiceController.AuthenticationService\ServiceController.AuthenticationService.csproj" />
     <ProjectReference Include="..\ServiceController.Entities\ServiceController.Entities.csproj" />
     <ProjectReference Include="..\ServiceController.KnowledgeService\ServiceController.KnowledgeService.csproj" />
