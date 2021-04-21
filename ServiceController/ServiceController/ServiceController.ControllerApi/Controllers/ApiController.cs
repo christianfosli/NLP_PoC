@@ -15,10 +15,12 @@ using ServiceController.KnowledgeService;
 using ServiceController.NlpService;
 using ServiceController.TextService;
 using ServiceController.TransformerService;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ServiceController.ControllerApi.Controllers
 {
 	[ApiController]
+	[Authorize]
 	[Route("nlp-controller")]
 	public class ApiController : ControllerBase
 	{
