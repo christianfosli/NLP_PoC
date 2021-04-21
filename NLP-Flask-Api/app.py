@@ -370,7 +370,7 @@ def post_classify_named_entities_input():
     language_in_input_chapter_text_as_json_in_text_service_format = identify_request_language(input_chapter_text_as_json_in_text_service_format)
     forward_text_transformed_to_spacy_format = transform_chapter_from_text_service_to_spacy_format(input_chapter_text_as_json_in_text_service_format)
     forward_result_with_entities = identify_named_entities_in_spacy_lines(forward_text_transformed_to_spacy_format, language_in_input_chapter_text_as_json_in_text_service_format)
-    forward_api_response = create_api_response_for_post_identify_named_entities(forward_result_with_entities)
+    forward_api_response = create_api_response_for_post_identify_named_entities(forward_result_with_entities, language_in_input_chapter_text_as_json_in_text_service_format)
     return jsonify({"identified_named_entities": forward_api_response})
 
 if __name__ == '__main__':

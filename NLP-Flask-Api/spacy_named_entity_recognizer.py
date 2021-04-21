@@ -43,8 +43,3 @@ def identify_named_entities_in_spacy_lines(spacy_lines, language):
             result.append(spacy_line)        
     return(result)            
    
-
-
-
-
-

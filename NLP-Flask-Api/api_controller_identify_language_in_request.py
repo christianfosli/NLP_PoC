@@ -2,15 +2,29 @@
 # Assumes one language for each request. 
 import json
 
+
 def identify_request_language(data):
-    if data['sections'][0]['parts'][0]['language'] == 'en':
-        language = 'en'
-        return(language)
-    #If the language is set to Nynorsk, the current solution will use the model for Bokmål.
-    elif data['sections'][0]['parts'][0]['language'] == 'nn':
-        language = 'nb'
-    #Default language is set to Norwegian Bokmål
-    else:
-        language = 'nb'
-        return(language)
+        if 'chapters' in data.keys():
+            for chapters in data['chapters']:
+                if chapters['sections'][0]['parts'][0]['language'] == 'en':
+                    language = 'en'
+                    return(language)
+                #If the language is set to Nynorsk, the current solution will use the model for Bokmål.
+                elif chapters['sections'][0]['parts'][0]['language'] == 'nn':
+                    language = 'nb'
+                #Default language is set to Norwegian Bokmål
+                else:
+                    language = 'nb'
+                return(language)
+        else:
+            if data['sections'][0]['parts'][0]['language'] == 'en':
+                language = 'en'
+                return(language)
+            #If the language is set to Nynorsk, the current solution will use the model for Bokmål.
+            elif data['sections'][0]['parts'][0]['language'] == 'nn':
+                language = 'nb'
+            #Default language is set to Norwegian Bokmål
+            else:
+                language = 'nb'
+            return(language)
 
