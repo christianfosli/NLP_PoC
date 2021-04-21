@@ -17,6 +17,7 @@ import rdftransformer.api.transformer.utils.Vocabulary;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class Classification {
 
@@ -95,14 +96,19 @@ public class Classification {
         return tmp.toString();
     }
 
-    private static void addToModel(String class_label, String classLabel, String entity, String entityLabel) {
-        IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS + class_label);
-        model.add(subject, RDF.TYPE, OWL.CLASS);
-        model.add(subject, RDFS.LABEL, Vocabulary.vf.createLiteral(classLabel, "en"));
+    private static void addToModel(String subjectFragment, String subjectLabel, String objFragment, String objLabel) {
 
-        IRI o = Vocabulary.vf.createIRI(Vocabulary.NS + entity);
+        subjectLabel = subjectLabel.substring(0, 1).toUpperCase() + subjectLabel.substring(1);
+
+        IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS + subjectFragment);
+        model.add(subject, RDF.TYPE, OWL.CLASS);
+        model.add(subject, RDFS.LABEL, Vocabulary.vf.createLiteral(subjectLabel, "en"));
+
+        objLabel = objLabel.substring(0, 1).toUpperCase() + objLabel.substring(1);
+
+        IRI o = Vocabulary.vf.createIRI(Vocabulary.NS + objFragment);
         model.add(o, RDF.TYPE, OWL.CLASS);
         model.add(o, RDFS.SUBCLASSOF, subject);
-        model.add(o, RDFS.LABEL, Vocabulary.vf.createLiteral(entityLabel, "en"));
+        model.add(o, RDFS.LABEL, Vocabulary.vf.createLiteral(objLabel, "en"));
     }
 }
