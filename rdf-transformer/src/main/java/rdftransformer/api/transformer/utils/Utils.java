@@ -19,9 +19,9 @@ public class Utils {
 
     public static final String NS_UNIT = "http://qudt.org/vocab/unit/";
 
-    public static final String LOA_JSON_OBJ = "identified_vessel_length_overall";
-    public static final String BD_JSON_OBJ = "identified_build_dates";
-    public static final String EL_JSON_OBJ = "identified_electrical_installations";
+    public static final String LOA_JSON_OBJ = "identified_VESSEL_LENGTH_OVERALL";
+    public static final String BD_JSON_OBJ = "identified_BUILD_DATE";
+    public static final String EL_JSON_OBJ = "identified_ELECTRICAL_INSTALLATION";
     public static final String PASS_JSON_OBJ = "identified_PASSENGER";
     public static final String GT_JSON_OBJ = "identified_GROSS_TONNAGE";
     public static final String FP_JSON_OBJ = "identified_FLASHPOINT";
@@ -61,7 +61,7 @@ public class Utils {
         return number;
     }
 
-    public static String printModel(Model model, RDFFormat syntax) {
+    public static String modelToString(Model model, RDFFormat syntax) {
         StringWriter writer = new StringWriter();
         RDFWriter rdfWriter = Rio.createWriter(syntax, writer);
         Rio.write(model, rdfWriter);

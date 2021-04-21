@@ -8,6 +8,7 @@ import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.impl.LinkedHashModel;
 import org.eclipse.rdf4j.model.vocabulary.RDF;
+import org.eclipse.rdf4j.model.vocabulary.RDFS;
 import org.eclipse.rdf4j.model.vocabulary.SHACL;
 import org.eclipse.rdf4j.model.vocabulary.XSD;
 import rdftransformer.api.transformer.scope.*;
@@ -438,6 +439,8 @@ public class GraphGenerator {
                 Vocabulary.vf.createLiteral(r.getRegulation_id_lovdata()), XSD.ANYURI);
         model.add(subject, Vocabulary.eliReference,
                 Vocabulary.vf.createLiteral(r.getRegulation_id_eli()), XSD.ANYURI);
+        model.add(subject, RDFS.LABEL, Vocabulary.vf.createLiteral(r.getLabel(), "no"));
+        model.add(subject, Vocabulary.theme, Vocabulary.vf.createLiteral(r.getTheme(), "no"));
 
         requirementModel.addAll(model);
 

@@ -3,22 +3,26 @@
     {
       "cargo_text": "frakter last",
       "chapter_number": "1",
+      "chapter_title": "Sikkerhetsstyring",
       "part_number": "2",
       "regulation_day": "16",
       "regulation_id": "1770",
       "regulation_month": "12",
       "regulation_year": "2016",
-      "section_number": "12"
+      "section_number": "12",
+      "section_title": "Ikrafttredelse"
     },
     {
       "cargo_text": "frakt av last",
       "chapter_number": "1",
+      "chapter_title": "Sikkerhetsstyring",
       "part_number": "2",
       "regulation_day": "16",
       "regulation_id": "1770",
       "regulation_month": "12",
       "regulation_year": "2016",
-      "section_number": "12"
+      "section_number": "12",
+      "section_title": "Ikrafttredelse"
     }
   ]
 }

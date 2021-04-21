@@ -392,7 +392,9 @@ public class JSONHandler {
                     object.get("chapter_number").toString().replace("\"", ""),
                     object.get("section_number").toString().replace("\"", ""),
                     object.get("part_number").toString().replace("\"", ""),
-                    object.get("sub_part_number").toString().replace("\"", "")
+                    object.get("sub_part_number").toString().replace("\"", ""),
+                    object.get("chapter_title").toString().replace("\"", ""),
+                    object.get("section_title").toString().replace("\"", "")
             );
         } else {
             return new Requirement(
@@ -400,7 +402,9 @@ public class JSONHandler {
                     object.get("regulation_id").toString().replace("\"", ""),
                     object.get("chapter_number").toString().replace("\"", ""),
                     object.get("section_number").toString().replace("\"", ""),
-                    object.get("part_number").toString().replace("\"", "")
+                    object.get("part_number").toString().replace("\"", ""),
+                    object.get("chapter_title").toString().replace("\"", ""),
+                    object.get("section_title").toString().replace("\"", "")
             );
         }
     }

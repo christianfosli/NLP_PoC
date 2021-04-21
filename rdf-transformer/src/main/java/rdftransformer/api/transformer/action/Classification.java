@@ -26,7 +26,7 @@ public class Classification {
     public static String classification(String s) {
 
         parseJson(s);
-        return Utils.printModel(model, RDFFormat.TURTLE);
+        return Utils.modelToString(model, RDFFormat.TURTLE);
 
     }
 
