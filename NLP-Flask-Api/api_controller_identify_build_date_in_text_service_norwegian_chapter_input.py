@@ -2,7 +2,7 @@ import spacy
 from spacy.lang.en import English
 from transform_text_service_input_to_spacy_format import get_data_from_text_service_item_url
 
-def create_api_response_for_post_identify_build_date_in_text_service_norwegian_chapter_input(forward_filtered_result_with_only_the_things_we_are_looking_for):
+def create_api_response_for_post_identify_build_date_in_text_service_norwegian_chapter_input(title_dictionary,forward_filtered_result_with_only_the_things_we_are_looking_for):
 
     nlp = English()
 
@@ -45,6 +45,14 @@ def create_api_response_for_post_identify_build_date_in_text_service_norwegian_c
             metadata_from_url['part_number'] = result_text_service_url['part_number']
         if "sub_part_number" in result_text_service_url:
             metadata_from_url['sub_part_number'] = result_text_service_url['sub_part_number']
+
+        # add chapter_title and section_title
+        if "chapter_title" in title_dictionary:
+            metadata_from_url['chapter_title'] = title_dictionary['chapter_title']
+        if "section_title_in_dictionary" in title_dictionary:
+            section_title_dictionary = title_dictionary['section_title_in_dictionary']
+            if text_service_url in section_title_dictionary:
+                metadata_from_url['section_title'] = section_title_dictionary[text_service_url]
 
         # For each ent in line
         for ent_index_number, ent in enumerate(ents):
