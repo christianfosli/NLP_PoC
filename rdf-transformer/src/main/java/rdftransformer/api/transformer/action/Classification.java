@@ -55,18 +55,18 @@ public class Classification {
             if (!classLabelEn.equals(entityLabelEn)) {
                 if (!classLabelEn.equals("unit")) {
                     if (entityLabelEn.length() < 30 ) { // Entry point for classes
-                        String classLabenEnCapitalized = WordUtils.capitalize(classLabelEn).replace(" ", "");
+                        String classLabelEnCapitalized = WordUtils.capitalize(classLabelEn).replace(" ", "");
                         String entityLabelEnCapitalized = WordUtils.capitalize(entityLabelEn).replace(" ", "");
 
                         if(entityLabelEn.contains("/")) {
                             String[] split = entityLabelEn.split("/");
                             addToModel(
-                                    classLabenEnCapitalized, classLabelEn,
+                                    classLabelEnCapitalized, classLabelEn,
                                     WordUtils.capitalize(split[0]).replace(" ", ""), split[0],
                                     classLabelNo, entityLabelNo
                             );
                             addToModel(
-                                    classLabenEnCapitalized, classLabelEn,
+                                    classLabelEnCapitalized, classLabelEn,
                                     WordUtils.capitalize(split[1]).replace(" ", ""), split[1],
                                     classLabelNo, entityLabelNo
                             );
@@ -75,7 +75,7 @@ public class Classification {
                         } else if (entityLabelEn.matches(".*\\d.*")) {
                             ignoredEntities.add(classLabelEn + "," + entityLabelEn + "\n");
                         } else {
-                            addToModel(classLabenEnCapitalized, classLabelEn, entityLabelEnCapitalized, entityLabelEn, classLabelNo, entityLabelNo);
+                            addToModel(classLabelEnCapitalized, classLabelEn, entityLabelEnCapitalized, entityLabelEn, classLabelNo, entityLabelNo);
                         }
 
                     } else {
