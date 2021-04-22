@@ -17,12 +17,16 @@ import rdftransformer.api.transformer.utils.Vocabulary;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class Classification {
 
     static Model model = Utils.initModel();
     static List<String> ignoredEntities = new ArrayList<>();
+
+    public static void main(String[] args) throws IOException {
+        String s = classification(Utils.readFromFile("src/main/resources/input/classes.json"));
+        System.out.println(s);
+    }
 
     public static String classification(String s) {
 
@@ -39,39 +43,43 @@ public class Classification {
             JsonElement element = array.get(i);
             JsonObject object = element.getAsJsonObject();
 
-            String class_label = object.get("class label").toString()
-                    .toLowerCase()
-                    .replace("\"", "")
-                    .replace(".", "")
-                    .replace("'", "");
-            String entity = object.get("entity").toString()
-                    .toLowerCase()
-                    .replace("\"", "")
-                    .replace(".", "")
-                    .replace("'", "");
+            String classLabelEn = preprocess(object.get("class label no").toString());
+            String entityLabelEn = preprocess(object.get("entity en").toString());
 
-            if (!class_label.equals(entity)) {
-                if (!class_label.equals("unit")) {
-                    if (entity.length() < 30 ) { // Entry point for classes
-                        String class_label_cap = WordUtils.capitalize(class_label).replace(" ", "");
-                        String entity_cap = WordUtils.capitalize(entity).replace(" ", "");
+            String classLabelNo = preprocess(object.get("class label en").toString());
+            String entityLabelNo = preprocess(object.get("entity no").toString());
 
-                        if(entity.contains("/")) {
-                            String[] split = entity.split("/");
-                            addToModel(class_label_cap, class_label,
-                                    WordUtils.capitalize(split[0]).replace(" ", ""), split[0]);
-                            addToModel(class_label_cap, class_label,
-                                    WordUtils.capitalize(split[1]).replace(" ", ""), split[1]);
-                        } else if (entity.endsWith("-")) {
-                            ignoredEntities.add(class_label + "," + entity + "\n");
-                        } else if (entity.matches(".*\\d.*")) {
-                            ignoredEntities.add(class_label + "," + entity + "\n");
+            classLabelNo = classLabelNo.substring(0, 1).toUpperCase() + classLabelNo.substring(1);
+            entityLabelNo = entityLabelNo.substring(0, 1).toUpperCase() + entityLabelNo.substring(1);
+
+            if (!classLabelEn.equals(entityLabelEn)) {
+                if (!classLabelEn.equals("unit")) {
+                    if (entityLabelEn.length() < 30 ) { // Entry point for classes
+                        String classLabenEnCapitalized = WordUtils.capitalize(classLabelEn).replace(" ", "");
+                        String entityLabelEnCapitalized = WordUtils.capitalize(entityLabelEn).replace(" ", "");
+
+                        if(entityLabelEn.contains("/")) {
+                            String[] split = entityLabelEn.split("/");
+                            addToModel(
+                                    classLabenEnCapitalized, classLabelEn,
+                                    WordUtils.capitalize(split[0]).replace(" ", ""), split[0],
+                                    classLabelNo, entityLabelNo
+                            );
+                            addToModel(
+                                    classLabenEnCapitalized, classLabelEn,
+                                    WordUtils.capitalize(split[1]).replace(" ", ""), split[1],
+                                    classLabelNo, entityLabelNo
+                            );
+                        } else if (entityLabelEn.endsWith("-")) {
+                            ignoredEntities.add(classLabelEn + "," + entityLabelEn + "\n");
+                        } else if (entityLabelEn.matches(".*\\d.*")) {
+                            ignoredEntities.add(classLabelEn + "," + entityLabelEn + "\n");
                         } else {
-                            addToModel(class_label_cap, class_label, entity_cap, entity);
+                            addToModel(classLabenEnCapitalized, classLabelEn, entityLabelEnCapitalized, entityLabelEn, classLabelNo, entityLabelNo);
                         }
 
                     } else {
-                        ignoredEntities.add(class_label + "," + entity + "\n");
+                        ignoredEntities.add(classLabelEn + "," + entityLabelEn + "\n");
                         try {
                             Utils.writeListToFile(
                                     ignoredEntities,
@@ -88,6 +96,13 @@ public class Classification {
         }
     }
 
+    private static String preprocess(String s) {
+        return s.toLowerCase()
+                .replace("\"", "")
+                .replace(".", "")
+                .replace("'", "");
+    }
+
     public static String getIgnoredEntities() {
         StringBuilder tmp = new StringBuilder();
         for (String s : ignoredEntities) {
@@ -96,19 +111,22 @@ public class Classification {
         return tmp.toString();
     }
 
-    private static void addToModel(String subjectFragment, String subjectLabel, String objFragment, String objLabel) {
+    private static void addToModel(String subjectFragment, String subjectLabel, String objFragment, String objLabel,
+                                   String classLabelNo, String entitiyLabelNo) {
 
         subjectLabel = subjectLabel.substring(0, 1).toUpperCase() + subjectLabel.substring(1);
 
         IRI subject = Vocabulary.vf.createIRI(Vocabulary.NS + subjectFragment);
         model.add(subject, RDF.TYPE, OWL.CLASS);
-        model.add(subject, RDFS.LABEL, Vocabulary.vf.createLiteral(subjectLabel, "en"));
+        model.add(subject, RDFS.LABEL, Vocabulary.vf.createLiteral(subjectLabel.trim(), "en"));
+        model.add(subject, RDFS.LABEL, Vocabulary.vf.createLiteral(classLabelNo.trim(), "no"));
 
         objLabel = objLabel.substring(0, 1).toUpperCase() + objLabel.substring(1);
 
         IRI o = Vocabulary.vf.createIRI(Vocabulary.NS + objFragment);
         model.add(o, RDF.TYPE, OWL.CLASS);
         model.add(o, RDFS.SUBCLASSOF, subject);
-        model.add(o, RDFS.LABEL, Vocabulary.vf.createLiteral(objLabel, "en"));
+        model.add(o, RDFS.LABEL, Vocabulary.vf.createLiteral(objLabel.trim(), "en"));
+        model.add(o, RDFS.LABEL, Vocabulary.vf.createLiteral(entitiyLabelNo.trim(), "no"));
     }
 }

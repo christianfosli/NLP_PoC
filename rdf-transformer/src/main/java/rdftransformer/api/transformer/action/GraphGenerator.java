@@ -1,9 +1,6 @@
 package rdftransformer.api.transformer.action;
 
 import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.impl.LinkedHashModel;
@@ -17,7 +14,6 @@ import rdftransformer.api.transformer.utils.Vocabulary;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class GraphGenerator {
@@ -445,79 +441,4 @@ public class GraphGenerator {
         requirementModel.addAll(model);
 
     }
-
-    /** getSectionHeaders
-     *
-     * Parse JSON input and store section number and section title in HashMap.
-     * Used for rdfs:label for a requirement.
-     *
-     * @return HashMap containing section number, section title
-     * @throws IOException if unable to read file
-     */
-    public static HashMap<String, String> getSectionHeaders() throws IOException {
-
-        // TODO: retrieve JSON from API instead of file
-        String content = Utils.readFromFile("src/main/resources/headers_test_file.json");
-
-        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
-        JsonElement jsonElement = jsonObject.get("identified_sentence_type");
-        JsonArray array = jsonElement.getAsJsonArray();
-
-        HashMap<String, String> sections = new HashMap<>();
-
-        for (int i = 0; i < array.size(); i++) {
-
-            JsonElement element = array.get(i);
-            JsonObject object = element.getAsJsonObject();
-
-            if (object.get("sentence_type").getAsString().equals("headline-section")) {
-                String sectionTitle = object.get("sentence_type_text").getAsString();
-                String sectionNumber = object.get("sentence_type_value").getAsString();
-
-                sections.put(sectionNumber, sectionTitle);
-            }
-        }
-        return sections;
-    }
-
-    /** getChapterHeaders
-     *
-     * Parse JSON and store section title and chapter title in HashMap.
-     * Chapter title is retrieved by getting section title. It therefore tracks chapter title for any section.
-     * Used for sdir:theme for a requirement.
-     *
-     * @return HashMap containing section title, chapter title
-     * @throws IOException if unable to read file
-     */
-    public static HashMap<String, String> getChapterHeader() throws IOException {
-
-        HashMap<String, String> chapter = new HashMap<>();
-
-        // TODO: retrieve JSON from API instead of file
-        String content = Utils.readFromFile("src/main/resources/headers_test_file.json");
-
-        JsonObject jsonObject = new JsonParser().parse(content).getAsJsonObject();
-        JsonElement jsonElement = jsonObject.get("identified_sentence_type");
-        JsonArray array = jsonElement.getAsJsonArray();
-
-        String chapterTitle = "";
-
-        for (int i = 0; i < array.size(); i++) {
-
-            JsonElement element = array.get(i);
-            JsonObject object = element.getAsJsonObject();
-
-            if (object.get("sentence_type").getAsString().equals("headline-chapter")) {
-                chapterTitle = object.get("sentence_type_text").getAsString();
-            }
-
-            if (object.get("sentence_type").getAsString().equals("headline-section")) {
-                String sectionTitle = object.get("sentence_type_text").getAsString();
-
-                chapter.put(sectionTitle, chapterTitle);
-            }
-        }
-        return chapter;
-    }
-
 }
