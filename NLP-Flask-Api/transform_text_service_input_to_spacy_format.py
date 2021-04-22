@@ -1,16 +1,30 @@
 def transform_chapter_from_text_service_to_spacy_format(chapter_from_text_service):
     text_in_spacy_format = []
-    for section_item in chapter_from_text_service['sections']:    
-        for part_item in section_item['parts']: # before: subsections
-            text_in_spacy_format.append({
-                'text': part_item['content'],
-                'ents': [],
-                'title': part_item['url']})
-            for subpart_item in part_item['subparts']: # before: sentences
+    if 'chapters' in chapter_from_text_service.keys():
+        for chapter_item in chapter_from_text_service['chapters']:
+            for section_item in chapter_item['sections']:    
+                for part_item in section_item['parts']: # before: subsections
+                    text_in_spacy_format.append({
+                        'text': part_item['content'],
+                        'ents': [],
+                        'title': part_item['url']})
+                    for subpart_item in part_item['subparts']: # before: sentences
+                        text_in_spacy_format.append({
+                            'text': subpart_item['content'],
+                            'ents': [],
+                            'title': subpart_item['url']})
+    else:
+        for section_item in chapter_from_text_service['sections']:    
+            for part_item in section_item['parts']: # before: subsections
                 text_in_spacy_format.append({
-                    'text': subpart_item['content'],
+                    'text': part_item['content'],
                     'ents': [],
-                    'title': subpart_item['url']})
+                    'title': part_item['url']})
+                for subpart_item in part_item['subparts']: # before: sentences
+                    text_in_spacy_format.append({
+                        'text': subpart_item['content'],
+                        'ents': [],
+                        'title': subpart_item['url']})
     return text_in_spacy_format
 
 # this url reader will support both absolute and relative url's.
