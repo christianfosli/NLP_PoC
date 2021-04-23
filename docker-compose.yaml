@@ -1,0 +1,27 @@
+version: '3'
+services:
+
+  servicecontroller:
+    build:
+      context: ServiceController/ServiceController
+      dockerfile: ServiceController.ControllerApi/Dockerfile
+    ports:
+      - "5001:80"
+    environment:
+      NlpServiceSettings__ApiBaseUrl: http://nlp-api:5000
+      NlpServiceSettings__RunAsTest: "false"
+      TransformerServiceSettings__ApiBaseUrl: http://rdf-transformer:4321
+      TransformerServiceSettings__RunAsTest: "false"
+
+  nlp-api:
+    build: NLP-Flask-Api
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_APP: app.py
+      FLASK_ENV: development
+
+  rdf-transformer:
+    build: rdf-transformer
+    ports:
+      - "4321:4321"
