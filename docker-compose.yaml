@@ -20,6 +20,7 @@ services:
     environment:
       FLASK_APP: app.py
       FLASK_ENV: development
+      APP_BASE_URL: http://nlp-api:5000
 
   rdf-transformer:
     build: rdf-transformer

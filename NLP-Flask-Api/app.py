@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from os import environ
 from transform_text_service_input_to_spacy_format import transform_chapter_from_text_service_to_spacy_format
 
 #
@@ -74,7 +75,7 @@ def health():
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1382907905/NLP+rule-based+matching+options
 @app.route("/nlp-rule-based-matching-options", methods=["GET"])
 def get_nlp_rule_based_matching_options():
-    urlPrefix = "http://localhost:5000/"
+    urlPrefix = environ.get("APP_BASE_URL", "http://localhost:5000") + "/"
     options = [
         {
             "title": "vessel length overall",
