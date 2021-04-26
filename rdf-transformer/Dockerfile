@@ -1,9 +1,9 @@
-FROM openjdk:11-jdk-slim AS build
+FROM adoptopenjdk:16-jdk AS build
 WORKDIR /app
 COPY . .
 RUN --mount=type=cache,target=/root/.m2 ./mvnw clean package
 
-FROM openjdk:11-jre-slim
+FROM adoptopenjdk:16-jre
 WORKDIR /app
 COPY --from=build /app/target/api-*-SNAPSHOT.jar api.jar
 EXPOSE 8080
