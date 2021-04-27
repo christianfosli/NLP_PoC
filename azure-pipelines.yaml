@@ -1,0 +1,186 @@
+# Build pipeline for 'https://github.com/Sjofartsdirektoratet/NLP_PoC'
+
+name: nlp.$(Date:yyyMMdd)$(Rev:.r)
+
+trigger:
+  branches:
+    include:
+      - master
+
+pr:
+  - master
+
+pool:
+  vmImage: ubuntu-20.04
+
+stages:
+  - stage: build_and_push
+
+    variables:
+      - group: ET - Common
+      - group: ET - Services
+
+      - name: DOCKER_BUILDKIT
+        value: 1
+
+    jobs:
+      - job: servicecontroller
+
+        variables:
+          dockerRepo: et/nlpservicecontroller
+
+        steps:
+          - bash: |
+              docker build -f ServiceController.ControllerApi/Dockerfile \
+                -t "sdirhacrcommon.azurecr.io/$(dockerRepo):$(Build.BuildId)" \
+                -t "sdirhacrcommon.azurecr.io/$(dockerRepo):$(Build.SourceVersion)" \
+                --build-arg ACCESS_TOKEN \
+                .
+            displayName: Docker Build
+            env:
+              ACCESS_TOKEN: $(ACCESS_TOKEN)
+            workingDirectory: ServiceController/ServiceController
+
+          - task: Docker@2
+            displayName: Docker Push
+            inputs:
+              command: push
+              containerRegistry: Sdir ACR
+              repository: "$(dockerRepo)"
+              tags: |
+                $(Build.BuildId)
+                $(Build.SourceVersion)
+
+      - job: nlpapi
+
+        variables:
+          dockerRepo: et/nlpapi
+
+        steps:
+          - bash: |
+              docker build \
+                -t "sdirhacrcommon.azurecr.io/$(dockerRepo):$(Build.BuildId)" \
+                -t "sdirhacrcommon.azurecr.io/$(dockerRepo):$(Build.SourceVersion)" \
+                 .
+            displayName: Docker Build
+            env:
+              ACCESS_TOKEN: $(ACCESS_TOKEN)
+            workingDirectory: NLP-Flask-Api
+
+          - task: Docker@2
+            displayName: Docker Push
+            inputs:
+              command: push
+              containerRegistry: Sdir ACR
+              repository: "$(dockerRepo)"
+              tags: |
+                $(Build.BuildId)
+                $(Build.SourceVersion)
+
+      - job: rdftransformer
+
+        variables:
+          dockerRepo: et/rdftransformer
+
+        steps:
+          - bash: |
+              docker build \
+                -t "sdirhacrcommon.azurecr.io/$(dockerRepo):$(Build.BuildId)" \
+                -t "sdirhacrcommon.azurecr.io/$(dockerRepo):$(Build.SourceVersion)" \
+                .
+            displayName: Docker Build
+            env:
+              ACCESS_TOKEN: $(ACCESS_TOKEN)
+            workingDirectory: rdf-transformer
+
+          - task: Docker@2
+            displayName: Docker Push
+            inputs:
+              command: push
+              containerRegistry: Sdir ACR
+              repository: "$(dockerRepo)"
+              tags: |
+                $(Build.BuildId)
+                $(Build.SourceVersion)
+
+  - stage: terraform_plan_test
+
+    variables:
+      - group: ET - Common
+      - group: ET - Kubernetes
+      - group: ET - NLP
+      - group: ET - Dev
+
+    jobs:
+      - job: terraform_plan_test
+        steps:
+
+        - task: CopyFiles@2
+          displayName: "Artifact: add terraform to staging"
+          inputs:
+            sourceFolder: terraform
+            contents: "**"
+            targetFolder: "$(Build.ArtifactStagingDirectory)/terraform"
+
+        - bash: |
+            set -eo pipefail
+
+            echo -e "\n\nLoggin in to Azure...\n\n"
+            az login --service-principal -u "$ARM_CLIENT_ID" -p "$ARM_CLIENT_SECRET" --tenant "$ARM_TENANT_ID"
+
+            echo -e "\n\nSet working subscription to $ENVIRONMENT...\n\n"
+            az account set --subscription "$ARM_SUBSCRIPTION_ID"
+
+            echo -e "\n\nCreate storage container for tf state...\n\n"
+            az storage container create --name "$AZ_TF_STORAGE_CONTAINER_NAME" --account-name "$AZ_TF_STORAGE_NAME"
+
+            echo -e "\n\nSet AZ_TF_STORAGE_KEY variable...\n\n"
+            key=$(az storage account keys list -o tsv \
+              --resource-group "$AZ_RESOURCE_GROUP" \
+              --account-name "$AZ_TF_STORAGE_NAME" \
+              --query "[?keyName == 'key1'].value | [0]")
+            echo "##vso[task.setvariable variable=AZ_TF_STORAGE_KEY;issecret=true]$key"
+          displayName: "System: prepare environment for terraform"
+          env:
+            ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
+
+        - bash: |
+            terraform -v &&
+            terraform init --input=false \
+              --backend-config="resource_group_name=$AZ_RESOURCE_GROUP" \
+              --backend-config="storage_account_name=$AZ_TF_STORAGE_NAME" \
+              --backend-config="container_name=$AZ_TF_STORAGE_CONTAINER_NAME" \
+              --backend-config="access_key=$AZ_TF_STORAGE_KEY"
+          displayName: "Terraform: init"
+          workingDirectory: terraform
+          env:
+            ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
+            AZ_TF_STORAGE_KEY: $(AZ_TF_STORAGE_KEY)
+
+        - bash: |
+            terraform validate
+          displayName: "Terraform: validate"
+          workingDirectory: terraform
+          env:
+            ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
+            AZ_TF_STORAGE_KEY: $(AZ_TF_STORAGE_KEY)
+
+        - bash: |
+            terraform plan --input=false --refresh=true --lock=false --out="release.tfplan"
+          displayName: "Terraform: plan"
+          workingDirectory: terraform
+          env:
+            ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
+            AZ_TF_STORAGE_KEY: $(AZ_TF_STORAGE_KEY)
+
+        - bash: |
+            terraform show --json release.tfplan > ../release.json
+          displayName: "Terraform: prepare plan for unit testing"
+          workingDirectory: terraform
+
+        - bash: |
+            docker run --rm -v "$(pwd):/target" -t eerkunt/terraform-compliance --features terraform-test/unit --planfile release.json
+          displayName: "Terraform-compliance: run unit tests"
+
+        - publish: "$(Build.ArtifactStagingDirectory)"
+          artifact: "tfnlp_$(Build.BuildId)"
