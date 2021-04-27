@@ -23,11 +23,6 @@ public class Classification {
     static Model model = Utils.initModel();
     static List<String> ignoredEntities = new ArrayList<>();
 
-    public static void main(String[] args) throws IOException {
-        String s = classification(Utils.readFromFile("src/main/resources/input/classes.json"));
-        System.out.println(s);
-    }
-
     public static String classification(String s) {
 
         parseJson(s);
@@ -86,6 +81,17 @@ public class Classification {
             ignoredEntities.add(classLabelEn + "," + entityLabelEn + "\n");
         } else if (entityLabelEn.matches(".*\\d.*")) {
             ignoredEntities.add(classLabelEn + "," + entityLabelEn + "\n");
+        } else if (entityLabelEn.contains("www")) {
+            ignoredEntities.add(classLabelEn + "," + entityLabelEn + "\n");
+        } else if (entityLabelEn.contains("- ")) {
+            String[] split = entityLabelEn.trim().split("-");
+            if (split.length > 1) {
+                addToModel(classLabelEnCapitalized, classLabelEn,
+                        WordUtils.capitalize(split[0]), split[0],
+                        classLabelNo.split("-")[0], entityLabelNo.split("-")[0]);
+            } else {
+                ignoredEntities.add(classLabelEn + "," + entityLabelEn + "\n");
+            }
         } else {
             addToModel(classLabelEnCapitalized, classLabelEn, entityLabelEnCapitalized, entityLabelEn,
                     classLabelNo, entityLabelNo);
@@ -108,7 +114,8 @@ public class Classification {
         return s.toLowerCase()
                 .replace("\"", "")
                 .replace(".", "")
-                .replace("'", "");
+                .replace("'", "")
+                .replace(",", "");
     }
 
     public static String getIgnoredEntities() {
