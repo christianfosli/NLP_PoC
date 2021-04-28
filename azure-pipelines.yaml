@@ -5,10 +5,10 @@ name: nlp.$(Date:yyyMMdd)$(Rev:.r)
 trigger:
   branches:
     include:
-      - master
+      - main
 
 pr:
-  - master
+  - main
 
 pool:
   vmImage: ubuntu-20.04
