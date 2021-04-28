@@ -157,9 +157,8 @@ namespace ServiceController.ConsoleApp
 					//
 
 					// Get NLP options
-					var nlpResourceListFromNlpService =
-					await nlpServiceApi.GetNlpResourceList(NlpServiceSettings.ApiBaseUrl);
-					var nlpResourceDictionary = nlpServiceHelper.MapNlpResources(nlpResourceListFromNlpService);
+					var nlpResourceListFromNlpService = await nlpServiceApi.GetNlpResourceList(NlpServiceSettings.ApiBaseUrl);
+					var nlpResourceDictionary = nlpServiceHelper.MapNlpResources(NlpServiceSettings.ApiBaseUrl, nlpResourceListFromNlpService);
 
 					// Print NLP options
 					var nlpResourceDictionaryPrinter = new NlpServiceResourceDictionaryPrinter(nlpResourceDictionary);

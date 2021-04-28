@@ -75,102 +75,101 @@ def health():
 # Documentation: https://sdir.atlassian.net/wiki/spaces/SDIR/pages/1382907905/NLP+rule-based+matching+options
 @app.route("/nlp-rule-based-matching-options", methods=["GET"])
 def get_nlp_rule_based_matching_options():
-    urlPrefix = environ.get("APP_BASE_URL", "http://localhost:5000") + "/"
     options = [
         {
             "title": "vessel length overall",
             "language": "no",
-            "url": urlPrefix + "identify-VESSEL-LENGTH-OVERALL-in-text-service-norwegian-chapter"
+            "url": "identify-VESSEL-LENGTH-OVERALL-in-text-service-norwegian-chapter"
         },
         {
             "title": "electrical installation",
             "language": "no",
-            "url": urlPrefix + "identify-ELECTRICAL-INSTALLATION-in-text-service-norwegian-chapter"
+            "url": "identify-ELECTRICAL-INSTALLATION-in-text-service-norwegian-chapter"
         },
         {
             "title": "build date",
             "language": "no",
-            "url": urlPrefix + "identify-BUILD-DATE-in-text-service-norwegian-chapter"
+            "url": "identify-BUILD-DATE-in-text-service-norwegian-chapter"
         },
         {
             "title": "build date",
             "language": "en",
-            "url": urlPrefix + "identify-BUILD-DATE-in-text-service-english-chapter"
+            "url": "identify-BUILD-DATE-in-text-service-english-chapter"
         },
         {
             "title": "alternative reference",
             "language": "no",
-            "url": urlPrefix + "identify-ALTERNATIVE-REFERENCE-in-text-service-norwegian-chapter"
+            "url": "identify-ALTERNATIVE-REFERENCE-in-text-service-norwegian-chapter"
         },
         {
             "title": "passenger",
             "language": "no",
-            "url": urlPrefix + "identify-PASSENGER-in-text-service-norwegian-chapter"
+            "url": "identify-PASSENGER-in-text-service-norwegian-chapter"
         },
         {
             "title": "gross tonnage",
             "language": "no",
-            "url": urlPrefix + "identify-GROSS-TONNAGE-in-text-service-norwegian-chapter"
+            "url": "identify-GROSS-TONNAGE-in-text-service-norwegian-chapter"
         },
         {
             "title": "vessel",
             "language": "no",
-            "url": urlPrefix + "identify-VESSEL-in-text-service-norwegian-chapter"
+            "url": "identify-VESSEL-in-text-service-norwegian-chapter"
         },
         {
             "title": "flashpoint",
             "language": "no",
-            "url": urlPrefix + "identify-FLASHPOINT-in-text-service-norwegian-chapter"
+            "url": "identify-FLASHPOINT-in-text-service-norwegian-chapter"
         },
         {
             "title": "vessel type",
             "language": "no",
-            "url": urlPrefix + "identify-VESSEL-TYPE-in-text-service-norwegian-chapter"
+            "url": "identify-VESSEL-TYPE-in-text-service-norwegian-chapter"
         },
         {
             "title": "mobile unit",
             "language": "no",
-            "url": urlPrefix + "identify-MOBILE-UNIT-in-text-service-norwegian-chapter"
+            "url": "identify-MOBILE-UNIT-in-text-service-norwegian-chapter"
         },
         {
             "title": "cargo",
             "language": "no",
-            "url": urlPrefix + "identify-CARGO-in-text-service-norwegian-chapter"
+            "url": "identify-CARGO-in-text-service-norwegian-chapter"
         },
         {
             "title": "trade area",
             "language": "no",
-            "url": urlPrefix + "identify-TRADE-AREA-in-text-service-norwegian-chapter"
+            "url": "identify-TRADE-AREA-in-text-service-norwegian-chapter"
         },
         {
             "title": "radio area",
             "language": "no",
-            "url": urlPrefix + "identify-RADIO-AREA-in-text-service-norwegian-chapter"
+            "url": "identify-RADIO-AREA-in-text-service-norwegian-chapter"
         },
         {
             "title": "conversion",
             "language": "no",
-            "url": urlPrefix + "identify-CONVERSION-in-text-service-norwegian-chapter"
+            "url": "identify-CONVERSION-in-text-service-norwegian-chapter"
         },
         {
             "title": "protected",
             "language": "no",
-            "url": urlPrefix + "identify-PROTECTED-in-text-service-norwegian-chapter"
+            "url": "identify-PROTECTED-in-text-service-norwegian-chapter"
         },
         {
             "title": "load installation",
             "language": "no",
-            "url": urlPrefix + "identify-LOAD-INSTALLATION-in-text-service-norwegian-chapter"
+            "url": "identify-LOAD-INSTALLATION-in-text-service-norwegian-chapter"
         },
         {
             "title": "propulsion power",
             "language": "no",
-            "url": urlPrefix + "identify-PROPULSION-POWER-in-text-service-norwegian-chapter"
+            "url": "identify-PROPULSION-POWER-in-text-service-norwegian-chapter"
         },
         {
             "title": "keel laid",
             "language": "no",
-            "url": urlPrefix + "identify-KEEL-LAID-in-text-service-norwegian-chapter"
+            "url": "identify-KEEL-LAID-in-text-service-norwegian-chapter"
         }
     ]
     return jsonify(options)

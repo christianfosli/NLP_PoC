@@ -19,7 +19,9 @@ namespace ServiceController.NlpService
             return childrenOfFirstObjectInArray?.Count ?? 0;
 		}
 
-        public Dictionary<int, NlpResource> MapNlpResources(JsonElement nlpResourceListFromNlpService)
+        public Dictionary<int, NlpResource> MapNlpResources(
+			Uri apiBaseUrl,
+			JsonElement nlpResourceListFromNlpService)
         {
 	        var dictionary = new Dictionary<int, NlpResource>();
 	        using var document = JsonDocument.Parse(nlpResourceListFromNlpService.ToString());
@@ -37,7 +39,7 @@ namespace ServiceController.NlpService
 		        {
 			        Title = title.GetString(),
 			        Language = language.GetString(),
-			        Url = new Uri(url.GetString())
+			        Url = new Uri($@"{apiBaseUrl}{url.GetString()}")
 		        };
 
 		        dictionary.Add(counter, item);
@@ -51,7 +53,7 @@ namespace ServiceController.NlpService
 		// Test helpers
 		//
 
-        public Dictionary<int, NlpResource> GetNlpResourceTestDictionary(Uri apiBaseUrl)
+        public Dictionary<int, NlpResource> GetNlpResourceTestDictionary()
         {
 	        var dictionary = new Dictionary<int, NlpResource>
 	        {
@@ -60,7 +62,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "vessel length overall",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-VESSEL-LENGTH-OVERALL-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-VESSEL-LENGTH-OVERALL-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -68,7 +70,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "electrical installation",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-ELECTRICAL-INSTALLATION-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-ELECTRICAL-INSTALLATION-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -76,7 +78,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "build date",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-BUILD-DATE-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-BUILD-DATE-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -84,7 +86,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "build date",
 				        Language = "en",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-BUILD-DATE-in-text-service-english-chapter")
+				        Url = new Uri("/identify-BUILD-DATE-in-text-service-english-chapter")
 			        }
 		        },
 		        {
@@ -92,7 +94,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "alternative reference",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-ALTERNATIVE-REFERENCE-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-ALTERNATIVE-REFERENCE-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -100,7 +102,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "passenger",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-PASSENGER-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-PASSENGER-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -108,7 +110,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "gross tonnage",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-GROSS-TONNAGE-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-GROSS-TONNAGE-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -116,7 +118,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "vessel",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-VESSEL-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-VESSEL-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -124,7 +126,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "flashpoint",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-FLASHPOINT-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-FLASHPOINT-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -132,7 +134,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "vessel type",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-VESSEL-TYPE-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-VESSEL-TYPE-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -140,7 +142,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "mobile unit",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-MOBILE-UNIT-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-MOBILE-UNIT-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -148,7 +150,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "cargo",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-CARGO-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-CARGO-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -156,7 +158,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "trade area",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-TRADE-AREA-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-TRADE-AREA-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -164,7 +166,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "radio area",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-RADIO-AREA-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-RADIO-AREA-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -172,7 +174,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "conversion",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-CONVERSION-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-CONVERSION-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -180,7 +182,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "protected",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-PROTECTED-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-PROTECTED-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -188,7 +190,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "load installation",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-LOAD-INSTALLATION-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-LOAD-INSTALLATION-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -196,7 +198,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "propulsion power",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-PROPULSION-POWER-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-PROPULSION-POWER-in-text-service-norwegian-chapter")
 			        }
 		        },
 		        {
@@ -204,7 +206,7 @@ namespace ServiceController.NlpService
 			        {
 				        Title = "keel laid",
 				        Language = "no",
-				        Url = new Uri(@$"{apiBaseUrl.AbsoluteUri}identify-KEEL-LAID-in-text-service-norwegian-chapter")
+				        Url = new Uri("/identify-KEEL-LAID-in-text-service-norwegian-chapter")
 			        }
 		        }
 			};
@@ -236,7 +238,6 @@ namespace ServiceController.NlpService
 				        ""regulation_month"": ""12"",
 				        ""regulation_year"": ""2016"",
 				        ""section_number"": ""7""
-
 			        }]
 				}";
 

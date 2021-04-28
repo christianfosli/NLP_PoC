@@ -46,7 +46,7 @@ namespace ServiceController.NlpService
 		{
 			var request = new HttpRequestMessage(
 				HttpMethod.Get,
-                $@"{apiBaseUrl}/nlp-rule-based-matching-options");
+                $@"{apiBaseUrl}nlp-rule-based-matching-options");
 			var client = _clientFactory.CreateClient();
 			var response = await client.SendAsync(request, HttpCompletionOption.ResponseHeadersRead);
 			if (!response.IsSuccessStatusCode) throw new Exception();

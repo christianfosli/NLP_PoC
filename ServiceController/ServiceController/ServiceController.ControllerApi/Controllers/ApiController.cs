@@ -143,8 +143,7 @@ namespace ServiceController.ControllerApi.Controllers
 			if (_nlpServiceSettings.RunAsTest)
 			{ // Just load test data
 				NlpResourceDictionary =
-					_nlpServiceHelper.GetNlpResourceTestDictionary(
-						_nlpServiceSettings.ApiBaseUrl);
+					_nlpServiceHelper.GetNlpResourceTestDictionary();
 			}
 			else // Send request to NLP Service API
 			{
@@ -154,6 +153,7 @@ namespace ServiceController.ControllerApi.Controllers
 
 				NlpResourceDictionary =
 					_nlpServiceHelper.MapNlpResources(
+						_nlpServiceSettings.ApiBaseUrl,
 						nlpResourceListFromNlpService);
 			}
 
