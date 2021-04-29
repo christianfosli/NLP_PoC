@@ -21,7 +21,7 @@ namespace ServiceController.TransformerService
 		{
 			var request = new HttpRequestMessage(
 				HttpMethod.Post,
-				$@"{apiBaseUrl}post")
+				$@"{apiBaseUrl}identifier")
 			{
 				Content = new StringContent(
 					identifiedInformationInChapterTextData.ToString(),
